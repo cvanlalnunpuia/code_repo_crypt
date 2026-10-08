@@ -26,12 +26,6 @@ python scripts/run_release_tests.py
 
 The complete integration suite is run with `python -m unittest discover -s tests` after reconstructing the production corpus indexes and acquisition-dependent artifacts. Those inputs are excluded from this archive. The release checks cover the separately specified fixture, recovery-analysis and template families.
 
-## Scope
-
-The original Enron reference discrepancy remained unresolved. Independent checks were performed on small assignment fixtures. Production-scale independent equivalence remained unvalidated. Linguistic agreement was measured on the reviewed development sample.
-
-The public archive excludes raw corpora and private review correspondence. The local review workbook path was removed. Experimental values and linguistic decisions were preserved. Source hashes for the public metadata were regenerated.
-
 ## Availability
 
 The repository is available at https://github.com/cvanlalnunpuia/code_repo_crypt. Third-party resources retain their own terms. No additional reuse licence has been assigned to the original project files. See `THIRD_PARTY.md`.
