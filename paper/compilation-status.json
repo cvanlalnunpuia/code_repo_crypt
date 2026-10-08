@@ -1,13 +1,13 @@
 {
-  "diagnostics": "Built-in preview failed before TeX with windows sandbox helper_unknown_error. Separate pdfLaTeX draft-mode checks passed for manuscript with regenerated bibliography and supplement. Final PDF layout remains unverified.",
+  "diagnostics": "Built-in preview failed before TeX with windows sandbox helper_unknown_error. Draft-mode pdfLaTeX checks passed. Final PDF layout remains unverified.",
   "paths": [
     "paper/manuscript.tex",
     "paper/supplement.tex"
   ],
   "reason": "Compiler runtime unavailable",
   "source_hashes": {
-    "paper/manuscript.tex": "3c5af87c26472949f88ba9fe88e890381089849bc7f5b84a65c8f6f586c7062c",
-    "paper/supplement.tex": "d88c6b1cc45d1ae1e2399e686f256ef3860ffe5e2842a6531c793f85917d6afb"
+    "paper/manuscript.tex": "8f2e1cd22eafce20dbc0e645bf95b62eaafc8a7d218f881909e8fc9c1778f396",
+    "paper/supplement.tex": "4b4c9a5f5967c48e57144a109073e81b7925586a72f0b2bd591581ebf4fddca4"
   },
   "state": "unverified"
 }

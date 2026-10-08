@@ -23,7 +23,7 @@ def validate():
               'no_latex_em_dash': '---' not in tex,
               'no_semicolon_in_prose': ';' not in prose,
               'no_rhetorical_question': '?' not in prose,
-              'no_explanatory_colon': ':' not in re.sub(r'\\(?:ref|cite)\{[^}]+\}', '', prose),
+              'no_explanatory_colon': ':' not in re.sub(r'\\(?:ref|cite|url)\{[^}]+\}', '', prose),
               'author_details': all(author['name'] in tex and author['email'] in tex for author in json.loads((ROOT / 'paper/submission-information.json').read_text(encoding='utf-8'))['authors']) and 'Author 1' not in tex,
               'resolved_content': '@@' not in tex and '@@' not in supplement,
               'figure_referenced': r'Figure~\ref{fig:recovery}' in tex}
