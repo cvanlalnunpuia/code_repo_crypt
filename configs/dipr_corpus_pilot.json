@@ -1,0 +1,11 @@
+{
+  "config_version": "1.0.0",
+  "source_id": "dipr_mizoram",
+  "languages": ["lus", "en"],
+  "target_pairs": 100,
+  "max_date_gap_days": 31,
+  "max_length_ratio": 2.0,
+  "tie_break_seed": 20260901,
+  "require_unique": true,
+  "require_publication_time": true
+}

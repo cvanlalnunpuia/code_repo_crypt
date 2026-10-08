@@ -1,0 +1,16 @@
+{
+  "config_version": "1.0.0",
+  "assigned_at": "2026-09-03",
+  "reviewer": {
+    "name": "C Lalrinawma",
+    "role": "author and linguistic reviewer",
+    "qualification": "native Mizo speaker and PhD researcher in natural language processing with a focus on Mizo"
+  },
+  "review_scope": [
+    "resources/stopwords/en-production.reviewed.json",
+    "resources/stopwords/lus-production.reviewed.json",
+    "resources/stemmers/en-production.reviewed.json",
+    "resources/stemmers/lus-production.reviewed.json",
+    "corpus/annotations/stemmer-production.reviewed.json"
+  ]
+}

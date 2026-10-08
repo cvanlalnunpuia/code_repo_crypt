@@ -1,0 +1,110 @@
+{
+  "config": {
+    "attack_mode": "Freq",
+    "config_version": "1.0.0",
+    "free_fraction": 0.25,
+    "iteration_checkpoints": [
+      0,
+      10
+    ],
+    "iterations": 10,
+    "manifest": "corpus/fixtures/ihop/manifest.json",
+    "seed": 0
+  },
+  "config_sha256": "8a48fbef808d6bb619eb2f972b377d99da5db9b72030142b8c92596a609bd1f4",
+  "datasets": {
+    "en:stemming": {
+      "auxiliary_document_count": 1,
+      "checkpoints": [
+        0,
+        10
+      ],
+      "client_document_count": 1,
+      "dataset_sha256": "491a4f2c743c07b4ef1cf44f4e1f9954dfff1aa9f40fa26fec546720aaedf56e",
+      "document_count": 1,
+      "keyword_count": 18,
+      "recovery": [
+        0.8333333333333334,
+        0.1111111111111111
+      ]
+    },
+    "en:stopword_removal": {
+      "auxiliary_document_count": 1,
+      "checkpoints": [
+        0,
+        10
+      ],
+      "client_document_count": 1,
+      "dataset_sha256": "d2cbdc656b85b1c3f9771a85a0b2468270add04be7c793b205b22257feb68ab6",
+      "document_count": 1,
+      "keyword_count": 19,
+      "recovery": [
+        1.0,
+        0.15789473684210525
+      ]
+    },
+    "en:tokenisation_only": {
+      "auxiliary_document_count": 1,
+      "checkpoints": [
+        0,
+        10
+      ],
+      "client_document_count": 1,
+      "dataset_sha256": "b65e3b7d78358abd9a40c4654e3130f25f328aa4da0eaac03dc3ac619a4562a7",
+      "document_count": 1,
+      "keyword_count": 23,
+      "recovery": [
+        0.17391304347826086,
+        0.043478260869565216
+      ]
+    },
+    "lus:stemming": {
+      "auxiliary_document_count": 1,
+      "checkpoints": [
+        0,
+        10
+      ],
+      "client_document_count": 1,
+      "dataset_sha256": "d8ca67ab4bc0c444f20fe3175a85070a29396607cf150603bae8b2216bf2a1a8",
+      "document_count": 1,
+      "keyword_count": 26,
+      "recovery": [
+        0.9230769230769231,
+        0.11538461538461539
+      ]
+    },
+    "lus:stopword_removal": {
+      "auxiliary_document_count": 1,
+      "checkpoints": [
+        0,
+        10
+      ],
+      "client_document_count": 1,
+      "dataset_sha256": "5dc1b4b1929f21baacb9038ece78bcf35dbdc74b990848484418a0c366419587",
+      "document_count": 1,
+      "keyword_count": 27,
+      "recovery": [
+        1.0,
+        0.07407407407407407
+      ]
+    },
+    "lus:tokenisation_only": {
+      "auxiliary_document_count": 1,
+      "checkpoints": [
+        0,
+        10
+      ],
+      "client_document_count": 1,
+      "dataset_sha256": "dc528efdacb030025a73be9278f28354662598db3df9f0835cbbb6db00e764df",
+      "document_count": 1,
+      "keyword_count": 32,
+      "recovery": [
+        1.0,
+        0.09375
+      ]
+    }
+  },
+  "manifest_sha256": "dc30cfd60e5066c2b64d404c34ecf8e84f4aef5729af4ca7e41d308d5dea71b7",
+  "status": "executed",
+  "upstream_revision": "10631a10e3ec461ad01d38fc74f7933d31062ba5"
+}

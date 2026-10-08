@@ -1,0 +1,10 @@
+{
+  "algorithm": "snowball_english",
+  "language": "en",
+  "reviewed_at": "2026-10-06",
+  "reviewed_by": "C Lalrinawma",
+  "rules": [],
+  "scope": "production",
+  "specification_version": "1.0.0",
+  "status": "approved"
+}

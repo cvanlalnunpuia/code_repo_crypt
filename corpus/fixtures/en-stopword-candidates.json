@@ -1,0 +1,60 @@
+{
+  "entries": [
+    {
+      "basis": "document frequency 1 of 1 in the en review corpus",
+      "decision": "pending",
+      "token": "and"
+    },
+    {
+      "basis": "document frequency 1 of 1 in the en review corpus",
+      "decision": "pending",
+      "token": "approved"
+    },
+    {
+      "basis": "document frequency 1 of 1 in the en review corpus",
+      "decision": "pending",
+      "token": "approves"
+    },
+    {
+      "basis": "document frequency 1 of 1 in the en review corpus",
+      "decision": "pending",
+      "token": "bank"
+    },
+    {
+      "basis": "document frequency 1 of 1 in the en review corpus",
+      "decision": "pending",
+      "token": "before"
+    },
+    {
+      "basis": "document frequency 1 of 1 in the en review corpus",
+      "decision": "pending",
+      "token": "council"
+    },
+    {
+      "basis": "document frequency 1 of 1 in the en review corpus",
+      "decision": "pending",
+      "token": "depth"
+    },
+    {
+      "basis": "document frequency 1 of 1 in the en review corpus",
+      "decision": "pending",
+      "token": "district"
+    },
+    {
+      "basis": "document frequency 1 of 1 in the en review corpus",
+      "decision": "pending",
+      "token": "engineers"
+    },
+    {
+      "basis": "document frequency 1 of 1 in the en review corpus",
+      "decision": "pending",
+      "token": "erosion"
+    }
+  ],
+  "language": "en",
+  "list_version": "0.1.0",
+  "reviewed_at": null,
+  "reviewed_by": null,
+  "scope": "production",
+  "status": "pending"
+}

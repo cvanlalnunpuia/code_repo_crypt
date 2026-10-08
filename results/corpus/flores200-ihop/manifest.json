@@ -1,0 +1,40 @@
+{
+  "config": {
+    "conditions": {
+      "tokenisation_only": "results/corpus/flores200-tokenisation-only"
+    },
+    "config_version": "1.0.0",
+    "keyword_universe_size": 500,
+    "languages": [
+      "lus",
+      "en"
+    ],
+    "output_directory": "results/corpus/flores200-ihop",
+    "require_split_support": true,
+    "selection": "results/corpus/flores200-selection.json",
+    "split": "results/corpus/flores200-split.json"
+  },
+  "config_sha256": "2f3dfa5a3c885232cacc2678d934330a8449844854f7f8b699ac24fb9a066a96",
+  "datasets": {
+    "en:tokenisation_only": {
+      "auxiliary_document_count": 187,
+      "client_document_count": 375,
+      "document_count": 562,
+      "incidence_count": 16187,
+      "keyword_count": 500,
+      "path": "en-tokenisation_only.pkl",
+      "sha256": "3733ada4edafb665f9b4d67733f70a7d1a24e19467d291280ac487a3909ad967"
+    },
+    "lus:tokenisation_only": {
+      "auxiliary_document_count": 187,
+      "client_document_count": 375,
+      "document_count": 562,
+      "incidence_count": 21399,
+      "keyword_count": 500,
+      "path": "lus-tokenisation_only.pkl",
+      "sha256": "6242bab0e340e54677c45cdd6b1c3be7c33d309db10e19cda2993b44a52b1312"
+    }
+  },
+  "export_version": "1.0.0",
+  "split_sha256": "2c5f7f77b0c09a7f84ca41950eaf38352dfaa699ea9ff233218c9fc0973565c5"
+}

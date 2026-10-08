@@ -1,0 +1,64 @@
+{
+  "artifacts": {
+    "documents_sha256": "6dd69650dd06ae273aeeb08aa5d21b2bc55ded8f92c69e2a9a167ce53a7251c8",
+    "incidence_sha256": "47781aded132de9d7f6dcf594e0656ffee84bf8fafcaa63fa6c3cb4bb8eed74e",
+    "vocabulary_sha256": "28cc260e4468808a9668d16fb2ee85e37a8f06845b223822f956a1a2fd967877"
+  },
+  "condition_config": {
+    "config_version": "1.0.0",
+    "required_scope": "synthetic_fixture",
+    "stopword_lists": {
+      "en": "resources/stopwords/en-fixture.json",
+      "lus": "resources/stopwords/lus-fixture.json"
+    },
+    "tokenisation_config": "configs/tokenisation_only.json"
+  },
+  "condition_config_sha256": "071987b7cf208be6731cd6968742eb82c898133b5f82f95fe9e3f0c5d8c144b1",
+  "input_sha256": "b2c7a2362a9df7e16620ea3e2f4c2b3ecd6132751698820cd5e39e533fb4dd9b",
+  "pipeline": "stopword_removal",
+  "pipeline_version": "1.0.0",
+  "selection_sha256": "4029a90051dd83de132f92c075713fe46d17d6fd8762f117405d8bc372e16696",
+  "stopword_reviews": {
+    "en": {
+      "excluded_token_count": 4,
+      "list_version": "1.0.0",
+      "path": "resources/stopwords/en-fixture.json",
+      "reviewed_at": "2026-09-01",
+      "reviewed_by": "automated-fixture",
+      "sha256": "85ef9623b2f3db57d75e9fd7a64d635d27c1b85baa26077edab157f53c068c77"
+    },
+    "lus": {
+      "excluded_token_count": 5,
+      "list_version": "1.0.0",
+      "path": "resources/stopwords/lus-fixture.json",
+      "reviewed_at": "2026-09-01",
+      "reviewed_by": "automated-fixture",
+      "sha256": "50196a57fe79b76c9621af88c67c18a5c3997cebce6b76ccfe0b6a0456566ecb"
+    }
+  },
+  "summary": {
+    "document_count": 2,
+    "incidence_count": 46,
+    "language_document_counts": {
+      "en": 1,
+      "lus": 1
+    },
+    "matrix_density": 0.5476190476190477,
+    "vocabulary_size": 42
+  },
+  "tokenisation_config": {
+    "casefold": true,
+    "config_version": "1.0.0",
+    "include_numeric_tokens": false,
+    "indexed_fields": [
+      "title",
+      "body"
+    ],
+    "keep_internal_apostrophe": true,
+    "keep_internal_hyphen": false,
+    "maximum_document_frequency_ratio": 1.0,
+    "minimum_document_frequency": 1,
+    "minimum_letter_count": 2,
+    "unicode_form": "NFC"
+  }
+}

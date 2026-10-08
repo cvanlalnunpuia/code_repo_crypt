@@ -1,0 +1,7 @@
+{
+  "config_version": "1.0.0",
+  "selection": "corpus/fixtures/fixture-pilot-selection.json",
+  "mode": "shared_fixture_only",
+  "auxiliary_fraction": 1.0,
+  "seed": 20260901
+}

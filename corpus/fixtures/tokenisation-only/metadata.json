@@ -1,0 +1,37 @@
+{
+  "artifacts": {
+    "documents_sha256": "b94c2948d7c564d04f9d52ca9c5c80f3560da71f69a15c19440be1711af62364",
+    "incidence_sha256": "b4c6f22e2bad686e2f84e3056d0c738756428fd6ecde9d85726d4c34357c3072",
+    "vocabulary_sha256": "64733c41cbb774b8e3198623e58cae50b7a14338ca08ebd3f890dbcef6bed267"
+  },
+  "config": {
+    "casefold": true,
+    "config_version": "1.0.0",
+    "include_numeric_tokens": false,
+    "indexed_fields": [
+      "title",
+      "body"
+    ],
+    "keep_internal_apostrophe": true,
+    "keep_internal_hyphen": false,
+    "maximum_document_frequency_ratio": 1.0,
+    "minimum_document_frequency": 1,
+    "minimum_letter_count": 2,
+    "unicode_form": "NFC"
+  },
+  "config_sha256": "e425188a9593935d1d40a33c018dd78e44cc076dd41b7d6322b52113e3757c97",
+  "input_sha256": "b2c7a2362a9df7e16620ea3e2f4c2b3ecd6132751698820cd5e39e533fb4dd9b",
+  "pipeline": "tokenisation_only",
+  "selection_sha256": "4029a90051dd83de132f92c075713fe46d17d6fd8762f117405d8bc372e16696",
+  "summary": {
+    "document_count": 2,
+    "incidence_count": 55,
+    "language_document_counts": {
+      "en": 1,
+      "lus": 1
+    },
+    "matrix_density": 0.5392156862745098,
+    "vocabulary_size": 51
+  },
+  "tokeniser_version": "1.0.0"
+}

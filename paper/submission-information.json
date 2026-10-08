@@ -1,0 +1,36 @@
+{
+  "authors": [
+    {
+      "name": "Vanlalhruaia",
+      "affiliation": "Department of Computer Engineering, Mizoram University, Aizawl, 796004",
+      "email": "mzut160@mzu.edu.in"
+    },
+    {
+      "name": "C Lalrinawma",
+      "affiliation": "Department of Information Technology, Mizoram University, Aizawl, 796004",
+      "email": "rinchawngthu777@gmail.com"
+    },
+    {
+      "name": "C Vanlalnunpuia",
+      "affiliation": "Department of Computer Engineering, Mizoram University, Aizawl, 796004",
+      "email": "mzu230006869@mzu.edu.in",
+      "corresponding": true
+    },
+    {
+      "name": "Phibansabeth Nongkseh",
+      "affiliation": "Department of Information Technology, North Eastern Hill University, Shillong, 793022",
+      "email": "phibansabeth@nehu.ac.in"
+    },
+    {
+      "name": "R Lalduhsaka",
+      "affiliation": "Department of Computer Engineering, Mizoram University, Aizawl, 796004",
+      "email": "duskeralte777@gmail.com"
+    },
+    {
+      "name": "Zaitinkhuma Thihlum",
+      "affiliation": "Department of Computer Engineering, Mizoram University, Aizawl, 796004",
+      "email": "zaiamay94@gmail.com"
+    }
+  ],
+  "corresponding_author_email": "mzu230006869@mzu.edu.in"
+}

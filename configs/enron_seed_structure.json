@@ -1,0 +1,21 @@
+{
+  "id": "enron-ihop-seed-structure-v1",
+  "baseline_configuration": "configs/ihop_enron_baseline.json",
+  "baseline_results": "results/ihop_enron_baseline",
+  "output_directory": "results/structure/enron-baseline-seeds",
+  "frequency_ambiguity_tolerances_documents": [0, 1, 5, 10],
+  "access_similarity_thresholds": [0.5, 0.9, 0.99, 1.0],
+  "cooccurrence_similarity_thresholds": [0.5, 0.9, 0.99],
+  "quantiles": [0.0, 0.25, 0.5, 0.75, 0.9, 0.95, 0.99, 1.0],
+  "analysis_scope": "exploratory",
+  "primary_features": [
+    "matrix_density",
+    "document_frequency_cv",
+    "exact_frequency_alternative_proportion",
+    "five_document_frequency_alternative_proportion",
+    "median_nearest_access_jaccard",
+    "access_pair_proportion_ge_0_5",
+    "median_cooccurrence_cosine"
+  ]
+}
+

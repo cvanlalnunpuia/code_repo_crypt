@@ -1,0 +1,10 @@
+{
+  "specification_version": "1.0.0",
+  "language": "en",
+  "scope": "synthetic_fixture",
+  "status": "approved",
+  "algorithm": "snowball_english",
+  "reviewed_by": "automated-fixture",
+  "reviewed_at": "2026-09-01",
+  "rules": []
+}

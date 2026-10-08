@@ -1,0 +1,12 @@
+{
+  "policy_version": "2.0.0",
+  "algorithm": "reviewer_clarified_repeated_suffix",
+  "exception_scope": "current_form_per_rule",
+  "guarded_suffixes": [],
+  "clarification_record": "results/corpus/linguistic-clarification.json",
+  "clarification_source_sha256": "c6d74746c95e6d6b2de19f30abc93755ac46f177a1c8b25f1f404dd98f638d78",
+  "decision_source": "C Lalrinawma's clarification dated 2026-10-07. Implementation authorised by the user.",
+  "stopping_condition": "Stop when no permitted rule applies. Every accepted rule strictly shortens the token.",
+  "letter_count": "NFC-normalised letters were counted. Combining marks did not add letters.",
+  "annotation_policy": "Expected stems were preserved. Annotation-specific overrides were not added."
+}

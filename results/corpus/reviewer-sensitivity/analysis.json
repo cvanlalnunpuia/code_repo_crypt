@@ -1,0 +1,1066 @@
+{
+  "checkpoint_sha256": "37ebf9375971ae99cdc02c4934876e2c540cb242db78dc0a54327a683ce83696",
+  "config": {
+    "attack_seeds": [
+      0,
+      1,
+      2
+    ],
+    "controlled_keywords": 250,
+    "free_fraction": 0.25,
+    "iterations": 1000,
+    "near_duplicate_jaccard": 0.8,
+    "partition_seeds": [
+      20261007,
+      20261008,
+      20261009
+    ],
+    "production_keywords": 500,
+    "purpose": "Post-review descriptive sensitivity. Original confirmatory comparisons were preserved.",
+    "query_count_per_keyword": 10,
+    "version": "1.0.0",
+    "workers": 2
+  },
+  "inference": "Post-review descriptive analyses. No additional confirmatory probability claims.",
+  "manifest_sha256": "ba6144543d09eb97a02fab94f99f8bf44d2389d34faaa7aed754218cdea10bd7",
+  "run_count": 222,
+  "status": "passed",
+  "summaries": [
+    {
+      "condition": "stemming",
+      "distribution": "uniform_iid",
+      "family": "partition",
+      "language": "en",
+      "macro": 0.09066666666666667,
+      "partition": 20261007,
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "weighted": 0.09399999999999999
+    },
+    {
+      "condition": "stemming",
+      "distribution": "zipf_iid",
+      "family": "partition",
+      "language": "en",
+      "macro": 0.11604863446491213,
+      "partition": 20261007,
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "weighted": 0.5875333333333334
+    },
+    {
+      "condition": "stopword_removal",
+      "distribution": "uniform_iid",
+      "family": "partition",
+      "language": "en",
+      "macro": 0.05400000000000001,
+      "partition": 20261007,
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "weighted": 0.05406666666666666
+    },
+    {
+      "condition": "stopword_removal",
+      "distribution": "zipf_iid",
+      "family": "partition",
+      "language": "en",
+      "macro": 0.061238852917064025,
+      "partition": 20261007,
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "weighted": 0.46679999999999994
+    },
+    {
+      "condition": "tokenisation_only",
+      "distribution": "uniform_iid",
+      "family": "partition",
+      "language": "en",
+      "macro": 0.09733333333333333,
+      "partition": 20261007,
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "weighted": 0.1012
+    },
+    {
+      "condition": "tokenisation_only",
+      "distribution": "zipf_iid",
+      "family": "partition",
+      "language": "en",
+      "macro": 0.10057423859637382,
+      "partition": 20261007,
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "weighted": 0.5773333333333333
+    },
+    {
+      "condition": "stemming",
+      "distribution": "uniform_iid",
+      "family": "partition",
+      "language": "lus",
+      "macro": 0.07666666666666667,
+      "partition": 20261007,
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "weighted": 0.07766666666666666
+    },
+    {
+      "condition": "stemming",
+      "distribution": "zipf_iid",
+      "family": "partition",
+      "language": "lus",
+      "macro": 0.07508707133575376,
+      "partition": 20261007,
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "weighted": 0.5540666666666666
+    },
+    {
+      "condition": "stopword_removal",
+      "distribution": "uniform_iid",
+      "family": "partition",
+      "language": "lus",
+      "macro": 0.05333333333333334,
+      "partition": 20261007,
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "weighted": 0.05513333333333333
+    },
+    {
+      "condition": "stopword_removal",
+      "distribution": "zipf_iid",
+      "family": "partition",
+      "language": "lus",
+      "macro": 0.06912702794648284,
+      "partition": 20261007,
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "weighted": 0.5478
+    },
+    {
+      "condition": "tokenisation_only",
+      "distribution": "uniform_iid",
+      "family": "partition",
+      "language": "lus",
+      "macro": 0.12866666666666668,
+      "partition": 20261007,
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "weighted": 0.13133333333333333
+    },
+    {
+      "condition": "tokenisation_only",
+      "distribution": "zipf_iid",
+      "family": "partition",
+      "language": "lus",
+      "macro": 0.1653991617728254,
+      "partition": 20261007,
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "weighted": 0.6614666666666666
+    },
+    {
+      "condition": "stemming",
+      "distribution": "uniform_iid",
+      "family": "partition",
+      "language": "en",
+      "macro": 0.08800000000000001,
+      "partition": 20261008,
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "weighted": 0.08979999999999999
+    },
+    {
+      "condition": "stemming",
+      "distribution": "zipf_iid",
+      "family": "partition",
+      "language": "en",
+      "macro": 0.10272823983447384,
+      "partition": 20261008,
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "weighted": 0.5746
+    },
+    {
+      "condition": "stopword_removal",
+      "distribution": "uniform_iid",
+      "family": "partition",
+      "language": "en",
+      "macro": 0.07266666666666667,
+      "partition": 20261008,
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "weighted": 0.07466666666666667
+    },
+    {
+      "condition": "stopword_removal",
+      "distribution": "zipf_iid",
+      "family": "partition",
+      "language": "en",
+      "macro": 0.07503296023021967,
+      "partition": 20261008,
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "weighted": 0.49879999999999997
+    },
+    {
+      "condition": "tokenisation_only",
+      "distribution": "uniform_iid",
+      "family": "partition",
+      "language": "en",
+      "macro": 0.17266666666666666,
+      "partition": 20261008,
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "weighted": 0.17453333333333335
+    },
+    {
+      "condition": "tokenisation_only",
+      "distribution": "zipf_iid",
+      "family": "partition",
+      "language": "en",
+      "macro": 0.21856514246515754,
+      "partition": 20261008,
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "weighted": 0.6339333333333333
+    },
+    {
+      "condition": "stemming",
+      "distribution": "uniform_iid",
+      "family": "partition",
+      "language": "lus",
+      "macro": 0.06,
+      "partition": 20261008,
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "weighted": 0.06066666666666667
+    },
+    {
+      "condition": "stemming",
+      "distribution": "zipf_iid",
+      "family": "partition",
+      "language": "lus",
+      "macro": 0.07143747873758415,
+      "partition": 20261008,
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "weighted": 0.5330666666666667
+    },
+    {
+      "condition": "stopword_removal",
+      "distribution": "uniform_iid",
+      "family": "partition",
+      "language": "lus",
+      "macro": 0.06466666666666666,
+      "partition": 20261008,
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "weighted": 0.06686666666666667
+    },
+    {
+      "condition": "stopword_removal",
+      "distribution": "zipf_iid",
+      "family": "partition",
+      "language": "lus",
+      "macro": 0.06055339445755046,
+      "partition": 20261008,
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "weighted": 0.5003333333333333
+    },
+    {
+      "condition": "tokenisation_only",
+      "distribution": "uniform_iid",
+      "family": "partition",
+      "language": "lus",
+      "macro": 0.14666666666666667,
+      "partition": 20261008,
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "weighted": 0.14293333333333333
+    },
+    {
+      "condition": "tokenisation_only",
+      "distribution": "zipf_iid",
+      "family": "partition",
+      "language": "lus",
+      "macro": 0.1406550915469,
+      "partition": 20261008,
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "weighted": 0.49366666666666664
+    },
+    {
+      "condition": "stemming",
+      "distribution": "uniform_iid",
+      "family": "partition",
+      "language": "en",
+      "macro": 0.06733333333333334,
+      "partition": 20261009,
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "weighted": 0.0684
+    },
+    {
+      "condition": "stemming",
+      "distribution": "zipf_iid",
+      "family": "partition",
+      "language": "en",
+      "macro": 0.05830999347487828,
+      "partition": 20261009,
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "weighted": 0.4521333333333333
+    },
+    {
+      "condition": "stopword_removal",
+      "distribution": "uniform_iid",
+      "family": "partition",
+      "language": "en",
+      "macro": 0.054,
+      "partition": 20261009,
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "weighted": 0.0504
+    },
+    {
+      "condition": "stopword_removal",
+      "distribution": "zipf_iid",
+      "family": "partition",
+      "language": "en",
+      "macro": 0.05694378914375903,
+      "partition": 20261009,
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "weighted": 0.49379999999999996
+    },
+    {
+      "condition": "tokenisation_only",
+      "distribution": "uniform_iid",
+      "family": "partition",
+      "language": "en",
+      "macro": 0.132,
+      "partition": 20261009,
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "weighted": 0.13286666666666666
+    },
+    {
+      "condition": "tokenisation_only",
+      "distribution": "zipf_iid",
+      "family": "partition",
+      "language": "en",
+      "macro": 0.14942399069751877,
+      "partition": 20261009,
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "weighted": 0.6250666666666667
+    },
+    {
+      "condition": "stemming",
+      "distribution": "uniform_iid",
+      "family": "partition",
+      "language": "lus",
+      "macro": 0.06,
+      "partition": 20261009,
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "weighted": 0.057466666666666666
+    },
+    {
+      "condition": "stemming",
+      "distribution": "zipf_iid",
+      "family": "partition",
+      "language": "lus",
+      "macro": 0.061980764833497855,
+      "partition": 20261009,
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "weighted": 0.40126666666666666
+    },
+    {
+      "condition": "stopword_removal",
+      "distribution": "uniform_iid",
+      "family": "partition",
+      "language": "lus",
+      "macro": 0.04666666666666666,
+      "partition": 20261009,
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "weighted": 0.04580000000000001
+    },
+    {
+      "condition": "stopword_removal",
+      "distribution": "zipf_iid",
+      "family": "partition",
+      "language": "lus",
+      "macro": 0.0480713664274122,
+      "partition": 20261009,
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "weighted": 0.44
+    },
+    {
+      "condition": "tokenisation_only",
+      "distribution": "uniform_iid",
+      "family": "partition",
+      "language": "lus",
+      "macro": 0.10866666666666668,
+      "partition": 20261009,
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "weighted": 0.10726666666666666
+    },
+    {
+      "condition": "tokenisation_only",
+      "distribution": "zipf_iid",
+      "family": "partition",
+      "language": "lus",
+      "macro": 0.1289043930242545,
+      "partition": 20261009,
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "weighted": 0.46986666666666665
+    },
+    {
+      "condition": "stemming",
+      "distribution": "uniform_iid",
+      "family": "controlled",
+      "language": "en",
+      "macro": 0.15066666666666664,
+      "partition": 20260901,
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "weighted": 0.1468
+    },
+    {
+      "condition": "stemming",
+      "distribution": "zipf_iid",
+      "family": "controlled",
+      "language": "en",
+      "macro": 0.11900492264416314,
+      "partition": 20260901,
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "weighted": 0.5232000000000001
+    },
+    {
+      "condition": "stopword_removal",
+      "distribution": "uniform_iid",
+      "family": "controlled",
+      "language": "en",
+      "macro": 0.136,
+      "partition": 20260901,
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "weighted": 0.13506666666666667
+    },
+    {
+      "condition": "stopword_removal",
+      "distribution": "zipf_iid",
+      "family": "controlled",
+      "language": "en",
+      "macro": 0.08959212376933896,
+      "partition": 20260901,
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "weighted": 0.46080000000000004
+    },
+    {
+      "condition": "stemming",
+      "distribution": "uniform_iid",
+      "family": "controlled",
+      "language": "lus",
+      "macro": 0.156,
+      "partition": 20260901,
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "weighted": 0.16186666666666666
+    },
+    {
+      "condition": "stemming",
+      "distribution": "zipf_iid",
+      "family": "controlled",
+      "language": "lus",
+      "macro": 0.13584739803094234,
+      "partition": 20260901,
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "weighted": 0.5777333333333333
+    },
+    {
+      "condition": "stopword_removal",
+      "distribution": "uniform_iid",
+      "family": "controlled",
+      "language": "lus",
+      "macro": 0.15333333333333332,
+      "partition": 20260901,
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "weighted": 0.16040000000000001
+    },
+    {
+      "condition": "stopword_removal",
+      "distribution": "zipf_iid",
+      "family": "controlled",
+      "language": "lus",
+      "macro": 0.1569268635724332,
+      "partition": 20260901,
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "weighted": 0.6324
+    },
+    {
+      "condition": "stemming",
+      "distribution": "zipf_iid",
+      "family": "shuffled",
+      "language": "en",
+      "macro": 0.04155879301979287,
+      "partition": 20260901,
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "weighted": 0.02093333333333333
+    },
+    {
+      "condition": "stopword_removal",
+      "distribution": "zipf_iid",
+      "family": "shuffled",
+      "language": "en",
+      "macro": 0.03492977128611822,
+      "partition": 20260901,
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "weighted": 0.0164
+    },
+    {
+      "condition": "tokenisation_only",
+      "distribution": "zipf_iid",
+      "family": "shuffled",
+      "language": "en",
+      "macro": 0.08366894488224108,
+      "partition": 20260901,
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "weighted": 0.045000000000000005
+    },
+    {
+      "condition": "stemming",
+      "distribution": "zipf_iid",
+      "family": "shuffled",
+      "language": "lus",
+      "macro": 0.06409006619931179,
+      "partition": 20260901,
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "weighted": 0.07279999999999999
+    },
+    {
+      "condition": "stopword_removal",
+      "distribution": "zipf_iid",
+      "family": "shuffled",
+      "language": "lus",
+      "macro": 0.05185153117279303,
+      "partition": 20260901,
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "weighted": 0.038066666666666665
+    },
+    {
+      "condition": "tokenisation_only",
+      "distribution": "zipf_iid",
+      "family": "shuffled",
+      "language": "lus",
+      "macro": 0.07869313523733039,
+      "partition": 20260901,
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "weighted": 0.0802
+    },
+    {
+      "condition": "flores200",
+      "distribution": "uniform_iid",
+      "family": "balanced",
+      "language": "en",
+      "macro": 0.013333333333333334,
+      "partition": 20261007,
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "weighted": 0.0134
+    },
+    {
+      "condition": "flores200",
+      "distribution": "zipf_iid",
+      "family": "balanced",
+      "language": "en",
+      "macro": 0.020461959098083175,
+      "partition": 20261007,
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "weighted": 0.26306666666666667
+    },
+    {
+      "condition": "wmt23",
+      "distribution": "uniform_iid",
+      "family": "balanced",
+      "language": "en",
+      "macro": 0.018000000000000002,
+      "partition": 20261007,
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "weighted": 0.017733333333333334
+    },
+    {
+      "condition": "wmt23",
+      "distribution": "zipf_iid",
+      "family": "balanced",
+      "language": "en",
+      "macro": 0.020429026752999044,
+      "partition": 20261007,
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "weighted": 0.19073333333333334
+    },
+    {
+      "condition": "flores200",
+      "distribution": "uniform_iid",
+      "family": "balanced",
+      "language": "lus",
+      "macro": 0.018666666666666665,
+      "partition": 20261007,
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "weighted": 0.018266666666666667
+    },
+    {
+      "condition": "flores200",
+      "distribution": "zipf_iid",
+      "family": "balanced",
+      "language": "lus",
+      "macro": 0.01758839587969237,
+      "partition": 20261007,
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "weighted": 0.20393333333333333
+    },
+    {
+      "condition": "wmt23",
+      "distribution": "uniform_iid",
+      "family": "balanced",
+      "language": "lus",
+      "macro": 0.021333333333333333,
+      "partition": 20261007,
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "weighted": 0.0176
+    },
+    {
+      "condition": "wmt23",
+      "distribution": "zipf_iid",
+      "family": "balanced",
+      "language": "lus",
+      "macro": 0.018258559342356966,
+      "partition": 20261007,
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "weighted": 0.24313333333333334
+    },
+    {
+      "condition": "flores200",
+      "distribution": "uniform_iid",
+      "family": "balanced",
+      "language": "en",
+      "macro": 0.012000000000000002,
+      "partition": 20261008,
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "weighted": 0.0116
+    },
+    {
+      "condition": "flores200",
+      "distribution": "zipf_iid",
+      "family": "balanced",
+      "language": "en",
+      "macro": 0.014590144277691333,
+      "partition": 20261008,
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "weighted": 0.26326666666666665
+    },
+    {
+      "condition": "wmt23",
+      "distribution": "uniform_iid",
+      "family": "balanced",
+      "language": "en",
+      "macro": 0.017333333333333336,
+      "partition": 20261008,
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "weighted": 0.016933333333333335
+    },
+    {
+      "condition": "wmt23",
+      "distribution": "zipf_iid",
+      "family": "balanced",
+      "language": "en",
+      "macro": 0.01746018002643511,
+      "partition": 20261008,
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "weighted": 0.1378
+    },
+    {
+      "condition": "flores200",
+      "distribution": "uniform_iid",
+      "family": "balanced",
+      "language": "lus",
+      "macro": 0.017333333333333336,
+      "partition": 20261008,
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "weighted": 0.017866666666666666
+    },
+    {
+      "condition": "flores200",
+      "distribution": "zipf_iid",
+      "family": "balanced",
+      "language": "lus",
+      "macro": 0.02413625792634978,
+      "partition": 20261008,
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "weighted": 0.2763333333333333
+    },
+    {
+      "condition": "wmt23",
+      "distribution": "uniform_iid",
+      "family": "balanced",
+      "language": "lus",
+      "macro": 0.012000000000000002,
+      "partition": 20261008,
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "weighted": 0.012266666666666667
+    },
+    {
+      "condition": "wmt23",
+      "distribution": "zipf_iid",
+      "family": "balanced",
+      "language": "lus",
+      "macro": 0.016030453356533764,
+      "partition": 20261008,
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "weighted": 0.1108
+    },
+    {
+      "condition": "flores200",
+      "distribution": "uniform_iid",
+      "family": "balanced",
+      "language": "en",
+      "macro": 0.01,
+      "partition": 20261009,
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "weighted": 0.010933333333333331
+    },
+    {
+      "condition": "flores200",
+      "distribution": "zipf_iid",
+      "family": "balanced",
+      "language": "en",
+      "macro": 0.011621297551127396,
+      "partition": 20261009,
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "weighted": 0.135
+    },
+    {
+      "condition": "wmt23",
+      "distribution": "uniform_iid",
+      "family": "balanced",
+      "language": "en",
+      "macro": 0.017333333333333333,
+      "partition": 20261009,
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "weighted": 0.01733333333333333
+    },
+    {
+      "condition": "wmt23",
+      "distribution": "zipf_iid",
+      "family": "balanced",
+      "language": "en",
+      "macro": 0.010960545321710808,
+      "partition": 20261009,
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "weighted": 0.17479999999999998
+    },
+    {
+      "condition": "flores200",
+      "distribution": "uniform_iid",
+      "family": "balanced",
+      "language": "lus",
+      "macro": 0.02,
+      "partition": 20261009,
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "weighted": 0.019466666666666663
+    },
+    {
+      "condition": "flores200",
+      "distribution": "zipf_iid",
+      "family": "balanced",
+      "language": "lus",
+      "macro": 0.019650641079266284,
+      "partition": 20261009,
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "weighted": 0.25286666666666663
+    },
+    {
+      "condition": "wmt23",
+      "distribution": "uniform_iid",
+      "family": "balanced",
+      "language": "lus",
+      "macro": 0.016666666666666666,
+      "partition": 20261009,
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "weighted": 0.017333333333333333
+    },
+    {
+      "condition": "wmt23",
+      "distribution": "zipf_iid",
+      "family": "balanced",
+      "language": "lus",
+      "macro": 0.02692277769412237,
+      "partition": 20261009,
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "weighted": 0.28073333333333333
+    }
+  ]
+}

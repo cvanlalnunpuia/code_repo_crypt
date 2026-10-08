@@ -1,0 +1,29 @@
+{
+  "id": "enron-ihop-sparsity-sweep-v1",
+  "scope": "static_sse",
+  "keyword_count": 250,
+  "retention_rates": [1.0, 0.75, 0.5, 0.25],
+  "seeds": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
+  "selected_documents": 30000,
+  "client_documents_after_split": 20000,
+  "auxiliary_split": "splitn10000",
+  "keyword_selection": "random",
+  "query_mode": "each",
+  "frequency_source": "none",
+  "attack": {
+    "name": "ihop",
+    "mode": "Vol",
+    "free_fraction": 0.25,
+    "iteration_checkpoints": [0, 10, 100, 1000]
+  },
+  "defence": "none",
+  "thinning_rule": "nested_deterministic_prefix_within_each_column",
+  "minimum_column_frequency": 1,
+  "frequency_order_constraint": "preserve_weak_order",
+  "confidence_level": 0.95,
+  "python_hash_seed": 0,
+  "reuse_full_retention_control": true,
+  "control_results": "results/keyword-size-sweep/keywords-250",
+  "structure_configuration": "configs/enron_seed_structure.json",
+  "output_directory": "results/sparsity-sweep"
+}

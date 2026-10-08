@@ -1,0 +1,1161 @@
+{
+  "checkpoint": 1000,
+  "comparisons": [
+    {
+      "checkpoint": 1000,
+      "dataset_id": "en:tokenisation_only:k100",
+      "difference_95_percent_confidence_interval": [
+        0.03748531696097771,
+        0.08991468303902228
+      ],
+      "difference_sample_standard_deviation": 0.036645600008732286,
+      "differences_by_seed": [
+        0.08700000000000001,
+        0.10200000000000001,
+        0.011000000000000003,
+        0.07699999999999999,
+        0.036000000000000004,
+        0.067,
+        0.014999999999999993,
+        0.07399999999999998,
+        0.123,
+        0.045
+      ],
+      "exact_sign_flip_p": 0.001953125,
+      "flores_mean": 0.1187,
+      "holm_adjusted_p": 0.046875,
+      "keyword_count": 100,
+      "language": "en",
+      "mean_difference_flores_minus_wmt23": 0.06369999999999999,
+      "metric": "query_weighted_recovery",
+      "pair_count": 10,
+      "paired_standardised_difference": 1.7382714428149877,
+      "query_distribution": "uniform_iid",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "wmt23_mean": 0.055
+    },
+    {
+      "checkpoint": 1000,
+      "dataset_id": "en:tokenisation_only:k100",
+      "difference_95_percent_confidence_interval": [
+        0.0381807405197733,
+        0.0918192594802267
+      ],
+      "difference_sample_standard_deviation": 0.03749073959733997,
+      "differences_by_seed": [
+        0.1,
+        0.1,
+        0.019999999999999997,
+        0.08,
+        0.04000000000000001,
+        0.06,
+        0.0,
+        0.06,
+        0.12,
+        0.07
+      ],
+      "exact_sign_flip_p": 0.00390625,
+      "flores_mean": 0.122,
+      "holm_adjusted_p": 0.0703125,
+      "keyword_count": 100,
+      "language": "en",
+      "mean_difference_flores_minus_wmt23": 0.065,
+      "metric": "distinct_keyword_macro_recovery",
+      "pair_count": 10,
+      "paired_standardised_difference": 1.7337614754501098,
+      "query_distribution": "uniform_iid",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "wmt23_mean": 0.057
+    },
+    {
+      "checkpoint": 1000,
+      "dataset_id": "en:tokenisation_only:k100",
+      "difference_95_percent_confidence_interval": [
+        0.2037758354487888,
+        0.3536241645512112
+      ],
+      "difference_sample_standard_deviation": 0.10473675996940561,
+      "differences_by_seed": [
+        0.157,
+        0.23300000000000004,
+        0.369,
+        0.139,
+        0.17900000000000002,
+        0.31,
+        0.344,
+        0.44999999999999996,
+        0.368,
+        0.238
+      ],
+      "exact_sign_flip_p": 0.001953125,
+      "flores_mean": 0.3983,
+      "holm_adjusted_p": 0.046875,
+      "keyword_count": 100,
+      "language": "en",
+      "mean_difference_flores_minus_wmt23": 0.2787,
+      "metric": "query_weighted_recovery",
+      "pair_count": 10,
+      "paired_standardised_difference": 2.660956860622864,
+      "query_distribution": "zipf_iid",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "wmt23_mean": 0.1196
+    },
+    {
+      "checkpoint": 1000,
+      "dataset_id": "en:tokenisation_only:k100",
+      "difference_95_percent_confidence_interval": [
+        0.020173850481339507,
+        0.06182589431194542
+      ],
+      "difference_sample_standard_deviation": 0.029112771180381546,
+      "differences_by_seed": [
+        0.0,
+        0.04210526315789473,
+        0.06249999999999999,
+        0.0,
+        0.0425531914893617,
+        0.04210526315789474,
+        0.06122448979591837,
+        0.0625,
+        0.08602150537634409,
+        0.010989010989010985
+      ],
+      "exact_sign_flip_p": 0.0078125,
+      "flores_mean": 0.09142454424590896,
+      "holm_adjusted_p": 0.1015625,
+      "keyword_count": 100,
+      "language": "en",
+      "mean_difference_flores_minus_wmt23": 0.04099987239664246,
+      "metric": "distinct_keyword_macro_recovery",
+      "pair_count": 10,
+      "paired_standardised_difference": 1.4083122538424433,
+      "query_distribution": "zipf_iid",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "wmt23_mean": 0.050424671849266495
+    },
+    {
+      "checkpoint": 1000,
+      "dataset_id": "lus:tokenisation_only:k100",
+      "difference_95_percent_confidence_interval": [
+        0.01980854334212811,
+        0.06379145665787189
+      ],
+      "difference_sample_standard_deviation": 0.03074193661216981,
+      "differences_by_seed": [
+        0.031,
+        0.061,
+        0.057,
+        0.019000000000000003,
+        0.016,
+        0.053000000000000005,
+        0.018000000000000002,
+        0.05900000000000001,
+        0.104,
+        0.0
+      ],
+      "exact_sign_flip_p": 0.00390625,
+      "flores_mean": 0.1069,
+      "holm_adjusted_p": 0.0703125,
+      "keyword_count": 100,
+      "language": "lus",
+      "mean_difference_flores_minus_wmt23": 0.041800000000000004,
+      "metric": "query_weighted_recovery",
+      "pair_count": 10,
+      "paired_standardised_difference": 1.3597061410715627,
+      "query_distribution": "uniform_iid",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "wmt23_mean": 0.0651
+    },
+    {
+      "checkpoint": 1000,
+      "dataset_id": "lus:tokenisation_only:k100",
+      "difference_95_percent_confidence_interval": [
+        0.017822933258216964,
+        0.05817706674178305
+      ],
+      "difference_sample_standard_deviation": 0.028205594401741575,
+      "differences_by_seed": [
+        0.020000000000000004,
+        0.07,
+        0.060000000000000005,
+        0.020000000000000004,
+        0.0,
+        0.05,
+        0.03,
+        0.05,
+        0.08,
+        0.0
+      ],
+      "exact_sign_flip_p": 0.0078125,
+      "flores_mean": 0.10600000000000001,
+      "holm_adjusted_p": 0.1015625,
+      "keyword_count": 100,
+      "language": "lus",
+      "mean_difference_flores_minus_wmt23": 0.038000000000000006,
+      "metric": "distinct_keyword_macro_recovery",
+      "pair_count": 10,
+      "paired_standardised_difference": 1.3472504588541367,
+      "query_distribution": "uniform_iid",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "wmt23_mean": 0.068
+    },
+    {
+      "checkpoint": 1000,
+      "dataset_id": "lus:tokenisation_only:k100",
+      "difference_95_percent_confidence_interval": [
+        -0.021457895013770725,
+        0.18745789501377075
+      ],
+      "difference_sample_standard_deviation": 0.14602206834737155,
+      "differences_by_seed": [
+        0.041000000000000036,
+        0.15999999999999998,
+        0.06,
+        -0.046999999999999986,
+        -0.03300000000000003,
+        -0.028000000000000025,
+        0.006000000000000005,
+        0.16800000000000004,
+        0.44000000000000006,
+        0.063
+      ],
+      "exact_sign_flip_p": 0.080078125,
+      "flores_mean": 0.4313,
+      "holm_adjusted_p": 0.33984375,
+      "keyword_count": 100,
+      "language": "lus",
+      "mean_difference_flores_minus_wmt23": 0.083,
+      "metric": "query_weighted_recovery",
+      "pair_count": 10,
+      "paired_standardised_difference": 0.5684072341897767,
+      "query_distribution": "zipf_iid",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "wmt23_mean": 0.3483
+    },
+    {
+      "checkpoint": 1000,
+      "dataset_id": "lus:tokenisation_only:k100",
+      "difference_95_percent_confidence_interval": [
+        0.013693885511775996,
+        0.04767618985255706
+      ],
+      "difference_sample_standard_deviation": 0.023751992926894366,
+      "differences_by_seed": [
+        0.03061224489795919,
+        0.08421052631578947,
+        0.03125,
+        0.02105263157894738,
+        0.031914893617021274,
+        0.01052631578947369,
+        0.0,
+        0.02083333333333333,
+        0.02150537634408603,
+        0.054945054945054944
+      ],
+      "exact_sign_flip_p": 0.00390625,
+      "flores_mean": 0.1042769439059194,
+      "holm_adjusted_p": 0.0703125,
+      "keyword_count": 100,
+      "language": "lus",
+      "mean_difference_flores_minus_wmt23": 0.03068503768216653,
+      "metric": "distinct_keyword_macro_recovery",
+      "pair_count": 10,
+      "paired_standardised_difference": 1.2918931803580103,
+      "query_distribution": "zipf_iid",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "wmt23_mean": 0.07359190622375286
+    },
+    {
+      "checkpoint": 1000,
+      "dataset_id": "en:tokenisation_only:k250",
+      "difference_95_percent_confidence_interval": [
+        0.009028415863005474,
+        0.03225158413699453
+      ],
+      "difference_sample_standard_deviation": 0.016231875362316513,
+      "differences_by_seed": [
+        0.0292,
+        0.019600000000000003,
+        0.05800000000000001,
+        0.003599999999999999,
+        0.0208,
+        0.030799999999999998,
+        0.014400000000000003,
+        0.015600000000000003,
+        0.013600000000000001,
+        0.0007999999999999986
+      ],
+      "exact_sign_flip_p": 0.001953125,
+      "flores_mean": 0.052520000000000004,
+      "holm_adjusted_p": 0.046875,
+      "keyword_count": 250,
+      "language": "en",
+      "mean_difference_flores_minus_wmt23": 0.020640000000000002,
+      "metric": "query_weighted_recovery",
+      "pair_count": 10,
+      "paired_standardised_difference": 1.2715721097709556,
+      "query_distribution": "uniform_iid",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "wmt23_mean": 0.03188
+    },
+    {
+      "checkpoint": 1000,
+      "dataset_id": "en:tokenisation_only:k250",
+      "difference_95_percent_confidence_interval": [
+        0.007612101313896665,
+        0.03078789868610333
+      ],
+      "difference_sample_standard_deviation": 0.016198765385053267,
+      "differences_by_seed": [
+        0.032,
+        0.024,
+        0.047999999999999994,
+        0.0,
+        0.015999999999999997,
+        0.032,
+        0.019999999999999997,
+        0.015999999999999997,
+        0.012000000000000004,
+        -0.008
+      ],
+      "exact_sign_flip_p": 0.0078125,
+      "flores_mean": 0.049999999999999996,
+      "holm_adjusted_p": 0.1015625,
+      "keyword_count": 250,
+      "language": "en",
+      "mean_difference_flores_minus_wmt23": 0.0192,
+      "metric": "distinct_keyword_macro_recovery",
+      "pair_count": 10,
+      "paired_standardised_difference": 1.1852755159795076,
+      "query_distribution": "uniform_iid",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "wmt23_mean": 0.0308
+    },
+    {
+      "checkpoint": 1000,
+      "dataset_id": "en:tokenisation_only:k250",
+      "difference_95_percent_confidence_interval": [
+        0.2127615087304102,
+        0.29827849126958983
+      ],
+      "difference_sample_standard_deviation": 0.05977224922803037,
+      "differences_by_seed": [
+        0.31,
+        0.1632,
+        0.21759999999999996,
+        0.2208,
+        0.24680000000000002,
+        0.24720000000000003,
+        0.224,
+        0.3084,
+        0.3736,
+        0.24359999999999998
+      ],
+      "exact_sign_flip_p": 0.001953125,
+      "flores_mean": 0.36584,
+      "holm_adjusted_p": 0.046875,
+      "keyword_count": 250,
+      "language": "en",
+      "mean_difference_flores_minus_wmt23": 0.25552,
+      "metric": "query_weighted_recovery",
+      "pair_count": 10,
+      "paired_standardised_difference": 4.274893504930598,
+      "query_distribution": "zipf_iid",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "wmt23_mean": 0.11032
+    },
+    {
+      "checkpoint": 1000,
+      "dataset_id": "en:tokenisation_only:k250",
+      "difference_95_percent_confidence_interval": [
+        0.01881450412862785,
+        0.037220808975566094
+      ],
+      "difference_sample_standard_deviation": 0.012865119979815067,
+      "differences_by_seed": [
+        0.04166666666666667,
+        0.008438818565400845,
+        0.03375527426160338,
+        0.021276595744680847,
+        0.029411764705882353,
+        0.029411764705882353,
+        0.004273504273504272,
+        0.03879310344827586,
+        0.03896103896103897,
+        0.034188034188034185
+      ],
+      "exact_sign_flip_p": 0.001953125,
+      "flores_mean": 0.056472200878803766,
+      "holm_adjusted_p": 0.046875,
+      "keyword_count": 250,
+      "language": "en",
+      "mean_difference_flores_minus_wmt23": 0.028017656552096974,
+      "metric": "distinct_keyword_macro_recovery",
+      "pair_count": 10,
+      "paired_standardised_difference": 2.1777998647549124,
+      "query_distribution": "zipf_iid",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "wmt23_mean": 0.028454544326706795
+    },
+    {
+      "checkpoint": 1000,
+      "dataset_id": "lus:tokenisation_only:k250",
+      "difference_95_percent_confidence_interval": [
+        0.011272574035304222,
+        0.02856742596469578
+      ],
+      "difference_sample_standard_deviation": 0.01208826795790953,
+      "differences_by_seed": [
+        0.007199999999999998,
+        0.020399999999999995,
+        0.029999999999999995,
+        0.013600000000000001,
+        0.0,
+        0.04,
+        0.0296,
+        0.018400000000000003,
+        0.027599999999999996,
+        0.012400000000000001
+      ],
+      "exact_sign_flip_p": 0.00390625,
+      "flores_mean": 0.04888,
+      "holm_adjusted_p": 0.0703125,
+      "keyword_count": 250,
+      "language": "lus",
+      "mean_difference_flores_minus_wmt23": 0.01992,
+      "metric": "query_weighted_recovery",
+      "pair_count": 10,
+      "paired_standardised_difference": 1.6478787589222867,
+      "query_distribution": "uniform_iid",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "wmt23_mean": 0.02896
+    },
+    {
+      "checkpoint": 1000,
+      "dataset_id": "lus:tokenisation_only:k250",
+      "difference_95_percent_confidence_interval": [
+        0.009847569865023486,
+        0.026952430134976516
+      ],
+      "difference_sample_standard_deviation": 0.01195547294477861,
+      "differences_by_seed": [
+        0.016,
+        0.019999999999999997,
+        0.023999999999999997,
+        0.012000000000000004,
+        -0.0040000000000000036,
+        0.039999999999999994,
+        0.024,
+        0.015999999999999997,
+        0.028,
+        0.008
+      ],
+      "exact_sign_flip_p": 0.00390625,
+      "flores_mean": 0.0492,
+      "holm_adjusted_p": 0.0703125,
+      "keyword_count": 250,
+      "language": "lus",
+      "mean_difference_flores_minus_wmt23": 0.0184,
+      "metric": "distinct_keyword_macro_recovery",
+      "pair_count": 10,
+      "paired_standardised_difference": 1.5390440917718733,
+      "query_distribution": "uniform_iid",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "wmt23_mean": 0.0308
+    },
+    {
+      "checkpoint": 1000,
+      "dataset_id": "lus:tokenisation_only:k250",
+      "difference_95_percent_confidence_interval": [
+        -0.012231175267458774,
+        0.19383117526745874
+      ],
+      "difference_sample_standard_deviation": 0.14402765166607573,
+      "differences_by_seed": [
+        -0.0015999999999999903,
+        0.03319999999999995,
+        0.05559999999999998,
+        0.042800000000000005,
+        0.05199999999999999,
+        0.13040000000000002,
+        -0.0028000000000000247,
+        -0.08200000000000002,
+        0.2892,
+        0.3912
+      ],
+      "exact_sign_flip_p": 0.056640625,
+      "flores_mean": 0.356,
+      "holm_adjusted_p": 0.33984375,
+      "keyword_count": 250,
+      "language": "lus",
+      "mean_difference_flores_minus_wmt23": 0.09079999999999999,
+      "metric": "query_weighted_recovery",
+      "pair_count": 10,
+      "paired_standardised_difference": 0.6304344960821646,
+      "query_distribution": "zipf_iid",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "wmt23_mean": 0.2652
+    },
+    {
+      "checkpoint": 1000,
+      "dataset_id": "lus:tokenisation_only:k250",
+      "difference_95_percent_confidence_interval": [
+        0.0032106669086540487,
+        0.025608463876858768
+      ],
+      "difference_sample_standard_deviation": 0.01565498059907573,
+      "differences_by_seed": [
+        0.03333333333333334,
+        0.03375527426160338,
+        0.008438818565400845,
+        0.008510638297872339,
+        0.012605042016806726,
+        0.0,
+        -0.008547008547008544,
+        0.0,
+        0.03463203463203464,
+        0.02136752136752136
+      ],
+      "exact_sign_flip_p": 0.03125,
+      "flores_mean": 0.04711383133534295,
+      "holm_adjusted_p": 0.2734375,
+      "keyword_count": 250,
+      "language": "lus",
+      "mean_difference_flores_minus_wmt23": 0.014409565392756408,
+      "metric": "distinct_keyword_macro_recovery",
+      "pair_count": 10,
+      "paired_standardised_difference": 0.9204460715593061,
+      "query_distribution": "zipf_iid",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "wmt23_mean": 0.03270426594258654
+    },
+    {
+      "checkpoint": 1000,
+      "dataset_id": "en:tokenisation_only:k500",
+      "difference_95_percent_confidence_interval": [
+        -0.0001910618496014406,
+        0.011031061849601441
+      ],
+      "difference_sample_standard_deviation": 0.00784372360553328,
+      "differences_by_seed": [
+        0.0114,
+        0.0146,
+        0.004200000000000001,
+        0.0112,
+        -0.0118,
+        -0.0017999999999999995,
+        0.004600000000000002,
+        0.0022000000000000006,
+        0.010400000000000001,
+        0.0092
+      ],
+      "exact_sign_flip_p": 0.0625,
+      "flores_mean": 0.020900000000000002,
+      "holm_adjusted_p": 0.33984375,
+      "keyword_count": 500,
+      "language": "en",
+      "mean_difference_flores_minus_wmt23": 0.00542,
+      "metric": "query_weighted_recovery",
+      "pair_count": 10,
+      "paired_standardised_difference": 0.690998341167518,
+      "query_distribution": "uniform_iid",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "wmt23_mean": 0.015479999999999999
+    },
+    {
+      "checkpoint": 1000,
+      "dataset_id": "en:tokenisation_only:k500",
+      "difference_95_percent_confidence_interval": [
+        -5.833719167691251e-05,
+        0.010058337191676911
+      ],
+      "difference_sample_standard_deviation": 0.007071067811865475,
+      "differences_by_seed": [
+        0.008,
+        0.014,
+        0.006,
+        0.009999999999999998,
+        -0.01,
+        -0.004,
+        0.005999999999999998,
+        0.004,
+        0.009999999999999998,
+        0.006
+      ],
+      "exact_sign_flip_p": 0.068359375,
+      "flores_mean": 0.0214,
+      "holm_adjusted_p": 0.33984375,
+      "keyword_count": 500,
+      "language": "en",
+      "mean_difference_flores_minus_wmt23": 0.004999999999999999,
+      "metric": "distinct_keyword_macro_recovery",
+      "pair_count": 10,
+      "paired_standardised_difference": 0.7071067811865475,
+      "query_distribution": "uniform_iid",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "wmt23_mean": 0.0164
+    },
+    {
+      "checkpoint": 1000,
+      "dataset_id": "en:tokenisation_only:k500",
+      "difference_95_percent_confidence_interval": [
+        0.11867303388961009,
+        0.2231269661103899
+      ],
+      "difference_sample_standard_deviation": 0.07300826437237544,
+      "differences_by_seed": [
+        0.1638,
+        0.1328,
+        0.2764,
+        0.2946,
+        0.16659999999999997,
+        0.1522,
+        0.105,
+        0.22039999999999998,
+        0.1334,
+        0.0638
+      ],
+      "exact_sign_flip_p": 0.001953125,
+      "flores_mean": 0.29547999999999996,
+      "holm_adjusted_p": 0.046875,
+      "keyword_count": 500,
+      "language": "en",
+      "mean_difference_flores_minus_wmt23": 0.1709,
+      "metric": "query_weighted_recovery",
+      "pair_count": 10,
+      "paired_standardised_difference": 2.3408308835878096,
+      "query_distribution": "zipf_iid",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "wmt23_mean": 0.12458
+    },
+    {
+      "checkpoint": 1000,
+      "dataset_id": "en:tokenisation_only:k500",
+      "difference_95_percent_confidence_interval": [
+        -0.005730241290574881,
+        0.005314464747700295
+      ],
+      "difference_sample_standard_deviation": 0.007719717211346411,
+      "differences_by_seed": [
+        0.015283842794759826,
+        -0.008620689655172415,
+        0.0,
+        0.002159827213822893,
+        -0.006423982869379013,
+        0.004329004329004328,
+        0.0,
+        0.006593406593406594,
+        -0.0066666666666666645,
+        -0.008733624454148471
+      ],
+      "exact_sign_flip_p": 0.953125,
+      "flores_mean": 0.02114245541855687,
+      "holm_adjusted_p": 0.953125,
+      "keyword_count": 500,
+      "language": "en",
+      "mean_difference_flores_minus_wmt23": -0.00020788827143729225,
+      "metric": "distinct_keyword_macro_recovery",
+      "pair_count": 10,
+      "paired_standardised_difference": -0.026929519015507313,
+      "query_distribution": "zipf_iid",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "wmt23_mean": 0.021350343689994163
+    },
+    {
+      "checkpoint": 1000,
+      "dataset_id": "lus:tokenisation_only:k500",
+      "difference_95_percent_confidence_interval": [
+        0.0011007073415410839,
+        0.013419292658458915
+      ],
+      "difference_sample_standard_deviation": 0.008610097431375429,
+      "differences_by_seed": [
+        0.009599999999999997,
+        0.0176,
+        0.005600000000000001,
+        0.0053999999999999986,
+        0.007000000000000001,
+        0.0013999999999999985,
+        0.011800000000000001,
+        -0.0108,
+        0.019999999999999997,
+        0.005000000000000001
+      ],
+      "exact_sign_flip_p": 0.02734375,
+      "flores_mean": 0.02266,
+      "holm_adjusted_p": 0.2734375,
+      "keyword_count": 500,
+      "language": "lus",
+      "mean_difference_flores_minus_wmt23": 0.00726,
+      "metric": "query_weighted_recovery",
+      "pair_count": 10,
+      "paired_standardised_difference": 0.8431960332463094,
+      "query_distribution": "uniform_iid",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "wmt23_mean": 0.0154
+    },
+    {
+      "checkpoint": 1000,
+      "dataset_id": "lus:tokenisation_only:k500",
+      "difference_95_percent_confidence_interval": [
+        0.0016801715942520367,
+        0.01471982840574796
+      ],
+      "difference_sample_standard_deviation": 0.009114091653404998,
+      "differences_by_seed": [
+        0.009999999999999998,
+        0.018,
+        0.005999999999999998,
+        0.006000000000000002,
+        0.009999999999999998,
+        -0.0020000000000000018,
+        0.016,
+        -0.008,
+        0.022,
+        0.004
+      ],
+      "exact_sign_flip_p": 0.02734375,
+      "flores_mean": 0.0234,
+      "holm_adjusted_p": 0.2734375,
+      "keyword_count": 500,
+      "language": "lus",
+      "mean_difference_flores_minus_wmt23": 0.008199999999999999,
+      "metric": "distinct_keyword_macro_recovery",
+      "pair_count": 10,
+      "paired_standardised_difference": 0.8997056768610071,
+      "query_distribution": "uniform_iid",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "wmt23_mean": 0.0152
+    },
+    {
+      "checkpoint": 1000,
+      "dataset_id": "lus:tokenisation_only:k500",
+      "difference_95_percent_confidence_interval": [
+        0.01193077292786529,
+        0.1919892270721347
+      ],
+      "difference_sample_standard_deviation": 0.12585218136987358,
+      "differences_by_seed": [
+        0.1864,
+        0.01319999999999999,
+        0.013400000000000023,
+        0.2656,
+        -0.032200000000000006,
+        -0.09040000000000004,
+        0.11720000000000003,
+        0.2768,
+        0.1846,
+        0.08499999999999999
+      ],
+      "exact_sign_flip_p": 0.037109375,
+      "flores_mean": 0.2813,
+      "holm_adjusted_p": 0.2734375,
+      "keyword_count": 500,
+      "language": "lus",
+      "mean_difference_flores_minus_wmt23": 0.10196,
+      "metric": "query_weighted_recovery",
+      "pair_count": 10,
+      "paired_standardised_difference": 0.8101567957757076,
+      "query_distribution": "zipf_iid",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "wmt23_mean": 0.17934
+    },
+    {
+      "checkpoint": 1000,
+      "dataset_id": "lus:tokenisation_only:k500",
+      "difference_95_percent_confidence_interval": [
+        -0.0015513428065524549,
+        0.011172930898458062
+      ],
+      "difference_sample_standard_deviation": 0.008893654062140367,
+      "differences_by_seed": [
+        -0.008733624454148471,
+        0.008620689655172415,
+        0.015555555555555553,
+        0.019438444924406044,
+        -0.002141327623126337,
+        -0.002164502164502164,
+        0.004282655246252678,
+        0.010989010989010988,
+        0.004444444444444445,
+        -0.0021834061135371195
+      ],
+      "exact_sign_flip_p": 0.123046875,
+      "flores_mean": 0.02067656988848624,
+      "holm_adjusted_p": 0.33984375,
+      "keyword_count": 500,
+      "language": "lus",
+      "mean_difference_flores_minus_wmt23": 0.004810794045952803,
+      "metric": "distinct_keyword_macro_recovery",
+      "pair_count": 10,
+      "paired_standardised_difference": 0.5409243503670781,
+      "query_distribution": "zipf_iid",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "wmt23_mean": 0.015865775842533437
+    }
+  ],
+  "english_zipf_query_weighted_comparison": [
+    {
+      "keyword_count": 100,
+      "length_balanced_95_percent_confidence_interval": [
+        0.2037758354487888,
+        0.3536241645512112
+      ],
+      "length_balanced_difference": 0.2787,
+      "length_balanced_exact_sign_flip_p": 0.001953125,
+      "length_balanced_holm_adjusted_p": 0.046875,
+      "matched_size_difference": 0.2677,
+      "matched_size_holm_adjusted_p": 0.03125
+    },
+    {
+      "keyword_count": 250,
+      "length_balanced_95_percent_confidence_interval": [
+        0.2127615087304102,
+        0.29827849126958983
+      ],
+      "length_balanced_difference": 0.25552,
+      "length_balanced_exact_sign_flip_p": 0.001953125,
+      "length_balanced_holm_adjusted_p": 0.046875,
+      "matched_size_difference": 0.23832,
+      "matched_size_holm_adjusted_p": 0.03125
+    },
+    {
+      "keyword_count": 500,
+      "length_balanced_95_percent_confidence_interval": [
+        0.11867303388961009,
+        0.2231269661103899
+      ],
+      "length_balanced_difference": 0.1709,
+      "length_balanced_exact_sign_flip_p": 0.001953125,
+      "length_balanced_holm_adjusted_p": 0.046875,
+      "matched_size_difference": 0.18934,
+      "matched_size_holm_adjusted_p": 0.015625
+    }
+  ],
+  "holm_family_size": 24,
+  "inputs": {
+    "flores_experiment": {
+      "path": "results/corpus/flores200-length-balanced-experiments.json",
+      "sha256": "7026d083bba3061151df41ec51976d363813b79be2180a8248ba7557b40378d7"
+    },
+    "matching": {
+      "path": "results/corpus/flores200-wmt23-length-matches.json",
+      "sha256": "fd5c27cfef228095814561abaf6b93de451c8cb994f02957774c6e64b24cdda2"
+    },
+    "previous_sensitivity": {
+      "path": "results/corpus/keyword-size-sensitivity-comparison.json",
+      "sha256": "fca391f7f9c1ee2928c54f934fe144a43cf0df065f6083fc0f487cf8eec65eef"
+    },
+    "wmt23_experiment": {
+      "path": "results/corpus/wmt23-length-balanced-experiments.json",
+      "sha256": "4ae672f1a84250270e2406b11fd8c5795b63541be3bd27111e8d0fa44350a699"
+    }
+  },
+  "length_ratio_summary": {
+    "en": {
+      "maximum": 1.25,
+      "mean": 1.1527010604213048,
+      "median": 1.174757281553398,
+      "minimum": 1.0
+    },
+    "lus": {
+      "maximum": 1.2424242424242424,
+      "mean": 1.031470988293325,
+      "median": 1.0086206896551724,
+      "minimum": 1.0
+    }
+  },
+  "matched_pair_count": 253,
+  "maximum_length_ratio": 1.25,
+  "religious_markers": {
+    "flores200": {
+      "en": {
+        "any_marker_document_count": 3,
+        "any_marker_document_percentage": 1.1857707509881423,
+        "document_count": 253
+      },
+      "lus": {
+        "any_marker_document_count": 5,
+        "any_marker_document_percentage": 1.976284584980237,
+        "document_count": 253
+      }
+    },
+    "wmt23": {
+      "en": {
+        "any_marker_document_count": 171,
+        "any_marker_document_percentage": 67.58893280632411,
+        "document_count": 253
+      },
+      "lus": {
+        "any_marker_document_count": 198,
+        "any_marker_document_percentage": 78.26086956521739,
+        "document_count": 253
+      }
+    }
+  },
+  "status": "analysed"
+}

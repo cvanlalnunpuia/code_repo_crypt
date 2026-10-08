@@ -1,0 +1,16 @@
+[
+  {
+    "language": "lus",
+    "record_id": "bd420626daa0e77ce304ffefa6e4dca2b6f50e4252d960b04325a3528d01ba08",
+    "token_count": 37,
+    "token_sequence_sha256": "d62e15910990b599f84bec4d265304ea13f5f8771cbe27e606911d5d032207ab",
+    "unique_token_count": 32
+  },
+  {
+    "language": "en",
+    "record_id": "fb786e837071a41835e0f95eb2668efddef81f703d22dd08aa582202382351f7",
+    "token_count": 29,
+    "token_sequence_sha256": "93baffea22b3faac280e349724e0a02911a546937e39414ab65bd1d1d4fd7334",
+    "unique_token_count": 23
+  }
+]

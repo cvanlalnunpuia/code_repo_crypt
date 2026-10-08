@@ -1,0 +1,16 @@
+{
+  "config_version": "1.0.0",
+  "source_id": "flores200",
+  "archive_url": "https://dl.fbaipublicfiles.com/nllb/flores200_dataset.tar.gz",
+  "expected_archive_sha256": "b8b0b76783024b85797e5cc75064eb83fc5288b41e9654dabc7be6ae944011f6",
+  "output_directory": "corpus/raw/flores200",
+  "retrieved_at": "2026-09-01T00:00:00Z",
+  "splits": ["dev", "devtest"],
+  "languages": {
+    "en": "eng_Latn",
+    "lus": "lus_Latn"
+  },
+  "corpus_output": "results/corpus/flores200-records.jsonl",
+  "selection_output": "results/corpus/flores200-selection.json",
+  "provenance_output": "results/corpus/flores200-acquisition.json"
+}

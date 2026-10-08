@@ -1,0 +1,37 @@
+{
+  "id": "ihop-enron-volume-ten-seed",
+  "scope": "static_sse",
+  "dataset": {
+    "name": "enron-full",
+    "processed_path": "vendor/ihop-code/datasets_pro/enron-full.pkl",
+    "selected_documents": 30000,
+    "client_documents_after_split": 20000,
+    "auxiliary_split": "splitn10000",
+    "keyword_count": 500,
+    "keyword_selection": "random"
+  },
+  "queries": {
+    "count": 500,
+    "frequency_source": "none",
+    "mode": "each"
+  },
+  "threat_model": {
+    "adversary": "passive_server",
+    "auxiliary_data": "10000_disjoint_plaintext_documents",
+    "goal": "query_recovery",
+    "observed_leakage": ["access_pattern", "response_volume"],
+    "target": "single_keyword_queries"
+  },
+  "attack": {
+    "name": "ihop",
+    "mode": "Vol",
+    "free_fraction": 0.25,
+    "iteration_checkpoints": [0, 10, 100, 1000]
+  },
+  "defence": "none",
+  "seeds": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
+  "confidence_level": 0.95,
+  "runtime": "python3.9_2022_reconstruction",
+  "python_hash_seed": 0
+}
+

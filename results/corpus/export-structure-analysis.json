@@ -1,0 +1,815 @@
+{
+  "interpretation": "Descriptive measurements of the exact attack exports. Corpus and split remained fixed across attack seeds.",
+  "records": [
+    {
+      "auxiliary": {
+        "cooccurrence_cosine_median": 0.9321017956688569,
+        "density": 0.07762364294330519,
+        "document_count": 1658,
+        "document_keyword_count_quantiles": {
+          "0.25": 33.0,
+          "0.5": 39.0,
+          "0.75": 44.0
+        },
+        "frequency_alternative_proportion": 0.812,
+        "frequency_cv": 0.8995365210794369,
+        "frequency_gini": 0.37374607614607624,
+        "identical_access_pair_count": 0,
+        "incidence_count": 64350,
+        "keyword_count": 500,
+        "largest_frequency_group": 13,
+        "nearest_access_jaccard_median": 0.09136429153349626
+      },
+      "client": {
+        "cooccurrence_cosine_median": 0.958273008982041,
+        "density": 0.07661761158021713,
+        "document_count": 3316,
+        "document_keyword_count_quantiles": {
+          "0.25": 33.0,
+          "0.5": 38.0,
+          "0.75": 43.0
+        },
+        "frequency_alternative_proportion": 0.73,
+        "frequency_cv": 0.8934991359181024,
+        "frequency_gini": 0.37126575980855225,
+        "identical_access_pair_count": 0,
+        "incidence_count": 127032,
+        "keyword_count": 500,
+        "largest_frequency_group": 9,
+        "nearest_access_jaccard_median": 0.08702295147307934
+      },
+      "cooccurrence_probability_rmse": 0.002330385045562247,
+      "dataset_id": "en:stemming",
+      "dataset_sha256": "12954bbfac532d75a0f418cab13357b8738b2d81e38d1b4bd143f4eeac874dcc",
+      "keyword_sha256": "ce705771d855119213077e0dd4d023c216ee05800e10e6634509165cf84f0ce7",
+      "manifest": "results/corpus/ihop/manifest.json",
+      "manifest_sha256": "2501dc7032e29518983c27206a5f95c6d0286b01293ec2301becdfee1854e1fb",
+      "marginal_probability_rmse": 0.00796272423817778
+    },
+    {
+      "auxiliary": {
+        "cooccurrence_cosine_median": 0.9095632758169687,
+        "density": 0.06713027744270204,
+        "document_count": 1658,
+        "document_keyword_count_quantiles": {
+          "0.25": 29.0,
+          "0.5": 33.0,
+          "0.75": 38.0
+        },
+        "frequency_alternative_proportion": 0.834,
+        "frequency_cv": 0.9024556908789719,
+        "frequency_gini": 0.37198271369786706,
+        "identical_access_pair_count": 0,
+        "incidence_count": 55651,
+        "keyword_count": 500,
+        "largest_frequency_group": 15,
+        "nearest_access_jaccard_median": 0.08486928263083862
+      },
+      "client": {
+        "cooccurrence_cosine_median": 0.9450757168359714,
+        "density": 0.06627141133896261,
+        "document_count": 3316,
+        "document_keyword_count_quantiles": {
+          "0.25": 28.0,
+          "0.5": 33.0,
+          "0.75": 38.0
+        },
+        "frequency_alternative_proportion": 0.744,
+        "frequency_cv": 0.8900889331106264,
+        "frequency_gini": 0.3654224503540291,
+        "identical_access_pair_count": 0,
+        "incidence_count": 109878,
+        "keyword_count": 500,
+        "largest_frequency_group": 10,
+        "nearest_access_jaccard_median": 0.0803519212504854
+      },
+      "cooccurrence_probability_rmse": 0.002016768233756597,
+      "dataset_id": "en:stopword_removal",
+      "dataset_sha256": "107ca2f1dc520ae73ff0eb54daab6b254ba6a03bed630f68d061cef4074cca26",
+      "keyword_sha256": "a83d5fe4ecd2a6330dddd478bba326c223de07ff7fc4e4b81f18959b26acb480",
+      "manifest": "results/corpus/ihop/manifest.json",
+      "manifest_sha256": "2501dc7032e29518983c27206a5f95c6d0286b01293ec2301becdfee1854e1fb",
+      "marginal_probability_rmse": 0.007251043070298211
+    },
+    {
+      "auxiliary": {
+        "cooccurrence_cosine_median": 0.9807711198433707,
+        "density": 0.13878407720144753,
+        "document_count": 1658,
+        "document_keyword_count_quantiles": {
+          "0.25": 62.0,
+          "0.5": 69.0,
+          "0.75": 76.0
+        },
+        "frequency_alternative_proportion": 0.678,
+        "frequency_cv": 1.2274895684713776,
+        "frequency_gini": 0.5163334492229601,
+        "identical_access_pair_count": 0,
+        "incidence_count": 115052,
+        "keyword_count": 500,
+        "largest_frequency_group": 11,
+        "nearest_access_jaccard_median": 0.11280999440611597
+      },
+      "client": {
+        "cooccurrence_cosine_median": 0.9883211125524012,
+        "density": 0.13762907117008444,
+        "document_count": 3316,
+        "document_keyword_count_quantiles": {
+          "0.25": 62.0,
+          "0.5": 69.0,
+          "0.75": 76.0
+        },
+        "frequency_alternative_proportion": 0.58,
+        "frequency_cv": 1.229183526341835,
+        "frequency_gini": 0.5161802277936272,
+        "identical_access_pair_count": 0,
+        "incidence_count": 228189,
+        "keyword_count": 500,
+        "largest_frequency_group": 7,
+        "nearest_access_jaccard_median": 0.10572687224669604
+      },
+      "cooccurrence_probability_rmse": 0.003933684332129131,
+      "dataset_id": "en:tokenisation_only",
+      "dataset_sha256": "28b5333ac0063f47e570a72d17f101093291fb562c4967393385a407402ea735",
+      "keyword_sha256": "175853d0c2a2ef8ff089ede726cf063373dabb07abf33cc87b6a11b48e91261f",
+      "manifest": "results/corpus/ihop/manifest.json",
+      "manifest_sha256": "2501dc7032e29518983c27206a5f95c6d0286b01293ec2301becdfee1854e1fb",
+      "marginal_probability_rmse": 0.008922412543408692
+    },
+    {
+      "auxiliary": {
+        "cooccurrence_cosine_median": 0.9540179068218488,
+        "density": 0.09096743063932448,
+        "document_count": 1658,
+        "document_keyword_count_quantiles": {
+          "0.25": 39.0,
+          "0.5": 45.0,
+          "0.75": 52.0
+        },
+        "frequency_alternative_proportion": 0.802,
+        "frequency_cv": 1.001304370952448,
+        "frequency_gini": 0.3939310984989126,
+        "identical_access_pair_count": 0,
+        "incidence_count": 75412,
+        "keyword_count": 500,
+        "largest_frequency_group": 15,
+        "nearest_access_jaccard_median": 0.09947643979057591
+      },
+      "client": {
+        "cooccurrence_cosine_median": 0.9721506356048568,
+        "density": 0.09014294330518698,
+        "document_count": 3316,
+        "document_keyword_count_quantiles": {
+          "0.25": 39.0,
+          "0.5": 45.0,
+          "0.75": 51.0
+        },
+        "frequency_alternative_proportion": 0.666,
+        "frequency_cv": 1.0090056207334266,
+        "frequency_gini": 0.3971089343423191,
+        "identical_access_pair_count": 0,
+        "incidence_count": 149457,
+        "keyword_count": 500,
+        "largest_frequency_group": 8,
+        "nearest_access_jaccard_median": 0.09580414754494324
+      },
+      "cooccurrence_probability_rmse": 0.0026529902250275626,
+      "dataset_id": "lus:stemming",
+      "dataset_sha256": "5c5e50ff6f863d11597638bd625d7f5723f8e69e9915c5d0d810e6f82cfb6897",
+      "keyword_sha256": "e1583cabb6eb08aefd28c7841001ac823291dbefcd6c9b7ff2e6085a2741fc9e",
+      "manifest": "results/corpus/ihop/manifest.json",
+      "manifest_sha256": "2501dc7032e29518983c27206a5f95c6d0286b01293ec2301becdfee1854e1fb",
+      "marginal_probability_rmse": 0.007723100968227578
+    },
+    {
+      "auxiliary": {
+        "cooccurrence_cosine_median": 0.944511966567525,
+        "density": 0.0799167671893848,
+        "document_count": 1658,
+        "document_keyword_count_quantiles": {
+          "0.25": 34.0,
+          "0.5": 39.0,
+          "0.75": 45.0
+        },
+        "frequency_alternative_proportion": 0.86,
+        "frequency_cv": 1.0586443908193184,
+        "frequency_gini": 0.3910132979124843,
+        "identical_access_pair_count": 0,
+        "incidence_count": 66251,
+        "keyword_count": 500,
+        "largest_frequency_group": 12,
+        "nearest_access_jaccard_median": 0.09202453987730061
+      },
+      "client": {
+        "cooccurrence_cosine_median": 0.9667946432503087,
+        "density": 0.07932388419782871,
+        "document_count": 3316,
+        "document_keyword_count_quantiles": {
+          "0.25": 34.0,
+          "0.5": 40.0,
+          "0.75": 45.0
+        },
+        "frequency_alternative_proportion": 0.722,
+        "frequency_cv": 1.0634677510097015,
+        "frequency_gini": 0.39275452216029616,
+        "identical_access_pair_count": 0,
+        "incidence_count": 131519,
+        "keyword_count": 500,
+        "largest_frequency_group": 9,
+        "nearest_access_jaccard_median": 0.08582589285714286
+      },
+      "cooccurrence_probability_rmse": 0.002359059007380242,
+      "dataset_id": "lus:stopword_removal",
+      "dataset_sha256": "b61ec63d80a7fd6026feacc790bbf5117dccaa62ae29715f79d8ade1e056cc9c",
+      "keyword_sha256": "37ba797081595f2e0d02ea6f879bb1b9a70bb86a9875aab7d4b81ccf9b754fe7",
+      "manifest": "results/corpus/ihop/manifest.json",
+      "manifest_sha256": "2501dc7032e29518983c27206a5f95c6d0286b01293ec2301becdfee1854e1fb",
+      "marginal_probability_rmse": 0.007496756258619387
+    },
+    {
+      "auxiliary": {
+        "cooccurrence_cosine_median": 0.9823363234900039,
+        "density": 0.14450784077201448,
+        "document_count": 1658,
+        "document_keyword_count_quantiles": {
+          "0.25": 65.0,
+          "0.5": 72.0,
+          "0.75": 80.0
+        },
+        "frequency_alternative_proportion": 0.696,
+        "frequency_cv": 1.1422359485106297,
+        "frequency_gini": 0.48048510396754507,
+        "identical_access_pair_count": 0,
+        "incidence_count": 119797,
+        "keyword_count": 500,
+        "largest_frequency_group": 11,
+        "nearest_access_jaccard_median": 0.12302699832032407
+      },
+      "client": {
+        "cooccurrence_cosine_median": 0.9890158558679747,
+        "density": 0.14349336550060313,
+        "document_count": 3316,
+        "document_keyword_count_quantiles": {
+          "0.25": 64.0,
+          "0.5": 72.0,
+          "0.75": 79.0
+        },
+        "frequency_alternative_proportion": 0.542,
+        "frequency_cv": 1.1452437520050367,
+        "frequency_gini": 0.48132030330542386,
+        "identical_access_pair_count": 0,
+        "incidence_count": 237912,
+        "keyword_count": 500,
+        "largest_frequency_group": 8,
+        "nearest_access_jaccard_median": 0.11842592592592593
+      },
+      "cooccurrence_probability_rmse": 0.004016010476865252,
+      "dataset_id": "lus:tokenisation_only",
+      "dataset_sha256": "9be876af0ee83ed0e13fdda63f67ba4ba90e4dc323a596c27c9ba991b0584b0d",
+      "keyword_sha256": "eb50f73a8d5c3e015d1773912d8d9abf3630f327ff3c507fb61d1cb892f8dc86",
+      "manifest": "results/corpus/ihop/manifest.json",
+      "manifest_sha256": "2501dc7032e29518983c27206a5f95c6d0286b01293ec2301becdfee1854e1fb",
+      "marginal_probability_rmse": 0.008874715789789699
+    },
+    {
+      "auxiliary": {
+        "cooccurrence_cosine_median": 0.9040523197437386,
+        "density": 0.23833333333333334,
+        "document_count": 84,
+        "document_keyword_count_quantiles": {
+          "0.25": 20.0,
+          "0.5": 23.0,
+          "0.75": 27.25
+        },
+        "frequency_alternative_proportion": 0.82,
+        "frequency_cv": 0.8639187129350415,
+        "frequency_gini": 0.41030969030969033,
+        "identical_access_pair_count": 0,
+        "incidence_count": 2002,
+        "keyword_count": 100,
+        "largest_frequency_group": 15,
+        "nearest_access_jaccard_median": 0.2832080200501253
+      },
+      "client": {
+        "cooccurrence_cosine_median": 0.9375808522911545,
+        "density": 0.22579881656804734,
+        "document_count": 169,
+        "document_keyword_count_quantiles": {
+          "0.25": 18.0,
+          "0.5": 22.0,
+          "0.75": 27.0
+        },
+        "frequency_alternative_proportion": 0.72,
+        "frequency_cv": 0.8997191861205341,
+        "frequency_gini": 0.41316037735849065,
+        "identical_access_pair_count": 0,
+        "incidence_count": 3816,
+        "keyword_count": 100,
+        "largest_frequency_group": 10,
+        "nearest_access_jaccard_median": 0.23771730914588057
+      },
+      "cooccurrence_probability_rmse": 0.02903929587826246,
+      "dataset_id": "en:tokenisation_only:k100",
+      "dataset_sha256": "2c424ec4fba4bfaf37caaf684ab721ed6fac1bdee1a1c904e3dacddf325a3586",
+      "keyword_sha256": "f7addc4d87cc4ccd3f481eb5900d5bed47e2842d08ba82b4a74173c2f4a2479c",
+      "manifest": "results/corpus/flores200-length-balanced-ihop/manifest.json",
+      "manifest_sha256": "8b7c5b32bdd30de681859471a2b43e4c9eabfd2858bbc96246befdcf0f1f0895",
+      "marginal_probability_rmse": 0.04791869890650337
+    },
+    {
+      "auxiliary": {
+        "cooccurrence_cosine_median": 0.7407535320309686,
+        "density": 0.12495238095238095,
+        "document_count": 84,
+        "document_keyword_count_quantiles": {
+          "0.25": 26.75,
+          "0.5": 31.0,
+          "0.75": 35.0
+        },
+        "frequency_alternative_proportion": 0.936,
+        "frequency_cv": 1.2863453513409293,
+        "frequency_gini": 0.5248719512195121,
+        "identical_access_pair_count": 1,
+        "incidence_count": 2624,
+        "keyword_count": 250,
+        "largest_frequency_group": 36,
+        "nearest_access_jaccard_median": 0.3333333333333333
+      },
+      "client": {
+        "cooccurrence_cosine_median": 0.8405463158905141,
+        "density": 0.12021301775147929,
+        "document_count": 169,
+        "document_keyword_count_quantiles": {
+          "0.25": 25.0,
+          "0.5": 29.0,
+          "0.75": 34.0
+        },
+        "frequency_alternative_proportion": 0.884,
+        "frequency_cv": 1.2909685347417954,
+        "frequency_gini": 0.5014317779090371,
+        "identical_access_pair_count": 0,
+        "incidence_count": 5079,
+        "keyword_count": 250,
+        "largest_frequency_group": 23,
+        "nearest_access_jaccard_median": 0.21052631578947367
+      },
+      "cooccurrence_probability_rmse": 0.015825286258742154,
+      "dataset_id": "en:tokenisation_only:k250",
+      "dataset_sha256": "8ad9ce1e5e2b88b954a786aaa10683ef824d37a9ba100cf253b5cf7b9aa54793",
+      "keyword_sha256": "f38b89bae789016fe7b18ce979c37101501017e8c39410737d9dd3ac0304acf6",
+      "manifest": "results/corpus/flores200-length-balanced-ihop/manifest.json",
+      "manifest_sha256": "8b7c5b32bdd30de681859471a2b43e4c9eabfd2858bbc96246befdcf0f1f0895",
+      "marginal_probability_rmse": 0.03786661732619065
+    },
+    {
+      "auxiliary": {
+        "cooccurrence_cosine_median": 0.5512991504597837,
+        "density": 0.07652380952380952,
+        "document_count": 84,
+        "document_keyword_count_quantiles": {
+          "0.25": 33.0,
+          "0.5": 37.0,
+          "0.75": 42.25
+        },
+        "frequency_alternative_proportion": 0.968,
+        "frequency_cv": 1.6191538316474112,
+        "frequency_gini": 0.5641070317361543,
+        "identical_access_pair_count": 47,
+        "incidence_count": 3214,
+        "keyword_count": 500,
+        "largest_frequency_group": 106,
+        "nearest_access_jaccard_median": 0.42403846153846153
+      },
+      "client": {
+        "cooccurrence_cosine_median": 0.7011875935241727,
+        "density": 0.07297041420118343,
+        "document_count": 169,
+        "document_keyword_count_quantiles": {
+          "0.25": 31.0,
+          "0.5": 36.0,
+          "0.75": 42.0
+        },
+        "frequency_alternative_proportion": 0.944,
+        "frequency_cv": 1.6390939753581257,
+        "frequency_gini": 0.5470548167369444,
+        "identical_access_pair_count": 0,
+        "incidence_count": 6166,
+        "keyword_count": 500,
+        "largest_frequency_group": 82,
+        "nearest_access_jaccard_median": 0.25
+      },
+      "cooccurrence_probability_rmse": 0.009682079859409906,
+      "dataset_id": "en:tokenisation_only:k500",
+      "dataset_sha256": "780f2ca85d7f3f0e727cf090b9e003969ba4cc922a1ab7e112601f129e33408c",
+      "keyword_sha256": "30041dcfda407aae8b78a49f188869f43a8160142ae139a566495afb8d1666dd",
+      "manifest": "results/corpus/flores200-length-balanced-ihop/manifest.json",
+      "manifest_sha256": "8b7c5b32bdd30de681859471a2b43e4c9eabfd2858bbc96246befdcf0f1f0895",
+      "marginal_probability_rmse": 0.03008245762427664
+    },
+    {
+      "auxiliary": {
+        "cooccurrence_cosine_median": 0.9397852148589422,
+        "density": 0.2913095238095238,
+        "document_count": 84,
+        "document_keyword_count_quantiles": {
+          "0.25": 25.0,
+          "0.5": 29.0,
+          "0.75": 33.0
+        },
+        "frequency_alternative_proportion": 0.83,
+        "frequency_cv": 0.6819286546722414,
+        "frequency_gini": 0.32659174499387,
+        "identical_access_pair_count": 0,
+        "incidence_count": 2447,
+        "keyword_count": 100,
+        "largest_frequency_group": 11,
+        "nearest_access_jaccard_median": 0.3125
+      },
+      "client": {
+        "cooccurrence_cosine_median": 0.9590747655948453,
+        "density": 0.28437869822485207,
+        "document_count": 169,
+        "document_keyword_count_quantiles": {
+          "0.25": 24.0,
+          "0.5": 28.0,
+          "0.75": 33.0
+        },
+        "frequency_alternative_proportion": 0.78,
+        "frequency_cv": 0.7042461339096616,
+        "frequency_gini": 0.33473574698293795,
+        "identical_access_pair_count": 0,
+        "incidence_count": 4806,
+        "keyword_count": 100,
+        "largest_frequency_group": 8,
+        "nearest_access_jaccard_median": 0.2759615384615385
+      },
+      "cooccurrence_probability_rmse": 0.03495397888780555,
+      "dataset_id": "lus:tokenisation_only:k100",
+      "dataset_sha256": "c37435f97583ee06ef5b9752cbdfb93b5c6dc3fccfdffa23d3795e6cd93460b3",
+      "keyword_sha256": "29b2553357f8614552acb32a7252fdea4e85be573d592ccc3402990ad0fe8a9c",
+      "manifest": "results/corpus/flores200-length-balanced-ihop/manifest.json",
+      "manifest_sha256": "8b7c5b32bdd30de681859471a2b43e4c9eabfd2858bbc96246befdcf0f1f0895",
+      "marginal_probability_rmse": 0.05278945754515039
+    },
+    {
+      "auxiliary": {
+        "cooccurrence_cosine_median": 0.8274094223244253,
+        "density": 0.164,
+        "document_count": 84,
+        "document_keyword_count_quantiles": {
+          "0.25": 35.0,
+          "0.5": 41.5,
+          "0.75": 47.0
+        },
+        "frequency_alternative_proportion": 0.94,
+        "frequency_cv": 1.0053489244673293,
+        "frequency_gini": 0.443233449477352,
+        "identical_access_pair_count": 0,
+        "incidence_count": 3444,
+        "keyword_count": 250,
+        "largest_frequency_group": 26,
+        "nearest_access_jaccard_median": 0.29411764705882354
+      },
+      "client": {
+        "cooccurrence_cosine_median": 0.8910652814709751,
+        "density": 0.15746745562130177,
+        "document_count": 169,
+        "document_keyword_count_quantiles": {
+          "0.25": 33.0,
+          "0.5": 40.0,
+          "0.75": 45.0
+        },
+        "frequency_alternative_proportion": 0.912,
+        "frequency_cv": 1.044601947633333,
+        "frequency_gini": 0.4462642416954756,
+        "identical_access_pair_count": 0,
+        "incidence_count": 6653,
+        "keyword_count": 250,
+        "largest_frequency_group": 21,
+        "nearest_access_jaccard_median": 0.21428571428571427
+      },
+      "cooccurrence_probability_rmse": 0.020848345793287367,
+      "dataset_id": "lus:tokenisation_only:k250",
+      "dataset_sha256": "362e11fb6074ab9e76bd376941598d54abf103f314e21f246026975ce1e57e0d",
+      "keyword_sha256": "6689f209639367816f554b967aa2bc220331f23abf628b60db78433f0c66386a",
+      "manifest": "results/corpus/flores200-length-balanced-ihop/manifest.json",
+      "manifest_sha256": "8b7c5b32bdd30de681859471a2b43e4c9eabfd2858bbc96246befdcf0f1f0895",
+      "marginal_probability_rmse": 0.04391643704393089
+    },
+    {
+      "auxiliary": {
+        "cooccurrence_cosine_median": 0.6445471770161593,
+        "density": 0.09995238095238096,
+        "document_count": 84,
+        "document_keyword_count_quantiles": {
+          "0.25": 43.0,
+          "0.5": 49.5,
+          "0.75": 57.0
+        },
+        "frequency_alternative_proportion": 0.972,
+        "frequency_cv": 1.336089394856654,
+        "frequency_gini": 0.529676036207718,
+        "identical_access_pair_count": 10,
+        "incidence_count": 4198,
+        "keyword_count": 500,
+        "largest_frequency_group": 76,
+        "nearest_access_jaccard_median": 0.3333333333333333
+      },
+      "client": {
+        "cooccurrence_cosine_median": 0.7650477240389002,
+        "density": 0.0951715976331361,
+        "document_count": 169,
+        "document_keyword_count_quantiles": {
+          "0.25": 42.0,
+          "0.5": 48.0,
+          "0.75": 54.0
+        },
+        "frequency_alternative_proportion": 0.956,
+        "frequency_cv": 1.3887260443616116,
+        "frequency_gini": 0.5283591146480975,
+        "identical_access_pair_count": 0,
+        "incidence_count": 8042,
+        "keyword_count": 500,
+        "largest_frequency_group": 59,
+        "nearest_access_jaccard_median": 0.25
+      },
+      "cooccurrence_probability_rmse": 0.012779896925004674,
+      "dataset_id": "lus:tokenisation_only:k500",
+      "dataset_sha256": "11836a5fa8a69ac947a956255cee7daab5a1ccc77f2bd2e0c4417eee63cf0609",
+      "keyword_sha256": "6779cdf3227fc9e66ab1e9a969c8fe7e2af447b24ecaa955f464e60cb0695a70",
+      "manifest": "results/corpus/flores200-length-balanced-ihop/manifest.json",
+      "manifest_sha256": "8b7c5b32bdd30de681859471a2b43e4c9eabfd2858bbc96246befdcf0f1f0895",
+      "marginal_probability_rmse": 0.03486262312214642
+    },
+    {
+      "auxiliary": {
+        "cooccurrence_cosine_median": 0.9449997782466418,
+        "density": 0.3157142857142857,
+        "document_count": 84,
+        "document_keyword_count_quantiles": {
+          "0.25": 28.0,
+          "0.5": 31.0,
+          "0.75": 35.0
+        },
+        "frequency_alternative_proportion": 0.82,
+        "frequency_cv": 0.6480293466571444,
+        "frequency_gini": 0.3340723981900453,
+        "identical_access_pair_count": 0,
+        "incidence_count": 2652,
+        "keyword_count": 100,
+        "largest_frequency_group": 8,
+        "nearest_access_jaccard_median": 0.316624895572264
+      },
+      "client": {
+        "cooccurrence_cosine_median": 0.967817054217162,
+        "density": 0.3232544378698225,
+        "document_count": 169,
+        "document_keyword_count_quantiles": {
+          "0.25": 29.0,
+          "0.5": 32.0,
+          "0.75": 36.0
+        },
+        "frequency_alternative_proportion": 0.67,
+        "frequency_cv": 0.6227005123611544,
+        "frequency_gini": 0.3194197327475745,
+        "identical_access_pair_count": 0,
+        "incidence_count": 5463,
+        "keyword_count": 100,
+        "largest_frequency_group": 5,
+        "nearest_access_jaccard_median": 0.2818707114481762
+      },
+      "cooccurrence_probability_rmse": 0.03725220970984373,
+      "dataset_id": "en:tokenisation_only:k100",
+      "dataset_sha256": "65cc16c3fa49a9b40035add48c1c035c0f7778ccbbf1af81b49b6eadc1299753",
+      "keyword_sha256": "6b503ac6463f9096eab80b6e5f3334ac94f07dd356cde79e1c115707997c2924",
+      "manifest": "results/corpus/wmt23-length-balanced-ihop/manifest.json",
+      "manifest_sha256": "7cdf16fbcc13462dc2a1ee80b7c2e3ec40d9ff80a8c19bce7634329aaab8662f",
+      "marginal_probability_rmse": 0.05264914142239506
+    },
+    {
+      "auxiliary": {
+        "cooccurrence_cosine_median": 0.8355544272999533,
+        "density": 0.1730952380952381,
+        "document_count": 84,
+        "document_keyword_count_quantiles": {
+          "0.25": 38.0,
+          "0.5": 42.5,
+          "0.75": 47.0
+        },
+        "frequency_alternative_proportion": 0.924,
+        "frequency_cv": 1.0170830354893194,
+        "frequency_gini": 0.4674079779917468,
+        "identical_access_pair_count": 0,
+        "incidence_count": 3635,
+        "keyword_count": 250,
+        "largest_frequency_group": 23,
+        "nearest_access_jaccard_median": 0.3
+      },
+      "client": {
+        "cooccurrence_cosine_median": 0.9100340613123229,
+        "density": 0.17633136094674556,
+        "document_count": 169,
+        "document_keyword_count_quantiles": {
+          "0.25": 40.0,
+          "0.5": 44.0,
+          "0.75": 48.0
+        },
+        "frequency_alternative_proportion": 0.864,
+        "frequency_cv": 0.9980161394411057,
+        "frequency_gini": 0.4554931543624161,
+        "identical_access_pair_count": 0,
+        "incidence_count": 7450,
+        "keyword_count": 250,
+        "largest_frequency_group": 16,
+        "nearest_access_jaccard_median": 0.2135258358662614
+      },
+      "cooccurrence_probability_rmse": 0.02211874177890011,
+      "dataset_id": "en:tokenisation_only:k250",
+      "dataset_sha256": "df12e0eadfebd1ba1977d4f5ba61a52c124388113c3b7fceeefbfe308fdf58ad",
+      "keyword_sha256": "02eaf29a361d72312cbd4ed9cf60fba33ab20957f6492e919820e92e2f1f2810",
+      "manifest": "results/corpus/wmt23-length-balanced-ihop/manifest.json",
+      "manifest_sha256": "7cdf16fbcc13462dc2a1ee80b7c2e3ec40d9ff80a8c19bce7634329aaab8662f",
+      "marginal_probability_rmse": 0.04518213429120479
+    },
+    {
+      "auxiliary": {
+        "cooccurrence_cosine_median": 0.6690672339561572,
+        "density": 0.10495238095238095,
+        "document_count": 84,
+        "document_keyword_count_quantiles": {
+          "0.25": 46.75,
+          "0.5": 52.0,
+          "0.75": 58.0
+        },
+        "frequency_alternative_proportion": 0.964,
+        "frequency_cv": 1.3569113924575682,
+        "frequency_gini": 0.544497277676951,
+        "identical_access_pair_count": 8,
+        "incidence_count": 4408,
+        "keyword_count": 500,
+        "largest_frequency_group": 93,
+        "nearest_access_jaccard_median": 0.3333333333333333
+      },
+      "client": {
+        "cooccurrence_cosine_median": 0.7965639849718977,
+        "density": 0.10534911242603551,
+        "document_count": 169,
+        "document_keyword_count_quantiles": {
+          "0.25": 49.0,
+          "0.5": 53.0,
+          "0.75": 57.0
+        },
+        "frequency_alternative_proportion": 0.934,
+        "frequency_cv": 1.3616632376475455,
+        "frequency_gini": 0.5418696922039992,
+        "identical_access_pair_count": 0,
+        "incidence_count": 8902,
+        "keyword_count": 500,
+        "largest_frequency_group": 54,
+        "nearest_access_jaccard_median": 0.2222222222222222
+      },
+      "cooccurrence_probability_rmse": 0.013475195505772655,
+      "dataset_id": "en:tokenisation_only:k500",
+      "dataset_sha256": "bec28dd8fe5f3a57fa2a76b9017b16ed10b3df600a1c0fd70415cba83d14bce8",
+      "keyword_sha256": "7246c23285ea2e88485bc80bd5083f31c6d9a8ba73c9d5cf5e4da557f25d5d85",
+      "manifest": "results/corpus/wmt23-length-balanced-ihop/manifest.json",
+      "manifest_sha256": "7cdf16fbcc13462dc2a1ee80b7c2e3ec40d9ff80a8c19bce7634329aaab8662f",
+      "marginal_probability_rmse": 0.036019748050164
+    },
+    {
+      "auxiliary": {
+        "cooccurrence_cosine_median": 0.9502524276579447,
+        "density": 0.32011904761904764,
+        "document_count": 84,
+        "document_keyword_count_quantiles": {
+          "0.25": 28.0,
+          "0.5": 31.5,
+          "0.75": 36.0
+        },
+        "frequency_alternative_proportion": 0.81,
+        "frequency_cv": 0.6350840109360008,
+        "frequency_gini": 0.32094830792116036,
+        "identical_access_pair_count": 0,
+        "incidence_count": 2689,
+        "keyword_count": 100,
+        "largest_frequency_group": 8,
+        "nearest_access_jaccard_median": 0.3303030303030303
+      },
+      "client": {
+        "cooccurrence_cosine_median": 0.9683169361114097,
+        "density": 0.3212426035502959,
+        "document_count": 169,
+        "document_keyword_count_quantiles": {
+          "0.25": 29.0,
+          "0.5": 32.0,
+          "0.75": 35.0
+        },
+        "frequency_alternative_proportion": 0.68,
+        "frequency_cv": 0.6334376180981476,
+        "frequency_gini": 0.3193497881746177,
+        "identical_access_pair_count": 0,
+        "incidence_count": 5429,
+        "keyword_count": 100,
+        "largest_frequency_group": 7,
+        "nearest_access_jaccard_median": 0.2751177394034537
+      },
+      "cooccurrence_probability_rmse": 0.039150328437031694,
+      "dataset_id": "lus:tokenisation_only:k100",
+      "dataset_sha256": "e35c1bcde06852b734af6605a1780a9eaafeb625e2aaac98bed820a17bde9931",
+      "keyword_sha256": "248f5e44ba85059966a3d9c533fd7233a204532b20177dce9b31c976378250fa",
+      "manifest": "results/corpus/wmt23-length-balanced-ihop/manifest.json",
+      "manifest_sha256": "7cdf16fbcc13462dc2a1ee80b7c2e3ec40d9ff80a8c19bce7634329aaab8662f",
+      "marginal_probability_rmse": 0.057610355275082605
+    },
+    {
+      "auxiliary": {
+        "cooccurrence_cosine_median": 0.8580578342860552,
+        "density": 0.18276190476190476,
+        "document_count": 84,
+        "document_keyword_count_quantiles": {
+          "0.25": 39.75,
+          "0.5": 44.5,
+          "0.75": 50.25
+        },
+        "frequency_alternative_proportion": 0.936,
+        "frequency_cv": 0.9485951466570266,
+        "frequency_gini": 0.43665450755601887,
+        "identical_access_pair_count": 0,
+        "incidence_count": 3838,
+        "keyword_count": 250,
+        "largest_frequency_group": 19,
+        "nearest_access_jaccard_median": 0.29411764705882354
+      },
+      "client": {
+        "cooccurrence_cosine_median": 0.9183038797500356,
+        "density": 0.18272189349112425,
+        "document_count": 169,
+        "document_keyword_count_quantiles": {
+          "0.25": 40.0,
+          "0.5": 45.0,
+          "0.75": 51.0
+        },
+        "frequency_alternative_proportion": 0.872,
+        "frequency_cv": 0.9437006346342409,
+        "frequency_gini": 0.42129430051813466,
+        "identical_access_pair_count": 0,
+        "incidence_count": 7720,
+        "keyword_count": 250,
+        "largest_frequency_group": 16,
+        "nearest_access_jaccard_median": 0.21680376028202114
+      },
+      "cooccurrence_probability_rmse": 0.02380406993943046,
+      "dataset_id": "lus:tokenisation_only:k250",
+      "dataset_sha256": "51cfa60e3627d13477e8291a0b659e31aa6894ebe8e080dfcad6fe9ab4840096",
+      "keyword_sha256": "a52684622fe5234347efae077284176e538265171c05366bf57ddf1cbddb461d",
+      "manifest": "results/corpus/wmt23-length-balanced-ihop/manifest.json",
+      "manifest_sha256": "7cdf16fbcc13462dc2a1ee80b7c2e3ec40d9ff80a8c19bce7634329aaab8662f",
+      "marginal_probability_rmse": 0.04853209322670925
+    },
+    {
+      "auxiliary": {
+        "cooccurrence_cosine_median": 0.6970670967262619,
+        "density": 0.11252380952380953,
+        "document_count": 84,
+        "document_keyword_count_quantiles": {
+          "0.25": 48.75,
+          "0.5": 55.0,
+          "0.75": 62.25
+        },
+        "frequency_alternative_proportion": 0.968,
+        "frequency_cv": 1.262037236989967,
+        "frequency_gini": 0.5202666102412188,
+        "identical_access_pair_count": 3,
+        "incidence_count": 4726,
+        "keyword_count": 500,
+        "largest_frequency_group": 72,
+        "nearest_access_jaccard_median": 0.3333333333333333
+      },
+      "client": {
+        "cooccurrence_cosine_median": 0.8138435296839502,
+        "density": 0.11120710059171597,
+        "document_count": 169,
+        "document_keyword_count_quantiles": {
+          "0.25": 50.0,
+          "0.5": 55.0,
+          "0.75": 61.0
+        },
+        "frequency_alternative_proportion": 0.94,
+        "frequency_cv": 1.2733083493914321,
+        "frequency_gini": 0.5097288496328616,
+        "identical_access_pair_count": 0,
+        "incidence_count": 9397,
+        "keyword_count": 500,
+        "largest_frequency_group": 59,
+        "nearest_access_jaccard_median": 0.2222222222222222
+      },
+      "cooccurrence_probability_rmse": 0.014733128112870968,
+      "dataset_id": "lus:tokenisation_only:k500",
+      "dataset_sha256": "01d06bb20e9c2e7705a24e9ff1c77a61131d95bc5b6875c05d060648b918b6da",
+      "keyword_sha256": "72babfc66009662c89066e2d380213ed40fbfab38c09186a8c916b931d708d9c",
+      "manifest": "results/corpus/wmt23-length-balanced-ihop/manifest.json",
+      "manifest_sha256": "7cdf16fbcc13462dc2a1ee80b7c2e3ec40d9ff80a8c19bce7634329aaab8662f",
+      "marginal_probability_rmse": 0.03926026304260682
+    }
+  ]
+}

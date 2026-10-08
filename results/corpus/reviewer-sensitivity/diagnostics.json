@@ -1,0 +1,62 @@
+{
+  "coverage": [
+    {
+      "distribution": "uniform_iid",
+      "maximum": 500,
+      "mean": 500.0,
+      "minimum": 500
+    },
+    {
+      "distribution": "zipf_iid",
+      "maximum": 467,
+      "mean": 459.4,
+      "minimum": 450
+    }
+  ],
+  "independent_check": {
+    "documents": 200,
+    "exhaustive_assignment_check": true,
+    "fixed_sets": 4,
+    "keyword_count": 6,
+    "maximum_cost_error": 1.1368683772161603e-13,
+    "planted_mapping_recovered": true,
+    "reference_mismatch_resolved": false,
+    "scope": "Independent SciPy binomial likelihood calculation and exhaustive assignment on a planted fixture. Full Enron numerical equivalence was not established."
+  },
+  "near_duplicates": [
+    {
+      "client_documents_with_match": 0,
+      "cross_partition_pair_count": 0,
+      "language": "en",
+      "screen": "Unigram-set Jaccard on complete tokenisation-only vocabulary. Original production partition.",
+      "threshold": 0.8
+    },
+    {
+      "client_documents_with_match": 0,
+      "cross_partition_pair_count": 0,
+      "language": "lus",
+      "screen": "Unigram-set Jaccard on complete tokenisation-only vocabulary. Original production partition.",
+      "threshold": 0.8
+    }
+  ],
+  "vocabulary": [
+    {
+      "language": "en",
+      "merged_stem_groups": 4028,
+      "stem_types": 13574,
+      "stop_stem_string_overlap": 319,
+      "stop_types": 21269,
+      "token_stop_overlap": 385,
+      "types_in_merged_groups": 11723
+    },
+    {
+      "language": "lus",
+      "merged_stem_groups": 3315,
+      "stem_types": 18293,
+      "stop_stem_string_overlap": 423,
+      "stop_types": 25791,
+      "token_stop_overlap": 383,
+      "types_in_merged_groups": 10813
+    }
+  ]
+}

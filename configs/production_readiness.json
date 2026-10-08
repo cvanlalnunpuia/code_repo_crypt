@@ -1,0 +1,18 @@
+{
+  "config_version": "1.0.0",
+  "source_manifest": "corpus/sources/source-manifest.json",
+  "source_id": "wmt23_indicnecorp",
+  "stopword_config": "configs/stopword_removal_production.json",
+  "stemming_config": "configs/stemming_production.json",
+  "stemmer_annotations": "corpus/annotations/stemmer-production.reviewed.json",
+  "required_artifacts": [
+    "results/corpus/wmt23-acquisition.json",
+    "results/corpus/wmt23-records.jsonl",
+    "results/corpus/wmt23-selection.json",
+    "results/corpus/wmt23-split.json",
+    "results/corpus/wmt23-tokenisation-only/metadata.json",
+    "results/corpus/wmt23-stopword-removal/metadata.json",
+    "results/corpus/wmt23-stemming/metadata.json",
+    "results/corpus/ihop/manifest.json"
+  ]
+}

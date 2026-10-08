@@ -1,0 +1,86 @@
+{
+  "artifacts": {
+    "documents_sha256": "a867ac845f2326e25c8acd530d6d0791305a8172dc0dd8fa0c742e85e6c21011",
+    "incidence_sha256": "7978b098ad38e88d6a766da736093ece78d9b2d79efbdf37c583523f48b33ee3",
+    "vocabulary_sha256": "0199161adc80f904f2d9b2810e752e0dafda9f56c52c343dc878ababd0d87fd2"
+  },
+  "condition_config": {
+    "config_version": "1.0.0",
+    "required_scope": "synthetic_fixture",
+    "stemmer_specifications": {
+      "en": "resources/stemmers/en-fixture.json",
+      "lus": "resources/stemmers/lus-fixture.json"
+    },
+    "stopword_condition": "configs/stopword_removal_fixture.json"
+  },
+  "condition_config_sha256": "a76042242ff552e1fd439546da3042a1bee69a61640608b0190f2f2aa2189147",
+  "input_sha256": "b2c7a2362a9df7e16620ea3e2f4c2b3ecd6132751698820cd5e39e533fb4dd9b",
+  "pipeline": "stopword_removal_with_stemming",
+  "pipeline_version": "1.0.0",
+  "reviews": {
+    "stemmers": {
+      "en": {
+        "algorithm": "snowball_english",
+        "path": "resources/stemmers/en-fixture.json",
+        "reviewed_at": "2026-09-01",
+        "reviewed_by": "automated-fixture",
+        "rule_count": 0,
+        "sha256": "deed964cdbae84cea127b6cca57e5e8cd07cc8ceea9ef9b7e3a0c72386c0ac9e",
+        "specification_version": "1.0.0"
+      },
+      "lus": {
+        "algorithm": "suffix_strip_v1",
+        "path": "resources/stemmers/lus-fixture.json",
+        "reviewed_at": "2026-09-01",
+        "reviewed_by": "automated-fixture",
+        "rule_count": 2,
+        "sha256": "2a8019176e9d7b82227f823fb86c94bfa9e89443e631f6a8cf37a714777bf67d",
+        "specification_version": "1.0.0"
+      }
+    },
+    "stopwords": {
+      "en": {
+        "excluded_token_count": 4,
+        "list_version": "1.0.0",
+        "path": "resources/stopwords/en-fixture.json",
+        "reviewed_at": "2026-09-01",
+        "reviewed_by": "automated-fixture",
+        "sha256": "85ef9623b2f3db57d75e9fd7a64d635d27c1b85baa26077edab157f53c068c77"
+      },
+      "lus": {
+        "excluded_token_count": 5,
+        "list_version": "1.0.0",
+        "path": "resources/stopwords/lus-fixture.json",
+        "reviewed_at": "2026-09-01",
+        "reviewed_by": "automated-fixture",
+        "sha256": "50196a57fe79b76c9621af88c67c18a5c3997cebce6b76ccfe0b6a0456566ecb"
+      }
+    }
+  },
+  "selection_sha256": "4029a90051dd83de132f92c075713fe46d17d6fd8762f117405d8bc372e16696",
+  "summary": {
+    "document_count": 2,
+    "incidence_count": 44,
+    "language_document_counts": {
+      "en": 1,
+      "lus": 1
+    },
+    "matrix_density": 0.55,
+    "vocabulary_size": 40
+  },
+  "tokenisation_config": {
+    "casefold": true,
+    "config_version": "1.0.0",
+    "include_numeric_tokens": false,
+    "indexed_fields": [
+      "title",
+      "body"
+    ],
+    "keep_internal_apostrophe": true,
+    "keep_internal_hyphen": false,
+    "maximum_document_frequency_ratio": 1.0,
+    "minimum_document_frequency": 1,
+    "minimum_letter_count": 2,
+    "unicode_form": "NFC"
+  }
+}

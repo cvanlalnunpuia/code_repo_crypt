@@ -1,0 +1,11 @@
+{
+  "config_version": "1.0.0",
+  "manifest": "corpus/fixtures/ihop/manifest.json",
+  "seeds": [0, 1],
+  "query_distributions": ["each", "uniform_iid", "zipf_iid"],
+  "query_count_per_keyword": 2,
+  "iterations": 10,
+  "iteration_checkpoints": [0, 10],
+  "free_fraction": 0.25,
+  "attack_mode": "Freq"
+}

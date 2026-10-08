@@ -1,0 +1,65 @@
+{
+  "id": "enron-ablation-summary-v1",
+  "checkpoint_iterations": [0, 10, 100, 1000],
+  "confidence_level": 0.95,
+  "contrasts": [
+    {
+      "id": "keyword_size",
+      "label": "Keyword count",
+      "contrast_label": "500 minus 100 keywords",
+      "source": "results/keyword-size-sweep/aggregate.json",
+      "selector_field": "keyword_count",
+      "baseline": 100,
+      "intervention": 500
+    },
+    {
+      "id": "exact_collisions",
+      "label": "Exact access collisions",
+      "contrast_label": "62 pairs minus control",
+      "source": "results/access-collision-sweep/aggregate.json",
+      "selector_field": "forced_pair_count",
+      "baseline": 0,
+      "intervention": 62
+    },
+    {
+      "id": "access_similarity",
+      "label": "Access similarity",
+      "contrast_label": "Jaccard 0.75 minus control",
+      "source": "results/access-similarity-sweep/aggregate.json",
+      "selector_field": "condition",
+      "baseline": "control",
+      "intervention": "target_0.75"
+    },
+    {
+      "id": "frequency_ambiguity",
+      "label": "Frequency equality",
+      "contrast_label": "62 pairs minus control",
+      "source": "results/frequency-ambiguity-sweep/aggregate.json",
+      "selector_field": "equalized_pair_count",
+      "baseline": 0,
+      "intervention": 62
+    },
+    {
+      "id": "cooccurrence_similarity",
+      "label": "Co-occurrence similarity",
+      "contrast_label": "Budget 128 minus budget 1",
+      "source": "results/cooccurrence-similarity-sweep/aggregate.json",
+      "selector_field": "condition",
+      "baseline": "budget_1",
+      "intervention": "budget_128"
+    },
+    {
+      "id": "sparsity",
+      "label": "Incidence retention",
+      "contrast_label": "25% minus 100% retention",
+      "source": "results/sparsity-sweep/aggregate.json",
+      "selector_field": "retention_rate",
+      "baseline": 1.0,
+      "intervention": 0.25
+    }
+  ],
+  "output_json": "results/unified/enron-ablation-summary.json",
+  "output_report": "docs/enron-ablation-summary.md",
+  "output_figure_png": "figures/enron-ablation-final-recovery.png",
+  "output_figure_pdf": "figures/enron-ablation-final-recovery.pdf"
+}

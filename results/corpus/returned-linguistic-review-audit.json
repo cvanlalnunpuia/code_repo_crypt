@@ -1,0 +1,3576 @@
+{
+  "source_path": "C_Lalrinawma_linguistic_review.xlsx",
+  "source_sha256": "a2450d5c40308c4439f910974b4b6c705caadfed661a3cc49e523a2fdb256fa5",
+  "reviewer": "C Lalrinawma",
+  "assigned_reviewer": "C Lalrinawma",
+  "completion_date": "2026-10-06",
+  "english_algorithm_decision": "approve",
+  "issues": [],
+  "stopwords": {
+    "en": {
+      "counts": {
+        "exclude_from_index": 116,
+        "retain": 84
+      },
+      "entries": [
+        {
+          "token": "the",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F6"
+        },
+        {
+          "token": "and",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F7"
+        },
+        {
+          "token": "of",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F8"
+        },
+        {
+          "token": "to",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F9"
+        },
+        {
+          "token": "in",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F10"
+        },
+        {
+          "token": "you",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F11"
+        },
+        {
+          "token": "that",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F12"
+        },
+        {
+          "token": "for",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F13"
+        },
+        {
+          "token": "he",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F14"
+        },
+        {
+          "token": "is",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F15"
+        },
+        {
+          "token": "his",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F16"
+        },
+        {
+          "token": "be",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F17"
+        },
+        {
+          "token": "with",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F18"
+        },
+        {
+          "token": "it",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F19"
+        },
+        {
+          "token": "they",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F20"
+        },
+        {
+          "token": "will",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "will is the exception here",
+          "source_cell": "Stopwords EN!F21"
+        },
+        {
+          "token": "all",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F22"
+        },
+        {
+          "token": "who",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F23"
+        },
+        {
+          "token": "on",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F24"
+        },
+        {
+          "token": "him",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F25"
+        },
+        {
+          "token": "your",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F26"
+        },
+        {
+          "token": "not",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F27"
+        },
+        {
+          "token": "was",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F28"
+        },
+        {
+          "token": "are",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F29"
+        },
+        {
+          "token": "have",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F30"
+        },
+        {
+          "token": "them",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F31"
+        },
+        {
+          "token": "from",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F32"
+        },
+        {
+          "token": "shall",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F33"
+        },
+        {
+          "token": "but",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F34"
+        },
+        {
+          "token": "as",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F35"
+        },
+        {
+          "token": "god",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F36"
+        },
+        {
+          "token": "yahweh",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F37"
+        },
+        {
+          "token": "my",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F38"
+        },
+        {
+          "token": "this",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F39"
+        },
+        {
+          "token": "their",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F40"
+        },
+        {
+          "token": "we",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F41"
+        },
+        {
+          "token": "by",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F42"
+        },
+        {
+          "token": "me",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F43"
+        },
+        {
+          "token": "when",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F44"
+        },
+        {
+          "token": "one",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "Mostly pronoun/determiner use; the numeral sense is not a useful keyword.",
+          "source_cell": "Stopwords EN!F45"
+        },
+        {
+          "token": "out",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F46"
+        },
+        {
+          "token": "said",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F47"
+        },
+        {
+          "token": "were",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F48"
+        },
+        {
+          "token": "what",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F49"
+        },
+        {
+          "token": "at",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F50"
+        },
+        {
+          "token": "do",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F51"
+        },
+        {
+          "token": "people",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F52"
+        },
+        {
+          "token": "which",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F53"
+        },
+        {
+          "token": "has",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F54"
+        },
+        {
+          "token": "up",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F55"
+        },
+        {
+          "token": "so",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F56"
+        },
+        {
+          "token": "had",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F57"
+        },
+        {
+          "token": "there",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F58"
+        },
+        {
+          "token": "israel",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F59"
+        },
+        {
+          "token": "if",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F60"
+        },
+        {
+          "token": "our",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F61"
+        },
+        {
+          "token": "or",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F62"
+        },
+        {
+          "token": "man",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F63"
+        },
+        {
+          "token": "then",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F64"
+        },
+        {
+          "token": "lord",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F65"
+        },
+        {
+          "token": "jesus",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F66"
+        },
+        {
+          "token": "no",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F67"
+        },
+        {
+          "token": "also",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F68"
+        },
+        {
+          "token": "an",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F69"
+        },
+        {
+          "token": "son",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F70"
+        },
+        {
+          "token": "us",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F71"
+        },
+        {
+          "token": "into",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F72"
+        },
+        {
+          "token": "day",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F73"
+        },
+        {
+          "token": "may",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "Modal auxiliary in this data",
+          "source_cell": "Stopwords EN!F74"
+        },
+        {
+          "token": "come",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F75"
+        },
+        {
+          "token": "those",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F76"
+        },
+        {
+          "token": "before",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F77"
+        },
+        {
+          "token": "go",
+          "decision": "retain",
+          "reviewer_basis": "Lexical verb despite the stopword-list hint.",
+          "source_cell": "Stopwords EN!F78"
+        },
+        {
+          "token": "jehovah",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F79"
+        },
+        {
+          "token": "how",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F80"
+        },
+        {
+          "token": "king",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F81"
+        },
+        {
+          "token": "her",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F82"
+        },
+        {
+          "token": "house",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F83"
+        },
+        {
+          "token": "can",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F84"
+        },
+        {
+          "token": "men",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F85"
+        },
+        {
+          "token": "these",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F86"
+        },
+        {
+          "token": "now",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F87"
+        },
+        {
+          "token": "came",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F88"
+        },
+        {
+          "token": "like",
+          "decision": "retain",
+          "reviewer_basis": "Ambiguous between comparison preposition and lexical verb.",
+          "source_cell": "Stopwords EN!F89"
+        },
+        {
+          "token": "because",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F90"
+        },
+        {
+          "token": "made",
+          "decision": "retain",
+          "reviewer_basis": "Lexical verb (create/appoint) despite the stopword-list hint.",
+          "source_cell": "Stopwords EN!F91"
+        },
+        {
+          "token": "make",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F92"
+        },
+        {
+          "token": "land",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F93"
+        },
+        {
+          "token": "sons",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F94"
+        },
+        {
+          "token": "let",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "Functions as a hortative/permissive auxiliary (let us, let him).",
+          "source_cell": "Stopwords EN!F95"
+        },
+        {
+          "token": "even",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F96"
+        },
+        {
+          "token": "children",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F97"
+        },
+        {
+          "token": "against",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F98"
+        },
+        {
+          "token": "did",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F99"
+        },
+        {
+          "token": "good",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F100"
+        },
+        {
+          "token": "don't",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F101"
+        },
+        {
+          "token": "after",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F102"
+        },
+        {
+          "token": "things",
+          "decision": "retain",
+          "reviewer_basis": "Generic noun but still content-bearing; kept as borderline.",
+          "source_cell": "Stopwords EN!F103"
+        },
+        {
+          "token": "went",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F104"
+        },
+        {
+          "token": "hand",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F105"
+        },
+        {
+          "token": "time",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F106"
+        },
+        {
+          "token": "know",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F107"
+        },
+        {
+          "token": "its",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F108"
+        },
+        {
+          "token": "over",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F109"
+        },
+        {
+          "token": "would",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F110"
+        },
+        {
+          "token": "about",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F111"
+        },
+        {
+          "token": "am",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F112"
+        },
+        {
+          "token": "down",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F113"
+        },
+        {
+          "token": "father",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F114"
+        },
+        {
+          "token": "therefore",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F115"
+        },
+        {
+          "token": "she",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F116"
+        },
+        {
+          "token": "earth",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F117"
+        },
+        {
+          "token": "name",
+          "decision": "retain",
+          "reviewer_basis": "Content noun in this corpus (God's name) despite the stopword-list hint.",
+          "source_cell": "Stopwords EN!F118"
+        },
+        {
+          "token": "take",
+          "decision": "retain",
+          "reviewer_basis": "Lexical verb despite the stopword-list hint.",
+          "source_cell": "Stopwords EN!F119"
+        },
+        {
+          "token": "give",
+          "decision": "retain",
+          "reviewer_basis": "Lexical verb despite the stopword-list hint.",
+          "source_cell": "Stopwords EN!F120"
+        },
+        {
+          "token": "great",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F121"
+        },
+        {
+          "token": "many",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F122"
+        },
+        {
+          "token": "more",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F123"
+        },
+        {
+          "token": "two",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "Numeral; quantifier function, weak as a keyword.",
+          "source_cell": "Stopwords EN!F124"
+        },
+        {
+          "token": "way",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F125"
+        },
+        {
+          "token": "saying",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F126"
+        },
+        {
+          "token": "away",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "Adverbial particle (go away, take away); no independent content.",
+          "source_cell": "Stopwords EN!F127"
+        },
+        {
+          "token": "moses",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F128"
+        },
+        {
+          "token": "david",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F129"
+        },
+        {
+          "token": "put",
+          "decision": "retain",
+          "reviewer_basis": "Lexical verb despite the stopword-list hint.",
+          "source_cell": "Stopwords EN!F130"
+        },
+        {
+          "token": "life",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F131"
+        },
+        {
+          "token": "heart",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F132"
+        },
+        {
+          "token": "among",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F133"
+        },
+        {
+          "token": "behold",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "Discourse interjection of Bible English; no lexical content.",
+          "source_cell": "Stopwords EN!F134"
+        },
+        {
+          "token": "place",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F135"
+        },
+        {
+          "token": "some",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F136"
+        },
+        {
+          "token": "see",
+          "decision": "retain",
+          "reviewer_basis": "Lexical perception verb despite the stopword-list hint.",
+          "source_cell": "Stopwords EN!F137"
+        },
+        {
+          "token": "word",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F138"
+        },
+        {
+          "token": "been",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F139"
+        },
+        {
+          "token": "why",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F140"
+        },
+        {
+          "token": "days",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F141"
+        },
+        {
+          "token": "should",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F142"
+        },
+        {
+          "token": "says",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F143"
+        },
+        {
+          "token": "any",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F144"
+        },
+        {
+          "token": "every",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F145"
+        },
+        {
+          "token": "where",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F146"
+        },
+        {
+          "token": "work",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F147"
+        },
+        {
+          "token": "years",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F148"
+        },
+        {
+          "token": "god's",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F149"
+        },
+        {
+          "token": "other",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F150"
+        },
+        {
+          "token": "love",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F151"
+        },
+        {
+          "token": "took",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F152"
+        },
+        {
+          "token": "say",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F153"
+        },
+        {
+          "token": "christ",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F154"
+        },
+        {
+          "token": "set",
+          "decision": "retain",
+          "reviewer_basis": "Ambiguous lexical verb/noun; not a grammatical word.",
+          "source_cell": "Stopwords EN!F155"
+        },
+        {
+          "token": "jerusalem",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F156"
+        },
+        {
+          "token": "than",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F157"
+        },
+        {
+          "token": "brought",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F158"
+        },
+        {
+          "token": "spirit",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F159"
+        },
+        {
+          "token": "city",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F160"
+        },
+        {
+          "token": "bring",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F161"
+        },
+        {
+          "token": "first",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "Ordinal; ordering function, weak as a keyword.",
+          "source_cell": "Stopwords EN!F162"
+        },
+        {
+          "token": "holy",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F163"
+        },
+        {
+          "token": "words",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F164"
+        },
+        {
+          "token": "according",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "Occurs as the complex preposition 'according to'.",
+          "source_cell": "Stopwords EN!F165"
+        },
+        {
+          "token": "own",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F166"
+        },
+        {
+          "token": "through",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F167"
+        },
+        {
+          "token": "bible",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F168"
+        },
+        {
+          "token": "such",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F169"
+        },
+        {
+          "token": "jehovah's",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F170"
+        },
+        {
+          "token": "does",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F171"
+        },
+        {
+          "token": "tell",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F172"
+        },
+        {
+          "token": "long",
+          "decision": "retain",
+          "reviewer_basis": "Adjective/adverb with content; not a grammatical word.",
+          "source_cell": "Stopwords EN!F173"
+        },
+        {
+          "token": "whom",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F174"
+        },
+        {
+          "token": "called",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F175"
+        },
+        {
+          "token": "judah",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F176"
+        },
+        {
+          "token": "three",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "Numeral; quantifier function, weak as a keyword.",
+          "source_cell": "Stopwords EN!F177"
+        },
+        {
+          "token": "himself",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F178"
+        },
+        {
+          "token": "sent",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F179"
+        },
+        {
+          "token": "brothers",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F180"
+        },
+        {
+          "token": "keep",
+          "decision": "retain",
+          "reviewer_basis": "Lexical verb (keep the commandments) despite the stopword-list hint.",
+          "source_cell": "Stopwords EN!F181"
+        },
+        {
+          "token": "saw",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F182"
+        },
+        {
+          "token": "another",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F183"
+        },
+        {
+          "token": "kingdom",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F184"
+        },
+        {
+          "token": "being",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F185"
+        },
+        {
+          "token": "didn't",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F186"
+        },
+        {
+          "token": "death",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F187"
+        },
+        {
+          "token": "again",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F188"
+        },
+        {
+          "token": "yet",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F189"
+        },
+        {
+          "token": "yes",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "Response interjection; no lexical content.",
+          "source_cell": "Stopwords EN!F190"
+        },
+        {
+          "token": "world",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F191"
+        },
+        {
+          "token": "help",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F192"
+        },
+        {
+          "token": "might",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "Mostly the modal; the noun sense (strength) is rare.",
+          "source_cell": "Stopwords EN!F193"
+        },
+        {
+          "token": "until",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F194"
+        },
+        {
+          "token": "heard",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F195"
+        },
+        {
+          "token": "only",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F196"
+        },
+        {
+          "token": "law",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F197"
+        },
+        {
+          "token": "very",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F198"
+        },
+        {
+          "token": "offering",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F199"
+        },
+        {
+          "token": "gave",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F200"
+        },
+        {
+          "token": "egypt",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F201"
+        },
+        {
+          "token": "right",
+          "decision": "retain",
+          "reviewer_basis": "Ambiguous: right hand, what is right, legal right.",
+          "source_cell": "Stopwords EN!F202"
+        },
+        {
+          "token": "well",
+          "decision": "retain",
+          "reviewer_basis": "Ambiguous: adverb/discourse marker versus the noun (a well of water).",
+          "source_cell": "Stopwords EN!F203"
+        },
+        {
+          "token": "neither",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F204"
+        },
+        {
+          "token": "year",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords EN!F205"
+        }
+      ]
+    },
+    "lus": {
+      "counts": {
+        "exclude_from_index": 117,
+        "retain": 83
+      },
+      "entries": [
+        {
+          "token": "chu",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F6"
+        },
+        {
+          "token": "chuan",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F7"
+        },
+        {
+          "token": "ni",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "Overwhelmingly the copula (a ni); the noun senses (day/sun, aunt) are the minority.",
+          "source_cell": "Stopwords Mizo!F8"
+        },
+        {
+          "token": "an",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F9"
+        },
+        {
+          "token": "lo",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "Negator and directional preverb; the noun sense (field) is rare by comparison.",
+          "source_cell": "Stopwords Mizo!F10"
+        },
+        {
+          "token": "leh",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F11"
+        },
+        {
+          "token": "ang",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F12"
+        },
+        {
+          "token": "ka",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F13"
+        },
+        {
+          "token": "mi",
+          "decision": "retain",
+          "reviewer_basis": "Ambiguous: content noun 'person/people' versus nominaliser use; kept.",
+          "source_cell": "Stopwords Mizo!F14"
+        },
+        {
+          "token": "hi",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F15"
+        },
+        {
+          "token": "in",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "Mostly the 2nd-person plural clitic; the noun (house) and verb (drink) senses are the minority.",
+          "source_cell": "Stopwords Mizo!F16"
+        },
+        {
+          "token": "ti",
+          "decision": "retain",
+          "reviewer_basis": "Lexical verb 'say/do'; kept in line with the English speech verbs, though also quotative.",
+          "source_cell": "Stopwords Mizo!F17"
+        },
+        {
+          "token": "ta",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F18"
+        },
+        {
+          "token": "kan",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F19"
+        },
+        {
+          "token": "awm",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "Functions mainly as the existential/locative verb (a awm); lexical 'stay, live' is secondary.",
+          "source_cell": "Stopwords Mizo!F20"
+        },
+        {
+          "token": "tûr",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F21"
+        },
+        {
+          "token": "lalpa",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F22"
+        },
+        {
+          "token": "tih",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "Mostly the complementiser ('that') closing a reported clause.",
+          "source_cell": "Stopwords Mizo!F23"
+        },
+        {
+          "token": "tak",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "Intensifier ('really, very'); the adjective sense (real, hard) is secondary.",
+          "source_cell": "Stopwords Mizo!F24"
+        },
+        {
+          "token": "pathian",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F25"
+        },
+        {
+          "token": "thu",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F26"
+        },
+        {
+          "token": "te",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "Plural marker written separately; the adjective sense (small) is the minority.",
+          "source_cell": "Stopwords Mizo!F27"
+        },
+        {
+          "token": "pawh",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F28"
+        },
+        {
+          "token": "che",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F29"
+        },
+        {
+          "token": "rawh",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F30"
+        },
+        {
+          "token": "thil",
+          "decision": "retain",
+          "reviewer_basis": "Generic noun but still content-bearing; kept as borderline, as with English 'things'.",
+          "source_cell": "Stopwords Mizo!F31"
+        },
+        {
+          "token": "hian",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F32"
+        },
+        {
+          "token": "nge",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F33"
+        },
+        {
+          "token": "va",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F34"
+        },
+        {
+          "token": "la",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "Mostly imperative/conjunctive particle and 'still, yet'; the verb (take) is the minority.",
+          "source_cell": "Stopwords Mizo!F35"
+        },
+        {
+          "token": "min",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F36"
+        },
+        {
+          "token": "thei",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F37"
+        },
+        {
+          "token": "kal",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F38"
+        },
+        {
+          "token": "nih",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F39"
+        },
+        {
+          "token": "mai",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F40"
+        },
+        {
+          "token": "sawi",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F41"
+        },
+        {
+          "token": "hnênah",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F42"
+        },
+        {
+          "token": "nei",
+          "decision": "retain",
+          "reviewer_basis": "Lexical verb of possession, not an auxiliary as English 'have' is.",
+          "source_cell": "Stopwords Mizo!F43"
+        },
+        {
+          "token": "zawng",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "Mostly the quantifier (zawng zawng 'all'); the verb (seek) is the minority.",
+          "source_cell": "Stopwords Mizo!F44"
+        },
+        {
+          "token": "tawh",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F45"
+        },
+        {
+          "token": "loh",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F46"
+        },
+        {
+          "token": "mite",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F47"
+        },
+        {
+          "token": "bawk",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F48"
+        },
+        {
+          "token": "ram",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F49"
+        },
+        {
+          "token": "tûrin",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F50"
+        },
+        {
+          "token": "ṭhîn",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F51"
+        },
+        {
+          "token": "ṭha",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F52"
+        },
+        {
+          "token": "ve",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F53"
+        },
+        {
+          "token": "eng",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "Interrogative 'what/which'; the sense 'light, yellow' is rare.",
+          "source_cell": "Stopwords Mizo!F54"
+        },
+        {
+          "token": "chhuak",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F55"
+        },
+        {
+          "token": "lal",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F56"
+        },
+        {
+          "token": "dân",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F57"
+        },
+        {
+          "token": "dâwn",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F58"
+        },
+        {
+          "token": "israel",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F59"
+        },
+        {
+          "token": "theih",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F60"
+        },
+        {
+          "token": "duh",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F61"
+        },
+        {
+          "token": "ah",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F62"
+        },
+        {
+          "token": "siam",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F63"
+        },
+        {
+          "token": "takin",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F64"
+        },
+        {
+          "token": "si",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F65"
+        },
+        {
+          "token": "fapa",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F66"
+        },
+        {
+          "token": "avângin",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F67"
+        },
+        {
+          "token": "rawn",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F68"
+        },
+        {
+          "token": "ngai",
+          "decision": "retain",
+          "reviewer_basis": "Ambiguous: 'need, be necessary', 'regard/miss', and the habitual/'ever' particle.",
+          "source_cell": "Stopwords Mizo!F69"
+        },
+        {
+          "token": "jehova",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F70"
+        },
+        {
+          "token": "tam",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "Quantifier 'many, much'; excluded in line with English 'many'.",
+          "source_cell": "Stopwords Mizo!F71"
+        },
+        {
+          "token": "hrilh",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F72"
+        },
+        {
+          "token": "se",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F73"
+        },
+        {
+          "token": "lam",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "Relational noun used as a postposition ('towards, regarding'); the verb (dance) is rare.",
+          "source_cell": "Stopwords Mizo!F74"
+        },
+        {
+          "token": "em",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F75"
+        },
+        {
+          "token": "vang",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F76"
+        },
+        {
+          "token": "kha",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F77"
+        },
+        {
+          "token": "lai",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "Relational noun used for 'while, during, at the time of'; the sense 'middle' is secondary.",
+          "source_cell": "Stopwords Mizo!F78"
+        },
+        {
+          "token": "taka",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F79"
+        },
+        {
+          "token": "kum",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F80"
+        },
+        {
+          "token": "hre",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F81"
+        },
+        {
+          "token": "reng",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F82"
+        },
+        {
+          "token": "isua",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F83"
+        },
+        {
+          "token": "pe",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F84"
+        },
+        {
+          "token": "he",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F85"
+        },
+        {
+          "token": "hun",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F86"
+        },
+        {
+          "token": "nân",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F87"
+        },
+        {
+          "token": "dik",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F88"
+        },
+        {
+          "token": "tiin",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F89"
+        },
+        {
+          "token": "vek",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F90"
+        },
+        {
+          "token": "dang",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F91"
+        },
+        {
+          "token": "han",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F92"
+        },
+        {
+          "token": "mah",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F93"
+        },
+        {
+          "token": "hle",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F94"
+        },
+        {
+          "token": "sual",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F95"
+        },
+        {
+          "token": "tin",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F96"
+        },
+        {
+          "token": "ani",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F97"
+        },
+        {
+          "token": "zâwk",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F98"
+        },
+        {
+          "token": "pakhat",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "Numeral; quantifier function, weak as a keyword (as English 'one').",
+          "source_cell": "Stopwords Mizo!F99"
+        },
+        {
+          "token": "tichuan",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F100"
+        },
+        {
+          "token": "teh",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F101"
+        },
+        {
+          "token": "hmu",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F102"
+        },
+        {
+          "token": "hriat",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F103"
+        },
+        {
+          "token": "tân",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F104"
+        },
+        {
+          "token": "thleng",
+          "decision": "retain",
+          "reviewer_basis": "Ambiguous: lexical verb 'arrive' versus postposition 'until, up to'.",
+          "source_cell": "Stopwords Mizo!F105"
+        },
+        {
+          "token": "tu",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F106"
+        },
+        {
+          "token": "khân",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F107"
+        },
+        {
+          "token": "pa",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F108"
+        },
+        {
+          "token": "ngei",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F109"
+        },
+        {
+          "token": "chungah",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F110"
+        },
+        {
+          "token": "tûra",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F111"
+        },
+        {
+          "token": "neih",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F112"
+        },
+        {
+          "token": "emaw",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F113"
+        },
+        {
+          "token": "suh",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F114"
+        },
+        {
+          "token": "angin",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F115"
+        },
+        {
+          "token": "mahse",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F116"
+        },
+        {
+          "token": "pawhin",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F117"
+        },
+        {
+          "token": "ber",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F118"
+        },
+        {
+          "token": "zînga",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F119"
+        },
+        {
+          "token": "erawh",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F120"
+        },
+        {
+          "token": "nên",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F121"
+        },
+        {
+          "token": "hnêna",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F122"
+        },
+        {
+          "token": "chhuah",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F123"
+        },
+        {
+          "token": "aw",
+          "decision": "retain",
+          "reviewer_basis": "Ambiguous: vocative/response particle versus the noun 'voice'.",
+          "source_cell": "Stopwords Mizo!F124"
+        },
+        {
+          "token": "ata",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F125"
+        },
+        {
+          "token": "chhûng",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "Relational noun used as a postposition ('within, during'); 'family' is usually chhûngte.",
+          "source_cell": "Stopwords Mizo!F126"
+        },
+        {
+          "token": "khat",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "Numeral element 'one' (ni khat, vawi khat); the sense 'full' is the minority.",
+          "source_cell": "Stopwords Mizo!F127"
+        },
+        {
+          "token": "ei",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F128"
+        },
+        {
+          "token": "hmun",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F129"
+        },
+        {
+          "token": "hmuh",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F130"
+        },
+        {
+          "token": "hruai",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F131"
+        },
+        {
+          "token": "zêl",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F132"
+        },
+        {
+          "token": "tum",
+          "decision": "retain",
+          "reviewer_basis": "Lexical verb 'intend, try'; also the counter 'times', so kept as ambiguous.",
+          "source_cell": "Stopwords Mizo!F133"
+        },
+        {
+          "token": "chûng",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F134"
+        },
+        {
+          "token": "hnam",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F135"
+        },
+        {
+          "token": "hria",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F136"
+        },
+        {
+          "token": "chutiang",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F137"
+        },
+        {
+          "token": "ula",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F138"
+        },
+        {
+          "token": "ho",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "Collective plural marker ('group of'); the adjective sense (trivial) is rare.",
+          "source_cell": "Stopwords Mizo!F139"
+        },
+        {
+          "token": "thlahte",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F140"
+        },
+        {
+          "token": "thlarau",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F141"
+        },
+        {
+          "token": "amah",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F142"
+        },
+        {
+          "token": "lei",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F143"
+        },
+        {
+          "token": "chunga",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F144"
+        },
+        {
+          "token": "bible",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F145"
+        },
+        {
+          "token": "chi",
+          "decision": "retain",
+          "reviewer_basis": "Ambiguous content noun: 'kind, type', 'seed, descendants', 'salt'.",
+          "source_cell": "Stopwords Mizo!F146"
+        },
+        {
+          "token": "aṭanga",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F147"
+        },
+        {
+          "token": "davida",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F148"
+        },
+        {
+          "token": "hêng",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F149"
+        },
+        {
+          "token": "pêk",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F150"
+        },
+        {
+          "token": "anga",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F151"
+        },
+        {
+          "token": "rilru",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F152"
+        },
+        {
+          "token": "hma",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "Relational noun used as a postposition ('before, in front of').",
+          "source_cell": "Stopwords Mizo!F153"
+        },
+        {
+          "token": "hming",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F154"
+        },
+        {
+          "token": "êm",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F155"
+        },
+        {
+          "token": "thi",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F156"
+        },
+        {
+          "token": "lovin",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F157"
+        },
+        {
+          "token": "juda",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F158"
+        },
+        {
+          "token": "mosia",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F159"
+        },
+        {
+          "token": "thianghlim",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F160"
+        },
+        {
+          "token": "dah",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F161"
+        },
+        {
+          "token": "aṭangin",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F162"
+        },
+        {
+          "token": "chanchin",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F163"
+        },
+        {
+          "token": "engtin",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F164"
+        },
+        {
+          "token": "thlen",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F165"
+        },
+        {
+          "token": "nia",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F166"
+        },
+        {
+          "token": "dam",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F167"
+        },
+        {
+          "token": "krista",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F168"
+        },
+        {
+          "token": "pathianin",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F169"
+        },
+        {
+          "token": "hek",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "Mostly the connective hek lo ('neither, nor'); the verb (accuse) is the minority.",
+          "source_cell": "Stopwords Mizo!F170"
+        },
+        {
+          "token": "jerusalem",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F171"
+        },
+        {
+          "token": "tel",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F172"
+        },
+        {
+          "token": "fate",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F173"
+        },
+        {
+          "token": "kawng",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F174"
+        },
+        {
+          "token": "zîngah",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F175"
+        },
+        {
+          "token": "nu",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F176"
+        },
+        {
+          "token": "tur",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "Unaccented spelling of the purposive tûr; the noun (poison) is rare.",
+          "source_cell": "Stopwords Mizo!F177"
+        },
+        {
+          "token": "tlat",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F178"
+        },
+        {
+          "token": "thiam",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F179"
+        },
+        {
+          "token": "anni",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F180"
+        },
+        {
+          "token": "le",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F181"
+        },
+        {
+          "token": "chauh",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F182"
+        },
+        {
+          "token": "hman",
+          "decision": "retain",
+          "reviewer_basis": "Ambiguous: stem II of hmang 'use', 'have time', and hmân 'formerly'.",
+          "source_cell": "Stopwords Mizo!F183"
+        },
+        {
+          "token": "kei",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F184"
+        },
+        {
+          "token": "lamah",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F185"
+        },
+        {
+          "token": "sa",
+          "decision": "retain",
+          "reviewer_basis": "Ambiguous: noun 'meat, animal', verbs 'build', 'sing', 'be hot'.",
+          "source_cell": "Stopwords Mizo!F186"
+        },
+        {
+          "token": "rama",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F187"
+        },
+        {
+          "token": "dangte",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F188"
+        },
+        {
+          "token": "pahnih",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F189"
+        },
+        {
+          "token": "ropui",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F190"
+        },
+        {
+          "token": "mihring",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F191"
+        },
+        {
+          "token": "ngaihtuah",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F192"
+        },
+        {
+          "token": "man",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F193"
+        },
+        {
+          "token": "hmang",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F194"
+        },
+        {
+          "token": "en",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F195"
+        },
+        {
+          "token": "ring",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F196"
+        },
+        {
+          "token": "khaw",
+          "decision": "retain",
+          "reviewer_basis": "Combining form of khua 'town, village; weather'; content-bearing.",
+          "source_cell": "Stopwords Mizo!F197"
+        },
+        {
+          "token": "khua",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F198"
+        },
+        {
+          "token": "sâwm",
+          "decision": "retain",
+          "reviewer_basis": "Ambiguous: numeral 'ten' versus the verb 'invite'.",
+          "source_cell": "Stopwords Mizo!F199"
+        },
+        {
+          "token": "dawn",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "Mostly the unaccented spelling of the future marker dâwn; the verb (receive) is the minority.",
+          "source_cell": "Stopwords Mizo!F200"
+        },
+        {
+          "token": "puan",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F201"
+        },
+        {
+          "token": "puithiam",
+          "decision": "retain",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F202"
+        },
+        {
+          "token": "chuvângin",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F203"
+        },
+        {
+          "token": "rêng",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F204"
+        },
+        {
+          "token": "mahni",
+          "decision": "exclude_from_index",
+          "reviewer_basis": "",
+          "source_cell": "Stopwords Mizo!F205"
+        }
+      ]
+    }
+  },
+  "mizo_rule_counts": {
+    "accept": 15,
+    "reject": 25
+  },
+  "mizo_rule_decisions": [
+    {
+      "candidate": "te",
+      "decision": "accept",
+      "reviewer_basis": "Plural marker on nouns and nominalised forms (fa-te, mi-te, unau-te). Exceptions are diminutive -te forms and a place name.",
+      "row": 6
+    },
+    {
+      "candidate": "na",
+      "decision": "accept",
+      "reviewer_basis": "Nominaliser forming abstract, locative and instrument nouns from verb stems (hriat-na, awm-na, ropui-na). Exceptions are names and hmana 'formerly'.",
+      "row": 7
+    },
+    {
+      "candidate": "in",
+      "decision": "accept",
+      "reviewer_basis": "Ergative/instrumental case marker and adverbial subordinator (pathian-in, avâng-in, tûr-in). Many roots end in -in, so the rule needs a lexicon check; lovin is lo + in with a glide.",
+      "row": 8
+    },
+    {
+      "candidate": "ah",
+      "decision": "accept",
+      "reviewer_basis": "Locative case marker (hnên-ah, chung-ah, khua-ah). Stem II verb forms and roots ending in -ah are the main false matches and are listed as exceptions.",
+      "row": 9
+    },
+    {
+      "candidate": "ng",
+      "decision": "reject",
+      "reviewer_basis": "Not a suffix: -ng is the final consonant of the root syllable (thleng, chhûng, mihring).",
+      "row": 10
+    },
+    {
+      "candidate": "ia",
+      "decision": "reject",
+      "reviewer_basis": "Not a suffix: a mix of Biblical name endings (matthaia, jeremia), root-final -ia (hmeichhia) and hnuai + a.",
+      "row": 11
+    },
+    {
+      "candidate": "tu",
+      "decision": "accept",
+      "reviewer_basis": "Agentive nominaliser, 'one who does' (siam-tu, hruai-tu, vêng-tu). hotu 'leader' is lexicalised and kept whole.",
+      "row": 12
+    },
+    {
+      "candidate": "an",
+      "decision": "reject",
+      "reviewer_basis": "Not a suffix: root-final in pathian, tichuan, kristian. In lalpan the real marker is ergative -n after a vowel, not -an.",
+      "row": 13
+    },
+    {
+      "candidate": "ak",
+      "decision": "reject",
+      "reviewer_basis": "Not a suffix: -ak is the rhyme of the root syllable (chhuak, tak, ziak).",
+      "row": 14
+    },
+    {
+      "candidate": "îr",
+      "decision": "reject",
+      "reviewer_basis": "False segmentation of the causative -tîr; covered by the tîr rule.",
+      "row": 15
+    },
+    {
+      "candidate": "tîr",
+      "decision": "accept",
+      "reviewer_basis": "Causative verbal suffix (lan-tîr, hriat-tîr, awm-tîr). zirtîr 'teach' is lexicalised and should not merge with zir 'learn'.",
+      "row": 16
+    },
+    {
+      "candidate": "ute",
+      "decision": "reject",
+      "reviewer_basis": "False segmentation: stem-final u plus plural -te (unau-te, hotu-te). Covered by the te rule.",
+      "row": 17
+    },
+    {
+      "candidate": "hte",
+      "decision": "reject",
+      "reviewer_basis": "False segmentation: stem-final h plus plural -te (thlah-te, tirhkoh-te). Covered by the te rule.",
+      "row": 18
+    },
+    {
+      "candidate": "hna",
+      "decision": "reject",
+      "reviewer_basis": "False segmentation: stem II final h plus nominaliser -na (theih-na, thih-na). Covered by the na rule.",
+      "row": 19
+    },
+    {
+      "candidate": "ate",
+      "decision": "reject",
+      "reviewer_basis": "False segmentation: stem-final a plus plural -te (fapa-te, juda-te). Covered by the te rule.",
+      "row": 20
+    },
+    {
+      "candidate": "sak",
+      "decision": "accept",
+      "reviewer_basis": "Benefactive/applicative verbal suffix, 'do for or to someone' (siam-sak, lâk-sak, tih-sak). Exceptions are lexicalised forms and hmasak 'first'.",
+      "row": 21
+    },
+    {
+      "candidate": "aah",
+      "decision": "reject",
+      "reviewer_basis": "False segmentation: stem-final a plus locative -ah (khua-ah, krista-ah). Covered by the ah rule.",
+      "row": 22
+    },
+    {
+      "candidate": "pui",
+      "decision": "accept",
+      "reviewer_basis": "Comitative verbal suffix, 'do together with' (kal-pui, awm-pui). The augmentative noun suffix -pui changes the meaning (khaw 'village' vs khawpui 'city'), so those nouns and lexicalised ṭanpui 'help' are exceptions.",
+      "row": 23
+    },
+    {
+      "candidate": "nna",
+      "decision": "reject",
+      "reviewer_basis": "False segmentation: stem-final n plus nominaliser -na (chên-na, thlamuan-na). Covered by the na rule.",
+      "row": 24
+    },
+    {
+      "candidate": "ang",
+      "decision": "reject",
+      "reviewer_basis": "Not a suffix: -ang is the rhyme of the root syllable (chutiang, chuang, naupang).",
+      "row": 25
+    },
+    {
+      "candidate": "tute",
+      "decision": "accept",
+      "reviewer_basis": "Stacked agentive -tu plus plural -te (hruai-tu-te, rorêl-tu-te). Removed together, before the single-suffix rules.",
+      "row": 26
+    },
+    {
+      "candidate": "naah",
+      "decision": "accept",
+      "reviewer_basis": "Stacked nominaliser -na plus locative -ah (awm-na-ah, hriat-na-ah). Removed together, before the single-suffix rules.",
+      "row": 27
+    },
+    {
+      "candidate": "ahte",
+      "decision": "reject",
+      "reviewer_basis": "Mostly false: stem-final -ah plus plural -te (thlah-te, chhuah-te, fahrah-te). Genuine locative + plural cases (hmun-ah-te) are handled by the te and ah rules in turn.",
+      "row": 28
+    },
+    {
+      "candidate": "nate",
+      "decision": "accept",
+      "reviewer_basis": "Stacked nominaliser -na plus plural -te (zawh-na-te, harsat-na-te). Removed together, before the single-suffix rules.",
+      "row": 29
+    },
+    {
+      "candidate": "ngte",
+      "decision": "reject",
+      "reviewer_basis": "False segmentation: root-final ng plus plural -te (zawng-te, mihring-te). Covered by the te rule.",
+      "row": 30
+    },
+    {
+      "candidate": "ngin",
+      "decision": "reject",
+      "reviewer_basis": "False segmentation: root-final ng plus -in (avâng-in, aṭang-in, hmang-in). Covered by the in rule.",
+      "row": 31
+    },
+    {
+      "candidate": "nain",
+      "decision": "accept",
+      "reviewer_basis": "Stacked nominaliser -na plus ergative/instrumental -in (rin-na-in, hmangaih-na-in). Removed together, before the single-suffix rules.",
+      "row": 32
+    },
+    {
+      "candidate": "ngah",
+      "decision": "reject",
+      "reviewer_basis": "False segmentation: root-final ng plus locative -ah (chung-ah, tlâng-ah, kawng-ah). Covered by the ah rule.",
+      "row": 33
+    },
+    {
+      "candidate": "htîr",
+      "decision": "reject",
+      "reviewer_basis": "False segmentation: stem II final h plus causative -tîr (neih-tîr, hmuh-tîr). Covered by the tîr rule.",
+      "row": 34
+    },
+    {
+      "candidate": "tion",
+      "decision": "reject",
+      "reviewer_basis": "Not Mizo: English loanword ending (station, election). Outside the scope of Mizo suffix rules.",
+      "row": 35
+    },
+    {
+      "candidate": "puite",
+      "decision": "accept",
+      "reviewer_basis": "Stacked comitative -pui plus plural -te (kal-pui-te, rin-pui-te). Augmentative nouns are exceptions so that only -te is removed from them by the te rule.",
+      "row": 36
+    },
+    {
+      "candidate": "ation",
+      "decision": "reject",
+      "reviewer_basis": "Not Mizo: English loanword ending (education, association). Outside the scope of Mizo suffix rules.",
+      "row": 37
+    },
+    {
+      "candidate": "hhuah",
+      "decision": "reject",
+      "reviewer_basis": "False segmentation of chhuah 'come/bring out', a lexical verb in compounds (puan-chhuah, tih-chhuah); removing it changes the meaning.",
+      "row": 38
+    },
+    {
+      "candidate": "hnaah",
+      "decision": "reject",
+      "reviewer_basis": "False segmentation: stem-final h plus -na-ah (hrilh-na-ah, hmangaih-na-ah). Covered by the naah rule.",
+      "row": 39
+    },
+    {
+      "candidate": "hnate",
+      "decision": "reject",
+      "reviewer_basis": "False segmentation: stem-final h plus -na-te (zawh-na-te, theih-na-te). Covered by the nate rule.",
+      "row": 40
+    },
+    {
+      "candidate": "tuten",
+      "decision": "accept",
+      "reviewer_basis": "Stacked agentive -tu, plural -te and ergative -n (rorêl-tu-te-n, hruai-tu-te-n). Longest stack, removed first.",
+      "row": 41
+    },
+    {
+      "candidate": "angin",
+      "decision": "reject",
+      "reviewer_basis": "False segmentation: root-final -ang plus -in (chutiang-in, naupang-in). Covered by the in rule.",
+      "row": 42
+    },
+    {
+      "candidate": "angte",
+      "decision": "reject",
+      "reviewer_basis": "False segmentation: root-final -ang plus plural -te (naupang-te, apiang-te). Covered by the te rule.",
+      "row": 43
+    },
+    {
+      "candidate": "thlâk",
+      "decision": "accept",
+      "reviewer_basis": "Derivational suffix forming 'causing the feeling of' adjectives from verb stems (zah-thlâk, râp-thlâk, ngaih-thlâk).",
+      "row": 44
+    },
+    {
+      "candidate": "htute",
+      "decision": "reject",
+      "reviewer_basis": "False segmentation: stem-final h plus -tu-te (thlah-tu-te, hmangaih-tu-te). Covered by the tute rule.",
+      "row": 45
+    }
+  ],
+  "mizo_rules": [
+    {
+      "suffix": "te",
+      "replacement": "",
+      "minimum_stem_letter_count": 2,
+      "priority": 3,
+      "exceptions": [
+        "naute",
+        "tlêmte",
+        "tête",
+        "vairengte"
+      ],
+      "basis": "Plural marker on nouns and nominalised forms (fa-te, mi-te, unau-te). Exceptions are diminutive -te forms and a place name."
+    },
+    {
+      "suffix": "na",
+      "replacement": "",
+      "minimum_stem_letter_count": 3,
+      "priority": 4,
+      "exceptions": [
+        "johana",
+        "setana",
+        "hosana",
+        "susana",
+        "hmana"
+      ],
+      "basis": "Nominaliser forming abstract, locative and instrument nouns from verb stems (hriat-na, awm-na, ropui-na). Exceptions are names and hmana 'formerly'."
+    },
+    {
+      "suffix": "in",
+      "replacement": "",
+      "minimum_stem_letter_count": 3,
+      "priority": 3,
+      "exceptions": [
+        "chanchin",
+        "engtin",
+        "lovin"
+      ],
+      "basis": "Ergative/instrumental case marker and adverbial subordinator (pathian-in, avâng-in, tûr-in). Many roots end in -in, so the rule needs a lexicon check; lovin is lo + in with a glide."
+    },
+    {
+      "suffix": "ah",
+      "replacement": "",
+      "minimum_stem_letter_count": 3,
+      "priority": 3,
+      "exceptions": [
+        "chhuah",
+        "ngaihtuah",
+        "thlah",
+        "chhiah",
+        "tuah",
+        "fahrah",
+        "chhinchhiah"
+      ],
+      "basis": "Locative case marker (hnên-ah, chung-ah, khua-ah). Stem II verb forms and roots ending in -ah are the main false matches and are listed as exceptions."
+    },
+    {
+      "suffix": "tu",
+      "replacement": "",
+      "minimum_stem_letter_count": 2,
+      "priority": 4,
+      "exceptions": [
+        "hotu"
+      ],
+      "basis": "Agentive nominaliser, 'one who does' (siam-tu, hruai-tu, vêng-tu). hotu 'leader' is lexicalised and kept whole."
+    },
+    {
+      "suffix": "tîr",
+      "replacement": "",
+      "minimum_stem_letter_count": 2,
+      "priority": 4,
+      "exceptions": [
+        "zirtîr"
+      ],
+      "basis": "Causative verbal suffix (lan-tîr, hriat-tîr, awm-tîr). zirtîr 'teach' is lexicalised and should not merge with zir 'learn'."
+    },
+    {
+      "suffix": "sak",
+      "replacement": "",
+      "minimum_stem_letter_count": 3,
+      "priority": 4,
+      "exceptions": [
+        "ngaihsak",
+        "duhsak",
+        "hmasak"
+      ],
+      "basis": "Benefactive/applicative verbal suffix, 'do for or to someone' (siam-sak, lâk-sak, tih-sak). Exceptions are lexicalised forms and hmasak 'first'."
+    },
+    {
+      "suffix": "pui",
+      "replacement": "",
+      "minimum_stem_letter_count": 3,
+      "priority": 4,
+      "exceptions": [
+        "khawpui",
+        "tuipui",
+        "lungpui",
+        "ṭanpui"
+      ],
+      "basis": "Comitative verbal suffix, 'do together with' (kal-pui, awm-pui). The augmentative noun suffix -pui changes the meaning (khaw 'village' vs khawpui 'city'), so those nouns and lexicalised ṭanpui 'help' are exceptions."
+    },
+    {
+      "suffix": "tute",
+      "replacement": "",
+      "minimum_stem_letter_count": 2,
+      "priority": 2,
+      "exceptions": [
+        "hotute"
+      ],
+      "basis": "Stacked agentive -tu plus plural -te (hruai-tu-te, rorêl-tu-te). Removed together, before the single-suffix rules."
+    },
+    {
+      "suffix": "naah",
+      "replacement": "",
+      "minimum_stem_letter_count": 3,
+      "priority": 2,
+      "exceptions": [],
+      "basis": "Stacked nominaliser -na plus locative -ah (awm-na-ah, hriat-na-ah). Removed together, before the single-suffix rules."
+    },
+    {
+      "suffix": "nate",
+      "replacement": "",
+      "minimum_stem_letter_count": 3,
+      "priority": 2,
+      "exceptions": [],
+      "basis": "Stacked nominaliser -na plus plural -te (zawh-na-te, harsat-na-te). Removed together, before the single-suffix rules."
+    },
+    {
+      "suffix": "nain",
+      "replacement": "",
+      "minimum_stem_letter_count": 3,
+      "priority": 2,
+      "exceptions": [],
+      "basis": "Stacked nominaliser -na plus ergative/instrumental -in (rin-na-in, hmangaih-na-in). Removed together, before the single-suffix rules."
+    },
+    {
+      "suffix": "puite",
+      "replacement": "",
+      "minimum_stem_letter_count": 3,
+      "priority": 2,
+      "exceptions": [
+        "khawpuite",
+        "tuipuite",
+        "lungpuite",
+        "ṭanpuite"
+      ],
+      "basis": "Stacked comitative -pui plus plural -te (kal-pui-te, rin-pui-te). Augmentative nouns are exceptions so that only -te is removed from them by the te rule."
+    },
+    {
+      "suffix": "tuten",
+      "replacement": "",
+      "minimum_stem_letter_count": 2,
+      "priority": 1,
+      "exceptions": [
+        "hotuten"
+      ],
+      "basis": "Stacked agentive -tu, plural -te and ergative -n (rorêl-tu-te-n, hruai-tu-te-n). Longest stack, removed first."
+    },
+    {
+      "suffix": "thlâk",
+      "replacement": "",
+      "minimum_stem_letter_count": 3,
+      "priority": 4,
+      "exceptions": [],
+      "basis": "Derivational suffix forming 'causing the feeling of' adjectives from verb stems (zah-thlâk, râp-thlâk, ngaih-thlâk)."
+    }
+  ],
+  "annotations": {
+    "en": {
+      "item_count": 40,
+      "correct_count": 37,
+      "items": [
+        {
+          "token": "under",
+          "expected_stem": "under",
+          "predicted_stem": "under",
+          "correct": true,
+          "reviewer_note": "",
+          "row": 9
+        },
+        {
+          "token": "done",
+          "expected_stem": "done",
+          "predicted_stem": "done",
+          "correct": true,
+          "reviewer_note": "Irregular participle left unchanged; a stemmer is not expected to map it to 'do'.",
+          "row": 10
+        },
+        {
+          "token": "priest",
+          "expected_stem": "priest",
+          "predicted_stem": "priest",
+          "correct": true,
+          "reviewer_note": "",
+          "row": 11
+        },
+        {
+          "token": "could",
+          "expected_stem": "could",
+          "predicted_stem": "could",
+          "correct": true,
+          "reviewer_note": "",
+          "row": 12
+        },
+        {
+          "token": "here",
+          "expected_stem": "here",
+          "predicted_stem": "here",
+          "correct": true,
+          "reviewer_note": "",
+          "row": 13
+        },
+        {
+          "token": "back",
+          "expected_stem": "back",
+          "predicted_stem": "back",
+          "correct": true,
+          "reviewer_note": "",
+          "row": 14
+        },
+        {
+          "token": "just",
+          "expected_stem": "just",
+          "predicted_stem": "just",
+          "correct": true,
+          "reviewer_note": "",
+          "row": 15
+        },
+        {
+          "token": "paul",
+          "expected_stem": "paul",
+          "predicted_stem": "paul",
+          "correct": true,
+          "reviewer_note": "",
+          "row": 16
+        },
+        {
+          "token": "evil",
+          "expected_stem": "evil",
+          "predicted_stem": "evil",
+          "correct": true,
+          "reviewer_note": "",
+          "row": 17
+        },
+        {
+          "token": "together",
+          "expected_stem": "togeth",
+          "predicted_stem": "togeth",
+          "correct": true,
+          "reviewer_note": "Not a dictionary word (-er is not a suffix here), but the stem is consistent and causes no false conflation.",
+          "row": 18
+        },
+        {
+          "token": "thus",
+          "expected_stem": "thus",
+          "predicted_stem": "thus",
+          "correct": true,
+          "reviewer_note": "",
+          "row": 19
+        },
+        {
+          "token": "eyes",
+          "expected_stem": "eye",
+          "predicted_stem": "eye",
+          "correct": true,
+          "reviewer_note": "",
+          "row": 20
+        },
+        {
+          "token": "must",
+          "expected_stem": "must",
+          "predicted_stem": "must",
+          "correct": true,
+          "reviewer_note": "",
+          "row": 21
+        },
+        {
+          "token": "hundred",
+          "expected_stem": "hundr",
+          "predicted_stem": "hundr",
+          "correct": true,
+          "reviewer_note": "Not a dictionary word (-ed is not a suffix here), but 'hundred' and 'hundreds' conflate correctly.",
+          "row": 22
+        },
+        {
+          "token": "high",
+          "expected_stem": "high",
+          "predicted_stem": "high",
+          "correct": true,
+          "reviewer_note": "",
+          "row": 23
+        },
+        {
+          "token": "lalnunfela",
+          "expected_stem": "lalnunfela",
+          "predicted_stem": "lalnunfela",
+          "correct": true,
+          "reviewer_note": "",
+          "row": 24
+        },
+        {
+          "token": "bracelets",
+          "expected_stem": "bracelet",
+          "predicted_stem": "bracelet",
+          "correct": true,
+          "reviewer_note": "",
+          "row": 25
+        },
+        {
+          "token": "zetham",
+          "expected_stem": "zetham",
+          "predicted_stem": "zetham",
+          "correct": true,
+          "reviewer_note": "",
+          "row": 26
+        },
+        {
+          "token": "roles",
+          "expected_stem": "role",
+          "predicted_stem": "role",
+          "correct": true,
+          "reviewer_note": "",
+          "row": 27
+        },
+        {
+          "token": "kanhmun",
+          "expected_stem": "kanhmun",
+          "predicted_stem": "kanhmun",
+          "correct": true,
+          "reviewer_note": "",
+          "row": 28
+        },
+        {
+          "token": "pekahiah",
+          "expected_stem": "pekahiah",
+          "predicted_stem": "pekahiah",
+          "correct": true,
+          "reviewer_note": "",
+          "row": 29
+        },
+        {
+          "token": "symbols",
+          "expected_stem": "symbol",
+          "predicted_stem": "symbol",
+          "correct": true,
+          "reviewer_note": "",
+          "row": 30
+        },
+        {
+          "token": "greece",
+          "expected_stem": "greec",
+          "predicted_stem": "greec",
+          "correct": true,
+          "reviewer_note": "Place name loses final -e only; no collision with 'greek'.",
+          "row": 31
+        },
+        {
+          "token": "condolence",
+          "expected_stem": "condol",
+          "predicted_stem": "condol",
+          "correct": true,
+          "reviewer_note": "Conflates with 'condole' and 'condolences'; acceptable.",
+          "row": 32
+        },
+        {
+          "token": "shalal",
+          "expected_stem": "shalal",
+          "predicted_stem": "shalal",
+          "correct": true,
+          "reviewer_note": "",
+          "row": 33
+        },
+        {
+          "token": "hash",
+          "expected_stem": "hash",
+          "predicted_stem": "hash",
+          "correct": true,
+          "reviewer_note": "",
+          "row": 34
+        },
+        {
+          "token": "maher",
+          "expected_stem": "maher",
+          "predicted_stem": "maher",
+          "correct": true,
+          "reviewer_note": "",
+          "row": 35
+        },
+        {
+          "token": "naamathite",
+          "expected_stem": "naamathit",
+          "predicted_stem": "naamathit",
+          "correct": true,
+          "reviewer_note": "Gentilic loses final -e only; singular and plural conflate correctly.",
+          "row": 36
+        },
+        {
+          "token": "zophar",
+          "expected_stem": "zophar",
+          "predicted_stem": "zophar",
+          "correct": true,
+          "reviewer_note": "",
+          "row": 37
+        },
+        {
+          "token": "transgress",
+          "expected_stem": "transgress",
+          "predicted_stem": "transgress",
+          "correct": true,
+          "reviewer_note": "",
+          "row": 38
+        },
+        {
+          "token": "quarters",
+          "expected_stem": "quarter",
+          "predicted_stem": "quarter",
+          "correct": true,
+          "reviewer_note": "",
+          "row": 39
+        },
+        {
+          "token": "weddings",
+          "expected_stem": "wedding",
+          "predicted_stem": "wed",
+          "correct": false,
+          "reviewer_note": "Over-stemmed: the noun 'wedding' is reduced to the verb 'wed'. Plural -s only should be removed.",
+          "row": 40
+        },
+        {
+          "token": "aggarwal",
+          "expected_stem": "aggarwal",
+          "predicted_stem": "aggarw",
+          "correct": false,
+          "reviewer_note": "Personal name; -al is wrongly stripped as a derivational suffix. The name should stay whole.",
+          "row": 41
+        },
+        {
+          "token": "naveen",
+          "expected_stem": "naveen",
+          "predicted_stem": "naveen",
+          "correct": true,
+          "reviewer_note": "",
+          "row": 42
+        },
+        {
+          "token": "nocturnal",
+          "expected_stem": "nocturn",
+          "predicted_stem": "nocturn",
+          "correct": true,
+          "reviewer_note": "",
+          "row": 43
+        },
+        {
+          "token": "immigrants",
+          "expected_stem": "immigr",
+          "predicted_stem": "immigr",
+          "correct": true,
+          "reviewer_note": "Conflates with 'immigrate' and 'immigration'; acceptable.",
+          "row": 44
+        },
+        {
+          "token": "encamps",
+          "expected_stem": "encamp",
+          "predicted_stem": "encamp",
+          "correct": true,
+          "reviewer_note": "",
+          "row": 45
+        },
+        {
+          "token": "tribulations",
+          "expected_stem": "tribul",
+          "predicted_stem": "tribul",
+          "correct": true,
+          "reviewer_note": "",
+          "row": 46
+        },
+        {
+          "token": "repents",
+          "expected_stem": "repent",
+          "predicted_stem": "repent",
+          "correct": true,
+          "reviewer_note": "",
+          "row": 47
+        },
+        {
+          "token": "emphasised",
+          "expected_stem": "emphas",
+          "predicted_stem": "emphasis",
+          "correct": false,
+          "reviewer_note": "British -ise spelling is under-stemmed and does not conflate with 'emphasized' (emphas); expected stem aligned to that form.",
+          "row": 48
+        }
+      ],
+      "accuracy": 0.925
+    },
+    "lus": {
+      "item_count": 50,
+      "correct_count": 41,
+      "items": [
+        {
+          "token": "atân",
+          "expected_stem": "atân",
+          "predicted_stem": "atân",
+          "correct": true,
+          "reviewer_note": "Lexicalised postposition 'for'; a- is a fused prefix, no suffix to strip.",
+          "row": 6
+        },
+        {
+          "token": "chumi",
+          "expected_stem": "chumi",
+          "predicted_stem": "chumi",
+          "correct": true,
+          "reviewer_note": "Demonstrative compound (chu + mi); no suffix.",
+          "row": 7
+        },
+        {
+          "token": "nasa",
+          "expected_stem": "nasa",
+          "predicted_stem": "nasa",
+          "correct": true,
+          "reviewer_note": "Root; final -sa is not a suffix.",
+          "row": 8
+        },
+        {
+          "token": "sela",
+          "expected_stem": "sela",
+          "predicted_stem": "sela",
+          "correct": true,
+          "reviewer_note": "Fused optative particle (se + la); function word, left whole.",
+          "row": 9
+        },
+        {
+          "token": "lama",
+          "expected_stem": "lam",
+          "predicted_stem": "lama",
+          "correct": false,
+          "reviewer_note": "lam + locative/genitive -a.",
+          "row": 10
+        },
+        {
+          "token": "khawvêl",
+          "expected_stem": "khawvêl",
+          "predicted_stem": "khawvêl",
+          "correct": true,
+          "reviewer_note": "Lexicalised compound 'world'; no suffix.",
+          "row": 11
+        },
+        {
+          "token": "thla",
+          "expected_stem": "thla",
+          "predicted_stem": "thla",
+          "correct": true,
+          "reviewer_note": "Root.",
+          "row": 12
+        },
+        {
+          "token": "ziak",
+          "expected_stem": "ziak",
+          "predicted_stem": "ziak",
+          "correct": true,
+          "reviewer_note": "Root; -ak is the root rhyme.",
+          "row": 13
+        },
+        {
+          "token": "chhan",
+          "expected_stem": "chhan",
+          "predicted_stem": "chhan",
+          "correct": true,
+          "reviewer_note": "Root 'reason'; final -n is not the ergative here.",
+          "row": 14
+        },
+        {
+          "token": "lâwm",
+          "expected_stem": "lâwm",
+          "predicted_stem": "lâwm",
+          "correct": true,
+          "reviewer_note": "Root.",
+          "row": 15
+        },
+        {
+          "token": "hmaah",
+          "expected_stem": "hma",
+          "predicted_stem": "hma",
+          "correct": true,
+          "reviewer_note": "hma + locative -ah.",
+          "row": 16
+        },
+        {
+          "token": "lalpan",
+          "expected_stem": "lalpa",
+          "predicted_stem": "lalpan",
+          "correct": false,
+          "reviewer_note": "lalpa + ergative -n.",
+          "row": 17
+        },
+        {
+          "token": "lang",
+          "expected_stem": "lang",
+          "predicted_stem": "lang",
+          "correct": true,
+          "reviewer_note": "Root; -ng is the root coda.",
+          "row": 18
+        },
+        {
+          "token": "hunah",
+          "expected_stem": "hun",
+          "predicted_stem": "hun",
+          "correct": true,
+          "reviewer_note": "hun + locative -ah.",
+          "row": 19
+        },
+        {
+          "token": "aigupta",
+          "expected_stem": "aigupta",
+          "predicted_stem": "aigupta",
+          "correct": true,
+          "reviewer_note": "Place name; left whole.",
+          "row": 20
+        },
+        {
+          "token": "remtihsak",
+          "expected_stem": "remtih",
+          "predicted_stem": "remtih",
+          "correct": true,
+          "reviewer_note": "remtih (stem II of remti) + benefactive -sak. Stem II form kept as written, not normalised to remti.",
+          "row": 21
+        },
+        {
+          "token": "zawite",
+          "expected_stem": "zawite",
+          "predicted_stem": "zawi",
+          "correct": false,
+          "reviewer_note": "Adverb 'gently'; -te is the diminutive, not the plural, so it is not stripped.",
+          "row": 22
+        },
+        {
+          "token": "ṭawngṭainaahte",
+          "expected_stem": "ṭawngṭai",
+          "predicted_stem": "ṭawngṭainaah",
+          "correct": false,
+          "reviewer_note": "ṭawngṭai + nominaliser -na + locative -ah + plural -te.",
+          "row": 23
+        },
+        {
+          "token": "kutphaha",
+          "expected_stem": "kutphah",
+          "predicted_stem": "kutphaha",
+          "correct": false,
+          "reviewer_note": "kutphah + locative/genitive -a.",
+          "row": 24
+        },
+        {
+          "token": "sárlàmkai",
+          "expected_stem": "sárlàmkai",
+          "predicted_stem": "sárlàmkai",
+          "correct": true,
+          "reviewer_note": "Name of a dance, written with tone marks; left whole.",
+          "row": 25
+        },
+        {
+          "token": "inchhawk",
+          "expected_stem": "inchhawk",
+          "predicted_stem": "inchhawk",
+          "correct": true,
+          "reviewer_note": "in- is a reflexive/reciprocal prefix; no suffix. Removing the prefix would change the meaning.",
+          "row": 26
+        },
+        {
+          "token": "ethnana",
+          "expected_stem": "ethnana",
+          "predicted_stem": "ethna",
+          "correct": false,
+          "reviewer_note": "Personal name; final -na is part of the name.",
+          "row": 27
+        },
+        {
+          "token": "thinurthlâk",
+          "expected_stem": "thinur",
+          "predicted_stem": "thinur",
+          "correct": true,
+          "reviewer_note": "thinur + derivational -thlâk.",
+          "row": 28
+        },
+        {
+          "token": "uikawm",
+          "expected_stem": "uikawm",
+          "predicted_stem": "uikawm",
+          "correct": true,
+          "reviewer_note": "No suffix identified. Uncertain about this word; reviewer to confirm.",
+          "row": 29
+        },
+        {
+          "token": "thîntu",
+          "expected_stem": "thîntu",
+          "predicted_stem": "thîn",
+          "correct": false,
+          "reviewer_note": "Not productive agentive: this is habitual ṭhîn + -tu (hrem thîntu). Stripping -tu would leave a particle, so left whole; reviewer to confirm.",
+          "row": 30
+        },
+        {
+          "token": "inspector",
+          "expected_stem": "inspector",
+          "predicted_stem": "inspector",
+          "correct": true,
+          "reviewer_note": "English loanword; left whole.",
+          "row": 31
+        },
+        {
+          "token": "azazia",
+          "expected_stem": "azazia",
+          "predicted_stem": "azazia",
+          "correct": true,
+          "reviewer_note": "Personal name; final -ia is part of the name.",
+          "row": 32
+        },
+        {
+          "token": "piantîr",
+          "expected_stem": "pian",
+          "predicted_stem": "pian",
+          "correct": true,
+          "reviewer_note": "pian (stem II of piang) + causative -tîr.",
+          "row": 33
+        },
+        {
+          "token": "êntute",
+          "expected_stem": "ên",
+          "predicted_stem": "ên",
+          "correct": true,
+          "reviewer_note": "ên + agentive -tu + plural -te.",
+          "row": 34
+        },
+        {
+          "token": "kumkulhah",
+          "expected_stem": "kumkulh",
+          "predicted_stem": "kumkulh",
+          "correct": true,
+          "reviewer_note": "kumkulh + locative -ah.",
+          "row": 35
+        },
+        {
+          "token": "malpuiah",
+          "expected_stem": "malpui",
+          "predicted_stem": "malpui",
+          "correct": true,
+          "reviewer_note": "malpui + locative -ah. malpui 'thigh' is lexicalised, so -pui is kept.",
+          "row": 36
+        },
+        {
+          "token": "paihtîr",
+          "expected_stem": "paih",
+          "predicted_stem": "paih",
+          "correct": true,
+          "reviewer_note": "paih + causative -tîr.",
+          "row": 37
+        },
+        {
+          "token": "dîpdâl",
+          "expected_stem": "dîpdâl",
+          "predicted_stem": "dîpdâl",
+          "correct": true,
+          "reviewer_note": "Root (reduplicative compound); no suffix.",
+          "row": 38
+        },
+        {
+          "token": "aggarwal",
+          "expected_stem": "aggarwal",
+          "predicted_stem": "aggarwal",
+          "correct": true,
+          "reviewer_note": "Personal name; left whole.",
+          "row": 39
+        },
+        {
+          "token": "naveen",
+          "expected_stem": "naveen",
+          "predicted_stem": "naveen",
+          "correct": true,
+          "reviewer_note": "Personal name; left whole.",
+          "row": 40
+        },
+        {
+          "token": "hnîm",
+          "expected_stem": "hnîm",
+          "predicted_stem": "hnîm",
+          "correct": true,
+          "reviewer_note": "Root.",
+          "row": 41
+        },
+        {
+          "token": "awihawm",
+          "expected_stem": "awih",
+          "predicted_stem": "awihawm",
+          "correct": false,
+          "reviewer_note": "awih + derivational -awm 'worthy of'. Not among the reviewed suffix rules; reviewer to confirm.",
+          "row": 42
+        },
+        {
+          "token": "chhawih",
+          "expected_stem": "chhawih",
+          "predicted_stem": "chhawih",
+          "correct": true,
+          "reviewer_note": "No suffix identified; final -h is not a suffix. Uncertain about this word; reviewer to confirm.",
+          "row": 43
+        },
+        {
+          "token": "zirnain",
+          "expected_stem": "zirnain",
+          "predicted_stem": "zir",
+          "correct": false,
+          "reviewer_note": "Here -in is the noun 'house' (zirna in 'school'), not the ergative, so it is not stripped. Would be over-stemmed by the in and nain rules.",
+          "row": 44
+        },
+        {
+          "token": "hmusitin",
+          "expected_stem": "hmusit",
+          "predicted_stem": "hmusit",
+          "correct": true,
+          "reviewer_note": "hmusit + adverbial -in.",
+          "row": 45
+        },
+        {
+          "token": "thlahte",
+          "expected_stem": "thlah",
+          "predicted_stem": "thlah",
+          "correct": true,
+          "reviewer_note": "thlah + plural -te.",
+          "row": 46
+        },
+        {
+          "token": "dangte",
+          "expected_stem": "dang",
+          "predicted_stem": "dang",
+          "correct": true,
+          "reviewer_note": "dang + plural -te.",
+          "row": 47
+        },
+        {
+          "token": "theihna",
+          "expected_stem": "theih",
+          "predicted_stem": "theih",
+          "correct": true,
+          "reviewer_note": "theih (stem II of thei) + nominaliser -na. Stem II form kept as written.",
+          "row": 48
+        },
+        {
+          "token": "johana",
+          "expected_stem": "johana",
+          "predicted_stem": "johana",
+          "correct": true,
+          "reviewer_note": "Personal name; final -na is part of the name.",
+          "row": 49
+        },
+        {
+          "token": "avângin",
+          "expected_stem": "avâng",
+          "predicted_stem": "avâng",
+          "correct": true,
+          "reviewer_note": "avâng + adverbial -in.",
+          "row": 50
+        },
+        {
+          "token": "pawhin",
+          "expected_stem": "pawh",
+          "predicted_stem": "pawh",
+          "correct": true,
+          "reviewer_note": "pawh + ergative -in.",
+          "row": 51
+        },
+        {
+          "token": "hnênah",
+          "expected_stem": "hnên",
+          "predicted_stem": "hnên",
+          "correct": true,
+          "reviewer_note": "hnên + locative -ah.",
+          "row": 52
+        },
+        {
+          "token": "chungah",
+          "expected_stem": "chung",
+          "predicted_stem": "chung",
+          "correct": true,
+          "reviewer_note": "chung + locative -ah.",
+          "row": 53
+        },
+        {
+          "token": "thleng",
+          "expected_stem": "thleng",
+          "predicted_stem": "thleng",
+          "correct": true,
+          "reviewer_note": "Root; -ng is the root coda.",
+          "row": 54
+        },
+        {
+          "token": "chhûng",
+          "expected_stem": "chhûng",
+          "predicted_stem": "chhûng",
+          "correct": true,
+          "reviewer_note": "Root; -ng is the root coda.",
+          "row": 55
+        }
+      ],
+      "accuracy": 0.82
+    }
+  }
+}

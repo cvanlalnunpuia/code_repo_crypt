@@ -1,0 +1,79 @@
+{
+  "annotation_sha256": "b1bcf22e434e45c13ab1c3489f1f6ca5d323112ad5981d1fe57f8727235a512d",
+  "by_language": {
+    "en": {
+      "accuracy": 1.0,
+      "correct_count": 4,
+      "item_count": 4
+    },
+    "lus": {
+      "accuracy": 1.0,
+      "correct_count": 4,
+      "item_count": 4
+    }
+  },
+  "config_sha256": "a76042242ff552e1fd439546da3042a1bee69a61640608b0190f2f2aa2189147",
+  "items": [
+    {
+      "correct": true,
+      "expected_stem": "survey",
+      "language": "en",
+      "predicted_stem": "survey",
+      "token": "surveys"
+    },
+    {
+      "correct": true,
+      "expected_stem": "approv",
+      "language": "en",
+      "predicted_stem": "approv",
+      "token": "approved"
+    },
+    {
+      "correct": true,
+      "expected_stem": "engin",
+      "language": "en",
+      "predicted_stem": "engin",
+      "token": "engineers"
+    },
+    {
+      "correct": true,
+      "expected_stem": "record",
+      "language": "en",
+      "predicted_stem": "record",
+      "token": "recorded"
+    },
+    {
+      "correct": true,
+      "expected_stem": "enfiah",
+      "language": "lus",
+      "predicted_stem": "enfiah",
+      "token": "enfiahna"
+    },
+    {
+      "correct": true,
+      "expected_stem": "hmun",
+      "language": "lus",
+      "predicted_stem": "hmun",
+      "token": "hmunte"
+    },
+    {
+      "correct": true,
+      "expected_stem": "mana",
+      "language": "lus",
+      "predicted_stem": "mana",
+      "token": "mana"
+    },
+    {
+      "correct": true,
+      "expected_stem": "tute",
+      "language": "lus",
+      "predicted_stem": "tute",
+      "token": "tute"
+    }
+  ],
+  "overall": {
+    "accuracy": 1.0,
+    "correct_count": 8,
+    "item_count": 8
+  }
+}

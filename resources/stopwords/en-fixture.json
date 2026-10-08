@@ -1,0 +1,15 @@
+{
+  "list_version": "1.0.0",
+  "language": "en",
+  "scope": "synthetic_fixture",
+  "status": "approved",
+  "reviewed_by": "automated-fixture",
+  "reviewed_at": "2026-09-01",
+  "entries": [
+    {"token": "and", "decision": "exclude_from_index", "basis": "synthetic pipeline check"},
+    {"token": "before", "decision": "exclude_from_index", "basis": "synthetic pipeline check"},
+    {"token": "the", "decision": "exclude_from_index", "basis": "synthetic pipeline check"},
+    {"token": "will", "decision": "exclude_from_index", "basis": "synthetic pipeline check"},
+    {"token": "survey", "decision": "retain", "basis": "synthetic content-word check"}
+  ]
+}

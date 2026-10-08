@@ -1,0 +1,87 @@
+{
+  "absolute_tolerance": 0.0005,
+  "configuration": {
+    "absolute_tolerance": 0.0005,
+    "attack": {
+      "free_fraction": 0.25,
+      "iteration_checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "mode": "Vol",
+      "name": "ihop"
+    },
+    "dataset": {
+      "auxiliary_split": "splitn10000",
+      "client_documents_after_split": 20000,
+      "keyword_count": 500,
+      "keyword_selection": "random",
+      "name": "enron-full",
+      "processed_path": "vendor/ihop-code/datasets_pro/enron-full.pkl",
+      "selected_documents": 30000
+    },
+    "defence": "none",
+    "expected_recovery": [
+      0.058,
+      0.174,
+      0.904,
+      0.952
+    ],
+    "id": "ihop-enron-volume-seed0",
+    "queries": {
+      "count": 500,
+      "frequency_source": "none",
+      "mode": "each"
+    },
+    "scope": "static_sse",
+    "seed": 0,
+    "threat_model": {
+      "adversary": "passive_server",
+      "auxiliary_data": "10000_disjoint_plaintext_documents",
+      "goal": "query_recovery",
+      "observed_leakage": [
+        "access_pattern",
+        "response_volume"
+      ],
+      "target": "single_keyword_queries"
+    }
+  },
+  "dataset_sha256": "1f78e50af2c6c5474b43107adfed0e849ede5d06ba8192ea469f8eccf75e5981",
+  "elapsed_seconds": 72.1349728,
+  "expected_recovery": [
+    0.058,
+    0.174,
+    0.904,
+    0.952
+  ],
+  "experiment_id": "ihop-enron-volume-seed0",
+  "finished_at": "2026-08-31T12:03:57.585757+00:00",
+  "observed_accuracy": [
+    0.06,
+    0.162,
+    0.898,
+    0.972
+  ],
+  "observed_recovery": [
+    0.06,
+    0.162,
+    0.898,
+    0.972
+  ],
+  "packages": {
+    "matplotlib": "3.5.1",
+    "numpy": "1.22.3",
+    "scikit-learn": "1.0.2",
+    "scipy": "1.8.0"
+  },
+  "platform": "Windows-10-10.0.26200-SP0",
+  "python": "3.9.12 (main, May  3 2022, 01:55:40) [MSC v.1929 64 bit (AMD64)]",
+  "python_hash_seed": "0",
+  "runtime_id": "py39-hash0",
+  "seed": 0,
+  "started_at": "2026-08-31T12:02:45.453087+00:00",
+  "status": "failed",
+  "upstream_revision": "10631a10e3ec461ad01d38fc74f7933d31062ba5"
+}

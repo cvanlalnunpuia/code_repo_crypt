@@ -1,0 +1,20 @@
+[
+  {
+    "changed_stem_count": 4,
+    "language": "lus",
+    "record_id": "bd420626daa0e77ce304ffefa6e4dca2b6f50e4252d960b04325a3528d01ba08",
+    "removed_stopword_count": 7,
+    "token_count": 30,
+    "token_sequence_sha256": "abeb94df180e40474c26c1fb1cd346d1c27401529d3a05a47d7f5142f1435c84",
+    "unique_token_count": 26
+  },
+  {
+    "changed_stem_count": 5,
+    "language": "en",
+    "record_id": "fb786e837071a41835e0f95eb2668efddef81f703d22dd08aa582202382351f7",
+    "removed_stopword_count": 7,
+    "token_count": 22,
+    "token_sequence_sha256": "76b24115a6d657c3ef3fe316eb96215b0450356caac6fe5c7d5bc7fbab133be2",
+    "unique_token_count": 18
+  }
+]

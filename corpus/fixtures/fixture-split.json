@@ -1,0 +1,42 @@
+{
+  "assignments": {
+    "en": {
+      "auxiliary_record_ids": [
+        "fb786e837071a41835e0f95eb2668efddef81f703d22dd08aa582202382351f7"
+      ],
+      "client_record_ids": [
+        "fb786e837071a41835e0f95eb2668efddef81f703d22dd08aa582202382351f7"
+      ]
+    },
+    "lus": {
+      "auxiliary_record_ids": [
+        "bd420626daa0e77ce304ffefa6e4dca2b6f50e4252d960b04325a3528d01ba08"
+      ],
+      "client_record_ids": [
+        "bd420626daa0e77ce304ffefa6e4dca2b6f50e4252d960b04325a3528d01ba08"
+      ]
+    }
+  },
+  "auxiliary_pair_indices": [
+    0
+  ],
+  "client_pair_indices": [
+    0
+  ],
+  "config": {
+    "auxiliary_fraction": 1.0,
+    "config_version": "1.0.0",
+    "mode": "shared_fixture_only",
+    "seed": 20260901,
+    "selection": "corpus/fixtures/fixture-pilot-selection.json"
+  },
+  "config_sha256": "9360700403b43ccfc25533be057e45d52f725a69595fd39a00208212480383f7",
+  "languages": [
+    "lus",
+    "en"
+  ],
+  "matched_pair_count": 1,
+  "mode": "shared_fixture_only",
+  "seed": 20260901,
+  "selection_sha256": "4029a90051dd83de132f92c075713fe46d17d6fd8762f117405d8bc372e16696"
+}

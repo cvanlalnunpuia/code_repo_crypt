@@ -1,0 +1,17 @@
+{
+  "config_version": "1.0.0",
+  "experiment": "results/corpus/production-fixed-split-experiments.json",
+  "conditions": ["tokenisation_only", "stopword_removal", "stemming"],
+  "languages": ["en", "lus"],
+  "metrics": ["query_weighted_recovery", "distinct_keyword_macro_recovery"],
+  "language_difference": "lus_minus_en",
+  "preprocessing_contrasts": [
+    ["stopword_removal", "tokenisation_only"],
+    ["stemming", "tokenisation_only"],
+    ["stemming", "stopword_removal"]
+  ],
+  "adjustment": "Holm within each of the two reported comparison families",
+  "confidence_level": 0.95,
+  "test": "exact two-sided sign-flip on paired seed differences",
+  "interpretation": "Conditional on the fixed corpus and split. Preprocessing contrasts include the reselected keyword vocabulary."
+}

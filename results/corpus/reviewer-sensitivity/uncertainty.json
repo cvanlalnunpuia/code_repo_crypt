@@ -1,0 +1,2368 @@
+{
+  "checkpoint_sha256": "37ebf9375971ae99cdc02c4934876e2c540cb242db78dc0a54327a683ce83696",
+  "contrasts": [
+    {
+      "condition": "flores200",
+      "contrast": "FLORES minus WMT23",
+      "distribution": "uniform_iid",
+      "family": "balanced",
+      "language": "en",
+      "mean": -0.004333333333333332,
+      "metric": "weighted",
+      "paired_values": [
+        -0.009199999999999998,
+        0.00040000000000000105,
+        -0.004199999999999999
+      ],
+      "partition": 20261007,
+      "sd": 0.0048013886880082235
+    },
+    {
+      "condition": "flores200",
+      "contrast": "FLORES minus WMT23",
+      "distribution": "uniform_iid",
+      "family": "balanced",
+      "language": "en",
+      "mean": -0.004666666666666666,
+      "metric": "macro",
+      "paired_values": [
+        -0.007999999999999998,
+        0.0,
+        -0.006
+      ],
+      "partition": 20261007,
+      "sd": 0.004163331998932264
+    },
+    {
+      "condition": "flores200",
+      "contrast": "FLORES minus WMT23",
+      "distribution": "zipf_iid",
+      "family": "balanced",
+      "language": "en",
+      "mean": 0.07233333333333333,
+      "metric": "weighted",
+      "paired_values": [
+        -0.0012000000000000066,
+        0.1274,
+        0.09079999999999999
+      ],
+      "partition": 20261007,
+      "sd": 0.06625898681185319
+    },
+    {
+      "condition": "flores200",
+      "contrast": "FLORES minus WMT23",
+      "distribution": "zipf_iid",
+      "family": "balanced",
+      "language": "en",
+      "mean": 3.293234508412908e-05,
+      "metric": "macro",
+      "paired_values": [
+        -0.013100436681222707,
+        0.004310344827586207,
+        0.008888888888888887
+      ],
+      "partition": 20261007,
+      "sd": 0.011601930999458209
+    },
+    {
+      "condition": "flores200",
+      "contrast": "FLORES minus WMT23",
+      "distribution": "uniform_iid",
+      "family": "balanced",
+      "language": "lus",
+      "mean": 0.0006666666666666661,
+      "metric": "weighted",
+      "paired_values": [
+        0.0007999999999999986,
+        0.0,
+        0.0011999999999999997
+      ],
+      "partition": 20261007,
+      "sd": 0.0006110100926607784
+    },
+    {
+      "condition": "flores200",
+      "contrast": "FLORES minus WMT23",
+      "distribution": "uniform_iid",
+      "family": "balanced",
+      "language": "lus",
+      "mean": -0.0026666666666666666,
+      "metric": "macro",
+      "paired_values": [
+        -0.004,
+        -0.004,
+        0.0
+      ],
+      "partition": 20261007,
+      "sd": 0.002309401076758503
+    },
+    {
+      "condition": "flores200",
+      "contrast": "FLORES minus WMT23",
+      "distribution": "zipf_iid",
+      "family": "balanced",
+      "language": "lus",
+      "mean": -0.039200000000000006,
+      "metric": "weighted",
+      "paired_values": [
+        -0.017199999999999993,
+        -0.018600000000000005,
+        -0.08180000000000001
+      ],
+      "partition": 20261007,
+      "sd": 0.03689932248700511
+    },
+    {
+      "condition": "flores200",
+      "contrast": "FLORES minus WMT23",
+      "distribution": "zipf_iid",
+      "family": "balanced",
+      "language": "lus",
+      "mean": -0.0006701634626645926,
+      "metric": "macro",
+      "paired_values": [
+        -0.004366812227074236,
+        -0.004310344827586207,
+        0.0066666666666666645
+      ],
+      "partition": 20261007,
+      "sd": 0.006353944003671926
+    },
+    {
+      "condition": "flores200",
+      "contrast": "FLORES minus WMT23",
+      "distribution": "uniform_iid",
+      "family": "balanced",
+      "language": "en",
+      "mean": -0.005333333333333335,
+      "metric": "weighted",
+      "paired_values": [
+        -0.005400000000000002,
+        -0.0011999999999999997,
+        -0.009400000000000002
+      ],
+      "partition": 20261008,
+      "sd": 0.004100406483915142
+    },
+    {
+      "condition": "flores200",
+      "contrast": "FLORES minus WMT23",
+      "distribution": "uniform_iid",
+      "family": "balanced",
+      "language": "en",
+      "mean": -0.005333333333333333,
+      "metric": "macro",
+      "paired_values": [
+        -0.006,
+        -0.002,
+        -0.008
+      ],
+      "partition": 20261008,
+      "sd": 0.0030550504633038936
+    },
+    {
+      "condition": "flores200",
+      "contrast": "FLORES minus WMT23",
+      "distribution": "zipf_iid",
+      "family": "balanced",
+      "language": "en",
+      "mean": 0.12546666666666667,
+      "metric": "weighted",
+      "paired_values": [
+        0.07980000000000001,
+        0.2234,
+        0.07319999999999999
+      ],
+      "partition": 20261008,
+      "sd": 0.08487693051314552
+    },
+    {
+      "condition": "flores200",
+      "contrast": "FLORES minus WMT23",
+      "distribution": "zipf_iid",
+      "family": "balanced",
+      "language": "en",
+      "mean": -0.0028700357487437757,
+      "metric": "macro",
+      "paired_values": [
+        -0.004366812227074237,
+        -0.006465517241379311,
+        0.002222222222222221
+      ],
+      "partition": 20261008,
+      "sd": 0.004533151124374452
+    },
+    {
+      "condition": "flores200",
+      "contrast": "FLORES minus WMT23",
+      "distribution": "uniform_iid",
+      "family": "balanced",
+      "language": "lus",
+      "mean": 0.0056,
+      "metric": "weighted",
+      "paired_values": [
+        0.0068000000000000005,
+        0.004,
+        0.005999999999999999
+      ],
+      "partition": 20261008,
+      "sd": 0.0014422205101855957
+    },
+    {
+      "condition": "flores200",
+      "contrast": "FLORES minus WMT23",
+      "distribution": "uniform_iid",
+      "family": "balanced",
+      "language": "lus",
+      "mean": 0.005333333333333333,
+      "metric": "macro",
+      "paired_values": [
+        0.008,
+        0.004,
+        0.004
+      ],
+      "partition": 20261008,
+      "sd": 0.002309401076758503
+    },
+    {
+      "condition": "flores200",
+      "contrast": "FLORES minus WMT23",
+      "distribution": "zipf_iid",
+      "family": "balanced",
+      "language": "lus",
+      "mean": 0.16553333333333334,
+      "metric": "weighted",
+      "paired_values": [
+        0.2022,
+        0.1266,
+        0.1678
+      ],
+      "partition": 20261008,
+      "sd": 0.03785093569957463
+    },
+    {
+      "condition": "flores200",
+      "contrast": "FLORES minus WMT23",
+      "distribution": "zipf_iid",
+      "family": "balanced",
+      "language": "lus",
+      "mean": 0.008105804569816013,
+      "metric": "macro",
+      "paired_values": [
+        0.010917030567685589,
+        -0.0021551724137931043,
+        0.015555555555555555
+      ],
+      "partition": 20261008,
+      "sd": 0.009183937881398728
+    },
+    {
+      "condition": "flores200",
+      "contrast": "FLORES minus WMT23",
+      "distribution": "uniform_iid",
+      "family": "balanced",
+      "language": "en",
+      "mean": -0.0063999999999999994,
+      "metric": "weighted",
+      "paired_values": [
+        -0.005599999999999999,
+        -0.0048000000000000004,
+        -0.008799999999999999
+      ],
+      "partition": 20261009,
+      "sd": 0.002116601048851672
+    },
+    {
+      "condition": "flores200",
+      "contrast": "FLORES minus WMT23",
+      "distribution": "uniform_iid",
+      "family": "balanced",
+      "language": "en",
+      "mean": -0.007333333333333333,
+      "metric": "macro",
+      "paired_values": [
+        -0.007999999999999998,
+        -0.005999999999999998,
+        -0.008
+      ],
+      "partition": 20261009,
+      "sd": 0.001154700538379252
+    },
+    {
+      "condition": "flores200",
+      "contrast": "FLORES minus WMT23",
+      "distribution": "zipf_iid",
+      "family": "balanced",
+      "language": "en",
+      "mean": -0.039799999999999995,
+      "metric": "weighted",
+      "paired_values": [
+        0.1704,
+        -0.1788,
+        -0.11099999999999999
+      ],
+      "partition": 20261009,
+      "sd": 0.1851681398081214
+    },
+    {
+      "condition": "flores200",
+      "contrast": "FLORES minus WMT23",
+      "distribution": "zipf_iid",
+      "family": "balanced",
+      "language": "en",
+      "mean": 0.000660752229416587,
+      "metric": "macro",
+      "paired_values": [
+        0.002183406113537118,
+        0.006465517241379309,
+        -0.006666666666666666
+      ],
+      "partition": 20261009,
+      "sd": 0.006697194911812402
+    },
+    {
+      "condition": "flores200",
+      "contrast": "FLORES minus WMT23",
+      "distribution": "uniform_iid",
+      "family": "balanced",
+      "language": "lus",
+      "mean": 0.002133333333333334,
+      "metric": "weighted",
+      "paired_values": [
+        0.011,
+        -0.003999999999999998,
+        -0.0005999999999999998
+      ],
+      "partition": 20261009,
+      "sd": 0.007864689016949958
+    },
+    {
+      "condition": "flores200",
+      "contrast": "FLORES minus WMT23",
+      "distribution": "uniform_iid",
+      "family": "balanced",
+      "language": "lus",
+      "mean": 0.0033333333333333344,
+      "metric": "macro",
+      "paired_values": [
+        0.010000000000000002,
+        -0.002,
+        0.0020000000000000018
+      ],
+      "partition": 20261009,
+      "sd": 0.006110100926607787
+    },
+    {
+      "condition": "flores200",
+      "contrast": "FLORES minus WMT23",
+      "distribution": "zipf_iid",
+      "family": "balanced",
+      "language": "lus",
+      "mean": -0.027866666666666668,
+      "metric": "weighted",
+      "paired_values": [
+        -0.2262,
+        0.0015999999999999903,
+        0.14100000000000001
+      ],
+      "partition": 20261009,
+      "sd": 0.18536497331840593
+    },
+    {
+      "condition": "flores200",
+      "contrast": "FLORES minus WMT23",
+      "distribution": "zipf_iid",
+      "family": "balanced",
+      "language": "lus",
+      "mean": -0.0072721366148560855,
+      "metric": "macro",
+      "paired_values": [
+        -0.015283842794759826,
+        -0.004310344827586209,
+        -0.0022222222222222227
+      ],
+      "partition": 20261009,
+      "sd": 0.007016455012225822
+    },
+    {
+      "condition": "stemming",
+      "contrast": "Mizo minus English",
+      "distribution": "uniform_iid",
+      "family": "partition",
+      "language": "lus",
+      "mean": -0.016333333333333335,
+      "metric": "weighted",
+      "paired_values": [
+        0.01759999999999999,
+        -0.0204,
+        -0.04619999999999999
+      ],
+      "partition": 20261007,
+      "sd": 0.03209382079674112
+    },
+    {
+      "condition": "stemming",
+      "contrast": "Mizo minus English",
+      "distribution": "uniform_iid",
+      "family": "partition",
+      "language": "lus",
+      "mean": -0.013999999999999993,
+      "metric": "macro",
+      "paired_values": [
+        0.016,
+        -0.015999999999999986,
+        -0.041999999999999996
+      ],
+      "partition": 20261007,
+      "sd": 0.0290516780926679
+    },
+    {
+      "condition": "stemming",
+      "contrast": "Mizo minus English",
+      "distribution": "zipf_iid",
+      "family": "partition",
+      "language": "lus",
+      "mean": -0.03346666666666668,
+      "metric": "weighted",
+      "paired_values": [
+        -0.0464,
+        -0.017800000000000038,
+        -0.03620000000000001
+      ],
+      "partition": 20261007,
+      "sd": 0.014494596694400735
+    },
+    {
+      "condition": "stemming",
+      "contrast": "Mizo minus English",
+      "distribution": "zipf_iid",
+      "family": "partition",
+      "language": "lus",
+      "mean": -0.04096156312915838,
+      "metric": "macro",
+      "paired_values": [
+        -0.034934497816593885,
+        -0.030172413793103453,
+        -0.05777777777777779
+      ],
+      "partition": 20261007,
+      "sd": 0.014756631302334124
+    },
+    {
+      "condition": "stopword_removal",
+      "contrast": "Mizo minus English",
+      "distribution": "uniform_iid",
+      "family": "partition",
+      "language": "lus",
+      "mean": 0.0010666666666666672,
+      "metric": "weighted",
+      "paired_values": [
+        0.029400000000000003,
+        -0.024800000000000003,
+        -0.0013999999999999985
+      ],
+      "partition": 20261007,
+      "sd": 0.02718406395911644
+    },
+    {
+      "condition": "stopword_removal",
+      "contrast": "Mizo minus English",
+      "distribution": "uniform_iid",
+      "family": "partition",
+      "language": "lus",
+      "mean": -0.0006666666666666696,
+      "metric": "macro",
+      "paired_values": [
+        0.022,
+        -0.022000000000000006,
+        -0.0020000000000000018
+      ],
+      "partition": 20261007,
+      "sd": 0.02203028218914441
+    },
+    {
+      "condition": "stopword_removal",
+      "contrast": "Mizo minus English",
+      "distribution": "zipf_iid",
+      "family": "partition",
+      "language": "lus",
+      "mean": 0.08100000000000002,
+      "metric": "weighted",
+      "paired_values": [
+        0.015199999999999991,
+        0.15860000000000002,
+        0.06920000000000004
+      ],
+      "partition": 20261007,
+      "sd": 0.07242458146237368
+    },
+    {
+      "condition": "stopword_removal",
+      "contrast": "Mizo minus English",
+      "distribution": "zipf_iid",
+      "family": "partition",
+      "language": "lus",
+      "mean": 0.007888175029418819,
+      "metric": "macro",
+      "paired_values": [
+        -0.024017467248908297,
+        0.03879310344827587,
+        0.008888888888888884
+      ],
+      "partition": 20261007,
+      "sd": 0.03141724079224485
+    },
+    {
+      "condition": "tokenisation_only",
+      "contrast": "Mizo minus English",
+      "distribution": "uniform_iid",
+      "family": "partition",
+      "language": "lus",
+      "mean": 0.030133333333333328,
+      "metric": "weighted",
+      "paired_values": [
+        0.0208,
+        0.061999999999999986,
+        0.007599999999999996
+      ],
+      "partition": 20261007,
+      "sd": 0.028375576352443182
+    },
+    {
+      "condition": "tokenisation_only",
+      "contrast": "Mizo minus English",
+      "distribution": "uniform_iid",
+      "family": "partition",
+      "language": "lus",
+      "mean": 0.03133333333333334,
+      "metric": "macro",
+      "paired_values": [
+        0.024000000000000007,
+        0.06,
+        0.010000000000000009
+      ],
+      "partition": 20261007,
+      "sd": 0.0257940561628708
+    },
+    {
+      "condition": "tokenisation_only",
+      "contrast": "Mizo minus English",
+      "distribution": "zipf_iid",
+      "family": "partition",
+      "language": "lus",
+      "mean": 0.08413333333333332,
+      "metric": "weighted",
+      "paired_values": [
+        0.09699999999999998,
+        0.10060000000000002,
+        0.05479999999999996
+      ],
+      "partition": 20261007,
+      "sd": 0.025467102963103883
+    },
+    {
+      "condition": "tokenisation_only",
+      "contrast": "Mizo minus English",
+      "distribution": "zipf_iid",
+      "family": "partition",
+      "language": "lus",
+      "mean": 0.06482492317645157,
+      "metric": "macro",
+      "paired_values": [
+        0.07641921397379912,
+        0.0625,
+        0.05555555555555555
+      ],
+      "partition": 20261007,
+      "sd": 0.010624359344477561
+    },
+    {
+      "condition": "stemming",
+      "contrast": "Mizo minus English",
+      "distribution": "uniform_iid",
+      "family": "partition",
+      "language": "lus",
+      "mean": -0.02913333333333333,
+      "metric": "weighted",
+      "paired_values": [
+        -0.033999999999999996,
+        -0.0278,
+        -0.025599999999999998
+      ],
+      "partition": 20261008,
+      "sd": 0.0043558389930452345
+    },
+    {
+      "condition": "stemming",
+      "contrast": "Mizo minus English",
+      "distribution": "uniform_iid",
+      "family": "partition",
+      "language": "lus",
+      "mean": -0.028,
+      "metric": "macro",
+      "paired_values": [
+        -0.031999999999999994,
+        -0.028000000000000004,
+        -0.024000000000000007
+      ],
+      "partition": 20261008,
+      "sd": 0.003999999999999993
+    },
+    {
+      "condition": "stemming",
+      "contrast": "Mizo minus English",
+      "distribution": "zipf_iid",
+      "family": "partition",
+      "language": "lus",
+      "mean": -0.041533333333333346,
+      "metric": "weighted",
+      "paired_values": [
+        -0.030399999999999983,
+        -0.06020000000000003,
+        -0.03400000000000003
+      ],
+      "partition": 20261008,
+      "sd": 0.01626571035440303
+    },
+    {
+      "condition": "stemming",
+      "contrast": "Mizo minus English",
+      "distribution": "zipf_iid",
+      "family": "partition",
+      "language": "lus",
+      "mean": -0.03129076109688969,
+      "metric": "macro",
+      "paired_values": [
+        -0.03056768558951964,
+        -0.03663793103448276,
+        -0.026666666666666672
+      ],
+      "partition": 20261008,
+      "sd": 0.00502480416685452
+    },
+    {
+      "condition": "stopword_removal",
+      "contrast": "Mizo minus English",
+      "distribution": "uniform_iid",
+      "family": "partition",
+      "language": "lus",
+      "mean": -0.007800000000000001,
+      "metric": "weighted",
+      "paired_values": [
+        -0.0426,
+        -0.0032000000000000084,
+        0.022400000000000003
+      ],
+      "partition": 20261008,
+      "sd": 0.0327432435778742
+    },
+    {
+      "condition": "stopword_removal",
+      "contrast": "Mizo minus English",
+      "distribution": "uniform_iid",
+      "family": "partition",
+      "language": "lus",
+      "mean": -0.008,
+      "metric": "macro",
+      "paired_values": [
+        -0.042,
+        -0.0020000000000000018,
+        0.020000000000000004
+      ],
+      "partition": 20261008,
+      "sd": 0.03143246729100342
+    },
+    {
+      "condition": "stopword_removal",
+      "contrast": "Mizo minus English",
+      "distribution": "zipf_iid",
+      "family": "partition",
+      "language": "lus",
+      "mean": 0.001533333333333331,
+      "metric": "weighted",
+      "paired_values": [
+        0.02479999999999999,
+        -0.033999999999999975,
+        0.013799999999999979
+      ],
+      "partition": 20261008,
+      "sd": 0.03126041159891104
+    },
+    {
+      "condition": "stopword_removal",
+      "contrast": "Mizo minus English",
+      "distribution": "zipf_iid",
+      "family": "partition",
+      "language": "lus",
+      "mean": -0.01447956577266922,
+      "metric": "macro",
+      "paired_values": [
+        0.0,
+        -0.03232758620689655,
+        -0.011111111111111113
+      ],
+      "partition": 20261008,
+      "sd": 0.016424922301073796
+    },
+    {
+      "condition": "tokenisation_only",
+      "contrast": "Mizo minus English",
+      "distribution": "uniform_iid",
+      "family": "partition",
+      "language": "lus",
+      "mean": -0.03160000000000001,
+      "metric": "weighted",
+      "paired_values": [
+        -0.01620000000000002,
+        -0.026999999999999996,
+        -0.05160000000000001
+      ],
+      "partition": 20261008,
+      "sd": 0.01814276715388256
+    },
+    {
+      "condition": "tokenisation_only",
+      "contrast": "Mizo minus English",
+      "distribution": "uniform_iid",
+      "family": "partition",
+      "language": "lus",
+      "mean": -0.025999999999999995,
+      "metric": "macro",
+      "paired_values": [
+        -0.01200000000000001,
+        -0.021999999999999992,
+        -0.043999999999999984
+      ],
+      "partition": 20261008,
+      "sd": 0.01637070554374489
+    },
+    {
+      "condition": "tokenisation_only",
+      "contrast": "Mizo minus English",
+      "distribution": "zipf_iid",
+      "family": "partition",
+      "language": "lus",
+      "mean": -0.14026666666666665,
+      "metric": "weighted",
+      "paired_values": [
+        -0.20119999999999993,
+        -0.2344,
+        0.01479999999999998
+      ],
+      "partition": 20261008,
+      "sd": 0.1353137588471081
+    },
+    {
+      "condition": "tokenisation_only",
+      "contrast": "Mizo minus English",
+      "distribution": "zipf_iid",
+      "family": "partition",
+      "language": "lus",
+      "mean": -0.0779100509182575,
+      "metric": "macro",
+      "paired_values": [
+        -0.06550218340611352,
+        -0.09267241379310345,
+        -0.07555555555555554
+      ],
+      "partition": 20261008,
+      "sd": 0.013737288347059857
+    },
+    {
+      "condition": "stemming",
+      "contrast": "Mizo minus English",
+      "distribution": "uniform_iid",
+      "family": "partition",
+      "language": "lus",
+      "mean": -0.010933333333333331,
+      "metric": "weighted",
+      "paired_values": [
+        -0.011799999999999998,
+        -0.0206,
+        -0.0003999999999999976
+      ],
+      "partition": 20261009,
+      "sd": 0.010127849393298331
+    },
+    {
+      "condition": "stemming",
+      "contrast": "Mizo minus English",
+      "distribution": "uniform_iid",
+      "family": "partition",
+      "language": "lus",
+      "mean": -0.007333333333333333,
+      "metric": "macro",
+      "paired_values": [
+        0.0,
+        -0.019999999999999997,
+        -0.0020000000000000018
+      ],
+      "partition": 20261009,
+      "sd": 0.011015141094572202
+    },
+    {
+      "condition": "stemming",
+      "contrast": "Mizo minus English",
+      "distribution": "zipf_iid",
+      "family": "partition",
+      "language": "lus",
+      "mean": -0.05086666666666667,
+      "metric": "weighted",
+      "paired_values": [
+        0.08839999999999998,
+        -0.10520000000000002,
+        -0.13579999999999998
+      ],
+      "partition": 20261009,
+      "sd": 0.12157505226539418
+    },
+    {
+      "condition": "stemming",
+      "contrast": "Mizo minus English",
+      "distribution": "zipf_iid",
+      "family": "partition",
+      "language": "lus",
+      "mean": 0.0036707713586195748,
+      "metric": "macro",
+      "paired_values": [
+        0.01310043668122271,
+        -0.004310344827586209,
+        0.0022222222222222227
+      ],
+      "partition": 20261009,
+      "sd": 0.008795314044267479
+    },
+    {
+      "condition": "stopword_removal",
+      "contrast": "Mizo minus English",
+      "distribution": "uniform_iid",
+      "family": "partition",
+      "language": "lus",
+      "mean": -0.004599999999999997,
+      "metric": "weighted",
+      "paired_values": [
+        -0.0102,
+        0.0006000000000000033,
+        -0.004199999999999995
+      ],
+      "partition": 20261009,
+      "sd": 0.005411099703387475
+    },
+    {
+      "condition": "stopword_removal",
+      "contrast": "Mizo minus English",
+      "distribution": "uniform_iid",
+      "family": "partition",
+      "language": "lus",
+      "mean": -0.0073333333333333375,
+      "metric": "macro",
+      "paired_values": [
+        -0.012000000000000004,
+        0.0,
+        -0.010000000000000009
+      ],
+      "partition": 20261009,
+      "sd": 0.00642910050732864
+    },
+    {
+      "condition": "stopword_removal",
+      "contrast": "Mizo minus English",
+      "distribution": "zipf_iid",
+      "family": "partition",
+      "language": "lus",
+      "mean": -0.05379999999999998,
+      "metric": "weighted",
+      "paired_values": [
+        -0.043399999999999994,
+        -0.027599999999999958,
+        -0.09039999999999998
+      ],
+      "partition": 20261009,
+      "sd": 0.03266619047271965
+    },
+    {
+      "condition": "stopword_removal",
+      "contrast": "Mizo minus English",
+      "distribution": "zipf_iid",
+      "family": "partition",
+      "language": "lus",
+      "mean": -0.008872422716346825,
+      "metric": "macro",
+      "paired_values": [
+        -0.006550218340611355,
+        0.002155172413793101,
+        -0.02222222222222222
+      ],
+      "partition": 20261009,
+      "sd": 0.012353494128465066
+    },
+    {
+      "condition": "tokenisation_only",
+      "contrast": "Mizo minus English",
+      "distribution": "uniform_iid",
+      "family": "partition",
+      "language": "lus",
+      "mean": -0.025599999999999994,
+      "metric": "weighted",
+      "paired_values": [
+        -0.013999999999999985,
+        -0.029200000000000004,
+        -0.03359999999999999
+      ],
+      "partition": 20261009,
+      "sd": 0.010283968105745958
+    },
+    {
+      "condition": "tokenisation_only",
+      "contrast": "Mizo minus English",
+      "distribution": "uniform_iid",
+      "family": "partition",
+      "language": "lus",
+      "mean": -0.023333333333333334,
+      "metric": "macro",
+      "paired_values": [
+        -0.011999999999999983,
+        -0.02800000000000001,
+        -0.030000000000000013
+      ],
+      "partition": 20261009,
+      "sd": 0.009865765724632512
+    },
+    {
+      "condition": "tokenisation_only",
+      "contrast": "Mizo minus English",
+      "distribution": "zipf_iid",
+      "family": "partition",
+      "language": "lus",
+      "mean": -0.15519999999999998,
+      "metric": "weighted",
+      "paired_values": [
+        -0.14379999999999993,
+        -0.16920000000000007,
+        -0.15259999999999996
+      ],
+      "partition": 20261009,
+      "sd": 0.012898061869909059
+    },
+    {
+      "condition": "tokenisation_only",
+      "contrast": "Mizo minus English",
+      "distribution": "zipf_iid",
+      "family": "partition",
+      "language": "lus",
+      "mean": -0.02051959767326428,
+      "metric": "macro",
+      "paired_values": [
+        -0.010917030567685587,
+        -0.015086206896551713,
+        -0.03555555555555555
+      ],
+      "partition": 20261009,
+      "sd": 0.013187324591964134
+    }
+  ],
+  "interpretation": "Sample standard deviations described seed variation within fixed partitions. No additional confirmatory tests were performed.",
+  "matched_seed_baseline": [
+    {
+      "condition": "tokenisation_only",
+      "contrast": "Mizo minus English",
+      "distribution": "uniform_iid",
+      "family": "partition",
+      "mean": -0.005333333333333347,
+      "metric": "weighted",
+      "paired_values": [
+        -0.018200000000000008,
+        -0.011600000000000013,
+        0.013799999999999979
+      ],
+      "sd": 0.016895364255716215
+    },
+    {
+      "condition": "tokenisation_only",
+      "contrast": "Mizo minus English",
+      "distribution": "uniform_iid",
+      "family": "partition",
+      "mean": -0.006666666666666672,
+      "metric": "macro",
+      "paired_values": [
+        -0.016,
+        -0.009999999999999995,
+        0.005999999999999978
+      ],
+      "sd": 0.01137248140615464
+    },
+    {
+      "condition": "tokenisation_only",
+      "contrast": "Mizo minus English",
+      "distribution": "zipf_iid",
+      "family": "partition",
+      "mean": -0.03093333333333333,
+      "metric": "weighted",
+      "paired_values": [
+        -0.05500000000000005,
+        -0.04579999999999995,
+        0.008000000000000007
+      ],
+      "sd": 0.03402959496281632
+    },
+    {
+      "condition": "tokenisation_only",
+      "contrast": "Mizo minus English",
+      "distribution": "zipf_iid",
+      "family": "partition",
+      "mean": -0.047654107201615115,
+      "metric": "macro",
+      "paired_values": [
+        -0.030567685589519666,
+        -0.03017241379310344,
+        -0.08222222222222222
+      ],
+      "sd": 0.029937518133718147
+    },
+    {
+      "condition": "stopword_removal",
+      "contrast": "Mizo minus English",
+      "distribution": "uniform_iid",
+      "family": "partition",
+      "mean": 0.013666666666666666,
+      "metric": "weighted",
+      "paired_values": [
+        0.011199999999999995,
+        0.013399999999999995,
+        0.016400000000000005
+      ],
+      "sd": 0.0026102362600602578
+    },
+    {
+      "condition": "stopword_removal",
+      "contrast": "Mizo minus English",
+      "distribution": "uniform_iid",
+      "family": "partition",
+      "mean": 0.015333333333333336,
+      "metric": "macro",
+      "paired_values": [
+        0.014000000000000005,
+        0.020000000000000004,
+        0.011999999999999997
+      ],
+      "sd": 0.004163331998932268
+    },
+    {
+      "condition": "stopword_removal",
+      "contrast": "Mizo minus English",
+      "distribution": "zipf_iid",
+      "family": "partition",
+      "mean": 0.10880000000000002,
+      "metric": "weighted",
+      "paired_values": [
+        0.040600000000000025,
+        0.11399999999999999,
+        0.17180000000000006
+      ],
+      "sd": 0.06575439148832572
+    },
+    {
+      "condition": "stopword_removal",
+      "contrast": "Mizo minus English",
+      "distribution": "zipf_iid",
+      "family": "partition",
+      "mean": 0.01245378038782647,
+      "metric": "macro",
+      "paired_values": [
+        -0.021834061135371174,
+        0.025862068965517244,
+        0.03333333333333334
+      ],
+      "sd": 0.029928197490884528
+    },
+    {
+      "condition": "stemming",
+      "contrast": "Mizo minus English",
+      "distribution": "uniform_iid",
+      "family": "partition",
+      "mean": 0.016533333333333334,
+      "metric": "weighted",
+      "paired_values": [
+        0.010799999999999997,
+        0.0126,
+        0.0262
+      ],
+      "sd": 0.008419817891934087
+    },
+    {
+      "condition": "stemming",
+      "contrast": "Mizo minus English",
+      "distribution": "uniform_iid",
+      "family": "partition",
+      "mean": 0.02,
+      "metric": "macro",
+      "paired_values": [
+        0.01800000000000001,
+        0.013999999999999999,
+        0.027999999999999997
+      ],
+      "sd": 0.007211102550927976
+    },
+    {
+      "condition": "stemming",
+      "contrast": "Mizo minus English",
+      "distribution": "zipf_iid",
+      "family": "partition",
+      "mean": 0.1340666666666667,
+      "metric": "weighted",
+      "paired_values": [
+        0.1442,
+        0.06120000000000003,
+        0.19680000000000003
+      ],
+      "sd": 0.06836558588451745
+    },
+    {
+      "condition": "stemming",
+      "contrast": "Mizo minus English",
+      "distribution": "zipf_iid",
+      "family": "partition",
+      "mean": 0.029845739430139368,
+      "metric": "macro",
+      "paired_values": [
+        0.01310043668122271,
+        0.04310344827586207,
+        0.03333333333333333
+      ],
+      "sd": 0.01530253768537143
+    },
+    {
+      "condition": "tokenisation_only",
+      "contrast": "FLORES minus WMT23",
+      "distribution": "uniform_iid",
+      "family": "balanced",
+      "language": "en",
+      "mean": 0.010066666666666668,
+      "metric": "weighted",
+      "paired_values": [
+        0.0114,
+        0.0146,
+        0.004200000000000001
+      ],
+      "sd": 0.005326662494783514
+    },
+    {
+      "condition": "tokenisation_only",
+      "contrast": "FLORES minus WMT23",
+      "distribution": "uniform_iid",
+      "family": "balanced",
+      "language": "en",
+      "mean": 0.009333333333333332,
+      "metric": "macro",
+      "paired_values": [
+        0.008,
+        0.014,
+        0.006
+      ],
+      "sd": 0.004163331998932265
+    },
+    {
+      "condition": "tokenisation_only",
+      "contrast": "FLORES minus WMT23",
+      "distribution": "zipf_iid",
+      "family": "balanced",
+      "language": "en",
+      "mean": 0.19099999999999998,
+      "metric": "weighted",
+      "paired_values": [
+        0.1638,
+        0.1328,
+        0.2764
+      ],
+      "sd": 0.07556533596828639
+    },
+    {
+      "condition": "tokenisation_only",
+      "contrast": "FLORES minus WMT23",
+      "distribution": "zipf_iid",
+      "family": "balanced",
+      "language": "en",
+      "mean": 0.002221051046529137,
+      "metric": "macro",
+      "paired_values": [
+        0.015283842794759826,
+        -0.008620689655172415,
+        0.0
+      ],
+      "sd": 0.012106050913734505
+    },
+    {
+      "condition": "tokenisation_only",
+      "contrast": "FLORES minus WMT23",
+      "distribution": "uniform_iid",
+      "family": "balanced",
+      "language": "lus",
+      "mean": 0.010933333333333331,
+      "metric": "weighted",
+      "paired_values": [
+        0.009599999999999997,
+        0.0176,
+        0.005600000000000001
+      ],
+      "sd": 0.006110100926607787
+    },
+    {
+      "condition": "tokenisation_only",
+      "contrast": "FLORES minus WMT23",
+      "distribution": "uniform_iid",
+      "family": "balanced",
+      "language": "lus",
+      "mean": 0.011333333333333332,
+      "metric": "macro",
+      "paired_values": [
+        0.009999999999999998,
+        0.018,
+        0.005999999999999998
+      ],
+      "sd": 0.006110100926607787
+    },
+    {
+      "condition": "tokenisation_only",
+      "contrast": "FLORES minus WMT23",
+      "distribution": "zipf_iid",
+      "family": "balanced",
+      "language": "lus",
+      "mean": 0.07100000000000001,
+      "metric": "weighted",
+      "paired_values": [
+        0.1864,
+        0.01319999999999999,
+        0.013400000000000023
+      ],
+      "sd": 0.09993938162706432
+    },
+    {
+      "condition": "tokenisation_only",
+      "contrast": "FLORES minus WMT23",
+      "distribution": "zipf_iid",
+      "family": "balanced",
+      "language": "lus",
+      "mean": 0.005147540252193166,
+      "metric": "macro",
+      "paired_values": [
+        -0.008733624454148471,
+        0.008620689655172415,
+        0.015555555555555553
+      ],
+      "sd": 0.01251152034996198
+    }
+  ],
+  "summaries": [
+    {
+      "condition": "stemming",
+      "distribution": "uniform_iid",
+      "family": "partition",
+      "language": "en",
+      "macro": {
+        "mean": 0.09066666666666667,
+        "sd": 0.025324559884296768
+      },
+      "partition": 20261007,
+      "weighted": {
+        "mean": 0.09399999999999999,
+        "sd": 0.024838679514016034
+      }
+    },
+    {
+      "condition": "stemming",
+      "distribution": "zipf_iid",
+      "family": "partition",
+      "language": "en",
+      "macro": {
+        "mean": 0.11604863446491213,
+        "sd": 0.016907645081253433
+      },
+      "partition": 20261007,
+      "weighted": {
+        "mean": 0.5875333333333334,
+        "sd": 0.012413433583555072
+      }
+    },
+    {
+      "condition": "stopword_removal",
+      "distribution": "uniform_iid",
+      "family": "partition",
+      "language": "en",
+      "macro": {
+        "mean": 0.05400000000000001,
+        "sd": 0.014422205101855958
+      },
+      "partition": 20261007,
+      "weighted": {
+        "mean": 0.05406666666666666,
+        "sd": 0.01740383099588517
+      }
+    },
+    {
+      "condition": "stopword_removal",
+      "distribution": "zipf_iid",
+      "family": "partition",
+      "language": "en",
+      "macro": {
+        "mean": 0.061238852917064025,
+        "sd": 0.019050559042757525
+      },
+      "partition": 20261007,
+      "weighted": {
+        "mean": 0.46679999999999994,
+        "sd": 0.04285463802203909
+      }
+    },
+    {
+      "condition": "tokenisation_only",
+      "distribution": "uniform_iid",
+      "family": "partition",
+      "language": "en",
+      "macro": {
+        "mean": 0.09733333333333333,
+        "sd": 0.0070237691685684925
+      },
+      "partition": 20261007,
+      "weighted": {
+        "mean": 0.1012,
+        "sd": 0.007034202158027589
+      }
+    },
+    {
+      "condition": "tokenisation_only",
+      "distribution": "zipf_iid",
+      "family": "partition",
+      "language": "en",
+      "macro": {
+        "mean": 0.10057423859637382,
+        "sd": 0.00971590844753558
+      },
+      "partition": 20261007,
+      "weighted": {
+        "mean": 0.5773333333333333,
+        "sd": 0.03549215875842625
+      }
+    },
+    {
+      "condition": "stemming",
+      "distribution": "uniform_iid",
+      "family": "partition",
+      "language": "lus",
+      "macro": {
+        "mean": 0.07666666666666667,
+        "sd": 0.0070237691685684925
+      },
+      "partition": 20261007,
+      "weighted": {
+        "mean": 0.07766666666666666,
+        "sd": 0.008630952052545148
+      }
+    },
+    {
+      "condition": "stemming",
+      "distribution": "zipf_iid",
+      "family": "partition",
+      "language": "lus",
+      "macro": {
+        "mean": 0.07508707133575376,
+        "sd": 0.0028781444819730366
+      },
+      "partition": 20261007,
+      "weighted": {
+        "mean": 0.5540666666666666,
+        "sd": 0.01647341292305068
+      }
+    },
+    {
+      "condition": "stopword_removal",
+      "distribution": "uniform_iid",
+      "family": "partition",
+      "language": "lus",
+      "macro": {
+        "mean": 0.05333333333333334,
+        "sd": 0.009237604307034013
+      },
+      "partition": 20261007,
+      "weighted": {
+        "mean": 0.05513333333333333,
+        "sd": 0.010998787811996981
+      }
+    },
+    {
+      "condition": "stopword_removal",
+      "distribution": "zipf_iid",
+      "family": "partition",
+      "language": "lus",
+      "macro": {
+        "mean": 0.06912702794648284,
+        "sd": 0.014881702830892709
+      },
+      "partition": 20261007,
+      "weighted": {
+        "mean": 0.5478,
+        "sd": 0.029737518390074203
+      }
+    },
+    {
+      "condition": "tokenisation_only",
+      "distribution": "uniform_iid",
+      "family": "partition",
+      "language": "lus",
+      "macro": {
+        "mean": 0.12866666666666668,
+        "sd": 0.025403411844343533
+      },
+      "partition": 20261007,
+      "weighted": {
+        "mean": 0.13133333333333333,
+        "sd": 0.02690749585772212
+      }
+    },
+    {
+      "condition": "tokenisation_only",
+      "distribution": "zipf_iid",
+      "family": "partition",
+      "language": "lus",
+      "macro": {
+        "mean": 0.1653991617728254,
+        "sd": 0.00515056152211898
+      },
+      "partition": 20261007,
+      "weighted": {
+        "mean": 0.6614666666666666,
+        "sd": 0.011609191760554796
+      }
+    },
+    {
+      "condition": "stemming",
+      "distribution": "uniform_iid",
+      "family": "partition",
+      "language": "en",
+      "macro": {
+        "mean": 0.08800000000000001,
+        "sd": 0.009165151389911683
+      },
+      "partition": 20261008,
+      "weighted": {
+        "mean": 0.08979999999999999,
+        "sd": 0.009271461589199404
+      }
+    },
+    {
+      "condition": "stemming",
+      "distribution": "zipf_iid",
+      "family": "partition",
+      "language": "en",
+      "macro": {
+        "mean": 0.10272823983447384,
+        "sd": 0.004305843455356085
+      },
+      "partition": 20261008,
+      "weighted": {
+        "mean": 0.5746,
+        "sd": 0.006520736154760451
+      }
+    },
+    {
+      "condition": "stopword_removal",
+      "distribution": "uniform_iid",
+      "family": "partition",
+      "language": "en",
+      "macro": {
+        "mean": 0.07266666666666667,
+        "sd": 0.026102362600602527
+      },
+      "partition": 20261008,
+      "weighted": {
+        "mean": 0.07466666666666667,
+        "sd": 0.028884136361216225
+      }
+    },
+    {
+      "condition": "stopword_removal",
+      "distribution": "zipf_iid",
+      "family": "partition",
+      "language": "en",
+      "macro": {
+        "mean": 0.07503296023021967,
+        "sd": 0.006191290259041543
+      },
+      "partition": 20261008,
+      "weighted": {
+        "mean": 0.49879999999999997,
+        "sd": 0.017328589094326143
+      }
+    },
+    {
+      "condition": "tokenisation_only",
+      "distribution": "uniform_iid",
+      "family": "partition",
+      "language": "en",
+      "macro": {
+        "mean": 0.17266666666666666,
+        "sd": 0.007571877794400356
+      },
+      "partition": 20261008,
+      "weighted": {
+        "mean": 0.17453333333333335,
+        "sd": 0.00830501856309384
+      }
+    },
+    {
+      "condition": "tokenisation_only",
+      "distribution": "zipf_iid",
+      "family": "partition",
+      "language": "en",
+      "macro": {
+        "mean": 0.21856514246515754,
+        "sd": 0.010311256414397415
+      },
+      "partition": 20261008,
+      "weighted": {
+        "mean": 0.6339333333333333,
+        "sd": 0.13523332922520737
+      }
+    },
+    {
+      "condition": "stemming",
+      "distribution": "uniform_iid",
+      "family": "partition",
+      "language": "lus",
+      "macro": {
+        "mean": 0.06,
+        "sd": 0.012165525060596438
+      },
+      "partition": 20261008,
+      "weighted": {
+        "mean": 0.06066666666666667,
+        "sd": 0.010129823953718708
+      }
+    },
+    {
+      "condition": "stemming",
+      "distribution": "zipf_iid",
+      "family": "partition",
+      "language": "lus",
+      "macro": {
+        "mean": 0.07143747873758415,
+        "sd": 0.002650259925474857
+      },
+      "partition": 20261008,
+      "weighted": {
+        "mean": 0.5330666666666667,
+        "sd": 0.016336870365321884
+      }
+    },
+    {
+      "condition": "stopword_removal",
+      "distribution": "uniform_iid",
+      "family": "partition",
+      "language": "lus",
+      "macro": {
+        "mean": 0.06466666666666666,
+        "sd": 0.005773502691896259
+      },
+      "partition": 20261008,
+      "weighted": {
+        "mean": 0.06686666666666667,
+        "sd": 0.0039004273270160207
+      }
+    },
+    {
+      "condition": "stopword_removal",
+      "distribution": "zipf_iid",
+      "family": "partition",
+      "language": "lus",
+      "macro": {
+        "mean": 0.06055339445755046,
+        "sd": 0.010252392172473071
+      },
+      "partition": 20261008,
+      "weighted": {
+        "mean": 0.5003333333333333,
+        "sd": 0.013951821864306234
+      }
+    },
+    {
+      "condition": "tokenisation_only",
+      "distribution": "uniform_iid",
+      "family": "partition",
+      "language": "lus",
+      "macro": {
+        "mean": 0.14666666666666667,
+        "sd": 0.01285820101465727
+      },
+      "partition": 20261008,
+      "weighted": {
+        "mean": 0.14293333333333333,
+        "sd": 0.012480918769599192
+      }
+    },
+    {
+      "condition": "tokenisation_only",
+      "distribution": "zipf_iid",
+      "family": "partition",
+      "language": "lus",
+      "macro": {
+        "mean": 0.1406550915469,
+        "sd": 0.016224702026864022
+      },
+      "partition": 20261008,
+      "weighted": {
+        "mean": 0.49366666666666664,
+        "sd": 0.018822681353445204
+      }
+    },
+    {
+      "condition": "stemming",
+      "distribution": "uniform_iid",
+      "family": "partition",
+      "language": "en",
+      "macro": {
+        "mean": 0.06733333333333334,
+        "sd": 0.006110100926607785
+      },
+      "partition": 20261009,
+      "weighted": {
+        "mean": 0.0684,
+        "sd": 0.004886716689148249
+      }
+    },
+    {
+      "condition": "stemming",
+      "distribution": "zipf_iid",
+      "family": "partition",
+      "language": "en",
+      "macro": {
+        "mean": 0.05830999347487828,
+        "sd": 0.003230410939999137
+      },
+      "partition": 20261009,
+      "weighted": {
+        "mean": 0.4521333333333333,
+        "sd": 0.02530164685022168
+      }
+    },
+    {
+      "condition": "stopword_removal",
+      "distribution": "uniform_iid",
+      "family": "partition",
+      "language": "en",
+      "macro": {
+        "mean": 0.054,
+        "sd": 0.014000000000000005
+      },
+      "partition": 20261009,
+      "weighted": {
+        "mean": 0.0504,
+        "sd": 0.013382077566656082
+      }
+    },
+    {
+      "condition": "stopword_removal",
+      "distribution": "zipf_iid",
+      "family": "partition",
+      "language": "en",
+      "macro": {
+        "mean": 0.05694378914375903,
+        "sd": 0.010372121881891648
+      },
+      "partition": 20261009,
+      "weighted": {
+        "mean": 0.49379999999999996,
+        "sd": 0.022214409737825583
+      }
+    },
+    {
+      "condition": "tokenisation_only",
+      "distribution": "uniform_iid",
+      "family": "partition",
+      "language": "en",
+      "macro": {
+        "mean": 0.132,
+        "sd": 0.017999999999999995
+      },
+      "partition": 20261009,
+      "weighted": {
+        "mean": 0.13286666666666666,
+        "sd": 0.022539151122731596
+      }
+    },
+    {
+      "condition": "tokenisation_only",
+      "distribution": "zipf_iid",
+      "family": "partition",
+      "language": "en",
+      "macro": {
+        "mean": 0.14942399069751877,
+        "sd": 0.006499358306624617
+      },
+      "partition": 20261009,
+      "weighted": {
+        "mean": 0.6250666666666667,
+        "sd": 0.010400641005886823
+      }
+    },
+    {
+      "condition": "stemming",
+      "distribution": "uniform_iid",
+      "family": "partition",
+      "language": "lus",
+      "macro": {
+        "mean": 0.06,
+        "sd": 0.006000000000000002
+      },
+      "partition": 20261009,
+      "weighted": {
+        "mean": 0.057466666666666666,
+        "sd": 0.005717808437971082
+      }
+    },
+    {
+      "condition": "stemming",
+      "distribution": "zipf_iid",
+      "family": "partition",
+      "language": "lus",
+      "macro": {
+        "mean": 0.061980764833497855,
+        "sd": 0.005829305142309567
+      },
+      "partition": 20261009,
+      "weighted": {
+        "mean": 0.40126666666666666,
+        "sd": 0.10482372504988235
+      }
+    },
+    {
+      "condition": "stopword_removal",
+      "distribution": "uniform_iid",
+      "family": "partition",
+      "language": "lus",
+      "macro": {
+        "mean": 0.04666666666666666,
+        "sd": 0.012220201853215575
+      },
+      "partition": 20261009,
+      "weighted": {
+        "mean": 0.04580000000000001,
+        "sd": 0.01514859729479928
+      }
+    },
+    {
+      "condition": "stopword_removal",
+      "distribution": "zipf_iid",
+      "family": "partition",
+      "language": "lus",
+      "macro": {
+        "mean": 0.0480713664274122,
+        "sd": 0.005248521366486376
+      },
+      "partition": 20261009,
+      "weighted": {
+        "mean": 0.44,
+        "sd": 0.010822199406774952
+      }
+    },
+    {
+      "condition": "tokenisation_only",
+      "distribution": "uniform_iid",
+      "family": "partition",
+      "language": "lus",
+      "macro": {
+        "mean": 0.10866666666666668,
+        "sd": 0.02663331247391758
+      },
+      "partition": 20261009,
+      "weighted": {
+        "mean": 0.10726666666666666,
+        "sd": 0.030616553256912076
+      }
+    },
+    {
+      "condition": "tokenisation_only",
+      "distribution": "zipf_iid",
+      "family": "partition",
+      "language": "lus",
+      "macro": {
+        "mean": 0.1289043930242545,
+        "sd": 0.010239426565332787
+      },
+      "partition": 20261009,
+      "weighted": {
+        "mean": 0.46986666666666665,
+        "sd": 0.0026102362600602703
+      }
+    },
+    {
+      "condition": "stemming",
+      "distribution": "uniform_iid",
+      "family": "controlled",
+      "language": "en",
+      "macro": {
+        "mean": 0.15066666666666664,
+        "sd": 0.0023094010767585054
+      },
+      "partition": 20260901,
+      "weighted": {
+        "mean": 0.1468,
+        "sd": 0.009431860898041277
+      }
+    },
+    {
+      "condition": "stemming",
+      "distribution": "zipf_iid",
+      "family": "controlled",
+      "language": "en",
+      "macro": {
+        "mean": 0.11900492264416314,
+        "sd": 0.026802401202167505
+      },
+      "partition": 20260901,
+      "weighted": {
+        "mean": 0.5232000000000001,
+        "sd": 0.03718709453560471
+      }
+    },
+    {
+      "condition": "stopword_removal",
+      "distribution": "uniform_iid",
+      "family": "controlled",
+      "language": "en",
+      "macro": {
+        "mean": 0.136,
+        "sd": 0.03124099870362661
+      },
+      "partition": 20260901,
+      "weighted": {
+        "mean": 0.13506666666666667,
+        "sd": 0.0334049896472568
+      }
+    },
+    {
+      "condition": "stopword_removal",
+      "distribution": "zipf_iid",
+      "family": "controlled",
+      "language": "en",
+      "macro": {
+        "mean": 0.08959212376933896,
+        "sd": 0.009013485215196695
+      },
+      "partition": 20260901,
+      "weighted": {
+        "mean": 0.46080000000000004,
+        "sd": 0.024621941434419838
+      }
+    },
+    {
+      "condition": "stemming",
+      "distribution": "uniform_iid",
+      "family": "controlled",
+      "language": "lus",
+      "macro": {
+        "mean": 0.156,
+        "sd": 0.030199337741082997
+      },
+      "partition": 20260901,
+      "weighted": {
+        "mean": 0.16186666666666666,
+        "sd": 0.027670441509548296
+      }
+    },
+    {
+      "condition": "stemming",
+      "distribution": "zipf_iid",
+      "family": "controlled",
+      "language": "lus",
+      "macro": {
+        "mean": 0.13584739803094234,
+        "sd": 0.01273887955063342
+      },
+      "partition": 20260901,
+      "weighted": {
+        "mean": 0.5777333333333333,
+        "sd": 0.009036223399923972
+      }
+    },
+    {
+      "condition": "stopword_removal",
+      "distribution": "uniform_iid",
+      "family": "controlled",
+      "language": "lus",
+      "macro": {
+        "mean": 0.15333333333333332,
+        "sd": 0.020526405757787528
+      },
+      "partition": 20260901,
+      "weighted": {
+        "mean": 0.16040000000000001,
+        "sd": 0.027515813635071745
+      }
+    },
+    {
+      "condition": "stopword_removal",
+      "distribution": "zipf_iid",
+      "family": "controlled",
+      "language": "lus",
+      "macro": {
+        "mean": 0.1569268635724332,
+        "sd": 0.015680206184289433
+      },
+      "partition": 20260901,
+      "weighted": {
+        "mean": 0.6324,
+        "sd": 0.04660128753586104
+      }
+    },
+    {
+      "condition": "stemming",
+      "distribution": "zipf_iid",
+      "family": "shuffled",
+      "language": "en",
+      "macro": {
+        "mean": 0.04155879301979287,
+        "sd": 0.007660114244054764
+      },
+      "partition": 20260901,
+      "weighted": {
+        "mean": 0.02093333333333333,
+        "sd": 0.011229128787814898
+      }
+    },
+    {
+      "condition": "stopword_removal",
+      "distribution": "zipf_iid",
+      "family": "shuffled",
+      "language": "en",
+      "macro": {
+        "mean": 0.03492977128611822,
+        "sd": 0.0075552633951744
+      },
+      "partition": 20260901,
+      "weighted": {
+        "mean": 0.0164,
+        "sd": 0.006684309986827362
+      }
+    },
+    {
+      "condition": "tokenisation_only",
+      "distribution": "zipf_iid",
+      "family": "shuffled",
+      "language": "en",
+      "macro": {
+        "mean": 0.08366894488224108,
+        "sd": 0.015715880521172475
+      },
+      "partition": 20260901,
+      "weighted": {
+        "mean": 0.045000000000000005,
+        "sd": 0.006630233781700309
+      }
+    },
+    {
+      "condition": "stemming",
+      "distribution": "zipf_iid",
+      "family": "shuffled",
+      "language": "lus",
+      "macro": {
+        "mean": 0.06409006619931179,
+        "sd": 0.016728696757007198
+      },
+      "partition": 20260901,
+      "weighted": {
+        "mean": 0.07279999999999999,
+        "sd": 0.0614709687576176
+      }
+    },
+    {
+      "condition": "stopword_removal",
+      "distribution": "zipf_iid",
+      "family": "shuffled",
+      "language": "lus",
+      "macro": {
+        "mean": 0.05185153117279303,
+        "sd": 0.01090981133586126
+      },
+      "partition": 20260901,
+      "weighted": {
+        "mean": 0.038066666666666665,
+        "sd": 0.013971876514388942
+      }
+    },
+    {
+      "condition": "tokenisation_only",
+      "distribution": "zipf_iid",
+      "family": "shuffled",
+      "language": "lus",
+      "macro": {
+        "mean": 0.07869313523733039,
+        "sd": 0.02127313478180564
+      },
+      "partition": 20260901,
+      "weighted": {
+        "mean": 0.0802,
+        "sd": 0.04468422540449817
+      }
+    },
+    {
+      "condition": "flores200",
+      "distribution": "uniform_iid",
+      "family": "balanced",
+      "language": "en",
+      "macro": {
+        "mean": 0.013333333333333334,
+        "sd": 0.0011547005383792516
+      },
+      "partition": 20261007,
+      "weighted": {
+        "mean": 0.0134,
+        "sd": 0.0017776388834631178
+      }
+    },
+    {
+      "condition": "flores200",
+      "distribution": "zipf_iid",
+      "family": "balanced",
+      "language": "en",
+      "macro": {
+        "mean": 0.020461959098083175,
+        "sd": 0.007947963602884857
+      },
+      "partition": 20261007,
+      "weighted": {
+        "mean": 0.26306666666666667,
+        "sd": 0.04182646689995863
+      }
+    },
+    {
+      "condition": "wmt23",
+      "distribution": "uniform_iid",
+      "family": "balanced",
+      "language": "en",
+      "macro": {
+        "mean": 0.018000000000000002,
+        "sd": 0.005291502622129181
+      },
+      "partition": 20261007,
+      "weighted": {
+        "mean": 0.017733333333333334,
+        "sd": 0.005445487428443236
+      }
+    },
+    {
+      "condition": "wmt23",
+      "distribution": "zipf_iid",
+      "family": "balanced",
+      "language": "en",
+      "macro": {
+        "mean": 0.020429026752999044,
+        "sd": 0.005569739727142293
+      },
+      "partition": 20261007,
+      "weighted": {
+        "mean": 0.19073333333333334,
+        "sd": 0.024439585375642794
+      }
+    },
+    {
+      "condition": "flores200",
+      "distribution": "uniform_iid",
+      "family": "balanced",
+      "language": "lus",
+      "macro": {
+        "mean": 0.018666666666666665,
+        "sd": 0.007023769168568492
+      },
+      "partition": 20261007,
+      "weighted": {
+        "mean": 0.018266666666666667,
+        "sd": 0.004700354596552619
+      }
+    },
+    {
+      "condition": "flores200",
+      "distribution": "zipf_iid",
+      "family": "balanced",
+      "language": "lus",
+      "macro": {
+        "mean": 0.01758839587969237,
+        "sd": 0.009855291394482569
+      },
+      "partition": 20261007,
+      "weighted": {
+        "mean": 0.20393333333333333,
+        "sd": 0.04238930682770519
+      }
+    },
+    {
+      "condition": "wmt23",
+      "distribution": "uniform_iid",
+      "family": "balanced",
+      "language": "lus",
+      "macro": {
+        "mean": 0.021333333333333333,
+        "sd": 0.005033222956847165
+      },
+      "partition": 20261007,
+      "weighted": {
+        "mean": 0.0176,
+        "sd": 0.004529900661162449
+      }
+    },
+    {
+      "condition": "wmt23",
+      "distribution": "zipf_iid",
+      "family": "balanced",
+      "language": "lus",
+      "macro": {
+        "mean": 0.018258559342356966,
+        "sd": 0.0036332227889767856
+      },
+      "partition": 20261007,
+      "weighted": {
+        "mean": 0.24313333333333334,
+        "sd": 0.0779010483455347
+      }
+    },
+    {
+      "condition": "flores200",
+      "distribution": "uniform_iid",
+      "family": "balanced",
+      "language": "en",
+      "macro": {
+        "mean": 0.012000000000000002,
+        "sd": 0.005291502622129181
+      },
+      "partition": 20261008,
+      "weighted": {
+        "mean": 0.0116,
+        "sd": 0.003555277766926235
+      }
+    },
+    {
+      "condition": "flores200",
+      "distribution": "zipf_iid",
+      "family": "balanced",
+      "language": "en",
+      "macro": {
+        "mean": 0.014590144277691333,
+        "sd": 0.0014432397374747068
+      },
+      "partition": 20261008,
+      "weighted": {
+        "mean": 0.26326666666666665,
+        "sd": 0.08613764179110855
+      }
+    },
+    {
+      "condition": "wmt23",
+      "distribution": "uniform_iid",
+      "family": "balanced",
+      "language": "en",
+      "macro": {
+        "mean": 0.017333333333333336,
+        "sd": 0.00808290376865476
+      },
+      "partition": 20261008,
+      "weighted": {
+        "mean": 0.016933333333333335,
+        "sd": 0.007563949585589089
+      }
+    },
+    {
+      "condition": "wmt23",
+      "distribution": "zipf_iid",
+      "family": "balanced",
+      "language": "en",
+      "macro": {
+        "mean": 0.01746018002643511,
+        "sd": 0.0035762116607869847
+      },
+      "partition": 20261008,
+      "weighted": {
+        "mean": 0.1378,
+        "sd": 0.007794870107962043
+      }
+    },
+    {
+      "condition": "flores200",
+      "distribution": "uniform_iid",
+      "family": "balanced",
+      "language": "lus",
+      "macro": {
+        "mean": 0.017333333333333336,
+        "sd": 0.006110100926607787
+      },
+      "partition": 20261008,
+      "weighted": {
+        "mean": 0.017866666666666666,
+        "sd": 0.005500303021955548
+      }
+    },
+    {
+      "condition": "flores200",
+      "distribution": "zipf_iid",
+      "family": "balanced",
+      "language": "lus",
+      "macro": {
+        "mean": 0.02413625792634978,
+        "sd": 0.008289320154137378
+      },
+      "partition": 20261008,
+      "weighted": {
+        "mean": 0.2763333333333333,
+        "sd": 0.022004847950697886
+      }
+    },
+    {
+      "condition": "wmt23",
+      "distribution": "uniform_iid",
+      "family": "balanced",
+      "language": "lus",
+      "macro": {
+        "mean": 0.012000000000000002,
+        "sd": 0.004
+      },
+      "partition": 20261008,
+      "weighted": {
+        "mean": 0.012266666666666667,
+        "sd": 0.005270041113059113
+      }
+    },
+    {
+      "condition": "wmt23",
+      "distribution": "zipf_iid",
+      "family": "balanced",
+      "language": "lus",
+      "macro": {
+        "mean": 0.016030453356533764,
+        "sd": 0.0045017137553922185
+      },
+      "partition": 20261008,
+      "weighted": {
+        "mean": 0.1108,
+        "sd": 0.01598499296215047
+      }
+    },
+    {
+      "condition": "flores200",
+      "distribution": "uniform_iid",
+      "family": "balanced",
+      "language": "en",
+      "macro": {
+        "mean": 0.01,
+        "sd": 0.002
+      },
+      "partition": 20261009,
+      "weighted": {
+        "mean": 0.010933333333333331,
+        "sd": 0.002610236260060252
+      }
+    },
+    {
+      "condition": "flores200",
+      "distribution": "zipf_iid",
+      "family": "balanced",
+      "language": "en",
+      "macro": {
+        "mean": 0.011621297551127396,
+        "sd": 0.0048677526638470645
+      },
+      "partition": 20261009,
+      "weighted": {
+        "mean": 0.135,
+        "sd": 0.08758721367870996
+      }
+    },
+    {
+      "condition": "wmt23",
+      "distribution": "uniform_iid",
+      "family": "balanced",
+      "language": "en",
+      "macro": {
+        "mean": 0.017333333333333333,
+        "sd": 0.0011547005383792505
+      },
+      "partition": 20261009,
+      "weighted": {
+        "mean": 0.01733333333333333,
+        "sd": 0.0005033222956847171
+      }
+    },
+    {
+      "condition": "wmt23",
+      "distribution": "zipf_iid",
+      "family": "balanced",
+      "language": "en",
+      "macro": {
+        "mean": 0.010960545321710808,
+        "sd": 0.004505508352738699
+      },
+      "partition": 20261009,
+      "weighted": {
+        "mean": 0.17479999999999998,
+        "sd": 0.09834042912251298
+      }
+    },
+    {
+      "condition": "flores200",
+      "distribution": "uniform_iid",
+      "family": "balanced",
+      "language": "lus",
+      "macro": {
+        "mean": 0.02,
+        "sd": 0.008
+      },
+      "partition": 20261009,
+      "weighted": {
+        "mean": 0.019466666666666663,
+        "sd": 0.008100205758703499
+      }
+    },
+    {
+      "condition": "flores200",
+      "distribution": "zipf_iid",
+      "family": "balanced",
+      "language": "lus",
+      "macro": {
+        "mean": 0.019650641079266284,
+        "sd": 0.003516249904099318
+      },
+      "partition": 20261009,
+      "weighted": {
+        "mean": 0.25286666666666663,
+        "sd": 0.024596205669438806
+      }
+    },
+    {
+      "condition": "wmt23",
+      "distribution": "uniform_iid",
+      "family": "balanced",
+      "language": "lus",
+      "macro": {
+        "mean": 0.016666666666666666,
+        "sd": 0.002309401076758502
+      },
+      "partition": 20261009,
+      "weighted": {
+        "mean": 0.017333333333333333,
+        "sd": 0.0012055427546683413
+      }
+    },
+    {
+      "condition": "wmt23",
+      "distribution": "zipf_iid",
+      "family": "balanced",
+      "language": "lus",
+      "macro": {
+        "mean": 0.02692277769412237,
+        "sd": 0.006445616570475413
+      },
+      "partition": 20261009,
+      "weighted": {
+        "mean": 0.28073333333333333,
+        "sd": 0.16553263525158216
+      }
+    }
+  ]
+}

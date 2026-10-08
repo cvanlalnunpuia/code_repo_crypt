@@ -1,0 +1,1010 @@
+{
+  "entries": [
+    {
+      "basis": "document frequency 4973 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F6 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "the"
+    },
+    {
+      "basis": "document frequency 4956 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F7 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "and"
+    },
+    {
+      "basis": "document frequency 4947 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F8 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "of"
+    },
+    {
+      "basis": "document frequency 4918 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F9 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "to"
+    },
+    {
+      "basis": "document frequency 4673 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F10 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "in"
+    },
+    {
+      "basis": "document frequency 4328 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F11 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "you"
+    },
+    {
+      "basis": "document frequency 4161 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F12 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "that"
+    },
+    {
+      "basis": "document frequency 4117 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F13 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "for"
+    },
+    {
+      "basis": "document frequency 4028 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F14 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "he"
+    },
+    {
+      "basis": "document frequency 3998 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F15 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "is"
+    },
+    {
+      "basis": "document frequency 3633 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F16 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "his"
+    },
+    {
+      "basis": "document frequency 3490 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F17 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "be"
+    },
+    {
+      "basis": "document frequency 3429 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F18 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "with"
+    },
+    {
+      "basis": "document frequency 3306 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F19 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "it"
+    },
+    {
+      "basis": "document frequency 3233 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F20 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "they"
+    },
+    {
+      "basis": "will is the exception here",
+      "decision": "exclude_from_index",
+      "token": "will"
+    },
+    {
+      "basis": "document frequency 3052 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F22 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "all"
+    },
+    {
+      "basis": "document frequency 3045 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F23 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "who"
+    },
+    {
+      "basis": "document frequency 3027 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F24 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "on"
+    },
+    {
+      "basis": "document frequency 2977 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F25 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "him"
+    },
+    {
+      "basis": "document frequency 2975 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F26 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "your"
+    },
+    {
+      "basis": "document frequency 2950 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F27 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "not"
+    },
+    {
+      "basis": "document frequency 2870 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F28 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "was"
+    },
+    {
+      "basis": "document frequency 2842 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F29 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "are"
+    },
+    {
+      "basis": "document frequency 2829 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F30 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "have"
+    },
+    {
+      "basis": "document frequency 2734 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F31 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "them"
+    },
+    {
+      "basis": "document frequency 2726 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F32 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "from"
+    },
+    {
+      "basis": "document frequency 2723 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F33 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "shall"
+    },
+    {
+      "basis": "document frequency 2640 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F34 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "but"
+    },
+    {
+      "basis": "document frequency 2592 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F35 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "as"
+    },
+    {
+      "basis": "document frequency 2569 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F36 on 2026-10-06.",
+      "decision": "retain",
+      "token": "god"
+    },
+    {
+      "basis": "document frequency 2479 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F37 on 2026-10-06.",
+      "decision": "retain",
+      "token": "yahweh"
+    },
+    {
+      "basis": "document frequency 2408 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F38 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "my"
+    },
+    {
+      "basis": "document frequency 2398 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F39 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "this"
+    },
+    {
+      "basis": "document frequency 2368 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F40 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "their"
+    },
+    {
+      "basis": "document frequency 2307 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F41 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "we"
+    },
+    {
+      "basis": "document frequency 2270 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F42 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "by"
+    },
+    {
+      "basis": "document frequency 2239 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F43 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "me"
+    },
+    {
+      "basis": "document frequency 2153 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F44 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "when"
+    },
+    {
+      "basis": "Mostly pronoun/determiner use; the numeral sense is not a useful keyword.",
+      "decision": "exclude_from_index",
+      "token": "one"
+    },
+    {
+      "basis": "document frequency 1965 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F46 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "out"
+    },
+    {
+      "basis": "document frequency 1959 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F47 on 2026-10-06.",
+      "decision": "retain",
+      "token": "said"
+    },
+    {
+      "basis": "document frequency 1921 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F48 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "were"
+    },
+    {
+      "basis": "document frequency 1891 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F49 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "what"
+    },
+    {
+      "basis": "document frequency 1887 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F50 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "at"
+    },
+    {
+      "basis": "document frequency 1810 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F51 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "do"
+    },
+    {
+      "basis": "document frequency 1792 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F52 on 2026-10-06.",
+      "decision": "retain",
+      "token": "people"
+    },
+    {
+      "basis": "document frequency 1773 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F53 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "which"
+    },
+    {
+      "basis": "document frequency 1766 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F54 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "has"
+    },
+    {
+      "basis": "document frequency 1751 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F55 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "up"
+    },
+    {
+      "basis": "document frequency 1726 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F56 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "so"
+    },
+    {
+      "basis": "document frequency 1655 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F57 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "had"
+    },
+    {
+      "basis": "document frequency 1622 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F58 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "there"
+    },
+    {
+      "basis": "document frequency 1591 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F59 on 2026-10-06.",
+      "decision": "retain",
+      "token": "israel"
+    },
+    {
+      "basis": "document frequency 1571 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F60 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "if"
+    },
+    {
+      "basis": "document frequency 1543 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F61 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "our"
+    },
+    {
+      "basis": "document frequency 1525 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F62 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "or"
+    },
+    {
+      "basis": "document frequency 1493 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F63 on 2026-10-06.",
+      "decision": "retain",
+      "token": "man"
+    },
+    {
+      "basis": "document frequency 1479 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F64 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "then"
+    },
+    {
+      "basis": "document frequency 1452 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F65 on 2026-10-06.",
+      "decision": "retain",
+      "token": "lord"
+    },
+    {
+      "basis": "document frequency 1418 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F66 on 2026-10-06.",
+      "decision": "retain",
+      "token": "jesus"
+    },
+    {
+      "basis": "document frequency 1413 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F67 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "no"
+    },
+    {
+      "basis": "document frequency 1375 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F68 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "also"
+    },
+    {
+      "basis": "document frequency 1365 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F69 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "an"
+    },
+    {
+      "basis": "document frequency 1358 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F70 on 2026-10-06.",
+      "decision": "retain",
+      "token": "son"
+    },
+    {
+      "basis": "document frequency 1343 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F71 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "us"
+    },
+    {
+      "basis": "document frequency 1329 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F72 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "into"
+    },
+    {
+      "basis": "document frequency 1328 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F73 on 2026-10-06.",
+      "decision": "retain",
+      "token": "day"
+    },
+    {
+      "basis": "Modal auxiliary in this data",
+      "decision": "exclude_from_index",
+      "token": "may"
+    },
+    {
+      "basis": "document frequency 1309 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F75 on 2026-10-06.",
+      "decision": "retain",
+      "token": "come"
+    },
+    {
+      "basis": "document frequency 1256 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F76 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "those"
+    },
+    {
+      "basis": "document frequency 1237 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F77 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "before"
+    },
+    {
+      "basis": "Lexical verb despite the stopword-list hint.",
+      "decision": "retain",
+      "token": "go"
+    },
+    {
+      "basis": "document frequency 1197 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F79 on 2026-10-06.",
+      "decision": "retain",
+      "token": "jehovah"
+    },
+    {
+      "basis": "document frequency 1191 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F80 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "how"
+    },
+    {
+      "basis": "document frequency 1159 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F81 on 2026-10-06.",
+      "decision": "retain",
+      "token": "king"
+    },
+    {
+      "basis": "document frequency 1155 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F82 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "her"
+    },
+    {
+      "basis": "document frequency 1143 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F83 on 2026-10-06.",
+      "decision": "retain",
+      "token": "house"
+    },
+    {
+      "basis": "document frequency 1141 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F84 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "can"
+    },
+    {
+      "basis": "document frequency 1128 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F85 on 2026-10-06.",
+      "decision": "retain",
+      "token": "men"
+    },
+    {
+      "basis": "document frequency 1127 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F86 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "these"
+    },
+    {
+      "basis": "document frequency 1125 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F87 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "now"
+    },
+    {
+      "basis": "document frequency 1098 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F88 on 2026-10-06.",
+      "decision": "retain",
+      "token": "came"
+    },
+    {
+      "basis": "Ambiguous between comparison preposition and lexical verb.",
+      "decision": "retain",
+      "token": "like"
+    },
+    {
+      "basis": "document frequency 1081 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F90 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "because"
+    },
+    {
+      "basis": "Lexical verb (create/appoint) despite the stopword-list hint.",
+      "decision": "retain",
+      "token": "made"
+    },
+    {
+      "basis": "document frequency 1046 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F92 on 2026-10-06.",
+      "decision": "retain",
+      "token": "make"
+    },
+    {
+      "basis": "document frequency 1034 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F93 on 2026-10-06.",
+      "decision": "retain",
+      "token": "land"
+    },
+    {
+      "basis": "document frequency 1015 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F94 on 2026-10-06.",
+      "decision": "retain",
+      "token": "sons"
+    },
+    {
+      "basis": "Functions as a hortative/permissive auxiliary (let us, let him).",
+      "decision": "exclude_from_index",
+      "token": "let"
+    },
+    {
+      "basis": "document frequency 1007 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F96 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "even"
+    },
+    {
+      "basis": "document frequency 1002 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F97 on 2026-10-06.",
+      "decision": "retain",
+      "token": "children"
+    },
+    {
+      "basis": "document frequency 1001 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F98 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "against"
+    },
+    {
+      "basis": "document frequency 995 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F99 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "did"
+    },
+    {
+      "basis": "document frequency 969 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F100 on 2026-10-06.",
+      "decision": "retain",
+      "token": "good"
+    },
+    {
+      "basis": "document frequency 956 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F101 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "don't"
+    },
+    {
+      "basis": "document frequency 945 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F102 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "after"
+    },
+    {
+      "basis": "Generic noun but still content-bearing; kept as borderline.",
+      "decision": "retain",
+      "token": "things"
+    },
+    {
+      "basis": "document frequency 927 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F104 on 2026-10-06.",
+      "decision": "retain",
+      "token": "went"
+    },
+    {
+      "basis": "document frequency 923 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F105 on 2026-10-06.",
+      "decision": "retain",
+      "token": "hand"
+    },
+    {
+      "basis": "document frequency 922 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F106 on 2026-10-06.",
+      "decision": "retain",
+      "token": "time"
+    },
+    {
+      "basis": "document frequency 919 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F107 on 2026-10-06.",
+      "decision": "retain",
+      "token": "know"
+    },
+    {
+      "basis": "document frequency 882 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F108 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "its"
+    },
+    {
+      "basis": "document frequency 880 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F109 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "over"
+    },
+    {
+      "basis": "document frequency 880 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F110 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "would"
+    },
+    {
+      "basis": "document frequency 879 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F111 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "about"
+    },
+    {
+      "basis": "document frequency 871 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F112 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "am"
+    },
+    {
+      "basis": "document frequency 869 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F113 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "down"
+    },
+    {
+      "basis": "document frequency 858 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F114 on 2026-10-06.",
+      "decision": "retain",
+      "token": "father"
+    },
+    {
+      "basis": "document frequency 849 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F115 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "therefore"
+    },
+    {
+      "basis": "document frequency 844 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F116 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "she"
+    },
+    {
+      "basis": "document frequency 827 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F117 on 2026-10-06.",
+      "decision": "retain",
+      "token": "earth"
+    },
+    {
+      "basis": "Content noun in this corpus (God's name) despite the stopword-list hint.",
+      "decision": "retain",
+      "token": "name"
+    },
+    {
+      "basis": "Lexical verb despite the stopword-list hint.",
+      "decision": "retain",
+      "token": "take"
+    },
+    {
+      "basis": "Lexical verb despite the stopword-list hint.",
+      "decision": "retain",
+      "token": "give"
+    },
+    {
+      "basis": "document frequency 768 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F121 on 2026-10-06.",
+      "decision": "retain",
+      "token": "great"
+    },
+    {
+      "basis": "document frequency 768 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F122 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "many"
+    },
+    {
+      "basis": "document frequency 764 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F123 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "more"
+    },
+    {
+      "basis": "Numeral; quantifier function, weak as a keyword.",
+      "decision": "exclude_from_index",
+      "token": "two"
+    },
+    {
+      "basis": "document frequency 748 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F125 on 2026-10-06.",
+      "decision": "retain",
+      "token": "way"
+    },
+    {
+      "basis": "document frequency 739 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F126 on 2026-10-06.",
+      "decision": "retain",
+      "token": "saying"
+    },
+    {
+      "basis": "Adverbial particle (go away, take away); no independent content.",
+      "decision": "exclude_from_index",
+      "token": "away"
+    },
+    {
+      "basis": "document frequency 733 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F128 on 2026-10-06.",
+      "decision": "retain",
+      "token": "moses"
+    },
+    {
+      "basis": "document frequency 732 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F129 on 2026-10-06.",
+      "decision": "retain",
+      "token": "david"
+    },
+    {
+      "basis": "Lexical verb despite the stopword-list hint.",
+      "decision": "retain",
+      "token": "put"
+    },
+    {
+      "basis": "document frequency 724 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F131 on 2026-10-06.",
+      "decision": "retain",
+      "token": "life"
+    },
+    {
+      "basis": "document frequency 719 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F132 on 2026-10-06.",
+      "decision": "retain",
+      "token": "heart"
+    },
+    {
+      "basis": "document frequency 712 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F133 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "among"
+    },
+    {
+      "basis": "Discourse interjection of Bible English; no lexical content.",
+      "decision": "exclude_from_index",
+      "token": "behold"
+    },
+    {
+      "basis": "document frequency 712 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F135 on 2026-10-06.",
+      "decision": "retain",
+      "token": "place"
+    },
+    {
+      "basis": "document frequency 711 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F136 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "some"
+    },
+    {
+      "basis": "Lexical perception verb despite the stopword-list hint.",
+      "decision": "retain",
+      "token": "see"
+    },
+    {
+      "basis": "document frequency 700 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F138 on 2026-10-06.",
+      "decision": "retain",
+      "token": "word"
+    },
+    {
+      "basis": "document frequency 697 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F139 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "been"
+    },
+    {
+      "basis": "document frequency 686 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F140 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "why"
+    },
+    {
+      "basis": "document frequency 683 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F141 on 2026-10-06.",
+      "decision": "retain",
+      "token": "days"
+    },
+    {
+      "basis": "document frequency 680 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F142 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "should"
+    },
+    {
+      "basis": "document frequency 666 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F143 on 2026-10-06.",
+      "decision": "retain",
+      "token": "says"
+    },
+    {
+      "basis": "document frequency 644 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F144 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "any"
+    },
+    {
+      "basis": "document frequency 638 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F145 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "every"
+    },
+    {
+      "basis": "document frequency 629 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F146 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "where"
+    },
+    {
+      "basis": "document frequency 624 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F147 on 2026-10-06.",
+      "decision": "retain",
+      "token": "work"
+    },
+    {
+      "basis": "document frequency 624 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F148 on 2026-10-06.",
+      "decision": "retain",
+      "token": "years"
+    },
+    {
+      "basis": "document frequency 622 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F149 on 2026-10-06.",
+      "decision": "retain",
+      "token": "god's"
+    },
+    {
+      "basis": "document frequency 605 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F150 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "other"
+    },
+    {
+      "basis": "document frequency 595 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F151 on 2026-10-06.",
+      "decision": "retain",
+      "token": "love"
+    },
+    {
+      "basis": "document frequency 595 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F152 on 2026-10-06.",
+      "decision": "retain",
+      "token": "took"
+    },
+    {
+      "basis": "document frequency 592 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F153 on 2026-10-06.",
+      "decision": "retain",
+      "token": "say"
+    },
+    {
+      "basis": "document frequency 591 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F154 on 2026-10-06.",
+      "decision": "retain",
+      "token": "christ"
+    },
+    {
+      "basis": "Ambiguous lexical verb/noun; not a grammatical word.",
+      "decision": "retain",
+      "token": "set"
+    },
+    {
+      "basis": "document frequency 589 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F156 on 2026-10-06.",
+      "decision": "retain",
+      "token": "jerusalem"
+    },
+    {
+      "basis": "document frequency 587 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F157 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "than"
+    },
+    {
+      "basis": "document frequency 586 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F158 on 2026-10-06.",
+      "decision": "retain",
+      "token": "brought"
+    },
+    {
+      "basis": "document frequency 586 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F159 on 2026-10-06.",
+      "decision": "retain",
+      "token": "spirit"
+    },
+    {
+      "basis": "document frequency 581 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F160 on 2026-10-06.",
+      "decision": "retain",
+      "token": "city"
+    },
+    {
+      "basis": "document frequency 560 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F161 on 2026-10-06.",
+      "decision": "retain",
+      "token": "bring"
+    },
+    {
+      "basis": "Ordinal; ordering function, weak as a keyword.",
+      "decision": "exclude_from_index",
+      "token": "first"
+    },
+    {
+      "basis": "document frequency 558 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F163 on 2026-10-06.",
+      "decision": "retain",
+      "token": "holy"
+    },
+    {
+      "basis": "document frequency 541 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F164 on 2026-10-06.",
+      "decision": "retain",
+      "token": "words"
+    },
+    {
+      "basis": "Occurs as the complex preposition 'according to'.",
+      "decision": "exclude_from_index",
+      "token": "according"
+    },
+    {
+      "basis": "document frequency 539 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F166 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "own"
+    },
+    {
+      "basis": "document frequency 538 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F167 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "through"
+    },
+    {
+      "basis": "document frequency 535 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F168 on 2026-10-06.",
+      "decision": "retain",
+      "token": "bible"
+    },
+    {
+      "basis": "document frequency 531 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F169 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "such"
+    },
+    {
+      "basis": "document frequency 521 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F170 on 2026-10-06.",
+      "decision": "retain",
+      "token": "jehovah's"
+    },
+    {
+      "basis": "document frequency 520 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F171 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "does"
+    },
+    {
+      "basis": "document frequency 514 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F172 on 2026-10-06.",
+      "decision": "retain",
+      "token": "tell"
+    },
+    {
+      "basis": "Adjective/adverb with content; not a grammatical word.",
+      "decision": "retain",
+      "token": "long"
+    },
+    {
+      "basis": "document frequency 505 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F174 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "whom"
+    },
+    {
+      "basis": "document frequency 502 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F175 on 2026-10-06.",
+      "decision": "retain",
+      "token": "called"
+    },
+    {
+      "basis": "document frequency 498 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F176 on 2026-10-06.",
+      "decision": "retain",
+      "token": "judah"
+    },
+    {
+      "basis": "Numeral; quantifier function, weak as a keyword.",
+      "decision": "exclude_from_index",
+      "token": "three"
+    },
+    {
+      "basis": "document frequency 492 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F178 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "himself"
+    },
+    {
+      "basis": "document frequency 490 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F179 on 2026-10-06.",
+      "decision": "retain",
+      "token": "sent"
+    },
+    {
+      "basis": "document frequency 485 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F180 on 2026-10-06.",
+      "decision": "retain",
+      "token": "brothers"
+    },
+    {
+      "basis": "Lexical verb (keep the commandments) despite the stopword-list hint.",
+      "decision": "retain",
+      "token": "keep"
+    },
+    {
+      "basis": "document frequency 482 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F182 on 2026-10-06.",
+      "decision": "retain",
+      "token": "saw"
+    },
+    {
+      "basis": "document frequency 479 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F183 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "another"
+    },
+    {
+      "basis": "document frequency 477 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F184 on 2026-10-06.",
+      "decision": "retain",
+      "token": "kingdom"
+    },
+    {
+      "basis": "document frequency 469 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F185 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "being"
+    },
+    {
+      "basis": "document frequency 469 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F186 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "didn't"
+    },
+    {
+      "basis": "document frequency 467 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F187 on 2026-10-06.",
+      "decision": "retain",
+      "token": "death"
+    },
+    {
+      "basis": "document frequency 466 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F188 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "again"
+    },
+    {
+      "basis": "document frequency 464 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F189 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "yet"
+    },
+    {
+      "basis": "Response interjection; no lexical content.",
+      "decision": "exclude_from_index",
+      "token": "yes"
+    },
+    {
+      "basis": "document frequency 462 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F191 on 2026-10-06.",
+      "decision": "retain",
+      "token": "world"
+    },
+    {
+      "basis": "document frequency 453 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F192 on 2026-10-06.",
+      "decision": "retain",
+      "token": "help"
+    },
+    {
+      "basis": "Mostly the modal; the noun sense (strength) is rare.",
+      "decision": "exclude_from_index",
+      "token": "might"
+    },
+    {
+      "basis": "document frequency 453 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F194 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "until"
+    },
+    {
+      "basis": "document frequency 452 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F195 on 2026-10-06.",
+      "decision": "retain",
+      "token": "heard"
+    },
+    {
+      "basis": "document frequency 451 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F196 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "only"
+    },
+    {
+      "basis": "document frequency 450 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F197 on 2026-10-06.",
+      "decision": "retain",
+      "token": "law"
+    },
+    {
+      "basis": "document frequency 449 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F198 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "very"
+    },
+    {
+      "basis": "document frequency 443 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F199 on 2026-10-06.",
+      "decision": "retain",
+      "token": "offering"
+    },
+    {
+      "basis": "document frequency 442 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F200 on 2026-10-06.",
+      "decision": "retain",
+      "token": "gave"
+    },
+    {
+      "basis": "document frequency 440 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F201 on 2026-10-06.",
+      "decision": "retain",
+      "token": "egypt"
+    },
+    {
+      "basis": "Ambiguous: right hand, what is right, legal right.",
+      "decision": "retain",
+      "token": "right"
+    },
+    {
+      "basis": "Ambiguous: adverb/discourse marker versus the noun (a well of water).",
+      "decision": "retain",
+      "token": "well"
+    },
+    {
+      "basis": "document frequency 436 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F204 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "neither"
+    },
+    {
+      "basis": "document frequency 434 of 4974 in the en review corpus. Decision recorded by C Lalrinawma in Stopwords EN!F205 on 2026-10-06.",
+      "decision": "retain",
+      "token": "year"
+    }
+  ],
+  "language": "en",
+  "list_version": "1.0.0",
+  "reviewed_at": "2026-10-06",
+  "reviewed_by": "C Lalrinawma",
+  "scope": "production",
+  "status": "approved"
+}

@@ -1,0 +1,18 @@
+{
+  "archive_sha256": "eb438bda901b65ef021ff7471d2edf558394f3571d31ae312b0082dd5d30adf0",
+  "identity": {
+    "config_sha256": "c7ea3790bc4b23e0f615fa4c735b36cb74c9676229975e435eb7d1214743ea46",
+    "manifest_sha256": "2501dc7032e29518983c27206a5f95c6d0286b01293ec2301becdfee1854e1fb",
+    "upstream_revision": "10631a10e3ec461ad01d38fc74f7933d31062ba5"
+  },
+  "method": "Documents, keyword labels and fixed partition indices were compared exactly with the archived inputs. Unchanged execution and independent-replay runs were retained separately.",
+  "retained_runs_per_checkpoint": 100,
+  "unchanged_attack_inputs": {
+    "en:stemming": true,
+    "en:stopword_removal": true,
+    "en:tokenisation_only": true,
+    "lus:stemming": false,
+    "lus:stopword_removal": true,
+    "lus:tokenisation_only": true
+  }
+}

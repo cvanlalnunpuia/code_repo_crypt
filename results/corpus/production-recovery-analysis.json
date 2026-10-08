@@ -1,0 +1,2476 @@
+{
+  "aggregate": [
+    {
+      "checkpoint": 0,
+      "condition": "tokenisation_only",
+      "confidence_interval": [
+        0.06318219924056423,
+        0.07357780075943576
+      ],
+      "count": 10,
+      "distribution": "uniform_iid",
+      "language": "en",
+      "mean": 0.06838,
+      "metric": "query_weighted_recovery",
+      "sample_standard_deviation": 0.007266024436451553
+    },
+    {
+      "checkpoint": 0,
+      "condition": "tokenisation_only",
+      "confidence_interval": [
+        0.06376692833985204,
+        0.07543307166014795
+      ],
+      "count": 10,
+      "distribution": "uniform_iid",
+      "language": "en",
+      "mean": 0.0696,
+      "metric": "distinct_keyword_macro_recovery",
+      "sample_standard_deviation": 0.008154071920757682
+    },
+    {
+      "checkpoint": 10,
+      "condition": "tokenisation_only",
+      "confidence_interval": [
+        0.07406376214672543,
+        0.09297623785327457
+      ],
+      "count": 10,
+      "distribution": "uniform_iid",
+      "language": "en",
+      "mean": 0.08352,
+      "metric": "query_weighted_recovery",
+      "sample_standard_deviation": 0.013218909015329352
+    },
+    {
+      "checkpoint": 10,
+      "condition": "tokenisation_only",
+      "confidence_interval": [
+        0.07402909757298601,
+        0.092770902427014
+      ],
+      "count": 10,
+      "distribution": "uniform_iid",
+      "language": "en",
+      "mean": 0.0834,
+      "metric": "distinct_keyword_macro_recovery",
+      "sample_standard_deviation": 0.013099618315050254
+    },
+    {
+      "checkpoint": 100,
+      "condition": "tokenisation_only",
+      "confidence_interval": [
+        0.09682619073106975,
+        0.11501380926893025
+      ],
+      "count": 10,
+      "distribution": "uniform_iid",
+      "language": "en",
+      "mean": 0.10592,
+      "metric": "query_weighted_recovery",
+      "sample_standard_deviation": 0.012712268789550426
+    },
+    {
+      "checkpoint": 100,
+      "condition": "tokenisation_only",
+      "confidence_interval": [
+        0.09902709342212188,
+        0.11697290657787812
+      ],
+      "count": 10,
+      "distribution": "uniform_iid",
+      "language": "en",
+      "mean": 0.108,
+      "metric": "distinct_keyword_macro_recovery",
+      "sample_standard_deviation": 0.012543258481484522
+    },
+    {
+      "checkpoint": 1000,
+      "condition": "tokenisation_only",
+      "confidence_interval": [
+        0.1208157410916577,
+        0.14826425890834227
+      ],
+      "count": 10,
+      "distribution": "uniform_iid",
+      "language": "en",
+      "mean": 0.13454,
+      "metric": "query_weighted_recovery",
+      "sample_standard_deviation": 0.01918519104819015
+    },
+    {
+      "checkpoint": 1000,
+      "condition": "tokenisation_only",
+      "confidence_interval": [
+        0.12271437725598212,
+        0.14528562274401788
+      ],
+      "count": 10,
+      "distribution": "uniform_iid",
+      "language": "en",
+      "mean": 0.134,
+      "metric": "distinct_keyword_macro_recovery",
+      "sample_standard_deviation": 0.01577621275493231
+    },
+    {
+      "checkpoint": 0,
+      "condition": "tokenisation_only",
+      "confidence_interval": [
+        0.33454111208956105,
+        0.4691388879104389
+      ],
+      "count": 10,
+      "distribution": "zipf_iid",
+      "language": "en",
+      "mean": 0.40184,
+      "metric": "query_weighted_recovery",
+      "sample_standard_deviation": 0.09407735823955377
+    },
+    {
+      "checkpoint": 0,
+      "condition": "tokenisation_only",
+      "confidence_interval": [
+        0.05974202566884078,
+        0.06913149375017759
+      ],
+      "count": 10,
+      "distribution": "zipf_iid",
+      "language": "en",
+      "mean": 0.06443675970950918,
+      "metric": "distinct_keyword_macro_recovery",
+      "sample_standard_deviation": 0.006562785655108589
+    },
+    {
+      "checkpoint": 10,
+      "condition": "tokenisation_only",
+      "confidence_interval": [
+        0.37647010649248436,
+        0.5331298935075156
+      ],
+      "count": 10,
+      "distribution": "zipf_iid",
+      "language": "en",
+      "mean": 0.4548,
+      "metric": "query_weighted_recovery",
+      "sample_standard_deviation": 0.10949764076606094
+    },
+    {
+      "checkpoint": 10,
+      "condition": "tokenisation_only",
+      "confidence_interval": [
+        0.07181823735961589,
+        0.08710200610423378
+      ],
+      "count": 10,
+      "distribution": "zipf_iid",
+      "language": "en",
+      "mean": 0.07946012173192483,
+      "metric": "distinct_keyword_macro_recovery",
+      "sample_standard_deviation": 0.010682617737691342
+    },
+    {
+      "checkpoint": 100,
+      "condition": "tokenisation_only",
+      "confidence_interval": [
+        0.5170139709085996,
+        0.6033460290914004
+      ],
+      "count": 10,
+      "distribution": "zipf_iid",
+      "language": "en",
+      "mean": 0.56018,
+      "metric": "query_weighted_recovery",
+      "sample_standard_deviation": 0.060341947819627664
+    },
+    {
+      "checkpoint": 100,
+      "condition": "tokenisation_only",
+      "confidence_interval": [
+        0.10559591630670984,
+        0.12701725211902914
+      ],
+      "count": 10,
+      "distribution": "zipf_iid",
+      "language": "en",
+      "mean": 0.11630658421286949,
+      "metric": "distinct_keyword_macro_recovery",
+      "sample_standard_deviation": 0.014972481312523683
+    },
+    {
+      "checkpoint": 1000,
+      "condition": "tokenisation_only",
+      "confidence_interval": [
+        0.5429534420479135,
+        0.6384065579520865
+      ],
+      "count": 10,
+      "distribution": "zipf_iid",
+      "language": "en",
+      "mean": 0.59068,
+      "metric": "query_weighted_recovery",
+      "sample_standard_deviation": 0.06671712756939638
+    },
+    {
+      "checkpoint": 1000,
+      "condition": "tokenisation_only",
+      "confidence_interval": [
+        0.13758846023439758,
+        0.15946137378736425
+      ],
+      "count": 10,
+      "distribution": "zipf_iid",
+      "language": "en",
+      "mean": 0.1485249170108809,
+      "metric": "distinct_keyword_macro_recovery",
+      "sample_standard_deviation": 0.015288112389046267
+    },
+    {
+      "checkpoint": 0,
+      "condition": "stopword_removal",
+      "confidence_interval": [
+        0.029879919265171133,
+        0.032000080734828865
+      ],
+      "count": 10,
+      "distribution": "uniform_iid",
+      "language": "en",
+      "mean": 0.03094,
+      "metric": "query_weighted_recovery",
+      "sample_standard_deviation": 0.0014818906842274159
+    },
+    {
+      "checkpoint": 0,
+      "condition": "stopword_removal",
+      "confidence_interval": [
+        0.030087122241199776,
+        0.03351287775880023
+      ],
+      "count": 10,
+      "distribution": "uniform_iid",
+      "language": "en",
+      "mean": 0.0318,
+      "metric": "distinct_keyword_macro_recovery",
+      "sample_standard_deviation": 0.00239443799947573
+    },
+    {
+      "checkpoint": 10,
+      "condition": "stopword_removal",
+      "confidence_interval": [
+        0.02802573489979425,
+        0.041894265100205746
+      ],
+      "count": 10,
+      "distribution": "uniform_iid",
+      "language": "en",
+      "mean": 0.03496,
+      "metric": "query_weighted_recovery",
+      "sample_standard_deviation": 0.009693434203968511
+    },
+    {
+      "checkpoint": 10,
+      "condition": "stopword_removal",
+      "confidence_interval": [
+        0.02880576466556988,
+        0.03999423533443012
+      ],
+      "count": 10,
+      "distribution": "uniform_iid",
+      "language": "en",
+      "mean": 0.0344,
+      "metric": "distinct_keyword_macro_recovery",
+      "sample_standard_deviation": 0.00782020175926143
+    },
+    {
+      "checkpoint": 100,
+      "condition": "stopword_removal",
+      "confidence_interval": [
+        0.036599957385792185,
+        0.054640042614207816
+      ],
+      "count": 10,
+      "distribution": "uniform_iid",
+      "language": "en",
+      "mean": 0.04562,
+      "metric": "query_weighted_recovery",
+      "sample_standard_deviation": 0.01260915011674723
+    },
+    {
+      "checkpoint": 100,
+      "condition": "stopword_removal",
+      "confidence_interval": [
+        0.03698691101130759,
+        0.05261308898869241
+      ],
+      "count": 10,
+      "distribution": "uniform_iid",
+      "language": "en",
+      "mean": 0.0448,
+      "metric": "distinct_keyword_macro_recovery",
+      "sample_standard_deviation": 0.010921945288678611
+    },
+    {
+      "checkpoint": 1000,
+      "condition": "stopword_removal",
+      "confidence_interval": [
+        0.05059233507926751,
+        0.06436766492073248
+      ],
+      "count": 10,
+      "distribution": "uniform_iid",
+      "language": "en",
+      "mean": 0.057479999999999996,
+      "metric": "query_weighted_recovery",
+      "sample_standard_deviation": 0.009628291644938886
+    },
+    {
+      "checkpoint": 1000,
+      "condition": "stopword_removal",
+      "confidence_interval": [
+        0.0496349498775115,
+        0.06436505012248851
+      ],
+      "count": 10,
+      "distribution": "uniform_iid",
+      "language": "en",
+      "mean": 0.057,
+      "metric": "distinct_keyword_macro_recovery",
+      "sample_standard_deviation": 0.010295630140987002
+    },
+    {
+      "checkpoint": 0,
+      "condition": "stopword_removal",
+      "confidence_interval": [
+        0.3493317987557158,
+        0.36254820124428416
+      ],
+      "count": 10,
+      "distribution": "zipf_iid",
+      "language": "en",
+      "mean": 0.35594,
+      "metric": "query_weighted_recovery",
+      "sample_standard_deviation": 0.009237628363263906
+    },
+    {
+      "checkpoint": 0,
+      "condition": "stopword_removal",
+      "confidence_interval": [
+        0.022211805701778043,
+        0.02876582506213084
+      ],
+      "count": 10,
+      "distribution": "zipf_iid",
+      "language": "en",
+      "mean": 0.025488815381954442,
+      "metric": "distinct_keyword_macro_recovery",
+      "sample_standard_deviation": 0.004580943656107882
+    },
+    {
+      "checkpoint": 10,
+      "condition": "stopword_removal",
+      "confidence_interval": [
+        0.3658458765481857,
+        0.38671412345181433
+      ],
+      "count": 10,
+      "distribution": "zipf_iid",
+      "language": "en",
+      "mean": 0.37628,
+      "metric": "query_weighted_recovery",
+      "sample_standard_deviation": 0.014585898821959672
+    },
+    {
+      "checkpoint": 10,
+      "condition": "stopword_removal",
+      "confidence_interval": [
+        0.028285447609905288,
+        0.035667658321914986
+      ],
+      "count": 10,
+      "distribution": "zipf_iid",
+      "language": "en",
+      "mean": 0.031976552965910135,
+      "metric": "distinct_keyword_macro_recovery",
+      "sample_standard_deviation": 0.005159809495498974
+    },
+    {
+      "checkpoint": 100,
+      "condition": "stopword_removal",
+      "confidence_interval": [
+        0.3993472064657483,
+        0.44561279353425176
+      ],
+      "count": 10,
+      "distribution": "zipf_iid",
+      "language": "en",
+      "mean": 0.42248,
+      "metric": "query_weighted_recovery",
+      "sample_standard_deviation": 0.03233741554986181
+    },
+    {
+      "checkpoint": 100,
+      "condition": "stopword_removal",
+      "confidence_interval": [
+        0.03740934506018128,
+        0.05152446518369166
+      ],
+      "count": 10,
+      "distribution": "zipf_iid",
+      "language": "en",
+      "mean": 0.04446690512193647,
+      "metric": "distinct_keyword_macro_recovery",
+      "sample_standard_deviation": 0.009865788675594473
+    },
+    {
+      "checkpoint": 1000,
+      "condition": "stopword_removal",
+      "confidence_interval": [
+        0.4497658688664722,
+        0.48919413113352783
+      ],
+      "count": 10,
+      "distribution": "zipf_iid",
+      "language": "en",
+      "mean": 0.46948,
+      "metric": "query_weighted_recovery",
+      "sample_standard_deviation": 0.027558455044585588
+    },
+    {
+      "checkpoint": 1000,
+      "condition": "stopword_removal",
+      "confidence_interval": [
+        0.057526686313948416,
+        0.07350266580074599
+      ],
+      "count": 10,
+      "distribution": "zipf_iid",
+      "language": "en",
+      "mean": 0.0655146760573472,
+      "metric": "distinct_keyword_macro_recovery",
+      "sample_standard_deviation": 0.011166439684763992
+    },
+    {
+      "checkpoint": 0,
+      "condition": "stemming",
+      "confidence_interval": [
+        0.01896818522171744,
+        0.02523181477828256
+      ],
+      "count": 10,
+      "distribution": "uniform_iid",
+      "language": "en",
+      "mean": 0.0221,
+      "metric": "query_weighted_recovery",
+      "sample_standard_deviation": 0.004377975178854566
+    },
+    {
+      "checkpoint": 0,
+      "condition": "stemming",
+      "confidence_interval": [
+        0.01976311912961435,
+        0.024236880870385648
+      ],
+      "count": 10,
+      "distribution": "uniform_iid",
+      "language": "en",
+      "mean": 0.022,
+      "metric": "distinct_keyword_macro_recovery",
+      "sample_standard_deviation": 0.0031269438398822866
+    },
+    {
+      "checkpoint": 10,
+      "condition": "stemming",
+      "confidence_interval": [
+        0.023331013412460647,
+        0.030468986587539354
+      ],
+      "count": 10,
+      "distribution": "uniform_iid",
+      "language": "en",
+      "mean": 0.0269,
+      "metric": "query_weighted_recovery",
+      "sample_standard_deviation": 0.004989099228429027
+    },
+    {
+      "checkpoint": 10,
+      "condition": "stemming",
+      "confidence_interval": [
+        0.02428122545219307,
+        0.029718774547806928
+      ],
+      "count": 10,
+      "distribution": "uniform_iid",
+      "language": "en",
+      "mean": 0.027,
+      "metric": "distinct_keyword_macro_recovery",
+      "sample_standard_deviation": 0.0038005847503304606
+    },
+    {
+      "checkpoint": 100,
+      "condition": "stemming",
+      "confidence_interval": [
+        0.036645080277623435,
+        0.04931491972237656
+      ],
+      "count": 10,
+      "distribution": "uniform_iid",
+      "language": "en",
+      "mean": 0.04298,
+      "metric": "query_weighted_recovery",
+      "sample_standard_deviation": 0.008855607137727924
+    },
+    {
+      "checkpoint": 100,
+      "condition": "stemming",
+      "confidence_interval": [
+        0.036152731715324,
+        0.048647268284676
+      ],
+      "count": 10,
+      "distribution": "uniform_iid",
+      "language": "en",
+      "mean": 0.0424,
+      "metric": "distinct_keyword_macro_recovery",
+      "sample_standard_deviation": 0.008733078876700169
+    },
+    {
+      "checkpoint": 1000,
+      "condition": "stemming",
+      "confidence_interval": [
+        0.048516244842609975,
+        0.058403755157390026
+      ],
+      "count": 10,
+      "distribution": "uniform_iid",
+      "language": "en",
+      "mean": 0.05346,
+      "metric": "query_weighted_recovery",
+      "sample_standard_deviation": 0.006910893172698045
+    },
+    {
+      "checkpoint": 1000,
+      "condition": "stemming",
+      "confidence_interval": [
+        0.04774391145799708,
+        0.05785608854200292
+      ],
+      "count": 10,
+      "distribution": "uniform_iid",
+      "language": "en",
+      "mean": 0.0528,
+      "metric": "distinct_keyword_macro_recovery",
+      "sample_standard_deviation": 0.007067924416372571
+    },
+    {
+      "checkpoint": 0,
+      "condition": "stemming",
+      "confidence_interval": [
+        0.3465149011484846,
+        0.3554050988515154
+      ],
+      "count": 10,
+      "distribution": "zipf_iid",
+      "language": "en",
+      "mean": 0.35096,
+      "metric": "query_weighted_recovery",
+      "sample_standard_deviation": 0.006213819723451558
+    },
+    {
+      "checkpoint": 0,
+      "condition": "stemming",
+      "confidence_interval": [
+        0.031310897453434905,
+        0.0348712058047249
+      ],
+      "count": 10,
+      "distribution": "zipf_iid",
+      "language": "en",
+      "mean": 0.0330910516290799,
+      "metric": "distinct_keyword_macro_recovery",
+      "sample_standard_deviation": 0.002488483945331507
+    },
+    {
+      "checkpoint": 10,
+      "condition": "stemming",
+      "confidence_interval": [
+        0.3344909156120987,
+        0.3915090843879013
+      ],
+      "count": 10,
+      "distribution": "zipf_iid",
+      "language": "en",
+      "mean": 0.363,
+      "metric": "query_weighted_recovery",
+      "sample_standard_deviation": 0.03985295193304728
+    },
+    {
+      "checkpoint": 10,
+      "condition": "stemming",
+      "confidence_interval": [
+        0.030186348753355727,
+        0.04509367869799291
+      ],
+      "count": 10,
+      "distribution": "zipf_iid",
+      "language": "en",
+      "mean": 0.03764001372567432,
+      "metric": "distinct_keyword_macro_recovery",
+      "sample_standard_deviation": 0.010419505159306825
+    },
+    {
+      "checkpoint": 100,
+      "condition": "stemming",
+      "confidence_interval": [
+        0.3903544882683354,
+        0.4875255117316646
+      ],
+      "count": 10,
+      "distribution": "zipf_iid",
+      "language": "en",
+      "mean": 0.43894,
+      "metric": "query_weighted_recovery",
+      "sample_standard_deviation": 0.06791786215716747
+    },
+    {
+      "checkpoint": 100,
+      "condition": "stemming",
+      "confidence_interval": [
+        0.04312965563528888,
+        0.06318787822532493
+      ],
+      "count": 10,
+      "distribution": "zipf_iid",
+      "language": "en",
+      "mean": 0.053158766930306904,
+      "metric": "distinct_keyword_macro_recovery",
+      "sample_standard_deviation": 0.01401973086659899
+    },
+    {
+      "checkpoint": 1000,
+      "condition": "stemming",
+      "confidence_interval": [
+        0.34492788226565313,
+        0.44703211773434687
+      ],
+      "count": 10,
+      "distribution": "zipf_iid",
+      "language": "en",
+      "mean": 0.39598,
+      "metric": "query_weighted_recovery",
+      "sample_standard_deviation": 0.0713659395883872
+    },
+    {
+      "checkpoint": 1000,
+      "condition": "stemming",
+      "confidence_interval": [
+        0.05219673187996996,
+        0.062181716619321044
+      ],
+      "count": 10,
+      "distribution": "zipf_iid",
+      "language": "en",
+      "mean": 0.0571892242496455,
+      "metric": "distinct_keyword_macro_recovery",
+      "sample_standard_deviation": 0.00697902309760681
+    },
+    {
+      "checkpoint": 0,
+      "condition": "tokenisation_only",
+      "confidence_interval": [
+        0.048498946159415794,
+        0.056461053840584204
+      ],
+      "count": 10,
+      "distribution": "uniform_iid",
+      "language": "lus",
+      "mean": 0.05248,
+      "metric": "query_weighted_recovery",
+      "sample_standard_deviation": 0.005565129528291921
+    },
+    {
+      "checkpoint": 0,
+      "condition": "tokenisation_only",
+      "confidence_interval": [
+        0.049672639306246755,
+        0.057927360693753246
+      ],
+      "count": 10,
+      "distribution": "uniform_iid",
+      "language": "lus",
+      "mean": 0.0538,
+      "metric": "distinct_keyword_macro_recovery",
+      "sample_standard_deviation": 0.005769652406245016
+    },
+    {
+      "checkpoint": 10,
+      "condition": "tokenisation_only",
+      "confidence_interval": [
+        0.05533550453099173,
+        0.06642449546900826
+      ],
+      "count": 10,
+      "distribution": "uniform_iid",
+      "language": "lus",
+      "mean": 0.06088,
+      "metric": "query_weighted_recovery",
+      "sample_standard_deviation": 0.007750670221915578
+    },
+    {
+      "checkpoint": 10,
+      "condition": "tokenisation_only",
+      "confidence_interval": [
+        0.05550009368838925,
+        0.06769990631161076
+      ],
+      "count": 10,
+      "distribution": "uniform_iid",
+      "language": "lus",
+      "mean": 0.0616,
+      "metric": "distinct_keyword_macro_recovery",
+      "sample_standard_deviation": 0.008527081042837057
+    },
+    {
+      "checkpoint": 100,
+      "condition": "tokenisation_only",
+      "confidence_interval": [
+        0.06665057212881774,
+        0.08874942787118227
+      ],
+      "count": 10,
+      "distribution": "uniform_iid",
+      "language": "lus",
+      "mean": 0.0777,
+      "metric": "query_weighted_recovery",
+      "sample_standard_deviation": 0.015446035089951078
+    },
+    {
+      "checkpoint": 100,
+      "condition": "tokenisation_only",
+      "confidence_interval": [
+        0.06868211790208568,
+        0.08971788209791433
+      ],
+      "count": 10,
+      "distribution": "uniform_iid",
+      "language": "lus",
+      "mean": 0.0792,
+      "metric": "distinct_keyword_macro_recovery",
+      "sample_standard_deviation": 0.014702985335562902
+    },
+    {
+      "checkpoint": 1000,
+      "condition": "tokenisation_only",
+      "confidence_interval": [
+        0.10445523996225634,
+        0.13370476003774368
+      ],
+      "count": 10,
+      "distribution": "uniform_iid",
+      "language": "lus",
+      "mean": 0.11908,
+      "metric": "query_weighted_recovery",
+      "sample_standard_deviation": 0.020444004826191305
+    },
+    {
+      "checkpoint": 1000,
+      "condition": "tokenisation_only",
+      "confidence_interval": [
+        0.10700393911981686,
+        0.13219606088018315
+      ],
+      "count": 10,
+      "distribution": "uniform_iid",
+      "language": "lus",
+      "mean": 0.1196,
+      "metric": "distinct_keyword_macro_recovery",
+      "sample_standard_deviation": 0.017608078953833785
+    },
+    {
+      "checkpoint": 0,
+      "condition": "tokenisation_only",
+      "confidence_interval": [
+        0.4972600738103218,
+        0.5092599261896783
+      ],
+      "count": 10,
+      "distribution": "zipf_iid",
+      "language": "lus",
+      "mean": 0.50326,
+      "metric": "query_weighted_recovery",
+      "sample_standard_deviation": 0.008387318469636829
+    },
+    {
+      "checkpoint": 0,
+      "condition": "tokenisation_only",
+      "confidence_interval": [
+        0.06273958990300471,
+        0.07044396214067114
+      ],
+      "count": 10,
+      "distribution": "zipf_iid",
+      "language": "lus",
+      "mean": 0.06659177602183793,
+      "metric": "distinct_keyword_macro_recovery",
+      "sample_standard_deviation": 0.005384984875072439
+    },
+    {
+      "checkpoint": 10,
+      "condition": "tokenisation_only",
+      "confidence_interval": [
+        0.504389962742208,
+        0.523650037257792
+      ],
+      "count": 10,
+      "distribution": "zipf_iid",
+      "language": "lus",
+      "mean": 0.51402,
+      "metric": "query_weighted_recovery",
+      "sample_standard_deviation": 0.01346186383001171
+    },
+    {
+      "checkpoint": 10,
+      "condition": "tokenisation_only",
+      "confidence_interval": [
+        0.06821597375143579,
+        0.08029018760865947
+      ],
+      "count": 10,
+      "distribution": "zipf_iid",
+      "language": "lus",
+      "mean": 0.07425308068004763,
+      "metric": "distinct_keyword_macro_recovery",
+      "sample_standard_deviation": 0.008439293558748564
+    },
+    {
+      "checkpoint": 100,
+      "condition": "tokenisation_only",
+      "confidence_interval": [
+        0.521916026940612,
+        0.5424039730593879
+      ],
+      "count": 10,
+      "distribution": "zipf_iid",
+      "language": "lus",
+      "mean": 0.53216,
+      "metric": "query_weighted_recovery",
+      "sample_standard_deviation": 0.01432008690228133
+    },
+    {
+      "checkpoint": 100,
+      "condition": "tokenisation_only",
+      "confidence_interval": [
+        0.07633147614561245,
+        0.09612240127677543
+      ],
+      "count": 10,
+      "distribution": "zipf_iid",
+      "language": "lus",
+      "mean": 0.08622693871119394,
+      "metric": "distinct_keyword_macro_recovery",
+      "sample_standard_deviation": 0.013832902825484928
+    },
+    {
+      "checkpoint": 1000,
+      "condition": "tokenisation_only",
+      "confidence_interval": [
+        0.5399391657846877,
+        0.5835008342153123
+      ],
+      "count": 10,
+      "distribution": "zipf_iid",
+      "language": "lus",
+      "mean": 0.56172,
+      "metric": "query_weighted_recovery",
+      "sample_standard_deviation": 0.030447506739742513
+    },
+    {
+      "checkpoint": 1000,
+      "condition": "tokenisation_only",
+      "confidence_interval": [
+        0.0932001218948048,
+        0.13265649460535067
+      ],
+      "count": 10,
+      "distribution": "zipf_iid",
+      "language": "lus",
+      "mean": 0.11292830825007773,
+      "metric": "distinct_keyword_macro_recovery",
+      "sample_standard_deviation": 0.02757810288977752
+    },
+    {
+      "checkpoint": 0,
+      "condition": "stopword_removal",
+      "confidence_interval": [
+        0.04309335058662595,
+        0.04814664941337405
+      ],
+      "count": 10,
+      "distribution": "uniform_iid",
+      "language": "lus",
+      "mean": 0.04562,
+      "metric": "query_weighted_recovery",
+      "sample_standard_deviation": 0.0035320123316759685
+    },
+    {
+      "checkpoint": 0,
+      "condition": "stopword_removal",
+      "confidence_interval": [
+        0.045094548177373954,
+        0.05010545182262605
+      ],
+      "count": 10,
+      "distribution": "uniform_iid",
+      "language": "lus",
+      "mean": 0.0476,
+      "metric": "distinct_keyword_macro_recovery",
+      "sample_standard_deviation": 0.0035023801430836524
+    },
+    {
+      "checkpoint": 10,
+      "condition": "stopword_removal",
+      "confidence_interval": [
+        0.0458131954569128,
+        0.052746804543087195
+      ],
+      "count": 10,
+      "distribution": "uniform_iid",
+      "language": "lus",
+      "mean": 0.04928,
+      "metric": "query_weighted_recovery",
+      "sample_standard_deviation": 0.004846258579793512
+    },
+    {
+      "checkpoint": 10,
+      "condition": "stopword_removal",
+      "confidence_interval": [
+        0.046836572735687684,
+        0.05316342726431232
+      ],
+      "count": 10,
+      "distribution": "uniform_iid",
+      "language": "lus",
+      "mean": 0.05,
+      "metric": "distinct_keyword_macro_recovery",
+      "sample_standard_deviation": 0.004422166387140534
+    },
+    {
+      "checkpoint": 100,
+      "condition": "stopword_removal",
+      "confidence_interval": [
+        0.05586976470025256,
+        0.07081023529974745
+      ],
+      "count": 10,
+      "distribution": "uniform_iid",
+      "language": "lus",
+      "mean": 0.06334000000000001,
+      "metric": "query_weighted_recovery",
+      "sample_standard_deviation": 0.010442668879809094
+    },
+    {
+      "checkpoint": 100,
+      "condition": "stopword_removal",
+      "confidence_interval": [
+        0.056874202250190395,
+        0.0707257977498096
+      ],
+      "count": 10,
+      "distribution": "uniform_iid",
+      "language": "lus",
+      "mean": 0.0638,
+      "metric": "distinct_keyword_macro_recovery",
+      "sample_standard_deviation": 0.009681597664297631
+    },
+    {
+      "checkpoint": 1000,
+      "condition": "stopword_removal",
+      "confidence_interval": [
+        0.06312762790013826,
+        0.07591237209986174
+      ],
+      "count": 10,
+      "distribution": "uniform_iid",
+      "language": "lus",
+      "mean": 0.06952,
+      "metric": "query_weighted_recovery",
+      "sample_standard_deviation": 0.00893592002351558
+    },
+    {
+      "checkpoint": 1000,
+      "condition": "stopword_removal",
+      "confidence_interval": [
+        0.06473267818811393,
+        0.07486732181188607
+      ],
+      "count": 10,
+      "distribution": "uniform_iid",
+      "language": "lus",
+      "mean": 0.0698,
+      "metric": "distinct_keyword_macro_recovery",
+      "sample_standard_deviation": 0.007083627444874397
+    },
+    {
+      "checkpoint": 0,
+      "condition": "stopword_removal",
+      "confidence_interval": [
+        0.5009706060269077,
+        0.5123493939730923
+      ],
+      "count": 10,
+      "distribution": "zipf_iid",
+      "language": "lus",
+      "mean": 0.50666,
+      "metric": "query_weighted_recovery",
+      "sample_standard_deviation": 0.007953224363601083
+    },
+    {
+      "checkpoint": 0,
+      "condition": "stopword_removal",
+      "confidence_interval": [
+        0.05255087674706595,
+        0.058934719092430546
+      ],
+      "count": 10,
+      "distribution": "zipf_iid",
+      "language": "lus",
+      "mean": 0.055742797919748246,
+      "metric": "distinct_keyword_macro_recovery",
+      "sample_standard_deviation": 0.00446199812446337
+    },
+    {
+      "checkpoint": 10,
+      "condition": "stopword_removal",
+      "confidence_interval": [
+        0.4695625838243983,
+        0.5112774161756017
+      ],
+      "count": 10,
+      "distribution": "zipf_iid",
+      "language": "lus",
+      "mean": 0.49042,
+      "metric": "query_weighted_recovery",
+      "sample_standard_deviation": 0.02915665733013074
+    },
+    {
+      "checkpoint": 10,
+      "condition": "stopword_removal",
+      "confidence_interval": [
+        0.047104953763386324,
+        0.0574549472568863
+      ],
+      "count": 10,
+      "distribution": "zipf_iid",
+      "language": "lus",
+      "mean": 0.052279950510136314,
+      "metric": "distinct_keyword_macro_recovery",
+      "sample_standard_deviation": 0.00723414662483609
+    },
+    {
+      "checkpoint": 100,
+      "condition": "stopword_removal",
+      "confidence_interval": [
+        0.4592492671385801,
+        0.5277507328614199
+      ],
+      "count": 10,
+      "distribution": "zipf_iid",
+      "language": "lus",
+      "mean": 0.4935,
+      "metric": "query_weighted_recovery",
+      "sample_standard_deviation": 0.04787922305134035
+    },
+    {
+      "checkpoint": 100,
+      "condition": "stopword_removal",
+      "confidence_interval": [
+        0.05504458553888444,
+        0.07705744698517497
+      ],
+      "count": 10,
+      "distribution": "zipf_iid",
+      "language": "lus",
+      "mean": 0.06605101626202971,
+      "metric": "distinct_keyword_macro_recovery",
+      "sample_standard_deviation": 0.015385929221566766
+    },
+    {
+      "checkpoint": 1000,
+      "condition": "stopword_removal",
+      "confidence_interval": [
+        0.5156568389272246,
+        0.5778631610727755
+      ],
+      "count": 10,
+      "distribution": "zipf_iid",
+      "language": "lus",
+      "mean": 0.54676,
+      "metric": "query_weighted_recovery",
+      "sample_standard_deviation": 0.043479221090846
+    },
+    {
+      "checkpoint": 1000,
+      "condition": "stopword_removal",
+      "confidence_interval": [
+        0.06936430814035575,
+        0.088228338974481
+      ],
+      "count": 10,
+      "distribution": "zipf_iid",
+      "language": "lus",
+      "mean": 0.07879632355741838,
+      "metric": "distinct_keyword_macro_recovery",
+      "sample_standard_deviation": 0.013185048384348669
+    },
+    {
+      "checkpoint": 0,
+      "condition": "stemming",
+      "confidence_interval": [
+        0.039541072539374784,
+        0.04377892746062522
+      ],
+      "count": 10,
+      "distribution": "uniform_iid",
+      "language": "lus",
+      "mean": 0.04166,
+      "metric": "query_weighted_recovery",
+      "sample_standard_deviation": 0.0029620563427757035
+    },
+    {
+      "checkpoint": 0,
+      "condition": "stemming",
+      "confidence_interval": [
+        0.04008712224119978,
+        0.04351287775880023
+      ],
+      "count": 10,
+      "distribution": "uniform_iid",
+      "language": "lus",
+      "mean": 0.041800000000000004,
+      "metric": "distinct_keyword_macro_recovery",
+      "sample_standard_deviation": 0.002394437999475729
+    },
+    {
+      "checkpoint": 10,
+      "condition": "stemming",
+      "confidence_interval": [
+        0.03970252387522129,
+        0.049137476124778715
+      ],
+      "count": 10,
+      "distribution": "uniform_iid",
+      "language": "lus",
+      "mean": 0.04442,
+      "metric": "query_weighted_recovery",
+      "sample_standard_deviation": 0.006594576896544952
+    },
+    {
+      "checkpoint": 10,
+      "condition": "stemming",
+      "confidence_interval": [
+        0.04118539350585902,
+        0.04961460649414097
+      ],
+      "count": 10,
+      "distribution": "uniform_iid",
+      "language": "lus",
+      "mean": 0.045399999999999996,
+      "metric": "distinct_keyword_macro_recovery",
+      "sample_standard_deviation": 0.005891613625409521
+    },
+    {
+      "checkpoint": 100,
+      "condition": "stemming",
+      "confidence_interval": [
+        0.05120576213731921,
+        0.06615423786268079
+      ],
+      "count": 10,
+      "distribution": "uniform_iid",
+      "language": "lus",
+      "mean": 0.05868,
+      "metric": "query_weighted_recovery",
+      "sample_standard_deviation": 0.010448264076975763
+    },
+    {
+      "checkpoint": 100,
+      "condition": "stemming",
+      "confidence_interval": [
+        0.05224591537493011,
+        0.0673540846250699
+      ],
+      "count": 10,
+      "distribution": "uniform_iid",
+      "language": "lus",
+      "mean": 0.0598,
+      "metric": "distinct_keyword_macro_recovery",
+      "sample_standard_deviation": 0.010559882154224596
+    },
+    {
+      "checkpoint": 1000,
+      "condition": "stemming",
+      "confidence_interval": [
+        0.06229507734171011,
+        0.0815049226582899
+      ],
+      "count": 10,
+      "distribution": "uniform_iid",
+      "language": "lus",
+      "mean": 0.0719,
+      "metric": "query_weighted_recovery",
+      "sample_standard_deviation": 0.013426756040748555
+    },
+    {
+      "checkpoint": 1000,
+      "condition": "stemming",
+      "confidence_interval": [
+        0.06453426496998688,
+        0.08106573503001313
+      ],
+      "count": 10,
+      "distribution": "uniform_iid",
+      "language": "lus",
+      "mean": 0.0728,
+      "metric": "distinct_keyword_macro_recovery",
+      "sample_standard_deviation": 0.011554700823089757
+    },
+    {
+      "checkpoint": 0,
+      "condition": "stemming",
+      "confidence_interval": [
+        0.46925284900761716,
+        0.4805071509923829
+      ],
+      "count": 10,
+      "distribution": "zipf_iid",
+      "language": "lus",
+      "mean": 0.47488,
+      "metric": "query_weighted_recovery",
+      "sample_standard_deviation": 0.007866214676280667
+    },
+    {
+      "checkpoint": 0,
+      "condition": "stemming",
+      "confidence_interval": [
+        0.04283582445705157,
+        0.04856245249490507
+      ],
+      "count": 10,
+      "distribution": "zipf_iid",
+      "language": "lus",
+      "mean": 0.04569913847597832,
+      "metric": "distinct_keyword_macro_recovery",
+      "sample_standard_deviation": 0.004002636998539839
+    },
+    {
+      "checkpoint": 10,
+      "condition": "stemming",
+      "confidence_interval": [
+        0.4553470764974924,
+        0.4874529235025076
+      ],
+      "count": 10,
+      "distribution": "zipf_iid",
+      "language": "lus",
+      "mean": 0.4714,
+      "metric": "query_weighted_recovery",
+      "sample_standard_deviation": 0.022440439686720336
+    },
+    {
+      "checkpoint": 10,
+      "condition": "stemming",
+      "confidence_interval": [
+        0.04497773764497304,
+        0.05426633635395865
+      ],
+      "count": 10,
+      "distribution": "zipf_iid",
+      "language": "lus",
+      "mean": 0.049622036999465845,
+      "metric": "distinct_keyword_macro_recovery",
+      "sample_standard_deviation": 0.006492282825324012
+    },
+    {
+      "checkpoint": 100,
+      "condition": "stemming",
+      "confidence_interval": [
+        0.4781640249407468,
+        0.5109959750592532
+      ],
+      "count": 10,
+      "distribution": "zipf_iid",
+      "language": "lus",
+      "mean": 0.49458,
+      "metric": "query_weighted_recovery",
+      "sample_standard_deviation": 0.022947950767866918
+    },
+    {
+      "checkpoint": 100,
+      "condition": "stemming",
+      "confidence_interval": [
+        0.05264787485942152,
+        0.06839834444673415
+      ],
+      "count": 10,
+      "distribution": "zipf_iid",
+      "language": "lus",
+      "mean": 0.06052310965307783,
+      "metric": "distinct_keyword_macro_recovery",
+      "sample_standard_deviation": 0.011008819133673726
+    },
+    {
+      "checkpoint": 1000,
+      "condition": "stemming",
+      "confidence_interval": [
+        0.5152850830946878,
+        0.5526349169053122
+      ],
+      "count": 10,
+      "distribution": "zipf_iid",
+      "language": "lus",
+      "mean": 0.53396,
+      "metric": "query_weighted_recovery",
+      "sample_standard_deviation": 0.026105733725243833
+    },
+    {
+      "checkpoint": 1000,
+      "condition": "stemming",
+      "confidence_interval": [
+        0.0703969221369125,
+        0.0862796804655299
+      ],
+      "count": 10,
+      "distribution": "zipf_iid",
+      "language": "lus",
+      "mean": 0.0783383013012212,
+      "metric": "distinct_keyword_macro_recovery",
+      "sample_standard_deviation": 0.011101282588072489
+    }
+  ],
+  "auxiliary_count": [
+    1658
+  ],
+  "checkpoint": 1000,
+  "client_count": [
+    3316
+  ],
+  "config": {
+    "adjustment": "Holm within each of the two reported comparison families",
+    "conditions": [
+      "tokenisation_only",
+      "stopword_removal",
+      "stemming"
+    ],
+    "confidence_level": 0.95,
+    "config_version": "1.0.0",
+    "experiment": "results/corpus/production-fixed-split-experiments.json",
+    "interpretation": "Conditional on the fixed corpus and split. Preprocessing contrasts include the reselected keyword vocabulary.",
+    "language_difference": "lus_minus_en",
+    "languages": [
+      "en",
+      "lus"
+    ],
+    "metrics": [
+      "query_weighted_recovery",
+      "distinct_keyword_macro_recovery"
+    ],
+    "preprocessing_contrasts": [
+      [
+        "stopword_removal",
+        "tokenisation_only"
+      ],
+      [
+        "stemming",
+        "tokenisation_only"
+      ],
+      [
+        "stemming",
+        "stopword_removal"
+      ]
+    ],
+    "test": "exact two-sided sign-flip on paired seed differences"
+  },
+  "document_count": [
+    4974
+  ],
+  "inputs": {
+    "analysis_config_sha256": "db533a890e748a9f63160a529e614f1eb5296eb496c8ea44c86879e48dead560",
+    "experiment_sha256": "116191373d4cc4b943ee953892c0716db059bc52ef09b76691fc5b2783143a27",
+    "manifest_sha256": "2501dc7032e29518983c27206a5f95c6d0286b01293ec2301becdfee1854e1fb"
+  },
+  "keyword_count": 500,
+  "language_comparisons": [
+    {
+      "condition": "tokenisation_only",
+      "confidence_interval": [
+        -0.03052294717248763,
+        -0.0003970528275123713
+      ],
+      "count": 10,
+      "differences": [
+        -0.018200000000000008,
+        -0.011600000000000013,
+        0.013799999999999979,
+        -0.002799999999999997,
+        -0.03419999999999998,
+        0.009200000000000014,
+        -0.00739999999999999,
+        -0.010800000000000004,
+        -0.044999999999999984,
+        -0.04760000000000002
+      ],
+      "distribution": "uniform_iid",
+      "exact_sign_flip_p": 0.05078125,
+      "holm_adjusted_p": 0.140625,
+      "left_mean": 0.11908,
+      "mean": -0.01546,
+      "metric": "query_weighted_recovery",
+      "right_mean": 0.13454,
+      "sample_standard_deviation": 0.021056548202927804
+    },
+    {
+      "condition": "tokenisation_only",
+      "confidence_interval": [
+        -0.025960387950055737,
+        -0.0028396120499442675
+      ],
+      "count": 10,
+      "differences": [
+        -0.016,
+        -0.009999999999999995,
+        0.005999999999999978,
+        0.0,
+        -0.021999999999999992,
+        -0.0020000000000000018,
+        -0.008000000000000007,
+        -0.010000000000000009,
+        -0.03799999999999999,
+        -0.04400000000000001
+      ],
+      "distribution": "uniform_iid",
+      "exact_sign_flip_p": 0.01171875,
+      "holm_adjusted_p": 0.08203125,
+      "left_mean": 0.1196,
+      "mean": -0.014400000000000003,
+      "metric": "distinct_keyword_macro_recovery",
+      "right_mean": 0.134,
+      "sample_standard_deviation": 0.016160308027867398
+    },
+    {
+      "condition": "tokenisation_only",
+      "confidence_interval": [
+        -0.07312145903021358,
+        0.015201459030213652
+      ],
+      "count": 10,
+      "differences": [
+        -0.05500000000000005,
+        -0.04579999999999995,
+        0.008000000000000007,
+        -0.012599999999999945,
+        0.12740000000000007,
+        -0.08599999999999997,
+        -0.04399999999999993,
+        -0.04259999999999997,
+        -0.05719999999999992,
+        -0.08179999999999998
+      ],
+      "distribution": "zipf_iid",
+      "exact_sign_flip_p": 0.162109375,
+      "holm_adjusted_p": 0.162109375,
+      "left_mean": 0.56172,
+      "mean": -0.028959999999999965,
+      "metric": "query_weighted_recovery",
+      "right_mean": 0.59068,
+      "sample_standard_deviation": 0.061733462922830155
+    },
+    {
+      "condition": "tokenisation_only",
+      "confidence_interval": [
+        -0.06044770608837245,
+        -0.010745511433233896
+      ],
+      "count": 10,
+      "differences": [
+        -0.030567685589519666,
+        -0.03017241379310344,
+        -0.08222222222222222,
+        0.028077753779697623,
+        -0.05139186295503212,
+        -0.0670995670995671,
+        -0.029978586723768713,
+        0.015384615384615385,
+        -0.057777777777777775,
+        -0.05021834061135372
+      ],
+      "distribution": "zipf_iid",
+      "exact_sign_flip_p": 0.013671875,
+      "holm_adjusted_p": 0.08203125,
+      "left_mean": 0.11292830825007773,
+      "mean": -0.03559660876080317,
+      "metric": "distinct_keyword_macro_recovery",
+      "right_mean": 0.1485249170108809,
+      "sample_standard_deviation": 0.03473943862256764
+    },
+    {
+      "condition": "stopword_removal",
+      "confidence_interval": [
+        0.002872558673038275,
+        0.02120744132696173
+      ],
+      "count": 10,
+      "differences": [
+        0.011199999999999995,
+        0.013399999999999995,
+        0.016400000000000005,
+        0.006400000000000003,
+        0.036800000000000006,
+        0.013200000000000003,
+        -0.004399999999999987,
+        0.025799999999999997,
+        0.007800000000000001,
+        -0.006199999999999997
+      ],
+      "distribution": "uniform_iid",
+      "exact_sign_flip_p": 0.01171875,
+      "holm_adjusted_p": 0.08203125,
+      "left_mean": 0.06952,
+      "mean": 0.012040000000000002,
+      "metric": "query_weighted_recovery",
+      "right_mean": 0.057479999999999996,
+      "sample_standard_deviation": 0.012815199309153693
+    },
+    {
+      "condition": "stopword_removal",
+      "confidence_interval": [
+        0.0034012277557345216,
+        0.02219877224426548
+      ],
+      "count": 10,
+      "differences": [
+        0.014000000000000005,
+        0.020000000000000004,
+        0.011999999999999997,
+        0.008000000000000007,
+        0.034,
+        0.008,
+        -0.006000000000000005,
+        0.030000000000000006,
+        0.013999999999999999,
+        -0.006000000000000005
+      ],
+      "distribution": "uniform_iid",
+      "exact_sign_flip_p": 0.013671875,
+      "holm_adjusted_p": 0.08203125,
+      "left_mean": 0.0698,
+      "mean": 0.0128,
+      "metric": "distinct_keyword_macro_recovery",
+      "right_mean": 0.057,
+      "sample_standard_deviation": 0.013138577633146683
+    },
+    {
+      "condition": "stopword_removal",
+      "confidence_interval": [
+        0.03917665320155213,
+        0.1153833467984479
+      ],
+      "count": 10,
+      "differences": [
+        0.040600000000000025,
+        0.11399999999999999,
+        0.17180000000000006,
+        0.021799999999999986,
+        0.07539999999999997,
+        0.0826,
+        0.034399999999999986,
+        0.13320000000000004,
+        0.09580000000000005,
+        0.0031999999999999806
+      ],
+      "distribution": "zipf_iid",
+      "exact_sign_flip_p": 0.001953125,
+      "holm_adjusted_p": 0.0234375,
+      "left_mean": 0.54676,
+      "mean": 0.07728000000000002,
+      "metric": "query_weighted_recovery",
+      "right_mean": 0.46948,
+      "sample_standard_deviation": 0.05326480597501091
+    },
+    {
+      "condition": "stopword_removal",
+      "confidence_interval": [
+        0.0006366602600625538,
+        0.025926634740079793
+      ],
+      "count": 10,
+      "differences": [
+        -0.021834061135371174,
+        0.025862068965517244,
+        0.03333333333333334,
+        0.012958963282937358,
+        0.010706638115631696,
+        0.02813852813852813,
+        0.023554603854389726,
+        0.008791208791208788,
+        0.02222222222222222,
+        -0.010917030567685587
+      ],
+      "distribution": "zipf_iid",
+      "exact_sign_flip_p": 0.046875,
+      "holm_adjusted_p": 0.140625,
+      "left_mean": 0.07879632355741838,
+      "mean": 0.013281647500071174,
+      "metric": "distinct_keyword_macro_recovery",
+      "right_mean": 0.0655146760573472,
+      "sample_standard_deviation": 0.017676473288771154
+    },
+    {
+      "condition": "stemming",
+      "confidence_interval": [
+        0.007152603940300489,
+        0.029727396059699512
+      ],
+      "count": 10,
+      "differences": [
+        0.010799999999999997,
+        0.0126,
+        0.0262,
+        0.002600000000000005,
+        0.03,
+        0.018600000000000005,
+        0.054200000000000005,
+        0.012200000000000003,
+        0.018400000000000007,
+        -0.0011999999999999997
+      ],
+      "distribution": "uniform_iid",
+      "exact_sign_flip_p": 0.00390625,
+      "holm_adjusted_p": 0.03125,
+      "left_mean": 0.0719,
+      "mean": 0.01844,
+      "metric": "query_weighted_recovery",
+      "right_mean": 0.05346,
+      "sample_standard_deviation": 0.015778691679322183
+    },
+    {
+      "condition": "stemming",
+      "confidence_interval": [
+        0.010226364006153071,
+        0.029773635993846928
+      ],
+      "count": 10,
+      "differences": [
+        0.01800000000000001,
+        0.013999999999999999,
+        0.027999999999999997,
+        0.008000000000000007,
+        0.025999999999999995,
+        0.024,
+        0.052000000000000005,
+        0.012000000000000004,
+        0.013999999999999999,
+        0.0040000000000000036
+      ],
+      "distribution": "uniform_iid",
+      "exact_sign_flip_p": 0.001953125,
+      "holm_adjusted_p": 0.0234375,
+      "left_mean": 0.0728,
+      "mean": 0.02,
+      "metric": "distinct_keyword_macro_recovery",
+      "right_mean": 0.0528,
+      "sample_standard_deviation": 0.013662601021279462
+    },
+    {
+      "condition": "stemming",
+      "confidence_interval": [
+        0.09545436271413113,
+        0.1805056372858689
+      ],
+      "count": 10,
+      "differences": [
+        0.1442,
+        0.06120000000000003,
+        0.19680000000000003,
+        0.08580000000000004,
+        0.12140000000000001,
+        0.2132,
+        0.04039999999999999,
+        0.19320000000000004,
+        0.16680000000000006,
+        0.15680000000000005
+      ],
+      "distribution": "zipf_iid",
+      "exact_sign_flip_p": 0.001953125,
+      "holm_adjusted_p": 0.0234375,
+      "left_mean": 0.53396,
+      "mean": 0.13798000000000002,
+      "metric": "query_weighted_recovery",
+      "right_mean": 0.39598,
+      "sample_standard_deviation": 0.05944674180399723
+    },
+    {
+      "condition": "stemming",
+      "confidence_interval": [
+        0.012858977776619469,
+        0.02943917632653193
+      ],
+      "count": 10,
+      "differences": [
+        0.01310043668122271,
+        0.04310344827586207,
+        0.03333333333333333,
+        0.017278617710583144,
+        0.006423982869379022,
+        0.012987012987012991,
+        0.01498929336188437,
+        0.02637362637362637,
+        0.013333333333333336,
+        0.030567685589519653
+      ],
+      "distribution": "zipf_iid",
+      "exact_sign_flip_p": 0.001953125,
+      "holm_adjusted_p": 0.0234375,
+      "left_mean": 0.0783383013012212,
+      "mean": 0.0211490770515757,
+      "metric": "distinct_keyword_macro_recovery",
+      "right_mean": 0.0571892242496455,
+      "sample_standard_deviation": 0.011588759689007409
+    }
+  ],
+  "preprocessing_comparisons": [
+    {
+      "confidence_interval": [
+        -0.09212324915286223,
+        -0.06199675084713778
+      ],
+      "count": 10,
+      "differences": [
+        -0.07880000000000001,
+        -0.0766,
+        -0.07200000000000001,
+        -0.0378,
+        -0.11659999999999998,
+        -0.0652,
+        -0.074,
+        -0.0844,
+        -0.0998,
+        -0.06540000000000001
+      ],
+      "distribution": "uniform_iid",
+      "exact_sign_flip_p": 0.001953125,
+      "holm_adjusted_p": 0.046875,
+      "language": "en",
+      "left": "stopword_removal",
+      "left_mean": 0.057479999999999996,
+      "mean": -0.07706,
+      "metric": "query_weighted_recovery",
+      "right": "tokenisation_only",
+      "right_mean": 0.13454,
+      "sample_standard_deviation": 0.02105697034238306
+    },
+    {
+      "confidence_interval": [
+        -0.08994249156643784,
+        -0.06405750843356216
+      ],
+      "count": 10,
+      "differences": [
+        -0.07800000000000001,
+        -0.08,
+        -0.07400000000000001,
+        -0.038000000000000006,
+        -0.102,
+        -0.07,
+        -0.076,
+        -0.08600000000000002,
+        -0.09999999999999999,
+        -0.066
+      ],
+      "distribution": "uniform_iid",
+      "exact_sign_flip_p": 0.001953125,
+      "holm_adjusted_p": 0.046875,
+      "language": "en",
+      "left": "stopword_removal",
+      "left_mean": 0.057,
+      "mean": -0.077,
+      "metric": "distinct_keyword_macro_recovery",
+      "right": "tokenisation_only",
+      "right_mean": 0.134,
+      "sample_standard_deviation": 0.01809235566014921
+    },
+    {
+      "confidence_interval": [
+        -0.1685532411744025,
+        -0.07384675882559746
+      ],
+      "count": 10,
+      "differences": [
+        -0.15140000000000003,
+        -0.15259999999999996,
+        -0.07600000000000007,
+        -0.10759999999999997,
+        0.028600000000000014,
+        -0.07979999999999998,
+        -0.14859999999999995,
+        -0.19059999999999994,
+        -0.19339999999999996,
+        -0.1406
+      ],
+      "distribution": "zipf_iid",
+      "exact_sign_flip_p": 0.00390625,
+      "holm_adjusted_p": 0.05078125,
+      "language": "en",
+      "left": "stopword_removal",
+      "left_mean": 0.46948,
+      "mean": -0.12119999999999999,
+      "metric": "query_weighted_recovery",
+      "right": "tokenisation_only",
+      "right_mean": 0.59068,
+      "sample_standard_deviation": 0.06619526669886097
+    },
+    {
+      "confidence_interval": [
+        -0.09851603053356596,
+        -0.06750445137350146
+      ],
+      "count": 10,
+      "differences": [
+        -0.0720524017467249,
+        -0.07543103448275862,
+        -0.10444444444444445,
+        -0.051835853131749446,
+        -0.10064239828693791,
+        -0.06493506493506493,
+        -0.0963597430406852,
+        -0.057142857142857134,
+        -0.11555555555555555,
+        -0.09170305676855896
+      ],
+      "distribution": "zipf_iid",
+      "exact_sign_flip_p": 0.001953125,
+      "holm_adjusted_p": 0.046875,
+      "language": "en",
+      "left": "stopword_removal",
+      "left_mean": 0.0655146760573472,
+      "mean": -0.08301024095353371,
+      "metric": "distinct_keyword_macro_recovery",
+      "right": "tokenisation_only",
+      "right_mean": 0.1485249170108809,
+      "sample_standard_deviation": 0.02167559920230962
+    },
+    {
+      "confidence_interval": [
+        -0.09694053078224801,
+        -0.06521946921775199
+      ],
+      "count": 10,
+      "differences": [
+        -0.0784,
+        -0.05940000000000001,
+        -0.08320000000000001,
+        -0.036000000000000004,
+        -0.11479999999999999,
+        -0.075,
+        -0.1046,
+        -0.08720000000000001,
+        -0.093,
+        -0.07920000000000002
+      ],
+      "distribution": "uniform_iid",
+      "exact_sign_flip_p": 0.001953125,
+      "holm_adjusted_p": 0.046875,
+      "language": "en",
+      "left": "stemming",
+      "left_mean": 0.05346,
+      "mean": -0.08108,
+      "metric": "query_weighted_recovery",
+      "right": "tokenisation_only",
+      "right_mean": 0.13454,
+      "sample_standard_deviation": 0.02217149320887321
+    },
+    {
+      "confidence_interval": [
+        -0.09494279870579836,
+        -0.06745720129420166
+      ],
+      "count": 10,
+      "differences": [
+        -0.08000000000000002,
+        -0.062,
+        -0.08600000000000001,
+        -0.038000000000000006,
+        -0.09999999999999999,
+        -0.086,
+        -0.106,
+        -0.08600000000000002,
+        -0.088,
+        -0.08000000000000002
+      ],
+      "distribution": "uniform_iid",
+      "exact_sign_flip_p": 0.001953125,
+      "holm_adjusted_p": 0.046875,
+      "language": "en",
+      "left": "stemming",
+      "left_mean": 0.0528,
+      "mean": -0.08120000000000001,
+      "metric": "distinct_keyword_macro_recovery",
+      "right": "tokenisation_only",
+      "right_mean": 0.134,
+      "sample_standard_deviation": 0.019211107897949734
+    },
+    {
+      "confidence_interval": [
+        -0.2620268797303509,
+        -0.1273731202696491
+      ],
+      "count": 10,
+      "differences": [
+        -0.27460000000000007,
+        -0.0978,
+        -0.15440000000000004,
+        -0.12359999999999999,
+        -0.03799999999999998,
+        -0.2888,
+        -0.14559999999999995,
+        -0.31299999999999994,
+        -0.25139999999999996,
+        -0.25980000000000003
+      ],
+      "distribution": "zipf_iid",
+      "exact_sign_flip_p": 0.001953125,
+      "holm_adjusted_p": 0.046875,
+      "language": "en",
+      "left": "stemming",
+      "left_mean": 0.39598,
+      "mean": -0.19469999999999998,
+      "metric": "query_weighted_recovery",
+      "right": "tokenisation_only",
+      "right_mean": 0.59068,
+      "sample_standard_deviation": 0.0941164881056095
+    },
+    {
+      "confidence_interval": [
+        -0.1040035188406533,
+        -0.07866786668181751
+      ],
+      "count": 10,
+      "differences": [
+        -0.10043668122270744,
+        -0.0711206896551724,
+        -0.11555555555555555,
+        -0.06047516198704102,
+        -0.09635974304068523,
+        -0.07792207792207792,
+        -0.0899357601713062,
+        -0.08571428571428572,
+        -0.10666666666666667,
+        -0.1091703056768559
+      ],
+      "distribution": "zipf_iid",
+      "exact_sign_flip_p": 0.001953125,
+      "holm_adjusted_p": 0.046875,
+      "language": "en",
+      "left": "stemming",
+      "left_mean": 0.0571892242496455,
+      "mean": -0.0913356927612354,
+      "metric": "distinct_keyword_macro_recovery",
+      "right": "tokenisation_only",
+      "right_mean": 0.1485249170108809,
+      "sample_standard_deviation": 0.01770839978478906
+    },
+    {
+      "confidence_interval": [
+        -0.013387370380114286,
+        0.005347370380114287
+      ],
+      "count": 10,
+      "differences": [
+        0.0003999999999999976,
+        0.0172,
+        -0.011199999999999995,
+        0.001799999999999996,
+        0.001800000000000003,
+        -0.009800000000000003,
+        -0.030599999999999995,
+        -0.002800000000000004,
+        0.0068000000000000005,
+        -0.0138
+      ],
+      "distribution": "uniform_iid",
+      "exact_sign_flip_p": 0.37109375,
+      "holm_adjusted_p": 1.0,
+      "language": "en",
+      "left": "stemming",
+      "left_mean": 0.05346,
+      "mean": -0.00402,
+      "metric": "query_weighted_recovery",
+      "right": "stopword_removal",
+      "right_mean": 0.057479999999999996,
+      "sample_standard_deviation": 0.013094680853944728
+    },
+    {
+      "confidence_interval": [
+        -0.01430430199357643,
+        0.005904301993576428
+      ],
+      "count": 10,
+      "differences": [
+        -0.0020000000000000018,
+        0.018000000000000002,
+        -0.011999999999999997,
+        0.0,
+        0.0020000000000000018,
+        -0.016,
+        -0.03,
+        0.0,
+        0.011999999999999997,
+        -0.014000000000000005
+      ],
+      "distribution": "uniform_iid",
+      "exact_sign_flip_p": 0.4453125,
+      "holm_adjusted_p": 1.0,
+      "language": "en",
+      "left": "stemming",
+      "left_mean": 0.0528,
+      "mean": -0.004200000000000001,
+      "metric": "distinct_keyword_macro_recovery",
+      "right": "stopword_removal",
+      "right_mean": 0.057,
+      "sample_standard_deviation": 0.014124840215418762
+    },
+    {
+      "confidence_interval": [
+        -0.12747735371271118,
+        -0.019522646287288822
+      ],
+      "count": 10,
+      "differences": [
+        -0.12320000000000003,
+        0.05479999999999996,
+        -0.07839999999999997,
+        -0.016000000000000014,
+        -0.06659999999999999,
+        -0.20900000000000002,
+        0.0030000000000000027,
+        -0.12240000000000001,
+        -0.057999999999999996,
+        -0.11920000000000003
+      ],
+      "distribution": "zipf_iid",
+      "exact_sign_flip_p": 0.01171875,
+      "holm_adjusted_p": 0.140625,
+      "language": "en",
+      "left": "stemming",
+      "left_mean": 0.39598,
+      "mean": -0.07350000000000001,
+      "metric": "query_weighted_recovery",
+      "right": "stopword_removal",
+      "right_mean": 0.46948,
+      "sample_standard_deviation": 0.07545513751745322
+    },
+    {
+      "confidence_interval": [
+        -0.01832318619550794,
+        0.001672282580104557
+      ],
+      "count": 10,
+      "differences": [
+        -0.02838427947598253,
+        0.004310344827586209,
+        -0.011111111111111106,
+        -0.008639308855291572,
+        0.004282655246252674,
+        -0.012987012987012991,
+        0.006423982869379015,
+        -0.028571428571428574,
+        0.008888888888888884,
+        -0.017467248908296942
+      ],
+      "distribution": "zipf_iid",
+      "exact_sign_flip_p": 0.095703125,
+      "holm_adjusted_p": 0.765625,
+      "language": "en",
+      "left": "stemming",
+      "left_mean": 0.0571892242496455,
+      "mean": -0.008325451807701693,
+      "metric": "distinct_keyword_macro_recovery",
+      "right": "stopword_removal",
+      "right_mean": 0.0655146760573472,
+      "sample_standard_deviation": 0.013975868974792693
+    },
+    {
+      "confidence_interval": [
+        -0.0605156935447645,
+        -0.0386043064552355
+      ],
+      "count": 10,
+      "differences": [
+        -0.0494,
+        -0.0516,
+        -0.06939999999999999,
+        -0.0286,
+        -0.0456,
+        -0.061200000000000004,
+        -0.071,
+        -0.04780000000000001,
+        -0.04700000000000001,
+        -0.023999999999999994
+      ],
+      "distribution": "uniform_iid",
+      "exact_sign_flip_p": 0.001953125,
+      "holm_adjusted_p": 0.046875,
+      "language": "lus",
+      "left": "stopword_removal",
+      "left_mean": 0.06952,
+      "mean": -0.04956,
+      "metric": "query_weighted_recovery",
+      "right": "tokenisation_only",
+      "right_mean": 0.11908,
+      "sample_standard_deviation": 0.015315003536837114
+    },
+    {
+      "confidence_interval": [
+        -0.06025824721540623,
+        -0.039341752784593766
+      ],
+      "count": 10,
+      "differences": [
+        -0.048,
+        -0.05,
+        -0.06799999999999999,
+        -0.03,
+        -0.046,
+        -0.06,
+        -0.074,
+        -0.046,
+        -0.048,
+        -0.027999999999999997
+      ],
+      "distribution": "uniform_iid",
+      "exact_sign_flip_p": 0.001953125,
+      "holm_adjusted_p": 0.046875,
+      "language": "lus",
+      "left": "stopword_removal",
+      "left_mean": 0.0698,
+      "mean": -0.0498,
+      "metric": "distinct_keyword_macro_recovery",
+      "right": "tokenisation_only",
+      "right_mean": 0.1196,
+      "sample_standard_deviation": 0.014619621518128754
+    },
+    {
+      "confidence_interval": [
+        -0.05781389514564321,
+        0.02789389514564319
+      ],
+      "count": 10,
+      "differences": [
+        -0.05579999999999996,
+        0.007199999999999984,
+        0.08779999999999999,
+        -0.07320000000000004,
+        -0.023400000000000087,
+        0.08879999999999999,
+        -0.07020000000000004,
+        -0.014799999999999924,
+        -0.04039999999999999,
+        -0.05560000000000004
+      ],
+      "distribution": "zipf_iid",
+      "exact_sign_flip_p": 0.439453125,
+      "holm_adjusted_p": 1.0,
+      "language": "lus",
+      "left": "stopword_removal",
+      "left_mean": 0.54676,
+      "mean": -0.014960000000000011,
+      "metric": "query_weighted_recovery",
+      "right": "tokenisation_only",
+      "right_mean": 0.56172,
+      "sample_standard_deviation": 0.05990561465060406
+    },
+    {
+      "confidence_interval": [
+        -0.05755914639481288,
+        -0.010704822990505847
+      ],
+      "count": 10,
+      "differences": [
+        -0.06331877729257641,
+        -0.019396551724137928,
+        0.011111111111111113,
+        -0.06695464362850971,
+        -0.03854389721627409,
+        0.030303030303030304,
+        -0.04282655246252677,
+        -0.06373626373626373,
+        -0.03555555555555556,
+        -0.05240174672489083
+      ],
+      "distribution": "zipf_iid",
+      "exact_sign_flip_p": 0.015625,
+      "holm_adjusted_p": 0.171875,
+      "language": "lus",
+      "left": "stopword_removal",
+      "left_mean": 0.07879632355741838,
+      "mean": -0.034131984692659365,
+      "metric": "distinct_keyword_macro_recovery",
+      "right": "tokenisation_only",
+      "right_mean": 0.11292830825007773,
+      "sample_standard_deviation": 0.03274891387391838
+    },
+    {
+      "confidence_interval": [
+        -0.058250033515533595,
+        -0.036109966484466405
+      ],
+      "count": 10,
+      "differences": [
+        -0.0494,
+        -0.035199999999999995,
+        -0.07079999999999999,
+        -0.030600000000000002,
+        -0.050600000000000006,
+        -0.0656,
+        -0.043,
+        -0.06420000000000001,
+        -0.0296,
+        -0.032799999999999996
+      ],
+      "distribution": "uniform_iid",
+      "exact_sign_flip_p": 0.001953125,
+      "holm_adjusted_p": 0.046875,
+      "language": "lus",
+      "left": "stemming",
+      "left_mean": 0.0719,
+      "mean": -0.04718,
+      "metric": "query_weighted_recovery",
+      "right": "tokenisation_only",
+      "right_mean": 0.11908,
+      "sample_standard_deviation": 0.015474839794539608
+    },
+    {
+      "confidence_interval": [
+        -0.056003146835675026,
+        -0.03759685316432496
+      ],
+      "count": 10,
+      "differences": [
+        -0.046,
+        -0.038000000000000006,
+        -0.06399999999999999,
+        -0.03,
+        -0.052000000000000005,
+        -0.06,
+        -0.045999999999999985,
+        -0.064,
+        -0.036000000000000004,
+        -0.031999999999999994
+      ],
+      "distribution": "uniform_iid",
+      "exact_sign_flip_p": 0.001953125,
+      "holm_adjusted_p": 0.046875,
+      "language": "lus",
+      "left": "stemming",
+      "left_mean": 0.0728,
+      "mean": -0.046799999999999994,
+      "metric": "distinct_keyword_macro_recovery",
+      "right": "tokenisation_only",
+      "right_mean": 0.1196,
+      "sample_standard_deviation": 0.01286511216861754
+    },
+    {
+      "confidence_interval": [
+        -0.05477114590931206,
+        -0.0007488540906879504
+      ],
+      "count": 10,
+      "differences": [
+        -0.07540000000000002,
+        0.009199999999999986,
+        0.034399999999999986,
+        -0.0252,
+        -0.04400000000000004,
+        0.010399999999999965,
+        -0.06120000000000003,
+        -0.07719999999999994,
+        -0.02739999999999998,
+        -0.021199999999999997
+      ],
+      "distribution": "zipf_iid",
+      "exact_sign_flip_p": 0.048828125,
+      "holm_adjusted_p": 0.439453125,
+      "language": "lus",
+      "left": "stemming",
+      "left_mean": 0.53396,
+      "mean": -0.027760000000000007,
+      "metric": "query_weighted_recovery",
+      "right": "tokenisation_only",
+      "right_mean": 0.56172,
+      "sample_standard_deviation": 0.037758978328927856
+    },
+    {
+      "confidence_interval": [
+        -0.05525271093990276,
+        -0.013927302957810288
+      ],
+      "count": 10,
+      "differences": [
+        -0.05676855895196506,
+        0.0021551724137931078,
+        0.0,
+        -0.0712742980561555,
+        -0.03854389721627409,
+        0.0021645021645021745,
+        -0.04496788008565311,
+        -0.07472527472527472,
+        -0.03555555555555556,
+        -0.02838427947598253
+      ],
+      "distribution": "zipf_iid",
+      "exact_sign_flip_p": 0.015625,
+      "holm_adjusted_p": 0.171875,
+      "language": "lus",
+      "left": "stemming",
+      "left_mean": 0.0783383013012212,
+      "mean": -0.03459000694885653,
+      "metric": "distinct_keyword_macro_recovery",
+      "right": "tokenisation_only",
+      "right_mean": 0.11292830825007773,
+      "sample_standard_deviation": 0.028884468464775215
+    },
+    {
+      "confidence_interval": [
+        -0.007439476218582111,
+        0.012199476218582112
+      ],
+      "count": 10,
+      "differences": [
+        0.0,
+        0.016400000000000005,
+        -0.0013999999999999985,
+        -0.0020000000000000018,
+        -0.0050000000000000044,
+        -0.004400000000000001,
+        0.027999999999999997,
+        -0.016399999999999998,
+        0.017400000000000006,
+        -0.008800000000000002
+      ],
+      "distribution": "uniform_iid",
+      "exact_sign_flip_p": 0.60546875,
+      "holm_adjusted_p": 1.0,
+      "language": "lus",
+      "left": "stemming",
+      "left_mean": 0.0719,
+      "mean": 0.00238,
+      "metric": "query_weighted_recovery",
+      "right": "stopword_removal",
+      "right_mean": 0.06952,
+      "sample_standard_deviation": 0.013726681236838633
+    },
+    {
+      "confidence_interval": [
+        -0.005851688620998214,
+        0.011851688620998216
+      ],
+      "count": 10,
+      "differences": [
+        0.0020000000000000018,
+        0.011999999999999997,
+        0.0040000000000000036,
+        0.0,
+        -0.006000000000000005,
+        0.0,
+        0.02800000000000001,
+        -0.018000000000000002,
+        0.011999999999999997,
+        -0.003999999999999997
+      ],
+      "distribution": "uniform_iid",
+      "exact_sign_flip_p": 0.5078125,
+      "holm_adjusted_p": 1.0,
+      "language": "lus",
+      "left": "stemming",
+      "left_mean": 0.0728,
+      "mean": 0.0030000000000000005,
+      "metric": "distinct_keyword_macro_recovery",
+      "right": "stopword_removal",
+      "right_mean": 0.0698,
+      "sample_standard_deviation": 0.012373807462180392
+    },
+    {
+      "confidence_interval": [
+        -0.0427761764239825,
+        0.01717617642398251
+      ],
+      "count": 10,
+      "differences": [
+        -0.019600000000000062,
+        0.0020000000000000018,
+        -0.0534,
+        0.04800000000000004,
+        -0.02059999999999995,
+        -0.07840000000000003,
+        0.009000000000000008,
+        -0.06240000000000001,
+        0.013000000000000012,
+        0.03440000000000004
+      ],
+      "distribution": "zipf_iid",
+      "exact_sign_flip_p": 0.35546875,
+      "holm_adjusted_p": 1.0,
+      "language": "lus",
+      "left": "stemming",
+      "left_mean": 0.53396,
+      "mean": -0.012799999999999995,
+      "metric": "query_weighted_recovery",
+      "right": "stopword_removal",
+      "right_mean": 0.54676,
+      "sample_standard_deviation": 0.04190380518388385
+    },
+    {
+      "confidence_interval": [
+        -0.011492361447631053,
+        0.01057631693523672
+      ],
+      "count": 10,
+      "differences": [
+        0.006550218340611355,
+        0.021551724137931036,
+        -0.011111111111111113,
+        -0.004319654427645786,
+        0.0,
+        -0.02813852813852813,
+        -0.0021413276231263406,
+        -0.010989010989010992,
+        0.0,
+        0.024017467248908297
+      ],
+      "distribution": "zipf_iid",
+      "exact_sign_flip_p": 0.921875,
+      "holm_adjusted_p": 1.0,
+      "language": "lus",
+      "left": "stemming",
+      "left_mean": 0.0783383013012212,
+      "mean": -0.00045802225619716725,
+      "metric": "distinct_keyword_macro_recovery",
+      "right": "stopword_removal",
+      "right_mean": 0.07879632355741838,
+      "sample_standard_deviation": 0.015424942570087464
+    }
+  ],
+  "query_count_per_run": [
+    5000
+  ],
+  "run_count": 120,
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "enron-ihop-cooccurrence-similarity-sweep-v1",
+  "scope": "static_sse",
+  "keyword_count": 250,
+  "pair_count": 31,
+  "candidate_set_budgets": [1, 16, 128],
+  "seeds": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
+  "selected_documents": 30000,
+  "client_documents_after_split": 20000,
+  "auxiliary_split": "splitn10000",
+  "keyword_selection": "random",
+  "query_mode": "each",
+  "frequency_source": "none",
+  "attack": {
+    "name": "ihop",
+    "mode": "Vol",
+    "free_fraction": 0.25,
+    "iteration_checkpoints": [0, 10, 100, 1000]
+  },
+  "defence": "none",
+  "pair_selection": "greedy_nearest_frequency_feasible_in_both_matrices",
+  "frequency_constraint": "preserve_each_column_sum",
+  "access_overlap_constraint": "zero_within_each_selected_pair",
+  "matching_score": "best_whole_access_set_by_cosine_with_donor_cooccurrence_profile",
+  "confidence_level": 0.95,
+  "python_hash_seed": 0,
+  "reuse_original_control": true,
+  "control_results": "results/keyword-size-sweep/keywords-250",
+  "structure_configuration": "configs/enron_seed_structure.json",
+  "output_directory": "results/cooccurrence-similarity-sweep"
+}

@@ -1,0 +1,13 @@
+{
+  "config_version": "1.0.0",
+  "selection": "corpus/fixtures/fixture-pilot-selection.json",
+  "split": "corpus/fixtures/fixture-split.json",
+  "conditions": {
+    "tokenisation_only": "corpus/fixtures/tokenisation-only",
+    "stopword_removal": "corpus/fixtures/stopword-removal",
+    "stemming": "corpus/fixtures/stemming"
+  },
+  "languages": ["lus", "en"],
+  "keyword_universe_size": 500,
+  "output_directory": "corpus/fixtures/ihop"
+}

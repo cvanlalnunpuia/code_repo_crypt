@@ -1,0 +1,60 @@
+{
+  "entries": [
+    {
+      "basis": "document frequency 1 of 1 in the lus review corpus",
+      "decision": "pending",
+      "token": "ah"
+    },
+    {
+      "basis": "document frequency 1 of 1 in the lus review corpus",
+      "decision": "pending",
+      "token": "an"
+    },
+    {
+      "basis": "document frequency 1 of 1 in the lus review corpus",
+      "decision": "pending",
+      "token": "ang"
+    },
+    {
+      "basis": "document frequency 1 of 1 in the lus review corpus",
+      "decision": "pending",
+      "token": "chim"
+    },
+    {
+      "basis": "document frequency 1 of 1 in the lus review corpus",
+      "decision": "pending",
+      "token": "chuan"
+    },
+    {
+      "basis": "document frequency 1 of 1 in the lus review corpus",
+      "decision": "pending",
+      "token": "council"
+    },
+    {
+      "basis": "document frequency 1 of 1 in the lus review corpus",
+      "decision": "pending",
+      "token": "dan"
+    },
+    {
+      "basis": "document frequency 1 of 1 in the lus review corpus",
+      "decision": "pending",
+      "token": "district"
+    },
+    {
+      "basis": "document frequency 1 of 1 in the lus review corpus",
+      "decision": "pending",
+      "token": "enfiah"
+    },
+    {
+      "basis": "document frequency 1 of 1 in the lus review corpus",
+      "decision": "pending",
+      "token": "enfiahna"
+    }
+  ],
+  "language": "lus",
+  "list_version": "0.1.0",
+  "reviewed_at": null,
+  "reviewed_by": null,
+  "scope": "production",
+  "status": "pending"
+}

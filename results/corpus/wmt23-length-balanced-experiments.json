@@ -1,0 +1,5164 @@
+{
+  "aggregate": {
+    "en:tokenisation_only:k100": {
+      "uniform_iid": {
+        "0": {
+          "distinct_keyword_macro_recovery": {
+            "count": 10,
+            "maximum": 0.1,
+            "mean": 0.07500000000000001,
+            "minimum": 0.05,
+            "sample_standard_deviation": 0.015092308563562362
+          },
+          "query_weighted_recovery": {
+            "count": 10,
+            "maximum": 0.101,
+            "mean": 0.0754,
+            "minimum": 0.042,
+            "sample_standard_deviation": 0.019143899521489576
+          }
+        },
+        "10": {
+          "distinct_keyword_macro_recovery": {
+            "count": 10,
+            "maximum": 0.1,
+            "mean": 0.06800000000000002,
+            "minimum": 0.04,
+            "sample_standard_deviation": 0.02043961295567452
+          },
+          "query_weighted_recovery": {
+            "count": 10,
+            "maximum": 0.111,
+            "mean": 0.06700000000000002,
+            "minimum": 0.042,
+            "sample_standard_deviation": 0.023546644016599148
+          }
+        },
+        "100": {
+          "distinct_keyword_macro_recovery": {
+            "count": 10,
+            "maximum": 0.09,
+            "mean": 0.06100000000000001,
+            "minimum": 0.03,
+            "sample_standard_deviation": 0.017919573407620817
+          },
+          "query_weighted_recovery": {
+            "count": 10,
+            "maximum": 0.09,
+            "mean": 0.05899999999999998,
+            "minimum": 0.027,
+            "sample_standard_deviation": 0.017416467303484177
+          }
+        },
+        "1000": {
+          "distinct_keyword_macro_recovery": {
+            "count": 10,
+            "maximum": 0.08,
+            "mean": 0.05700000000000001,
+            "minimum": 0.03,
+            "sample_standard_deviation": 0.015670212364724212
+          },
+          "query_weighted_recovery": {
+            "count": 10,
+            "maximum": 0.072,
+            "mean": 0.05500000000000001,
+            "minimum": 0.024,
+            "sample_standard_deviation": 0.01478738200854589
+          }
+        }
+      },
+      "zipf_iid": {
+        "0": {
+          "distinct_keyword_macro_recovery": {
+            "count": 10,
+            "maximum": 0.11458333333333333,
+            "mean": 0.08201123751902402,
+            "minimum": 0.05319148936170213,
+            "sample_standard_deviation": 0.017588475245464443
+          },
+          "query_weighted_recovery": {
+            "count": 10,
+            "maximum": 0.19,
+            "mean": 0.16649999999999995,
+            "minimum": 0.144,
+            "sample_standard_deviation": 0.016807736313971613
+          }
+        },
+        "10": {
+          "distinct_keyword_macro_recovery": {
+            "count": 10,
+            "maximum": 0.10416666666666667,
+            "mean": 0.06930249575523428,
+            "minimum": 0.042105263157894736,
+            "sample_standard_deviation": 0.017555614858092535
+          },
+          "query_weighted_recovery": {
+            "count": 10,
+            "maximum": 0.195,
+            "mean": 0.16299999999999998,
+            "minimum": 0.117,
+            "sample_standard_deviation": 0.025673159351959608
+          }
+        },
+        "100": {
+          "distinct_keyword_macro_recovery": {
+            "count": 10,
+            "maximum": 0.09473684210526316,
+            "mean": 0.06524019337811067,
+            "minimum": 0.030612244897959183,
+            "sample_standard_deviation": 0.02419114510263156
+          },
+          "query_weighted_recovery": {
+            "count": 10,
+            "maximum": 0.183,
+            "mean": 0.1395,
+            "minimum": 0.115,
+            "sample_standard_deviation": 0.020045780935980848
+          }
+        },
+        "1000": {
+          "distinct_keyword_macro_recovery": {
+            "count": 10,
+            "maximum": 0.06315789473684211,
+            "mean": 0.05042467184926649,
+            "minimum": 0.030612244897959183,
+            "sample_standard_deviation": 0.011590862915804854
+          },
+          "query_weighted_recovery": {
+            "count": 10,
+            "maximum": 0.149,
+            "mean": 0.11960000000000001,
+            "minimum": 0.092,
+            "sample_standard_deviation": 0.019710121483362014
+          }
+        }
+      }
+    },
+    "en:tokenisation_only:k250": {
+      "uniform_iid": {
+        "0": {
+          "distinct_keyword_macro_recovery": {
+            "count": 10,
+            "maximum": 0.052,
+            "mean": 0.0344,
+            "minimum": 0.024,
+            "sample_standard_deviation": 0.008262364471909155
+          },
+          "query_weighted_recovery": {
+            "count": 10,
+            "maximum": 0.0536,
+            "mean": 0.0334,
+            "minimum": 0.0232,
+            "sample_standard_deviation": 0.010879950980281728
+          }
+        },
+        "10": {
+          "distinct_keyword_macro_recovery": {
+            "count": 10,
+            "maximum": 0.048,
+            "mean": 0.030000000000000006,
+            "minimum": 0.02,
+            "sample_standard_deviation": 0.007831560082980487
+          },
+          "query_weighted_recovery": {
+            "count": 10,
+            "maximum": 0.04,
+            "mean": 0.028240000000000005,
+            "minimum": 0.0148,
+            "sample_standard_deviation": 0.006327927517494703
+          }
+        },
+        "100": {
+          "distinct_keyword_macro_recovery": {
+            "count": 10,
+            "maximum": 0.052,
+            "mean": 0.027600000000000003,
+            "minimum": 0.016,
+            "sample_standard_deviation": 0.01169235267647667
+          },
+          "query_weighted_recovery": {
+            "count": 10,
+            "maximum": 0.058,
+            "mean": 0.02636,
+            "minimum": 0.0124,
+            "sample_standard_deviation": 0.014435080725633494
+          }
+        },
+        "1000": {
+          "distinct_keyword_macro_recovery": {
+            "count": 10,
+            "maximum": 0.04,
+            "mean": 0.030799999999999994,
+            "minimum": 0.024,
+            "sample_standard_deviation": 0.005349974039397034
+          },
+          "query_weighted_recovery": {
+            "count": 10,
+            "maximum": 0.0464,
+            "mean": 0.03188,
+            "minimum": 0.0244,
+            "sample_standard_deviation": 0.006510299532279601
+          }
+        }
+      },
+      "zipf_iid": {
+        "0": {
+          "distinct_keyword_macro_recovery": {
+            "count": 10,
+            "maximum": 0.042735042735042736,
+            "mean": 0.03268904986317807,
+            "minimum": 0.021551724137931036,
+            "sample_standard_deviation": 0.007288531837600422
+          },
+          "query_weighted_recovery": {
+            "count": 10,
+            "maximum": 0.1456,
+            "mean": 0.12932000000000002,
+            "minimum": 0.1092,
+            "sample_standard_deviation": 0.012151707698920348
+          }
+        },
+        "10": {
+          "distinct_keyword_macro_recovery": {
+            "count": 10,
+            "maximum": 0.03896103896103896,
+            "mean": 0.02848578517640374,
+            "minimum": 0.02109704641350211,
+            "sample_standard_deviation": 0.006615743660206391
+          },
+          "query_weighted_recovery": {
+            "count": 10,
+            "maximum": 0.132,
+            "mean": 0.11676000000000002,
+            "minimum": 0.0852,
+            "sample_standard_deviation": 0.015620442446429688
+          }
+        },
+        "100": {
+          "distinct_keyword_macro_recovery": {
+            "count": 10,
+            "maximum": 0.03463203463203463,
+            "mean": 0.02801883229414725,
+            "minimum": 0.021367521367521368,
+            "sample_standard_deviation": 0.004137530557725295
+          },
+          "query_weighted_recovery": {
+            "count": 10,
+            "maximum": 0.154,
+            "mean": 0.11424000000000001,
+            "minimum": 0.09,
+            "sample_standard_deviation": 0.0186792338648505
+          }
+        },
+        "1000": {
+          "distinct_keyword_macro_recovery": {
+            "count": 10,
+            "maximum": 0.042735042735042736,
+            "mean": 0.028454544326706792,
+            "minimum": 0.016877637130801686,
+            "sample_standard_deviation": 0.010067676185577289
+          },
+          "query_weighted_recovery": {
+            "count": 10,
+            "maximum": 0.1496,
+            "mean": 0.11032,
+            "minimum": 0.0876,
+            "sample_standard_deviation": 0.0211624825260806
+          }
+        }
+      }
+    },
+    "en:tokenisation_only:k500": {
+      "uniform_iid": {
+        "0": {
+          "distinct_keyword_macro_recovery": {
+            "count": 10,
+            "maximum": 0.022,
+            "mean": 0.014800000000000002,
+            "minimum": 0.01,
+            "sample_standard_deviation": 0.0034253953543107005
+          },
+          "query_weighted_recovery": {
+            "count": 10,
+            "maximum": 0.0214,
+            "mean": 0.014100000000000001,
+            "minimum": 0.0098,
+            "sample_standard_deviation": 0.003939825151224635
+          }
+        },
+        "10": {
+          "distinct_keyword_macro_recovery": {
+            "count": 10,
+            "maximum": 0.022,
+            "mean": 0.014800000000000002,
+            "minimum": 0.01,
+            "sample_standard_deviation": 0.005094659513211412
+          },
+          "query_weighted_recovery": {
+            "count": 10,
+            "maximum": 0.0216,
+            "mean": 0.01408,
+            "minimum": 0.008,
+            "sample_standard_deviation": 0.005174467229687624
+          }
+        },
+        "100": {
+          "distinct_keyword_macro_recovery": {
+            "count": 10,
+            "maximum": 0.022,
+            "mean": 0.0162,
+            "minimum": 0.01,
+            "sample_standard_deviation": 0.004049691346263317
+          },
+          "query_weighted_recovery": {
+            "count": 10,
+            "maximum": 0.0214,
+            "mean": 0.015960000000000002,
+            "minimum": 0.0094,
+            "sample_standard_deviation": 0.0046176473086049635
+          }
+        },
+        "1000": {
+          "distinct_keyword_macro_recovery": {
+            "count": 10,
+            "maximum": 0.024,
+            "mean": 0.016400000000000005,
+            "minimum": 0.01,
+            "sample_standard_deviation": 0.004195235392680606
+          },
+          "query_weighted_recovery": {
+            "count": 10,
+            "maximum": 0.0242,
+            "mean": 0.015480000000000002,
+            "minimum": 0.0098,
+            "sample_standard_deviation": 0.004313493041865515
+          }
+        }
+      },
+      "zipf_iid": {
+        "0": {
+          "distinct_keyword_macro_recovery": {
+            "count": 10,
+            "maximum": 0.02569593147751606,
+            "mean": 0.018925784336896276,
+            "minimum": 0.013100436681222707,
+            "sample_standard_deviation": 0.0045229763167066945
+          },
+          "query_weighted_recovery": {
+            "count": 10,
+            "maximum": 0.1422,
+            "mean": 0.1206,
+            "minimum": 0.105,
+            "sample_standard_deviation": 0.012252890815368157
+          }
+        },
+        "10": {
+          "distinct_keyword_macro_recovery": {
+            "count": 10,
+            "maximum": 0.02586206896551724,
+            "mean": 0.017186608647245465,
+            "minimum": 0.008888888888888889,
+            "sample_standard_deviation": 0.004729287612271497
+          },
+          "query_weighted_recovery": {
+            "count": 10,
+            "maximum": 0.1284,
+            "mean": 0.1082,
+            "minimum": 0.0854,
+            "sample_standard_deviation": 0.016410024036816302
+          }
+        },
+        "100": {
+          "distinct_keyword_macro_recovery": {
+            "count": 10,
+            "maximum": 0.022222222222222223,
+            "mean": 0.01699862863843335,
+            "minimum": 0.01079913606911447,
+            "sample_standard_deviation": 0.0036458898081628086
+          },
+          "query_weighted_recovery": {
+            "count": 10,
+            "maximum": 0.1346,
+            "mean": 0.09822,
+            "minimum": 0.0798,
+            "sample_standard_deviation": 0.015770704204667307
+          }
+        },
+        "1000": {
+          "distinct_keyword_macro_recovery": {
+            "count": 10,
+            "maximum": 0.028888888888888888,
+            "mean": 0.02135034368999416,
+            "minimum": 0.017278617710583154,
+            "sample_standard_deviation": 0.0033676980193096434
+          },
+          "query_weighted_recovery": {
+            "count": 10,
+            "maximum": 0.1502,
+            "mean": 0.12458,
+            "minimum": 0.089,
+            "sample_standard_deviation": 0.02226655688595692
+          }
+        }
+      }
+    },
+    "lus:tokenisation_only:k100": {
+      "uniform_iid": {
+        "0": {
+          "distinct_keyword_macro_recovery": {
+            "count": 10,
+            "maximum": 0.1,
+            "mean": 0.07799999999999999,
+            "minimum": 0.06,
+            "sample_standard_deviation": 0.013165611772087667
+          },
+          "query_weighted_recovery": {
+            "count": 10,
+            "maximum": 0.099,
+            "mean": 0.07799999999999999,
+            "minimum": 0.057,
+            "sample_standard_deviation": 0.012507775359529145
+          }
+        },
+        "10": {
+          "distinct_keyword_macro_recovery": {
+            "count": 10,
+            "maximum": 0.1,
+            "mean": 0.07800000000000003,
+            "minimum": 0.05,
+            "sample_standard_deviation": 0.016865480854231354
+          },
+          "query_weighted_recovery": {
+            "count": 10,
+            "maximum": 0.103,
+            "mean": 0.0773,
+            "minimum": 0.046,
+            "sample_standard_deviation": 0.01889179716173133
+          }
+        },
+        "100": {
+          "distinct_keyword_macro_recovery": {
+            "count": 10,
+            "maximum": 0.09,
+            "mean": 0.06400000000000002,
+            "minimum": 0.04,
+            "sample_standard_deviation": 0.01646545204697129
+          },
+          "query_weighted_recovery": {
+            "count": 10,
+            "maximum": 0.087,
+            "mean": 0.06010000000000001,
+            "minimum": 0.034,
+            "sample_standard_deviation": 0.016127616066858735
+          }
+        },
+        "1000": {
+          "distinct_keyword_macro_recovery": {
+            "count": 10,
+            "maximum": 0.1,
+            "mean": 0.068,
+            "minimum": 0.04,
+            "sample_standard_deviation": 0.02043961295567452
+          },
+          "query_weighted_recovery": {
+            "count": 10,
+            "maximum": 0.106,
+            "mean": 0.0651,
+            "minimum": 0.042,
+            "sample_standard_deviation": 0.020102238681301142
+          }
+        }
+      },
+      "zipf_iid": {
+        "0": {
+          "distinct_keyword_macro_recovery": {
+            "count": 10,
+            "maximum": 0.08421052631578947,
+            "mean": 0.06623644017028171,
+            "minimum": 0.042105263157894736,
+            "sample_standard_deviation": 0.01554790861575766
+          },
+          "query_weighted_recovery": {
+            "count": 10,
+            "maximum": 0.449,
+            "mean": 0.3183,
+            "minimum": 0.08,
+            "sample_standard_deviation": 0.14347206464442244
+          }
+        },
+        "10": {
+          "distinct_keyword_macro_recovery": {
+            "count": 10,
+            "maximum": 0.09473684210526316,
+            "mean": 0.06522952109300231,
+            "minimum": 0.0425531914893617,
+            "sample_standard_deviation": 0.01638485728185808
+          },
+          "query_weighted_recovery": {
+            "count": 10,
+            "maximum": 0.427,
+            "mean": 0.273,
+            "minimum": 0.079,
+            "sample_standard_deviation": 0.14235245773158334
+          }
+        },
+        "100": {
+          "distinct_keyword_macro_recovery": {
+            "count": 10,
+            "maximum": 0.10416666666666667,
+            "mean": 0.07152631153870632,
+            "minimum": 0.043010752688172046,
+            "sample_standard_deviation": 0.021711541353516346
+          },
+          "query_weighted_recovery": {
+            "count": 10,
+            "maximum": 0.437,
+            "mean": 0.3142,
+            "minimum": 0.13,
+            "sample_standard_deviation": 0.12522672771151266
+          }
+        },
+        "1000": {
+          "distinct_keyword_macro_recovery": {
+            "count": 10,
+            "maximum": 0.0967741935483871,
+            "mean": 0.07359190622375288,
+            "minimum": 0.05319148936170213,
+            "sample_standard_deviation": 0.015683789779626013
+          },
+          "query_weighted_recovery": {
+            "count": 10,
+            "maximum": 0.433,
+            "mean": 0.34829999999999994,
+            "minimum": 0.098,
+            "sample_standard_deviation": 0.09364359146371001
+          }
+        }
+      }
+    },
+    "lus:tokenisation_only:k250": {
+      "uniform_iid": {
+        "0": {
+          "distinct_keyword_macro_recovery": {
+            "count": 10,
+            "maximum": 0.04,
+            "mean": 0.035199999999999995,
+            "minimum": 0.028,
+            "sample_standard_deviation": 0.004131182235954578
+          },
+          "query_weighted_recovery": {
+            "count": 10,
+            "maximum": 0.0432,
+            "mean": 0.03372,
+            "minimum": 0.0264,
+            "sample_standard_deviation": 0.005759783946565281
+          }
+        },
+        "10": {
+          "distinct_keyword_macro_recovery": {
+            "count": 10,
+            "maximum": 0.056,
+            "mean": 0.035199999999999995,
+            "minimum": 0.02,
+            "sample_standard_deviation": 0.010464755664185912
+          },
+          "query_weighted_recovery": {
+            "count": 10,
+            "maximum": 0.0592,
+            "mean": 0.033440000000000004,
+            "minimum": 0.0204,
+            "sample_standard_deviation": 0.011748777714204052
+          }
+        },
+        "100": {
+          "distinct_keyword_macro_recovery": {
+            "count": 10,
+            "maximum": 0.048,
+            "mean": 0.027999999999999997,
+            "minimum": 0.016,
+            "sample_standard_deviation": 0.009428090415820633
+          },
+          "query_weighted_recovery": {
+            "count": 10,
+            "maximum": 0.052,
+            "mean": 0.02756,
+            "minimum": 0.018,
+            "sample_standard_deviation": 0.010128858661161078
+          }
+        },
+        "1000": {
+          "distinct_keyword_macro_recovery": {
+            "count": 10,
+            "maximum": 0.04,
+            "mean": 0.0308,
+            "minimum": 0.02,
+            "sample_standard_deviation": 0.0068117545463705605
+          },
+          "query_weighted_recovery": {
+            "count": 10,
+            "maximum": 0.0364,
+            "mean": 0.028959999999999996,
+            "minimum": 0.0164,
+            "sample_standard_deviation": 0.006672530754269076
+          }
+        }
+      },
+      "zipf_iid": {
+        "0": {
+          "distinct_keyword_macro_recovery": {
+            "count": 10,
+            "maximum": 0.03017241379310345,
+            "mean": 0.026754275204013096,
+            "minimum": 0.01680672268907563,
+            "sample_standard_deviation": 0.004545825853420984
+          },
+          "query_weighted_recovery": {
+            "count": 10,
+            "maximum": 0.374,
+            "mean": 0.26864,
+            "minimum": 0.1072,
+            "sample_standard_deviation": 0.11254916160406428
+          }
+        },
+        "10": {
+          "distinct_keyword_macro_recovery": {
+            "count": 10,
+            "maximum": 0.037815126050420166,
+            "mean": 0.030957677816918876,
+            "minimum": 0.02109704641350211,
+            "sample_standard_deviation": 0.00550920497146815
+          },
+          "query_weighted_recovery": {
+            "count": 10,
+            "maximum": 0.3856,
+            "mean": 0.24180000000000001,
+            "minimum": 0.1072,
+            "sample_standard_deviation": 0.12095064190725809
+          }
+        },
+        "100": {
+          "distinct_keyword_macro_recovery": {
+            "count": 10,
+            "maximum": 0.04700854700854701,
+            "mean": 0.03263638702804394,
+            "minimum": 0.01680672268907563,
+            "sample_standard_deviation": 0.010254623459564134
+          },
+          "query_weighted_recovery": {
+            "count": 10,
+            "maximum": 0.394,
+            "mean": 0.20171999999999998,
+            "minimum": 0.0308,
+            "sample_standard_deviation": 0.12815782630976716
+          }
+        },
+        "1000": {
+          "distinct_keyword_macro_recovery": {
+            "count": 10,
+            "maximum": 0.05128205128205128,
+            "mean": 0.03270426594258654,
+            "minimum": 0.016666666666666666,
+            "sample_standard_deviation": 0.012565082422570324
+          },
+          "query_weighted_recovery": {
+            "count": 10,
+            "maximum": 0.3776,
+            "mean": 0.2652,
+            "minimum": 0.0652,
+            "sample_standard_deviation": 0.11838708638285775
+          }
+        }
+      }
+    },
+    "lus:tokenisation_only:k500": {
+      "uniform_iid": {
+        "0": {
+          "distinct_keyword_macro_recovery": {
+            "count": 10,
+            "maximum": 0.02,
+            "mean": 0.0172,
+            "minimum": 0.014,
+            "sample_standard_deviation": 0.0025298221281347035
+          },
+          "query_weighted_recovery": {
+            "count": 10,
+            "maximum": 0.0222,
+            "mean": 0.0179,
+            "minimum": 0.0136,
+            "sample_standard_deviation": 0.0030379086373505198
+          }
+        },
+        "10": {
+          "distinct_keyword_macro_recovery": {
+            "count": 10,
+            "maximum": 0.022,
+            "mean": 0.014800000000000002,
+            "minimum": 0.008,
+            "sample_standard_deviation": 0.004237399621885521
+          },
+          "query_weighted_recovery": {
+            "count": 10,
+            "maximum": 0.0212,
+            "mean": 0.0149,
+            "minimum": 0.01,
+            "sample_standard_deviation": 0.004042276586281548
+          }
+        },
+        "100": {
+          "distinct_keyword_macro_recovery": {
+            "count": 10,
+            "maximum": 0.026,
+            "mean": 0.017400000000000002,
+            "minimum": 0.008,
+            "sample_standard_deviation": 0.005581716183715861
+          },
+          "query_weighted_recovery": {
+            "count": 10,
+            "maximum": 0.0254,
+            "mean": 0.017900000000000003,
+            "minimum": 0.0082,
+            "sample_standard_deviation": 0.005941380311005179
+          }
+        },
+        "1000": {
+          "distinct_keyword_macro_recovery": {
+            "count": 10,
+            "maximum": 0.026,
+            "mean": 0.015200000000000002,
+            "minimum": 0.01,
+            "sample_standard_deviation": 0.005094659513211412
+          },
+          "query_weighted_recovery": {
+            "count": 10,
+            "maximum": 0.027,
+            "mean": 0.015400000000000002,
+            "minimum": 0.0104,
+            "sample_standard_deviation": 0.004847909056719424
+          }
+        }
+      },
+      "zipf_iid": {
+        "0": {
+          "distinct_keyword_macro_recovery": {
+            "count": 10,
+            "maximum": 0.023706896551724137,
+            "mean": 0.01852613247710593,
+            "minimum": 0.010822510822510822,
+            "sample_standard_deviation": 0.004354915650876865
+          },
+          "query_weighted_recovery": {
+            "count": 10,
+            "maximum": 0.3356,
+            "mean": 0.26782,
+            "minimum": 0.1064,
+            "sample_standard_deviation": 0.08747415872384509
+          }
+        },
+        "10": {
+          "distinct_keyword_macro_recovery": {
+            "count": 10,
+            "maximum": 0.03111111111111111,
+            "mean": 0.01810852667968902,
+            "minimum": 0.012958963282937365,
+            "sample_standard_deviation": 0.005554101937496484
+          },
+          "query_weighted_recovery": {
+            "count": 10,
+            "maximum": 0.3708,
+            "mean": 0.2391,
+            "minimum": 0.0628,
+            "sample_standard_deviation": 0.11456779652240852
+          }
+        },
+        "100": {
+          "distinct_keyword_macro_recovery": {
+            "count": 10,
+            "maximum": 0.024444444444444446,
+            "mean": 0.01417895160348509,
+            "minimum": 0.004282655246252677,
+            "sample_standard_deviation": 0.0072466359081996235
+          },
+          "query_weighted_recovery": {
+            "count": 10,
+            "maximum": 0.354,
+            "mean": 0.16796000000000003,
+            "minimum": 0.0236,
+            "sample_standard_deviation": 0.13628091249735272
+          }
+        },
+        "1000": {
+          "distinct_keyword_macro_recovery": {
+            "count": 10,
+            "maximum": 0.02569593147751606,
+            "mean": 0.015865775842533437,
+            "minimum": 0.006593406593406593,
+            "sample_standard_deviation": 0.005704235080484593
+          },
+          "query_weighted_recovery": {
+            "count": 10,
+            "maximum": 0.3522,
+            "mean": 0.17934,
+            "minimum": 0.024,
+            "sample_standard_deviation": 0.12449507085289226
+          }
+        }
+      }
+    }
+  },
+  "config": {
+    "attack_mode": "Vol",
+    "config_version": "1.0.0",
+    "free_fraction": 0.25,
+    "iteration_checkpoints": [
+      0,
+      10,
+      100,
+      1000
+    ],
+    "iterations": 1000,
+    "manifest": "results/corpus/wmt23-length-balanced-ihop/manifest.json",
+    "query_count_per_keyword": 10,
+    "query_distributions": [
+      "uniform_iid",
+      "zipf_iid"
+    ],
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  "config_sha256": "8c97e4d5f5ef377675d4dc785b4635ec70ec7e921933cb70df480118c175d60a",
+  "manifest_sha256": "7cdf16fbcc13462dc2a1ee80b7c2e3ec40d9ff80a8c19bce7634329aaab8662f",
+  "runs": [
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "dataset_id": "en:tokenisation_only:k100",
+      "dataset_sha256": "65cc16c3fa49a9b40035add48c1c035c0f7778ccbbf1af81b49b6eadc1299753",
+      "distribution": "uniform_iid",
+      "keyword_count": 100,
+      "query_count": 1000,
+      "scores": [
+        {
+          "distinct_keyword_macro_recovery": 0.08,
+          "observed_distinct_keyword_count": 100,
+          "query_weighted_recovery": 0.076
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.09,
+          "observed_distinct_keyword_count": 100,
+          "query_weighted_recovery": 0.096
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.07,
+          "observed_distinct_keyword_count": 100,
+          "query_weighted_recovery": 0.066
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.07,
+          "observed_distinct_keyword_count": 100,
+          "query_weighted_recovery": 0.072
+        }
+      ],
+      "seed": 0
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "dataset_id": "en:tokenisation_only:k100",
+      "dataset_sha256": "65cc16c3fa49a9b40035add48c1c035c0f7778ccbbf1af81b49b6eadc1299753",
+      "distribution": "uniform_iid",
+      "keyword_count": 100,
+      "query_count": 1000,
+      "scores": [
+        {
+          "distinct_keyword_macro_recovery": 0.05,
+          "observed_distinct_keyword_count": 100,
+          "query_weighted_recovery": 0.042
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.07,
+          "observed_distinct_keyword_count": 100,
+          "query_weighted_recovery": 0.056
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.08,
+          "observed_distinct_keyword_count": 100,
+          "query_weighted_recovery": 0.072
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.03,
+          "observed_distinct_keyword_count": 100,
+          "query_weighted_recovery": 0.024
+        }
+      ],
+      "seed": 1
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "dataset_id": "en:tokenisation_only:k100",
+      "dataset_sha256": "65cc16c3fa49a9b40035add48c1c035c0f7778ccbbf1af81b49b6eadc1299753",
+      "distribution": "uniform_iid",
+      "keyword_count": 100,
+      "query_count": 1000,
+      "scores": [
+        {
+          "distinct_keyword_macro_recovery": 0.1,
+          "observed_distinct_keyword_count": 100,
+          "query_weighted_recovery": 0.099
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.06,
+          "observed_distinct_keyword_count": 100,
+          "query_weighted_recovery": 0.05
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.04,
+          "observed_distinct_keyword_count": 100,
+          "query_weighted_recovery": 0.042
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.04,
+          "observed_distinct_keyword_count": 100,
+          "query_weighted_recovery": 0.044
+        }
+      ],
+      "seed": 2
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "dataset_id": "en:tokenisation_only:k100",
+      "dataset_sha256": "65cc16c3fa49a9b40035add48c1c035c0f7778ccbbf1af81b49b6eadc1299753",
+      "distribution": "uniform_iid",
+      "keyword_count": 100,
+      "query_count": 1000,
+      "scores": [
+        {
+          "distinct_keyword_macro_recovery": 0.06,
+          "observed_distinct_keyword_count": 100,
+          "query_weighted_recovery": 0.056
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.09,
+          "observed_distinct_keyword_count": 100,
+          "query_weighted_recovery": 0.09
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.06,
+          "observed_distinct_keyword_count": 100,
+          "query_weighted_recovery": 0.057
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.08,
+          "observed_distinct_keyword_count": 100,
+          "query_weighted_recovery": 0.07
+        }
+      ],
+      "seed": 3
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "dataset_id": "en:tokenisation_only:k100",
+      "dataset_sha256": "65cc16c3fa49a9b40035add48c1c035c0f7778ccbbf1af81b49b6eadc1299753",
+      "distribution": "uniform_iid",
+      "keyword_count": 100,
+      "query_count": 1000,
+      "scores": [
+        {
+          "distinct_keyword_macro_recovery": 0.08,
+          "observed_distinct_keyword_count": 100,
+          "query_weighted_recovery": 0.087
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.06,
+          "observed_distinct_keyword_count": 100,
+          "query_weighted_recovery": 0.06
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.05,
+          "observed_distinct_keyword_count": 100,
+          "query_weighted_recovery": 0.046
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.06,
+          "observed_distinct_keyword_count": 100,
+          "query_weighted_recovery": 0.062
+        }
+      ],
+      "seed": 4
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "dataset_id": "en:tokenisation_only:k100",
+      "dataset_sha256": "65cc16c3fa49a9b40035add48c1c035c0f7778ccbbf1af81b49b6eadc1299753",
+      "distribution": "uniform_iid",
+      "keyword_count": 100,
+      "query_count": 1000,
+      "scores": [
+        {
+          "distinct_keyword_macro_recovery": 0.08,
+          "observed_distinct_keyword_count": 100,
+          "query_weighted_recovery": 0.087
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.04,
+          "observed_distinct_keyword_count": 100,
+          "query_weighted_recovery": 0.045
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.03,
+          "observed_distinct_keyword_count": 100,
+          "query_weighted_recovery": 0.027
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.06,
+          "observed_distinct_keyword_count": 100,
+          "query_weighted_recovery": 0.052
+        }
+      ],
+      "seed": 5
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "dataset_id": "en:tokenisation_only:k100",
+      "dataset_sha256": "65cc16c3fa49a9b40035add48c1c035c0f7778ccbbf1af81b49b6eadc1299753",
+      "distribution": "uniform_iid",
+      "keyword_count": 100,
+      "query_count": 1000,
+      "scores": [
+        {
+          "distinct_keyword_macro_recovery": 0.07,
+          "observed_distinct_keyword_count": 100,
+          "query_weighted_recovery": 0.077
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.06,
+          "observed_distinct_keyword_count": 100,
+          "query_weighted_recovery": 0.057
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.09,
+          "observed_distinct_keyword_count": 100,
+          "query_weighted_recovery": 0.09
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.06,
+          "observed_distinct_keyword_count": 100,
+          "query_weighted_recovery": 0.056
+        }
+      ],
+      "seed": 6
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "dataset_id": "en:tokenisation_only:k100",
+      "dataset_sha256": "65cc16c3fa49a9b40035add48c1c035c0f7778ccbbf1af81b49b6eadc1299753",
+      "distribution": "uniform_iid",
+      "keyword_count": 100,
+      "query_count": 1000,
+      "scores": [
+        {
+          "distinct_keyword_macro_recovery": 0.09,
+          "observed_distinct_keyword_count": 100,
+          "query_weighted_recovery": 0.101
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.1,
+          "observed_distinct_keyword_count": 100,
+          "query_weighted_recovery": 0.111
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.06,
+          "observed_distinct_keyword_count": 100,
+          "query_weighted_recovery": 0.065
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.07,
+          "observed_distinct_keyword_count": 100,
+          "query_weighted_recovery": 0.067
+        }
+      ],
+      "seed": 7
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "dataset_id": "en:tokenisation_only:k100",
+      "dataset_sha256": "65cc16c3fa49a9b40035add48c1c035c0f7778ccbbf1af81b49b6eadc1299753",
+      "distribution": "uniform_iid",
+      "keyword_count": 100,
+      "query_count": 1000,
+      "scores": [
+        {
+          "distinct_keyword_macro_recovery": 0.06,
+          "observed_distinct_keyword_count": 100,
+          "query_weighted_recovery": 0.058
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.04,
+          "observed_distinct_keyword_count": 100,
+          "query_weighted_recovery": 0.042
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.07,
+          "observed_distinct_keyword_count": 100,
+          "query_weighted_recovery": 0.064
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.06,
+          "observed_distinct_keyword_count": 100,
+          "query_weighted_recovery": 0.06
+        }
+      ],
+      "seed": 8
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "dataset_id": "en:tokenisation_only:k100",
+      "dataset_sha256": "65cc16c3fa49a9b40035add48c1c035c0f7778ccbbf1af81b49b6eadc1299753",
+      "distribution": "uniform_iid",
+      "keyword_count": 100,
+      "query_count": 1000,
+      "scores": [
+        {
+          "distinct_keyword_macro_recovery": 0.08,
+          "observed_distinct_keyword_count": 100,
+          "query_weighted_recovery": 0.071
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.07,
+          "observed_distinct_keyword_count": 100,
+          "query_weighted_recovery": 0.063
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.06,
+          "observed_distinct_keyword_count": 100,
+          "query_weighted_recovery": 0.061
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.04,
+          "observed_distinct_keyword_count": 100,
+          "query_weighted_recovery": 0.043
+        }
+      ],
+      "seed": 9
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "dataset_id": "en:tokenisation_only:k100",
+      "dataset_sha256": "65cc16c3fa49a9b40035add48c1c035c0f7778ccbbf1af81b49b6eadc1299753",
+      "distribution": "zipf_iid",
+      "keyword_count": 100,
+      "query_count": 1000,
+      "scores": [
+        {
+          "distinct_keyword_macro_recovery": 0.09183673469387756,
+          "observed_distinct_keyword_count": 98,
+          "query_weighted_recovery": 0.185
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.061224489795918366,
+          "observed_distinct_keyword_count": 98,
+          "query_weighted_recovery": 0.175
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.030612244897959183,
+          "observed_distinct_keyword_count": 98,
+          "query_weighted_recovery": 0.121
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.061224489795918366,
+          "observed_distinct_keyword_count": 98,
+          "query_weighted_recovery": 0.149
+        }
+      ],
+      "seed": 0
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "dataset_id": "en:tokenisation_only:k100",
+      "dataset_sha256": "65cc16c3fa49a9b40035add48c1c035c0f7778ccbbf1af81b49b6eadc1299753",
+      "distribution": "zipf_iid",
+      "keyword_count": 100,
+      "query_count": 1000,
+      "scores": [
+        {
+          "distinct_keyword_macro_recovery": 0.08421052631578947,
+          "observed_distinct_keyword_count": 95,
+          "query_weighted_recovery": 0.177
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.07368421052631578,
+          "observed_distinct_keyword_count": 95,
+          "query_weighted_recovery": 0.175
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.07368421052631578,
+          "observed_distinct_keyword_count": 95,
+          "query_weighted_recovery": 0.16
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.06315789473684211,
+          "observed_distinct_keyword_count": 95,
+          "query_weighted_recovery": 0.105
+        }
+      ],
+      "seed": 1
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "dataset_id": "en:tokenisation_only:k100",
+      "dataset_sha256": "65cc16c3fa49a9b40035add48c1c035c0f7778ccbbf1af81b49b6eadc1299753",
+      "distribution": "zipf_iid",
+      "keyword_count": 100,
+      "query_count": 1000,
+      "scores": [
+        {
+          "distinct_keyword_macro_recovery": 0.08333333333333333,
+          "observed_distinct_keyword_count": 96,
+          "query_weighted_recovery": 0.177
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.07291666666666667,
+          "observed_distinct_keyword_count": 96,
+          "query_weighted_recovery": 0.168
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.09375,
+          "observed_distinct_keyword_count": 96,
+          "query_weighted_recovery": 0.124
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.052083333333333336,
+          "observed_distinct_keyword_count": 96,
+          "query_weighted_recovery": 0.109
+        }
+      ],
+      "seed": 2
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "dataset_id": "en:tokenisation_only:k100",
+      "dataset_sha256": "65cc16c3fa49a9b40035add48c1c035c0f7778ccbbf1af81b49b6eadc1299753",
+      "distribution": "zipf_iid",
+      "keyword_count": 100,
+      "query_count": 1000,
+      "scores": [
+        {
+          "distinct_keyword_macro_recovery": 0.07368421052631578,
+          "observed_distinct_keyword_count": 95,
+          "query_weighted_recovery": 0.154
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.07368421052631578,
+          "observed_distinct_keyword_count": 95,
+          "query_weighted_recovery": 0.144
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.09473684210526316,
+          "observed_distinct_keyword_count": 95,
+          "query_weighted_recovery": 0.183
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.05263157894736842,
+          "observed_distinct_keyword_count": 95,
+          "query_weighted_recovery": 0.134
+        }
+      ],
+      "seed": 3
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "dataset_id": "en:tokenisation_only:k100",
+      "dataset_sha256": "65cc16c3fa49a9b40035add48c1c035c0f7778ccbbf1af81b49b6eadc1299753",
+      "distribution": "zipf_iid",
+      "keyword_count": 100,
+      "query_count": 1000,
+      "scores": [
+        {
+          "distinct_keyword_macro_recovery": 0.05319148936170213,
+          "observed_distinct_keyword_count": 94,
+          "query_weighted_recovery": 0.144
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.0851063829787234,
+          "observed_distinct_keyword_count": 94,
+          "query_weighted_recovery": 0.193
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.0425531914893617,
+          "observed_distinct_keyword_count": 94,
+          "query_weighted_recovery": 0.145
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.05319148936170213,
+          "observed_distinct_keyword_count": 94,
+          "query_weighted_recovery": 0.143
+        }
+      ],
+      "seed": 4
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "dataset_id": "en:tokenisation_only:k100",
+      "dataset_sha256": "65cc16c3fa49a9b40035add48c1c035c0f7778ccbbf1af81b49b6eadc1299753",
+      "distribution": "zipf_iid",
+      "keyword_count": 100,
+      "query_count": 1000,
+      "scores": [
+        {
+          "distinct_keyword_macro_recovery": 0.06315789473684211,
+          "observed_distinct_keyword_count": 95,
+          "query_weighted_recovery": 0.147
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.042105263157894736,
+          "observed_distinct_keyword_count": 95,
+          "query_weighted_recovery": 0.143
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.09473684210526316,
+          "observed_distinct_keyword_count": 95,
+          "query_weighted_recovery": 0.137
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.05263157894736842,
+          "observed_distinct_keyword_count": 95,
+          "query_weighted_recovery": 0.131
+        }
+      ],
+      "seed": 5
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "dataset_id": "en:tokenisation_only:k100",
+      "dataset_sha256": "65cc16c3fa49a9b40035add48c1c035c0f7778ccbbf1af81b49b6eadc1299753",
+      "distribution": "zipf_iid",
+      "keyword_count": 100,
+      "query_count": 1000,
+      "scores": [
+        {
+          "distinct_keyword_macro_recovery": 0.07142857142857142,
+          "observed_distinct_keyword_count": 98,
+          "query_weighted_recovery": 0.179
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.07142857142857142,
+          "observed_distinct_keyword_count": 98,
+          "query_weighted_recovery": 0.18
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.05102040816326531,
+          "observed_distinct_keyword_count": 98,
+          "query_weighted_recovery": 0.142
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.030612244897959183,
+          "observed_distinct_keyword_count": 98,
+          "query_weighted_recovery": 0.092
+        }
+      ],
+      "seed": 6
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "dataset_id": "en:tokenisation_only:k100",
+      "dataset_sha256": "65cc16c3fa49a9b40035add48c1c035c0f7778ccbbf1af81b49b6eadc1299753",
+      "distribution": "zipf_iid",
+      "keyword_count": 100,
+      "query_count": 1000,
+      "scores": [
+        {
+          "distinct_keyword_macro_recovery": 0.11458333333333333,
+          "observed_distinct_keyword_count": 96,
+          "query_weighted_recovery": 0.19
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.10416666666666667,
+          "observed_distinct_keyword_count": 96,
+          "query_weighted_recovery": 0.195
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.052083333333333336,
+          "observed_distinct_keyword_count": 96,
+          "query_weighted_recovery": 0.115
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.0625,
+          "observed_distinct_keyword_count": 96,
+          "query_weighted_recovery": 0.121
+        }
+      ],
+      "seed": 7
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "dataset_id": "en:tokenisation_only:k100",
+      "dataset_sha256": "65cc16c3fa49a9b40035add48c1c035c0f7778ccbbf1af81b49b6eadc1299753",
+      "distribution": "zipf_iid",
+      "keyword_count": 100,
+      "query_count": 1000,
+      "scores": [
+        {
+          "distinct_keyword_macro_recovery": 0.0967741935483871,
+          "observed_distinct_keyword_count": 93,
+          "query_weighted_recovery": 0.154
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.053763440860215055,
+          "observed_distinct_keyword_count": 93,
+          "query_weighted_recovery": 0.14
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.07526881720430108,
+          "observed_distinct_keyword_count": 93,
+          "query_weighted_recovery": 0.137
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.03225806451612903,
+          "observed_distinct_keyword_count": 93,
+          "query_weighted_recovery": 0.094
+        }
+      ],
+      "seed": 8
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "dataset_id": "en:tokenisation_only:k100",
+      "dataset_sha256": "65cc16c3fa49a9b40035add48c1c035c0f7778ccbbf1af81b49b6eadc1299753",
+      "distribution": "zipf_iid",
+      "keyword_count": 100,
+      "query_count": 1000,
+      "scores": [
+        {
+          "distinct_keyword_macro_recovery": 0.08791208791208792,
+          "observed_distinct_keyword_count": 91,
+          "query_weighted_recovery": 0.158
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.054945054945054944,
+          "observed_distinct_keyword_count": 91,
+          "query_weighted_recovery": 0.117
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.04395604395604396,
+          "observed_distinct_keyword_count": 91,
+          "query_weighted_recovery": 0.131
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.04395604395604396,
+          "observed_distinct_keyword_count": 91,
+          "query_weighted_recovery": 0.118
+        }
+      ],
+      "seed": 9
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "dataset_id": "en:tokenisation_only:k250",
+      "dataset_sha256": "df12e0eadfebd1ba1977d4f5ba61a52c124388113c3b7fceeefbfe308fdf58ad",
+      "distribution": "uniform_iid",
+      "keyword_count": 250,
+      "query_count": 2500,
+      "scores": [
+        {
+          "distinct_keyword_macro_recovery": 0.036,
+          "observed_distinct_keyword_count": 250,
+          "query_weighted_recovery": 0.0336
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.028,
+          "observed_distinct_keyword_count": 250,
+          "query_weighted_recovery": 0.034
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.052,
+          "observed_distinct_keyword_count": 250,
+          "query_weighted_recovery": 0.058
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.028,
+          "observed_distinct_keyword_count": 250,
+          "query_weighted_recovery": 0.0304
+        }
+      ],
+      "seed": 0
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "dataset_id": "en:tokenisation_only:k250",
+      "dataset_sha256": "df12e0eadfebd1ba1977d4f5ba61a52c124388113c3b7fceeefbfe308fdf58ad",
+      "distribution": "uniform_iid",
+      "keyword_count": 250,
+      "query_count": 2500,
+      "scores": [
+        {
+          "distinct_keyword_macro_recovery": 0.032,
+          "observed_distinct_keyword_count": 250,
+          "query_weighted_recovery": 0.0316
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.024,
+          "observed_distinct_keyword_count": 250,
+          "query_weighted_recovery": 0.0276
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.016,
+          "observed_distinct_keyword_count": 250,
+          "query_weighted_recovery": 0.0176
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.024,
+          "observed_distinct_keyword_count": 250,
+          "query_weighted_recovery": 0.0292
+        }
+      ],
+      "seed": 1
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "dataset_id": "en:tokenisation_only:k250",
+      "dataset_sha256": "df12e0eadfebd1ba1977d4f5ba61a52c124388113c3b7fceeefbfe308fdf58ad",
+      "distribution": "uniform_iid",
+      "keyword_count": 250,
+      "query_count": 2500,
+      "scores": [
+        {
+          "distinct_keyword_macro_recovery": 0.028,
+          "observed_distinct_keyword_count": 250,
+          "query_weighted_recovery": 0.0264
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.028,
+          "observed_distinct_keyword_count": 250,
+          "query_weighted_recovery": 0.0264
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.032,
+          "observed_distinct_keyword_count": 250,
+          "query_weighted_recovery": 0.0268
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.04,
+          "observed_distinct_keyword_count": 250,
+          "query_weighted_recovery": 0.0464
+        }
+      ],
+      "seed": 2
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "dataset_id": "en:tokenisation_only:k250",
+      "dataset_sha256": "df12e0eadfebd1ba1977d4f5ba61a52c124388113c3b7fceeefbfe308fdf58ad",
+      "distribution": "uniform_iid",
+      "keyword_count": 250,
+      "query_count": 2500,
+      "scores": [
+        {
+          "distinct_keyword_macro_recovery": 0.044,
+          "observed_distinct_keyword_count": 250,
+          "query_weighted_recovery": 0.0536
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.024,
+          "observed_distinct_keyword_count": 250,
+          "query_weighted_recovery": 0.0272
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.032,
+          "observed_distinct_keyword_count": 250,
+          "query_weighted_recovery": 0.0352
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.036,
+          "observed_distinct_keyword_count": 250,
+          "query_weighted_recovery": 0.0348
+        }
+      ],
+      "seed": 3
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "dataset_id": "en:tokenisation_only:k250",
+      "dataset_sha256": "df12e0eadfebd1ba1977d4f5ba61a52c124388113c3b7fceeefbfe308fdf58ad",
+      "distribution": "uniform_iid",
+      "keyword_count": 250,
+      "query_count": 2500,
+      "scores": [
+        {
+          "distinct_keyword_macro_recovery": 0.036,
+          "observed_distinct_keyword_count": 250,
+          "query_weighted_recovery": 0.0296
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.048,
+          "observed_distinct_keyword_count": 250,
+          "query_weighted_recovery": 0.04
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.024,
+          "observed_distinct_keyword_count": 250,
+          "query_weighted_recovery": 0.016
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.028,
+          "observed_distinct_keyword_count": 250,
+          "query_weighted_recovery": 0.0252
+        }
+      ],
+      "seed": 4
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "dataset_id": "en:tokenisation_only:k250",
+      "dataset_sha256": "df12e0eadfebd1ba1977d4f5ba61a52c124388113c3b7fceeefbfe308fdf58ad",
+      "distribution": "uniform_iid",
+      "keyword_count": 250,
+      "query_count": 2500,
+      "scores": [
+        {
+          "distinct_keyword_macro_recovery": 0.028,
+          "observed_distinct_keyword_count": 250,
+          "query_weighted_recovery": 0.0232
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.036,
+          "observed_distinct_keyword_count": 250,
+          "query_weighted_recovery": 0.0276
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.024,
+          "observed_distinct_keyword_count": 250,
+          "query_weighted_recovery": 0.02
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.024,
+          "observed_distinct_keyword_count": 250,
+          "query_weighted_recovery": 0.0244
+        }
+      ],
+      "seed": 5
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "dataset_id": "en:tokenisation_only:k250",
+      "dataset_sha256": "df12e0eadfebd1ba1977d4f5ba61a52c124388113c3b7fceeefbfe308fdf58ad",
+      "distribution": "uniform_iid",
+      "keyword_count": 250,
+      "query_count": 2500,
+      "scores": [
+        {
+          "distinct_keyword_macro_recovery": 0.032,
+          "observed_distinct_keyword_count": 250,
+          "query_weighted_recovery": 0.0268
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.032,
+          "observed_distinct_keyword_count": 250,
+          "query_weighted_recovery": 0.0272
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.024,
+          "observed_distinct_keyword_count": 250,
+          "query_weighted_recovery": 0.0216
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.032,
+          "observed_distinct_keyword_count": 250,
+          "query_weighted_recovery": 0.0344
+        }
+      ],
+      "seed": 6
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "dataset_id": "en:tokenisation_only:k250",
+      "dataset_sha256": "df12e0eadfebd1ba1977d4f5ba61a52c124388113c3b7fceeefbfe308fdf58ad",
+      "distribution": "uniform_iid",
+      "keyword_count": 250,
+      "query_count": 2500,
+      "scores": [
+        {
+          "distinct_keyword_macro_recovery": 0.032,
+          "observed_distinct_keyword_count": 250,
+          "query_weighted_recovery": 0.0324
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.02,
+          "observed_distinct_keyword_count": 250,
+          "query_weighted_recovery": 0.0148
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.016,
+          "observed_distinct_keyword_count": 250,
+          "query_weighted_recovery": 0.0124
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.028,
+          "observed_distinct_keyword_count": 250,
+          "query_weighted_recovery": 0.0288
+        }
+      ],
+      "seed": 7
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "dataset_id": "en:tokenisation_only:k250",
+      "dataset_sha256": "df12e0eadfebd1ba1977d4f5ba61a52c124388113c3b7fceeefbfe308fdf58ad",
+      "distribution": "uniform_iid",
+      "keyword_count": 250,
+      "query_count": 2500,
+      "scores": [
+        {
+          "distinct_keyword_macro_recovery": 0.052,
+          "observed_distinct_keyword_count": 250,
+          "query_weighted_recovery": 0.0524
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.032,
+          "observed_distinct_keyword_count": 250,
+          "query_weighted_recovery": 0.0296
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.04,
+          "observed_distinct_keyword_count": 250,
+          "query_weighted_recovery": 0.0412
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.036,
+          "observed_distinct_keyword_count": 250,
+          "query_weighted_recovery": 0.0368
+        }
+      ],
+      "seed": 8
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "dataset_id": "en:tokenisation_only:k250",
+      "dataset_sha256": "df12e0eadfebd1ba1977d4f5ba61a52c124388113c3b7fceeefbfe308fdf58ad",
+      "distribution": "uniform_iid",
+      "keyword_count": 250,
+      "query_count": 2500,
+      "scores": [
+        {
+          "distinct_keyword_macro_recovery": 0.024,
+          "observed_distinct_keyword_count": 250,
+          "query_weighted_recovery": 0.0244
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.028,
+          "observed_distinct_keyword_count": 250,
+          "query_weighted_recovery": 0.028
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.016,
+          "observed_distinct_keyword_count": 250,
+          "query_weighted_recovery": 0.0148
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.032,
+          "observed_distinct_keyword_count": 250,
+          "query_weighted_recovery": 0.0284
+        }
+      ],
+      "seed": 9
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "dataset_id": "en:tokenisation_only:k250",
+      "dataset_sha256": "df12e0eadfebd1ba1977d4f5ba61a52c124388113c3b7fceeefbfe308fdf58ad",
+      "distribution": "zipf_iid",
+      "keyword_count": 250,
+      "query_count": 2500,
+      "scores": [
+        {
+          "distinct_keyword_macro_recovery": 0.029166666666666667,
+          "observed_distinct_keyword_count": 240,
+          "query_weighted_recovery": 0.118
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.025,
+          "observed_distinct_keyword_count": 240,
+          "query_weighted_recovery": 0.126
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.03333333333333333,
+          "observed_distinct_keyword_count": 240,
+          "query_weighted_recovery": 0.0996
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.020833333333333332,
+          "observed_distinct_keyword_count": 240,
+          "query_weighted_recovery": 0.1048
+        }
+      ],
+      "seed": 0
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "dataset_id": "en:tokenisation_only:k250",
+      "dataset_sha256": "df12e0eadfebd1ba1977d4f5ba61a52c124388113c3b7fceeefbfe308fdf58ad",
+      "distribution": "zipf_iid",
+      "keyword_count": 250,
+      "query_count": 2500,
+      "scores": [
+        {
+          "distinct_keyword_macro_recovery": 0.02531645569620253,
+          "observed_distinct_keyword_count": 237,
+          "query_weighted_recovery": 0.1092
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.029535864978902954,
+          "observed_distinct_keyword_count": 237,
+          "query_weighted_recovery": 0.0852
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.02531645569620253,
+          "observed_distinct_keyword_count": 237,
+          "query_weighted_recovery": 0.102
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.04219409282700422,
+          "observed_distinct_keyword_count": 237,
+          "query_weighted_recovery": 0.1496
+        }
+      ],
+      "seed": 1
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "dataset_id": "en:tokenisation_only:k250",
+      "dataset_sha256": "df12e0eadfebd1ba1977d4f5ba61a52c124388113c3b7fceeefbfe308fdf58ad",
+      "distribution": "zipf_iid",
+      "keyword_count": 250,
+      "query_count": 2500,
+      "scores": [
+        {
+          "distinct_keyword_macro_recovery": 0.029535864978902954,
+          "observed_distinct_keyword_count": 237,
+          "query_weighted_recovery": 0.1396
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.02109704641350211,
+          "observed_distinct_keyword_count": 237,
+          "query_weighted_recovery": 0.1228
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.02531645569620253,
+          "observed_distinct_keyword_count": 237,
+          "query_weighted_recovery": 0.1252
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.016877637130801686,
+          "observed_distinct_keyword_count": 237,
+          "query_weighted_recovery": 0.0976
+        }
+      ],
+      "seed": 2
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "dataset_id": "en:tokenisation_only:k250",
+      "dataset_sha256": "df12e0eadfebd1ba1977d4f5ba61a52c124388113c3b7fceeefbfe308fdf58ad",
+      "distribution": "zipf_iid",
+      "keyword_count": 250,
+      "query_count": 2500,
+      "scores": [
+        {
+          "distinct_keyword_macro_recovery": 0.02553191489361702,
+          "observed_distinct_keyword_count": 235,
+          "query_weighted_recovery": 0.1368
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.02553191489361702,
+          "observed_distinct_keyword_count": 235,
+          "query_weighted_recovery": 0.1296
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.029787234042553193,
+          "observed_distinct_keyword_count": 235,
+          "query_weighted_recovery": 0.1196
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.03404255319148936,
+          "observed_distinct_keyword_count": 235,
+          "query_weighted_recovery": 0.0992
+        }
+      ],
+      "seed": 3
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "dataset_id": "en:tokenisation_only:k250",
+      "dataset_sha256": "df12e0eadfebd1ba1977d4f5ba61a52c124388113c3b7fceeefbfe308fdf58ad",
+      "distribution": "zipf_iid",
+      "keyword_count": 250,
+      "query_count": 2500,
+      "scores": [
+        {
+          "distinct_keyword_macro_recovery": 0.037815126050420166,
+          "observed_distinct_keyword_count": 238,
+          "query_weighted_recovery": 0.1456
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.025210084033613446,
+          "observed_distinct_keyword_count": 238,
+          "query_weighted_recovery": 0.1076
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.025210084033613446,
+          "observed_distinct_keyword_count": 238,
+          "query_weighted_recovery": 0.09
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.02100840336134454,
+          "observed_distinct_keyword_count": 238,
+          "query_weighted_recovery": 0.102
+        }
+      ],
+      "seed": 4
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "dataset_id": "en:tokenisation_only:k250",
+      "dataset_sha256": "df12e0eadfebd1ba1977d4f5ba61a52c124388113c3b7fceeefbfe308fdf58ad",
+      "distribution": "zipf_iid",
+      "keyword_count": 250,
+      "query_count": 2500,
+      "scores": [
+        {
+          "distinct_keyword_macro_recovery": 0.037815126050420166,
+          "observed_distinct_keyword_count": 238,
+          "query_weighted_recovery": 0.14
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.025210084033613446,
+          "observed_distinct_keyword_count": 238,
+          "query_weighted_recovery": 0.108
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.029411764705882353,
+          "observed_distinct_keyword_count": 238,
+          "query_weighted_recovery": 0.1156
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.03361344537815126,
+          "observed_distinct_keyword_count": 238,
+          "query_weighted_recovery": 0.0928
+        }
+      ],
+      "seed": 5
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "dataset_id": "en:tokenisation_only:k250",
+      "dataset_sha256": "df12e0eadfebd1ba1977d4f5ba61a52c124388113c3b7fceeefbfe308fdf58ad",
+      "distribution": "zipf_iid",
+      "keyword_count": 250,
+      "query_count": 2500,
+      "scores": [
+        {
+          "distinct_keyword_macro_recovery": 0.038461538461538464,
+          "observed_distinct_keyword_count": 234,
+          "query_weighted_recovery": 0.1332
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.038461538461538464,
+          "observed_distinct_keyword_count": 234,
+          "query_weighted_recovery": 0.128
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.021367521367521368,
+          "observed_distinct_keyword_count": 234,
+          "query_weighted_recovery": 0.0952
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.042735042735042736,
+          "observed_distinct_keyword_count": 234,
+          "query_weighted_recovery": 0.1404
+        }
+      ],
+      "seed": 6
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "dataset_id": "en:tokenisation_only:k250",
+      "dataset_sha256": "df12e0eadfebd1ba1977d4f5ba61a52c124388113c3b7fceeefbfe308fdf58ad",
+      "distribution": "zipf_iid",
+      "keyword_count": 250,
+      "query_count": 2500,
+      "scores": [
+        {
+          "distinct_keyword_macro_recovery": 0.021551724137931036,
+          "observed_distinct_keyword_count": 232,
+          "query_weighted_recovery": 0.1156
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.034482758620689655,
+          "observed_distinct_keyword_count": 232,
+          "query_weighted_recovery": 0.132
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.03017241379310345,
+          "observed_distinct_keyword_count": 232,
+          "query_weighted_recovery": 0.154
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.017241379310344827,
+          "observed_distinct_keyword_count": 232,
+          "query_weighted_recovery": 0.1016
+        }
+      ],
+      "seed": 7
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "dataset_id": "en:tokenisation_only:k250",
+      "dataset_sha256": "df12e0eadfebd1ba1977d4f5ba61a52c124388113c3b7fceeefbfe308fdf58ad",
+      "distribution": "zipf_iid",
+      "keyword_count": 250,
+      "query_count": 2500,
+      "scores": [
+        {
+          "distinct_keyword_macro_recovery": 0.03896103896103896,
+          "observed_distinct_keyword_count": 231,
+          "query_weighted_recovery": 0.1324
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.03896103896103896,
+          "observed_distinct_keyword_count": 231,
+          "query_weighted_recovery": 0.128
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.03463203463203463,
+          "observed_distinct_keyword_count": 231,
+          "query_weighted_recovery": 0.118
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.03463203463203463,
+          "observed_distinct_keyword_count": 231,
+          "query_weighted_recovery": 0.1276
+        }
+      ],
+      "seed": 8
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "dataset_id": "en:tokenisation_only:k250",
+      "dataset_sha256": "df12e0eadfebd1ba1977d4f5ba61a52c124388113c3b7fceeefbfe308fdf58ad",
+      "distribution": "zipf_iid",
+      "keyword_count": 250,
+      "query_count": 2500,
+      "scores": [
+        {
+          "distinct_keyword_macro_recovery": 0.042735042735042736,
+          "observed_distinct_keyword_count": 234,
+          "query_weighted_recovery": 0.1228
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.021367521367521368,
+          "observed_distinct_keyword_count": 234,
+          "query_weighted_recovery": 0.1004
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.02564102564102564,
+          "observed_distinct_keyword_count": 234,
+          "query_weighted_recovery": 0.1232
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.021367521367521368,
+          "observed_distinct_keyword_count": 234,
+          "query_weighted_recovery": 0.0876
+        }
+      ],
+      "seed": 9
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "dataset_id": "en:tokenisation_only:k500",
+      "dataset_sha256": "bec28dd8fe5f3a57fa2a76b9017b16ed10b3df600a1c0fd70415cba83d14bce8",
+      "distribution": "uniform_iid",
+      "keyword_count": 500,
+      "query_count": 5000,
+      "scores": [
+        {
+          "distinct_keyword_macro_recovery": 0.014,
+          "observed_distinct_keyword_count": 500,
+          "query_weighted_recovery": 0.013
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.02,
+          "observed_distinct_keyword_count": 500,
+          "query_weighted_recovery": 0.0182
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.022,
+          "observed_distinct_keyword_count": 500,
+          "query_weighted_recovery": 0.0214
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.018,
+          "observed_distinct_keyword_count": 500,
+          "query_weighted_recovery": 0.017
+        }
+      ],
+      "seed": 0
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "dataset_id": "en:tokenisation_only:k500",
+      "dataset_sha256": "bec28dd8fe5f3a57fa2a76b9017b16ed10b3df600a1c0fd70415cba83d14bce8",
+      "distribution": "uniform_iid",
+      "keyword_count": 500,
+      "query_count": 5000,
+      "scores": [
+        {
+          "distinct_keyword_macro_recovery": 0.014,
+          "observed_distinct_keyword_count": 500,
+          "query_weighted_recovery": 0.016
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.012,
+          "observed_distinct_keyword_count": 500,
+          "query_weighted_recovery": 0.0134
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.01,
+          "observed_distinct_keyword_count": 500,
+          "query_weighted_recovery": 0.01
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.014,
+          "observed_distinct_keyword_count": 500,
+          "query_weighted_recovery": 0.0152
+        }
+      ],
+      "seed": 1
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "dataset_id": "en:tokenisation_only:k500",
+      "dataset_sha256": "bec28dd8fe5f3a57fa2a76b9017b16ed10b3df600a1c0fd70415cba83d14bce8",
+      "distribution": "uniform_iid",
+      "keyword_count": 500,
+      "query_count": 5000,
+      "scores": [
+        {
+          "distinct_keyword_macro_recovery": 0.018,
+          "observed_distinct_keyword_count": 500,
+          "query_weighted_recovery": 0.019
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.022,
+          "observed_distinct_keyword_count": 500,
+          "query_weighted_recovery": 0.021
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.02,
+          "observed_distinct_keyword_count": 500,
+          "query_weighted_recovery": 0.0214
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.01,
+          "observed_distinct_keyword_count": 500,
+          "query_weighted_recovery": 0.0098
+        }
+      ],
+      "seed": 2
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "dataset_id": "en:tokenisation_only:k500",
+      "dataset_sha256": "bec28dd8fe5f3a57fa2a76b9017b16ed10b3df600a1c0fd70415cba83d14bce8",
+      "distribution": "uniform_iid",
+      "keyword_count": 500,
+      "query_count": 5000,
+      "scores": [
+        {
+          "distinct_keyword_macro_recovery": 0.014,
+          "observed_distinct_keyword_count": 500,
+          "query_weighted_recovery": 0.0132
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.01,
+          "observed_distinct_keyword_count": 500,
+          "query_weighted_recovery": 0.008
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.016,
+          "observed_distinct_keyword_count": 500,
+          "query_weighted_recovery": 0.015
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.016,
+          "observed_distinct_keyword_count": 500,
+          "query_weighted_recovery": 0.014
+        }
+      ],
+      "seed": 3
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "dataset_id": "en:tokenisation_only:k500",
+      "dataset_sha256": "bec28dd8fe5f3a57fa2a76b9017b16ed10b3df600a1c0fd70415cba83d14bce8",
+      "distribution": "uniform_iid",
+      "keyword_count": 500,
+      "query_count": 5000,
+      "scores": [
+        {
+          "distinct_keyword_macro_recovery": 0.016,
+          "observed_distinct_keyword_count": 500,
+          "query_weighted_recovery": 0.0158
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.016,
+          "observed_distinct_keyword_count": 500,
+          "query_weighted_recovery": 0.017
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.014,
+          "observed_distinct_keyword_count": 500,
+          "query_weighted_recovery": 0.0174
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.024,
+          "observed_distinct_keyword_count": 500,
+          "query_weighted_recovery": 0.0242
+        }
+      ],
+      "seed": 4
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "dataset_id": "en:tokenisation_only:k500",
+      "dataset_sha256": "bec28dd8fe5f3a57fa2a76b9017b16ed10b3df600a1c0fd70415cba83d14bce8",
+      "distribution": "uniform_iid",
+      "keyword_count": 500,
+      "query_count": 5000,
+      "scores": [
+        {
+          "distinct_keyword_macro_recovery": 0.016,
+          "observed_distinct_keyword_count": 500,
+          "query_weighted_recovery": 0.0128
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.016,
+          "observed_distinct_keyword_count": 500,
+          "query_weighted_recovery": 0.0138
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.012,
+          "observed_distinct_keyword_count": 500,
+          "query_weighted_recovery": 0.0108
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.02,
+          "observed_distinct_keyword_count": 500,
+          "query_weighted_recovery": 0.018
+        }
+      ],
+      "seed": 5
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "dataset_id": "en:tokenisation_only:k500",
+      "dataset_sha256": "bec28dd8fe5f3a57fa2a76b9017b16ed10b3df600a1c0fd70415cba83d14bce8",
+      "distribution": "uniform_iid",
+      "keyword_count": 500,
+      "query_count": 5000,
+      "scores": [
+        {
+          "distinct_keyword_macro_recovery": 0.022,
+          "observed_distinct_keyword_count": 500,
+          "query_weighted_recovery": 0.0214
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.022,
+          "observed_distinct_keyword_count": 500,
+          "query_weighted_recovery": 0.0216
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.018,
+          "observed_distinct_keyword_count": 500,
+          "query_weighted_recovery": 0.0166
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.016,
+          "observed_distinct_keyword_count": 500,
+          "query_weighted_recovery": 0.0152
+        }
+      ],
+      "seed": 6
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "dataset_id": "en:tokenisation_only:k500",
+      "dataset_sha256": "bec28dd8fe5f3a57fa2a76b9017b16ed10b3df600a1c0fd70415cba83d14bce8",
+      "distribution": "uniform_iid",
+      "keyword_count": 500,
+      "query_count": 5000,
+      "scores": [
+        {
+          "distinct_keyword_macro_recovery": 0.012,
+          "observed_distinct_keyword_count": 500,
+          "query_weighted_recovery": 0.0102
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.01,
+          "observed_distinct_keyword_count": 500,
+          "query_weighted_recovery": 0.009
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.02,
+          "observed_distinct_keyword_count": 500,
+          "query_weighted_recovery": 0.0208
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.02,
+          "observed_distinct_keyword_count": 500,
+          "query_weighted_recovery": 0.0186
+        }
+      ],
+      "seed": 7
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "dataset_id": "en:tokenisation_only:k500",
+      "dataset_sha256": "bec28dd8fe5f3a57fa2a76b9017b16ed10b3df600a1c0fd70415cba83d14bce8",
+      "distribution": "uniform_iid",
+      "keyword_count": 500,
+      "query_count": 5000,
+      "scores": [
+        {
+          "distinct_keyword_macro_recovery": 0.01,
+          "observed_distinct_keyword_count": 500,
+          "query_weighted_recovery": 0.0098
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.01,
+          "observed_distinct_keyword_count": 500,
+          "query_weighted_recovery": 0.0108
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.018,
+          "observed_distinct_keyword_count": 500,
+          "query_weighted_recovery": 0.0168
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.012,
+          "observed_distinct_keyword_count": 500,
+          "query_weighted_recovery": 0.013
+        }
+      ],
+      "seed": 8
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "dataset_id": "en:tokenisation_only:k500",
+      "dataset_sha256": "bec28dd8fe5f3a57fa2a76b9017b16ed10b3df600a1c0fd70415cba83d14bce8",
+      "distribution": "uniform_iid",
+      "keyword_count": 500,
+      "query_count": 5000,
+      "scores": [
+        {
+          "distinct_keyword_macro_recovery": 0.012,
+          "observed_distinct_keyword_count": 500,
+          "query_weighted_recovery": 0.0098
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.01,
+          "observed_distinct_keyword_count": 500,
+          "query_weighted_recovery": 0.008
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.012,
+          "observed_distinct_keyword_count": 500,
+          "query_weighted_recovery": 0.0094
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.014,
+          "observed_distinct_keyword_count": 500,
+          "query_weighted_recovery": 0.0098
+        }
+      ],
+      "seed": 9
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "dataset_id": "en:tokenisation_only:k500",
+      "dataset_sha256": "bec28dd8fe5f3a57fa2a76b9017b16ed10b3df600a1c0fd70415cba83d14bce8",
+      "distribution": "zipf_iid",
+      "keyword_count": 500,
+      "query_count": 5000,
+      "scores": [
+        {
+          "distinct_keyword_macro_recovery": 0.024017467248908297,
+          "observed_distinct_keyword_count": 458,
+          "query_weighted_recovery": 0.1376
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.017467248908296942,
+          "observed_distinct_keyword_count": 458,
+          "query_weighted_recovery": 0.0978
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.013100436681222707,
+          "observed_distinct_keyword_count": 458,
+          "query_weighted_recovery": 0.1012
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.017467248908296942,
+          "observed_distinct_keyword_count": 458,
+          "query_weighted_recovery": 0.1502
+        }
+      ],
+      "seed": 0
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "dataset_id": "en:tokenisation_only:k500",
+      "dataset_sha256": "bec28dd8fe5f3a57fa2a76b9017b16ed10b3df600a1c0fd70415cba83d14bce8",
+      "distribution": "zipf_iid",
+      "keyword_count": 500,
+      "query_count": 5000,
+      "scores": [
+        {
+          "distinct_keyword_macro_recovery": 0.017241379310344827,
+          "observed_distinct_keyword_count": 464,
+          "query_weighted_recovery": 0.1156
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.02586206896551724,
+          "observed_distinct_keyword_count": 464,
+          "query_weighted_recovery": 0.1004
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.01939655172413793,
+          "observed_distinct_keyword_count": 464,
+          "query_weighted_recovery": 0.0852
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.021551724137931036,
+          "observed_distinct_keyword_count": 464,
+          "query_weighted_recovery": 0.089
+        }
+      ],
+      "seed": 1
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "dataset_id": "en:tokenisation_only:k500",
+      "dataset_sha256": "bec28dd8fe5f3a57fa2a76b9017b16ed10b3df600a1c0fd70415cba83d14bce8",
+      "distribution": "zipf_iid",
+      "keyword_count": 500,
+      "query_count": 5000,
+      "scores": [
+        {
+          "distinct_keyword_macro_recovery": 0.022222222222222223,
+          "observed_distinct_keyword_count": 450,
+          "query_weighted_recovery": 0.1282
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.022222222222222223,
+          "observed_distinct_keyword_count": 450,
+          "query_weighted_recovery": 0.1284
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.022222222222222223,
+          "observed_distinct_keyword_count": 450,
+          "query_weighted_recovery": 0.1346
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.02,
+          "observed_distinct_keyword_count": 450,
+          "query_weighted_recovery": 0.0966
+        }
+      ],
+      "seed": 2
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "dataset_id": "en:tokenisation_only:k500",
+      "dataset_sha256": "bec28dd8fe5f3a57fa2a76b9017b16ed10b3df600a1c0fd70415cba83d14bce8",
+      "distribution": "zipf_iid",
+      "keyword_count": 500,
+      "query_count": 5000,
+      "scores": [
+        {
+          "distinct_keyword_macro_recovery": 0.023758099352051837,
+          "observed_distinct_keyword_count": 463,
+          "query_weighted_recovery": 0.1422
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.012958963282937365,
+          "observed_distinct_keyword_count": 463,
+          "query_weighted_recovery": 0.1176
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.01079913606911447,
+          "observed_distinct_keyword_count": 463,
+          "query_weighted_recovery": 0.0798
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.017278617710583154,
+          "observed_distinct_keyword_count": 463,
+          "query_weighted_recovery": 0.1038
+        }
+      ],
+      "seed": 3
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "dataset_id": "en:tokenisation_only:k500",
+      "dataset_sha256": "bec28dd8fe5f3a57fa2a76b9017b16ed10b3df600a1c0fd70415cba83d14bce8",
+      "distribution": "zipf_iid",
+      "keyword_count": 500,
+      "query_count": 5000,
+      "scores": [
+        {
+          "distinct_keyword_macro_recovery": 0.017130620985010708,
+          "observed_distinct_keyword_count": 467,
+          "query_weighted_recovery": 0.105
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.014989293361884369,
+          "observed_distinct_keyword_count": 467,
+          "query_weighted_recovery": 0.098
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.017130620985010708,
+          "observed_distinct_keyword_count": 467,
+          "query_weighted_recovery": 0.096
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.021413276231263382,
+          "observed_distinct_keyword_count": 467,
+          "query_weighted_recovery": 0.1264
+        }
+      ],
+      "seed": 4
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "dataset_id": "en:tokenisation_only:k500",
+      "dataset_sha256": "bec28dd8fe5f3a57fa2a76b9017b16ed10b3df600a1c0fd70415cba83d14bce8",
+      "distribution": "zipf_iid",
+      "keyword_count": 500,
+      "query_count": 5000,
+      "scores": [
+        {
+          "distinct_keyword_macro_recovery": 0.015151515151515152,
+          "observed_distinct_keyword_count": 462,
+          "query_weighted_recovery": 0.1094
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.01948051948051948,
+          "observed_distinct_keyword_count": 462,
+          "query_weighted_recovery": 0.1244
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.017316017316017316,
+          "observed_distinct_keyword_count": 462,
+          "query_weighted_recovery": 0.092
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.01948051948051948,
+          "observed_distinct_keyword_count": 462,
+          "query_weighted_recovery": 0.1254
+        }
+      ],
+      "seed": 5
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "dataset_id": "en:tokenisation_only:k500",
+      "dataset_sha256": "bec28dd8fe5f3a57fa2a76b9017b16ed10b3df600a1c0fd70415cba83d14bce8",
+      "distribution": "zipf_iid",
+      "keyword_count": 500,
+      "query_count": 5000,
+      "scores": [
+        {
+          "distinct_keyword_macro_recovery": 0.02569593147751606,
+          "observed_distinct_keyword_count": 467,
+          "query_weighted_recovery": 0.1218
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.017130620985010708,
+          "observed_distinct_keyword_count": 467,
+          "query_weighted_recovery": 0.0854
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.017130620985010708,
+          "observed_distinct_keyword_count": 467,
+          "query_weighted_recovery": 0.0932
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.021413276231263382,
+          "observed_distinct_keyword_count": 467,
+          "query_weighted_recovery": 0.1186
+        }
+      ],
+      "seed": 6
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "dataset_id": "en:tokenisation_only:k500",
+      "dataset_sha256": "bec28dd8fe5f3a57fa2a76b9017b16ed10b3df600a1c0fd70415cba83d14bce8",
+      "distribution": "zipf_iid",
+      "keyword_count": 500,
+      "query_count": 5000,
+      "scores": [
+        {
+          "distinct_keyword_macro_recovery": 0.015384615384615385,
+          "observed_distinct_keyword_count": 455,
+          "query_weighted_recovery": 0.1184
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.017582417582417582,
+          "observed_distinct_keyword_count": 455,
+          "query_weighted_recovery": 0.1194
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.015384615384615385,
+          "observed_distinct_keyword_count": 455,
+          "query_weighted_recovery": 0.1138
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.024175824175824177,
+          "observed_distinct_keyword_count": 455,
+          "query_weighted_recovery": 0.1452
+        }
+      ],
+      "seed": 7
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "dataset_id": "en:tokenisation_only:k500",
+      "dataset_sha256": "bec28dd8fe5f3a57fa2a76b9017b16ed10b3df600a1c0fd70415cba83d14bce8",
+      "distribution": "zipf_iid",
+      "keyword_count": 500,
+      "query_count": 5000,
+      "scores": [
+        {
+          "distinct_keyword_macro_recovery": 0.015555555555555555,
+          "observed_distinct_keyword_count": 450,
+          "query_weighted_recovery": 0.1188
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.008888888888888889,
+          "observed_distinct_keyword_count": 450,
+          "query_weighted_recovery": 0.0862
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.022222222222222223,
+          "observed_distinct_keyword_count": 450,
+          "query_weighted_recovery": 0.0974
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.028888888888888888,
+          "observed_distinct_keyword_count": 450,
+          "query_weighted_recovery": 0.1444
+        }
+      ],
+      "seed": 8
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "dataset_id": "en:tokenisation_only:k500",
+      "dataset_sha256": "bec28dd8fe5f3a57fa2a76b9017b16ed10b3df600a1c0fd70415cba83d14bce8",
+      "distribution": "zipf_iid",
+      "keyword_count": 500,
+      "query_count": 5000,
+      "scores": [
+        {
+          "distinct_keyword_macro_recovery": 0.013100436681222707,
+          "observed_distinct_keyword_count": 458,
+          "query_weighted_recovery": 0.109
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.015283842794759825,
+          "observed_distinct_keyword_count": 458,
+          "query_weighted_recovery": 0.1244
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.015283842794759825,
+          "observed_distinct_keyword_count": 458,
+          "query_weighted_recovery": 0.089
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.021834061135371178,
+          "observed_distinct_keyword_count": 458,
+          "query_weighted_recovery": 0.1462
+        }
+      ],
+      "seed": 9
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "dataset_id": "lus:tokenisation_only:k100",
+      "dataset_sha256": "e35c1bcde06852b734af6605a1780a9eaafeb625e2aaac98bed820a17bde9931",
+      "distribution": "uniform_iid",
+      "keyword_count": 100,
+      "query_count": 1000,
+      "scores": [
+        {
+          "distinct_keyword_macro_recovery": 0.09,
+          "observed_distinct_keyword_count": 100,
+          "query_weighted_recovery": 0.092
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.1,
+          "observed_distinct_keyword_count": 100,
+          "query_weighted_recovery": 0.103
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.09,
+          "observed_distinct_keyword_count": 100,
+          "query_weighted_recovery": 0.087
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.09,
+          "observed_distinct_keyword_count": 100,
+          "query_weighted_recovery": 0.079
+        }
+      ],
+      "seed": 0
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "dataset_id": "lus:tokenisation_only:k100",
+      "dataset_sha256": "e35c1bcde06852b734af6605a1780a9eaafeb625e2aaac98bed820a17bde9931",
+      "distribution": "uniform_iid",
+      "keyword_count": 100,
+      "query_count": 1000,
+      "scores": [
+        {
+          "distinct_keyword_macro_recovery": 0.07,
+          "observed_distinct_keyword_count": 100,
+          "query_weighted_recovery": 0.076
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.05,
+          "observed_distinct_keyword_count": 100,
+          "query_weighted_recovery": 0.046
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.04,
+          "observed_distinct_keyword_count": 100,
+          "query_weighted_recovery": 0.034
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.06,
+          "observed_distinct_keyword_count": 100,
+          "query_weighted_recovery": 0.063
+        }
+      ],
+      "seed": 1
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "dataset_id": "lus:tokenisation_only:k100",
+      "dataset_sha256": "e35c1bcde06852b734af6605a1780a9eaafeb625e2aaac98bed820a17bde9931",
+      "distribution": "uniform_iid",
+      "keyword_count": 100,
+      "query_count": 1000,
+      "scores": [
+        {
+          "distinct_keyword_macro_recovery": 0.08,
+          "observed_distinct_keyword_count": 100,
+          "query_weighted_recovery": 0.088
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.06,
+          "observed_distinct_keyword_count": 100,
+          "query_weighted_recovery": 0.067
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.05,
+          "observed_distinct_keyword_count": 100,
+          "query_weighted_recovery": 0.051
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.04,
+          "observed_distinct_keyword_count": 100,
+          "query_weighted_recovery": 0.042
+        }
+      ],
+      "seed": 2
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "dataset_id": "lus:tokenisation_only:k100",
+      "dataset_sha256": "e35c1bcde06852b734af6605a1780a9eaafeb625e2aaac98bed820a17bde9931",
+      "distribution": "uniform_iid",
+      "keyword_count": 100,
+      "query_count": 1000,
+      "scores": [
+        {
+          "distinct_keyword_macro_recovery": 0.1,
+          "observed_distinct_keyword_count": 100,
+          "query_weighted_recovery": 0.099
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.1,
+          "observed_distinct_keyword_count": 100,
+          "query_weighted_recovery": 0.103
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.07,
+          "observed_distinct_keyword_count": 100,
+          "query_weighted_recovery": 0.07
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.05,
+          "observed_distinct_keyword_count": 100,
+          "query_weighted_recovery": 0.05
+        }
+      ],
+      "seed": 3
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "dataset_id": "lus:tokenisation_only:k100",
+      "dataset_sha256": "e35c1bcde06852b734af6605a1780a9eaafeb625e2aaac98bed820a17bde9931",
+      "distribution": "uniform_iid",
+      "keyword_count": 100,
+      "query_count": 1000,
+      "scores": [
+        {
+          "distinct_keyword_macro_recovery": 0.06,
+          "observed_distinct_keyword_count": 100,
+          "query_weighted_recovery": 0.057
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.09,
+          "observed_distinct_keyword_count": 100,
+          "query_weighted_recovery": 0.088
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.07,
+          "observed_distinct_keyword_count": 100,
+          "query_weighted_recovery": 0.06
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.08,
+          "observed_distinct_keyword_count": 100,
+          "query_weighted_recovery": 0.066
+        }
+      ],
+      "seed": 4
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "dataset_id": "lus:tokenisation_only:k100",
+      "dataset_sha256": "e35c1bcde06852b734af6605a1780a9eaafeb625e2aaac98bed820a17bde9931",
+      "distribution": "uniform_iid",
+      "keyword_count": 100,
+      "query_count": 1000,
+      "scores": [
+        {
+          "distinct_keyword_macro_recovery": 0.06,
+          "observed_distinct_keyword_count": 100,
+          "query_weighted_recovery": 0.067
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.09,
+          "observed_distinct_keyword_count": 100,
+          "query_weighted_recovery": 0.094
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.06,
+          "observed_distinct_keyword_count": 100,
+          "query_weighted_recovery": 0.065
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.05,
+          "observed_distinct_keyword_count": 100,
+          "query_weighted_recovery": 0.047
+        }
+      ],
+      "seed": 5
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "dataset_id": "lus:tokenisation_only:k100",
+      "dataset_sha256": "e35c1bcde06852b734af6605a1780a9eaafeb625e2aaac98bed820a17bde9931",
+      "distribution": "uniform_iid",
+      "keyword_count": 100,
+      "query_count": 1000,
+      "scores": [
+        {
+          "distinct_keyword_macro_recovery": 0.07,
+          "observed_distinct_keyword_count": 100,
+          "query_weighted_recovery": 0.071
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.07,
+          "observed_distinct_keyword_count": 100,
+          "query_weighted_recovery": 0.074
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.07,
+          "observed_distinct_keyword_count": 100,
+          "query_weighted_recovery": 0.074
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.1,
+          "observed_distinct_keyword_count": 100,
+          "query_weighted_recovery": 0.106
+        }
+      ],
+      "seed": 6
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "dataset_id": "lus:tokenisation_only:k100",
+      "dataset_sha256": "e35c1bcde06852b734af6605a1780a9eaafeb625e2aaac98bed820a17bde9931",
+      "distribution": "uniform_iid",
+      "keyword_count": 100,
+      "query_count": 1000,
+      "scores": [
+        {
+          "distinct_keyword_macro_recovery": 0.09,
+          "observed_distinct_keyword_count": 100,
+          "query_weighted_recovery": 0.072
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.08,
+          "observed_distinct_keyword_count": 100,
+          "query_weighted_recovery": 0.063
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.08,
+          "observed_distinct_keyword_count": 100,
+          "query_weighted_recovery": 0.061
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.08,
+          "observed_distinct_keyword_count": 100,
+          "query_weighted_recovery": 0.079
+        }
+      ],
+      "seed": 7
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "dataset_id": "lus:tokenisation_only:k100",
+      "dataset_sha256": "e35c1bcde06852b734af6605a1780a9eaafeb625e2aaac98bed820a17bde9931",
+      "distribution": "uniform_iid",
+      "keyword_count": 100,
+      "query_count": 1000,
+      "scores": [
+        {
+          "distinct_keyword_macro_recovery": 0.08,
+          "observed_distinct_keyword_count": 100,
+          "query_weighted_recovery": 0.076
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.07,
+          "observed_distinct_keyword_count": 100,
+          "query_weighted_recovery": 0.066
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.07,
+          "observed_distinct_keyword_count": 100,
+          "query_weighted_recovery": 0.062
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.05,
+          "observed_distinct_keyword_count": 100,
+          "query_weighted_recovery": 0.045
+        }
+      ],
+      "seed": 8
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "dataset_id": "lus:tokenisation_only:k100",
+      "dataset_sha256": "e35c1bcde06852b734af6605a1780a9eaafeb625e2aaac98bed820a17bde9931",
+      "distribution": "uniform_iid",
+      "keyword_count": 100,
+      "query_count": 1000,
+      "scores": [
+        {
+          "distinct_keyword_macro_recovery": 0.08,
+          "observed_distinct_keyword_count": 100,
+          "query_weighted_recovery": 0.082
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.07,
+          "observed_distinct_keyword_count": 100,
+          "query_weighted_recovery": 0.069
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.04,
+          "observed_distinct_keyword_count": 100,
+          "query_weighted_recovery": 0.037
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.08,
+          "observed_distinct_keyword_count": 100,
+          "query_weighted_recovery": 0.074
+        }
+      ],
+      "seed": 9
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "dataset_id": "lus:tokenisation_only:k100",
+      "dataset_sha256": "e35c1bcde06852b734af6605a1780a9eaafeb625e2aaac98bed820a17bde9931",
+      "distribution": "zipf_iid",
+      "keyword_count": 100,
+      "query_count": 1000,
+      "scores": [
+        {
+          "distinct_keyword_macro_recovery": 0.05102040816326531,
+          "observed_distinct_keyword_count": 98,
+          "query_weighted_recovery": 0.348
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.08163265306122448,
+          "observed_distinct_keyword_count": 98,
+          "query_weighted_recovery": 0.363
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.07142857142857142,
+          "observed_distinct_keyword_count": 98,
+          "query_weighted_recovery": 0.357
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.061224489795918366,
+          "observed_distinct_keyword_count": 98,
+          "query_weighted_recovery": 0.354
+        }
+      ],
+      "seed": 0
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "dataset_id": "lus:tokenisation_only:k100",
+      "dataset_sha256": "e35c1bcde06852b734af6605a1780a9eaafeb625e2aaac98bed820a17bde9931",
+      "distribution": "zipf_iid",
+      "keyword_count": 100,
+      "query_count": 1000,
+      "scores": [
+        {
+          "distinct_keyword_macro_recovery": 0.08421052631578947,
+          "observed_distinct_keyword_count": 95,
+          "query_weighted_recovery": 0.43
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.09473684210526316,
+          "observed_distinct_keyword_count": 95,
+          "query_weighted_recovery": 0.427
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.07368421052631578,
+          "observed_distinct_keyword_count": 95,
+          "query_weighted_recovery": 0.415
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.08421052631578947,
+          "observed_distinct_keyword_count": 95,
+          "query_weighted_recovery": 0.433
+        }
+      ],
+      "seed": 1
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "dataset_id": "lus:tokenisation_only:k100",
+      "dataset_sha256": "e35c1bcde06852b734af6605a1780a9eaafeb625e2aaac98bed820a17bde9931",
+      "distribution": "zipf_iid",
+      "keyword_count": 100,
+      "query_count": 1000,
+      "scores": [
+        {
+          "distinct_keyword_macro_recovery": 0.08333333333333333,
+          "observed_distinct_keyword_count": 96,
+          "query_weighted_recovery": 0.449
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.052083333333333336,
+          "observed_distinct_keyword_count": 96,
+          "query_weighted_recovery": 0.147
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.052083333333333336,
+          "observed_distinct_keyword_count": 96,
+          "query_weighted_recovery": 0.149
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.0625,
+          "observed_distinct_keyword_count": 96,
+          "query_weighted_recovery": 0.371
+        }
+      ],
+      "seed": 2
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "dataset_id": "lus:tokenisation_only:k100",
+      "dataset_sha256": "e35c1bcde06852b734af6605a1780a9eaafeb625e2aaac98bed820a17bde9931",
+      "distribution": "zipf_iid",
+      "keyword_count": 100,
+      "query_count": 1000,
+      "scores": [
+        {
+          "distinct_keyword_macro_recovery": 0.07368421052631578,
+          "observed_distinct_keyword_count": 95,
+          "query_weighted_recovery": 0.422
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.05263157894736842,
+          "observed_distinct_keyword_count": 95,
+          "query_weighted_recovery": 0.352
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.05263157894736842,
+          "observed_distinct_keyword_count": 95,
+          "query_weighted_recovery": 0.15
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.07368421052631578,
+          "observed_distinct_keyword_count": 95,
+          "query_weighted_recovery": 0.429
+        }
+      ],
+      "seed": 3
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "dataset_id": "lus:tokenisation_only:k100",
+      "dataset_sha256": "e35c1bcde06852b734af6605a1780a9eaafeb625e2aaac98bed820a17bde9931",
+      "distribution": "zipf_iid",
+      "keyword_count": 100,
+      "query_count": 1000,
+      "scores": [
+        {
+          "distinct_keyword_macro_recovery": 0.05319148936170213,
+          "observed_distinct_keyword_count": 94,
+          "query_weighted_recovery": 0.08
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.0425531914893617,
+          "observed_distinct_keyword_count": 94,
+          "query_weighted_recovery": 0.079
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.05319148936170213,
+          "observed_distinct_keyword_count": 94,
+          "query_weighted_recovery": 0.13
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.05319148936170213,
+          "observed_distinct_keyword_count": 94,
+          "query_weighted_recovery": 0.341
+        }
+      ],
+      "seed": 4
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "dataset_id": "lus:tokenisation_only:k100",
+      "dataset_sha256": "e35c1bcde06852b734af6605a1780a9eaafeb625e2aaac98bed820a17bde9931",
+      "distribution": "zipf_iid",
+      "keyword_count": 100,
+      "query_count": 1000,
+      "scores": [
+        {
+          "distinct_keyword_macro_recovery": 0.042105263157894736,
+          "observed_distinct_keyword_count": 95,
+          "query_weighted_recovery": 0.123
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.06315789473684211,
+          "observed_distinct_keyword_count": 95,
+          "query_weighted_recovery": 0.111
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.09473684210526316,
+          "observed_distinct_keyword_count": 95,
+          "query_weighted_recovery": 0.427
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.08421052631578947,
+          "observed_distinct_keyword_count": 95,
+          "query_weighted_recovery": 0.373
+        }
+      ],
+      "seed": 5
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "dataset_id": "lus:tokenisation_only:k100",
+      "dataset_sha256": "e35c1bcde06852b734af6605a1780a9eaafeb625e2aaac98bed820a17bde9931",
+      "distribution": "zipf_iid",
+      "keyword_count": 100,
+      "query_count": 1000,
+      "scores": [
+        {
+          "distinct_keyword_macro_recovery": 0.08163265306122448,
+          "observed_distinct_keyword_count": 98,
+          "query_weighted_recovery": 0.408
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.061224489795918366,
+          "observed_distinct_keyword_count": 98,
+          "query_weighted_recovery": 0.117
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.07142857142857142,
+          "observed_distinct_keyword_count": 98,
+          "query_weighted_recovery": 0.335
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.07142857142857142,
+          "observed_distinct_keyword_count": 98,
+          "query_weighted_recovery": 0.353
+        }
+      ],
+      "seed": 6
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "dataset_id": "lus:tokenisation_only:k100",
+      "dataset_sha256": "e35c1bcde06852b734af6605a1780a9eaafeb625e2aaac98bed820a17bde9931",
+      "distribution": "zipf_iid",
+      "keyword_count": 100,
+      "query_count": 1000,
+      "scores": [
+        {
+          "distinct_keyword_macro_recovery": 0.0625,
+          "observed_distinct_keyword_count": 96,
+          "query_weighted_recovery": 0.366
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.052083333333333336,
+          "observed_distinct_keyword_count": 96,
+          "query_weighted_recovery": 0.309
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.10416666666666667,
+          "observed_distinct_keyword_count": 96,
+          "query_weighted_recovery": 0.437
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.09375,
+          "observed_distinct_keyword_count": 96,
+          "query_weighted_recovery": 0.385
+        }
+      ],
+      "seed": 7
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "dataset_id": "lus:tokenisation_only:k100",
+      "dataset_sha256": "e35c1bcde06852b734af6605a1780a9eaafeb625e2aaac98bed820a17bde9931",
+      "distribution": "zipf_iid",
+      "keyword_count": 100,
+      "query_count": 1000,
+      "scores": [
+        {
+          "distinct_keyword_macro_recovery": 0.053763440860215055,
+          "observed_distinct_keyword_count": 93,
+          "query_weighted_recovery": 0.145
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.07526881720430108,
+          "observed_distinct_keyword_count": 93,
+          "query_weighted_recovery": 0.415
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.043010752688172046,
+          "observed_distinct_keyword_count": 93,
+          "query_weighted_recovery": 0.315
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.0967741935483871,
+          "observed_distinct_keyword_count": 93,
+          "query_weighted_recovery": 0.098
+        }
+      ],
+      "seed": 8
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "dataset_id": "lus:tokenisation_only:k100",
+      "dataset_sha256": "e35c1bcde06852b734af6605a1780a9eaafeb625e2aaac98bed820a17bde9931",
+      "distribution": "zipf_iid",
+      "keyword_count": 100,
+      "query_count": 1000,
+      "scores": [
+        {
+          "distinct_keyword_macro_recovery": 0.07692307692307693,
+          "observed_distinct_keyword_count": 91,
+          "query_weighted_recovery": 0.412
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.07692307692307693,
+          "observed_distinct_keyword_count": 91,
+          "query_weighted_recovery": 0.41
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.0989010989010989,
+          "observed_distinct_keyword_count": 91,
+          "query_weighted_recovery": 0.427
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.054945054945054944,
+          "observed_distinct_keyword_count": 91,
+          "query_weighted_recovery": 0.346
+        }
+      ],
+      "seed": 9
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "dataset_id": "lus:tokenisation_only:k250",
+      "dataset_sha256": "51cfa60e3627d13477e8291a0b659e31aa6894ebe8e080dfcad6fe9ab4840096",
+      "distribution": "uniform_iid",
+      "keyword_count": 250,
+      "query_count": 2500,
+      "scores": [
+        {
+          "distinct_keyword_macro_recovery": 0.032,
+          "observed_distinct_keyword_count": 250,
+          "query_weighted_recovery": 0.0348
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.04,
+          "observed_distinct_keyword_count": 250,
+          "query_weighted_recovery": 0.0404
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.032,
+          "observed_distinct_keyword_count": 250,
+          "query_weighted_recovery": 0.0316
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.032,
+          "observed_distinct_keyword_count": 250,
+          "query_weighted_recovery": 0.0364
+        }
+      ],
+      "seed": 0
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "dataset_id": "lus:tokenisation_only:k250",
+      "dataset_sha256": "51cfa60e3627d13477e8291a0b659e31aa6894ebe8e080dfcad6fe9ab4840096",
+      "distribution": "uniform_iid",
+      "keyword_count": 250,
+      "query_count": 2500,
+      "scores": [
+        {
+          "distinct_keyword_macro_recovery": 0.04,
+          "observed_distinct_keyword_count": 250,
+          "query_weighted_recovery": 0.0432
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.028,
+          "observed_distinct_keyword_count": 250,
+          "query_weighted_recovery": 0.0292
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.02,
+          "observed_distinct_keyword_count": 250,
+          "query_weighted_recovery": 0.018
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.032,
+          "observed_distinct_keyword_count": 250,
+          "query_weighted_recovery": 0.0316
+        }
+      ],
+      "seed": 1
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "dataset_id": "lus:tokenisation_only:k250",
+      "dataset_sha256": "51cfa60e3627d13477e8291a0b659e31aa6894ebe8e080dfcad6fe9ab4840096",
+      "distribution": "uniform_iid",
+      "keyword_count": 250,
+      "query_count": 2500,
+      "scores": [
+        {
+          "distinct_keyword_macro_recovery": 0.036,
+          "observed_distinct_keyword_count": 250,
+          "query_weighted_recovery": 0.0352
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.04,
+          "observed_distinct_keyword_count": 250,
+          "query_weighted_recovery": 0.0392
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.048,
+          "observed_distinct_keyword_count": 250,
+          "query_weighted_recovery": 0.052
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.02,
+          "observed_distinct_keyword_count": 250,
+          "query_weighted_recovery": 0.0164
+        }
+      ],
+      "seed": 2
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "dataset_id": "lus:tokenisation_only:k250",
+      "dataset_sha256": "51cfa60e3627d13477e8291a0b659e31aa6894ebe8e080dfcad6fe9ab4840096",
+      "distribution": "uniform_iid",
+      "keyword_count": 250,
+      "query_count": 2500,
+      "scores": [
+        {
+          "distinct_keyword_macro_recovery": 0.032,
+          "observed_distinct_keyword_count": 250,
+          "query_weighted_recovery": 0.0264
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.032,
+          "observed_distinct_keyword_count": 250,
+          "query_weighted_recovery": 0.0236
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.032,
+          "observed_distinct_keyword_count": 250,
+          "query_weighted_recovery": 0.0284
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.036,
+          "observed_distinct_keyword_count": 250,
+          "query_weighted_recovery": 0.0348
+        }
+      ],
+      "seed": 3
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "dataset_id": "lus:tokenisation_only:k250",
+      "dataset_sha256": "51cfa60e3627d13477e8291a0b659e31aa6894ebe8e080dfcad6fe9ab4840096",
+      "distribution": "uniform_iid",
+      "keyword_count": 250,
+      "query_count": 2500,
+      "scores": [
+        {
+          "distinct_keyword_macro_recovery": 0.04,
+          "observed_distinct_keyword_count": 250,
+          "query_weighted_recovery": 0.032
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.024,
+          "observed_distinct_keyword_count": 250,
+          "query_weighted_recovery": 0.0204
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.024,
+          "observed_distinct_keyword_count": 250,
+          "query_weighted_recovery": 0.0244
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.04,
+          "observed_distinct_keyword_count": 250,
+          "query_weighted_recovery": 0.0364
+        }
+      ],
+      "seed": 4
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "dataset_id": "lus:tokenisation_only:k250",
+      "dataset_sha256": "51cfa60e3627d13477e8291a0b659e31aa6894ebe8e080dfcad6fe9ab4840096",
+      "distribution": "uniform_iid",
+      "keyword_count": 250,
+      "query_count": 2500,
+      "scores": [
+        {
+          "distinct_keyword_macro_recovery": 0.036,
+          "observed_distinct_keyword_count": 250,
+          "query_weighted_recovery": 0.0344
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.032,
+          "observed_distinct_keyword_count": 250,
+          "query_weighted_recovery": 0.0288
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.028,
+          "observed_distinct_keyword_count": 250,
+          "query_weighted_recovery": 0.0248
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.02,
+          "observed_distinct_keyword_count": 250,
+          "query_weighted_recovery": 0.0204
+        }
+      ],
+      "seed": 5
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "dataset_id": "lus:tokenisation_only:k250",
+      "dataset_sha256": "51cfa60e3627d13477e8291a0b659e31aa6894ebe8e080dfcad6fe9ab4840096",
+      "distribution": "uniform_iid",
+      "keyword_count": 250,
+      "query_count": 2500,
+      "scores": [
+        {
+          "distinct_keyword_macro_recovery": 0.036,
+          "observed_distinct_keyword_count": 250,
+          "query_weighted_recovery": 0.03
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.044,
+          "observed_distinct_keyword_count": 250,
+          "query_weighted_recovery": 0.036
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.024,
+          "observed_distinct_keyword_count": 250,
+          "query_weighted_recovery": 0.022
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.036,
+          "observed_distinct_keyword_count": 250,
+          "query_weighted_recovery": 0.03
+        }
+      ],
+      "seed": 6
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "dataset_id": "lus:tokenisation_only:k250",
+      "dataset_sha256": "51cfa60e3627d13477e8291a0b659e31aa6894ebe8e080dfcad6fe9ab4840096",
+      "distribution": "uniform_iid",
+      "keyword_count": 250,
+      "query_count": 2500,
+      "scores": [
+        {
+          "distinct_keyword_macro_recovery": 0.028,
+          "observed_distinct_keyword_count": 250,
+          "query_weighted_recovery": 0.0292
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.02,
+          "observed_distinct_keyword_count": 250,
+          "query_weighted_recovery": 0.0204
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.016,
+          "observed_distinct_keyword_count": 250,
+          "query_weighted_recovery": 0.018
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.028,
+          "observed_distinct_keyword_count": 250,
+          "query_weighted_recovery": 0.026
+        }
+      ],
+      "seed": 7
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "dataset_id": "lus:tokenisation_only:k250",
+      "dataset_sha256": "51cfa60e3627d13477e8291a0b659e31aa6894ebe8e080dfcad6fe9ab4840096",
+      "distribution": "uniform_iid",
+      "keyword_count": 250,
+      "query_count": 2500,
+      "scores": [
+        {
+          "distinct_keyword_macro_recovery": 0.04,
+          "observed_distinct_keyword_count": 250,
+          "query_weighted_recovery": 0.0432
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.056,
+          "observed_distinct_keyword_count": 250,
+          "query_weighted_recovery": 0.0592
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.02,
+          "observed_distinct_keyword_count": 250,
+          "query_weighted_recovery": 0.022
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.028,
+          "observed_distinct_keyword_count": 250,
+          "query_weighted_recovery": 0.0268
+        }
+      ],
+      "seed": 8
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "dataset_id": "lus:tokenisation_only:k250",
+      "dataset_sha256": "51cfa60e3627d13477e8291a0b659e31aa6894ebe8e080dfcad6fe9ab4840096",
+      "distribution": "uniform_iid",
+      "keyword_count": 250,
+      "query_count": 2500,
+      "scores": [
+        {
+          "distinct_keyword_macro_recovery": 0.032,
+          "observed_distinct_keyword_count": 250,
+          "query_weighted_recovery": 0.0288
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.036,
+          "observed_distinct_keyword_count": 250,
+          "query_weighted_recovery": 0.0372
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.036,
+          "observed_distinct_keyword_count": 250,
+          "query_weighted_recovery": 0.0344
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.036,
+          "observed_distinct_keyword_count": 250,
+          "query_weighted_recovery": 0.0308
+        }
+      ],
+      "seed": 9
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "dataset_id": "lus:tokenisation_only:k250",
+      "dataset_sha256": "51cfa60e3627d13477e8291a0b659e31aa6894ebe8e080dfcad6fe9ab4840096",
+      "distribution": "zipf_iid",
+      "keyword_count": 250,
+      "query_count": 2500,
+      "scores": [
+        {
+          "distinct_keyword_macro_recovery": 0.029166666666666667,
+          "observed_distinct_keyword_count": 240,
+          "query_weighted_recovery": 0.352
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.03333333333333333,
+          "observed_distinct_keyword_count": 240,
+          "query_weighted_recovery": 0.3568
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.041666666666666664,
+          "observed_distinct_keyword_count": 240,
+          "query_weighted_recovery": 0.128
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.016666666666666666,
+          "observed_distinct_keyword_count": 240,
+          "query_weighted_recovery": 0.3196
+        }
+      ],
+      "seed": 0
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "dataset_id": "lus:tokenisation_only:k250",
+      "dataset_sha256": "51cfa60e3627d13477e8291a0b659e31aa6894ebe8e080dfcad6fe9ab4840096",
+      "distribution": "zipf_iid",
+      "keyword_count": 250,
+      "query_count": 2500,
+      "scores": [
+        {
+          "distinct_keyword_macro_recovery": 0.029535864978902954,
+          "observed_distinct_keyword_count": 237,
+          "query_weighted_recovery": 0.3044
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.02109704641350211,
+          "observed_distinct_keyword_count": 237,
+          "query_weighted_recovery": 0.298
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.0379746835443038,
+          "observed_distinct_keyword_count": 237,
+          "query_weighted_recovery": 0.3224
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.016877637130801686,
+          "observed_distinct_keyword_count": 237,
+          "query_weighted_recovery": 0.2548
+        }
+      ],
+      "seed": 1
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "dataset_id": "lus:tokenisation_only:k250",
+      "dataset_sha256": "51cfa60e3627d13477e8291a0b659e31aa6894ebe8e080dfcad6fe9ab4840096",
+      "distribution": "zipf_iid",
+      "keyword_count": 250,
+      "query_count": 2500,
+      "scores": [
+        {
+          "distinct_keyword_macro_recovery": 0.029535864978902954,
+          "observed_distinct_keyword_count": 237,
+          "query_weighted_recovery": 0.3212
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.03375527426160337,
+          "observed_distinct_keyword_count": 237,
+          "query_weighted_recovery": 0.3856
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.03375527426160337,
+          "observed_distinct_keyword_count": 237,
+          "query_weighted_recovery": 0.394
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.04219409282700422,
+          "observed_distinct_keyword_count": 237,
+          "query_weighted_recovery": 0.3704
+        }
+      ],
+      "seed": 2
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "dataset_id": "lus:tokenisation_only:k250",
+      "dataset_sha256": "51cfa60e3627d13477e8291a0b659e31aa6894ebe8e080dfcad6fe9ab4840096",
+      "distribution": "zipf_iid",
+      "keyword_count": 250,
+      "query_count": 2500,
+      "scores": [
+        {
+          "distinct_keyword_macro_recovery": 0.029787234042553193,
+          "observed_distinct_keyword_count": 235,
+          "query_weighted_recovery": 0.3592
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.03404255319148936,
+          "observed_distinct_keyword_count": 235,
+          "query_weighted_recovery": 0.3608
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.03404255319148936,
+          "observed_distinct_keyword_count": 235,
+          "query_weighted_recovery": 0.12
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.04680851063829787,
+          "observed_distinct_keyword_count": 235,
+          "query_weighted_recovery": 0.3708
+        }
+      ],
+      "seed": 3
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "dataset_id": "lus:tokenisation_only:k250",
+      "dataset_sha256": "51cfa60e3627d13477e8291a0b659e31aa6894ebe8e080dfcad6fe9ab4840096",
+      "distribution": "zipf_iid",
+      "keyword_count": 250,
+      "query_count": 2500,
+      "scores": [
+        {
+          "distinct_keyword_macro_recovery": 0.02100840336134454,
+          "observed_distinct_keyword_count": 238,
+          "query_weighted_recovery": 0.1084
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.03361344537815126,
+          "observed_distinct_keyword_count": 238,
+          "query_weighted_recovery": 0.1296
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.01680672268907563,
+          "observed_distinct_keyword_count": 238,
+          "query_weighted_recovery": 0.0308
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.029411764705882353,
+          "observed_distinct_keyword_count": 238,
+          "query_weighted_recovery": 0.2988
+        }
+      ],
+      "seed": 4
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "dataset_id": "lus:tokenisation_only:k250",
+      "dataset_sha256": "51cfa60e3627d13477e8291a0b659e31aa6894ebe8e080dfcad6fe9ab4840096",
+      "distribution": "zipf_iid",
+      "keyword_count": 250,
+      "query_count": 2500,
+      "scores": [
+        {
+          "distinct_keyword_macro_recovery": 0.01680672268907563,
+          "observed_distinct_keyword_count": 238,
+          "query_weighted_recovery": 0.1152
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.037815126050420166,
+          "observed_distinct_keyword_count": 238,
+          "query_weighted_recovery": 0.132
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.04201680672268908,
+          "observed_distinct_keyword_count": 238,
+          "query_weighted_recovery": 0.3696
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.037815126050420166,
+          "observed_distinct_keyword_count": 238,
+          "query_weighted_recovery": 0.1336
+        }
+      ],
+      "seed": 5
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "dataset_id": "lus:tokenisation_only:k250",
+      "dataset_sha256": "51cfa60e3627d13477e8291a0b659e31aa6894ebe8e080dfcad6fe9ab4840096",
+      "distribution": "zipf_iid",
+      "keyword_count": 250,
+      "query_count": 2500,
+      "scores": [
+        {
+          "distinct_keyword_macro_recovery": 0.029914529914529916,
+          "observed_distinct_keyword_count": 234,
+          "query_weighted_recovery": 0.286
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.029914529914529916,
+          "observed_distinct_keyword_count": 234,
+          "query_weighted_recovery": 0.124
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.029914529914529916,
+          "observed_distinct_keyword_count": 234,
+          "query_weighted_recovery": 0.2864
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.05128205128205128,
+          "observed_distinct_keyword_count": 234,
+          "query_weighted_recovery": 0.3476
+        }
+      ],
+      "seed": 6
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "dataset_id": "lus:tokenisation_only:k250",
+      "dataset_sha256": "51cfa60e3627d13477e8291a0b659e31aa6894ebe8e080dfcad6fe9ab4840096",
+      "distribution": "zipf_iid",
+      "keyword_count": 250,
+      "query_count": 2500,
+      "scores": [
+        {
+          "distinct_keyword_macro_recovery": 0.03017241379310345,
+          "observed_distinct_keyword_count": 232,
+          "query_weighted_recovery": 0.374
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.03017241379310345,
+          "observed_distinct_keyword_count": 232,
+          "query_weighted_recovery": 0.1548
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.02586206896551724,
+          "observed_distinct_keyword_count": 232,
+          "query_weighted_recovery": 0.122
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.034482758620689655,
+          "observed_distinct_keyword_count": 232,
+          "query_weighted_recovery": 0.3776
+        }
+      ],
+      "seed": 7
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "dataset_id": "lus:tokenisation_only:k250",
+      "dataset_sha256": "51cfa60e3627d13477e8291a0b659e31aa6894ebe8e080dfcad6fe9ab4840096",
+      "distribution": "zipf_iid",
+      "keyword_count": 250,
+      "query_count": 2500,
+      "scores": [
+        {
+          "distinct_keyword_macro_recovery": 0.025974025974025976,
+          "observed_distinct_keyword_count": 231,
+          "query_weighted_recovery": 0.1072
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.021645021645021644,
+          "observed_distinct_keyword_count": 231,
+          "query_weighted_recovery": 0.1072
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.017316017316017316,
+          "observed_distinct_keyword_count": 231,
+          "query_weighted_recovery": 0.1056
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.017316017316017316,
+          "observed_distinct_keyword_count": 231,
+          "query_weighted_recovery": 0.0652
+        }
+      ],
+      "seed": 8
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "dataset_id": "lus:tokenisation_only:k250",
+      "dataset_sha256": "51cfa60e3627d13477e8291a0b659e31aa6894ebe8e080dfcad6fe9ab4840096",
+      "distribution": "zipf_iid",
+      "keyword_count": 250,
+      "query_count": 2500,
+      "scores": [
+        {
+          "distinct_keyword_macro_recovery": 0.02564102564102564,
+          "observed_distinct_keyword_count": 234,
+          "query_weighted_recovery": 0.3588
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.03418803418803419,
+          "observed_distinct_keyword_count": 234,
+          "query_weighted_recovery": 0.3692
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.04700854700854701,
+          "observed_distinct_keyword_count": 234,
+          "query_weighted_recovery": 0.1384
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.03418803418803419,
+          "observed_distinct_keyword_count": 234,
+          "query_weighted_recovery": 0.1136
+        }
+      ],
+      "seed": 9
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "dataset_id": "lus:tokenisation_only:k500",
+      "dataset_sha256": "01d06bb20e9c2e7705a24e9ff1c77a61131d95bc5b6875c05d060648b918b6da",
+      "distribution": "uniform_iid",
+      "keyword_count": 500,
+      "query_count": 5000,
+      "scores": [
+        {
+          "distinct_keyword_macro_recovery": 0.018,
+          "observed_distinct_keyword_count": 500,
+          "query_weighted_recovery": 0.0202
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.008,
+          "observed_distinct_keyword_count": 500,
+          "query_weighted_recovery": 0.01
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.018,
+          "observed_distinct_keyword_count": 500,
+          "query_weighted_recovery": 0.0184
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.016,
+          "observed_distinct_keyword_count": 500,
+          "query_weighted_recovery": 0.0164
+        }
+      ],
+      "seed": 0
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "dataset_id": "lus:tokenisation_only:k500",
+      "dataset_sha256": "01d06bb20e9c2e7705a24e9ff1c77a61131d95bc5b6875c05d060648b918b6da",
+      "distribution": "uniform_iid",
+      "keyword_count": 500,
+      "query_count": 5000,
+      "scores": [
+        {
+          "distinct_keyword_macro_recovery": 0.018,
+          "observed_distinct_keyword_count": 500,
+          "query_weighted_recovery": 0.0178
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.022,
+          "observed_distinct_keyword_count": 500,
+          "query_weighted_recovery": 0.0212
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.026,
+          "observed_distinct_keyword_count": 500,
+          "query_weighted_recovery": 0.0254
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.012,
+          "observed_distinct_keyword_count": 500,
+          "query_weighted_recovery": 0.0132
+        }
+      ],
+      "seed": 1
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "dataset_id": "lus:tokenisation_only:k500",
+      "dataset_sha256": "01d06bb20e9c2e7705a24e9ff1c77a61131d95bc5b6875c05d060648b918b6da",
+      "distribution": "uniform_iid",
+      "keyword_count": 500,
+      "query_count": 5000,
+      "scores": [
+        {
+          "distinct_keyword_macro_recovery": 0.016,
+          "observed_distinct_keyword_count": 500,
+          "query_weighted_recovery": 0.015
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.016,
+          "observed_distinct_keyword_count": 500,
+          "query_weighted_recovery": 0.0142
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.01,
+          "observed_distinct_keyword_count": 500,
+          "query_weighted_recovery": 0.009
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.012,
+          "observed_distinct_keyword_count": 500,
+          "query_weighted_recovery": 0.0104
+        }
+      ],
+      "seed": 2
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "dataset_id": "lus:tokenisation_only:k500",
+      "dataset_sha256": "01d06bb20e9c2e7705a24e9ff1c77a61131d95bc5b6875c05d060648b918b6da",
+      "distribution": "uniform_iid",
+      "keyword_count": 500,
+      "query_count": 5000,
+      "scores": [
+        {
+          "distinct_keyword_macro_recovery": 0.02,
+          "observed_distinct_keyword_count": 500,
+          "query_weighted_recovery": 0.0222
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.02,
+          "observed_distinct_keyword_count": 500,
+          "query_weighted_recovery": 0.0208
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.014,
+          "observed_distinct_keyword_count": 500,
+          "query_weighted_recovery": 0.0152
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.018,
+          "observed_distinct_keyword_count": 500,
+          "query_weighted_recovery": 0.0172
+        }
+      ],
+      "seed": 3
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "dataset_id": "lus:tokenisation_only:k500",
+      "dataset_sha256": "01d06bb20e9c2e7705a24e9ff1c77a61131d95bc5b6875c05d060648b918b6da",
+      "distribution": "uniform_iid",
+      "keyword_count": 500,
+      "query_count": 5000,
+      "scores": [
+        {
+          "distinct_keyword_macro_recovery": 0.018,
+          "observed_distinct_keyword_count": 500,
+          "query_weighted_recovery": 0.0198
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.012,
+          "observed_distinct_keyword_count": 500,
+          "query_weighted_recovery": 0.0112
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.018,
+          "observed_distinct_keyword_count": 500,
+          "query_weighted_recovery": 0.0182
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.012,
+          "observed_distinct_keyword_count": 500,
+          "query_weighted_recovery": 0.0134
+        }
+      ],
+      "seed": 4
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "dataset_id": "lus:tokenisation_only:k500",
+      "dataset_sha256": "01d06bb20e9c2e7705a24e9ff1c77a61131d95bc5b6875c05d060648b918b6da",
+      "distribution": "uniform_iid",
+      "keyword_count": 500,
+      "query_count": 5000,
+      "scores": [
+        {
+          "distinct_keyword_macro_recovery": 0.014,
+          "observed_distinct_keyword_count": 500,
+          "query_weighted_recovery": 0.014
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.014,
+          "observed_distinct_keyword_count": 500,
+          "query_weighted_recovery": 0.0144
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.018,
+          "observed_distinct_keyword_count": 500,
+          "query_weighted_recovery": 0.0174
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.02,
+          "observed_distinct_keyword_count": 500,
+          "query_weighted_recovery": 0.0182
+        }
+      ],
+      "seed": 5
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "dataset_id": "lus:tokenisation_only:k500",
+      "dataset_sha256": "01d06bb20e9c2e7705a24e9ff1c77a61131d95bc5b6875c05d060648b918b6da",
+      "distribution": "uniform_iid",
+      "keyword_count": 500,
+      "query_count": 5000,
+      "scores": [
+        {
+          "distinct_keyword_macro_recovery": 0.014,
+          "observed_distinct_keyword_count": 500,
+          "query_weighted_recovery": 0.0162
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.012,
+          "observed_distinct_keyword_count": 500,
+          "query_weighted_recovery": 0.0136
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.02,
+          "observed_distinct_keyword_count": 500,
+          "query_weighted_recovery": 0.024
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.01,
+          "observed_distinct_keyword_count": 500,
+          "query_weighted_recovery": 0.0126
+        }
+      ],
+      "seed": 6
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "dataset_id": "lus:tokenisation_only:k500",
+      "dataset_sha256": "01d06bb20e9c2e7705a24e9ff1c77a61131d95bc5b6875c05d060648b918b6da",
+      "distribution": "uniform_iid",
+      "keyword_count": 500,
+      "query_count": 5000,
+      "scores": [
+        {
+          "distinct_keyword_macro_recovery": 0.02,
+          "observed_distinct_keyword_count": 500,
+          "query_weighted_recovery": 0.0194
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.018,
+          "observed_distinct_keyword_count": 500,
+          "query_weighted_recovery": 0.0186
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.018,
+          "observed_distinct_keyword_count": 500,
+          "query_weighted_recovery": 0.0188
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.026,
+          "observed_distinct_keyword_count": 500,
+          "query_weighted_recovery": 0.027
+        }
+      ],
+      "seed": 7
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "dataset_id": "lus:tokenisation_only:k500",
+      "dataset_sha256": "01d06bb20e9c2e7705a24e9ff1c77a61131d95bc5b6875c05d060648b918b6da",
+      "distribution": "uniform_iid",
+      "keyword_count": 500,
+      "query_count": 5000,
+      "scores": [
+        {
+          "distinct_keyword_macro_recovery": 0.014,
+          "observed_distinct_keyword_count": 500,
+          "query_weighted_recovery": 0.0136
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.012,
+          "observed_distinct_keyword_count": 500,
+          "query_weighted_recovery": 0.0106
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.024,
+          "observed_distinct_keyword_count": 500,
+          "query_weighted_recovery": 0.0244
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.01,
+          "observed_distinct_keyword_count": 500,
+          "query_weighted_recovery": 0.0106
+        }
+      ],
+      "seed": 8
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "dataset_id": "lus:tokenisation_only:k500",
+      "dataset_sha256": "01d06bb20e9c2e7705a24e9ff1c77a61131d95bc5b6875c05d060648b918b6da",
+      "distribution": "uniform_iid",
+      "keyword_count": 500,
+      "query_count": 5000,
+      "scores": [
+        {
+          "distinct_keyword_macro_recovery": 0.02,
+          "observed_distinct_keyword_count": 500,
+          "query_weighted_recovery": 0.0208
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.014,
+          "observed_distinct_keyword_count": 500,
+          "query_weighted_recovery": 0.0144
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.008,
+          "observed_distinct_keyword_count": 500,
+          "query_weighted_recovery": 0.0082
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.016,
+          "observed_distinct_keyword_count": 500,
+          "query_weighted_recovery": 0.015
+        }
+      ],
+      "seed": 9
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "dataset_id": "lus:tokenisation_only:k500",
+      "dataset_sha256": "01d06bb20e9c2e7705a24e9ff1c77a61131d95bc5b6875c05d060648b918b6da",
+      "distribution": "zipf_iid",
+      "keyword_count": 500,
+      "query_count": 5000,
+      "scores": [
+        {
+          "distinct_keyword_macro_recovery": 0.017467248908296942,
+          "observed_distinct_keyword_count": 458,
+          "query_weighted_recovery": 0.322
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.013100436681222707,
+          "observed_distinct_keyword_count": 458,
+          "query_weighted_recovery": 0.3056
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.017467248908296942,
+          "observed_distinct_keyword_count": 458,
+          "query_weighted_recovery": 0.3224
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.015283842794759825,
+          "observed_distinct_keyword_count": 458,
+          "query_weighted_recovery": 0.024
+        }
+      ],
+      "seed": 0
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "dataset_id": "lus:tokenisation_only:k500",
+      "dataset_sha256": "01d06bb20e9c2e7705a24e9ff1c77a61131d95bc5b6875c05d060648b918b6da",
+      "distribution": "zipf_iid",
+      "keyword_count": 500,
+      "query_count": 5000,
+      "scores": [
+        {
+          "distinct_keyword_macro_recovery": 0.023706896551724137,
+          "observed_distinct_keyword_count": 464,
+          "query_weighted_recovery": 0.2828
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.017241379310344827,
+          "observed_distinct_keyword_count": 464,
+          "query_weighted_recovery": 0.0628
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.015086206896551725,
+          "observed_distinct_keyword_count": 464,
+          "query_weighted_recovery": 0.2576
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.01293103448275862,
+          "observed_distinct_keyword_count": 464,
+          "query_weighted_recovery": 0.2758
+        }
+      ],
+      "seed": 1
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "dataset_id": "lus:tokenisation_only:k500",
+      "dataset_sha256": "01d06bb20e9c2e7705a24e9ff1c77a61131d95bc5b6875c05d060648b918b6da",
+      "distribution": "zipf_iid",
+      "keyword_count": 500,
+      "query_count": 5000,
+      "scores": [
+        {
+          "distinct_keyword_macro_recovery": 0.022222222222222223,
+          "observed_distinct_keyword_count": 450,
+          "query_weighted_recovery": 0.2832
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.017777777777777778,
+          "observed_distinct_keyword_count": 450,
+          "query_weighted_recovery": 0.2808
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.008888888888888889,
+          "observed_distinct_keyword_count": 450,
+          "query_weighted_recovery": 0.0792
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.013333333333333334,
+          "observed_distinct_keyword_count": 450,
+          "query_weighted_recovery": 0.3082
+        }
+      ],
+      "seed": 2
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "dataset_id": "lus:tokenisation_only:k500",
+      "dataset_sha256": "01d06bb20e9c2e7705a24e9ff1c77a61131d95bc5b6875c05d060648b918b6da",
+      "distribution": "zipf_iid",
+      "keyword_count": 500,
+      "query_count": 5000,
+      "scores": [
+        {
+          "distinct_keyword_macro_recovery": 0.019438444924406047,
+          "observed_distinct_keyword_count": 463,
+          "query_weighted_recovery": 0.2774
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.012958963282937365,
+          "observed_distinct_keyword_count": 463,
+          "query_weighted_recovery": 0.139
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.019438444924406047,
+          "observed_distinct_keyword_count": 463,
+          "query_weighted_recovery": 0.105
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.008639308855291577,
+          "observed_distinct_keyword_count": 463,
+          "query_weighted_recovery": 0.0722
+        }
+      ],
+      "seed": 3
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "dataset_id": "lus:tokenisation_only:k500",
+      "dataset_sha256": "01d06bb20e9c2e7705a24e9ff1c77a61131d95bc5b6875c05d060648b918b6da",
+      "distribution": "zipf_iid",
+      "keyword_count": 500,
+      "query_count": 5000,
+      "scores": [
+        {
+          "distinct_keyword_macro_recovery": 0.019271948608137045,
+          "observed_distinct_keyword_count": 467,
+          "query_weighted_recovery": 0.1066
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.014989293361884369,
+          "observed_distinct_keyword_count": 467,
+          "query_weighted_recovery": 0.102
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.004282655246252677,
+          "observed_distinct_keyword_count": 467,
+          "query_weighted_recovery": 0.0576
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.02569593147751606,
+          "observed_distinct_keyword_count": 467,
+          "query_weighted_recovery": 0.32
+        }
+      ],
+      "seed": 4
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "dataset_id": "lus:tokenisation_only:k500",
+      "dataset_sha256": "01d06bb20e9c2e7705a24e9ff1c77a61131d95bc5b6875c05d060648b918b6da",
+      "distribution": "zipf_iid",
+      "keyword_count": 500,
+      "query_count": 5000,
+      "scores": [
+        {
+          "distinct_keyword_macro_recovery": 0.010822510822510822,
+          "observed_distinct_keyword_count": 462,
+          "query_weighted_recovery": 0.1064
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.017316017316017316,
+          "observed_distinct_keyword_count": 462,
+          "query_weighted_recovery": 0.1422
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.023809523809523808,
+          "observed_distinct_keyword_count": 462,
+          "query_weighted_recovery": 0.354
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.01948051948051948,
+          "observed_distinct_keyword_count": 462,
+          "query_weighted_recovery": 0.3522
+        }
+      ],
+      "seed": 5
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "dataset_id": "lus:tokenisation_only:k500",
+      "dataset_sha256": "01d06bb20e9c2e7705a24e9ff1c77a61131d95bc5b6875c05d060648b918b6da",
+      "distribution": "zipf_iid",
+      "keyword_count": 500,
+      "query_count": 5000,
+      "scores": [
+        {
+          "distinct_keyword_macro_recovery": 0.01284796573875803,
+          "observed_distinct_keyword_count": 467,
+          "query_weighted_recovery": 0.3124
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.017130620985010708,
+          "observed_distinct_keyword_count": 467,
+          "query_weighted_recovery": 0.3086
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.004282655246252677,
+          "observed_distinct_keyword_count": 467,
+          "query_weighted_recovery": 0.0236
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.019271948608137045,
+          "observed_distinct_keyword_count": 467,
+          "query_weighted_recovery": 0.1498
+        }
+      ],
+      "seed": 6
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "dataset_id": "lus:tokenisation_only:k500",
+      "dataset_sha256": "01d06bb20e9c2e7705a24e9ff1c77a61131d95bc5b6875c05d060648b918b6da",
+      "distribution": "zipf_iid",
+      "keyword_count": 500,
+      "query_count": 5000,
+      "scores": [
+        {
+          "distinct_keyword_macro_recovery": 0.02197802197802198,
+          "observed_distinct_keyword_count": 455,
+          "query_weighted_recovery": 0.3356
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.024175824175824177,
+          "observed_distinct_keyword_count": 455,
+          "query_weighted_recovery": 0.3708
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.01098901098901099,
+          "observed_distinct_keyword_count": 455,
+          "query_weighted_recovery": 0.0532
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.006593406593406593,
+          "observed_distinct_keyword_count": 455,
+          "query_weighted_recovery": 0.0312
+        }
+      ],
+      "seed": 7
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "dataset_id": "lus:tokenisation_only:k500",
+      "dataset_sha256": "01d06bb20e9c2e7705a24e9ff1c77a61131d95bc5b6875c05d060648b918b6da",
+      "distribution": "zipf_iid",
+      "keyword_count": 500,
+      "query_count": 5000,
+      "scores": [
+        {
+          "distinct_keyword_macro_recovery": 0.022222222222222223,
+          "observed_distinct_keyword_count": 450,
+          "query_weighted_recovery": 0.3252
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.03111111111111111,
+          "observed_distinct_keyword_count": 450,
+          "query_weighted_recovery": 0.352
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.024444444444444446,
+          "observed_distinct_keyword_count": 450,
+          "query_weighted_recovery": 0.3522
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.017777777777777778,
+          "observed_distinct_keyword_count": 450,
+          "query_weighted_recovery": 0.1124
+        }
+      ],
+      "seed": 8
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "dataset_id": "lus:tokenisation_only:k500",
+      "dataset_sha256": "01d06bb20e9c2e7705a24e9ff1c77a61131d95bc5b6875c05d060648b918b6da",
+      "distribution": "zipf_iid",
+      "keyword_count": 500,
+      "query_count": 5000,
+      "scores": [
+        {
+          "distinct_keyword_macro_recovery": 0.015283842794759825,
+          "observed_distinct_keyword_count": 458,
+          "query_weighted_recovery": 0.3266
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.015283842794759825,
+          "observed_distinct_keyword_count": 458,
+          "query_weighted_recovery": 0.3272
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.013100436681222707,
+          "observed_distinct_keyword_count": 458,
+          "query_weighted_recovery": 0.0748
+        },
+        {
+          "distinct_keyword_macro_recovery": 0.019650655021834062,
+          "observed_distinct_keyword_count": 458,
+          "query_weighted_recovery": 0.1476
+        }
+      ],
+      "seed": 9
+    }
+  ],
+  "status": "executed",
+  "upstream_revision": "10631a10e3ec461ad01d38fc74f7933d31062ba5"
+}

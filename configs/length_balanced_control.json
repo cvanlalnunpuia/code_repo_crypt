@@ -1,0 +1,13 @@
+{
+  "config_version": "1.0.0",
+  "flores_selection": "results/corpus/flores200-selection.json",
+  "wmt23_selection": "results/corpus/wmt23-selection.json",
+  "maximum_length_ratio": 1.25,
+  "matching_output": "results/corpus/flores200-wmt23-length-matches.json",
+  "flores_output_selection": "results/corpus/flores200-length-balanced-selection.json",
+  "wmt23_output_selection": "results/corpus/wmt23-length-balanced-selection.json",
+  "flores_output_split": "results/corpus/flores200-length-balanced-split.json",
+  "wmt23_output_split": "results/corpus/wmt23-length-balanced-split.json",
+  "auxiliary_fraction": 0.3333333333333333,
+  "split_seed": 20260902
+}

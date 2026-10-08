@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.venv*/
+vendor/
+data/
+paper/sn-jnl.cls
+paper/sn-mathphys-num.bst
+paper/official-template/
+*.aux
+*.log
+*.bbl
+*.blg
+*.out

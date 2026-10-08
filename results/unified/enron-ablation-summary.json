@@ -1,0 +1,1027 @@
+{
+  "checkpoint_iterations": [
+    0,
+    10,
+    100,
+    1000
+  ],
+  "confidence_level": 0.95,
+  "configuration_sha256": "46bab4c9cf493e27eb69686a98d2b353e7f3beb9841b8e6858d5f2a385811381",
+  "contrasts": [
+    {
+      "baseline_selector": 100,
+      "checkpoints": {
+        "0": {
+          "baseline_recovery": {
+            "confidence_interval_high": 0.17324323656567886,
+            "confidence_interval_low": 0.11475676343432112,
+            "confidence_level": 0.95,
+            "maximum": 0.2,
+            "mean": 0.144,
+            "minimum": 0.08,
+            "n": 10,
+            "sample_standard_deviation": 0.04087922591134904
+          },
+          "intervention_recovery": {
+            "confidence_interval_high": 0.05946181374856739,
+            "confidence_interval_low": 0.04693818625143262,
+            "confidence_level": 0.95,
+            "maximum": 0.072,
+            "mean": 0.053200000000000004,
+            "minimum": 0.04,
+            "n": 10,
+            "sample_standard_deviation": 0.008753412033157253
+          },
+          "paired_difference": {
+            "confidence_interval_high": -0.05975940804931354,
+            "confidence_interval_low": -0.1218405919506865,
+            "confidence_level": 0.95,
+            "maximum": -0.024,
+            "mean": -0.09080000000000002,
+            "minimum": -0.14800000000000002,
+            "n": 10,
+            "sample_standard_deviation": 0.043391755489314385
+          }
+        },
+        "10": {
+          "baseline_recovery": {
+            "confidence_interval_high": 0.2732180011893857,
+            "confidence_interval_low": 0.18278199881061433,
+            "confidence_level": 0.95,
+            "maximum": 0.3,
+            "mean": 0.22800000000000004,
+            "minimum": 0.12,
+            "n": 10,
+            "sample_standard_deviation": 0.06321040701937898
+          },
+          "intervention_recovery": {
+            "confidence_interval_high": 0.16584249406873075,
+            "confidence_interval_low": 0.1041575059312692,
+            "confidence_level": 0.95,
+            "maximum": 0.184,
+            "mean": 0.13499999999999998,
+            "minimum": 0.078,
+            "n": 10,
+            "sample_standard_deviation": 0.04311483374534672
+          },
+          "paired_difference": {
+            "confidence_interval_high": -0.04902510254774612,
+            "confidence_interval_low": -0.13697489745225389,
+            "confidence_level": 0.95,
+            "maximum": -0.007999999999999993,
+            "mean": -0.093,
+            "minimum": -0.198,
+            "n": 10,
+            "sample_standard_deviation": 0.06147266781984404
+          }
+        },
+        "100": {
+          "baseline_recovery": {
+            "confidence_interval_high": 0.8913913095789673,
+            "confidence_interval_low": 0.6886086904210326,
+            "confidence_level": 0.95,
+            "maximum": 0.95,
+            "mean": 0.7899999999999999,
+            "minimum": 0.49,
+            "n": 10,
+            "sample_standard_deviation": 0.14173527750312867
+          },
+          "intervention_recovery": {
+            "confidence_interval_high": 0.9540134946795984,
+            "confidence_interval_low": 0.9111865053204018,
+            "confidence_level": 0.95,
+            "maximum": 0.97,
+            "mean": 0.9326000000000001,
+            "minimum": 0.89,
+            "n": 10,
+            "sample_standard_deviation": 0.029934001477324123
+          },
+          "paired_difference": {
+            "confidence_interval_high": 0.24425577096378576,
+            "confidence_interval_low": 0.04094422903621424,
+            "confidence_level": 0.95,
+            "maximum": 0.46599999999999997,
+            "mean": 0.1426,
+            "minimum": 0.020000000000000018,
+            "n": 10,
+            "sample_standard_deviation": 0.14210496902720263
+          }
+        },
+        "1000": {
+          "baseline_recovery": {
+            "confidence_interval_high": 0.9799896266584668,
+            "confidence_interval_low": 0.9180103733415336,
+            "confidence_level": 0.95,
+            "maximum": 1.0,
+            "mean": 0.9490000000000002,
+            "minimum": 0.89,
+            "n": 10,
+            "sample_standard_deviation": 0.04332051092342593
+          },
+          "intervention_recovery": {
+            "confidence_interval_high": 0.9813211696843458,
+            "confidence_interval_low": 0.9610788303156541,
+            "confidence_level": 0.95,
+            "maximum": 0.986,
+            "mean": 0.9712,
+            "minimum": 0.938,
+            "n": 10,
+            "sample_standard_deviation": 0.01414841962120781
+          },
+          "paired_difference": {
+            "confidence_interval_high": 0.054287210661300433,
+            "confidence_interval_low": -0.00988721066130048,
+            "confidence_level": 0.95,
+            "maximum": 0.08199999999999996,
+            "mean": 0.022199999999999977,
+            "minimum": -0.030000000000000027,
+            "n": 10,
+            "sample_standard_deviation": 0.04485482756131779
+          }
+        }
+      },
+      "contrast_label": "500 minus 100 keywords",
+      "final_seed_differences": {
+        "0": 0.08199999999999996,
+        "1": -0.02200000000000002,
+        "2": -0.016000000000000014,
+        "3": 0.0040000000000000036,
+        "4": -0.030000000000000027,
+        "5": 0.041999999999999926,
+        "6": 0.07599999999999996,
+        "7": 0.03400000000000003,
+        "8": 0.07399999999999995,
+        "9": -0.02200000000000002
+      },
+      "id": "keyword_size",
+      "intervention_selector": 500,
+      "label": "Keyword count",
+      "manipulated_measure": {
+        "baseline": 100.0,
+        "intervention": 500.0,
+        "label": "Keyword count"
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "selector_field": "keyword_count",
+      "source": "results/keyword-size-sweep/aggregate.json",
+      "source_sha256": "796aa0490ca0e3d22b717e8a39dbf13c41d7c91d00ee1931afe401a9165c7642"
+    },
+    {
+      "baseline_selector": 0,
+      "checkpoints": {
+        "0": {
+          "baseline_recovery": {
+            "confidence_interval_high": 0.09933435612970504,
+            "confidence_interval_low": 0.06226564387029495,
+            "confidence_level": 0.95,
+            "maximum": 0.128,
+            "mean": 0.0808,
+            "minimum": 0.052,
+            "n": 10,
+            "sample_standard_deviation": 0.025909243309847722
+          },
+          "intervention_recovery": {
+            "confidence_interval_high": 0.10014050776265009,
+            "confidence_interval_low": 0.0710594922373499,
+            "confidence_level": 0.95,
+            "maximum": 0.12,
+            "mean": 0.0856,
+            "minimum": 0.056,
+            "n": 10,
+            "sample_standard_deviation": 0.020326228266836804
+          },
+          "paired_difference": {
+            "confidence_interval_high": 0.015988470668860236,
+            "confidence_interval_low": -0.0063884706688602366,
+            "confidence_level": 0.95,
+            "maximum": 0.028000000000000004,
+            "mean": 0.0048000000000000004,
+            "minimum": -0.020000000000000004,
+            "n": 10,
+            "sample_standard_deviation": 0.01564040351852286
+          }
+        },
+        "10": {
+          "baseline_recovery": {
+            "confidence_interval_high": 0.20431997256965076,
+            "confidence_interval_low": 0.1316800274303492,
+            "confidence_level": 0.95,
+            "maximum": 0.264,
+            "mean": 0.16799999999999998,
+            "minimum": 0.1,
+            "n": 10,
+            "sample_standard_deviation": 0.05077182070575939
+          },
+          "intervention_recovery": {
+            "confidence_interval_high": 0.17494702807696455,
+            "confidence_interval_low": 0.10105297192303549,
+            "confidence_level": 0.95,
+            "maximum": 0.216,
+            "mean": 0.138,
+            "minimum": 0.092,
+            "n": 10,
+            "sample_standard_deviation": 0.05164838386199083
+          },
+          "paired_difference": {
+            "confidence_interval_high": 0.003863585198339764,
+            "confidence_interval_low": -0.06386358519833978,
+            "confidence_level": 0.95,
+            "maximum": 0.064,
+            "mean": -0.030000000000000006,
+            "minimum": -0.096,
+            "n": 10,
+            "sample_standard_deviation": 0.047338027936204626
+          }
+        },
+        "100": {
+          "baseline_recovery": {
+            "confidence_interval_high": 0.9255016946198527,
+            "confidence_interval_low": 0.8640983053801474,
+            "confidence_level": 0.95,
+            "maximum": 0.96,
+            "mean": 0.8948,
+            "minimum": 0.832,
+            "n": 10,
+            "sample_standard_deviation": 0.042918009687723836
+          },
+          "intervention_recovery": {
+            "confidence_interval_high": 0.6379381828208953,
+            "confidence_interval_low": 0.4292618171791046,
+            "confidence_level": 0.95,
+            "maximum": 0.628,
+            "mean": 0.5336,
+            "minimum": 0.14,
+            "n": 10,
+            "sample_standard_deviation": 0.14585472224100252
+          },
+          "paired_difference": {
+            "confidence_interval_high": -0.27228523238567076,
+            "confidence_interval_low": -0.4501147676143293,
+            "confidence_level": 0.95,
+            "maximum": -0.26,
+            "mean": -0.3612,
+            "minimum": -0.692,
+            "n": 10,
+            "sample_standard_deviation": 0.12429427447258647
+          }
+        },
+        "1000": {
+          "baseline_recovery": {
+            "confidence_interval_high": 0.977425451700445,
+            "confidence_interval_low": 0.9561745482995552,
+            "confidence_level": 0.95,
+            "maximum": 0.992,
+            "mean": 0.9668000000000001,
+            "minimum": 0.948,
+            "n": 10,
+            "sample_standard_deviation": 0.014853357271075875
+          },
+          "intervention_recovery": {
+            "confidence_interval_high": 0.765317998730479,
+            "confidence_interval_low": 0.5714820012695208,
+            "confidence_level": 0.95,
+            "maximum": 0.764,
+            "mean": 0.6683999999999999,
+            "minimum": 0.296,
+            "n": 10,
+            "sample_standard_deviation": 0.1354820201273135
+          },
+          "paired_difference": {
+            "confidence_interval_high": -0.20542243575093277,
+            "confidence_interval_low": -0.3913775642490672,
+            "confidence_level": 0.95,
+            "maximum": -0.19599999999999995,
+            "mean": -0.2984,
+            "minimum": -0.6519999999999999,
+            "n": 10,
+            "sample_standard_deviation": 0.12997367254777237
+          }
+        }
+      },
+      "contrast_label": "62 pairs minus control",
+      "final_seed_differences": {
+        "0": -0.244,
+        "1": -0.33599999999999997,
+        "2": -0.24,
+        "3": -0.2839999999999999,
+        "4": -0.6519999999999999,
+        "5": -0.24,
+        "6": -0.252,
+        "7": -0.19599999999999995,
+        "8": -0.244,
+        "9": -0.29600000000000004
+      },
+      "id": "exact_collisions",
+      "intervention_selector": 62,
+      "label": "Exact access collisions",
+      "manipulated_measure": {
+        "baseline": 0.0,
+        "intervention": 0.4960000000000001,
+        "label": "Identical-pattern keyword proportion"
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "selector_field": "forced_pair_count",
+      "source": "results/access-collision-sweep/aggregate.json",
+      "source_sha256": "f00f071630dc064717209c0022c0d4a62dde475041860b1a056bc53c8ae71a7c"
+    },
+    {
+      "baseline_selector": "control",
+      "checkpoints": {
+        "0": {
+          "baseline_recovery": {
+            "confidence_interval_high": 0.09933435612970504,
+            "confidence_interval_low": 0.06226564387029495,
+            "confidence_level": 0.95,
+            "maximum": 0.128,
+            "mean": 0.0808,
+            "minimum": 0.052,
+            "n": 10,
+            "sample_standard_deviation": 0.025909243309847722
+          },
+          "intervention_recovery": {
+            "confidence_interval_high": 0.09933435612970504,
+            "confidence_interval_low": 0.06226564387029495,
+            "confidence_level": 0.95,
+            "maximum": 0.128,
+            "mean": 0.0808,
+            "minimum": 0.052,
+            "n": 10,
+            "sample_standard_deviation": 0.025909243309847722
+          },
+          "paired_difference": {
+            "confidence_interval_high": 0.0,
+            "confidence_interval_low": 0.0,
+            "confidence_level": 0.95,
+            "maximum": 0.0,
+            "mean": 0.0,
+            "minimum": 0.0,
+            "n": 10,
+            "sample_standard_deviation": 0.0
+          }
+        },
+        "10": {
+          "baseline_recovery": {
+            "confidence_interval_high": 0.20431997256965076,
+            "confidence_interval_low": 0.1316800274303492,
+            "confidence_level": 0.95,
+            "maximum": 0.264,
+            "mean": 0.16799999999999998,
+            "minimum": 0.1,
+            "n": 10,
+            "sample_standard_deviation": 0.05077182070575939
+          },
+          "intervention_recovery": {
+            "confidence_interval_high": 0.19539682482003876,
+            "confidence_interval_low": 0.11580317517996128,
+            "confidence_level": 0.95,
+            "maximum": 0.272,
+            "mean": 0.15560000000000002,
+            "minimum": 0.076,
+            "n": 10,
+            "sample_standard_deviation": 0.05563212501184305
+          },
+          "paired_difference": {
+            "confidence_interval_high": 0.007987880987261279,
+            "confidence_interval_low": -0.03278788098726129,
+            "confidence_level": 0.95,
+            "maximum": 0.04400000000000001,
+            "mean": -0.012400000000000005,
+            "minimum": -0.060000000000000026,
+            "n": 10,
+            "sample_standard_deviation": 0.028500292396160903
+          }
+        },
+        "100": {
+          "baseline_recovery": {
+            "confidence_interval_high": 0.9255016946198527,
+            "confidence_interval_low": 0.8640983053801474,
+            "confidence_level": 0.95,
+            "maximum": 0.96,
+            "mean": 0.8948,
+            "minimum": 0.832,
+            "n": 10,
+            "sample_standard_deviation": 0.042918009687723836
+          },
+          "intervention_recovery": {
+            "confidence_interval_high": 0.8591689083198485,
+            "confidence_interval_low": 0.7448310916801514,
+            "confidence_level": 0.95,
+            "maximum": 0.964,
+            "mean": 0.8019999999999999,
+            "minimum": 0.676,
+            "n": 10,
+            "sample_standard_deviation": 0.07991662321861868
+          },
+          "paired_difference": {
+            "confidence_interval_high": -0.05317843945428029,
+            "confidence_interval_low": -0.13242156054571974,
+            "confidence_level": 0.95,
+            "maximum": 0.0040000000000000036,
+            "mean": -0.09280000000000001,
+            "minimum": -0.15599999999999992,
+            "n": 10,
+            "sample_standard_deviation": 0.055387122450379495
+          }
+        },
+        "1000": {
+          "baseline_recovery": {
+            "confidence_interval_high": 0.977425451700445,
+            "confidence_interval_low": 0.9561745482995552,
+            "confidence_level": 0.95,
+            "maximum": 0.992,
+            "mean": 0.9668000000000001,
+            "minimum": 0.948,
+            "n": 10,
+            "sample_standard_deviation": 0.014853357271075875
+          },
+          "intervention_recovery": {
+            "confidence_interval_high": 0.9537501963824554,
+            "confidence_interval_low": 0.9102498036175447,
+            "confidence_level": 0.95,
+            "maximum": 0.984,
+            "mean": 0.932,
+            "minimum": 0.892,
+            "n": 10,
+            "sample_standard_deviation": 0.030404678002643657
+          },
+          "paired_difference": {
+            "confidence_interval_high": -0.019358303184284005,
+            "confidence_interval_low": -0.05024169681571592,
+            "confidence_level": 0.95,
+            "maximum": -0.008000000000000007,
+            "mean": -0.03479999999999996,
+            "minimum": -0.07599999999999996,
+            "n": 10,
+            "sample_standard_deviation": 0.021586003695810735
+          }
+        }
+      },
+      "contrast_label": "Jaccard 0.75 minus control",
+      "final_seed_differences": {
+        "0": -0.07599999999999996,
+        "1": -0.02400000000000002,
+        "2": -0.008000000000000007,
+        "3": -0.02399999999999991,
+        "4": -0.051999999999999935,
+        "5": -0.03599999999999992,
+        "6": -0.05999999999999994,
+        "7": -0.01200000000000001,
+        "8": -0.027999999999999914,
+        "9": -0.028000000000000025
+      },
+      "id": "access_similarity",
+      "intervention_selector": "target_0.75",
+      "label": "Access similarity",
+      "manipulated_measure": {
+        "baseline": 0.023595280314416083,
+        "intervention": 0.7499875588212179,
+        "label": "Selected-pair client Jaccard"
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "selector_field": "condition",
+      "source": "results/access-similarity-sweep/aggregate.json",
+      "source_sha256": "f46920bca515301e0d70402aaeda602e8575f1222afae12af71bebba359948d0"
+    },
+    {
+      "baseline_selector": 0,
+      "checkpoints": {
+        "0": {
+          "baseline_recovery": {
+            "confidence_interval_high": 0.09933435612970504,
+            "confidence_interval_low": 0.06226564387029495,
+            "confidence_level": 0.95,
+            "maximum": 0.128,
+            "mean": 0.0808,
+            "minimum": 0.052,
+            "n": 10,
+            "sample_standard_deviation": 0.025909243309847722
+          },
+          "intervention_recovery": {
+            "confidence_interval_high": 0.09497290657787812,
+            "confidence_interval_low": 0.07702709342212187,
+            "confidence_level": 0.95,
+            "maximum": 0.104,
+            "mean": 0.086,
+            "minimum": 0.068,
+            "n": 10,
+            "sample_standard_deviation": 0.012543258481484515
+          },
+          "paired_difference": {
+            "confidence_interval_high": 0.021996252462839753,
+            "confidence_interval_low": -0.01159625246283976,
+            "confidence_level": 0.95,
+            "maximum": 0.03599999999999999,
+            "mean": 0.005199999999999998,
+            "minimum": -0.04000000000000001,
+            "n": 10,
+            "sample_standard_deviation": 0.023479541922467075
+          }
+        },
+        "10": {
+          "baseline_recovery": {
+            "confidence_interval_high": 0.20431997256965076,
+            "confidence_interval_low": 0.1316800274303492,
+            "confidence_level": 0.95,
+            "maximum": 0.264,
+            "mean": 0.16799999999999998,
+            "minimum": 0.1,
+            "n": 10,
+            "sample_standard_deviation": 0.05077182070575939
+          },
+          "intervention_recovery": {
+            "confidence_interval_high": 0.13437121500848093,
+            "confidence_interval_low": 0.1000287849915191,
+            "confidence_level": 0.95,
+            "maximum": 0.156,
+            "mean": 0.11720000000000001,
+            "minimum": 0.076,
+            "n": 10,
+            "sample_standard_deviation": 0.024003703417968193
+          },
+          "paired_difference": {
+            "confidence_interval_high": -0.012337710214208361,
+            "confidence_interval_low": -0.08926228978579163,
+            "confidence_level": 0.95,
+            "maximum": 0.024000000000000007,
+            "mean": -0.0508,
+            "minimum": -0.128,
+            "n": 10,
+            "sample_standard_deviation": 0.05376657367216591
+          }
+        },
+        "100": {
+          "baseline_recovery": {
+            "confidence_interval_high": 0.9255016946198527,
+            "confidence_interval_low": 0.8640983053801474,
+            "confidence_level": 0.95,
+            "maximum": 0.96,
+            "mean": 0.8948,
+            "minimum": 0.832,
+            "n": 10,
+            "sample_standard_deviation": 0.042918009687723836
+          },
+          "intervention_recovery": {
+            "confidence_interval_high": 0.4106938903251538,
+            "confidence_interval_low": 0.3565061096748462,
+            "confidence_level": 0.95,
+            "maximum": 0.444,
+            "mean": 0.3836,
+            "minimum": 0.328,
+            "n": 10,
+            "sample_standard_deviation": 0.03787464704639356
+          },
+          "paired_difference": {
+            "confidence_interval_high": -0.4841952373214613,
+            "confidence_interval_low": -0.5382047626785387,
+            "confidence_level": 0.95,
+            "maximum": -0.43199999999999994,
+            "mean": -0.5112,
+            "minimum": -0.5720000000000001,
+            "n": 10,
+            "sample_standard_deviation": 0.03775005518759766
+          }
+        },
+        "1000": {
+          "baseline_recovery": {
+            "confidence_interval_high": 0.977425451700445,
+            "confidence_interval_low": 0.9561745482995552,
+            "confidence_level": 0.95,
+            "maximum": 0.992,
+            "mean": 0.9668000000000001,
+            "minimum": 0.948,
+            "n": 10,
+            "sample_standard_deviation": 0.014853357271075875
+          },
+          "intervention_recovery": {
+            "confidence_interval_high": 0.5113924414112128,
+            "confidence_interval_low": 0.4590075585887873,
+            "confidence_level": 0.95,
+            "maximum": 0.524,
+            "mean": 0.4852,
+            "minimum": 0.412,
+            "n": 10,
+            "sample_standard_deviation": 0.0366145083569645
+          },
+          "paired_difference": {
+            "confidence_interval_high": -0.45727506003817725,
+            "confidence_interval_low": -0.5059249399618226,
+            "confidence_level": 0.95,
+            "maximum": -0.45199999999999996,
+            "mean": -0.4816,
+            "minimum": -0.556,
+            "n": 10,
+            "sample_standard_deviation": 0.034003921342496204
+          }
+        }
+      },
+      "contrast_label": "62 pairs minus control",
+      "final_seed_differences": {
+        "0": -0.556,
+        "1": -0.45999999999999996,
+        "2": -0.46799999999999997,
+        "3": -0.45599999999999996,
+        "4": -0.45999999999999996,
+        "5": -0.476,
+        "6": -0.528,
+        "7": -0.476,
+        "8": -0.45199999999999996,
+        "9": -0.484
+      },
+      "id": "frequency_ambiguity",
+      "intervention_selector": 62,
+      "label": "Frequency equality",
+      "manipulated_measure": {
+        "baseline": 0.476,
+        "intervention": 0.7071999999999999,
+        "label": "Exact-frequency alternative proportion"
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "selector_field": "equalized_pair_count",
+      "source": "results/frequency-ambiguity-sweep/aggregate.json",
+      "source_sha256": "824f23eb59f39502f89c6c088a0ba1e148fb277a52a565cfce79f6e1142cb5a9"
+    },
+    {
+      "baseline_selector": "budget_1",
+      "checkpoints": {
+        "0": {
+          "baseline_recovery": {
+            "confidence_interval_high": 0.09933435612970504,
+            "confidence_interval_low": 0.06226564387029495,
+            "confidence_level": 0.95,
+            "maximum": 0.128,
+            "mean": 0.0808,
+            "minimum": 0.052,
+            "n": 10,
+            "sample_standard_deviation": 0.025909243309847722
+          },
+          "intervention_recovery": {
+            "confidence_interval_high": 0.09933435612970504,
+            "confidence_interval_low": 0.06226564387029495,
+            "confidence_level": 0.95,
+            "maximum": 0.128,
+            "mean": 0.0808,
+            "minimum": 0.052,
+            "n": 10,
+            "sample_standard_deviation": 0.025909243309847722
+          },
+          "paired_difference": {
+            "confidence_interval_high": 0.0,
+            "confidence_interval_low": 0.0,
+            "confidence_level": 0.95,
+            "maximum": 0.0,
+            "mean": 0.0,
+            "minimum": 0.0,
+            "n": 10,
+            "sample_standard_deviation": 0.0
+          }
+        },
+        "10": {
+          "baseline_recovery": {
+            "confidence_interval_high": 0.1765132984794677,
+            "confidence_interval_low": 0.09708670152053225,
+            "confidence_level": 0.95,
+            "maximum": 0.24,
+            "mean": 0.13679999999999998,
+            "minimum": 0.052,
+            "n": 10,
+            "sample_standard_deviation": 0.05551536323897697
+          },
+          "intervention_recovery": {
+            "confidence_interval_high": 0.1716065626453358,
+            "confidence_interval_low": 0.12119343735466426,
+            "confidence_level": 0.95,
+            "maximum": 0.208,
+            "mean": 0.14640000000000003,
+            "minimum": 0.088,
+            "n": 10,
+            "sample_standard_deviation": 0.03523634487287238
+          },
+          "paired_difference": {
+            "confidence_interval_high": 0.03414831416223971,
+            "confidence_interval_low": -0.014948314162239702,
+            "confidence_level": 0.95,
+            "maximum": 0.08,
+            "mean": 0.009600000000000001,
+            "minimum": -0.036000000000000004,
+            "n": 10,
+            "sample_standard_deviation": 0.03431617694324355
+          }
+        },
+        "100": {
+          "baseline_recovery": {
+            "confidence_interval_high": 0.8304961137658534,
+            "confidence_interval_low": 0.7511038862341467,
+            "confidence_level": 0.95,
+            "maximum": 0.856,
+            "mean": 0.7908000000000001,
+            "minimum": 0.692,
+            "n": 10,
+            "sample_standard_deviation": 0.05549134066580919
+          },
+          "intervention_recovery": {
+            "confidence_interval_high": 0.8479892243149469,
+            "confidence_interval_low": 0.7432107756850532,
+            "confidence_level": 0.95,
+            "maximum": 0.864,
+            "mean": 0.7956000000000001,
+            "minimum": 0.648,
+            "n": 10,
+            "sample_standard_deviation": 0.0732350857019897
+          },
+          "paired_difference": {
+            "confidence_interval_high": 0.03052810834366702,
+            "confidence_interval_low": -0.020928108343666988,
+            "confidence_level": 0.95,
+            "maximum": 0.07599999999999996,
+            "mean": 0.004800000000000015,
+            "minimum": -0.04399999999999993,
+            "n": 10,
+            "sample_standard_deviation": 0.03596541548642401
+          }
+        },
+        "1000": {
+          "baseline_recovery": {
+            "confidence_interval_high": 0.9017019784049612,
+            "confidence_interval_low": 0.8494980215950391,
+            "confidence_level": 0.95,
+            "maximum": 0.92,
+            "mean": 0.8756000000000002,
+            "minimum": 0.8,
+            "n": 10,
+            "sample_standard_deviation": 0.036488049794114484
+          },
+          "intervention_recovery": {
+            "confidence_interval_high": 0.8944887107092431,
+            "confidence_interval_low": 0.8551112892907567,
+            "confidence_level": 0.95,
+            "maximum": 0.916,
+            "mean": 0.8747999999999999,
+            "minimum": 0.828,
+            "n": 10,
+            "sample_standard_deviation": 0.02752291974175546
+          },
+          "paired_difference": {
+            "confidence_interval_high": 0.01176713762529733,
+            "confidence_interval_low": -0.013367137625297355,
+            "confidence_level": 0.95,
+            "maximum": 0.027999999999999914,
+            "mean": -0.0008000000000000119,
+            "minimum": -0.03600000000000003,
+            "n": 10,
+            "sample_standard_deviation": 0.017567647031467307
+          }
+        }
+      },
+      "contrast_label": "Budget 128 minus budget 1",
+      "final_seed_differences": {
+        "0": 0.027999999999999914,
+        "1": -0.008000000000000007,
+        "2": -0.0040000000000000036,
+        "3": 0.016000000000000014,
+        "4": 0.016000000000000014,
+        "5": -0.0040000000000000036,
+        "6": -0.008000000000000007,
+        "7": -0.03600000000000003,
+        "8": -0.0040000000000000036,
+        "9": -0.0040000000000000036
+      },
+      "id": "cooccurrence_similarity",
+      "intervention_selector": "budget_128",
+      "label": "Co-occurrence similarity",
+      "manipulated_measure": {
+        "baseline": 0.8303332795540402,
+        "intervention": 0.8681177466304193,
+        "label": "Selected-pair client cosine"
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "selector_field": "condition",
+      "source": "results/cooccurrence-similarity-sweep/aggregate.json",
+      "source_sha256": "5f765cfdbb72c0d05dc8f0b073456057f21bd1e3d7f1d500259e03608356c41c"
+    },
+    {
+      "baseline_selector": 1.0,
+      "checkpoints": {
+        "0": {
+          "baseline_recovery": {
+            "confidence_interval_high": 0.09933435612970504,
+            "confidence_interval_low": 0.06226564387029495,
+            "confidence_level": 0.95,
+            "maximum": 0.128,
+            "mean": 0.0808,
+            "minimum": 0.052,
+            "n": 10,
+            "sample_standard_deviation": 0.025909243309847722
+          },
+          "intervention_recovery": {
+            "confidence_interval_high": 0.09615024960599608,
+            "confidence_interval_low": 0.0774497503940039,
+            "confidence_level": 0.95,
+            "maximum": 0.104,
+            "mean": 0.08679999999999999,
+            "minimum": 0.068,
+            "n": 10,
+            "sample_standard_deviation": 0.013070747662029298
+          },
+          "paired_difference": {
+            "confidence_interval_high": 0.020098964966414123,
+            "confidence_interval_low": -0.008098964966414123,
+            "confidence_level": 0.95,
+            "maximum": 0.032,
+            "mean": 0.006,
+            "minimum": -0.032,
+            "n": 10,
+            "sample_standard_deviation": 0.019708993998792647
+          }
+        },
+        "10": {
+          "baseline_recovery": {
+            "confidence_interval_high": 0.20431997256965076,
+            "confidence_interval_low": 0.1316800274303492,
+            "confidence_level": 0.95,
+            "maximum": 0.264,
+            "mean": 0.16799999999999998,
+            "minimum": 0.1,
+            "n": 10,
+            "sample_standard_deviation": 0.05077182070575939
+          },
+          "intervention_recovery": {
+            "confidence_interval_high": 0.10189504696308517,
+            "confidence_interval_low": 0.06610495303691481,
+            "confidence_level": 0.95,
+            "maximum": 0.132,
+            "mean": 0.08399999999999999,
+            "minimum": 0.056,
+            "n": 10,
+            "sample_standard_deviation": 0.025015550719058293
+          },
+          "paired_difference": {
+            "confidence_interval_high": -0.04495202488447135,
+            "confidence_interval_low": -0.12304797511552866,
+            "confidence_level": 0.95,
+            "maximum": -0.02800000000000001,
+            "mean": -0.084,
+            "minimum": -0.17200000000000001,
+            "n": 10,
+            "sample_standard_deviation": 0.05458530530788992
+          }
+        },
+        "100": {
+          "baseline_recovery": {
+            "confidence_interval_high": 0.9255016946198527,
+            "confidence_interval_low": 0.8640983053801474,
+            "confidence_level": 0.95,
+            "maximum": 0.96,
+            "mean": 0.8948,
+            "minimum": 0.832,
+            "n": 10,
+            "sample_standard_deviation": 0.042918009687723836
+          },
+          "intervention_recovery": {
+            "confidence_interval_high": 0.11300883848404283,
+            "confidence_interval_low": 0.08539116151595716,
+            "confidence_level": 0.95,
+            "maximum": 0.124,
+            "mean": 0.0992,
+            "minimum": 0.076,
+            "n": 10,
+            "sample_standard_deviation": 0.01930342514224411
+          },
+          "paired_difference": {
+            "confidence_interval_high": -0.7643578341608649,
+            "confidence_interval_low": -0.8268421658391353,
+            "confidence_level": 0.95,
+            "maximum": -0.732,
+            "mean": -0.7956000000000001,
+            "minimum": -0.864,
+            "n": 10,
+            "sample_standard_deviation": 0.04367353635530079
+          }
+        },
+        "1000": {
+          "baseline_recovery": {
+            "confidence_interval_high": 0.977425451700445,
+            "confidence_interval_low": 0.9561745482995552,
+            "confidence_level": 0.95,
+            "maximum": 0.992,
+            "mean": 0.9668000000000001,
+            "minimum": 0.948,
+            "n": 10,
+            "sample_standard_deviation": 0.014853357271075875
+          },
+          "intervention_recovery": {
+            "confidence_interval_high": 0.15270711381989055,
+            "confidence_interval_low": 0.10249288618010943,
+            "confidence_level": 0.95,
+            "maximum": 0.184,
+            "mean": 0.1276,
+            "minimum": 0.068,
+            "n": 10,
+            "sample_standard_deviation": 0.035097325000948754
+          },
+          "paired_difference": {
+            "confidence_interval_high": -0.8163563192512426,
+            "confidence_interval_low": -0.8620436807487573,
+            "confidence_level": 0.95,
+            "maximum": -0.776,
+            "mean": -0.8392,
+            "minimum": -0.8999999999999999,
+            "n": 10,
+            "sample_standard_deviation": 0.03193326374383508
+          }
+        }
+      },
+      "contrast_label": "25% minus 100% retention",
+      "final_seed_differences": {
+        "0": -0.8999999999999999,
+        "1": -0.824,
+        "2": -0.856,
+        "3": -0.828,
+        "4": -0.86,
+        "5": -0.776,
+        "6": -0.844,
+        "7": -0.844,
+        "8": -0.84,
+        "9": -0.82
+      },
+      "id": "sparsity",
+      "intervention_selector": 0.25,
+      "label": "Incidence retention",
+      "manipulated_measure": {
+        "baseline": 0.017064000000000003,
+        "intervention": 0.004266279999999999,
+        "label": "Matrix density"
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "selector_field": "retention_rate",
+      "source": "results/sparsity-sweep/aggregate.json",
+      "source_sha256": "394f8c4063b8420ac825de3c278751959477175cfc86a890a4e8073d49ff6cf0"
+    }
+  ],
+  "experiment_id": "enron-ablation-summary-v1"
+}

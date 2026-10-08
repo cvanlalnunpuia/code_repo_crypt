@@ -1,0 +1,80 @@
+{
+  "config": {
+    "conditions": {
+      "tokenisation_only": "results/corpus/flores200-tokenisation-only"
+    },
+    "config_version": "1.0.0",
+    "keyword_universe_sizes": [
+      100,
+      250,
+      500
+    ],
+    "languages": [
+      "lus",
+      "en"
+    ],
+    "output_directory": "results/corpus/flores200-length-balanced-ihop",
+    "require_split_support": true,
+    "selection": "results/corpus/flores200-length-balanced-selection.json",
+    "split": "results/corpus/flores200-length-balanced-split.json"
+  },
+  "config_sha256": "9819cbdd1dd87692c39f258c6a62b6a02c56fd7a368df38507bd4fb0f531f6be",
+  "datasets": {
+    "en:tokenisation_only:k100": {
+      "auxiliary_document_count": 84,
+      "client_document_count": 169,
+      "document_count": 253,
+      "incidence_count": 5818,
+      "keyword_count": 100,
+      "path": "en-tokenisation_only-k100.pkl",
+      "sha256": "2c424ec4fba4bfaf37caaf684ab721ed6fac1bdee1a1c904e3dacddf325a3586"
+    },
+    "en:tokenisation_only:k250": {
+      "auxiliary_document_count": 84,
+      "client_document_count": 169,
+      "document_count": 253,
+      "incidence_count": 7703,
+      "keyword_count": 250,
+      "path": "en-tokenisation_only-k250.pkl",
+      "sha256": "8ad9ce1e5e2b88b954a786aaa10683ef824d37a9ba100cf253b5cf7b9aa54793"
+    },
+    "en:tokenisation_only:k500": {
+      "auxiliary_document_count": 84,
+      "client_document_count": 169,
+      "document_count": 253,
+      "incidence_count": 9380,
+      "keyword_count": 500,
+      "path": "en-tokenisation_only-k500.pkl",
+      "sha256": "780f2ca85d7f3f0e727cf090b9e003969ba4cc922a1ab7e112601f129e33408c"
+    },
+    "lus:tokenisation_only:k100": {
+      "auxiliary_document_count": 84,
+      "client_document_count": 169,
+      "document_count": 253,
+      "incidence_count": 7253,
+      "keyword_count": 100,
+      "path": "lus-tokenisation_only-k100.pkl",
+      "sha256": "c37435f97583ee06ef5b9752cbdfb93b5c6dc3fccfdffa23d3795e6cd93460b3"
+    },
+    "lus:tokenisation_only:k250": {
+      "auxiliary_document_count": 84,
+      "client_document_count": 169,
+      "document_count": 253,
+      "incidence_count": 10097,
+      "keyword_count": 250,
+      "path": "lus-tokenisation_only-k250.pkl",
+      "sha256": "362e11fb6074ab9e76bd376941598d54abf103f314e21f246026975ce1e57e0d"
+    },
+    "lus:tokenisation_only:k500": {
+      "auxiliary_document_count": 84,
+      "client_document_count": 169,
+      "document_count": 253,
+      "incidence_count": 12240,
+      "keyword_count": 500,
+      "path": "lus-tokenisation_only-k500.pkl",
+      "sha256": "11836a5fa8a69ac947a956255cee7daab5a1ccc77f2bd2e0c4417eee63cf0609"
+    }
+  },
+  "export_version": "1.0.0",
+  "split_sha256": "249a90da2ac8155bc70c0975cd893645450a2a136d6e1dd1ad05af4cd685c905"
+}

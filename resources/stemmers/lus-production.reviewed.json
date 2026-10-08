@@ -1,0 +1,176 @@
+{
+  "algorithm": "suffix_strip_v1",
+  "language": "lus",
+  "reviewed_at": "2026-10-06",
+  "reviewed_by": "C Lalrinawma",
+  "rules": [
+    {
+      "basis": "Plural marker on nouns and nominalised forms (fa-te, mi-te, unau-te). Exceptions are diminutive -te forms and a place name.",
+      "exceptions": [
+        "naute",
+        "tlêmte",
+        "tête",
+        "vairengte"
+      ],
+      "minimum_stem_letter_count": 2,
+      "priority": 3,
+      "replacement": "",
+      "suffix": "te"
+    },
+    {
+      "basis": "Nominaliser forming abstract, locative and instrument nouns from verb stems (hriat-na, awm-na, ropui-na). Exceptions are names and hmana 'formerly'.",
+      "exceptions": [
+        "johana",
+        "setana",
+        "hosana",
+        "susana",
+        "hmana"
+      ],
+      "minimum_stem_letter_count": 3,
+      "priority": 4,
+      "replacement": "",
+      "suffix": "na"
+    },
+    {
+      "basis": "Ergative/instrumental case marker and adverbial subordinator (pathian-in, avâng-in, tûr-in). Many roots end in -in, so the rule needs a lexicon check; lovin is lo + in with a glide.",
+      "exceptions": [
+        "chanchin",
+        "engtin",
+        "lovin"
+      ],
+      "minimum_stem_letter_count": 3,
+      "priority": 3,
+      "replacement": "",
+      "suffix": "in"
+    },
+    {
+      "basis": "Locative case marker (hnên-ah, chung-ah, khua-ah). Stem II verb forms and roots ending in -ah are the main false matches and are listed as exceptions.",
+      "exceptions": [
+        "chhuah",
+        "ngaihtuah",
+        "thlah",
+        "chhiah",
+        "tuah",
+        "fahrah",
+        "chhinchhiah"
+      ],
+      "minimum_stem_letter_count": 3,
+      "priority": 3,
+      "replacement": "",
+      "suffix": "ah"
+    },
+    {
+      "basis": "Agentive nominaliser, 'one who does' (siam-tu, hruai-tu, vêng-tu). hotu 'leader' is lexicalised and kept whole.",
+      "exceptions": [
+        "hotu"
+      ],
+      "minimum_stem_letter_count": 2,
+      "priority": 4,
+      "replacement": "",
+      "suffix": "tu"
+    },
+    {
+      "basis": "Causative verbal suffix (lan-tîr, hriat-tîr, awm-tîr). zirtîr 'teach' is lexicalised and should not merge with zir 'learn'.",
+      "exceptions": [
+        "zirtîr"
+      ],
+      "minimum_stem_letter_count": 2,
+      "priority": 4,
+      "replacement": "",
+      "suffix": "tîr"
+    },
+    {
+      "basis": "Benefactive/applicative verbal suffix, 'do for or to someone' (siam-sak, lâk-sak, tih-sak). Exceptions are lexicalised forms and hmasak 'first'.",
+      "exceptions": [
+        "ngaihsak",
+        "duhsak",
+        "hmasak"
+      ],
+      "minimum_stem_letter_count": 3,
+      "priority": 4,
+      "replacement": "",
+      "suffix": "sak"
+    },
+    {
+      "basis": "Comitative verbal suffix, 'do together with' (kal-pui, awm-pui). The augmentative noun suffix -pui changes the meaning (khaw 'village' vs khawpui 'city'), so those nouns and lexicalised ṭanpui 'help' are exceptions.",
+      "exceptions": [
+        "khawpui",
+        "tuipui",
+        "lungpui",
+        "ṭanpui"
+      ],
+      "minimum_stem_letter_count": 3,
+      "priority": 4,
+      "replacement": "",
+      "suffix": "pui"
+    },
+    {
+      "basis": "Stacked agentive -tu plus plural -te (hruai-tu-te, rorêl-tu-te). Removed together, before the single-suffix rules.",
+      "exceptions": [
+        "hotute"
+      ],
+      "minimum_stem_letter_count": 2,
+      "priority": 2,
+      "replacement": "",
+      "suffix": "tute"
+    },
+    {
+      "basis": "Stacked nominaliser -na plus locative -ah (awm-na-ah, hriat-na-ah). Removed together, before the single-suffix rules.",
+      "exceptions": [],
+      "minimum_stem_letter_count": 3,
+      "priority": 2,
+      "replacement": "",
+      "suffix": "naah"
+    },
+    {
+      "basis": "Stacked nominaliser -na plus plural -te (zawh-na-te, harsat-na-te). Removed together, before the single-suffix rules.",
+      "exceptions": [],
+      "minimum_stem_letter_count": 3,
+      "priority": 2,
+      "replacement": "",
+      "suffix": "nate"
+    },
+    {
+      "basis": "Stacked nominaliser -na plus ergative/instrumental -in (rin-na-in, hmangaih-na-in). Removed together, before the single-suffix rules.",
+      "exceptions": [],
+      "minimum_stem_letter_count": 3,
+      "priority": 2,
+      "replacement": "",
+      "suffix": "nain"
+    },
+    {
+      "basis": "Stacked comitative -pui plus plural -te (kal-pui-te, rin-pui-te). Augmentative nouns are exceptions so that only -te is removed from them by the te rule.",
+      "exceptions": [
+        "khawpuite",
+        "tuipuite",
+        "lungpuite",
+        "ṭanpuite"
+      ],
+      "minimum_stem_letter_count": 3,
+      "priority": 2,
+      "replacement": "",
+      "suffix": "puite"
+    },
+    {
+      "basis": "Stacked agentive -tu, plural -te and ergative -n (rorêl-tu-te-n, hruai-tu-te-n). Longest stack, removed first.",
+      "exceptions": [
+        "hotuten"
+      ],
+      "minimum_stem_letter_count": 2,
+      "priority": 1,
+      "replacement": "",
+      "suffix": "tuten"
+    },
+    {
+      "basis": "Derivational suffix forming 'causing the feeling of' adjectives from verb stems (zah-thlâk, râp-thlâk, ngaih-thlâk).",
+      "exceptions": [],
+      "minimum_stem_letter_count": 3,
+      "priority": 4,
+      "replacement": "",
+      "suffix": "thlâk"
+    }
+  ],
+  "scope": "production",
+  "specification_version": "1.0.0",
+  "status": "approved"
+}

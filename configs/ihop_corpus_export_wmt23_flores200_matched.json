@@ -1,0 +1,12 @@
+{
+  "config_version": "1.0.0",
+  "selection": "results/corpus/wmt23-flores200-matched-selection.json",
+  "split": "results/corpus/wmt23-flores200-matched-split.json",
+  "conditions": {
+    "tokenisation_only": "results/corpus/wmt23-tokenisation-only"
+  },
+  "languages": ["lus", "en"],
+  "keyword_universe_size": 500,
+  "require_split_support": true,
+  "output_directory": "results/corpus/wmt23-flores200-matched-ihop"
+}

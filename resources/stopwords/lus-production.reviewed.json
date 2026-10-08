@@ -1,0 +1,1010 @@
+{
+  "entries": [
+    {
+      "basis": "document frequency 4962 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F6 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "chu"
+    },
+    {
+      "basis": "document frequency 4928 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F7 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "chuan"
+    },
+    {
+      "basis": "Overwhelmingly the copula (a ni); the noun senses (day/sun, aunt) are the minority.",
+      "decision": "exclude_from_index",
+      "token": "ni"
+    },
+    {
+      "basis": "document frequency 4822 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F9 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "an"
+    },
+    {
+      "basis": "Negator and directional preverb; the noun sense (field) is rare by comparison.",
+      "decision": "exclude_from_index",
+      "token": "lo"
+    },
+    {
+      "basis": "document frequency 4590 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F11 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "leh"
+    },
+    {
+      "basis": "document frequency 4348 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F12 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "ang"
+    },
+    {
+      "basis": "document frequency 4182 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F13 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "ka"
+    },
+    {
+      "basis": "Ambiguous: content noun 'person/people' versus nominaliser use; kept.",
+      "decision": "retain",
+      "token": "mi"
+    },
+    {
+      "basis": "document frequency 3646 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F15 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "hi"
+    },
+    {
+      "basis": "Mostly the 2nd-person plural clitic; the noun (house) and verb (drink) senses are the minority.",
+      "decision": "exclude_from_index",
+      "token": "in"
+    },
+    {
+      "basis": "Lexical verb 'say/do'; kept in line with the English speech verbs, though also quotative.",
+      "decision": "retain",
+      "token": "ti"
+    },
+    {
+      "basis": "document frequency 3196 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F18 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "ta"
+    },
+    {
+      "basis": "document frequency 3194 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F19 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "kan"
+    },
+    {
+      "basis": "Functions mainly as the existential/locative verb (a awm); lexical 'stay, live' is secondary.",
+      "decision": "exclude_from_index",
+      "token": "awm"
+    },
+    {
+      "basis": "document frequency 3177 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F21 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "tûr"
+    },
+    {
+      "basis": "document frequency 3014 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F22 on 2026-10-06.",
+      "decision": "retain",
+      "token": "lalpa"
+    },
+    {
+      "basis": "Mostly the complementiser ('that') closing a reported clause.",
+      "decision": "exclude_from_index",
+      "token": "tih"
+    },
+    {
+      "basis": "Intensifier ('really, very'); the adjective sense (real, hard) is secondary.",
+      "decision": "exclude_from_index",
+      "token": "tak"
+    },
+    {
+      "basis": "document frequency 2934 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F25 on 2026-10-06.",
+      "decision": "retain",
+      "token": "pathian"
+    },
+    {
+      "basis": "document frequency 2851 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F26 on 2026-10-06.",
+      "decision": "retain",
+      "token": "thu"
+    },
+    {
+      "basis": "Plural marker written separately; the adjective sense (small) is the minority.",
+      "decision": "exclude_from_index",
+      "token": "te"
+    },
+    {
+      "basis": "document frequency 2745 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F28 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "pawh"
+    },
+    {
+      "basis": "document frequency 2557 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F29 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "che"
+    },
+    {
+      "basis": "document frequency 2557 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F30 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "rawh"
+    },
+    {
+      "basis": "Generic noun but still content-bearing; kept as borderline, as with English 'things'.",
+      "decision": "retain",
+      "token": "thil"
+    },
+    {
+      "basis": "document frequency 2496 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F32 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "hian"
+    },
+    {
+      "basis": "document frequency 2430 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F33 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "nge"
+    },
+    {
+      "basis": "document frequency 2403 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F34 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "va"
+    },
+    {
+      "basis": "Mostly imperative/conjunctive particle and 'still, yet'; the verb (take) is the minority.",
+      "decision": "exclude_from_index",
+      "token": "la"
+    },
+    {
+      "basis": "document frequency 2261 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F36 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "min"
+    },
+    {
+      "basis": "document frequency 2215 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F37 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "thei"
+    },
+    {
+      "basis": "document frequency 2105 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F38 on 2026-10-06.",
+      "decision": "retain",
+      "token": "kal"
+    },
+    {
+      "basis": "document frequency 2069 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F39 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "nih"
+    },
+    {
+      "basis": "document frequency 2066 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F40 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "mai"
+    },
+    {
+      "basis": "document frequency 2058 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F41 on 2026-10-06.",
+      "decision": "retain",
+      "token": "sawi"
+    },
+    {
+      "basis": "document frequency 2043 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F42 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "hnênah"
+    },
+    {
+      "basis": "Lexical verb of possession, not an auxiliary as English 'have' is.",
+      "decision": "retain",
+      "token": "nei"
+    },
+    {
+      "basis": "Mostly the quantifier (zawng zawng 'all'); the verb (seek) is the minority.",
+      "decision": "exclude_from_index",
+      "token": "zawng"
+    },
+    {
+      "basis": "document frequency 1854 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F45 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "tawh"
+    },
+    {
+      "basis": "document frequency 1768 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F46 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "loh"
+    },
+    {
+      "basis": "document frequency 1739 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F47 on 2026-10-06.",
+      "decision": "retain",
+      "token": "mite"
+    },
+    {
+      "basis": "document frequency 1718 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F48 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "bawk"
+    },
+    {
+      "basis": "document frequency 1699 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F49 on 2026-10-06.",
+      "decision": "retain",
+      "token": "ram"
+    },
+    {
+      "basis": "document frequency 1685 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F50 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "tûrin"
+    },
+    {
+      "basis": "document frequency 1683 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F51 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "ṭhîn"
+    },
+    {
+      "basis": "document frequency 1646 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F52 on 2026-10-06.",
+      "decision": "retain",
+      "token": "ṭha"
+    },
+    {
+      "basis": "document frequency 1567 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F53 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "ve"
+    },
+    {
+      "basis": "Interrogative 'what/which'; the sense 'light, yellow' is rare.",
+      "decision": "exclude_from_index",
+      "token": "eng"
+    },
+    {
+      "basis": "document frequency 1494 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F55 on 2026-10-06.",
+      "decision": "retain",
+      "token": "chhuak"
+    },
+    {
+      "basis": "document frequency 1484 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F56 on 2026-10-06.",
+      "decision": "retain",
+      "token": "lal"
+    },
+    {
+      "basis": "document frequency 1478 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F57 on 2026-10-06.",
+      "decision": "retain",
+      "token": "dân"
+    },
+    {
+      "basis": "document frequency 1463 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F58 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "dâwn"
+    },
+    {
+      "basis": "document frequency 1456 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F59 on 2026-10-06.",
+      "decision": "retain",
+      "token": "israel"
+    },
+    {
+      "basis": "document frequency 1451 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F60 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "theih"
+    },
+    {
+      "basis": "document frequency 1432 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F61 on 2026-10-06.",
+      "decision": "retain",
+      "token": "duh"
+    },
+    {
+      "basis": "document frequency 1424 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F62 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "ah"
+    },
+    {
+      "basis": "document frequency 1408 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F63 on 2026-10-06.",
+      "decision": "retain",
+      "token": "siam"
+    },
+    {
+      "basis": "document frequency 1396 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F64 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "takin"
+    },
+    {
+      "basis": "document frequency 1393 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F65 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "si"
+    },
+    {
+      "basis": "document frequency 1389 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F66 on 2026-10-06.",
+      "decision": "retain",
+      "token": "fapa"
+    },
+    {
+      "basis": "document frequency 1327 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F67 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "avângin"
+    },
+    {
+      "basis": "document frequency 1315 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F68 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "rawn"
+    },
+    {
+      "basis": "Ambiguous: 'need, be necessary', 'regard/miss', and the habitual/'ever' particle.",
+      "decision": "retain",
+      "token": "ngai"
+    },
+    {
+      "basis": "document frequency 1297 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F70 on 2026-10-06.",
+      "decision": "retain",
+      "token": "jehova"
+    },
+    {
+      "basis": "Quantifier 'many, much'; excluded in line with English 'many'.",
+      "decision": "exclude_from_index",
+      "token": "tam"
+    },
+    {
+      "basis": "document frequency 1241 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F72 on 2026-10-06.",
+      "decision": "retain",
+      "token": "hrilh"
+    },
+    {
+      "basis": "document frequency 1212 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F73 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "se"
+    },
+    {
+      "basis": "Relational noun used as a postposition ('towards, regarding'); the verb (dance) is rare.",
+      "decision": "exclude_from_index",
+      "token": "lam"
+    },
+    {
+      "basis": "document frequency 1198 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F75 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "em"
+    },
+    {
+      "basis": "document frequency 1196 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F76 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "vang"
+    },
+    {
+      "basis": "document frequency 1187 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F77 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "kha"
+    },
+    {
+      "basis": "Relational noun used for 'while, during, at the time of'; the sense 'middle' is secondary.",
+      "decision": "exclude_from_index",
+      "token": "lai"
+    },
+    {
+      "basis": "document frequency 1178 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F79 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "taka"
+    },
+    {
+      "basis": "document frequency 1169 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F80 on 2026-10-06.",
+      "decision": "retain",
+      "token": "kum"
+    },
+    {
+      "basis": "document frequency 1161 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F81 on 2026-10-06.",
+      "decision": "retain",
+      "token": "hre"
+    },
+    {
+      "basis": "document frequency 1147 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F82 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "reng"
+    },
+    {
+      "basis": "document frequency 1134 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F83 on 2026-10-06.",
+      "decision": "retain",
+      "token": "isua"
+    },
+    {
+      "basis": "document frequency 1131 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F84 on 2026-10-06.",
+      "decision": "retain",
+      "token": "pe"
+    },
+    {
+      "basis": "document frequency 1117 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F85 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "he"
+    },
+    {
+      "basis": "document frequency 1098 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F86 on 2026-10-06.",
+      "decision": "retain",
+      "token": "hun"
+    },
+    {
+      "basis": "document frequency 1097 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F87 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "nân"
+    },
+    {
+      "basis": "document frequency 1064 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F88 on 2026-10-06.",
+      "decision": "retain",
+      "token": "dik"
+    },
+    {
+      "basis": "document frequency 1054 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F89 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "tiin"
+    },
+    {
+      "basis": "document frequency 1050 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F90 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "vek"
+    },
+    {
+      "basis": "document frequency 1049 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F91 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "dang"
+    },
+    {
+      "basis": "document frequency 1047 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F92 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "han"
+    },
+    {
+      "basis": "document frequency 1043 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F93 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "mah"
+    },
+    {
+      "basis": "document frequency 1035 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F94 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "hle"
+    },
+    {
+      "basis": "document frequency 1033 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F95 on 2026-10-06.",
+      "decision": "retain",
+      "token": "sual"
+    },
+    {
+      "basis": "document frequency 1033 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F96 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "tin"
+    },
+    {
+      "basis": "document frequency 1022 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F97 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "ani"
+    },
+    {
+      "basis": "document frequency 1010 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F98 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "zâwk"
+    },
+    {
+      "basis": "Numeral; quantifier function, weak as a keyword (as English 'one').",
+      "decision": "exclude_from_index",
+      "token": "pakhat"
+    },
+    {
+      "basis": "document frequency 999 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F100 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "tichuan"
+    },
+    {
+      "basis": "document frequency 995 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F101 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "teh"
+    },
+    {
+      "basis": "document frequency 993 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F102 on 2026-10-06.",
+      "decision": "retain",
+      "token": "hmu"
+    },
+    {
+      "basis": "document frequency 991 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F103 on 2026-10-06.",
+      "decision": "retain",
+      "token": "hriat"
+    },
+    {
+      "basis": "document frequency 991 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F104 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "tân"
+    },
+    {
+      "basis": "Ambiguous: lexical verb 'arrive' versus postposition 'until, up to'.",
+      "decision": "retain",
+      "token": "thleng"
+    },
+    {
+      "basis": "document frequency 986 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F106 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "tu"
+    },
+    {
+      "basis": "document frequency 983 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F107 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "khân"
+    },
+    {
+      "basis": "document frequency 980 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F108 on 2026-10-06.",
+      "decision": "retain",
+      "token": "pa"
+    },
+    {
+      "basis": "document frequency 970 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F109 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "ngei"
+    },
+    {
+      "basis": "document frequency 968 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F110 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "chungah"
+    },
+    {
+      "basis": "document frequency 968 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F111 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "tûra"
+    },
+    {
+      "basis": "document frequency 966 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F112 on 2026-10-06.",
+      "decision": "retain",
+      "token": "neih"
+    },
+    {
+      "basis": "document frequency 963 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F113 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "emaw"
+    },
+    {
+      "basis": "document frequency 962 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F114 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "suh"
+    },
+    {
+      "basis": "document frequency 958 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F115 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "angin"
+    },
+    {
+      "basis": "document frequency 952 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F116 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "mahse"
+    },
+    {
+      "basis": "document frequency 910 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F117 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "pawhin"
+    },
+    {
+      "basis": "document frequency 898 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F118 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "ber"
+    },
+    {
+      "basis": "document frequency 873 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F119 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "zînga"
+    },
+    {
+      "basis": "document frequency 872 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F120 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "erawh"
+    },
+    {
+      "basis": "document frequency 872 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F121 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "nên"
+    },
+    {
+      "basis": "document frequency 867 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F122 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "hnêna"
+    },
+    {
+      "basis": "document frequency 855 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F123 on 2026-10-06.",
+      "decision": "retain",
+      "token": "chhuah"
+    },
+    {
+      "basis": "Ambiguous: vocative/response particle versus the noun 'voice'.",
+      "decision": "retain",
+      "token": "aw"
+    },
+    {
+      "basis": "document frequency 845 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F125 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "ata"
+    },
+    {
+      "basis": "Relational noun used as a postposition ('within, during'); 'family' is usually chhûngte.",
+      "decision": "exclude_from_index",
+      "token": "chhûng"
+    },
+    {
+      "basis": "Numeral element 'one' (ni khat, vawi khat); the sense 'full' is the minority.",
+      "decision": "exclude_from_index",
+      "token": "khat"
+    },
+    {
+      "basis": "document frequency 818 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F128 on 2026-10-06.",
+      "decision": "retain",
+      "token": "ei"
+    },
+    {
+      "basis": "document frequency 814 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F129 on 2026-10-06.",
+      "decision": "retain",
+      "token": "hmun"
+    },
+    {
+      "basis": "document frequency 803 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F130 on 2026-10-06.",
+      "decision": "retain",
+      "token": "hmuh"
+    },
+    {
+      "basis": "document frequency 797 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F131 on 2026-10-06.",
+      "decision": "retain",
+      "token": "hruai"
+    },
+    {
+      "basis": "document frequency 797 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F132 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "zêl"
+    },
+    {
+      "basis": "Lexical verb 'intend, try'; also the counter 'times', so kept as ambiguous.",
+      "decision": "retain",
+      "token": "tum"
+    },
+    {
+      "basis": "document frequency 773 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F134 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "chûng"
+    },
+    {
+      "basis": "document frequency 770 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F135 on 2026-10-06.",
+      "decision": "retain",
+      "token": "hnam"
+    },
+    {
+      "basis": "document frequency 761 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F136 on 2026-10-06.",
+      "decision": "retain",
+      "token": "hria"
+    },
+    {
+      "basis": "document frequency 743 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F137 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "chutiang"
+    },
+    {
+      "basis": "document frequency 743 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F138 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "ula"
+    },
+    {
+      "basis": "Collective plural marker ('group of'); the adjective sense (trivial) is rare.",
+      "decision": "exclude_from_index",
+      "token": "ho"
+    },
+    {
+      "basis": "document frequency 733 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F140 on 2026-10-06.",
+      "decision": "retain",
+      "token": "thlahte"
+    },
+    {
+      "basis": "document frequency 714 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F141 on 2026-10-06.",
+      "decision": "retain",
+      "token": "thlarau"
+    },
+    {
+      "basis": "document frequency 711 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F142 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "amah"
+    },
+    {
+      "basis": "document frequency 689 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F143 on 2026-10-06.",
+      "decision": "retain",
+      "token": "lei"
+    },
+    {
+      "basis": "document frequency 688 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F144 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "chunga"
+    },
+    {
+      "basis": "document frequency 677 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F145 on 2026-10-06.",
+      "decision": "retain",
+      "token": "bible"
+    },
+    {
+      "basis": "Ambiguous content noun: 'kind, type', 'seed, descendants', 'salt'.",
+      "decision": "retain",
+      "token": "chi"
+    },
+    {
+      "basis": "document frequency 672 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F147 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "aṭanga"
+    },
+    {
+      "basis": "document frequency 669 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F148 on 2026-10-06.",
+      "decision": "retain",
+      "token": "davida"
+    },
+    {
+      "basis": "document frequency 667 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F149 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "hêng"
+    },
+    {
+      "basis": "document frequency 667 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F150 on 2026-10-06.",
+      "decision": "retain",
+      "token": "pêk"
+    },
+    {
+      "basis": "document frequency 664 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F151 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "anga"
+    },
+    {
+      "basis": "document frequency 661 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F152 on 2026-10-06.",
+      "decision": "retain",
+      "token": "rilru"
+    },
+    {
+      "basis": "Relational noun used as a postposition ('before, in front of').",
+      "decision": "exclude_from_index",
+      "token": "hma"
+    },
+    {
+      "basis": "document frequency 652 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F154 on 2026-10-06.",
+      "decision": "retain",
+      "token": "hming"
+    },
+    {
+      "basis": "document frequency 645 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F155 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "êm"
+    },
+    {
+      "basis": "document frequency 641 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F156 on 2026-10-06.",
+      "decision": "retain",
+      "token": "thi"
+    },
+    {
+      "basis": "document frequency 637 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F157 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "lovin"
+    },
+    {
+      "basis": "document frequency 625 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F158 on 2026-10-06.",
+      "decision": "retain",
+      "token": "juda"
+    },
+    {
+      "basis": "document frequency 625 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F159 on 2026-10-06.",
+      "decision": "retain",
+      "token": "mosia"
+    },
+    {
+      "basis": "document frequency 619 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F160 on 2026-10-06.",
+      "decision": "retain",
+      "token": "thianghlim"
+    },
+    {
+      "basis": "document frequency 618 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F161 on 2026-10-06.",
+      "decision": "retain",
+      "token": "dah"
+    },
+    {
+      "basis": "document frequency 612 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F162 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "aṭangin"
+    },
+    {
+      "basis": "document frequency 612 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F163 on 2026-10-06.",
+      "decision": "retain",
+      "token": "chanchin"
+    },
+    {
+      "basis": "document frequency 610 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F164 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "engtin"
+    },
+    {
+      "basis": "document frequency 608 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F165 on 2026-10-06.",
+      "decision": "retain",
+      "token": "thlen"
+    },
+    {
+      "basis": "document frequency 605 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F166 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "nia"
+    },
+    {
+      "basis": "document frequency 598 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F167 on 2026-10-06.",
+      "decision": "retain",
+      "token": "dam"
+    },
+    {
+      "basis": "document frequency 595 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F168 on 2026-10-06.",
+      "decision": "retain",
+      "token": "krista"
+    },
+    {
+      "basis": "document frequency 593 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F169 on 2026-10-06.",
+      "decision": "retain",
+      "token": "pathianin"
+    },
+    {
+      "basis": "Mostly the connective hek lo ('neither, nor'); the verb (accuse) is the minority.",
+      "decision": "exclude_from_index",
+      "token": "hek"
+    },
+    {
+      "basis": "document frequency 590 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F171 on 2026-10-06.",
+      "decision": "retain",
+      "token": "jerusalem"
+    },
+    {
+      "basis": "document frequency 589 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F172 on 2026-10-06.",
+      "decision": "retain",
+      "token": "tel"
+    },
+    {
+      "basis": "document frequency 585 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F173 on 2026-10-06.",
+      "decision": "retain",
+      "token": "fate"
+    },
+    {
+      "basis": "document frequency 583 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F174 on 2026-10-06.",
+      "decision": "retain",
+      "token": "kawng"
+    },
+    {
+      "basis": "document frequency 583 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F175 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "zîngah"
+    },
+    {
+      "basis": "document frequency 582 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F176 on 2026-10-06.",
+      "decision": "retain",
+      "token": "nu"
+    },
+    {
+      "basis": "Unaccented spelling of the purposive tûr; the noun (poison) is rare.",
+      "decision": "exclude_from_index",
+      "token": "tur"
+    },
+    {
+      "basis": "document frequency 576 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F178 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "tlat"
+    },
+    {
+      "basis": "document frequency 575 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F179 on 2026-10-06.",
+      "decision": "retain",
+      "token": "thiam"
+    },
+    {
+      "basis": "document frequency 571 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F180 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "anni"
+    },
+    {
+      "basis": "document frequency 571 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F181 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "le"
+    },
+    {
+      "basis": "document frequency 568 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F182 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "chauh"
+    },
+    {
+      "basis": "Ambiguous: stem II of hmang 'use', 'have time', and hmân 'formerly'.",
+      "decision": "retain",
+      "token": "hman"
+    },
+    {
+      "basis": "document frequency 565 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F184 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "kei"
+    },
+    {
+      "basis": "document frequency 564 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F185 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "lamah"
+    },
+    {
+      "basis": "Ambiguous: noun 'meat, animal', verbs 'build', 'sing', 'be hot'.",
+      "decision": "retain",
+      "token": "sa"
+    },
+    {
+      "basis": "document frequency 552 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F187 on 2026-10-06.",
+      "decision": "retain",
+      "token": "rama"
+    },
+    {
+      "basis": "document frequency 551 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F188 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "dangte"
+    },
+    {
+      "basis": "document frequency 551 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F189 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "pahnih"
+    },
+    {
+      "basis": "document frequency 550 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F190 on 2026-10-06.",
+      "decision": "retain",
+      "token": "ropui"
+    },
+    {
+      "basis": "document frequency 549 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F191 on 2026-10-06.",
+      "decision": "retain",
+      "token": "mihring"
+    },
+    {
+      "basis": "document frequency 547 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F192 on 2026-10-06.",
+      "decision": "retain",
+      "token": "ngaihtuah"
+    },
+    {
+      "basis": "document frequency 545 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F193 on 2026-10-06.",
+      "decision": "retain",
+      "token": "man"
+    },
+    {
+      "basis": "document frequency 544 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F194 on 2026-10-06.",
+      "decision": "retain",
+      "token": "hmang"
+    },
+    {
+      "basis": "document frequency 539 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F195 on 2026-10-06.",
+      "decision": "retain",
+      "token": "en"
+    },
+    {
+      "basis": "document frequency 538 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F196 on 2026-10-06.",
+      "decision": "retain",
+      "token": "ring"
+    },
+    {
+      "basis": "Combining form of khua 'town, village; weather'; content-bearing.",
+      "decision": "retain",
+      "token": "khaw"
+    },
+    {
+      "basis": "document frequency 531 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F198 on 2026-10-06.",
+      "decision": "retain",
+      "token": "khua"
+    },
+    {
+      "basis": "Ambiguous: numeral 'ten' versus the verb 'invite'.",
+      "decision": "retain",
+      "token": "sâwm"
+    },
+    {
+      "basis": "Mostly the unaccented spelling of the future marker dâwn; the verb (receive) is the minority.",
+      "decision": "exclude_from_index",
+      "token": "dawn"
+    },
+    {
+      "basis": "document frequency 528 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F201 on 2026-10-06.",
+      "decision": "retain",
+      "token": "puan"
+    },
+    {
+      "basis": "document frequency 527 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F202 on 2026-10-06.",
+      "decision": "retain",
+      "token": "puithiam"
+    },
+    {
+      "basis": "document frequency 526 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F203 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "chuvângin"
+    },
+    {
+      "basis": "document frequency 526 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F204 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "rêng"
+    },
+    {
+      "basis": "document frequency 524 of 4974 in the lus review corpus. Decision recorded by C Lalrinawma in Stopwords Mizo!F205 on 2026-10-06.",
+      "decision": "exclude_from_index",
+      "token": "mahni"
+    }
+  ],
+  "language": "lus",
+  "list_version": "1.0.0",
+  "reviewed_at": "2026-10-06",
+  "reviewed_by": "C Lalrinawma",
+  "scope": "production",
+  "status": "approved"
+}

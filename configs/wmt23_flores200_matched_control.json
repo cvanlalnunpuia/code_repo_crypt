@@ -1,0 +1,7 @@
+{
+  "config_version": "1.0.0",
+  "input_selection": "results/corpus/wmt23-selection.json",
+  "target_selection": "results/corpus/flores200-selection.json",
+  "output_selection": "results/corpus/wmt23-flores200-matched-selection.json",
+  "seed": 20260901
+}

@@ -1,0 +1,794 @@
+{
+  "annotation_sha256": "b3a2c368f63139a240ec527026575b9facde50af0a4b5ae6d442b1b4e4e80fc7",
+  "auxiliary_type_output_changes": 382,
+  "by_language": {
+    "en": {
+      "accuracy": 0.925,
+      "correct_count": 37,
+      "item_count": 40
+    },
+    "lus": {
+      "accuracy": 0.82,
+      "correct_count": 41,
+      "item_count": 50
+    }
+  },
+  "clarification_type_output_changes": 227,
+  "config_sha256": "f9f06d8d29cfdbb0ccb972beab028eb34ed9454a7d8482c437638e6444f1b678",
+  "execution_policy": {
+    "algorithm": "reviewer_clarified_repeated_suffix",
+    "annotation_policy": "Expected stems were preserved. Annotation-specific overrides were not added.",
+    "clarification_record": "results/corpus/linguistic-clarification.json",
+    "clarification_source_sha256": "c6d74746c95e6d6b2de19f30abc93755ac46f177a1c8b25f1f404dd98f638d78",
+    "decision_source": "C Lalrinawma's clarification dated 2026-10-07. Implementation authorised by the user.",
+    "exception_scope": "current_form_per_rule",
+    "guarded_suffixes": [],
+    "letter_count": "NFC-normalised letters were counted. Combining marks did not add letters.",
+    "policy_version": "2.0.0",
+    "stopping_condition": "Stop when no permitted rule applies. Every accepted rule strictly shortens the token."
+  },
+  "interpretation": "Agreement on the fixed reviewed sample. Independent held-out accuracy was not estimated.",
+  "items": [
+    {
+      "correct": true,
+      "expected_stem": "under",
+      "language": "en",
+      "predicted_stem": "under",
+      "token": "under"
+    },
+    {
+      "correct": true,
+      "expected_stem": "done",
+      "language": "en",
+      "predicted_stem": "done",
+      "token": "done"
+    },
+    {
+      "correct": true,
+      "expected_stem": "priest",
+      "language": "en",
+      "predicted_stem": "priest",
+      "token": "priest"
+    },
+    {
+      "correct": true,
+      "expected_stem": "could",
+      "language": "en",
+      "predicted_stem": "could",
+      "token": "could"
+    },
+    {
+      "correct": true,
+      "expected_stem": "here",
+      "language": "en",
+      "predicted_stem": "here",
+      "token": "here"
+    },
+    {
+      "correct": true,
+      "expected_stem": "back",
+      "language": "en",
+      "predicted_stem": "back",
+      "token": "back"
+    },
+    {
+      "correct": true,
+      "expected_stem": "just",
+      "language": "en",
+      "predicted_stem": "just",
+      "token": "just"
+    },
+    {
+      "correct": true,
+      "expected_stem": "paul",
+      "language": "en",
+      "predicted_stem": "paul",
+      "token": "paul"
+    },
+    {
+      "correct": true,
+      "expected_stem": "evil",
+      "language": "en",
+      "predicted_stem": "evil",
+      "token": "evil"
+    },
+    {
+      "correct": true,
+      "expected_stem": "togeth",
+      "language": "en",
+      "predicted_stem": "togeth",
+      "token": "together"
+    },
+    {
+      "correct": true,
+      "expected_stem": "thus",
+      "language": "en",
+      "predicted_stem": "thus",
+      "token": "thus"
+    },
+    {
+      "correct": true,
+      "expected_stem": "eye",
+      "language": "en",
+      "predicted_stem": "eye",
+      "token": "eyes"
+    },
+    {
+      "correct": true,
+      "expected_stem": "must",
+      "language": "en",
+      "predicted_stem": "must",
+      "token": "must"
+    },
+    {
+      "correct": true,
+      "expected_stem": "hundr",
+      "language": "en",
+      "predicted_stem": "hundr",
+      "token": "hundred"
+    },
+    {
+      "correct": true,
+      "expected_stem": "high",
+      "language": "en",
+      "predicted_stem": "high",
+      "token": "high"
+    },
+    {
+      "correct": true,
+      "expected_stem": "lalnunfela",
+      "language": "en",
+      "predicted_stem": "lalnunfela",
+      "token": "lalnunfela"
+    },
+    {
+      "correct": true,
+      "expected_stem": "bracelet",
+      "language": "en",
+      "predicted_stem": "bracelet",
+      "token": "bracelets"
+    },
+    {
+      "correct": true,
+      "expected_stem": "zetham",
+      "language": "en",
+      "predicted_stem": "zetham",
+      "token": "zetham"
+    },
+    {
+      "correct": true,
+      "expected_stem": "role",
+      "language": "en",
+      "predicted_stem": "role",
+      "token": "roles"
+    },
+    {
+      "correct": true,
+      "expected_stem": "kanhmun",
+      "language": "en",
+      "predicted_stem": "kanhmun",
+      "token": "kanhmun"
+    },
+    {
+      "correct": true,
+      "expected_stem": "pekahiah",
+      "language": "en",
+      "predicted_stem": "pekahiah",
+      "token": "pekahiah"
+    },
+    {
+      "correct": true,
+      "expected_stem": "symbol",
+      "language": "en",
+      "predicted_stem": "symbol",
+      "token": "symbols"
+    },
+    {
+      "correct": true,
+      "expected_stem": "greec",
+      "language": "en",
+      "predicted_stem": "greec",
+      "token": "greece"
+    },
+    {
+      "correct": true,
+      "expected_stem": "condol",
+      "language": "en",
+      "predicted_stem": "condol",
+      "token": "condolence"
+    },
+    {
+      "correct": true,
+      "expected_stem": "shalal",
+      "language": "en",
+      "predicted_stem": "shalal",
+      "token": "shalal"
+    },
+    {
+      "correct": true,
+      "expected_stem": "hash",
+      "language": "en",
+      "predicted_stem": "hash",
+      "token": "hash"
+    },
+    {
+      "correct": true,
+      "expected_stem": "maher",
+      "language": "en",
+      "predicted_stem": "maher",
+      "token": "maher"
+    },
+    {
+      "correct": true,
+      "expected_stem": "naamathit",
+      "language": "en",
+      "predicted_stem": "naamathit",
+      "token": "naamathite"
+    },
+    {
+      "correct": true,
+      "expected_stem": "zophar",
+      "language": "en",
+      "predicted_stem": "zophar",
+      "token": "zophar"
+    },
+    {
+      "correct": true,
+      "expected_stem": "transgress",
+      "language": "en",
+      "predicted_stem": "transgress",
+      "token": "transgress"
+    },
+    {
+      "correct": true,
+      "expected_stem": "quarter",
+      "language": "en",
+      "predicted_stem": "quarter",
+      "token": "quarters"
+    },
+    {
+      "correct": false,
+      "expected_stem": "wedding",
+      "language": "en",
+      "predicted_stem": "wed",
+      "token": "weddings"
+    },
+    {
+      "correct": false,
+      "expected_stem": "aggarwal",
+      "language": "en",
+      "predicted_stem": "aggarw",
+      "token": "aggarwal"
+    },
+    {
+      "correct": true,
+      "expected_stem": "naveen",
+      "language": "en",
+      "predicted_stem": "naveen",
+      "token": "naveen"
+    },
+    {
+      "correct": true,
+      "expected_stem": "nocturn",
+      "language": "en",
+      "predicted_stem": "nocturn",
+      "token": "nocturnal"
+    },
+    {
+      "correct": true,
+      "expected_stem": "immigr",
+      "language": "en",
+      "predicted_stem": "immigr",
+      "token": "immigrants"
+    },
+    {
+      "correct": true,
+      "expected_stem": "encamp",
+      "language": "en",
+      "predicted_stem": "encamp",
+      "token": "encamps"
+    },
+    {
+      "correct": true,
+      "expected_stem": "tribul",
+      "language": "en",
+      "predicted_stem": "tribul",
+      "token": "tribulations"
+    },
+    {
+      "correct": true,
+      "expected_stem": "repent",
+      "language": "en",
+      "predicted_stem": "repent",
+      "token": "repents"
+    },
+    {
+      "correct": false,
+      "expected_stem": "emphas",
+      "language": "en",
+      "predicted_stem": "emphasis",
+      "token": "emphasised"
+    },
+    {
+      "correct": true,
+      "expected_stem": "atân",
+      "language": "lus",
+      "predicted_stem": "atân",
+      "token": "atân"
+    },
+    {
+      "correct": true,
+      "expected_stem": "chumi",
+      "language": "lus",
+      "predicted_stem": "chumi",
+      "token": "chumi"
+    },
+    {
+      "correct": true,
+      "expected_stem": "nasa",
+      "language": "lus",
+      "predicted_stem": "nasa",
+      "token": "nasa"
+    },
+    {
+      "correct": true,
+      "expected_stem": "sela",
+      "language": "lus",
+      "predicted_stem": "sela",
+      "token": "sela"
+    },
+    {
+      "correct": false,
+      "expected_stem": "lam",
+      "language": "lus",
+      "predicted_stem": "lama",
+      "token": "lama"
+    },
+    {
+      "correct": true,
+      "expected_stem": "khawvêl",
+      "language": "lus",
+      "predicted_stem": "khawvêl",
+      "token": "khawvêl"
+    },
+    {
+      "correct": true,
+      "expected_stem": "thla",
+      "language": "lus",
+      "predicted_stem": "thla",
+      "token": "thla"
+    },
+    {
+      "correct": true,
+      "expected_stem": "ziak",
+      "language": "lus",
+      "predicted_stem": "ziak",
+      "token": "ziak"
+    },
+    {
+      "correct": true,
+      "expected_stem": "chhan",
+      "language": "lus",
+      "predicted_stem": "chhan",
+      "token": "chhan"
+    },
+    {
+      "correct": true,
+      "expected_stem": "lâwm",
+      "language": "lus",
+      "predicted_stem": "lâwm",
+      "token": "lâwm"
+    },
+    {
+      "correct": true,
+      "expected_stem": "hma",
+      "language": "lus",
+      "predicted_stem": "hma",
+      "token": "hmaah"
+    },
+    {
+      "correct": false,
+      "expected_stem": "lalpa",
+      "language": "lus",
+      "predicted_stem": "lalpan",
+      "token": "lalpan"
+    },
+    {
+      "correct": true,
+      "expected_stem": "lang",
+      "language": "lus",
+      "predicted_stem": "lang",
+      "token": "lang"
+    },
+    {
+      "correct": true,
+      "expected_stem": "hun",
+      "language": "lus",
+      "predicted_stem": "hun",
+      "token": "hunah"
+    },
+    {
+      "correct": true,
+      "expected_stem": "aigupta",
+      "language": "lus",
+      "predicted_stem": "aigupta",
+      "token": "aigupta"
+    },
+    {
+      "correct": true,
+      "expected_stem": "remtih",
+      "language": "lus",
+      "predicted_stem": "remtih",
+      "token": "remtihsak"
+    },
+    {
+      "correct": false,
+      "expected_stem": "zawite",
+      "language": "lus",
+      "predicted_stem": "zawi",
+      "token": "zawite"
+    },
+    {
+      "correct": true,
+      "expected_stem": "ṭawngṭai",
+      "language": "lus",
+      "predicted_stem": "ṭawngṭai",
+      "token": "ṭawngṭainaahte"
+    },
+    {
+      "correct": false,
+      "expected_stem": "kutphah",
+      "language": "lus",
+      "predicted_stem": "kutphaha",
+      "token": "kutphaha"
+    },
+    {
+      "correct": true,
+      "expected_stem": "sárlàmkai",
+      "language": "lus",
+      "predicted_stem": "sárlàmkai",
+      "token": "sárlàmkai"
+    },
+    {
+      "correct": true,
+      "expected_stem": "inchhawk",
+      "language": "lus",
+      "predicted_stem": "inchhawk",
+      "token": "inchhawk"
+    },
+    {
+      "correct": false,
+      "expected_stem": "ethnana",
+      "language": "lus",
+      "predicted_stem": "eth",
+      "token": "ethnana"
+    },
+    {
+      "correct": true,
+      "expected_stem": "thinur",
+      "language": "lus",
+      "predicted_stem": "thinur",
+      "token": "thinurthlâk"
+    },
+    {
+      "correct": true,
+      "expected_stem": "uikawm",
+      "language": "lus",
+      "predicted_stem": "uikawm",
+      "token": "uikawm"
+    },
+    {
+      "correct": false,
+      "expected_stem": "thîntu",
+      "language": "lus",
+      "predicted_stem": "thîn",
+      "token": "thîntu"
+    },
+    {
+      "correct": true,
+      "expected_stem": "inspector",
+      "language": "lus",
+      "predicted_stem": "inspector",
+      "token": "inspector"
+    },
+    {
+      "correct": true,
+      "expected_stem": "azazia",
+      "language": "lus",
+      "predicted_stem": "azazia",
+      "token": "azazia"
+    },
+    {
+      "correct": true,
+      "expected_stem": "pian",
+      "language": "lus",
+      "predicted_stem": "pian",
+      "token": "piantîr"
+    },
+    {
+      "correct": true,
+      "expected_stem": "ên",
+      "language": "lus",
+      "predicted_stem": "ên",
+      "token": "êntute"
+    },
+    {
+      "correct": true,
+      "expected_stem": "kumkulh",
+      "language": "lus",
+      "predicted_stem": "kumkulh",
+      "token": "kumkulhah"
+    },
+    {
+      "correct": false,
+      "expected_stem": "malpui",
+      "language": "lus",
+      "predicted_stem": "mal",
+      "token": "malpuiah"
+    },
+    {
+      "correct": true,
+      "expected_stem": "paih",
+      "language": "lus",
+      "predicted_stem": "paih",
+      "token": "paihtîr"
+    },
+    {
+      "correct": true,
+      "expected_stem": "dîpdâl",
+      "language": "lus",
+      "predicted_stem": "dîpdâl",
+      "token": "dîpdâl"
+    },
+    {
+      "correct": true,
+      "expected_stem": "aggarwal",
+      "language": "lus",
+      "predicted_stem": "aggarwal",
+      "token": "aggarwal"
+    },
+    {
+      "correct": true,
+      "expected_stem": "naveen",
+      "language": "lus",
+      "predicted_stem": "naveen",
+      "token": "naveen"
+    },
+    {
+      "correct": true,
+      "expected_stem": "hnîm",
+      "language": "lus",
+      "predicted_stem": "hnîm",
+      "token": "hnîm"
+    },
+    {
+      "correct": false,
+      "expected_stem": "awih",
+      "language": "lus",
+      "predicted_stem": "awihawm",
+      "token": "awihawm"
+    },
+    {
+      "correct": true,
+      "expected_stem": "chhawih",
+      "language": "lus",
+      "predicted_stem": "chhawih",
+      "token": "chhawih"
+    },
+    {
+      "correct": false,
+      "expected_stem": "zirnain",
+      "language": "lus",
+      "predicted_stem": "zir",
+      "token": "zirnain"
+    },
+    {
+      "correct": true,
+      "expected_stem": "hmusit",
+      "language": "lus",
+      "predicted_stem": "hmusit",
+      "token": "hmusitin"
+    },
+    {
+      "correct": true,
+      "expected_stem": "thlah",
+      "language": "lus",
+      "predicted_stem": "thlah",
+      "token": "thlahte"
+    },
+    {
+      "correct": true,
+      "expected_stem": "dang",
+      "language": "lus",
+      "predicted_stem": "dang",
+      "token": "dangte"
+    },
+    {
+      "correct": true,
+      "expected_stem": "theih",
+      "language": "lus",
+      "predicted_stem": "theih",
+      "token": "theihna"
+    },
+    {
+      "correct": true,
+      "expected_stem": "johana",
+      "language": "lus",
+      "predicted_stem": "johana",
+      "token": "johana"
+    },
+    {
+      "correct": true,
+      "expected_stem": "avâng",
+      "language": "lus",
+      "predicted_stem": "avâng",
+      "token": "avângin"
+    },
+    {
+      "correct": true,
+      "expected_stem": "pawh",
+      "language": "lus",
+      "predicted_stem": "pawh",
+      "token": "pawhin"
+    },
+    {
+      "correct": true,
+      "expected_stem": "hnên",
+      "language": "lus",
+      "predicted_stem": "hnên",
+      "token": "hnênah"
+    },
+    {
+      "correct": true,
+      "expected_stem": "chung",
+      "language": "lus",
+      "predicted_stem": "chung",
+      "token": "chungah"
+    },
+    {
+      "correct": true,
+      "expected_stem": "thleng",
+      "language": "lus",
+      "predicted_stem": "thleng",
+      "token": "thleng"
+    },
+    {
+      "correct": true,
+      "expected_stem": "chhûng",
+      "language": "lus",
+      "predicted_stem": "chhûng",
+      "token": "chhûng"
+    }
+  ],
+  "output_change_examples": [
+    {
+      "repeated": "ach",
+      "single_pass": "achin",
+      "token": "achinah"
+    },
+    {
+      "repeated": "aiawh",
+      "single_pass": "aiawhtu",
+      "token": "aiawhtuah"
+    },
+    {
+      "repeated": "arsi",
+      "single_pass": "arsiah",
+      "token": "arsiahte"
+    },
+    {
+      "repeated": "avâng",
+      "single_pass": "avângte",
+      "token": "avângtein"
+    },
+    {
+      "repeated": "awm",
+      "single_pass": "awmpui",
+      "token": "awmpuitu"
+    },
+    {
+      "repeated": "awm",
+      "single_pass": "awmsak",
+      "token": "awmsaktu"
+    },
+    {
+      "repeated": "awm",
+      "single_pass": "awmtîr",
+      "token": "awmtîrte"
+    },
+    {
+      "repeated": "awm",
+      "single_pass": "awmtîr",
+      "token": "awmtîrtu"
+    },
+    {
+      "repeated": "aṭang",
+      "single_pass": "aṭangte",
+      "token": "aṭangtein"
+    },
+    {
+      "repeated": "bahl",
+      "single_pass": "bahlah",
+      "token": "bahlahna"
+    },
+    {
+      "repeated": "ban",
+      "single_pass": "banah",
+      "token": "banahte"
+    },
+    {
+      "repeated": "bang",
+      "single_pass": "bangah",
+      "token": "bangahte"
+    },
+    {
+      "repeated": "belhchh",
+      "single_pass": "belhchhah",
+      "token": "belhchhahin"
+    },
+    {
+      "repeated": "belhchh",
+      "single_pass": "belhchhah",
+      "token": "belhchhahna"
+    },
+    {
+      "repeated": "ber",
+      "single_pass": "berah",
+      "token": "berahte"
+    },
+    {
+      "repeated": "buai",
+      "single_pass": "buaithlâk",
+      "token": "buaithlâkna"
+    },
+    {
+      "repeated": "buak",
+      "single_pass": "buaktîr",
+      "token": "buaktîrin"
+    },
+    {
+      "repeated": "bul",
+      "single_pass": "bulah",
+      "token": "bulahte"
+    },
+    {
+      "repeated": "bâwl",
+      "single_pass": "bâwlsak",
+      "token": "bâwlsakna"
+    },
+    {
+      "repeated": "bâwl",
+      "single_pass": "bâwlsak",
+      "token": "bâwlsakte"
+    }
+  ],
+  "overall": {
+    "accuracy": 0.8666666666666667,
+    "correct_count": 78,
+    "item_count": 90
+  },
+  "wordlist_document_count": 1658,
+  "wordlist_token_count": 15457,
+  "worked_examples": [
+    {
+      "expected": "ṭawngṭai",
+      "output": "ṭawngṭai",
+      "token": "ṭawngṭainaahte"
+    },
+    {
+      "expected": "khawpui",
+      "output": "khawpui",
+      "token": "khawpuite"
+    },
+    {
+      "expected": "thlah",
+      "output": "thlah",
+      "token": "thlahte"
+    },
+    {
+      "expected": "rorêl",
+      "output": "rorêl",
+      "token": "rorêltuten"
+    }
+  ]
+}

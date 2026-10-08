@@ -1,0 +1,9 @@
+{
+  "config_version": "1.0.0",
+  "stopword_condition": "configs/stopword_removal_fixture.json",
+  "stemmer_specifications": {
+    "en": "resources/stemmers/en-fixture.json",
+    "lus": "resources/stemmers/lus-fixture.json"
+  },
+  "required_scope": "synthetic_fixture"
+}

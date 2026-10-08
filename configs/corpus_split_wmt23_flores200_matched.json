@@ -1,0 +1,7 @@
+{
+  "config_version": "1.0.0",
+  "selection": "results/corpus/wmt23-flores200-matched-selection.json",
+  "mode": "disjoint_by_matched_pair",
+  "auxiliary_fraction": 0.3333333333333333,
+  "seed": 20260901
+}

@@ -1,0 +1,27 @@
+{
+  "specification_version": "1.0.0",
+  "language": "lus",
+  "scope": "synthetic_fixture",
+  "status": "approved",
+  "algorithm": "suffix_strip_v1",
+  "reviewed_by": "automated-fixture",
+  "reviewed_at": "2026-09-01",
+  "rules": [
+    {
+      "suffix": "na",
+      "replacement": "",
+      "minimum_stem_letter_count": 4,
+      "priority": 10,
+      "exceptions": ["mana"],
+      "basis": "synthetic pipeline check"
+    },
+    {
+      "suffix": "te",
+      "replacement": "",
+      "minimum_stem_letter_count": 3,
+      "priority": 20,
+      "exceptions": ["tute"],
+      "basis": "synthetic pipeline check"
+    }
+  ]
+}

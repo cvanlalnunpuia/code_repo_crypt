@@ -1,0 +1,315 @@
+{
+  "case_count": 18,
+  "cases": [
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "condition": "tokenisation_only",
+      "exact_checkpoint_reconstruction": true,
+      "exhaustive_updates": true,
+      "free_fraction": 0.5,
+      "iterations_checked": 1000,
+      "language": "en",
+      "maximum_cost_error": 2.2737367544323206e-13,
+      "seed": 0,
+      "tie_updates": 0
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "condition": "tokenisation_only",
+      "exact_checkpoint_reconstruction": true,
+      "exhaustive_updates": true,
+      "free_fraction": 0.5,
+      "iterations_checked": 1000,
+      "language": "en",
+      "maximum_cost_error": 2.2737367544323206e-13,
+      "seed": 1,
+      "tie_updates": 0
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "condition": "tokenisation_only",
+      "exact_checkpoint_reconstruction": true,
+      "exhaustive_updates": true,
+      "free_fraction": 0.5,
+      "iterations_checked": 1000,
+      "language": "en",
+      "maximum_cost_error": 2.2737367544323206e-13,
+      "seed": 2,
+      "tie_updates": 0
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "condition": "stopword_removal",
+      "exact_checkpoint_reconstruction": true,
+      "exhaustive_updates": true,
+      "free_fraction": 0.5,
+      "iterations_checked": 1000,
+      "language": "en",
+      "maximum_cost_error": 2.2737367544323206e-13,
+      "seed": 0,
+      "tie_updates": 61
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "condition": "stopword_removal",
+      "exact_checkpoint_reconstruction": true,
+      "exhaustive_updates": true,
+      "free_fraction": 0.5,
+      "iterations_checked": 1000,
+      "language": "en",
+      "maximum_cost_error": 2.2737367544323206e-13,
+      "seed": 1,
+      "tie_updates": 45
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "condition": "stopword_removal",
+      "exact_checkpoint_reconstruction": true,
+      "exhaustive_updates": true,
+      "free_fraction": 0.5,
+      "iterations_checked": 1000,
+      "language": "en",
+      "maximum_cost_error": 2.2737367544323206e-13,
+      "seed": 2,
+      "tie_updates": 45
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "condition": "stemming",
+      "exact_checkpoint_reconstruction": true,
+      "exhaustive_updates": true,
+      "free_fraction": 0.5,
+      "iterations_checked": 1000,
+      "language": "en",
+      "maximum_cost_error": 2.2737367544323206e-13,
+      "seed": 0,
+      "tie_updates": 60
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "condition": "stemming",
+      "exact_checkpoint_reconstruction": true,
+      "exhaustive_updates": true,
+      "free_fraction": 0.5,
+      "iterations_checked": 1000,
+      "language": "en",
+      "maximum_cost_error": 2.2737367544323206e-13,
+      "seed": 1,
+      "tie_updates": 47
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "condition": "stemming",
+      "exact_checkpoint_reconstruction": true,
+      "exhaustive_updates": true,
+      "free_fraction": 0.5,
+      "iterations_checked": 1000,
+      "language": "en",
+      "maximum_cost_error": 2.2737367544323206e-13,
+      "seed": 2,
+      "tie_updates": 43
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "condition": "tokenisation_only",
+      "exact_checkpoint_reconstruction": true,
+      "exhaustive_updates": true,
+      "free_fraction": 0.5,
+      "iterations_checked": 1000,
+      "language": "lus",
+      "maximum_cost_error": 2.2737367544323206e-13,
+      "seed": 0,
+      "tie_updates": 47
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "condition": "tokenisation_only",
+      "exact_checkpoint_reconstruction": true,
+      "exhaustive_updates": true,
+      "free_fraction": 0.5,
+      "iterations_checked": 1000,
+      "language": "lus",
+      "maximum_cost_error": 2.2737367544323206e-13,
+      "seed": 1,
+      "tie_updates": 50
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "condition": "tokenisation_only",
+      "exact_checkpoint_reconstruction": true,
+      "exhaustive_updates": true,
+      "free_fraction": 0.5,
+      "iterations_checked": 1000,
+      "language": "lus",
+      "maximum_cost_error": 2.2737367544323206e-13,
+      "seed": 2,
+      "tie_updates": 40
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "condition": "stopword_removal",
+      "exact_checkpoint_reconstruction": true,
+      "exhaustive_updates": true,
+      "free_fraction": 0.5,
+      "iterations_checked": 1000,
+      "language": "lus",
+      "maximum_cost_error": 1.7053025658242404e-13,
+      "seed": 0,
+      "tie_updates": 0
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "condition": "stopword_removal",
+      "exact_checkpoint_reconstruction": true,
+      "exhaustive_updates": true,
+      "free_fraction": 0.5,
+      "iterations_checked": 1000,
+      "language": "lus",
+      "maximum_cost_error": 1.7053025658242404e-13,
+      "seed": 1,
+      "tie_updates": 0
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "condition": "stopword_removal",
+      "exact_checkpoint_reconstruction": true,
+      "exhaustive_updates": true,
+      "free_fraction": 0.5,
+      "iterations_checked": 1000,
+      "language": "lus",
+      "maximum_cost_error": 1.7053025658242404e-13,
+      "seed": 2,
+      "tie_updates": 0
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "condition": "stemming",
+      "exact_checkpoint_reconstruction": true,
+      "exhaustive_updates": true,
+      "free_fraction": 0.5,
+      "iterations_checked": 1000,
+      "language": "lus",
+      "maximum_cost_error": 2.2737367544323206e-13,
+      "seed": 0,
+      "tie_updates": 0
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "condition": "stemming",
+      "exact_checkpoint_reconstruction": true,
+      "exhaustive_updates": true,
+      "free_fraction": 0.5,
+      "iterations_checked": 1000,
+      "language": "lus",
+      "maximum_cost_error": 2.2737367544323206e-13,
+      "seed": 1,
+      "tie_updates": 0
+    },
+    {
+      "checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "condition": "stemming",
+      "exact_checkpoint_reconstruction": true,
+      "exhaustive_updates": true,
+      "free_fraction": 0.5,
+      "iterations_checked": 1000,
+      "language": "lus",
+      "maximum_cost_error": 2.2737367544323206e-13,
+      "seed": 2,
+      "tie_updates": 0
+    }
+  ],
+  "fixture_sha256": "f27c50a16e673913837001b73cc1a7d0db6e0e6eb7d8da76f49d3c1261f4f9c6",
+  "iterations_per_case": 1000,
+  "scope": "All recorded small-fixture update costs and selected assignment minima were checked independently. Checkpoints were reconstructed from the recorded updates. Tied optimal assignments were accepted. An independently selected trajectory and production-scale equivalence were unvalidated. The Enron reference mismatch remained unresolved.",
+  "seed_count": 3
+}

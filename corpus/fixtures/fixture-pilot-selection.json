@@ -1,0 +1,46 @@
+{
+  "algorithm": "deterministic_greedy_pair_matching_v1",
+  "config": {
+    "config_version": "1.0.0",
+    "languages": [
+      "lus",
+      "en"
+    ],
+    "max_date_gap_days": 7,
+    "max_length_ratio": 2.0,
+    "require_publication_time": true,
+    "require_unique": true,
+    "source_id": "fixture_news",
+    "target_pairs": 1,
+    "tie_break_seed": 20260901
+  },
+  "config_sha256": "662cacc3e0d756c3342b23334e165f56bb01cebfd4318c2d1632df16b984da97",
+  "eligible_counts": {
+    "en": 1,
+    "lus": 1
+  },
+  "exclusions": [
+    {
+      "reason": "duplicate",
+      "record_id": "bea01fe75b298ee663940f3a0b46e964c3229c62246125c9ecce704a9b0c514d"
+    },
+    {
+      "reason": "duplicate",
+      "record_id": "cc8cf832a6d4520975b9f9ef7bc2cbaff520c3f0a8dc45d75f04630f7eb61235"
+    }
+  ],
+  "input_sha256": "b2c7a2362a9df7e16620ea3e2f4c2b3ecd6132751698820cd5e39e533fb4dd9b",
+  "pairs": [
+    {
+      "date_gap_days": 2.0,
+      "en": "fb786e837071a41835e0f95eb2668efddef81f703d22dd08aa582202382351f7",
+      "en_word_count": 26,
+      "length_ratio": 1.346154,
+      "lus": "bd420626daa0e77ce304ffefa6e4dca2b6f50e4252d960b04325a3528d01ba08",
+      "lus_word_count": 35,
+      "matching_cost": 0.714558
+    }
+  ],
+  "selected_pair_count": 1,
+  "selected_record_count": 2
+}

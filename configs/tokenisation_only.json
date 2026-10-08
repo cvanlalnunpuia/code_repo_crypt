@@ -1,0 +1,12 @@
+{
+  "config_version": "1.0.0",
+  "indexed_fields": ["title", "body"],
+  "unicode_form": "NFC",
+  "casefold": true,
+  "keep_internal_apostrophe": true,
+  "keep_internal_hyphen": false,
+  "include_numeric_tokens": false,
+  "minimum_letter_count": 2,
+  "minimum_document_frequency": 1,
+  "maximum_document_frequency_ratio": 1.0
+}

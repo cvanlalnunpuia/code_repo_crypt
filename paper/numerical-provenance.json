@@ -1,0 +1,1093 @@
+{
+  "author_policy": "The six-author order, affiliations and email addresses were supplied by the user.",
+  "authors": [
+    {
+      "affiliation": "Department of Computer Engineering, Mizoram University, Aizawl, 796004",
+      "email": "mzut160@mzu.edu.in",
+      "name": "Vanlalhruaia"
+    },
+    {
+      "affiliation": "Department of Information Technology, Mizoram University, Aizawl, 796004",
+      "email": "rinchawngthu777@gmail.com",
+      "name": "C Lalrinawma"
+    },
+    {
+      "affiliation": "Department of Computer Engineering, Mizoram University, Aizawl, 796004",
+      "corresponding": true,
+      "email": "mzu230006869@mzu.edu.in",
+      "name": "C Vanlalnunpuia"
+    },
+    {
+      "affiliation": "Department of Information Technology, North Eastern Hill University, Shillong, 793022",
+      "email": "phibansabeth@nehu.ac.in",
+      "name": "Phibansabeth Nongkseh"
+    },
+    {
+      "affiliation": "Department of Computer Engineering, Mizoram University, Aizawl, 796004",
+      "email": "duskeralte777@gmail.com",
+      "name": "R Lalduhsaka"
+    },
+    {
+      "affiliation": "Department of Computer Engineering, Mizoram University, Aizawl, 796004",
+      "email": "zaiamay94@gmail.com",
+      "name": "Zaitinkhuma Thihlum"
+    }
+  ],
+  "corresponding_author_email": "mzu230006869@mzu.edu.in",
+  "facts": {
+    "Alpha": {
+      "rendered": "0.05",
+      "selector": "1 - config.confidence_level",
+      "source": "production",
+      "value": 0.050000000000000044
+    },
+    "BalancedPairs": {
+      "rendered": "253",
+      "selector": "matched_pair_count",
+      "source": "balanced",
+      "value": 253
+    },
+    "BalancedSensitivityMax": {
+      "rendered": "0.1255",
+      "selector": "maximum English Zipf weighted FLORES-minus-WMT23 partition mean",
+      "source": "revision_results",
+      "value": 0.12546666666666664
+    },
+    "BalancedSensitivityMin": {
+      "rendered": "-0.0398",
+      "selector": "minimum English Zipf weighted FLORES-minus-WMT23 partition mean",
+      "source": "revision_results",
+      "value": -0.039799999999999974
+    },
+    "BalancedSignificant": {
+      "rendered": "6",
+      "selector": "comparisons adjusted p < 0.05",
+      "source": "balanced",
+      "value": 6
+    },
+    "BalancedSplitSeed": {
+      "rendered": "20260902",
+      "selector": "split_seed",
+      "source": "balanced_split_config",
+      "value": 20260902
+    },
+    "CandidateBudget": {
+      "rendered": "1",
+      "selector": "min(candidate_set_budgets)",
+      "source": "cooccurrence_similarity",
+      "value": 1
+    },
+    "CollisionPairs": {
+      "rendered": "62",
+      "selector": "max(forced_pair_counts)",
+      "source": "access_collision",
+      "value": 62
+    },
+    "ConfidencePercent": {
+      "rendered": "95",
+      "selector": "config.confidence_level * 100",
+      "source": "production",
+      "value": 95.0
+    },
+    "ControlledKeywords": {
+      "rendered": "250",
+      "selector": "controlled_keywords",
+      "source": "revision_config",
+      "value": 250
+    },
+    "ENControlledStemZipfDifference": {
+      "rendered": "0.0624",
+      "selector": "en controlled Zipf weighted stemming-minus-stopwords mean",
+      "source": "revision_results",
+      "value": 0.062400000000000067
+    },
+    "ENStemUniformPercent": {
+      "rendered": "5.35",
+      "selector": "en:stemming:uniform_iid weighted mean * 100",
+      "source": "production",
+      "value": 5.346
+    },
+    "ENStopUniformPercent": {
+      "rendered": "5.75",
+      "selector": "en:stopword_removal:uniform_iid weighted mean * 100",
+      "source": "production",
+      "value": 5.747999999999999
+    },
+    "ENTokenUniformPercent": {
+      "rendered": "13.45",
+      "selector": "en:tokenisation_only:uniform_iid weighted mean * 100",
+      "source": "production",
+      "value": 13.453999999999999
+    },
+    "ENTokenZipfMacro": {
+      "rendered": "0.1485",
+      "selector": "en:tokenisation_only:zipf_iid distinct_keyword_macro_recovery mean",
+      "source": "production",
+      "value": 0.1485249170108809
+    },
+    "ENTokenZipfWeighted": {
+      "rendered": "0.5907",
+      "selector": "en:tokenisation_only:zipf_iid query_weighted_recovery mean",
+      "source": "production",
+      "value": 0.59068
+    },
+    "EnglishStemMatched": {
+      "rendered": "37",
+      "selector": "by_language.en.correct_count",
+      "source": "stemming",
+      "value": 37
+    },
+    "EnglishStemTotal": {
+      "rendered": "40",
+      "selector": "by_language.en.item_count",
+      "source": "stemming",
+      "value": 40
+    },
+    "EnglishStopwords": {
+      "rendered": "116",
+      "selector": "stopwords.en.counts.exclude_from_index",
+      "source": "review",
+      "value": 116
+    },
+    "EnronAuxiliary": {
+      "rendered": "10000",
+      "selector": "selected_documents - client_documents_after_split",
+      "source": "keyword_size",
+      "value": 10000
+    },
+    "EnronClient": {
+      "rendered": "20000",
+      "selector": "client_documents_after_split",
+      "source": "keyword_size",
+      "value": 20000
+    },
+    "EnronHigh": {
+      "rendered": "0.9813",
+      "selector": "aggregate_metrics.query_weighted_recovery.1000.confidence_interval_high",
+      "source": "enron",
+      "value": 0.9813211696843458
+    },
+    "EnronLow": {
+      "rendered": "0.9611",
+      "selector": "aggregate_metrics.query_weighted_recovery.1000.confidence_interval_low",
+      "source": "enron",
+      "value": 0.9610788303156541
+    },
+    "EnronMean": {
+      "rendered": "0.9712",
+      "selector": "aggregate_metrics.query_weighted_recovery.1000.mean",
+      "source": "enron",
+      "value": 0.9712
+    },
+    "FinalIterations": {
+      "rendered": "1000",
+      "selector": "checkpoint",
+      "source": "production",
+      "value": 1000
+    },
+    "FloresMarkerEN": {
+      "rendered": "1.19",
+      "selector": "religious_markers.flores200.en.any_marker_document_percentage",
+      "source": "balanced",
+      "value": 1.1857707509881423
+    },
+    "FloresMarkerLUS": {
+      "rendered": "1.98",
+      "selector": "religious_markers.flores200.lus.any_marker_document_percentage",
+      "source": "balanced",
+      "value": 1.976284584980237
+    },
+    "FreeFraction": {
+      "rendered": "0.25",
+      "selector": "config.free_fraction",
+      "source": "experiment",
+      "value": 0.25
+    },
+    "IdenticalPairs": {
+      "rendered": "0",
+      "selector": "common client.identical_access_pair_count",
+      "source": "structure",
+      "value": 0
+    },
+    "IndependentDocuments": {
+      "rendered": "200",
+      "selector": "independent_check.documents",
+      "source": "revision_diagnostics",
+      "value": 200
+    },
+    "IndependentKeywords": {
+      "rendered": "6",
+      "selector": "independent_check.keyword_count",
+      "source": "revision_diagnostics",
+      "value": 6
+    },
+    "InterventionKeywords": {
+      "rendered": "250",
+      "selector": "keyword_count",
+      "source": "access_collision",
+      "value": 250
+    },
+    "IterativeCases": {
+      "rendered": "18",
+      "selector": "len(cases)",
+      "source": "iterative",
+      "value": 18
+    },
+    "IterativeFreeFraction": {
+      "rendered": "0.50",
+      "selector": "cases[0].free_fraction",
+      "source": "iterative",
+      "value": 0.5
+    },
+    "IterativeSeeds": {
+      "rendered": "3",
+      "selector": "seed_count",
+      "source": "iterative",
+      "value": 3
+    },
+    "IterativeSteps": {
+      "rendered": "1000",
+      "selector": "iterations_per_case",
+      "source": "iterative",
+      "value": 1000
+    },
+    "Keywords": {
+      "rendered": "500",
+      "selector": "keyword_count",
+      "source": "production",
+      "value": 500
+    },
+    "LUSControlledStemZipfDifference": {
+      "rendered": "-0.0547",
+      "selector": "lus controlled Zipf weighted stemming-minus-stopwords mean",
+      "source": "revision_results",
+      "value": -0.05466666666666664
+    },
+    "LUSStemUniformPercent": {
+      "rendered": "7.19",
+      "selector": "lus:stemming:uniform_iid weighted mean * 100",
+      "source": "production",
+      "value": 7.19
+    },
+    "LUSStopUniformPercent": {
+      "rendered": "6.95",
+      "selector": "lus:stopword_removal:uniform_iid weighted mean * 100",
+      "source": "production",
+      "value": 6.952
+    },
+    "LUSTokenUniformPercent": {
+      "rendered": "11.91",
+      "selector": "lus:tokenisation_only:uniform_iid weighted mean * 100",
+      "source": "production",
+      "value": 11.908000000000001
+    },
+    "LUSTokenZipfMacro": {
+      "rendered": "0.1129",
+      "selector": "lus:tokenisation_only:zipf_iid distinct_keyword_macro_recovery mean",
+      "source": "production",
+      "value": 0.11292830825007773
+    },
+    "LUSTokenZipfWeighted": {
+      "rendered": "0.5617",
+      "selector": "lus:tokenisation_only:zipf_iid query_weighted_recovery mean",
+      "source": "production",
+      "value": 0.56172
+    },
+    "LanguageFamily": {
+      "rendered": "12",
+      "selector": "len(language_comparisons)",
+      "source": "production",
+      "value": 12
+    },
+    "LanguageSignificant": {
+      "rendered": "5",
+      "selector": "language_comparisons adjusted p < 0.05",
+      "source": "production",
+      "value": 5
+    },
+    "LengthRatio": {
+      "rendered": "1.25",
+      "selector": "maximum_length_ratio",
+      "source": "balanced",
+      "value": 1.25
+    },
+    "MatchedEnglishDifference": {
+      "rendered": "0.1893",
+      "selector": "en zipf_iid weighted difference",
+      "source": "matched",
+      "value": 0.18934
+    },
+    "MatchedEnglishP": {
+      "rendered": "0.0156",
+      "selector": "en zipf_iid weighted Holm p",
+      "source": "matched",
+      "value": 0.015625
+    },
+    "MatchedPairs": {
+      "rendered": "562",
+      "selector": "corpus_structure.flores200.paired_document_count",
+      "source": "matched",
+      "value": 562
+    },
+    "MatchedSelectionSeed": {
+      "rendered": "20260901",
+      "selector": "seed",
+      "source": "matched_selection_config",
+      "value": 20260901
+    },
+    "MinimumLetters": {
+      "rendered": "2",
+      "selector": "minimum_letter_count",
+      "source": "tokenisation",
+      "value": 2
+    },
+    "MizoRules": {
+      "rendered": "15",
+      "selector": "len(rules)",
+      "source": "rules",
+      "value": 15
+    },
+    "MizoStemMatched": {
+      "rendered": "41",
+      "selector": "by_language.lus.correct_count",
+      "source": "stemming",
+      "value": 41
+    },
+    "MizoStemTotal": {
+      "rendered": "50",
+      "selector": "by_language.lus.item_count",
+      "source": "stemming",
+      "value": 50
+    },
+    "MizoStopwords": {
+      "rendered": "117",
+      "selector": "stopwords.lus.counts.exclude_from_index",
+      "source": "review",
+      "value": 117
+    },
+    "NearDuplicatePairs": {
+      "rendered": "0",
+      "selector": "sum(near_duplicates.cross_partition_pair_count)",
+      "source": "revision_diagnostics",
+      "value": 0
+    },
+    "NearDuplicateThreshold": {
+      "rendered": "0.80",
+      "selector": "near_duplicate_jaccard",
+      "source": "revision_config",
+      "value": 0.8
+    },
+    "NltkVersion": {
+      "rendered": "3.7",
+      "selector": "nltk version",
+      "source": "requirements-2022.lock",
+      "value": "3.7"
+    },
+    "NumpyVersion": {
+      "rendered": "1.22.3",
+      "selector": "NumpyVersion",
+      "source": "executing_runtime",
+      "value": "1.22.3"
+    },
+    "OverStemming": {
+      "rendered": "5",
+      "selector": "over-stemming count",
+      "source": "clarification",
+      "value": 5
+    },
+    "PreprocessingFamily": {
+      "rendered": "24",
+      "selector": "len(preprocessing_comparisons)",
+      "source": "production",
+      "value": 24
+    },
+    "PreprocessingSignificant": {
+      "rendered": "11",
+      "selector": "preprocessing_comparisons adjusted p < 0.05",
+      "source": "production",
+      "value": 11
+    },
+    "ProductionPairs": {
+      "rendered": "4974",
+      "selector": "document_count[0]",
+      "source": "production",
+      "value": 4974
+    },
+    "ProductionRuns": {
+      "rendered": "120",
+      "selector": "run_count",
+      "source": "production",
+      "value": 120
+    },
+    "ProductionSplitSeed": {
+      "rendered": "20260901",
+      "selector": "seed",
+      "source": "production_split_config",
+      "value": 20260901
+    },
+    "PythonVersion": {
+      "rendered": "3.9.12",
+      "selector": "PythonVersion",
+      "source": "executing_runtime",
+      "value": "3.9.12"
+    },
+    "QueriesPerKeyword": {
+      "rendered": "10",
+      "selector": "config.query_count_per_keyword",
+      "source": "experiment",
+      "value": 10
+    },
+    "RealCheckCases": {
+      "rendered": "6",
+      "selector": "case_count",
+      "source": "real_check",
+      "value": 6
+    },
+    "ScipyVersion": {
+      "rendered": "1.8.0",
+      "selector": "ScipyVersion",
+      "source": "executing_runtime",
+      "value": "1.8.0"
+    },
+    "SeedCount": {
+      "rendered": "10",
+      "selector": "len(seeds)",
+      "source": "production",
+      "value": 10
+    },
+    "SensitivityAttackSeeds": {
+      "rendered": "0, 1, 2",
+      "selector": "attack_seeds",
+      "source": "revision_config",
+      "value": "0, 1, 2"
+    },
+    "SensitivityDirectionCount": {
+      "rendered": "15",
+      "selector": "named comparisons times additional partitions",
+      "source": "revision_results",
+      "value": 15
+    },
+    "SensitivityPartitionSeeds": {
+      "rendered": "20261007, 20261008, 20261009",
+      "selector": "partition_seeds",
+      "source": "revision_config",
+      "value": "20261007, 20261008, 20261009"
+    },
+    "SensitivityPartitions": {
+      "rendered": "3",
+      "selector": "len(partition_seeds)",
+      "source": "revision_config",
+      "value": 3
+    },
+    "SensitivityPositiveDirections": {
+      "rendered": "3",
+      "selector": "positive Mizo-minus-English means for the original named comparisons across additional partitions",
+      "source": "revision_results",
+      "value": 3
+    },
+    "SensitivityRuns": {
+      "rendered": "222",
+      "selector": "run_count",
+      "source": "revision_results",
+      "value": 222
+    },
+    "SensitivitySeeds": {
+      "rendered": "3",
+      "selector": "len(attack_seeds)",
+      "source": "revision_config",
+      "value": 3
+    },
+    "SentencesPerBlock": {
+      "rendered": "10",
+      "selector": "sentences_per_document",
+      "source": "wmt_config",
+      "value": 10
+    },
+    "ShuffledWeightedMax": {
+      "rendered": "0.0802",
+      "selector": "maximum shuffled-rank weighted mean",
+      "source": "revision_results",
+      "value": 0.0802
+    },
+    "ShuffledWeightedMin": {
+      "rendered": "0.0164",
+      "selector": "minimum shuffled-rank weighted mean",
+      "source": "revision_results",
+      "value": 0.0164
+    },
+    "SimilarityPairs": {
+      "rendered": "31",
+      "selector": "pair_count",
+      "source": "access_similarity",
+      "value": 31
+    },
+    "SmokeExpected": {
+      "rendered": "0.952",
+      "selector": "expected_recovery[-1]",
+      "source": "smoke",
+      "value": 0.952
+    },
+    "SmokeObserved": {
+      "rendered": "0.972",
+      "selector": "observed_accuracy[-1]",
+      "source": "smoke",
+      "value": 0.972
+    },
+    "SourceRows": {
+      "rendered": "50000",
+      "selector": "source_row_count",
+      "source": "audit",
+      "value": 50000
+    },
+    "UnderStemming": {
+      "rendered": "4",
+      "selector": "under-stemming count",
+      "source": "clarification",
+      "value": 4
+    },
+    "UpstreamRevision": {
+      "rendered": "10631a10e3ec461ad01d38fc74f7933d31062ba5",
+      "selector": "upstream_revision",
+      "source": "experiment",
+      "value": "10631a10e3ec461ad01d38fc74f7933d31062ba5"
+    },
+    "WMTMarkerEN": {
+      "rendered": "67.59",
+      "selector": "religious_markers.wmt23.en.any_marker_document_percentage",
+      "source": "balanced",
+      "value": 67.58893280632411
+    },
+    "WMTMarkerLUS": {
+      "rendered": "78.26",
+      "selector": "religious_markers.wmt23.lus.any_marker_document_percentage",
+      "source": "balanced",
+      "value": 78.26086956521739
+    },
+    "ZipfObservedMax": {
+      "rendered": "467",
+      "selector": "coverage.zipf_iid.maximum",
+      "source": "revision_diagnostics",
+      "value": 467
+    },
+    "ZipfObservedMean": {
+      "rendered": "459.4",
+      "selector": "coverage.zipf_iid.mean",
+      "source": "revision_diagnostics",
+      "value": 459.4
+    },
+    "ZipfObservedMin": {
+      "rendered": "450",
+      "selector": "coverage.zipf_iid.minimum",
+      "source": "revision_diagnostics",
+      "value": 450
+    }
+  },
+  "references": [
+    {
+      "authors": "R. Curtmola, J. Garay, S. Kamara, and R. Ostrovsky",
+      "key": "curtmola",
+      "title": "Searchable Symmetric Encryption: Improved Definitions and Efficient Constructions",
+      "url": "https://eprint.iacr.org/2006/210",
+      "venue": "Cryptology ePrint Archive, 2006/210"
+    },
+    {
+      "authors": "M. S. Islam, M. Kuzu, and M. Kantarcioglu",
+      "key": "islam",
+      "title": "Access Pattern Disclosure on Searchable Encryption: Ramification, Attack and Mitigation",
+      "url": "https://www.ndss-symposium.org/ndss2012/ndss-2012-programme/access-pattern-disclosure-searchable-encryption-ramification-attack-and-mitigation/",
+      "venue": "NDSS, 2012"
+    },
+    {
+      "authors": "L. Blackstone, S. Kamara, and T. Moataz",
+      "key": "blackstone",
+      "title": "Revisiting Leakage Abuse Attacks",
+      "url": "https://www.ndss-symposium.org/ndss-paper/revisiting-leakage-abuse-attacks/",
+      "venue": "NDSS, 2020"
+    },
+    {
+      "authors": "S. Kamara, A. Kati, T. Moataz, T. Schneider, A. Treiber, and M. Yonli",
+      "key": "leaker",
+      "title": "SoK: Cryptanalysis of Encrypted Search with LEAKER - A Framework for Leakage Attack Evaluation on Real-World Data",
+      "url": "https://eprint.iacr.org/2021/1035",
+      "venue": "IEEE European Symposium on Security and Privacy, 2022"
+    },
+    {
+      "authors": "D. Cash, P. Grubbs, J. Perry, and T. Ristenpart",
+      "key": "cash",
+      "title": "Leakage-Abuse Attacks Against Searchable Encryption",
+      "url": "https://doi.org/10.1145/2810103.2813700",
+      "venue": "ACM CCS, 2015, pp. 668-679"
+    },
+    {
+      "authors": "M. Damie, F. Hahn, and A. Peter",
+      "key": "damie",
+      "title": "A Highly Accurate Query-Recovery Attack against Searchable Encryption using Non-Indexed Documents",
+      "url": "https://www.usenix.org/conference/usenixsecurity21/presentation/damie",
+      "venue": "USENIX Security, 2021, pp. 143-160"
+    },
+    {
+      "authors": "S. Oya and F. Kerschbaum",
+      "key": "sap",
+      "title": "Hiding the Access Pattern is Not Enough: Exploiting Search Pattern Leakage in Searchable Encryption",
+      "url": "https://www.usenix.org/conference/usenixsecurity21/presentation/oya",
+      "venue": "USENIX Security, 2021, pp. 127-142"
+    },
+    {
+      "authors": "A. Hoover, R. Ng, D. Khu, Yao'An Li, J. Lim, D. Ng, Jed Lim, and Y. Song",
+      "key": "hoover",
+      "title": "Leakage-Abuse Attacks Against Structured Encryption for SQL",
+      "url": "https://www.usenix.org/conference/usenixsecurity24/presentation/hoover",
+      "venue": "USENIX Security, 2024, pp. 7411-7428"
+    },
+    {
+      "authors": "S. Oya and F. Kerschbaum",
+      "key": "ihop",
+      "title": "IHOP: Improved Statistical Query Recovery against Searchable Symmetric Encryption through Quadratic Optimization",
+      "url": "https://www.usenix.org/conference/usenixsecurity22/presentation/oya",
+      "venue": "USENIX Security, 2022"
+    },
+    {
+      "authors": "S. Oya",
+      "key": "ihopcode",
+      "title": "IHOP evaluation implementation",
+      "url": "https://github.com/simon-oya/ihop-code",
+      "venue": "Software repository"
+    },
+    {
+      "authors": "S. Pal, P. Pakray, S. R. Laskar, L. Laitonjam, V. Khenglawt, S. Warjri, P. K. Dadure, and S. K. Dash",
+      "key": "indic",
+      "title": "Findings of the WMT 2023 Shared Task on Low-Resource Indic Language Translation",
+      "url": "https://aclanthology.org/2023.wmt-1.56/",
+      "venue": "Eighth Conference on Machine Translation, 2023"
+    },
+    {
+      "authors": "NLLB Team",
+      "key": "flores",
+      "title": "No Language Left Behind: Scaling Human-Centered Machine Translation",
+      "url": "https://arxiv.org/abs/2207.04672",
+      "venue": "arXiv:2207.04672, 2022"
+    },
+    {
+      "authors": "Meta",
+      "key": "floresrepo",
+      "title": "FLORES-200 dataset documentation and licence",
+      "url": "https://github.com/facebookresearch/flores/blob/main/flores200/README.md",
+      "venue": "Dataset documentation"
+    },
+    {
+      "authors": "Snowball project",
+      "key": "snowball",
+      "title": "The English (Porter2) stemming algorithm",
+      "url": "https://snowballstem.org/algorithms/english/stemmer.html",
+      "venue": "Algorithm documentation"
+    },
+    {
+      "authors": "Carnegie Mellon University",
+      "key": "enrondata",
+      "title": "Enron Email Dataset",
+      "url": "https://www.cs.cmu.edu/~enron/",
+      "venue": "Dataset documentation"
+    }
+  ],
+  "sources": {
+    "configs/access_collision_sweep.json": "f0c0b1b3164e58d293cb94cebe30870b26911e572bf361c62707814fabe02d04",
+    "configs/access_similarity_sweep.json": "a9eaccb28f580d7c3dbe873abbfaa7e43c090315d2b7c04fd4eba822bc18c119",
+    "configs/cooccurrence_similarity_sweep.json": "8fae3c5e5f320f2ed618ac6c9695c09c48856ec8a92b83d6b062051a205f4d2f",
+    "configs/corpus_split_production.json": "69179af9e8ee0dd55f42cae59205856f112a507d428a2e82f893f1a632ed6c96",
+    "configs/frequency_ambiguity_sweep.json": "f66274fb9a415b4a3ec658c7bd3dafb19985d65f478c121952ff7df6e67f9d05",
+    "configs/keyword_size_sweep.json": "41c6599ef1892206afa5d343e0d21c8b167976600f45a278b1f21a7a2409278c",
+    "configs/length_balanced_control.json": "98340fa0edd519ab7af31507a54773eebddcbf885b9dbd3bd88a6578e2cf685e",
+    "configs/mizo_stemmer_execution.json": "81297999dbe501ad0853ec7f1fa2d15fd7769befaae2c15cb70b7c97ebf46d9d",
+    "configs/reviewer_sensitivity.json": "41f05c4f56a3d7ead81b27ece5c18fa1c535ae3556a1552ab33dd7d03996e7f6",
+    "configs/sparsity_sweep.json": "5865bc5f67347c9a73378e46a693584a3f410057b4d03db6b08e8b8de85c6d40",
+    "configs/tokenisation_only.json": "e425188a9593935d1d40a33c018dd78e44cc076dd41b7d6322b52113e3757c97",
+    "configs/wmt23_flores200_matched_control.json": "d974ad88bc0cd328f5565fe8d0312d13886e809a61a386bf7d4f6b1a838b0a1e",
+    "configs/wmt23_indicnecorp.json": "df35b785e7d8f1a991dd3c8f86ad138267be06916773068e7df456fd72566b39",
+    "paper/official-template/package/sn-article-template/bst/sn-mathphys-num.bst": "b3a7c7fbcc1e7f9619de634fcea2f5bb7a245818a5942bc576e40ea001633332",
+    "paper/official-template/package/sn-article-template/sn-article.tex": "71777936dca4952ac34aef4b98f5ce543fe50597efb2c1798cbb7a97767b70a9",
+    "paper/official-template/package/sn-article-template/sn-jnl.cls": "36d0c3273a59d48dc6a9c7b080dfa1ec50dc10229d8751568d1f2e490ffa5ecc",
+    "paper/submission-information.json": "047a0eba72a6d11a5eb1c08a059f4ff945b26319526f8ffe7b09cd5cf9bcf851",
+    "requirements-2022.lock": "7ccf3097301a75953ab3df8747f015e636b63b1c9ee3414f32d4355cb7fa6fd4",
+    "resources/stemmers/lus-production.reviewed.json": "48e4ca072609f68057a917574bfde11cb7d65afc3b36f31a23fc8bf893a00bd8",
+    "resources/stopwords/en-production.reviewed.json": "00768fb4395a0fcef706cbe467835c98ee84d08b0ffcb7b3d5140095ddc2aea1",
+    "resources/stopwords/lus-production.reviewed.json": "9aed3661c67cfdaee6878ab7f9a197992458466928804fc1aafffe53c0a71582",
+    "results/corpus/clarified-recovery-reuse.json": "0861494a0adbd7ad224ef5b23fde5b8fc5061b581bd8ba1dc09a011de4b1695a",
+    "results/corpus/export-structure-analysis.json": "1e886edfd784588954290c1c3e8a666751448023926b5964b2b4e218011353e7",
+    "results/corpus/flores200-ihop/manifest.json": "d0b53ce50788b368c87c9ed4ec8b24635535aad5460b56eb442fe0442b41fe3b",
+    "results/corpus/flores200-length-balanced-experiments.json": "7026d083bba3061151df41ec51976d363813b79be2180a8248ba7557b40378d7",
+    "results/corpus/flores200-length-balanced-ihop/manifest.json": "8b7c5b32bdd30de681859471a2b43e4c9eabfd2858bbc96246befdcf0f1f0895",
+    "results/corpus/flores200-wmt23-matched-comparison.json": "8d744a69431624aeca4c81cfde92211e68b5e373a49522566da8fc01cc5f21d7",
+    "results/corpus/ihop/manifest.json": "2501dc7032e29518983c27206a5f95c6d0286b01293ec2301becdfee1854e1fb",
+    "results/corpus/keyword-size-sensitivity-comparison.json": "fca391f7f9c1ee2928c54f934fe144a43cf0df065f6083fc0f487cf8eec65eef",
+    "results/corpus/length-balanced-comparison.json": "12e63c0efad07d13ac175f28f04cb2637a016a09bb9a88487296890656a50e8c",
+    "results/corpus/linguistic-decisions.json": "bb389ff1d0b4ae39d6ad1923c660c222d8fb43309f74fa5accae6d106c11cafc",
+    "results/corpus/production-fixed-split-experiments.json": "116191373d4cc4b943ee953892c0716db059bc52ef09b76691fc5b2783143a27",
+    "results/corpus/production-independent-replay.json": "116191373d4cc4b943ee953892c0716db059bc52ef09b76691fc5b2783143a27",
+    "results/corpus/production-recovery-analysis.json": "48c80b7b5b8989ffc5e4c9d98568a6f098fe58036ceddb2db5f0a0c143574af4",
+    "results/corpus/returned-linguistic-review-audit.json": "224002128bcfde331a85eab6678582cada5de8ec8f37a782fee8909b40fb0bba",
+    "results/corpus/reviewer-sensitivity/analysis.json": "0e887e3ed8f286d16ab5b3ce208cd88dbbe62299dead20ba58cd826d3a717793",
+    "results/corpus/reviewer-sensitivity/checkpoint.json": "37ebf9375971ae99cdc02c4934876e2c540cb242db78dc0a54327a683ce83696",
+    "results/corpus/reviewer-sensitivity/controlled-keywords.json": "3cb5d0e1394cf0fa6005a6cc49841c751a732a678b0df0eb033ab9cb28a48131",
+    "results/corpus/reviewer-sensitivity/diagnostics.json": "2060fbfbd9497decf068ae961d95ac145b89ff09775bbdddbbbedb729749014b",
+    "results/corpus/reviewer-sensitivity/iterative-check.json": "e7113bdcbc38b199f4eef59c71f5c9bb5c2f103847c4b8ffea7ed92359c1ad38",
+    "results/corpus/reviewer-sensitivity/real-assignment-check.json": "f27c50a16e673913837001b73cc1a7d0db6e0e6eb7d8da76f49d3c1261f4f9c6",
+    "results/corpus/reviewer-sensitivity/uncertainty.json": "7c7c91db346b07c8bac34f8edf06b23d9e1c601dddb42995c089132eb36e4052",
+    "results/corpus/stemmer-execution-evaluation.json": "dc3dbef349c168d67df82e9fb7ad5922d4f454f6524fe5738b65de3afd7dcdea",
+    "results/corpus/wmt23-audit.json": "bdcefa999503c2780c1b6717f78082bbba5cd7d26ca811bfe8bb181f2b8b0c2a",
+    "results/corpus/wmt23-length-balanced-experiments.json": "4ae672f1a84250270e2406b11fd8c5795b63541be3bd27111e8d0fa44350a699",
+    "results/ihop-enron-volume-seed0-py39-hash0.json": "9307953cab1823bb0724f22907eb0330d6ce28be2c25a52fdff679efa2c46ad4",
+    "results/ihop_enron_baseline/aggregate.json": "c62caf808e467910e1b07ad88e69225dad345b5ea6c25256850f23760e0dcbb6",
+    "results/unified/enron-ablation-summary.json": "045039991ca4ca3b59359eaf39723d3e13e3372eb936c868cdeea49fbf2e8d95",
+    "scripts/manuscript_template.tex": "670501a3cb408302d6028fb7f8a1958cc2a973a8f9650083bcd79b25b144113c"
+  },
+  "table_rows": {
+    "balanced_selected": [
+      [
+        "English",
+        100,
+        "0.3983",
+        "0.1196",
+        "0.2787",
+        "[0.2038, 0.3536]",
+        "0.0469"
+      ],
+      [
+        "Mizo",
+        100,
+        "0.4313",
+        "0.3483",
+        "0.0830",
+        "[-0.0215, 0.1875]",
+        "0.3398"
+      ],
+      [
+        "English",
+        250,
+        "0.3658",
+        "0.1103",
+        "0.2555",
+        "[0.2128, 0.2983]",
+        "0.0469"
+      ],
+      [
+        "Mizo",
+        250,
+        "0.3560",
+        "0.2652",
+        "0.0908",
+        "[-0.0122, 0.1938]",
+        "0.3398"
+      ],
+      [
+        "English",
+        500,
+        "0.2955",
+        "0.1246",
+        "0.1709",
+        "[0.1187, 0.2231]",
+        "0.0469"
+      ],
+      [
+        "Mizo",
+        500,
+        "0.2813",
+        "0.1793",
+        "0.1020",
+        "[0.0119, 0.1920]",
+        "0.2734"
+      ]
+    ],
+    "corpora": [
+      [
+        "WMT23 production",
+        4974,
+        1658,
+        3316
+      ],
+      [
+        "FLORES and WMT23 matched",
+        562,
+        187,
+        375
+      ],
+      [
+        "FLORES and WMT23 length-balanced",
+        253,
+        84,
+        169
+      ]
+    ],
+    "enron_endpoints": [
+      [
+        "Keyword count",
+        "500 minus 100 keywords",
+        "0.0222",
+        "[-0.0099, 0.0543]"
+      ],
+      [
+        "Exact access collisions",
+        "62 pairs minus control",
+        "-0.2984",
+        "[-0.3914, -0.2054]"
+      ],
+      [
+        "Access similarity",
+        "Jaccard 0.75 minus control",
+        "-0.0348",
+        "[-0.0502, -0.0194]"
+      ],
+      [
+        "Frequency equality",
+        "62 pairs minus control",
+        "-0.4816",
+        "[-0.5059, -0.4573]"
+      ],
+      [
+        "Co-occurrence similarity",
+        "Budget 128 minus budget 1",
+        "-0.0008",
+        "[-0.0134, 0.0118]"
+      ],
+      [
+        "Incidence retention",
+        "25\\% minus 100\\% retention",
+        "-0.8392",
+        "[-0.8620, -0.8164]"
+      ]
+    ],
+    "language": [
+      [
+        "Tokenisation",
+        "Uniform",
+        "Weighted",
+        "-0.0155",
+        "[-0.0305, -0.0004]",
+        "0.1406"
+      ],
+      [
+        "Tokenisation",
+        "Uniform",
+        "Macro",
+        "-0.0144",
+        "[-0.0260, -0.0028]",
+        "0.0820"
+      ],
+      [
+        "Tokenisation",
+        "Zipf",
+        "Weighted",
+        "-0.0290",
+        "[-0.0731, 0.0152]",
+        "0.1621"
+      ],
+      [
+        "Tokenisation",
+        "Zipf",
+        "Macro",
+        "-0.0356",
+        "[-0.0604, -0.0107]",
+        "0.0820"
+      ],
+      [
+        "Stopwords",
+        "Uniform",
+        "Weighted",
+        "0.0120",
+        "[0.0029, 0.0212]",
+        "0.0820"
+      ],
+      [
+        "Stopwords",
+        "Uniform",
+        "Macro",
+        "0.0128",
+        "[0.0034, 0.0222]",
+        "0.0820"
+      ],
+      [
+        "Stopwords",
+        "Zipf",
+        "Weighted",
+        "0.0773",
+        "[0.0392, 0.1154]",
+        "0.0234"
+      ],
+      [
+        "Stopwords",
+        "Zipf",
+        "Macro",
+        "0.0133",
+        "[0.0006, 0.0259]",
+        "0.1406"
+      ],
+      [
+        "Stemming",
+        "Uniform",
+        "Weighted",
+        "0.0184",
+        "[0.0072, 0.0297]",
+        "0.0312"
+      ],
+      [
+        "Stemming",
+        "Uniform",
+        "Macro",
+        "0.0200",
+        "[0.0102, 0.0298]",
+        "0.0234"
+      ],
+      [
+        "Stemming",
+        "Zipf",
+        "Weighted",
+        "0.1380",
+        "[0.0955, 0.1805]",
+        "0.0234"
+      ],
+      [
+        "Stemming",
+        "Zipf",
+        "Macro",
+        "0.0211",
+        "[0.0129, 0.0294]",
+        "0.0234"
+      ]
+    ],
+    "recovery": [
+      [
+        "English",
+        "Tokenisation",
+        "Uniform",
+        "0.1345 (0.0192)",
+        "0.1340 (0.0158)"
+      ],
+      [
+        "English",
+        "Tokenisation",
+        "Zipf",
+        "0.5907 (0.0667)",
+        "0.1485 (0.0153)"
+      ],
+      [
+        "English",
+        "Stopwords",
+        "Uniform",
+        "0.0575 (0.0096)",
+        "0.0570 (0.0103)"
+      ],
+      [
+        "English",
+        "Stopwords",
+        "Zipf",
+        "0.4695 (0.0276)",
+        "0.0655 (0.0112)"
+      ],
+      [
+        "English",
+        "Stemming",
+        "Uniform",
+        "0.0535 (0.0069)",
+        "0.0528 (0.0071)"
+      ],
+      [
+        "English",
+        "Stemming",
+        "Zipf",
+        "0.3960 (0.0714)",
+        "0.0572 (0.0070)"
+      ],
+      [
+        "Mizo",
+        "Tokenisation",
+        "Uniform",
+        "0.1191 (0.0204)",
+        "0.1196 (0.0176)"
+      ],
+      [
+        "Mizo",
+        "Tokenisation",
+        "Zipf",
+        "0.5617 (0.0304)",
+        "0.1129 (0.0276)"
+      ],
+      [
+        "Mizo",
+        "Stopwords",
+        "Uniform",
+        "0.0695 (0.0089)",
+        "0.0698 (0.0071)"
+      ],
+      [
+        "Mizo",
+        "Stopwords",
+        "Zipf",
+        "0.5468 (0.0435)",
+        "0.0788 (0.0132)"
+      ],
+      [
+        "Mizo",
+        "Stemming",
+        "Uniform",
+        "0.0719 (0.0134)",
+        "0.0728 (0.0116)"
+      ],
+      [
+        "Mizo",
+        "Stemming",
+        "Zipf",
+        "0.5340 (0.0261)",
+        "0.0783 (0.0111)"
+      ]
+    ],
+    "structure": [
+      [
+        "English",
+        "Tokenisation",
+        "0.1376",
+        "0.5800",
+        "0.1057",
+        "0.9883"
+      ],
+      [
+        "English",
+        "Stopwords",
+        "0.0663",
+        "0.7440",
+        "0.0804",
+        "0.9451"
+      ],
+      [
+        "English",
+        "Stemming",
+        "0.0766",
+        "0.7300",
+        "0.0870",
+        "0.9583"
+      ],
+      [
+        "Mizo",
+        "Tokenisation",
+        "0.1435",
+        "0.5420",
+        "0.1184",
+        "0.9890"
+      ],
+      [
+        "Mizo",
+        "Stopwords",
+        "0.0793",
+        "0.7220",
+        "0.0858",
+        "0.9668"
+      ],
+      [
+        "Mizo",
+        "Stemming",
+        "0.0901",
+        "0.6660",
+        "0.0958",
+        "0.9722"
+      ]
+    ]
+  }
+}

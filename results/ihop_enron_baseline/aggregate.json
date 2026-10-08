@@ -1,0 +1,332 @@
+{
+  "aggregate_metrics": {
+    "distinct_query_macro_recovery": {
+      "0": {
+        "confidence_interval_high": 0.05946181374856739,
+        "confidence_interval_low": 0.04693818625143262,
+        "confidence_level": 0.95,
+        "mean": 0.053200000000000004,
+        "n": 10,
+        "sample_standard_deviation": 0.008753412033157253
+      },
+      "10": {
+        "confidence_interval_high": 0.16584249406873075,
+        "confidence_interval_low": 0.1041575059312692,
+        "confidence_level": 0.95,
+        "mean": 0.13499999999999998,
+        "n": 10,
+        "sample_standard_deviation": 0.04311483374534672
+      },
+      "100": {
+        "confidence_interval_high": 0.9540134946795984,
+        "confidence_interval_low": 0.9111865053204018,
+        "confidence_level": 0.95,
+        "mean": 0.9326000000000001,
+        "n": 10,
+        "sample_standard_deviation": 0.029934001477324123
+      },
+      "1000": {
+        "confidence_interval_high": 0.9813211696843458,
+        "confidence_interval_low": 0.9610788303156541,
+        "confidence_level": 0.95,
+        "mean": 0.9712,
+        "n": 10,
+        "sample_standard_deviation": 0.01414841962120781
+      }
+    },
+    "query_weighted_recovery": {
+      "0": {
+        "confidence_interval_high": 0.05946181374856739,
+        "confidence_interval_low": 0.04693818625143262,
+        "confidence_level": 0.95,
+        "mean": 0.053200000000000004,
+        "n": 10,
+        "sample_standard_deviation": 0.008753412033157253
+      },
+      "10": {
+        "confidence_interval_high": 0.16584249406873075,
+        "confidence_interval_low": 0.1041575059312692,
+        "confidence_level": 0.95,
+        "mean": 0.13499999999999998,
+        "n": 10,
+        "sample_standard_deviation": 0.04311483374534672
+      },
+      "100": {
+        "confidence_interval_high": 0.9540134946795984,
+        "confidence_interval_low": 0.9111865053204018,
+        "confidence_level": 0.95,
+        "mean": 0.9326000000000001,
+        "n": 10,
+        "sample_standard_deviation": 0.029934001477324123
+      },
+      "1000": {
+        "confidence_interval_high": 0.9813211696843458,
+        "confidence_interval_low": 0.9610788303156541,
+        "confidence_level": 0.95,
+        "mean": 0.9712,
+        "n": 10,
+        "sample_standard_deviation": 0.01414841962120781
+      }
+    }
+  },
+  "configuration": {
+    "attack": {
+      "free_fraction": 0.25,
+      "iteration_checkpoints": [
+        0,
+        10,
+        100,
+        1000
+      ],
+      "mode": "Vol",
+      "name": "ihop"
+    },
+    "confidence_level": 0.95,
+    "dataset": {
+      "auxiliary_split": "splitn10000",
+      "client_documents_after_split": 20000,
+      "keyword_count": 500,
+      "keyword_selection": "random",
+      "name": "enron-full",
+      "processed_path": "vendor/ihop-code/datasets_pro/enron-full.pkl",
+      "selected_documents": 30000
+    },
+    "defence": "none",
+    "id": "ihop-enron-volume-ten-seed",
+    "python_hash_seed": 0,
+    "queries": {
+      "count": 500,
+      "frequency_source": "none",
+      "mode": "each"
+    },
+    "runtime": "python3.9_2022_reconstruction",
+    "scope": "static_sse",
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "threat_model": {
+      "adversary": "passive_server",
+      "auxiliary_data": "10000_disjoint_plaintext_documents",
+      "goal": "query_recovery",
+      "observed_leakage": [
+        "access_pattern",
+        "response_volume"
+      ],
+      "target": "single_keyword_queries"
+    }
+  },
+  "created_at": "2026-08-31T13:56:53.698986+00:00",
+  "dataset_sha256": "1f78e50af2c6c5474b43107adfed0e849ede5d06ba8192ea469f8eccf75e5981",
+  "experiment_id": "ihop-enron-volume-ten-seed",
+  "packages": {
+    "matplotlib": "3.5.1",
+    "numpy": "1.22.3",
+    "scikit-learn": "1.0.2",
+    "scipy": "1.8.0"
+  },
+  "platform": "Windows-10-10.0.26200-SP0",
+  "python": "3.9.12 (main, May  3 2022, 01:55:40) [MSC v.1929 64 bit (AMD64)]",
+  "python_hash_seed": "0",
+  "seed_results": [
+    {
+      "distinct_query_macro_recovery": [
+        0.06,
+        0.162,
+        0.898,
+        0.972
+      ],
+      "finished_at": "2026-08-31T13:46:56.929120+00:00",
+      "query_weighted_recovery": [
+        0.06,
+        0.162,
+        0.898,
+        0.972
+      ],
+      "seed": 0,
+      "started_at": "2026-08-31T13:45:51.628752+00:00",
+      "upstream_seconds": 65.18519353866577,
+      "wall_seconds": 65.2997606
+    },
+    {
+      "distinct_query_macro_recovery": [
+        0.054,
+        0.184,
+        0.95,
+        0.978
+      ],
+      "finished_at": "2026-08-31T13:48:00.860911+00:00",
+      "query_weighted_recovery": [
+        0.054,
+        0.184,
+        0.95,
+        0.978
+      ],
+      "seed": 1,
+      "started_at": "2026-08-31T13:46:56.929120+00:00",
+      "upstream_seconds": 63.82541847229004,
+      "wall_seconds": 63.935561899999996
+    },
+    {
+      "distinct_query_macro_recovery": [
+        0.052,
+        0.164,
+        0.97,
+        0.984
+      ],
+      "finished_at": "2026-08-31T13:49:07.346277+00:00",
+      "query_weighted_recovery": [
+        0.052,
+        0.164,
+        0.97,
+        0.984
+      ],
+      "seed": 2,
+      "started_at": "2026-08-31T13:48:00.867546+00:00",
+      "upstream_seconds": 66.34655833244324,
+      "wall_seconds": 66.47804880000001
+    },
+    {
+      "distinct_query_macro_recovery": [
+        0.05,
+        0.18,
+        0.952,
+        0.964
+      ],
+      "finished_at": "2026-08-31T13:50:14.626710+00:00",
+      "query_weighted_recovery": [
+        0.05,
+        0.18,
+        0.952,
+        0.964
+      ],
+      "seed": 3,
+      "started_at": "2026-08-31T13:49:07.346277+00:00",
+      "upstream_seconds": 67.18475484848022,
+      "wall_seconds": 67.2851268
+    },
+    {
+      "distinct_query_macro_recovery": [
+        0.054,
+        0.078,
+        0.898,
+        0.97
+      ],
+      "finished_at": "2026-08-31T13:51:18.484527+00:00",
+      "query_weighted_recovery": [
+        0.054,
+        0.078,
+        0.898,
+        0.97
+      ],
+      "seed": 4,
+      "started_at": "2026-08-31T13:50:14.632872+00:00",
+      "upstream_seconds": 63.752963066101074,
+      "wall_seconds": 63.85780220000004
+    },
+    {
+      "distinct_query_macro_recovery": [
+        0.072,
+        0.174,
+        0.96,
+        0.972
+      ],
+      "finished_at": "2026-08-31T13:52:22.042387+00:00",
+      "query_weighted_recovery": [
+        0.072,
+        0.174,
+        0.96,
+        0.972
+      ],
+      "seed": 5,
+      "started_at": "2026-08-31T13:51:18.484527+00:00",
+      "upstream_seconds": 63.45656108856201,
+      "wall_seconds": 63.551079300000026
+    },
+    {
+      "distinct_query_macro_recovery": [
+        0.056,
+        0.084,
+        0.912,
+        0.986
+      ],
+      "finished_at": "2026-08-31T13:53:29.749862+00:00",
+      "query_weighted_recovery": [
+        0.056,
+        0.084,
+        0.912,
+        0.986
+      ],
+      "seed": 6,
+      "started_at": "2026-08-31T13:52:22.044809+00:00",
+      "upstream_seconds": 67.59552097320557,
+      "wall_seconds": 67.70536549999997
+    },
+    {
+      "distinct_query_macro_recovery": [
+        0.05,
+        0.112,
+        0.956,
+        0.984
+      ],
+      "finished_at": "2026-08-31T13:54:39.217512+00:00",
+      "query_weighted_recovery": [
+        0.05,
+        0.112,
+        0.956,
+        0.984
+      ],
+      "seed": 7,
+      "started_at": "2026-08-31T13:53:29.752534+00:00",
+      "upstream_seconds": 69.36376714706421,
+      "wall_seconds": 69.46804279999992
+    },
+    {
+      "distinct_query_macro_recovery": [
+        0.044,
+        0.13,
+        0.94,
+        0.964
+      ],
+      "finished_at": "2026-08-31T13:55:47.027274+00:00",
+      "query_weighted_recovery": [
+        0.044,
+        0.13,
+        0.94,
+        0.964
+      ],
+      "seed": 8,
+      "started_at": "2026-08-31T13:54:39.217512+00:00",
+      "upstream_seconds": 67.70347118377686,
+      "wall_seconds": 67.80559579999999
+    },
+    {
+      "distinct_query_macro_recovery": [
+        0.04,
+        0.082,
+        0.89,
+        0.938
+      ],
+      "finished_at": "2026-08-31T13:56:53.692040+00:00",
+      "query_weighted_recovery": [
+        0.04,
+        0.082,
+        0.89,
+        0.938
+      ],
+      "seed": 9,
+      "started_at": "2026-08-31T13:55:47.028595+00:00",
+      "upstream_seconds": 66.56707334518433,
+      "wall_seconds": 66.66706820000002
+    }
+  ],
+  "upstream_revision": "10631a10e3ec461ad01d38fc74f7933d31062ba5"
+}

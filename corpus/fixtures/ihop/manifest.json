@@ -1,0 +1,77 @@
+{
+  "config": {
+    "conditions": {
+      "stemming": "corpus/fixtures/stemming",
+      "stopword_removal": "corpus/fixtures/stopword-removal",
+      "tokenisation_only": "corpus/fixtures/tokenisation-only"
+    },
+    "config_version": "1.0.0",
+    "keyword_universe_size": 500,
+    "languages": [
+      "lus",
+      "en"
+    ],
+    "output_directory": "corpus/fixtures/ihop",
+    "selection": "corpus/fixtures/fixture-pilot-selection.json",
+    "split": "corpus/fixtures/fixture-split.json"
+  },
+  "config_sha256": "3929eaf04df9ce7058ae8b77245d3b2fa951e995f8f84dcc51202bb00da4e0bb",
+  "datasets": {
+    "en:stemming": {
+      "auxiliary_document_count": 1,
+      "client_document_count": 1,
+      "document_count": 1,
+      "incidence_count": 18,
+      "keyword_count": 18,
+      "path": "en-stemming.pkl",
+      "sha256": "491a4f2c743c07b4ef1cf44f4e1f9954dfff1aa9f40fa26fec546720aaedf56e"
+    },
+    "en:stopword_removal": {
+      "auxiliary_document_count": 1,
+      "client_document_count": 1,
+      "document_count": 1,
+      "incidence_count": 19,
+      "keyword_count": 19,
+      "path": "en-stopword_removal.pkl",
+      "sha256": "d2cbdc656b85b1c3f9771a85a0b2468270add04be7c793b205b22257feb68ab6"
+    },
+    "en:tokenisation_only": {
+      "auxiliary_document_count": 1,
+      "client_document_count": 1,
+      "document_count": 1,
+      "incidence_count": 23,
+      "keyword_count": 23,
+      "path": "en-tokenisation_only.pkl",
+      "sha256": "b65e3b7d78358abd9a40c4654e3130f25f328aa4da0eaac03dc3ac619a4562a7"
+    },
+    "lus:stemming": {
+      "auxiliary_document_count": 1,
+      "client_document_count": 1,
+      "document_count": 1,
+      "incidence_count": 26,
+      "keyword_count": 26,
+      "path": "lus-stemming.pkl",
+      "sha256": "d8ca67ab4bc0c444f20fe3175a85070a29396607cf150603bae8b2216bf2a1a8"
+    },
+    "lus:stopword_removal": {
+      "auxiliary_document_count": 1,
+      "client_document_count": 1,
+      "document_count": 1,
+      "incidence_count": 27,
+      "keyword_count": 27,
+      "path": "lus-stopword_removal.pkl",
+      "sha256": "5dc1b4b1929f21baacb9038ece78bcf35dbdc74b990848484418a0c366419587"
+    },
+    "lus:tokenisation_only": {
+      "auxiliary_document_count": 1,
+      "client_document_count": 1,
+      "document_count": 1,
+      "incidence_count": 32,
+      "keyword_count": 32,
+      "path": "lus-tokenisation_only.pkl",
+      "sha256": "dc528efdacb030025a73be9278f28354662598db3df9f0835cbbb6db00e764df"
+    }
+  },
+  "export_version": "1.0.0",
+  "split_sha256": "f3d3bb9c52bbb226b116a59b645c80947a56fa8647aeaa83de56c2fca6c548fc"
+}

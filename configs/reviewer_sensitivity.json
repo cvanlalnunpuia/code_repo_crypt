@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "partition_seeds": [20261007, 20261008, 20261009],
+  "attack_seeds": [0, 1, 2],
+  "workers": 2,
+  "production_keywords": 500,
+  "controlled_keywords": 250,
+  "iterations": 1000,
+  "free_fraction": 0.25,
+  "query_count_per_keyword": 10,
+  "near_duplicate_jaccard": 0.8,
+  "purpose": "Post-review descriptive sensitivity. Original confirmatory comparisons were preserved."
+}

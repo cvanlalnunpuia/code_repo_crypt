@@ -1,0 +1,27 @@
+{
+  "id": "enron-ihop-keyword-size-sweep-v1",
+  "scope": "static_sse",
+  "keyword_counts": [100, 250, 500],
+  "seeds": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
+  "selected_documents": 30000,
+  "client_documents_after_split": 20000,
+  "auxiliary_split": "splitn10000",
+  "keyword_selection": "random_nested_prefix",
+  "query_mode": "each",
+  "frequency_source": "none",
+  "attack": {
+    "name": "ihop",
+    "mode": "Vol",
+    "free_fraction": 0.25,
+    "iteration_checkpoints": [0, 10, 100, 1000]
+  },
+  "defence": "none",
+  "confidence_level": 0.95,
+  "python_hash_seed": 0,
+  "reuse_500_keyword_baseline": true,
+  "baseline_results": "results/ihop_enron_baseline",
+  "baseline_structure": "results/structure/enron-baseline-seeds",
+  "structure_configuration": "configs/enron_seed_structure.json",
+  "output_directory": "results/keyword-size-sweep"
+}
+

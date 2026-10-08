@@ -1,0 +1,29 @@
+{
+  "id": "enron-ihop-frequency-ambiguity-sweep-v1",
+  "scope": "static_sse",
+  "keyword_count": 250,
+  "equalized_pair_counts": [0, 12, 31, 62],
+  "seeds": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
+  "selected_documents": 30000,
+  "client_documents_after_split": 20000,
+  "auxiliary_split": "splitn10000",
+  "keyword_selection": "random",
+  "query_mode": "each",
+  "frequency_source": "none",
+  "attack": {
+    "name": "ihop",
+    "mode": "Vol",
+    "free_fraction": 0.25,
+    "iteration_checkpoints": [0, 10, 100, 1000]
+  },
+  "defence": "none",
+  "pair_selection": "greedy_nearest_frequency_with_even_pair_sums_in_both_matrices",
+  "frequency_rule": "replace_each_pair_with_its_integer_mean_frequency",
+  "access_overlap_rule": "disjoint_within_each_equalized_pair",
+  "confidence_level": 0.95,
+  "python_hash_seed": 0,
+  "reuse_control": true,
+  "control_results": "results/keyword-size-sweep/keywords-250",
+  "structure_configuration": "configs/enron_seed_structure.json",
+  "output_directory": "results/frequency-ambiguity-sweep"
+}

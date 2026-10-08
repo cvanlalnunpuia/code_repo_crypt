@@ -1,0 +1,27 @@
+{
+  "config_version": "1.0.0",
+  "source_id": "wmt23_indicnecorp",
+  "archive_url": "https://data.statmt.org/wmt23/indic-mt/IndicNECorp1.0-20240218T213903Z-001.zip",
+  "output_directory": "corpus/raw/wmt23-indicnecorp",
+  "retrieved_at": "2026-09-01T00:00:00Z",
+  "sentences_per_document": 10,
+  "include_incomplete_document": false,
+  "splits": {
+    "train": {
+      "en": "IndicNECorp1.0/English-Mizo/parallel/en-lus-train-en.txt",
+      "lus": "IndicNECorp1.0/English-Mizo/parallel/en-lus-train-lus.txt"
+    },
+    "valid": {
+      "en": "IndicNECorp1.0/English-Mizo/parallel/en-lus-valid-en.txt",
+      "lus": "IndicNECorp1.0/English-Mizo/parallel/en-lus-valid-lus.txt"
+    },
+    "test": {
+      "en": "IndicNECorp1.0/English-Mizo/parallel/en-lus-test-en.txt",
+      "lus": "IndicNECorp1.0/English-Mizo/parallel/en-lus-test-lus.txt"
+    }
+  },
+  "production_split": "train",
+  "corpus_output": "results/corpus/wmt23-records.jsonl",
+  "selection_output": "results/corpus/wmt23-selection.json",
+  "provenance_output": "results/corpus/wmt23-acquisition.json"
+}

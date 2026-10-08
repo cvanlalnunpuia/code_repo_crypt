@@ -1,0 +1,16 @@
+{
+  "list_version": "1.0.0",
+  "language": "lus",
+  "scope": "synthetic_fixture",
+  "status": "approved",
+  "reviewed_by": "automated-fixture",
+  "reviewed_at": "2026-09-01",
+  "entries": [
+    {"token": "ang", "decision": "exclude_from_index", "basis": "synthetic pipeline check"},
+    {"token": "chuan", "decision": "exclude_from_index", "basis": "synthetic pipeline check"},
+    {"token": "leh", "decision": "exclude_from_index", "basis": "synthetic pipeline check"},
+    {"token": "ni", "decision": "exclude_from_index", "basis": "synthetic pipeline check"},
+    {"token": "tur", "decision": "exclude_from_index", "basis": "synthetic pipeline check"},
+    {"token": "tuihna", "decision": "retain", "basis": "synthetic content-word check"}
+  ]
+}

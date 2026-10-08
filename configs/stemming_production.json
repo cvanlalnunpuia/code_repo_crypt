@@ -1,0 +1,10 @@
+{
+  "config_version": "1.0.0",
+  "stopword_condition": "configs/stopword_removal_production.json",
+  "stemmer_specifications": {
+    "en": "resources/stemmers/en-production.reviewed.json",
+    "lus": "resources/stemmers/lus-production.reviewed.json"
+  },
+  "mizo_execution_policy": "configs/mizo_stemmer_execution.json",
+  "required_scope": "production"
+}

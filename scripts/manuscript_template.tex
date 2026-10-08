@@ -1,0 +1,173 @@
+\documentclass[12pt]{article}
+\usepackage[margin=25mm]{geometry}
+\usepackage{amsmath,amssymb,booktabs,array,xcolor,hyperref,helvet,caption}
+\renewcommand{\familydefault}{\sfdefault}
+\renewcommand{\small}{\normalsize}
+\renewcommand{\footnotesize}{\normalsize}
+\renewcommand{\scriptsize}{\fontsize{8}{10}\selectfont}
+\captionsetup[figure]{name=Fig.,labelsep=space}
+\hypersetup{hidelinks,pdftitle={Corpus and Preprocessing Effects on IHOP Query Recovery in English and Mizo},pdfauthor={Vanlalhruaia, C Lalrinawma, C Vanlalnunpuia, Phibansabeth Nongkseh, R Lalduhsaka, Zaitinkhuma Thihlum}}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt}
+\setlength{\tabcolsep}{4pt}
+\emergencystretch=2em
+@@FACTS@@
+\newcommand{\CommitID}{@@COMMIT_ID@@}
+\title{Corpus and Preprocessing Effects on IHOP Query Recovery in English and Mizo}
+\author{Vanlalhruaia$^{1}$\thanks{Email \href{mailto:mzut160@mzu.edu.in}{mzut160@mzu.edu.in}},
+C Lalrinawma$^{2}$\thanks{Email \href{mailto:rinchawngthu777@gmail.com}{rinchawngthu777@gmail.com}},
+C Vanlalnunpuia$^{1}$\thanks{Corresponding author. Email \href{mailto:mzu230006869@mzu.edu.in}{mzu230006869@mzu.edu.in}}\\
+Phibansabeth Nongkseh$^{3}$\thanks{Email \href{mailto:phibansabeth@nehu.ac.in}{phibansabeth@nehu.ac.in}},
+R Lalduhsaka$^{1}$\thanks{Email \href{mailto:duskeralte777@gmail.com}{duskeralte777@gmail.com}},
+Zaitinkhuma Thihlum$^{1}$\thanks{Email \href{mailto:zaiamay94@gmail.com}{zaiamay94@gmail.com}}\\[6pt]
+\parbox{0.95\textwidth}{\centering\normalsize
+$^{1}$Department of Computer Engineering\\Mizoram University, Aizawl, 796004\\[3pt]
+$^{2}$Department of Information Technology\\Mizoram University, Aizawl, 796004\\[3pt]
+$^{3}$Department of Information Technology\\North Eastern Hill University, Shillong, 793022}}
+\date{}
+\begin{document}
+\maketitle
+\begin{abstract}
+Query recovery from searchable symmetric encryption was evaluated under matched English-Mizo preprocessing and fixed auxiliary-client partitions. Improved Statistical Query Recovery against Searchable Symmetric Encryption through Quadratic Optimization (IHOP) was applied to \ProductionPairs{} paired text blocks under tokenisation, reviewed stopword removal, and stopword removal with stemming. Each original condition used \Keywords{} selected keywords and \SeedCount{} random seeds. Under uniform queries, mean query-weighted recovery fell from \ENTokenUniformPercent{}\% to \ENStemUniformPercent{}\% in English and from \LUSTokenUniformPercent{}\% to \LUSStemUniformPercent{}\% in Mizo between tokenisation and stemming. \LanguageSignificant{} language comparisons remained statistically significant after Holm correction within the original partition. Additional partitions changed the language-contrast directions. A linked length-balanced control retained \BalancedPairs{} pairs from each corpus. Its English Zipf recovery contrasts also changed sign across additional partitions. Enron matrix interventions produced different recovery effects, with the largest tested reduction under incidence thinning. Preprocessing changed the keyword set as well as its incidence structure. The findings were conditional on partition membership, keyword selection, and the evaluated attack.
+\end{abstract}
+\noindent\textbf{Keywords}\quad searchable symmetric encryption, query recovery, Mizo, preprocessing, corpus evaluation
+
+\section{Introduction}
+Searchable symmetric encryption (SSE) supports keyword retrieval over encrypted document collections~\cite{curtmola}. Search patterns expose repeated queries. Access patterns expose the matching document identifiers. Query-recovery attacks associate these observations with plaintext keywords using auxiliary information~\cite{islam,blackstone}.
+
+Attack evaluations depend on the query space and the information supplied to the adversary. Blackstone et al. examined the assumptions of leakage-abuse attacks across query selectivities, known-data rates, and collections~\cite{blackstone}. The LEAKER framework evaluated attacks on several collections and documented changes in performance under real-world data~\cite{leaker}. These studies motivate explicit reporting of corpus construction and candidate-keyword selection.
+
+Published attacks used different leakage and auxiliary-knowledge assumptions. Cash et al. evaluated leakage-abuse attacks under several levels of server knowledge~\cite{cash}. Damie et al. used non-indexed auxiliary documents and a small set of known queries in a refined score attack~\cite{damie}. Oya and Kerschbaum combined search-pattern and access-pattern observations with query-distribution information in a likelihood-based attack~\cite{sap}. Hoover et al. evaluated leakage-abuse attacks on structured encryption for structured query language (SQL) operations~\cite{hoover}.
+
+IHOP formulates statistical query recovery as a quadratic optimisation problem and iterates over linear assignment solutions~\cite{ihop}. Its volume configuration uses individual response sizes and document co-occurrence. The recovered query labels therefore depend on the indexed document-keyword incidence matrix. Preprocessing changes that matrix when tokens are removed or reduced to stems.
+
+The present evaluation compared English and Mizo representations of aligned text under a shared tokeniser and reviewed language-specific resources. Fixed document pairs and partition membership were retained across preprocessing conditions. A second aligned corpus supplied a corpus-choice sensitivity analysis. Enron matrix interventions supplied separate controlled comparisons of structural changes. The contribution was a conditional evaluation of IHOP across these representations. Generalisation to other attacks and deployment settings was outside the evaluated scope.
+
+\section{Results}
+The Enron baseline achieved mean final recovery of \EnronMean{} with a \ConfidencePercent{}\% confidence interval (CI) of [\EnronLow{}, \EnronHigh{}]. The baseline used one query per keyword. The recorded single-seed result was \SmokeObserved{} at the final checkpoint. The upstream reference comment reported \SmokeExpected{}~\cite{ihopcode}. Fixing Python hash ordering left the discrepancy unchanged. The upstream repository documented code cleaning without rerunning every experiment. The cause of the reference mismatch remained unresolved. An independent binomial-likelihood calculation and exhaustive assignment check passed on a planted fixture with \IndependentKeywords{} keywords and \IndependentDocuments{} documents. Assignment costs and exhaustive minima also agreed on \RealCheckCases{} real-data subsets spanning both languages and all preprocessing conditions. Every recorded update was audited in \IterativeCases{} small-fixture runs through \IterativeSteps{} iterations. Production-scale independent equivalence remained unvalidated. The production experiment matched a separate replay exactly. Replay established execution repeatability within the pinned implementation.
+
+Table~\ref{tab:recovery} shows production recovery means and sample standard deviations (SD). Under uniform queries, tokenisation-only query-weighted recovery was \ENTokenUniformPercent{}\% in English and \LUSTokenUniformPercent{}\% in Mizo. Stopword removal reduced these means to \ENStopUniformPercent{}\% and \LUSStopUniformPercent{}\%. The stemming-condition means were \ENStemUniformPercent{}\% and \LUSStemUniformPercent{}\%. Figure~\ref{fig:recovery} shows the checkpoint means.
+
+@@RECOVERY_TABLE@@
+
+@@RECOVERY_FIGURE@@
+
+Zipf queries produced different weighted and macro recovery measurements. English tokenisation-only query-weighted recovery was \ENTokenZipfWeighted{}, and keyword-macro recovery was \ENTokenZipfMacro{}. The corresponding Mizo measurements were \LUSTokenZipfWeighted{} and \LUSTokenZipfMacro{} (Table~\ref{tab:recovery}). The weighted measurement assigned more observations to higher-ranked keywords. The macro measurement assigned equal weight to each observed distinct keyword.
+
+Uniform runs observed all \Keywords{} keywords. Zipf runs observed \ZipfObservedMin{}-\ZipfObservedMax{} keywords, with a mean of \ZipfObservedMean{} (Supplementary Table S10). Query generation therefore changed the observed assignment problem and the scoring weights. The macro denominator contained only observed keywords.
+
+Table~\ref{tab:language} reports paired language differences. \LanguageSignificant{} comparisons had Holm-adjusted probabilities below \Alpha{}. Mizo recovery was higher for Zipf query-weighted recovery after stopword removal. After stemming, Mizo recovery was higher for both recovery measurements under both query distributions. The tokenisation-only language comparisons remained above the corrected threshold. The additional preprocessing contrasts were supplied in the supplementary tables. \PreprocessingSignificant{} contrasts remained below the corrected threshold. The stemmed versus stopword-only contrasts remained above it.
+
+@@LANGUAGE_TABLE@@
+
+Post-review sensitivity analyses used \SensitivityPartitions{} additional paired partitions and \SensitivitySeeds{} attack seeds per condition. The original statistically significant language comparisons had positive Mizo-minus-English partition means in \SensitivityPositiveDirections{} of \SensitivityDirectionCount{} additional comparisons. Figure~\ref{fig:partition} shows contrasts using matched attack seeds in the original and additional partitions. Supplementary Tables S11, S14, and S15 report seed variation and paired contrasts. These comparisons were descriptive.
+
+@@PARTITION_FIGURE@@
+
+Table~\ref{tab:structure} shows structure in the exact production client indexes. The identical-access-pair count was \IdenticalPairs{} across all production keyword sets. Stopword removal increased the proportion of keywords with an equal-frequency alternative in both languages. Mean recovery also fell under uniform queries (Table~\ref{tab:recovery}). Density and the selected vocabulary changed concurrently. These observations did not isolate frequency ambiguity as the sole mechanism.
+
+@@STRUCTURE_TABLE@@
+
+The matched-size corpus comparison used \MatchedPairs{} pairs per collection. English Zipf query-weighted recovery was \MatchedEnglishDifference{} higher in FLORES-200, with Holm-adjusted probability \MatchedEnglishP{}. After bilingual length balancing, \BalancedPairs{} cross-corpus pairs remained. Table~\ref{tab:balanced} shows selected Zipf query-weighted contrasts. The English differences remained positive and below the corrected threshold across the evaluated keyword sizes. \BalancedSignificant{} of the full comparison set remained below that threshold. All of those comparisons concerned English. The full set included both query distributions and both recovery measurements.
+
+@@BALANCED_TABLE@@
+
+English length-balanced Zipf query-weighted FLORES-minus-WMT23 differences ranged from \BalancedSensitivityMin{} to \BalancedSensitivityMax{} at \Keywords{} keywords across additional partitions (Figure~\ref{fig:partition}). Supplementary Tables S13 and S14 report recovery means and paired contrasts with sample standard deviations. The corpus ordering changed across the configured partitions.
+
+Religious-marker screening identified different lexical compositions in the length-balanced collections. Marker prevalence was \WMTMarkerEN{}\% in WMT23 English and \WMTMarkerLUS{}\% in WMT23 Mizo. The corresponding FLORES-200 percentages were \FloresMarkerEN{}\% and \FloresMarkerLUS{}\%. Screening measured the occurrence of specified tokens. It did not classify every document's domain. Corpus construction and source composition remained different after length balancing.
+
+Table~\ref{tab:ablation} shows paired Enron intervention endpoints. Incidence thinning had the largest negative mean endpoint contrast. Frequency equality and exact access collisions also reduced recovery. Frequency-preserving access similarity produced a smaller negative contrast. The keyword-count and co-occurrence endpoints had intervals that included zero. Intervention scales differed across rows. The endpoint values therefore described each configured intervention separately.
+
+@@ABLATION_TABLE@@
+
+A controlled candidate set retained \ControlledKeywords{} word labels per language with distinct mapped stems (Supplementary Table S12). Tokenisation-only and stopword-only incidence matrices were identical on these retained terms. The stemming comparison incorporated incidences of all forms mapped to each selected stem. Controlled Zipf query-weighted stemming-minus-stopword differences were \ENControlledStemZipfDifference{} in English and \LUSControlledStemZipfDifference{} in Mizo. Shuffled Zipf ranks were compared with frequency-ranked queries using the same attack seeds (Supplementary Table S12). Shuffled-rank weighted means ranged from \ShuffledWeightedMin{} to \ShuffledWeightedMax{}. These \SensitivityRuns{} runs were descriptive sensitivity analyses.
+
+Cross-partition unigram-set screening found \NearDuplicatePairs{} document pairs at Jaccard similarity of at least \NearDuplicateThreshold{} across the original production partitions. This screen measured lexical overlap. Source-level independence remained unverified because original article identifiers were unavailable.
+
+\section{Discussion}
+English and Mizo recovery differed under specific preprocessing and query conditions in the original partition (Table~\ref{tab:language}). Additional partition means retained the original positive language direction in \SensitivityPositiveDirections{} of \SensitivityDirectionCount{} comparisons (Supplementary Table S11). A language-wide ordering was not established. Preprocessing changed the selected keywords as well as their incidence profiles. The original contrasts concerned the complete indexing and keyword-selection procedure. They did not estimate the effect of morphology with a fixed candidate set.
+
+The controlled word-to-stem incidence comparison had a positive English Zipf stemming-minus-stopword difference and a negative Mizo difference (Supplementary Table S12). Each stem column incorporated all forms mapped to that stem. Preprocessing effects depended on the candidate-set construction. Shuffled-rank weighted recovery was lower than frequency-ranked recovery in the tested conditions. Candidate order and the identities of heavily queried keywords changed together under one permutation. Their separate contributions were unestimated.
+
+The observed structures limited the collision interpretation. Every selected production client index had an identical-access-pair count of \IdenticalPairs{} (Table~\ref{tab:structure}). Orthographic homography was not annotated. Written tokens were the index keys. Distinct lexical senses represented by the same written token were therefore outside the measured keyword labels. The evaluation supplied no estimate of tone-related query ambiguity.
+
+The Enron interventions showed reductions under several matrix changes (Table~\ref{tab:ablation}). These interventions changed additional structural quantities. Exact access collisions also changed frequency ambiguity. Frequency equality changed co-occurrence. Incidence thinning changed density and frequency ambiguity together. The comparisons supported sensitivity to these interventions within the implemented protocol. They did not establish a single sufficient corpus statistic.
+
+The corpus comparison remained conditional on collection choice and partition membership (Table~\ref{tab:balanced}). The English length-balanced Zipf recovery difference changed sign across additional partitions (Supplementary Table S13). Length matching controlled bilingual token length within the retained region of common support. It did not reconstruct original WMT23 article boundaries or remove differences in source and topic composition. The production WMT23 blocks were constructed from aligned sentences. FLORES-200 groups were source-linked excerpts. Neither representation supplied a benchmark of intact Mizo news articles.
+
+English stemming agreed with \EnglishStemMatched{} of \EnglishStemTotal{} reviewed labels. Mizo stemming agreed with \MizoStemMatched{} of \MizoStemTotal{} reviewed labels. Mizo disagreements comprised \UnderStemming{} under-stemming cases and \OverStemming{} over-stemming cases. Accepted suffix rules reduced several lexicalised forms and retained forms requiring unreviewed suffix removal. These disagreements were retained in Supplementary Table S5.
+
+The protocol evaluated one passive attack configuration without a defence. Query distributions were generated. Candidate keywords were selected using the full aligned collection and support in both partitions. This condition supplied a known, shared candidate universe. It excluded boundary-support keywords. It did not model adversarial discovery of an unknown candidate universe. Recovery was therefore measured under the stated evaluation conditions. Lower recovery in these experiments did not establish a security guarantee for preprocessing.
+
+Seed variation described attack and query-generation variation on fixed matrices. The paired intervals did not estimate variation over document samples or language communities. Additional partition means described variation across the configured splits. Multiple-test adjustment was applied within separately defined comparison families. The Enron intervention intervals were unadjusted descriptive intervals. Cross-corpus predictive validity was not estimated.
+
+Language and corpus comparison directions differed across the evaluated partitions under the configured IHOP settings (Figure~\ref{fig:partition}). The original fixed-partition rankings supplied conditional measurements. Preprocessing contrasts also depended on the retained candidate labels and their mapped incidences (Supplementary Table S12). Evaluation of these choices required reporting partition membership and candidate construction together.
+
+\section{Methods}
+\subsection{Corpora}
+The WMT23 IndicNE-Corp archive supplied aligned English-Mizo sentence files~\cite{indic}. The selected training files contained \SourceRows{} aligned rows. Empty text, empty token sequences, and repeated bilingual pairs were excluded. The retained rows were grouped into consecutive blocks of \SentencesPerBlock{} sentence pairs. The final incomplete block was excluded. This produced \ProductionPairs{} paired blocks. Grouping supplied evaluation document boundaries. It did not preserve source article boundaries.
+
+FLORES-200 development and development-test sentences were grouped by source URL~\cite{flores}. The grouping produced \MatchedPairs{} paired excerpts from Wikinews, Wikivoyage, and Wikibooks. The source dataset was distributed under Creative Commons Attribution-ShareAlike 4.0~\cite{floresrepo}. The WMT23 source text remained outside the proposed redistribution package. Acquisition identifiers, source hashes, and construction rules were recorded locally.
+
+Table~\ref{tab:corpora} shows the fixed bilingual partitions. English and Mizo members of each aligned pair were assigned together. Production pairs were ranked by SHA-256 of the partition seed and paired record identifiers. The first auxiliary-sized prefix was assigned to the auxiliary partition. The production partition seed was \ProductionSplitSeed{}. A matched-size WMT23 subset used the FLORES-200 pair count. Pairs were selected by deterministic hash ranking with seed \MatchedSelectionSeed{}.
+
+The length-balanced control used one-to-one assignment without replacement. Eligibility required a maximum token-length ratio of \LengthRatio{} in both languages. Maximum matching cardinality was prioritised. The summed absolute bilingual log-length difference was minimised among eligible assignments. Linked match identifiers were hash-ranked for partition assignment with seed \BalancedSplitSeed{}. Corresponding cross-corpus pairs were assigned to the same partition. All corpus-choice controls used tokenisation only. Original configurations and exact partition indices were included with the derived results.
+
+@@CORPUS_TABLE@@
+
+Religious markers were screened in tokenised text. The English marker set contained god, israel, jesus, and lord. The Mizo set contained israel, lalpa, and pathian. A document was counted when at least one marker occurred. This screen described lexical composition in the retained collections. It supplied a reproducible marker count without exhaustive topic annotation.
+
+\subsection{Preprocessing}
+Text was normalised to Unicode Normalization Form C (NFC) and case-folded. The tokeniser retained letters, combining marks, and digits. Apostrophes were retained inside letter sequences. Hyphens separated tokens. Numeric-only tokens and tokens with fewer than \MinimumLetters{} letters were excluded. The same tokeniser was applied to both languages.
+
+The preprocessing conditions were tokenisation only, reviewed stopword removal, and reviewed stopword removal followed by stemming. The review accepted \EnglishStopwords{} English and \MizoStopwords{} Mizo stopwords for exclusion. English stemming used the Snowball English (Porter2) algorithm through the Natural Language Toolkit (NLTK) version \NltkVersion{}~\cite{snowball}. The constructor was \texttt{SnowballStemmer("english")}. Mizo stemming used \MizoRules{} reviewed suffix rules. C Lalrinawma, a coauthor, native Mizo speaker, and doctoral researcher in natural language processing, completed the linguistic review. The review supplied token decisions and expected stems. The reviewer subsequently clarified the execution procedure. The reviewed suffix inventory, exceptions, and expected stems were preserved. Supplementary Tables S7 and S8 supplied the complete execution rules and excluded stopword lists.
+
+The annotation sample was purposively selected from frequent, middle-frequency, and infrequent corpus forms. Additional Mizo items covered candidate suffix endings. The sample was used during rule review and execution clarification. Stemming agreement was measured on the reviewed development sample. The original labels were preserved (Supplementary Table S5).
+
+Mizo rules were tried in priority order. Longer suffixes were tried first within a priority. The first eligible rule was applied to the current form. Exceptions blocked only their associated rule, and lower-priority rules remained eligible on that form. Passes were repeated until no rule applied. Every rule shortened the token. Minimum stem length counted written letters with their diacritics. Combining marks did not add letters. Corpus occurrence was excluded from rule eligibility. The annotation disagreements were retained in the supplementary material.
+
+The highest document-frequency eligible keywords were selected separately for each language and preprocessing condition. Lexical order resolved frequency ties. Eligibility required occurrence in a strict subset of both the auxiliary and client partitions. Production experiments used \Keywords{} keywords. Corpus-choice controls additionally used the keyword sizes shown in Table~\ref{tab:balanced}. Selection used the full collection's document frequencies. Both partitions contributed to this evaluation-universe construction.
+
+Each selected document-keyword matrix was binary. Matrix density was the proportion of non-zero entries. Frequency alternatives were keywords whose document frequencies matched those of at least one other selected keyword. Access similarity was Jaccard similarity between binary incidence columns. Co-occurrence profiles were rows of the keyword co-occurrence matrix with their diagonal entries removed. Cosine similarity was measured over distinct profile pairs. Auxiliary-client differences were measured on aligned candidate-keyword probabilities. These statistics were computed from the exact attack exports.
+
+\subsection{Evaluation}
+The adversary was a passive server observing unmodified single-keyword access patterns and response volumes. Plaintext auxiliary documents were disjoint from client documents. The candidate-keyword universe was given to the attack. Known query labels were not supplied. Static document collections were used. Dynamic updates and leakage-hiding defences were outside the tested configuration.
+
+The upstream IHOP implementation was pinned to commit \CommitID{}~\cite{ihopcode}. The canonical environment used Python \PythonVersion{}, NumPy \NumpyVersion{}, and SciPy \ScipyVersion{}. The attack used volume mode with free fraction \FreeFraction{}. Production and corpus-choice recovery was evaluated at the configured checkpoints through \FinalIterations{} iterations. Figure~\ref{fig:recovery} used $\log_{10}(i+1)$ iteration spacing.
+
+Each production condition used \SeedCount{} seeds. Uniform and Zipf queries were independent and identically distributed (IID). Uniform probabilities were equal over the selected keyword universe. Zipf probabilities were proportional to inverse rank. Ranks followed the selected document-frequency ordering. Each run generated \QueriesPerKeyword{} times the selected keyword count in query observations. The same seed specifications were used across paired conditions. Auxiliary query probabilities were uniform placeholders. Volume-mode assignment costs excluded query-frequency terms. The free-token count was the integer part of \FreeFraction{} times the observed token count~\cite{ihopcode}. Enron interventions used the recorded one-query-per-keyword configuration. Their recovery scale therefore differed from the generated-query corpus comparisons.
+
+Post-review partition seeds were \SensitivityPartitionSeeds{}. Attack seeds were \SensitivityAttackSeeds{}. Control settings were frozen in a separate configuration before those recovery runs. Bilingual membership remained linked. Length-balanced cross-corpus membership remained linked by match identifier. The original partition means in Figure~\ref{fig:partition} used those same attack seeds. Panel (a) selected the language comparisons significant in the original confirmatory family. Panel (b) used English Zipf query-weighted recovery at \Keywords{} keywords. Controlled word labels were selected in descending stopword-filtered document frequency. Eligibility required support in both partitions and a unique output stem among selected labels. Stemming used the corresponding complete-corpus stem column. A fixed seeded permutation assigned Zipf ranks in the shuffled-rank control. Candidate columns were reordered by that permutation. Original confirmatory results and comparison families were preserved. Supplementary Tables S9-S15 supplied diagnostics and descriptive sensitivity summaries.
+
+The Enron Email Dataset supplied the English email collection~\cite{enrondata}. Its processed representation was supplied by the pinned IHOP repository~\cite{ihopcode}. The Enron experiments used \EnronClient{} client documents and \EnronAuxiliary{} auxiliary documents per seed. Keyword-size experiments used nested prefixes of the same random keyword ordering. Matrix interventions used \InterventionKeywords{} selected keywords. The document partitions, keyword labels, and query order were retained within each paired intervention. Interventions were applied to both client and auxiliary matrices.
+
+Exact access collisions were introduced by assigning identical incidence columns to consecutive selected keyword pairs. The endpoint forced \CollisionPairs{} pairs. Frequency equality was introduced in nearest-frequency pairs with even combined counts. Each pair received its integer mean frequency. Its reconstructed columns had disjoint access sets. Pair totals and overall matrix density were preserved in the frequency-equality intervention.
+
+Access-similarity interventions used \SimilarityPairs{} nearest-frequency pairs feasible in both matrices. Each column's frequency was preserved while pair overlap was changed to the configured Jaccard target. Co-occurrence interventions used the same frequency-preserving pair reconstruction with disjoint pair access sets. Candidate reconstructions were scored by cosine similarity to the donor co-occurrence profile. The highest-scoring candidate was selected. The paired reference used a candidate budget of \CandidateBudget{} and supplied a random reconstruction.
+
+Incidence thinning retained nested deterministic prefixes of each column's incidences. Every column retained at least one incidence. Keyword-frequency weak ordering was preserved. The intervention endpoints and corresponding paired reference settings are listed in Table~\ref{tab:ablation}. Full configurations were retained with the derived results.
+
+For query labels $q_t$ and predictions $\hat q_t$, query-weighted recovery was
+\[
+R_{\mathrm{weighted}}=\frac{1}{T}\sum_{t=1}^{T}\mathbf{1}(\hat q_t=q_t).
+\]
+For the observed distinct keyword set $U$, keyword-macro recovery was
+\[
+R_{\mathrm{macro}}=\frac{1}{|U|}\sum_{u\in U}
+\frac{\sum_{t:q_t=u}\mathbf{1}(\hat q_t=u)}{|\{t:q_t=u\}|}.
+\]
+Unobserved keywords were excluded from the macro denominator. Enron recovery measurements coincided when every keyword was queried once.
+
+Means and sample standard deviations were computed across seeds. Recovery intervals used Student t intervals. Paired contrasts used seed-wise differences. All reported confidence intervals were unadjusted. Two-sided sign-flip probabilities enumerated all sign assignments of these differences. The test used the paired sign-exchangeability assumption under the null. Holm adjustment was applied separately to \LanguageFamily{} language comparisons and \PreprocessingFamily{} preprocessing comparisons. Those two families were specified before production recovery results were available. The matched-size, keyword-size, and length-balanced corpus comparisons used their respective recorded families. Enron endpoint intervals were descriptive unadjusted intervals. Additional partition and keyword controls used descriptive means and sample standard deviations without confirmatory probability claims. Paired contrast standard deviations described seed variation within fixed partitions. They excluded uncertainty over document sampling.
+
+Every reported experimental value was generated from the recorded result files. The changed Mizo stemming index was rerun for execution and independent replay. Previous runs were retained separately for indexes whose documents, keyword labels, and partition indices were unchanged. The combined production results matched their independent replay exactly. Corpus summaries and manuscript tables were independently rebuilt. The supplementary material contained the full comparison tables and source-data identifiers.
+
+Real-data assignment checks used the first \IndependentDocuments{} documents from each original auxiliary and client partition. \IndependentKeywords{} columns were selected at evenly spaced ranks among columns with non-zero, non-complete support in both subsets. Independent binomial likelihoods were compared with upstream assignment costs under fixed token sets. Zero auxiliary probabilities were smoothed within the current free-keyword set. Assignment minima were checked by exhaustive enumeration. Derived binary fixtures and source export hashes were retained with the validation results.
+
+Iterative audits used those binary fixtures under \IterativeSeeds{} attack seeds. The fixture free fraction was \IterativeFreeFraction{}. Every recorded cost matrix was compared with an independent binomial calculation. The selected assignment was checked against exhaustive minima. Tied optimal assignments were accepted. Checkpoint predictions were reconstructed from the recorded assignments. An independently selected trajectory was excluded from this audit.
+
+\section*{Data availability}
+The accompanying reproducibility archive contains recorded attack results, reviewed linguistic resources, configurations, and scripts for rebuilding the reported tables and numerical statements. This reconstruction requires no raw corpus text. Full attack reruns require the original WMT23 IndicNE-Corp, FLORES-200, and Enron datasets~\cite{indic,flores,enrondata}, together with the IHOP code revision specified in Methods. Dataset acquisition instructions and file identifiers are included in the archive. Raw corpus text and private review correspondence were excluded from redistribution. A public repository identifier had not been assigned.
+
+@@REFERENCES@@
+\end{document}
