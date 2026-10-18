@@ -1,0 +1,105 @@
+{
+  "diagnostics": [
+    {
+      "dataset_id": "auxiliary-only-en-tokenisation_only",
+      "family": "auxiliary_only",
+      "language": "en",
+      "condition": "tokenisation_only",
+      "keyword_count": 500,
+      "auxiliary_count": 1658,
+      "client_count": 3316,
+      "client_absent_keyword_count": 0
+    },
+    {
+      "dataset_id": "auxiliary-only-lus-tokenisation_only",
+      "family": "auxiliary_only",
+      "language": "lus",
+      "condition": "tokenisation_only",
+      "keyword_count": 500,
+      "auxiliary_count": 1658,
+      "client_count": 3316,
+      "client_absent_keyword_count": 0
+    },
+    {
+      "dataset_id": "auxiliary-only-en-stopword_removal",
+      "family": "auxiliary_only",
+      "language": "en",
+      "condition": "stopword_removal",
+      "keyword_count": 500,
+      "auxiliary_count": 1658,
+      "client_count": 3316,
+      "client_absent_keyword_count": 0
+    },
+    {
+      "dataset_id": "auxiliary-only-lus-stopword_removal",
+      "family": "auxiliary_only",
+      "language": "lus",
+      "condition": "stopword_removal",
+      "keyword_count": 500,
+      "auxiliary_count": 1658,
+      "client_count": 3316,
+      "client_absent_keyword_count": 0
+    },
+    {
+      "dataset_id": "auxiliary-only-en-stemming",
+      "family": "auxiliary_only",
+      "language": "en",
+      "condition": "stemming",
+      "keyword_count": 500,
+      "auxiliary_count": 1658,
+      "client_count": 3316,
+      "client_absent_keyword_count": 0
+    },
+    {
+      "dataset_id": "auxiliary-only-lus-stemming",
+      "family": "auxiliary_only",
+      "language": "lus",
+      "condition": "stemming",
+      "keyword_count": 500,
+      "auxiliary_count": 1658,
+      "client_count": 3316,
+      "client_absent_keyword_count": 0
+    },
+    {
+      "dataset_id": "auxiliary-shift-en-wmt23",
+      "family": "auxiliary_shift",
+      "language": "en",
+      "condition": "wmt23",
+      "keyword_count": 500,
+      "auxiliary_count": 187,
+      "client_count": 375,
+      "client_absent_keyword_count": 4
+    },
+    {
+      "dataset_id": "auxiliary-shift-en-flores200",
+      "family": "auxiliary_shift",
+      "language": "en",
+      "condition": "flores200",
+      "keyword_count": 500,
+      "auxiliary_count": 187,
+      "client_count": 375,
+      "client_absent_keyword_count": 4
+    },
+    {
+      "dataset_id": "auxiliary-shift-lus-wmt23",
+      "family": "auxiliary_shift",
+      "language": "lus",
+      "condition": "wmt23",
+      "keyword_count": 500,
+      "auxiliary_count": 187,
+      "client_count": 375,
+      "client_absent_keyword_count": 7
+    },
+    {
+      "dataset_id": "auxiliary-shift-lus-flores200",
+      "family": "auxiliary_shift",
+      "language": "lus",
+      "condition": "flores200",
+      "keyword_count": 500,
+      "auxiliary_count": 187,
+      "client_count": 375,
+      "client_absent_keyword_count": 7
+    }
+  ],
+  "scope": "Within-collection candidates were selected only from auxiliary frequencies. Auxiliary-source comparisons used equal auxiliary counts, a shared candidate universe selected from both auxiliary sources, and identical WMT23 client documents. Candidates absent from client documents were retained."
+}

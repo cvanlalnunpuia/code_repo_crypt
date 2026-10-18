@@ -179,6 +179,102 @@
       "source": "enron",
       "value": 0.9712
     },
+    "ExpandedBalancedMax": {
+      "rendered": "0.1831",
+      "selector": "expanded English Zipf weighted FLORES minus WMT23 Max",
+      "source": "results/corpus/expanded-recovery/expanded-analysis.json",
+      "value": 0.18305999999999994
+    },
+    "ExpandedBalancedMin": {
+      "rendered": "-0.0076",
+      "selector": "expanded English Zipf weighted FLORES minus WMT23 Min",
+      "source": "results/corpus/expanded-recovery/expanded-analysis.json",
+      "value": -0.007599999999999996
+    },
+    "ExpandedDirectionCount": {
+      "rendered": "30",
+      "selector": "expanded_manuscript.expanded_facts.ExpandedDirectionCount",
+      "source": "results/corpus/expanded-recovery/expanded-analysis.json",
+      "value": 30
+    },
+    "ExpandedENAuxFlores": {
+      "rendered": "0.1573",
+      "selector": "auxiliary_shift en flores200 Zipf weighted",
+      "source": "results/corpus/expanded-recovery/expanded-analysis.json",
+      "value": 0.15728000000000003
+    },
+    "ExpandedENAuxWMT": {
+      "rendered": "0.1232",
+      "selector": "auxiliary_shift en wmt23 Zipf weighted",
+      "source": "results/corpus/expanded-recovery/expanded-analysis.json",
+      "value": 0.12318
+    },
+    "ExpandedENControlledDifference": {
+      "rendered": "0.0026",
+      "selector": "controlled en Zipf weighted stemming minus stopwords",
+      "source": "results/corpus/expanded-recovery/expanded-analysis.json",
+      "value": 0.0026000000000000467
+    },
+    "ExpandedLUSAuxFlores": {
+      "rendered": "0.0050",
+      "selector": "auxiliary_shift lus flores200 Zipf weighted",
+      "source": "results/corpus/expanded-recovery/expanded-analysis.json",
+      "value": 0.00496
+    },
+    "ExpandedLUSAuxWMT": {
+      "rendered": "0.1545",
+      "selector": "auxiliary_shift lus wmt23 Zipf weighted",
+      "source": "results/corpus/expanded-recovery/expanded-analysis.json",
+      "value": 0.1545
+    },
+    "ExpandedLUSControlledDifference": {
+      "rendered": "-0.0008",
+      "selector": "controlled lus Zipf weighted stemming minus stopwords",
+      "source": "results/corpus/expanded-recovery/expanded-analysis.json",
+      "value": -0.0008000000000001339
+    },
+    "ExpandedPartitions": {
+      "rendered": "6",
+      "selector": "expanded_manuscript.expanded_facts.ExpandedPartitions",
+      "source": "results/corpus/expanded-recovery/expanded-analysis.json",
+      "value": 6
+    },
+    "ExpandedPositiveDirections": {
+      "rendered": "12",
+      "selector": "expanded_manuscript.expanded_facts.ExpandedPositiveDirections",
+      "source": "results/corpus/expanded-recovery/expanded-analysis.json",
+      "value": 12
+    },
+    "ExpandedRunCount": {
+      "rendered": "1912",
+      "selector": "expanded_manuscript.expanded_facts.ExpandedRunCount",
+      "source": "results/corpus/expanded-recovery/expanded-analysis.json",
+      "value": 1912
+    },
+    "ExpandedSeeds": {
+      "rendered": "10",
+      "selector": "expanded_manuscript.expanded_facts.ExpandedSeeds",
+      "source": "results/corpus/expanded-recovery/expanded-analysis.json",
+      "value": 10
+    },
+    "ExtendedLanguageSignificant": {
+      "rendered": "12",
+      "selector": "expanded_manuscript.expanded_facts.ExtendedLanguageSignificant",
+      "source": "results/corpus/expanded-recovery/expanded-analysis.json",
+      "value": 12
+    },
+    "ExtendedMinimumP": {
+      "rendered": "0.00000191",
+      "selector": "minimum_two_sided_probability",
+      "source": "results/corpus/expanded-recovery/extended-statistics.json",
+      "value": 1.9073486328125e-06
+    },
+    "ExtendedSeeds": {
+      "rendered": "20",
+      "selector": "expanded_manuscript.expanded_facts.ExtendedSeeds",
+      "source": "results/corpus/expanded-recovery/expanded-analysis.json",
+      "value": 20
+    },
     "FinalIterations": {
       "rendered": "1000",
       "selector": "checkpoint",
@@ -208,6 +304,30 @@
       "selector": "common client.identical_access_pair_count",
       "source": "structure",
       "value": 0
+    },
+    "IndependentAuditMatched": {
+      "rendered": "120",
+      "selector": "expanded_manuscript.expanded_facts.IndependentAuditMatched",
+      "source": "results/corpus/expanded-recovery/expanded-analysis.json",
+      "value": 120
+    },
+    "IndependentAuditMaxRelative": {
+      "rendered": "3.058e-15",
+      "selector": "maximum comparisons.cost_audit.maximum_relative_cost_error",
+      "source": "results/corpus/expanded-recovery/independent-comparison.json",
+      "value": "3.058e-15"
+    },
+    "IndependentAuditRuns": {
+      "rendered": "120",
+      "selector": "expanded_manuscript.expanded_facts.IndependentAuditRuns",
+      "source": "results/corpus/expanded-recovery/expanded-analysis.json",
+      "value": 120
+    },
+    "IndependentAuditUpdates": {
+      "rendered": "120120",
+      "selector": "expanded_manuscript.expanded_facts.IndependentAuditUpdates",
+      "source": "results/corpus/expanded-recovery/expanded-analysis.json",
+      "value": 120120
     },
     "IndependentDocuments": {
       "rendered": "200",
@@ -298,6 +418,12 @@
       "selector": "len(language_comparisons)",
       "source": "production",
       "value": 12
+    },
+    "LanguageHolmFloor": {
+      "rendered": "0.0234",
+      "selector": "len(language_comparisons) * 2 / 2**len(seeds)",
+      "source": "production",
+      "value": 0.0234375
     },
     "LanguageSignificant": {
       "rendered": "5",
@@ -515,6 +641,12 @@
       "source": "revision_results",
       "value": 0.0164
     },
+    "SignFlipMinimum": {
+      "rendered": "0.00195",
+      "selector": "2 / 2**len(seeds)",
+      "source": "production",
+      "value": 0.001953125
+    },
     "SimilarityPairs": {
       "rendered": "31",
       "selector": "pair_count",
@@ -587,29 +719,29 @@
       "authors": "R. Curtmola, J. Garay, S. Kamara, and R. Ostrovsky",
       "key": "curtmola",
       "title": "Searchable Symmetric Encryption: Improved Definitions and Efficient Constructions",
-      "url": "https://eprint.iacr.org/2006/210",
-      "venue": "Cryptology ePrint Archive, 2006/210"
+      "url": "https://doi.org/10.1145/1180405.1180417",
+      "venue": "Proceedings of the 13th ACM Conference on Computer and Communications Security, ACM, 2006, pp. 79-88"
     },
     {
       "authors": "M. S. Islam, M. Kuzu, and M. Kantarcioglu",
       "key": "islam",
       "title": "Access Pattern Disclosure on Searchable Encryption: Ramification, Attack and Mitigation",
       "url": "https://www.ndss-symposium.org/ndss2012/ndss-2012-programme/access-pattern-disclosure-searchable-encryption-ramification-attack-and-mitigation/",
-      "venue": "NDSS, 2012"
+      "venue": "Network and Distributed System Security Symposium, Internet Society, 2012"
     },
     {
       "authors": "L. Blackstone, S. Kamara, and T. Moataz",
       "key": "blackstone",
       "title": "Revisiting Leakage Abuse Attacks",
-      "url": "https://www.ndss-symposium.org/ndss-paper/revisiting-leakage-abuse-attacks/",
-      "venue": "NDSS, 2020"
+      "url": "https://doi.org/10.14722/ndss.2020.23103",
+      "venue": "Network and Distributed System Security Symposium, Internet Society, 2020"
     },
     {
       "authors": "S. Kamara, A. Kati, T. Moataz, T. Schneider, A. Treiber, and M. Yonli",
       "key": "leaker",
       "title": "SoK: Cryptanalysis of Encrypted Search with LEAKER - A Framework for Leakage Attack Evaluation on Real-World Data",
-      "url": "https://eprint.iacr.org/2021/1035",
-      "venue": "IEEE European Symposium on Security and Privacy, 2022"
+      "url": "https://doi.org/10.1109/EuroSP53844.2022.00014",
+      "venue": "2022 IEEE 7th European Symposium on Security and Privacy, IEEE, 2022, pp. 90-108"
     },
     {
       "authors": "D. Cash, P. Grubbs, J. Perry, and T. Ristenpart",
@@ -640,11 +772,53 @@
       "venue": "USENIX Security, 2024, pp. 7411-7428"
     },
     {
+      "authors": "H. Nie, W. Wang, P. Xu, X. Zhang, L. T. Yang, and K. Liang",
+      "key": "jigsaw",
+      "title": "Query Recovery from Easy to Hard: Jigsaw Attack against SSE",
+      "url": "https://www.usenix.org/conference/usenixsecurity24/presentation/nie",
+      "venue": "33rd USENIX Security Symposium, USENIX Association, 2024, pp. 2599-2616"
+    },
+    {
+      "authors": "M. Bian, J. Wang, D. Xu, G. Huang, and Y. Zhou",
+      "key": "whisper",
+      "title": "Your Keywords Know Each Other: Breaking SSE with <1% Leaked Documents",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/bian-mingyu",
+      "venue": "35th USENIX Security Symposium, USENIX Association, 2026, pp. 4543-4560"
+    },
+    {
+      "authors": "K. S. Al-Saleh",
+      "key": "arabic",
+      "title": "Arabic text preprocessing for dynamic searchable symmetric encryption: An empirical evaluation and preprocessor selection framework",
+      "url": "https://doi.org/10.1371/journal.pone.0351281",
+      "venue": "PLOS One, volume 21, issue 9, 2026, article e0351281"
+    },
+    {
       "authors": "S. Oya and F. Kerschbaum",
       "key": "ihop",
       "title": "IHOP: Improved Statistical Query Recovery against Searchable Symmetric Encryption through Quadratic Optimization",
       "url": "https://www.usenix.org/conference/usenixsecurity22/presentation/oya",
-      "venue": "USENIX Security, 2022"
+      "venue": "31st USENIX Security Symposium, USENIX Association, 2022, pp. 2407-2424"
+    },
+    {
+      "authors": "V. Khenglawt, S. R. Laskar, S. Pal, P. Pakray, and A. K. Khan",
+      "key": "mizotone",
+      "title": "Language Resource Building and English-to-Mizo Neural Machine Translation Encountering Tonal Words",
+      "url": "https://aclanthology.org/2022.wildre-1.9/",
+      "venue": "Proceedings of the WILDRE-6 Workshop within the 13th Language Resources and Evaluation Conference, European Language Resources Association, 2022, pp. 48-54"
+    },
+    {
+      "authors": "S. Ghosh, H. Lalsiam, D. Marbaniang, G. M. Temsen, R. Mishra, and P. Krishnamurthy",
+      "key": "mizoresources",
+      "title": "Towards Resource-Rich Mizo and Khasi in NLP: Resource Development, Synthetic Data Generation and Model Building",
+      "url": "https://doi.org/10.18653/v1/2025.law-1.18",
+      "venue": "Proceedings of the 19th Linguistic Annotation Workshop, Association for Computational Linguistics, 2025, pp. 228-239"
+    },
+    {
+      "authors": "S. Pal, P. Pakray, S. R. Laskar, L. Laitonjam, V. Khenglawt, S. Warjri, P. K. Dadure, and S. K. Dash",
+      "key": "indic",
+      "title": "Findings of the WMT 2023 Shared Task on Low-Resource Indic Language Translation",
+      "url": "https://doi.org/10.18653/v1/2023.wmt-1.56",
+      "venue": "Proceedings of the Eighth Conference on Machine Translation, Association for Computational Linguistics, 2023, pp. 682-694"
     },
     {
       "authors": "S. Oya",
@@ -654,18 +828,11 @@
       "venue": "Software repository"
     },
     {
-      "authors": "S. Pal, P. Pakray, S. R. Laskar, L. Laitonjam, V. Khenglawt, S. Warjri, P. K. Dadure, and S. K. Dash",
-      "key": "indic",
-      "title": "Findings of the WMT 2023 Shared Task on Low-Resource Indic Language Translation",
-      "url": "https://aclanthology.org/2023.wmt-1.56/",
-      "venue": "Eighth Conference on Machine Translation, 2023"
-    },
-    {
       "authors": "NLLB Team",
       "key": "flores",
-      "title": "No Language Left Behind: Scaling Human-Centered Machine Translation",
-      "url": "https://arxiv.org/abs/2207.04672",
-      "venue": "arXiv:2207.04672, 2022"
+      "title": "Scaling neural machine translation to 200 languages",
+      "url": "https://doi.org/10.1038/s41586-024-07335-x",
+      "venue": "Nature, volume 630, 2024, pp. 841-846"
     },
     {
       "authors": "Meta",
@@ -687,6 +854,13 @@
       "title": "Enron Email Dataset",
       "url": "https://www.cs.cmu.edu/~enron/",
       "venue": "Dataset documentation"
+    },
+    {
+      "authors": "Vanlalhruaia, C Lalrinawma, C Vanlalnunpuia, Phibansabeth Nongkseh, R Lalduhsaka, and Zaitinkhuma Thihlum",
+      "key": "studydata",
+      "title": "Partition and Preprocessing Sensitivity of IHOP Query Recovery in English and Mizo",
+      "url": "https://github.com/cvanlalnunpuia/code_repo_crypt/releases/tag/v1.1.0",
+      "venue": "Reproducibility dataset and source code, version 1.1.0, 2026"
     }
   ],
   "sources": {
@@ -694,6 +868,7 @@
     "configs/access_similarity_sweep.json": "a9eaccb28f580d7c3dbe873abbfaa7e43c090315d2b7c04fd4eba822bc18c119",
     "configs/cooccurrence_similarity_sweep.json": "8fae3c5e5f320f2ed618ac6c9695c09c48856ec8a92b83d6b062051a205f4d2f",
     "configs/corpus_split_production.json": "69179af9e8ee0dd55f42cae59205856f112a507d428a2e82f893f1a632ed6c96",
+    "configs/expanded_recovery.json": "7ffab939b241f5c1cd7d244e4e278207d465f2a093355fdd74987df0feae0998",
     "configs/frequency_ambiguity_sweep.json": "f66274fb9a415b4a3ec658c7bd3dafb19985d65f478c121952ff7df6e67f9d05",
     "configs/keyword_size_sweep.json": "41c6599ef1892206afa5d343e0d21c8b167976600f45a278b1f21a7a2409278c",
     "configs/length_balanced_control.json": "98340fa0edd519ab7af31507a54773eebddcbf885b9dbd3bd88a6578e2cf685e",
@@ -706,12 +881,21 @@
     "paper/official-template/package/sn-article-template/bst/sn-mathphys-num.bst": "b3a7c7fbcc1e7f9619de634fcea2f5bb7a245818a5942bc576e40ea001633332",
     "paper/official-template/package/sn-article-template/sn-article.tex": "71777936dca4952ac34aef4b98f5ce543fe50597efb2c1798cbb7a97767b70a9",
     "paper/official-template/package/sn-article-template/sn-jnl.cls": "36d0c3273a59d48dc6a9c7b080dfa1ec50dc10229d8751568d1f2e490ffa5ecc",
-    "paper/submission-information.json": "047a0eba72a6d11a5eb1c08a059f4ff945b26319526f8ffe7b09cd5cf9bcf851",
+    "paper/submission-information.json": "c8b1e8997ab13691500492e619cca1cc759d9d10d2038b8c9a81b45520ec9e0a",
     "requirements-2022.lock": "7ccf3097301a75953ab3df8747f015e636b63b1c9ee3414f32d4355cb7fa6fd4",
     "resources/stemmers/lus-production.reviewed.json": "48e4ca072609f68057a917574bfde11cb7d65afc3b36f31a23fc8bf893a00bd8",
     "resources/stopwords/en-production.reviewed.json": "00768fb4395a0fcef706cbe467835c98ee84d08b0ffcb7b3d5140095ddc2aea1",
     "resources/stopwords/lus-production.reviewed.json": "9aed3661c67cfdaee6878ab7f9a197992458466928804fc1aafffe53c0a71582",
     "results/corpus/clarified-recovery-reuse.json": "0861494a0adbd7ad224ef5b23fde5b8fc5061b581bd8ba1dc09a011de4b1695a",
+    "results/corpus/expanded-recovery/auxiliary-controls.json": "7137c106875d0801c08aad5719df9d68577271d9ea6d024f65aba7bd5795ebf0",
+    "results/corpus/expanded-recovery/checkpoint.json": "6ee11588abee6acd44800fe70a8fe01d95fd2bdad93fb4f1000736ea64f4e96f",
+    "results/corpus/expanded-recovery/expanded-analysis.json": "dd2ee46b522ee5e87833dd748c10087db30c75df0764f5a849b94d7e92c220e8",
+    "results/corpus/expanded-recovery/extended-statistics.json": "e0568c0bde913a0280ecd5e5d8dc5c84fe9732110cbde6435effd5cb2701bf69",
+    "results/corpus/expanded-recovery/figure-data.json": "4311d3821bcdc0a4113437838d2b1a7c846abc0b317b24e2d415190807296a7f",
+    "results/corpus/expanded-recovery/independent-comparison.json": "12f35426441248ba9f731eae0d01cedfd680d6d161416cb77a0d10defca26fc1",
+    "results/corpus/expanded-recovery/manifest.json": "dba826ee78fd9e2a5194b104d17900a6fb5ba08e0eafc7386b5f4fd31cbc066b",
+    "results/corpus/expanded-recovery/status.json": "ffba02b3c950670e1cfdefddc8d1ba50ae54af7049f6b834cb061ea9c67923ef",
+    "results/corpus/expanded-recovery/summary-format-provenance.json": "80198c479631b38084aceaa956d62cbc2bd2f690337282895f7b0520de9ef351",
     "results/corpus/export-structure-analysis.json": "1e886edfd784588954290c1c3e8a666751448023926b5964b2b4e218011353e7",
     "results/corpus/flores200-ihop/manifest.json": "d0b53ce50788b368c87c9ed4ec8b24635535aad5460b56eb442fe0442b41fe3b",
     "results/corpus/flores200-length-balanced-experiments.json": "7026d083bba3061151df41ec51976d363813b79be2180a8248ba7557b40378d7",
@@ -738,7 +922,14 @@
     "results/ihop-enron-volume-seed0-py39-hash0.json": "9307953cab1823bb0724f22907eb0330d6ce28be2c25a52fdff679efa2c46ad4",
     "results/ihop_enron_baseline/aggregate.json": "c62caf808e467910e1b07ad88e69225dad345b5ea6c25256850f23760e0dcbb6",
     "results/unified/enron-ablation-summary.json": "045039991ca4ca3b59359eaf39723d3e13e3372eb936c868cdeea49fbf2e8d95",
-    "scripts/manuscript_template.tex": "8ca53911373cd0ee3d44ca01265e6ef9a586920ad898d2dce34b747cd20e9852"
+    "scripts/audit_production_ihop.py": "97a5f6b203e8794b804eddea0b86ae09e864a529892fe9d7b879f11d78aead9d",
+    "scripts/auxiliary_controls.py": "ad7e2d83bfa779b2256f3c7b3e0082abb76ebcc75e0ba367f788d897b67f700f",
+    "scripts/expanded_manuscript.py": "fc02252de7498bfa05f9982026bc4da6f2e93d49fa18e138cc4a7bc40825337d",
+    "scripts/expanded_partition_figure.py": "9a1df3ed61f023593f906c85fa8f836d5c19d04d176072eaa76f7b4b8821e042",
+    "scripts/expanded_statistics.py": "7dbf650baefb481fb7cf7c5f955ac97a38089f7acf2a7d806edbec2f7ac786ed",
+    "scripts/independent_ihop.py": "86e694fbf486c1ece83bc4f41f58dbf9c8b6b51e72ac9e7d5213b7e82b8e36e0",
+    "scripts/manuscript_template.tex": "35373938d5fec78a0fedb3ed2fe3314380a4b16d61a438f7f7b2b17955cfb1d4",
+    "scripts/standalone_manuscript.py": "1fd97a543b362472b061c0d4961b9b25eecf41b3b6438737104dd21169727a5f"
   },
   "table_rows": {
     "balanced_selected": [

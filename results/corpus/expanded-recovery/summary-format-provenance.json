@@ -1,0 +1,9 @@
+{
+  "operation": "Singleton sample standard deviations represented as null (unmeasured)",
+  "fields_changed": 24,
+  "original_sha256": "5e9fa26e39627634870506c4378a282f02d4d3e105046916d72c684c8c7e937f",
+  "normalized_sha256": "dd2ee46b522ee5e87833dd748c10087db30c75df0764f5a849b94d7e92c220e8",
+  "experimental_settings_changed": false,
+  "saved_runs_changed": false,
+  "frozen_execution_sources_changed": false
+}

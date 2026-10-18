@@ -9,6 +9,8 @@ from pathlib import Path
 import numpy as np
 import scipy
 from springer_template import OFFICIAL, migrate, bibliography
+from expanded_manuscript import load_expanded, expanded_facts, incorporate_main, supplementary_tables
+from standalone_manuscript import consolidate, RELEASE_URL
 
 ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = ROOT / 'paper'
@@ -19,13 +21,13 @@ DIST = {'uniform_iid': 'Uniform', 'zipf_iid': 'Zipf'}
 METRIC = {'query_weighted_recovery': 'Weighted', 'distinct_keyword_macro_recovery': 'Macro'}
 
 REFERENCES = [
-    ('curtmola', 'R. Curtmola, J. Garay, S. Kamara, and R. Ostrovsky', 'Searchable Symmetric Encryption: Improved Definitions and Efficient Constructions', 'Cryptology ePrint Archive, 2006/210', 'https://eprint.iacr.org/2006/210'),
-    ('islam', 'M. S. Islam, M. Kuzu, and M. Kantarcioglu', 'Access Pattern Disclosure on Searchable Encryption: Ramification, Attack and Mitigation', 'NDSS, 2012', 'https://www.ndss-symposium.org/ndss2012/ndss-2012-programme/access-pattern-disclosure-searchable-encryption-ramification-attack-and-mitigation/'),
-    ('blackstone', 'L. Blackstone, S. Kamara, and T. Moataz', 'Revisiting Leakage Abuse Attacks', 'NDSS, 2020', 'https://www.ndss-symposium.org/ndss-paper/revisiting-leakage-abuse-attacks/'),
-    ('leaker', 'S. Kamara, A. Kati, T. Moataz, T. Schneider, A. Treiber, and M. Yonli', 'SoK: Cryptanalysis of Encrypted Search with LEAKER - A Framework for Leakage Attack Evaluation on Real-World Data', 'IEEE European Symposium on Security and Privacy, 2022', 'https://eprint.iacr.org/2021/1035'),
-    ('ihop', 'S. Oya and F. Kerschbaum', 'IHOP: Improved Statistical Query Recovery against Searchable Symmetric Encryption through Quadratic Optimization', 'USENIX Security, 2022', 'https://www.usenix.org/conference/usenixsecurity22/presentation/oya'),
-    ('indic', 'S. Pal, P. Pakray, S. R. Laskar, L. Laitonjam, V. Khenglawt, S. Warjri, P. K. Dadure, and S. K. Dash', 'Findings of the WMT 2023 Shared Task on Low-Resource Indic Language Translation', 'Eighth Conference on Machine Translation, 2023', 'https://aclanthology.org/2023.wmt-1.56/'),
-    ('flores', 'NLLB Team', 'No Language Left Behind: Scaling Human-Centered Machine Translation', 'arXiv:2207.04672, 2022', 'https://arxiv.org/abs/2207.04672'),
+    ('curtmola', 'R. Curtmola, J. Garay, S. Kamara, and R. Ostrovsky', 'Searchable Symmetric Encryption: Improved Definitions and Efficient Constructions', 'Proceedings of the 13th ACM Conference on Computer and Communications Security, ACM, 2006, pp. 79-88', 'https://doi.org/10.1145/1180405.1180417'),
+    ('islam', 'M. S. Islam, M. Kuzu, and M. Kantarcioglu', 'Access Pattern Disclosure on Searchable Encryption: Ramification, Attack and Mitigation', 'Network and Distributed System Security Symposium, Internet Society, 2012', 'https://www.ndss-symposium.org/ndss2012/ndss-2012-programme/access-pattern-disclosure-searchable-encryption-ramification-attack-and-mitigation/'),
+    ('blackstone', 'L. Blackstone, S. Kamara, and T. Moataz', 'Revisiting Leakage Abuse Attacks', 'Network and Distributed System Security Symposium, Internet Society, 2020', 'https://doi.org/10.14722/ndss.2020.23103'),
+    ('leaker', 'S. Kamara, A. Kati, T. Moataz, T. Schneider, A. Treiber, and M. Yonli', 'SoK: Cryptanalysis of Encrypted Search with LEAKER - A Framework for Leakage Attack Evaluation on Real-World Data', '2022 IEEE 7th European Symposium on Security and Privacy, IEEE, 2022, pp. 90-108', 'https://doi.org/10.1109/EuroSP53844.2022.00014'),
+    ('ihop', 'S. Oya and F. Kerschbaum', 'IHOP: Improved Statistical Query Recovery against Searchable Symmetric Encryption through Quadratic Optimization', '31st USENIX Security Symposium, USENIX Association, 2022, pp. 2407-2424', 'https://www.usenix.org/conference/usenixsecurity22/presentation/oya'),
+    ('indic', 'S. Pal, P. Pakray, S. R. Laskar, L. Laitonjam, V. Khenglawt, S. Warjri, P. K. Dadure, and S. K. Dash', 'Findings of the WMT 2023 Shared Task on Low-Resource Indic Language Translation', 'Proceedings of the Eighth Conference on Machine Translation, Association for Computational Linguistics, 2023, pp. 682-694', 'https://doi.org/10.18653/v1/2023.wmt-1.56'),
+    ('flores', 'NLLB Team', 'Scaling neural machine translation to 200 languages', 'Nature, volume 630, 2024, pp. 841-846', 'https://doi.org/10.1038/s41586-024-07335-x'),
     ('floresrepo', 'Meta', 'FLORES-200 dataset documentation and licence', 'Dataset documentation', 'https://github.com/facebookresearch/flores/blob/main/flores200/README.md'),
     ('ihopcode', 'S. Oya', 'IHOP evaluation implementation', 'Software repository', 'https://github.com/simon-oya/ihop-code'),
     ('snowball', 'Snowball project', 'The English (Porter2) stemming algorithm', 'Algorithm documentation', 'https://snowballstem.org/algorithms/english/stemmer.html'),
@@ -34,6 +36,12 @@ REFERENCES = [
     ('damie', 'M. Damie, F. Hahn, and A. Peter', 'A Highly Accurate Query-Recovery Attack against Searchable Encryption using Non-Indexed Documents', 'USENIX Security, 2021, pp. 143-160', 'https://www.usenix.org/conference/usenixsecurity21/presentation/damie'),
     ('sap', 'S. Oya and F. Kerschbaum', 'Hiding the Access Pattern is Not Enough: Exploiting Search Pattern Leakage in Searchable Encryption', 'USENIX Security, 2021, pp. 127-142', 'https://www.usenix.org/conference/usenixsecurity21/presentation/oya'),
     ('hoover', "A. Hoover, R. Ng, D. Khu, Yao'An Li, J. Lim, D. Ng, Jed Lim, and Y. Song", 'Leakage-Abuse Attacks Against Structured Encryption for SQL', 'USENIX Security, 2024, pp. 7411-7428', 'https://www.usenix.org/conference/usenixsecurity24/presentation/hoover'),
+    ('jigsaw', 'H. Nie, W. Wang, P. Xu, X. Zhang, L. T. Yang, and K. Liang', 'Query Recovery from Easy to Hard: Jigsaw Attack against SSE', '33rd USENIX Security Symposium, USENIX Association, 2024, pp. 2599-2616', 'https://www.usenix.org/conference/usenixsecurity24/presentation/nie'),
+    ('whisper', 'M. Bian, J. Wang, D. Xu, G. Huang, and Y. Zhou', 'Your Keywords Know Each Other: Breaking SSE with <1% Leaked Documents', '35th USENIX Security Symposium, USENIX Association, 2026, pp. 4543-4560', 'https://www.usenix.org/conference/usenixsecurity26/presentation/bian-mingyu'),
+    ('arabic', 'K. S. Al-Saleh', 'Arabic text preprocessing for dynamic searchable symmetric encryption: An empirical evaluation and preprocessor selection framework', 'PLOS One, volume 21, issue 9, 2026, article e0351281', 'https://doi.org/10.1371/journal.pone.0351281'),
+    ('mizotone', 'V. Khenglawt, S. R. Laskar, S. Pal, P. Pakray, and A. K. Khan', 'Language Resource Building and English-to-Mizo Neural Machine Translation Encountering Tonal Words', 'Proceedings of the WILDRE-6 Workshop within the 13th Language Resources and Evaluation Conference, European Language Resources Association, 2022, pp. 48-54', 'https://aclanthology.org/2022.wildre-1.9/'),
+    ('mizoresources', 'S. Ghosh, H. Lalsiam, D. Marbaniang, G. M. Temsen, R. Mishra, and P. Krishnamurthy', 'Towards Resource-Rich Mizo and Khasi in NLP: Resource Development, Synthetic Data Generation and Model Building', 'Proceedings of the 19th Linguistic Annotation Workshop, Association for Computational Linguistics, 2025, pp. 228-239', 'https://doi.org/10.18653/v1/2025.law-1.18'),
+    ('studydata', 'Vanlalhruaia, C Lalrinawma, C Vanlalnunpuia, Phibansabeth Nongkseh, R Lalduhsaka, and Zaitinkhuma Thihlum', 'Partition and Preprocessing Sensitivity of IHOP Query Recovery in English and Mizo', 'Reproducibility dataset and source code, version 1.1.0, 2026', RELEASE_URL),
 ]
 
 
@@ -57,6 +65,24 @@ def table(caption, label, headers, rows, columns):
             f'\\caption{{{caption}}}\\label{{{label}}}\n' +
             f'\\begin{{tabular}}{{@{{}}{columns}@{{}}}}\n\\toprule\n' +
             ' & '.join(headers) + r' \\' + '\n\\midrule\n' + body + '\n\\bottomrule\n\\end{tabular}\n\\end{table}')
+
+
+def stacked(*lines):
+    return r'\shortstack[l]{' + r'\\'.join('{'+str(line)+'}' for line in lines) + '}'
+
+
+def portrait_table(caption, label, headers, rows, weights):
+    if len(headers) != len(weights) or any(len(row) != len(headers) for row in rows):
+        raise ValueError('Portrait table dimensions differ')
+    if not np.isclose(sum(weights), len(headers)):
+        raise ValueError('Portrait column weights must sum to the column count')
+    columns = '@{}' + ''.join(r'>{\hsize='+str(weight)+r'\hsize\linewidth=\hsize\RaggedRight\arraybackslash}X' for weight in weights) + '@{}'
+    return '\n'.join([r'\begin{table}[htbp]', r'\centering',
+                      f'\\caption{{{caption}}}\\label{{{label}}}',
+                      r'\begin{tabularx}{\linewidth}{'+columns+'}', r'\toprule',
+                      ' & '.join(headers) + r' \\', r'\midrule',
+                      '\n'.join(' & '.join(map(str, row)) + r' \\' for row in rows),
+                      r'\botrule', r'\end{tabularx}', r'\end{table}'])
 
 
 def interval(values):
@@ -100,6 +126,7 @@ def recovery_figure(result):
 
 def build():
     sources = {}
+    expanded = load_expanded(ROOT, sources)
     production = load('results/corpus/production-recovery-analysis.json', sources)
     structure = load('results/corpus/export-structure-analysis.json', sources)
     balanced = load('results/corpus/length-balanced-comparison.json', sources)
@@ -245,6 +272,10 @@ def build():
         ('PreprocessingFamily', len(production['preprocessing_comparisons']), 'production', 'len(preprocessing_comparisons)'),
     ]:
         fact(name, value, source, key)
+    sign_flip_assignments = 2 ** len(production['seeds'])
+    fact('SignFlipMinimum', 2 / sign_flip_assignments, 'production', '2 / 2**len(seeds)', 5)
+    fact('LanguageHolmFloor', len(production['language_comparisons']) * 2 / sign_flip_assignments,
+         'production', 'len(language_comparisons) * 2 / 2**len(seeds)', 4)
     fact('ConfidencePercent', production['config']['confidence_level'] * 100, 'production', 'config.confidence_level * 100', 0)
     fact('Alpha', 1 - production['config']['confidence_level'], 'production', '1 - config.confidence_level', 2)
     fact('LengthRatio', balanced['maximum_length_ratio'], 'balanced', 'maximum_length_ratio', 2)
@@ -292,6 +323,8 @@ def build():
                 recovery_rows.append([LANG[language], LABELS[condition], DIST[distribution],
                                       f"{weighted['mean']:.4f} ({weighted['sample_standard_deviation']:.4f})",
                                       f"{macro['mean']:.4f} ({macro['sample_standard_deviation']:.4f})"])
+    if expanded:
+        expanded_facts(expanded, fact)
     blocks = {}
     blocks['RECOVERY_TABLE'] = table('Final recovery means and sample standard deviations.', 'tab:recovery', ['Language', 'Condition', 'Queries', 'Weighted (SD)', 'Macro (SD)'], recovery_rows, 'lllll')
     language_rows = [[LABELS[x['condition']], DIST[x['distribution']], METRIC[x['metric']], f"{x['mean']:.4f}", interval(x['confidence_interval']), f"{x['holm_adjusted_p']:.4f}"] for x in production['language_comparisons']]
@@ -316,8 +349,50 @@ def build():
                    ['FLORES and WMT23 matched', facts['MatchedPairs']['value'], entry['auxiliary_document_count'], entry['client_document_count']],
                    ['FLORES and WMT23 length-balanced', balanced['matched_pair_count'], balanced_entry['auxiliary_document_count'], balanced_entry['client_document_count']]]
     blocks['CORPUS_TABLE'] = table('Paired collection sizes and fixed partition sizes per language.', 'tab:corpora', ['Collection', 'Pairs', 'Auxiliary', 'Client'], corpus_rows, 'lrrr')
+    rows = [[stacked(language, condition), queries,
+             stacked(*weighted.split(' ')), stacked(*macro.split(' '))]
+            for language, condition, queries, weighted, macro in recovery_rows]
+    blocks['RECOVERY_TABLE'] = portrait_table(
+        'Final recovery means with sample standard deviations in parentheses.', 'tab:recovery',
+        ['Language and condition', 'Queries', 'Weighted', 'Macro'], rows, [1.3, 0.8, 0.95, 0.95])
+    rows = []
+    for condition in CONDITIONS:
+        for distribution in DIST:
+            values = [x for x in production['language_comparisons']
+                      if x['condition'] == condition and x['distribution'] == distribution]
+            by_metric = {x['metric']: x for x in values}
+            pair = [by_metric[metric] for metric in METRIC]
+            rows.append([stacked(LABELS[condition], DIST[distribution]),
+                         stacked(*(f"{x['mean']:.4f}" for x in pair)),
+                         stacked(*(interval(x['confidence_interval']) for x in pair)),
+                         stacked(*(f"{x['holm_adjusted_p']:.4f}" for x in pair))])
+    blocks['LANGUAGE_TABLE'] = portrait_table(
+        'Mizo minus English recovery. Weighted estimates precede macro estimates within each cell. Confidence intervals were unadjusted.',
+        'tab:language', ['Condition and queries', 'Difference', r'95\% CI', 'Holm $p$'],
+        rows, [1.05, 0.65, 1.65, 0.65])
+    rows = [[stacked(language, condition), stacked(density, alternatives), stacked(jaccard, cosine)]
+            for language, condition, density, alternatives, jaccard, cosine in structure_rows]
+    blocks['STRUCTURE_TABLE'] = portrait_table(
+        'Client-index statistics. Paired cells show density above frequency-alternative proportion and median nearest-access Jaccard above median co-occurrence cosine.',
+        'tab:structure', ['Language and condition', stacked('Density', 'Alternatives'), stacked('Jaccard', 'Cosine')],
+        rows, [1.3, 0.85, 0.85])
+    rows = [[stacked(language, '$K='+str(keywords)+'$'), stacked(flores, wmt),
+             stacked(difference, ci), probability]
+            for language, keywords, flores, wmt, difference, ci, probability in balanced_rows]
+    blocks['BALANCED_TABLE'] = portrait_table(
+        'Selected length-balanced Zipf query-weighted recovery contrasts. Paired cells show FLORES above WMT23 and differences above unadjusted confidence intervals.',
+        'tab:balanced', ['Language and $K$', stacked('FLORES', 'WMT23'), stacked('Difference', r'95\% CI'), 'Holm $p$'],
+        rows, [0.85, 0.7, 1.8, 0.65])
+    rows = [[intervention + r'\newline ' + endpoint, difference, ci]
+            for intervention, endpoint, difference, ci in ablation_rows]
+    blocks['ABLATION_TABLE'] = portrait_table(
+        'Paired final-recovery differences at configured Enron endpoints. Confidence intervals were unadjusted.',
+        'tab:ablation', ['Intervention and endpoint contrast', 'Difference', r'95\% CI'], rows, [1.4, 0.5, 1.1])
     blocks['RECOVERY_FIGURE'] = recovery_figure(production)
     blocks['PARTITION_FIGURE'] = figure_tex(uncertainty)
+    if expanded:
+        from expanded_partition_figure import figure_tex as expanded_figure_tex
+        blocks['PARTITION_FIGURE'] = expanded_figure_tex()
     blocks['FACTS'] = '\n'.join(f"\\newcommand{{\\{name}}}{{{escape(fact['rendered'])}}}" for name, fact in facts.items())
     revision = facts['UpstreamRevision']['rendered']
     blocks['COMMIT_ID'] = r'\texttt{' + r'\allowbreak{}'.join(revision[index:index+4] for index in range(0, len(revision), 4)) + '}'
@@ -326,6 +401,8 @@ def build():
     submission = load('paper/submission-information.json', sources)
     sources['scripts/manuscript_template.tex'] = digest(template)
     tex = template.read_text(encoding='utf-8')
+    if expanded:
+        tex = incorporate_main(tex)
     for key, value in blocks.items():
         tex = tex.replace('@@' + key + '@@', value)
     if '@@' in tex:
@@ -339,11 +416,13 @@ def build():
     bibliography = '\n'.join([r'\begin{thebibliography}{99}']+[f'\\bibitem{{{key}}} {escape(authors)}. {escape(title)}. {escape(venue)}. \\url{{{url}}}.' for key,authors,title,venue,url in ordered_references]+[r'\end{thebibliography}'])
     tex = tex.replace(blocks['REFERENCES'],bibliography)
     supplement = supplementary(production, matched, sensitivity, balanced, stemming, clarification, blocks['FACTS'], sources,
-                               rules, revision_diagnostics, revision_controls, revision_results, experiment, uncertainty)
+                               rules, revision_diagnostics, revision_controls, revision_results, experiment, uncertainty, expanded)
     for name in ['sn-article.tex', 'sn-jnl.cls', 'bst/sn-mathphys-num.bst']:
         path = OFFICIAL / name
         sources[path.relative_to(ROOT).as_posix()] = digest(path)
-    tex, supplement = migrate(tex, supplement, submission['authors'])
+    tex, supplement = migrate(tex, supplement, submission['authors'], submission)
+    sources['scripts/standalone_manuscript.py'] = digest(ROOT/'scripts/standalone_manuscript.py')
+    tex = consolidate(tex, supplement)
     ledger = {'sources': sources, 'facts': facts, 'references': [dict(key=k, authors=a, title=t, venue=v, url=u) for k,a,t,v,u in ordered_references],
               'table_rows': {'recovery': recovery_rows, 'language': language_rows, 'structure': structure_rows, 'balanced_selected': balanced_rows, 'enron_endpoints': ablation_rows, 'corpora': corpus_rows},
               'author_policy': 'The six-author order, affiliations and email addresses were supplied by the user.',
@@ -352,7 +431,7 @@ def build():
 
 
 def supplementary(production, matched, sensitivity, balanced, stemming, clarification, facts, sources,
-                  rules, revision_diagnostics, revision_controls, revision_results, experiment, uncertainty):
+                  rules, revision_diagnostics, revision_controls, revision_results, experiment, uncertainty, expanded=None):
     parts = [r'\documentclass[12pt]{article}', r'\usepackage[a4paper,landscape,margin=20mm]{geometry}', r'\usepackage{longtable,booktabs,array,hyperref,helvet}',
              r'\renewcommand{\familydefault}{\sfdefault}', r'\renewcommand{\small}{\normalsize}', r'\renewcommand{\footnotesize}{\normalsize}',
              r'\hypersetup{hidelinks,pdfauthor={}}', r'\setlength{\tabcolsep}{3pt}', facts,
@@ -364,8 +443,11 @@ def supplementary(production, matched, sensitivity, balanced, stemming, clarific
     def long_table(caption, headers, rows, cols):
         nonlocal table_number
         table_number += 1
+        weights = [1.5 if ('CI' in h or 'Tokens' in h or 'Exceptions' in h) else 1 for h in headers]
+        available = r'\dimexpr\linewidth-'+str(2*(len(headers)-1))+r'\tabcolsep\relax'
+        cols = ''.join(r'>{\RaggedRight\arraybackslash}p{\dimexpr '+f'{w/sum(weights):.5f}'+r'\dimexpr '+available+r'\relax\relax}' for w in weights)
         parts.extend([f'\\begin{{longtable}}{{@{{}}{cols}@{{}}}}', f'\\caption{{{caption}}}\\label{{tab:supp:{table_number}}}\\\\', r'\toprule', ' & '.join(headers) + r' \\', r'\midrule\endfirsthead', r'\toprule', ' & '.join(headers) + r' \\', r'\midrule\endhead'])
-        parts.extend(' & '.join(map(str, row)) + r' \\' for row in rows)
+        parts.extend(' & '.join(str(cell).replace('Tokenisation', r'Token\-isa\-tion') for cell in row) + r' \\' for row in rows)
         parts.extend([r'\bottomrule\end{longtable}'])
     rows = [[LANG[x['language']], LABELS[x['left']], LABELS[x['right']], DIST[x['distribution']], METRIC[x['metric']], f"{x['mean']:.4f}", interval(x['confidence_interval']), f"{x['holm_adjusted_p']:.4f}"] for x in production['preprocessing_comparisons']]
     long_table('Production preprocessing differences, condition minus reference.', ['Language','Condition','Reference','Queries','Metric','Diff.','95\% CI','Holm $p$'], rows, 'lllllrrr')
@@ -379,11 +461,11 @@ def supplementary(production, matched, sensitivity, balanced, stemming, clarific
         raise ValueError('Mizo error classification differs from measured disagreements')
     rows = [[LANG[x['language']], escape(x['token']), escape(x['predicted_stem']), escape(x['expected_stem']), errors.get(x['token'], 'Mismatch')] for x in disagreements]
     long_table('Stemming disagreements in the fixed reviewed annotations.', ['Language','Token','Output','Expected','Error'], rows, 'lllll')
-    parts.append(r'Mizo disagreements comprised \UnderStemming{} under-stemming cases and \OverStemming{} over-stemming cases. Error categories followed the reviewer clarification.')
+    parts.append(r'Mizo disagreements comprised \UnderStemming{} under-stemming cases and \OverStemming{} over-stemming cases. Error categories followed the accepted linguistic decisions.')
     rows = [[escape(x['token']), escape(x['output']), escape(x['expected'])] for x in stemming['worked_examples']]
-    long_table('Illustrative worked examples of the clarified Mizo procedure.', ['Token', 'Output', 'Expected'], rows, 'lll')
+    long_table('Illustrative worked examples of the Mizo stemming procedure.', ['Token', 'Output', 'Expected'], rows, 'lll')
     parts.append('Stemming agreement was measured on the reviewed development sample.')
-    parts.append(r'Table~\ref{tab:supp:7} specifies the accepted Mizo suffix rules. Table~\ref{tab:supp:8} lists the excluded stopwords. Table~\ref{tab:supp:9} reports vocabulary changes. Table~\ref{tab:supp:10} reports query coverage. Tables~\ref{tab:supp:11}, \ref{tab:supp:12}, and \ref{tab:supp:13} report the post-review sensitivity results.')
+    parts.append(r'Table~\ref{tab:supp:7} specifies the accepted Mizo suffix rules. Table~\ref{tab:supp:8} lists the excluded stopwords. Table~\ref{tab:supp:9} reports vocabulary changes. Table~\ref{tab:supp:10} reports query coverage. Tables~\ref{tab:supp:11}, \ref{tab:supp:12}, and \ref{tab:supp:13} report the sensitivity results.')
     rows = [[escape(r['suffix']), r['priority'], r['minimum_stem_letter_count'], escape(r['replacement']) or '(empty)', escape(', '.join(r['exceptions'])) or '(none)'] for r in sorted(rules['rules'], key=lambda r:(r['priority'], -len(r['suffix']), r['suffix']))]
     long_table('Accepted Mizo suffix rules and current-form exceptions.', ['Suffix', 'Priority', 'Minimum letters', 'Replacement', 'Exceptions'], rows, 'lllp{20mm}p{80mm}')
     parts.append('Rules were tried in ascending priority and decreasing suffix length within a priority. The first eligible rule was applied. The procedure was repeated on the current form until no rule applied. Exceptions blocked their associated rule. NFC-normalised written letters were counted once. Corpus attestation was excluded from eligibility.')
@@ -419,10 +501,13 @@ def supplementary(production, matched, sensitivity, balanced, stemming, clarific
     parts.append(r'Table~\ref{tab:supp:15} reports original partition contrasts using the same attack seeds as the additional partitions.')
     rows = [[('Language' if x['family']=='partition' else LANG[x['language']]+' corpus'), LABELS[x['condition']], DIST[x['distribution']], x['metric'].title(), f"{x['mean']:.4f}", f"{x['sd']:.4f}"] for x in uncertainty['matched_seed_baseline']]
     long_table('Original partition paired contrasts on matched attack seeds.', ['Contrast','Condition','Queries','Metric','Mean','SD'], rows, 'llllrr')
-    parts.append(r'Each post-review mean used \SensitivitySeeds{} attack seeds. These tables were descriptive. The confirmatory comparison families were preserved. Controlled keyword labels were linked through the frozen stemmer. Each selected word had a distinct output stem. The tokenisation-only and stopword-only restricted matrices were identical. Full controlled mappings were retained in the accompanying derived results.')
+    parts.append(r'Each additional-condition mean used \SensitivitySeeds{} attack seeds. These tables were descriptive. The confirmatory comparison families were preserved. Controlled keyword labels were linked through the frozen stemmer. Each selected word had a distinct output stem. The tokenisation-only and stopword-only restricted matrices were identical. Full controlled mappings were retained in the accompanying derived results.')
+    if expanded:
+        supplementary_tables(expanded, long_table, parts, LANG, LABELS, DIST)
     parts.extend([r'\section*{Provenance}', 'SHA-256 identifiers for the source results and configurations were recorded below. Source text was excluded.'])
     for name, checksum in sources.items():
-        parts.extend([f'\\noindent\\texttt{{{escape(name)}}}\\\\', f'\\texttt{{{checksum}}}\\par'])
+        broken_hash = r'\allowbreak{}'.join(checksum[i:i+8] for i in range(0, len(checksum), 8))
+        parts.extend([f'\\noindent\\path{{{name}}}\\\\', f'\\texttt{{{broken_hash}}}\\par'])
     parts.append(r'\end{document}')
     return '\n'.join(parts) + '\n'
 

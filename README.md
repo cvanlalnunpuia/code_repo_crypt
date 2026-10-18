@@ -1,10 +1,10 @@
-# Corpus and Preprocessing Effects on IHOP Query Recovery in English and Mizo
+# Partition and Preprocessing Sensitivity of IHOP Query Recovery in English and Mizo
 
 This repository provides recorded experiment results, preprocessing resources and reconstruction scripts for the English-Mizo IHOP evaluation. IHOP is a statistical attack that associates encrypted-search observations with candidate plaintext keywords.
 
 ## Reproduction
 
-Download `reproducibility-release.zip` and extract it into a new directory. Use Python 3.9.12 and install the packages in `requirements-2022.lock`.
+Download `reproducibility-release.zip` from [release v1.1.0](https://github.com/cvanlalnunpuia/code_repo_crypt/releases/tag/v1.1.0) and extract it into a new directory. This release supersedes v1.0.2 for the expanded study. Previous tags remain available as version history. Use Python 3.9.12 and install the packages in `requirements-2022.lock`.
 
 ```text
 python -m pip install -r requirements-2022.lock
@@ -14,6 +14,8 @@ python scripts/validate_manuscript.py
 ```
 
 The template setup downloads the original Springer Nature files from the publisher. Their SHA-256 identifiers are checked before use. The builder generates `paper/manuscript.tex`, `paper/supplement.tex` and the numerical provenance ledger. The validator checks reported values and source reconstruction. Final PDF layout requires separate inspection.
+
+The manuscript contains the essential methods and control results. It compiles without the supplementary source. The supplementary source retains exhaustive archival tables. The standalone consolidation script reconstructs its compact article tables from those same numerical records.
 
 Recorded results support numerical reconstruction without raw corpus text. Full attack reruns require separately acquired corpora and the pinned upstream IHOP implementation. Acquisition and experiment instructions are in `docs/corpus-acquisition.md` and `paper/reproduction.md` inside the archive.
 
@@ -25,6 +27,8 @@ python scripts/run_release_tests.py
 ```
 
 The complete integration suite is run with `python -m unittest discover -s tests` after reconstructing the production corpus indexes and acquisition-dependent artifacts. Those inputs are excluded from this archive. The release checks cover the separately specified fixture, recovery-analysis and template families.
+
+Expanded results used a frozen 1,912-run manifest. Six partitions used ten attack seeds per condition. A separate original-partition extension used twenty seeds. Original confirmatory families were preserved. Auxiliary-only candidate selection and auxiliary-source changes were evaluated separately. Singleton sample standard deviations were represented as null because between-seed variation was unmeasured.
 
 ## Availability
 

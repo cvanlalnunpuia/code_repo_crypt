@@ -152,9 +152,9 @@ def figure(root, result):
     import matplotlib
     matplotlib.use('Agg')
     import matplotlib.pyplot as plt
-    plt.rcParams.update({'font.size':10,'ps.fonttype':42,'pdf.fonttype':42})
+    plt.rcParams.update({'font.family':'Arial','font.size':10,'ps.fonttype':42,'pdf.fonttype':42})
     fig, axes = plt.subplots(2, 2, figsize=(6.3, 5.4), sharex=True, sharey=True)
-    colors = {'tokenisation_only': '#245A81', 'stopword_removal': '#B46A20', 'stemming': '#26735F'}
+    colors = {'tokenisation_only': '#245A81', 'stopword_removal': '#8C4D10', 'stemming': '#26735F'}
     for row, language in enumerate(['en', 'lus']):
         for col, distribution in enumerate(['uniform_iid', 'zipf_iid']):
             ax = axes[row, col]

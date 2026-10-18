@@ -31,7 +31,9 @@ def read(name):
 
 def write(path, data):
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps(data, indent=2, ensure_ascii=False, sort_keys=True) + '\n', encoding='utf-8')
+    temporary = path.with_suffix(path.suffix+'.tmp')
+    temporary.write_text(json.dumps(data, indent=2, ensure_ascii=False, sort_keys=True) + '\n', encoding='utf-8')
+    temporary.replace(path)
 
 
 def restrict(payload, terms, labels=None):
@@ -150,7 +152,8 @@ def diagnostics(config, stemmers):
     return {'coverage': coverage, 'vocabulary': vocab_stats, 'near_duplicates': near, 'independent_check': independent_check()}
 
 
-def prepare(config):
+def prepare(config, output_directory=OUT, config_path=None):
+    OUT = Path(output_directory)
     OUT.mkdir(parents=True, exist_ok=True)
     _, _, _, stemmers, _ = load_stemming_condition(ROOT / 'configs/stemming_production.json')
     write(OUT / 'diagnostics.json', diagnostics(config, stemmers))
@@ -217,7 +220,7 @@ def prepare(config):
             for language in ['en', 'lus']:
                 payload = build_export(ROOT / ec['conditions']['tokenisation_only'], 'tokenisation_only', language, split, 500, True)
                 add(payload, f'balanced-{partition}-{corpus}-{language}', 'balanced', partition, language, corpus)
-    manifest = {'config': config, 'config_sha256': file_sha256(ROOT / 'configs/reviewer_sensitivity.json'), 'tasks': tasks}
+    manifest = {'config': config, 'config_sha256': file_sha256(config_path or ROOT / 'configs/reviewer_sensitivity.json'), 'tasks': tasks}
     write(OUT / 'manifest.json', manifest)
     return manifest
 
@@ -234,7 +237,8 @@ def key(task):
     return f"{task['dataset_id']}:{task['distribution']}:{task['seed']}"
 
 
-def run(manifest):
+def run(manifest, output_directory=OUT, worker_function=worker):
+    OUT = Path(output_directory)
     config = manifest['config']
     checkpoint = OUT / 'checkpoint.json'
     saved = json.loads(checkpoint.read_text(encoding='utf-8')) if checkpoint.exists() else {'manifest_sha256': file_sha256(OUT / 'manifest.json'), 'runs': {}}
@@ -242,7 +246,7 @@ def run(manifest):
         raise ValueError('Checkpoint manifest changed')
     todo = [t for t in manifest['tasks'] if key(t) not in saved['runs']]
     with ProcessPoolExecutor(max_workers=config['workers']) as pool:
-        futures = {pool.submit(worker, t, config): t for t in todo}
+        futures = {pool.submit(worker_function, t, config): t for t in todo}
         for future in as_completed(futures):
             result = future.result()
             saved['runs'][key(result['task'])] = result

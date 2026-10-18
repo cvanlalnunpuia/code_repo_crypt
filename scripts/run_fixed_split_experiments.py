@@ -44,7 +44,8 @@ def recovery_scores(predictions: list[int], queries: list[int]) -> dict[str, flo
     }
 
 
-def run_one(path: Path, dataset_id: str, config: dict[str, Any], distribution: str, seed: int) -> dict[str, Any]:
+def run_one(path: Path, dataset_id: str, config: dict[str, Any], distribution: str, seed: int,
+            require_client_support: bool = True) -> dict[str, Any]:
     if str(UPSTREAM) not in sys.path:
         sys.path.insert(0, str(UPSTREAM))
     with warnings.catch_warnings():
@@ -65,7 +66,8 @@ def run_one(path: Path, dataset_id: str, config: dict[str, Any], distribution: s
         raise ValueError(f"Dataset {dataset_id} has too few keywords")
     if config["attack_mode"] == "Vol":
         validate_volume_support(auxiliary_documents, keyword_count, f"{dataset_id} auxiliary split")
-        validate_volume_support(client_documents, keyword_count, f"{dataset_id} client split")
+        if require_client_support:
+            validate_volume_support(client_documents, keyword_count, f"{dataset_id} client split")
     keyword_ids = list(range(keyword_count))
     auxiliary = {
         "dataset": auxiliary_documents,

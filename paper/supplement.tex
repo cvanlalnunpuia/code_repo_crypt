@@ -89,7 +89,32 @@
 %%\unnumbered% uncomment this for unnumbered level heads
 
 
+\usepackage{array,tabularx,ragged2e}
+\hyphenation{To-ken-isa-tion Stop-words Fre-quen-cy Al-ter-na-tives}
+\makeatletter
+\renewcommand\normalsize{\@setfontsize\normalsize{12pt}{14.4pt}}
+\renewcommand\small{\normalsize}
+\renewcommand\footnotesize{\normalsize}
+\def\figurecaptionfont{\normalfont\normalsize}
+\def\tablecaptionfont{\normalfont\normalsize}
+\def\addressfont{\normalfont\normalsize\titraggedcenter}
+\def\abstractheadfont{\normalfont\normalsize\bfseries\titraggedcenter}
+\def\abstractsubheadfont{\normalfont\normalsize\bfseries}
+\def\abstractfont{\normalfont\normalsize\leftskip=24pt\rightskip=24pt\parfillskip=0pt plus 1fil}
+\def\keywordfont{\normalfont\normalsize\leftskip=24pt\rightskip=24pt plus0.5fill}
+\def\bmheadfont{\normalfont\normalsize\bfseries\raggedright\boldmath}
+\def\tablebodyfont{\normalfont\normalsize}
+\def\tablecolheadfont{\normalfont\normalsize\bfseries}
+\def\tablefootnotefont{\normalfont\normalsize}
+\makeatother
+\AtBeginDocument{\normalsize}
+
 \usepackage{xurl,longtable,pdflscape}
+
+\makeatletter
+\def\ps@supplement{\let\@oddhead\@empty\let\@evenhead\@empty
+\def\@oddfoot{\reset@font\hfil\thepage\hfil}\let\@evenfoot\@oddfoot}
+\makeatother
 \newcommand{\NltkVersion}{3.7}
 \newcommand{\RealCheckCases}{6}
 \newcommand{\IterativeCases}{18}
@@ -145,6 +170,8 @@
 \newcommand{\QueriesPerKeyword}{10}
 \newcommand{\LanguageFamily}{12}
 \newcommand{\PreprocessingFamily}{24}
+\newcommand{\SignFlipMinimum}{0.00195}
+\newcommand{\LanguageHolmFloor}{0.0234}
 \newcommand{\ConfidencePercent}{95}
 \newcommand{\Alpha}{0.05}
 \newcommand{\LengthRatio}{1.25}
@@ -181,9 +208,29 @@
 \newcommand{\WMTMarkerLUS}{78.26}
 \newcommand{\FloresMarkerEN}{1.19}
 \newcommand{\FloresMarkerLUS}{1.98}
+\newcommand{\ExpandedPartitions}{6}
+\newcommand{\ExpandedSeeds}{10}
+\newcommand{\ExtendedSeeds}{20}
+\newcommand{\ExpandedPositiveDirections}{12}
+\newcommand{\ExpandedDirectionCount}{30}
+\newcommand{\ExpandedRunCount}{1912}
+\newcommand{\ExtendedLanguageSignificant}{12}
+\newcommand{\IndependentAuditRuns}{120}
+\newcommand{\IndependentAuditMatched}{120}
+\newcommand{\IndependentAuditUpdates}{120120}
+\newcommand{\ExtendedMinimumP}{0.00000191}
+\newcommand{\IndependentAuditMaxRelative}{3.058e-15}
+\newcommand{\ExpandedENControlledDifference}{0.0026}
+\newcommand{\ExpandedENAuxWMT}{0.1232}
+\newcommand{\ExpandedENAuxFlores}{0.1573}
+\newcommand{\ExpandedLUSControlledDifference}{-0.0008}
+\newcommand{\ExpandedLUSAuxWMT}{0.1545}
+\newcommand{\ExpandedLUSAuxFlores}{0.0050}
+\newcommand{\ExpandedBalancedMin}{-0.0076}
+\newcommand{\ExpandedBalancedMax}{0.1831}
 \newcommand{\CommitID}{\texttt{1063\allowbreak{}1a10\allowbreak{}e3ec\allowbreak{}461a\allowbreak{}d01d\allowbreak{}38fc\allowbreak{}74f7\allowbreak{}933d\allowbreak{}3106\allowbreak{}2ba5}}
 \begin{document}
-\title[Supplementary material]{Supplementary material for Corpus and Preprocessing Effects on IHOP Query Recovery in English and Mizo}
+\title[Supplementary material]{Supplementary material for Partition and Preprocessing Sensitivity of IHOP Query Recovery in English and Mizo}
 
 \author[1]{\sur{Vanlalhruaia}}\email{mzut160@mzu.edu.in}
 
@@ -204,13 +251,14 @@
 \affil[3]{\orgdiv{Department of Information Technology}, \orgname{North Eastern Hill University}, \orgaddress{\city{Shillong}, \postcode{793022}}}
 \maketitle
 \begin{landscape}
+\pagestyle{supplement}
 
 \renewcommand{\thetable}{S\arabic{table}}
 \section*{Supplementary material}
 Full recovery comparisons and fixed-sample stemming disagreements were retained below. Differences were computed within paired seeds. All recovery measurements were proportions. Confidence intervals were unadjusted. Holm probabilities used the comparison families specified in Methods. Corpus-choice controls used tokenisation only.
 Tables~\ref{tab:supp:1}, \ref{tab:supp:2}, \ref{tab:supp:3}, and \ref{tab:supp:4} show recovery comparisons. Table~\ref{tab:supp:5} shows stemming disagreements. Table~\ref{tab:supp:6} shows illustrative worked examples.
 \small
-\begin{longtable}{@{}lllllrrr@{}}
+\begin{longtable}{@{}>{\RaggedRight\arraybackslash}p{\dimexpr 0.11765\dimexpr \dimexpr\linewidth-14\tabcolsep\relax\relax\relax}>{\RaggedRight\arraybackslash}p{\dimexpr 0.11765\dimexpr \dimexpr\linewidth-14\tabcolsep\relax\relax\relax}>{\RaggedRight\arraybackslash}p{\dimexpr 0.11765\dimexpr \dimexpr\linewidth-14\tabcolsep\relax\relax\relax}>{\RaggedRight\arraybackslash}p{\dimexpr 0.11765\dimexpr \dimexpr\linewidth-14\tabcolsep\relax\relax\relax}>{\RaggedRight\arraybackslash}p{\dimexpr 0.11765\dimexpr \dimexpr\linewidth-14\tabcolsep\relax\relax\relax}>{\RaggedRight\arraybackslash}p{\dimexpr 0.11765\dimexpr \dimexpr\linewidth-14\tabcolsep\relax\relax\relax}>{\RaggedRight\arraybackslash}p{\dimexpr 0.17647\dimexpr \dimexpr\linewidth-14\tabcolsep\relax\relax\relax}>{\RaggedRight\arraybackslash}p{\dimexpr 0.11765\dimexpr \dimexpr\linewidth-14\tabcolsep\relax\relax\relax}@{}}
 \caption{Production preprocessing differences, condition minus reference.}\label{tab:supp:1}\\
 \toprule
 Language & Condition & Reference & Queries & Metric & Diff. & 95\% CI & Holm $p$ \\
@@ -218,32 +266,32 @@ Language & Condition & Reference & Queries & Metric & Diff. & 95\% CI & Holm $p$
 \toprule
 Language & Condition & Reference & Queries & Metric & Diff. & 95\% CI & Holm $p$ \\
 \midrule\endhead
-English & Stopwords & Tokenisation & Uniform & Weighted & -0.0771 & [-0.0921, -0.0620] & 0.0469 \\
-English & Stopwords & Tokenisation & Uniform & Macro & -0.0770 & [-0.0899, -0.0641] & 0.0469 \\
-English & Stopwords & Tokenisation & Zipf & Weighted & -0.1212 & [-0.1686, -0.0738] & 0.0508 \\
-English & Stopwords & Tokenisation & Zipf & Macro & -0.0830 & [-0.0985, -0.0675] & 0.0469 \\
-English & Stemming & Tokenisation & Uniform & Weighted & -0.0811 & [-0.0969, -0.0652] & 0.0469 \\
-English & Stemming & Tokenisation & Uniform & Macro & -0.0812 & [-0.0949, -0.0675] & 0.0469 \\
-English & Stemming & Tokenisation & Zipf & Weighted & -0.1947 & [-0.2620, -0.1274] & 0.0469 \\
-English & Stemming & Tokenisation & Zipf & Macro & -0.0913 & [-0.1040, -0.0787] & 0.0469 \\
+English & Stopwords & Token\-isa\-tion & Uniform & Weighted & -0.0771 & [-0.0921, -0.0620] & 0.0469 \\
+English & Stopwords & Token\-isa\-tion & Uniform & Macro & -0.0770 & [-0.0899, -0.0641] & 0.0469 \\
+English & Stopwords & Token\-isa\-tion & Zipf & Weighted & -0.1212 & [-0.1686, -0.0738] & 0.0508 \\
+English & Stopwords & Token\-isa\-tion & Zipf & Macro & -0.0830 & [-0.0985, -0.0675] & 0.0469 \\
+English & Stemming & Token\-isa\-tion & Uniform & Weighted & -0.0811 & [-0.0969, -0.0652] & 0.0469 \\
+English & Stemming & Token\-isa\-tion & Uniform & Macro & -0.0812 & [-0.0949, -0.0675] & 0.0469 \\
+English & Stemming & Token\-isa\-tion & Zipf & Weighted & -0.1947 & [-0.2620, -0.1274] & 0.0469 \\
+English & Stemming & Token\-isa\-tion & Zipf & Macro & -0.0913 & [-0.1040, -0.0787] & 0.0469 \\
 English & Stemming & Stopwords & Uniform & Weighted & -0.0040 & [-0.0134, 0.0053] & 1.0000 \\
 English & Stemming & Stopwords & Uniform & Macro & -0.0042 & [-0.0143, 0.0059] & 1.0000 \\
 English & Stemming & Stopwords & Zipf & Weighted & -0.0735 & [-0.1275, -0.0195] & 0.1406 \\
 English & Stemming & Stopwords & Zipf & Macro & -0.0083 & [-0.0183, 0.0017] & 0.7656 \\
-Mizo & Stopwords & Tokenisation & Uniform & Weighted & -0.0496 & [-0.0605, -0.0386] & 0.0469 \\
-Mizo & Stopwords & Tokenisation & Uniform & Macro & -0.0498 & [-0.0603, -0.0393] & 0.0469 \\
-Mizo & Stopwords & Tokenisation & Zipf & Weighted & -0.0150 & [-0.0578, 0.0279] & 1.0000 \\
-Mizo & Stopwords & Tokenisation & Zipf & Macro & -0.0341 & [-0.0576, -0.0107] & 0.1719 \\
-Mizo & Stemming & Tokenisation & Uniform & Weighted & -0.0472 & [-0.0583, -0.0361] & 0.0469 \\
-Mizo & Stemming & Tokenisation & Uniform & Macro & -0.0468 & [-0.0560, -0.0376] & 0.0469 \\
-Mizo & Stemming & Tokenisation & Zipf & Weighted & -0.0278 & [-0.0548, -0.0007] & 0.4395 \\
-Mizo & Stemming & Tokenisation & Zipf & Macro & -0.0346 & [-0.0553, -0.0139] & 0.1719 \\
+Mizo & Stopwords & Token\-isa\-tion & Uniform & Weighted & -0.0496 & [-0.0605, -0.0386] & 0.0469 \\
+Mizo & Stopwords & Token\-isa\-tion & Uniform & Macro & -0.0498 & [-0.0603, -0.0393] & 0.0469 \\
+Mizo & Stopwords & Token\-isa\-tion & Zipf & Weighted & -0.0150 & [-0.0578, 0.0279] & 1.0000 \\
+Mizo & Stopwords & Token\-isa\-tion & Zipf & Macro & -0.0341 & [-0.0576, -0.0107] & 0.1719 \\
+Mizo & Stemming & Token\-isa\-tion & Uniform & Weighted & -0.0472 & [-0.0583, -0.0361] & 0.0469 \\
+Mizo & Stemming & Token\-isa\-tion & Uniform & Macro & -0.0468 & [-0.0560, -0.0376] & 0.0469 \\
+Mizo & Stemming & Token\-isa\-tion & Zipf & Weighted & -0.0278 & [-0.0548, -0.0007] & 0.4395 \\
+Mizo & Stemming & Token\-isa\-tion & Zipf & Macro & -0.0346 & [-0.0553, -0.0139] & 0.1719 \\
 Mizo & Stemming & Stopwords & Uniform & Weighted & 0.0024 & [-0.0074, 0.0122] & 1.0000 \\
 Mizo & Stemming & Stopwords & Uniform & Macro & 0.0030 & [-0.0059, 0.0119] & 1.0000 \\
 Mizo & Stemming & Stopwords & Zipf & Weighted & -0.0128 & [-0.0428, 0.0172] & 1.0000 \\
 Mizo & Stemming & Stopwords & Zipf & Macro & -0.0005 & [-0.0115, 0.0106] & 1.0000 \\
 \botrule\end{longtable}
-\begin{longtable}{@{}lrllrrrr@{}}
+\begin{longtable}{@{}>{\RaggedRight\arraybackslash}p{\dimexpr 0.12500\dimexpr \dimexpr\linewidth-14\tabcolsep\relax\relax\relax}>{\RaggedRight\arraybackslash}p{\dimexpr 0.12500\dimexpr \dimexpr\linewidth-14\tabcolsep\relax\relax\relax}>{\RaggedRight\arraybackslash}p{\dimexpr 0.12500\dimexpr \dimexpr\linewidth-14\tabcolsep\relax\relax\relax}>{\RaggedRight\arraybackslash}p{\dimexpr 0.12500\dimexpr \dimexpr\linewidth-14\tabcolsep\relax\relax\relax}>{\RaggedRight\arraybackslash}p{\dimexpr 0.12500\dimexpr \dimexpr\linewidth-14\tabcolsep\relax\relax\relax}>{\RaggedRight\arraybackslash}p{\dimexpr 0.12500\dimexpr \dimexpr\linewidth-14\tabcolsep\relax\relax\relax}>{\RaggedRight\arraybackslash}p{\dimexpr 0.12500\dimexpr \dimexpr\linewidth-14\tabcolsep\relax\relax\relax}>{\RaggedRight\arraybackslash}p{\dimexpr 0.12500\dimexpr \dimexpr\linewidth-14\tabcolsep\relax\relax\relax}@{}}
 \caption{Matched-size corpus comparisons, FLORES-200 minus WMT23.}\label{tab:supp:2}\\
 \toprule
 Language & $K$ & Queries & Metric & FLORES & WMT23 & Diff. & Holm $p$ \\
@@ -260,7 +308,7 @@ Mizo & 500 & Uniform & Macro & 0.0336 & 0.0222 & 0.0114 & 0.0703 \\
 Mizo & 500 & Zipf & Weighted & 0.3815 & 0.2879 & 0.0935 & 0.0703 \\
 Mizo & 500 & Zipf & Macro & 0.0343 & 0.0248 & 0.0094 & 0.0898 \\
 \botrule\end{longtable}
-\begin{longtable}{@{}lrllrrrr@{}}
+\begin{longtable}{@{}>{\RaggedRight\arraybackslash}p{\dimexpr 0.12500\dimexpr \dimexpr\linewidth-14\tabcolsep\relax\relax\relax}>{\RaggedRight\arraybackslash}p{\dimexpr 0.12500\dimexpr \dimexpr\linewidth-14\tabcolsep\relax\relax\relax}>{\RaggedRight\arraybackslash}p{\dimexpr 0.12500\dimexpr \dimexpr\linewidth-14\tabcolsep\relax\relax\relax}>{\RaggedRight\arraybackslash}p{\dimexpr 0.12500\dimexpr \dimexpr\linewidth-14\tabcolsep\relax\relax\relax}>{\RaggedRight\arraybackslash}p{\dimexpr 0.12500\dimexpr \dimexpr\linewidth-14\tabcolsep\relax\relax\relax}>{\RaggedRight\arraybackslash}p{\dimexpr 0.12500\dimexpr \dimexpr\linewidth-14\tabcolsep\relax\relax\relax}>{\RaggedRight\arraybackslash}p{\dimexpr 0.12500\dimexpr \dimexpr\linewidth-14\tabcolsep\relax\relax\relax}>{\RaggedRight\arraybackslash}p{\dimexpr 0.12500\dimexpr \dimexpr\linewidth-14\tabcolsep\relax\relax\relax}@{}}
 \caption{Keyword-size corpus comparisons, FLORES-200 minus WMT23.}\label{tab:supp:3}\\
 \toprule
 Language & $K$ & Queries & Metric & FLORES & WMT23 & Diff. & Holm $p$ \\
@@ -285,7 +333,7 @@ Mizo & 250 & Uniform & Macro & 0.0724 & 0.0428 & 0.0296 & 0.0312 \\
 Mizo & 250 & Zipf & Weighted & 0.5103 & 0.2854 & 0.2250 & 0.0312 \\
 Mizo & 250 & Zipf & Macro & 0.0827 & 0.0421 & 0.0407 & 0.0312 \\
 \botrule\end{longtable}
-\begin{longtable}{@{}lrllrrrr@{}}
+\begin{longtable}{@{}>{\RaggedRight\arraybackslash}p{\dimexpr 0.12500\dimexpr \dimexpr\linewidth-14\tabcolsep\relax\relax\relax}>{\RaggedRight\arraybackslash}p{\dimexpr 0.12500\dimexpr \dimexpr\linewidth-14\tabcolsep\relax\relax\relax}>{\RaggedRight\arraybackslash}p{\dimexpr 0.12500\dimexpr \dimexpr\linewidth-14\tabcolsep\relax\relax\relax}>{\RaggedRight\arraybackslash}p{\dimexpr 0.12500\dimexpr \dimexpr\linewidth-14\tabcolsep\relax\relax\relax}>{\RaggedRight\arraybackslash}p{\dimexpr 0.12500\dimexpr \dimexpr\linewidth-14\tabcolsep\relax\relax\relax}>{\RaggedRight\arraybackslash}p{\dimexpr 0.12500\dimexpr \dimexpr\linewidth-14\tabcolsep\relax\relax\relax}>{\RaggedRight\arraybackslash}p{\dimexpr 0.12500\dimexpr \dimexpr\linewidth-14\tabcolsep\relax\relax\relax}>{\RaggedRight\arraybackslash}p{\dimexpr 0.12500\dimexpr \dimexpr\linewidth-14\tabcolsep\relax\relax\relax}@{}}
 \caption{Length-balanced corpus comparisons, FLORES-200 minus WMT23.}\label{tab:supp:4}\\
 \toprule
 Language & $K$ & Queries & Metric & FLORES & WMT23 & Diff. & Holm $p$ \\
@@ -318,7 +366,7 @@ Mizo & 500 & Uniform & Macro & 0.0234 & 0.0152 & 0.0082 & 0.2734 \\
 Mizo & 500 & Zipf & Weighted & 0.2813 & 0.1793 & 0.1020 & 0.2734 \\
 Mizo & 500 & Zipf & Macro & 0.0207 & 0.0159 & 0.0048 & 0.3398 \\
 \botrule\end{longtable}
-\begin{longtable}{@{}lllll@{}}
+\begin{longtable}{@{}>{\RaggedRight\arraybackslash}p{\dimexpr 0.20000\dimexpr \dimexpr\linewidth-8\tabcolsep\relax\relax\relax}>{\RaggedRight\arraybackslash}p{\dimexpr 0.20000\dimexpr \dimexpr\linewidth-8\tabcolsep\relax\relax\relax}>{\RaggedRight\arraybackslash}p{\dimexpr 0.20000\dimexpr \dimexpr\linewidth-8\tabcolsep\relax\relax\relax}>{\RaggedRight\arraybackslash}p{\dimexpr 0.20000\dimexpr \dimexpr\linewidth-8\tabcolsep\relax\relax\relax}>{\RaggedRight\arraybackslash}p{\dimexpr 0.20000\dimexpr \dimexpr\linewidth-8\tabcolsep\relax\relax\relax}@{}}
 \caption{Stemming disagreements in the fixed reviewed annotations.}\label{tab:supp:5}\\
 \toprule
 Language & Token & Output & Expected & Error \\
@@ -339,9 +387,9 @@ Mizo & malpuiah & mal & malpui & Over-stemming \\
 Mizo & awihawm & awihawm & awih & Under-stemming \\
 Mizo & zirnain & zir & zirnain & Over-stemming \\
 \botrule\end{longtable}
-Mizo disagreements comprised \UnderStemming{} under-stemming cases and \OverStemming{} over-stemming cases. Error categories followed the reviewer clarification.
-\begin{longtable}{@{}lll@{}}
-\caption{Illustrative worked examples of the clarified Mizo procedure.}\label{tab:supp:6}\\
+Mizo disagreements comprised \UnderStemming{} under-stemming cases and \OverStemming{} over-stemming cases. Error categories followed the accepted linguistic decisions.
+\begin{longtable}{@{}>{\RaggedRight\arraybackslash}p{\dimexpr 0.33333\dimexpr \dimexpr\linewidth-4\tabcolsep\relax\relax\relax}>{\RaggedRight\arraybackslash}p{\dimexpr 0.33333\dimexpr \dimexpr\linewidth-4\tabcolsep\relax\relax\relax}>{\RaggedRight\arraybackslash}p{\dimexpr 0.33333\dimexpr \dimexpr\linewidth-4\tabcolsep\relax\relax\relax}@{}}
+\caption{Illustrative worked examples of the Mizo stemming procedure.}\label{tab:supp:6}\\
 \toprule
 Token & Output & Expected \\
 \midrule\endfirsthead
@@ -354,8 +402,8 @@ thlahte & thlah & thlah \\
 rorêltuten & rorêl & rorêl \\
 \botrule\end{longtable}
 Stemming agreement was measured on the reviewed development sample.
-Table~\ref{tab:supp:7} specifies the accepted Mizo suffix rules. Table~\ref{tab:supp:8} lists the excluded stopwords. Table~\ref{tab:supp:9} reports vocabulary changes. Table~\ref{tab:supp:10} reports query coverage. Tables~\ref{tab:supp:11}, \ref{tab:supp:12}, and \ref{tab:supp:13} report the post-review sensitivity results.
-\begin{longtable}{@{}lllp{20mm}p{80mm}@{}}
+Table~\ref{tab:supp:7} specifies the accepted Mizo suffix rules. Table~\ref{tab:supp:8} lists the excluded stopwords. Table~\ref{tab:supp:9} reports vocabulary changes. Table~\ref{tab:supp:10} reports query coverage. Tables~\ref{tab:supp:11}, \ref{tab:supp:12}, and \ref{tab:supp:13} report the sensitivity results.
+\begin{longtable}{@{}>{\RaggedRight\arraybackslash}p{\dimexpr 0.18182\dimexpr \dimexpr\linewidth-8\tabcolsep\relax\relax\relax}>{\RaggedRight\arraybackslash}p{\dimexpr 0.18182\dimexpr \dimexpr\linewidth-8\tabcolsep\relax\relax\relax}>{\RaggedRight\arraybackslash}p{\dimexpr 0.18182\dimexpr \dimexpr\linewidth-8\tabcolsep\relax\relax\relax}>{\RaggedRight\arraybackslash}p{\dimexpr 0.18182\dimexpr \dimexpr\linewidth-8\tabcolsep\relax\relax\relax}>{\RaggedRight\arraybackslash}p{\dimexpr 0.27273\dimexpr \dimexpr\linewidth-8\tabcolsep\relax\relax\relax}@{}}
 \caption{Accepted Mizo suffix rules and current-form exceptions.}\label{tab:supp:7}\\
 \toprule
 Suffix & Priority & Minimum letters & Replacement & Exceptions \\
@@ -380,7 +428,7 @@ na & 4 & 3 & (empty) & johana, setana, hosana, susana, hmana \\
 tu & 4 & 2 & (empty) & hotu \\
 \botrule\end{longtable}
 Rules were tried in ascending priority and decreasing suffix length within a priority. The first eligible rule was applied. The procedure was repeated on the current form until no rule applied. Exceptions blocked their associated rule. NFC-normalised written letters were counted once. Corpus attestation was excluded from eligibility.
-\begin{longtable}{@{}lp{143mm}@{}}
+\begin{longtable}{@{}>{\RaggedRight\arraybackslash}p{\dimexpr 0.40000\dimexpr \dimexpr\linewidth-2\tabcolsep\relax\relax\relax}>{\RaggedRight\arraybackslash}p{\dimexpr 0.60000\dimexpr \dimexpr\linewidth-2\tabcolsep\relax\relax\relax}@{}}
 \caption{Reviewed stopwords excluded from each index.}\label{tab:supp:8}\\
 \toprule
 Language & Tokens \\
@@ -391,7 +439,7 @@ Language & Tokens \\
 English & about, according, after, again, against, all, also, am, among, an, and, another, any, are, as, at, away, be, because, been, before, behold, being, but, by, can, did, didn't, do, does, don't, down, even, every, first, for, from, had, has, have, he, her, him, himself, his, how, if, in, into, is, it, its, let, many, may, me, might, more, my, neither, no, not, now, of, on, one, only, or, other, our, out, over, own, shall, she, should, so, some, such, than, that, the, their, them, then, there, therefore, these, they, this, those, three, through, to, two, until, up, us, very, was, we, were, what, when, where, which, who, whom, why, will, with, would, yes, yet, you, your \\
 Mizo & ah, amah, an, ang, anga, angin, ani, anni, ata, avângin, awm, a\d{t}anga, a\d{t}angin, bawk, ber, chauh, che, chhûng, chu, chuan, chunga, chungah, chutiang, chuvângin, chûng, dang, dangte, dawn, dâwn, em, emaw, eng, engtin, erawh, han, he, hek, hi, hian, hle, hma, hnêna, hnênah, ho, hêng, in, ka, kan, kei, kha, khat, khân, la, lai, lam, lamah, le, leh, lo, loh, lovin, mah, mahni, mahse, mai, min, nge, ngei, ni, nia, nih, nân, nên, pahnih, pakhat, pawh, pawhin, rawh, rawn, reng, rêng, se, si, suh, ta, tak, taka, takin, tam, tawh, te, teh, thei, theih, tichuan, tih, tiin, tin, tlat, tu, tur, tân, tûr, tûra, tûrin, ula, va, vang, ve, vek, zawng, zâwk, zêl, zînga, zîngah, êm, \d{t}hîn \\
 \botrule\end{longtable}
-\begin{longtable}{@{}lrrrrrr@{}}
+\begin{longtable}{@{}>{\RaggedRight\arraybackslash}p{\dimexpr 0.14286\dimexpr \dimexpr\linewidth-12\tabcolsep\relax\relax\relax}>{\RaggedRight\arraybackslash}p{\dimexpr 0.14286\dimexpr \dimexpr\linewidth-12\tabcolsep\relax\relax\relax}>{\RaggedRight\arraybackslash}p{\dimexpr 0.14286\dimexpr \dimexpr\linewidth-12\tabcolsep\relax\relax\relax}>{\RaggedRight\arraybackslash}p{\dimexpr 0.14286\dimexpr \dimexpr\linewidth-12\tabcolsep\relax\relax\relax}>{\RaggedRight\arraybackslash}p{\dimexpr 0.14286\dimexpr \dimexpr\linewidth-12\tabcolsep\relax\relax\relax}>{\RaggedRight\arraybackslash}p{\dimexpr 0.14286\dimexpr \dimexpr\linewidth-12\tabcolsep\relax\relax\relax}>{\RaggedRight\arraybackslash}p{\dimexpr 0.14286\dimexpr \dimexpr\linewidth-12\tabcolsep\relax\relax\relax}@{}}
 \caption{Selected-keyword overlap and full-vocabulary stem mergers.}\label{tab:supp:9}\\
 \toprule
 Language & Token/stop & Stop/stem & Stop types & Stem types & Merged groups & Merged types \\
@@ -403,7 +451,7 @@ English & 385 & 319 & 21269 & 13574 & 4028 & 11723 \\
 Mizo & 383 & 423 & 25791 & 18293 & 3315 & 10813 \\
 \botrule\end{longtable}
 Overlap counted identical written labels in the selected production keyword sets. Merger counts used the complete language-specific stopword-filtered vocabulary. A merged group contained multiple word types with the same output stem.
-\begin{longtable}{@{}lrrr@{}}
+\begin{longtable}{@{}>{\RaggedRight\arraybackslash}p{\dimexpr 0.25000\dimexpr \dimexpr\linewidth-6\tabcolsep\relax\relax\relax}>{\RaggedRight\arraybackslash}p{\dimexpr 0.25000\dimexpr \dimexpr\linewidth-6\tabcolsep\relax\relax\relax}>{\RaggedRight\arraybackslash}p{\dimexpr 0.25000\dimexpr \dimexpr\linewidth-6\tabcolsep\relax\relax\relax}>{\RaggedRight\arraybackslash}p{\dimexpr 0.25000\dimexpr \dimexpr\linewidth-6\tabcolsep\relax\relax\relax}@{}}
 \caption{Observed distinct keywords in production queries.}\label{tab:supp:10}\\
 \toprule
 Queries & Minimum & Maximum & Mean \\
@@ -414,7 +462,7 @@ Queries & Minimum & Maximum & Mean \\
 Uniform & 500 & 500 & 500.0 \\
 Zipf & 450 & 467 & 459.4 \\
 \botrule\end{longtable}
-\begin{longtable}{@{}rlllrr@{}}
+\begin{longtable}{@{}>{\RaggedRight\arraybackslash}p{\dimexpr 0.16667\dimexpr \dimexpr\linewidth-10\tabcolsep\relax\relax\relax}>{\RaggedRight\arraybackslash}p{\dimexpr 0.16667\dimexpr \dimexpr\linewidth-10\tabcolsep\relax\relax\relax}>{\RaggedRight\arraybackslash}p{\dimexpr 0.16667\dimexpr \dimexpr\linewidth-10\tabcolsep\relax\relax\relax}>{\RaggedRight\arraybackslash}p{\dimexpr 0.16667\dimexpr \dimexpr\linewidth-10\tabcolsep\relax\relax\relax}>{\RaggedRight\arraybackslash}p{\dimexpr 0.16667\dimexpr \dimexpr\linewidth-10\tabcolsep\relax\relax\relax}>{\RaggedRight\arraybackslash}p{\dimexpr 0.16667\dimexpr \dimexpr\linewidth-10\tabcolsep\relax\relax\relax}@{}}
 \caption{Production recovery means and sample standard deviations within additional partitions.}\label{tab:supp:11}\\
 \toprule
 Partition seed & Language & Condition & Queries & Weighted (SD) & Macro (SD) \\
@@ -426,40 +474,40 @@ Partition seed & Language & Condition & Queries & Weighted (SD) & Macro (SD) \\
 20261007 & English & Stemming & Zipf & 0.5875 (0.0124) & 0.1160 (0.0169) \\
 20261007 & English & Stopwords & Uniform & 0.0541 (0.0174) & 0.0540 (0.0144) \\
 20261007 & English & Stopwords & Zipf & 0.4668 (0.0429) & 0.0612 (0.0191) \\
-20261007 & English & Tokenisation & Uniform & 0.1012 (0.0070) & 0.0973 (0.0070) \\
-20261007 & English & Tokenisation & Zipf & 0.5773 (0.0355) & 0.1006 (0.0097) \\
+20261007 & English & Token\-isa\-tion & Uniform & 0.1012 (0.0070) & 0.0973 (0.0070) \\
+20261007 & English & Token\-isa\-tion & Zipf & 0.5773 (0.0355) & 0.1006 (0.0097) \\
 20261007 & Mizo & Stemming & Uniform & 0.0777 (0.0086) & 0.0767 (0.0070) \\
 20261007 & Mizo & Stemming & Zipf & 0.5541 (0.0165) & 0.0751 (0.0029) \\
 20261007 & Mizo & Stopwords & Uniform & 0.0551 (0.0110) & 0.0533 (0.0092) \\
 20261007 & Mizo & Stopwords & Zipf & 0.5478 (0.0297) & 0.0691 (0.0149) \\
-20261007 & Mizo & Tokenisation & Uniform & 0.1313 (0.0269) & 0.1287 (0.0254) \\
-20261007 & Mizo & Tokenisation & Zipf & 0.6615 (0.0116) & 0.1654 (0.0052) \\
+20261007 & Mizo & Token\-isa\-tion & Uniform & 0.1313 (0.0269) & 0.1287 (0.0254) \\
+20261007 & Mizo & Token\-isa\-tion & Zipf & 0.6615 (0.0116) & 0.1654 (0.0052) \\
 20261008 & English & Stemming & Uniform & 0.0898 (0.0093) & 0.0880 (0.0092) \\
 20261008 & English & Stemming & Zipf & 0.5746 (0.0065) & 0.1027 (0.0043) \\
 20261008 & English & Stopwords & Uniform & 0.0747 (0.0289) & 0.0727 (0.0261) \\
 20261008 & English & Stopwords & Zipf & 0.4988 (0.0173) & 0.0750 (0.0062) \\
-20261008 & English & Tokenisation & Uniform & 0.1745 (0.0083) & 0.1727 (0.0076) \\
-20261008 & English & Tokenisation & Zipf & 0.6339 (0.1352) & 0.2186 (0.0103) \\
+20261008 & English & Token\-isa\-tion & Uniform & 0.1745 (0.0083) & 0.1727 (0.0076) \\
+20261008 & English & Token\-isa\-tion & Zipf & 0.6339 (0.1352) & 0.2186 (0.0103) \\
 20261008 & Mizo & Stemming & Uniform & 0.0607 (0.0101) & 0.0600 (0.0122) \\
 20261008 & Mizo & Stemming & Zipf & 0.5331 (0.0163) & 0.0714 (0.0027) \\
 20261008 & Mizo & Stopwords & Uniform & 0.0669 (0.0039) & 0.0647 (0.0058) \\
 20261008 & Mizo & Stopwords & Zipf & 0.5003 (0.0140) & 0.0606 (0.0103) \\
-20261008 & Mizo & Tokenisation & Uniform & 0.1429 (0.0125) & 0.1467 (0.0129) \\
-20261008 & Mizo & Tokenisation & Zipf & 0.4937 (0.0188) & 0.1407 (0.0162) \\
+20261008 & Mizo & Token\-isa\-tion & Uniform & 0.1429 (0.0125) & 0.1467 (0.0129) \\
+20261008 & Mizo & Token\-isa\-tion & Zipf & 0.4937 (0.0188) & 0.1407 (0.0162) \\
 20261009 & English & Stemming & Uniform & 0.0684 (0.0049) & 0.0673 (0.0061) \\
 20261009 & English & Stemming & Zipf & 0.4521 (0.0253) & 0.0583 (0.0032) \\
 20261009 & English & Stopwords & Uniform & 0.0504 (0.0134) & 0.0540 (0.0140) \\
 20261009 & English & Stopwords & Zipf & 0.4938 (0.0222) & 0.0569 (0.0104) \\
-20261009 & English & Tokenisation & Uniform & 0.1329 (0.0225) & 0.1320 (0.0180) \\
-20261009 & English & Tokenisation & Zipf & 0.6251 (0.0104) & 0.1494 (0.0065) \\
+20261009 & English & Token\-isa\-tion & Uniform & 0.1329 (0.0225) & 0.1320 (0.0180) \\
+20261009 & English & Token\-isa\-tion & Zipf & 0.6251 (0.0104) & 0.1494 (0.0065) \\
 20261009 & Mizo & Stemming & Uniform & 0.0575 (0.0057) & 0.0600 (0.0060) \\
 20261009 & Mizo & Stemming & Zipf & 0.4013 (0.1048) & 0.0620 (0.0058) \\
 20261009 & Mizo & Stopwords & Uniform & 0.0458 (0.0151) & 0.0467 (0.0122) \\
 20261009 & Mizo & Stopwords & Zipf & 0.4400 (0.0108) & 0.0481 (0.0052) \\
-20261009 & Mizo & Tokenisation & Uniform & 0.1073 (0.0306) & 0.1087 (0.0266) \\
-20261009 & Mizo & Tokenisation & Zipf & 0.4699 (0.0026) & 0.1289 (0.0102) \\
+20261009 & Mizo & Token\-isa\-tion & Uniform & 0.1073 (0.0306) & 0.1087 (0.0266) \\
+20261009 & Mizo & Token\-isa\-tion & Zipf & 0.4699 (0.0026) & 0.1289 (0.0102) \\
 \botrule\end{longtable}
-\begin{longtable}{@{}llllrr@{}}
+\begin{longtable}{@{}>{\RaggedRight\arraybackslash}p{\dimexpr 0.16667\dimexpr \dimexpr\linewidth-10\tabcolsep\relax\relax\relax}>{\RaggedRight\arraybackslash}p{\dimexpr 0.16667\dimexpr \dimexpr\linewidth-10\tabcolsep\relax\relax\relax}>{\RaggedRight\arraybackslash}p{\dimexpr 0.16667\dimexpr \dimexpr\linewidth-10\tabcolsep\relax\relax\relax}>{\RaggedRight\arraybackslash}p{\dimexpr 0.16667\dimexpr \dimexpr\linewidth-10\tabcolsep\relax\relax\relax}>{\RaggedRight\arraybackslash}p{\dimexpr 0.16667\dimexpr \dimexpr\linewidth-10\tabcolsep\relax\relax\relax}>{\RaggedRight\arraybackslash}p{\dimexpr 0.16667\dimexpr \dimexpr\linewidth-10\tabcolsep\relax\relax\relax}@{}}
 \caption{Recovery means and sample standard deviations for keyword and rank controls.}\label{tab:supp:12}\\
 \toprule
 Control & Language & Condition & Queries & Weighted (SD) & Macro (SD) \\
@@ -477,18 +525,18 @@ Controlled & Mizo & Stopwords & Uniform & 0.1604 (0.0275) & 0.1533 (0.0205) \\
 Controlled & Mizo & Stopwords & Zipf & 0.6324 (0.0466) & 0.1569 (0.0157) \\
 Shuffled ranks & English & Stemming & Zipf & 0.0209 (0.0112) & 0.0416 (0.0077) \\
 Shuffled ranks & English & Stopwords & Zipf & 0.0164 (0.0067) & 0.0349 (0.0076) \\
-Shuffled ranks & English & Tokenisation & Zipf & 0.0450 (0.0066) & 0.0837 (0.0157) \\
+Shuffled ranks & English & Token\-isa\-tion & Zipf & 0.0450 (0.0066) & 0.0837 (0.0157) \\
 Shuffled ranks & Mizo & Stemming & Zipf & 0.0728 (0.0615) & 0.0641 (0.0167) \\
 Shuffled ranks & Mizo & Stopwords & Zipf & 0.0381 (0.0140) & 0.0519 (0.0109) \\
-Shuffled ranks & Mizo & Tokenisation & Zipf & 0.0802 (0.0447) & 0.0787 (0.0213) \\
-Frequency ranks & English & Tokenisation & Zipf & 0.5953 (0.0665) & 0.1525 (0.0165) \\
+Shuffled ranks & Mizo & Token\-isa\-tion & Zipf & 0.0802 (0.0447) & 0.0787 (0.0213) \\
+Frequency ranks & English & Token\-isa\-tion & Zipf & 0.5953 (0.0665) & 0.1525 (0.0165) \\
 Frequency ranks & English & Stopwords & Zipf & 0.4687 (0.0266) & 0.0685 (0.0163) \\
 Frequency ranks & English & Stemming & Zipf & 0.4197 (0.0857) & 0.0568 (0.0071) \\
-Frequency ranks & Mizo & Tokenisation & Zipf & 0.5644 (0.0329) & 0.1048 (0.0233) \\
+Frequency ranks & Mizo & Token\-isa\-tion & Zipf & 0.5644 (0.0329) & 0.1048 (0.0233) \\
 Frequency ranks & Mizo & Stopwords & Zipf & 0.5775 (0.0393) & 0.0810 (0.0142) \\
 Frequency ranks & Mizo & Stemming & Zipf & 0.5538 (0.0318) & 0.0866 (0.0172) \\
 \botrule\end{longtable}
-\begin{longtable}{@{}rlllrr@{}}
+\begin{longtable}{@{}>{\RaggedRight\arraybackslash}p{\dimexpr 0.16667\dimexpr \dimexpr\linewidth-10\tabcolsep\relax\relax\relax}>{\RaggedRight\arraybackslash}p{\dimexpr 0.16667\dimexpr \dimexpr\linewidth-10\tabcolsep\relax\relax\relax}>{\RaggedRight\arraybackslash}p{\dimexpr 0.16667\dimexpr \dimexpr\linewidth-10\tabcolsep\relax\relax\relax}>{\RaggedRight\arraybackslash}p{\dimexpr 0.16667\dimexpr \dimexpr\linewidth-10\tabcolsep\relax\relax\relax}>{\RaggedRight\arraybackslash}p{\dimexpr 0.16667\dimexpr \dimexpr\linewidth-10\tabcolsep\relax\relax\relax}>{\RaggedRight\arraybackslash}p{\dimexpr 0.16667\dimexpr \dimexpr\linewidth-10\tabcolsep\relax\relax\relax}@{}}
 \caption{Length-balanced recovery means and sample standard deviations within additional partitions.}\label{tab:supp:13}\\
 \toprule
 Partition seed & Language & Corpus & Queries & Weighted (SD) & Macro (SD) \\
@@ -522,7 +570,7 @@ Partition seed & Language & Corpus & Queries & Weighted (SD) & Macro (SD) \\
 20261009 & Mizo & WMT23 & Zipf & 0.2807 (0.1655) & 0.0269 (0.0064) \\
 \botrule\end{longtable}
 Table~\ref{tab:supp:14} reports paired contrast means and sample standard deviations within additional partitions.
-\begin{longtable}{@{}rllllrr@{}}
+\begin{longtable}{@{}>{\RaggedRight\arraybackslash}p{\dimexpr 0.14286\dimexpr \dimexpr\linewidth-12\tabcolsep\relax\relax\relax}>{\RaggedRight\arraybackslash}p{\dimexpr 0.14286\dimexpr \dimexpr\linewidth-12\tabcolsep\relax\relax\relax}>{\RaggedRight\arraybackslash}p{\dimexpr 0.14286\dimexpr \dimexpr\linewidth-12\tabcolsep\relax\relax\relax}>{\RaggedRight\arraybackslash}p{\dimexpr 0.14286\dimexpr \dimexpr\linewidth-12\tabcolsep\relax\relax\relax}>{\RaggedRight\arraybackslash}p{\dimexpr 0.14286\dimexpr \dimexpr\linewidth-12\tabcolsep\relax\relax\relax}>{\RaggedRight\arraybackslash}p{\dimexpr 0.14286\dimexpr \dimexpr\linewidth-12\tabcolsep\relax\relax\relax}>{\RaggedRight\arraybackslash}p{\dimexpr 0.14286\dimexpr \dimexpr\linewidth-12\tabcolsep\relax\relax\relax}@{}}
 \caption{Paired language and length-balanced corpus contrasts within additional partitions.}\label{tab:supp:14}\\
 \toprule
 Partition seed & Contrast & Condition & Queries & Metric & Mean & SD \\
@@ -530,30 +578,30 @@ Partition seed & Contrast & Condition & Queries & Metric & Mean & SD \\
 \toprule
 Partition seed & Contrast & Condition & Queries & Metric & Mean & SD \\
 \midrule\endhead
-20261007 & English corpus & Tokenisation & Uniform & Weighted & -0.0043 & 0.0048 \\
-20261007 & English corpus & Tokenisation & Uniform & Macro & -0.0047 & 0.0042 \\
-20261007 & English corpus & Tokenisation & Zipf & Weighted & 0.0723 & 0.0663 \\
-20261007 & English corpus & Tokenisation & Zipf & Macro & 0.0000 & 0.0116 \\
-20261007 & Mizo corpus & Tokenisation & Uniform & Weighted & 0.0007 & 0.0006 \\
-20261007 & Mizo corpus & Tokenisation & Uniform & Macro & -0.0027 & 0.0023 \\
-20261007 & Mizo corpus & Tokenisation & Zipf & Weighted & -0.0392 & 0.0369 \\
-20261007 & Mizo corpus & Tokenisation & Zipf & Macro & -0.0007 & 0.0064 \\
-20261008 & English corpus & Tokenisation & Uniform & Weighted & -0.0053 & 0.0041 \\
-20261008 & English corpus & Tokenisation & Uniform & Macro & -0.0053 & 0.0031 \\
-20261008 & English corpus & Tokenisation & Zipf & Weighted & 0.1255 & 0.0849 \\
-20261008 & English corpus & Tokenisation & Zipf & Macro & -0.0029 & 0.0045 \\
-20261008 & Mizo corpus & Tokenisation & Uniform & Weighted & 0.0056 & 0.0014 \\
-20261008 & Mizo corpus & Tokenisation & Uniform & Macro & 0.0053 & 0.0023 \\
-20261008 & Mizo corpus & Tokenisation & Zipf & Weighted & 0.1655 & 0.0379 \\
-20261008 & Mizo corpus & Tokenisation & Zipf & Macro & 0.0081 & 0.0092 \\
-20261009 & English corpus & Tokenisation & Uniform & Weighted & -0.0064 & 0.0021 \\
-20261009 & English corpus & Tokenisation & Uniform & Macro & -0.0073 & 0.0012 \\
-20261009 & English corpus & Tokenisation & Zipf & Weighted & -0.0398 & 0.1852 \\
-20261009 & English corpus & Tokenisation & Zipf & Macro & 0.0007 & 0.0067 \\
-20261009 & Mizo corpus & Tokenisation & Uniform & Weighted & 0.0021 & 0.0079 \\
-20261009 & Mizo corpus & Tokenisation & Uniform & Macro & 0.0033 & 0.0061 \\
-20261009 & Mizo corpus & Tokenisation & Zipf & Weighted & -0.0279 & 0.1854 \\
-20261009 & Mizo corpus & Tokenisation & Zipf & Macro & -0.0073 & 0.0070 \\
+20261007 & English corpus & Token\-isa\-tion & Uniform & Weighted & -0.0043 & 0.0048 \\
+20261007 & English corpus & Token\-isa\-tion & Uniform & Macro & -0.0047 & 0.0042 \\
+20261007 & English corpus & Token\-isa\-tion & Zipf & Weighted & 0.0723 & 0.0663 \\
+20261007 & English corpus & Token\-isa\-tion & Zipf & Macro & 0.0000 & 0.0116 \\
+20261007 & Mizo corpus & Token\-isa\-tion & Uniform & Weighted & 0.0007 & 0.0006 \\
+20261007 & Mizo corpus & Token\-isa\-tion & Uniform & Macro & -0.0027 & 0.0023 \\
+20261007 & Mizo corpus & Token\-isa\-tion & Zipf & Weighted & -0.0392 & 0.0369 \\
+20261007 & Mizo corpus & Token\-isa\-tion & Zipf & Macro & -0.0007 & 0.0064 \\
+20261008 & English corpus & Token\-isa\-tion & Uniform & Weighted & -0.0053 & 0.0041 \\
+20261008 & English corpus & Token\-isa\-tion & Uniform & Macro & -0.0053 & 0.0031 \\
+20261008 & English corpus & Token\-isa\-tion & Zipf & Weighted & 0.1255 & 0.0849 \\
+20261008 & English corpus & Token\-isa\-tion & Zipf & Macro & -0.0029 & 0.0045 \\
+20261008 & Mizo corpus & Token\-isa\-tion & Uniform & Weighted & 0.0056 & 0.0014 \\
+20261008 & Mizo corpus & Token\-isa\-tion & Uniform & Macro & 0.0053 & 0.0023 \\
+20261008 & Mizo corpus & Token\-isa\-tion & Zipf & Weighted & 0.1655 & 0.0379 \\
+20261008 & Mizo corpus & Token\-isa\-tion & Zipf & Macro & 0.0081 & 0.0092 \\
+20261009 & English corpus & Token\-isa\-tion & Uniform & Weighted & -0.0064 & 0.0021 \\
+20261009 & English corpus & Token\-isa\-tion & Uniform & Macro & -0.0073 & 0.0012 \\
+20261009 & English corpus & Token\-isa\-tion & Zipf & Weighted & -0.0398 & 0.1852 \\
+20261009 & English corpus & Token\-isa\-tion & Zipf & Macro & 0.0007 & 0.0067 \\
+20261009 & Mizo corpus & Token\-isa\-tion & Uniform & Weighted & 0.0021 & 0.0079 \\
+20261009 & Mizo corpus & Token\-isa\-tion & Uniform & Macro & 0.0033 & 0.0061 \\
+20261009 & Mizo corpus & Token\-isa\-tion & Zipf & Weighted & -0.0279 & 0.1854 \\
+20261009 & Mizo corpus & Token\-isa\-tion & Zipf & Macro & -0.0073 & 0.0070 \\
 20261007 & Language & Stemming & Uniform & Weighted & -0.0163 & 0.0321 \\
 20261007 & Language & Stemming & Uniform & Macro & -0.0140 & 0.0291 \\
 20261007 & Language & Stemming & Zipf & Weighted & -0.0335 & 0.0145 \\
@@ -562,10 +610,10 @@ Partition seed & Contrast & Condition & Queries & Metric & Mean & SD \\
 20261007 & Language & Stopwords & Uniform & Macro & -0.0007 & 0.0220 \\
 20261007 & Language & Stopwords & Zipf & Weighted & 0.0810 & 0.0724 \\
 20261007 & Language & Stopwords & Zipf & Macro & 0.0079 & 0.0314 \\
-20261007 & Language & Tokenisation & Uniform & Weighted & 0.0301 & 0.0284 \\
-20261007 & Language & Tokenisation & Uniform & Macro & 0.0313 & 0.0258 \\
-20261007 & Language & Tokenisation & Zipf & Weighted & 0.0841 & 0.0255 \\
-20261007 & Language & Tokenisation & Zipf & Macro & 0.0648 & 0.0106 \\
+20261007 & Language & Token\-isa\-tion & Uniform & Weighted & 0.0301 & 0.0284 \\
+20261007 & Language & Token\-isa\-tion & Uniform & Macro & 0.0313 & 0.0258 \\
+20261007 & Language & Token\-isa\-tion & Zipf & Weighted & 0.0841 & 0.0255 \\
+20261007 & Language & Token\-isa\-tion & Zipf & Macro & 0.0648 & 0.0106 \\
 20261008 & Language & Stemming & Uniform & Weighted & -0.0291 & 0.0044 \\
 20261008 & Language & Stemming & Uniform & Macro & -0.0280 & 0.0040 \\
 20261008 & Language & Stemming & Zipf & Weighted & -0.0415 & 0.0163 \\
@@ -574,10 +622,10 @@ Partition seed & Contrast & Condition & Queries & Metric & Mean & SD \\
 20261008 & Language & Stopwords & Uniform & Macro & -0.0080 & 0.0314 \\
 20261008 & Language & Stopwords & Zipf & Weighted & 0.0015 & 0.0313 \\
 20261008 & Language & Stopwords & Zipf & Macro & -0.0145 & 0.0164 \\
-20261008 & Language & Tokenisation & Uniform & Weighted & -0.0316 & 0.0181 \\
-20261008 & Language & Tokenisation & Uniform & Macro & -0.0260 & 0.0164 \\
-20261008 & Language & Tokenisation & Zipf & Weighted & -0.1403 & 0.1353 \\
-20261008 & Language & Tokenisation & Zipf & Macro & -0.0779 & 0.0137 \\
+20261008 & Language & Token\-isa\-tion & Uniform & Weighted & -0.0316 & 0.0181 \\
+20261008 & Language & Token\-isa\-tion & Uniform & Macro & -0.0260 & 0.0164 \\
+20261008 & Language & Token\-isa\-tion & Zipf & Weighted & -0.1403 & 0.1353 \\
+20261008 & Language & Token\-isa\-tion & Zipf & Macro & -0.0779 & 0.0137 \\
 20261009 & Language & Stemming & Uniform & Weighted & -0.0109 & 0.0101 \\
 20261009 & Language & Stemming & Uniform & Macro & -0.0073 & 0.0110 \\
 20261009 & Language & Stemming & Zipf & Weighted & -0.0509 & 0.1216 \\
@@ -586,14 +634,14 @@ Partition seed & Contrast & Condition & Queries & Metric & Mean & SD \\
 20261009 & Language & Stopwords & Uniform & Macro & -0.0073 & 0.0064 \\
 20261009 & Language & Stopwords & Zipf & Weighted & -0.0538 & 0.0327 \\
 20261009 & Language & Stopwords & Zipf & Macro & -0.0089 & 0.0124 \\
-20261009 & Language & Tokenisation & Uniform & Weighted & -0.0256 & 0.0103 \\
-20261009 & Language & Tokenisation & Uniform & Macro & -0.0233 & 0.0099 \\
-20261009 & Language & Tokenisation & Zipf & Weighted & -0.1552 & 0.0129 \\
-20261009 & Language & Tokenisation & Zipf & Macro & -0.0205 & 0.0132 \\
+20261009 & Language & Token\-isa\-tion & Uniform & Weighted & -0.0256 & 0.0103 \\
+20261009 & Language & Token\-isa\-tion & Uniform & Macro & -0.0233 & 0.0099 \\
+20261009 & Language & Token\-isa\-tion & Zipf & Weighted & -0.1552 & 0.0129 \\
+20261009 & Language & Token\-isa\-tion & Zipf & Macro & -0.0205 & 0.0132 \\
 \botrule\end{longtable}
 Language contrasts were Mizo minus English. Corpus contrasts were FLORES minus WMT23 at 500 keywords. Standard deviations used seed-wise paired differences. Seed-level values were retained in the derived uncertainty results. These standard deviations described within-partition variation.
 Table~\ref{tab:supp:15} reports original partition contrasts using the same attack seeds as the additional partitions.
-\begin{longtable}{@{}llllrr@{}}
+\begin{longtable}{@{}>{\RaggedRight\arraybackslash}p{\dimexpr 0.16667\dimexpr \dimexpr\linewidth-10\tabcolsep\relax\relax\relax}>{\RaggedRight\arraybackslash}p{\dimexpr 0.16667\dimexpr \dimexpr\linewidth-10\tabcolsep\relax\relax\relax}>{\RaggedRight\arraybackslash}p{\dimexpr 0.16667\dimexpr \dimexpr\linewidth-10\tabcolsep\relax\relax\relax}>{\RaggedRight\arraybackslash}p{\dimexpr 0.16667\dimexpr \dimexpr\linewidth-10\tabcolsep\relax\relax\relax}>{\RaggedRight\arraybackslash}p{\dimexpr 0.16667\dimexpr \dimexpr\linewidth-10\tabcolsep\relax\relax\relax}>{\RaggedRight\arraybackslash}p{\dimexpr 0.16667\dimexpr \dimexpr\linewidth-10\tabcolsep\relax\relax\relax}@{}}
 \caption{Original partition paired contrasts on matched attack seeds.}\label{tab:supp:15}\\
 \toprule
 Contrast & Condition & Queries & Metric & Mean & SD \\
@@ -601,10 +649,10 @@ Contrast & Condition & Queries & Metric & Mean & SD \\
 \toprule
 Contrast & Condition & Queries & Metric & Mean & SD \\
 \midrule\endhead
-Language & Tokenisation & Uniform & Weighted & -0.0053 & 0.0169 \\
-Language & Tokenisation & Uniform & Macro & -0.0067 & 0.0114 \\
-Language & Tokenisation & Zipf & Weighted & -0.0309 & 0.0340 \\
-Language & Tokenisation & Zipf & Macro & -0.0477 & 0.0299 \\
+Language & Token\-isa\-tion & Uniform & Weighted & -0.0053 & 0.0169 \\
+Language & Token\-isa\-tion & Uniform & Macro & -0.0067 & 0.0114 \\
+Language & Token\-isa\-tion & Zipf & Weighted & -0.0309 & 0.0340 \\
+Language & Token\-isa\-tion & Zipf & Macro & -0.0477 & 0.0299 \\
 Language & Stopwords & Uniform & Weighted & 0.0137 & 0.0026 \\
 Language & Stopwords & Uniform & Macro & 0.0153 & 0.0042 \\
 Language & Stopwords & Zipf & Weighted & 0.1088 & 0.0658 \\
@@ -613,110 +661,415 @@ Language & Stemming & Uniform & Weighted & 0.0165 & 0.0084 \\
 Language & Stemming & Uniform & Macro & 0.0200 & 0.0072 \\
 Language & Stemming & Zipf & Weighted & 0.1341 & 0.0684 \\
 Language & Stemming & Zipf & Macro & 0.0298 & 0.0153 \\
-English corpus & Tokenisation & Uniform & Weighted & 0.0101 & 0.0053 \\
-English corpus & Tokenisation & Uniform & Macro & 0.0093 & 0.0042 \\
-English corpus & Tokenisation & Zipf & Weighted & 0.1910 & 0.0756 \\
-English corpus & Tokenisation & Zipf & Macro & 0.0022 & 0.0121 \\
-Mizo corpus & Tokenisation & Uniform & Weighted & 0.0109 & 0.0061 \\
-Mizo corpus & Tokenisation & Uniform & Macro & 0.0113 & 0.0061 \\
-Mizo corpus & Tokenisation & Zipf & Weighted & 0.0710 & 0.0999 \\
-Mizo corpus & Tokenisation & Zipf & Macro & 0.0051 & 0.0125 \\
+English corpus & Token\-isa\-tion & Uniform & Weighted & 0.0101 & 0.0053 \\
+English corpus & Token\-isa\-tion & Uniform & Macro & 0.0093 & 0.0042 \\
+English corpus & Token\-isa\-tion & Zipf & Weighted & 0.1910 & 0.0756 \\
+English corpus & Token\-isa\-tion & Zipf & Macro & 0.0022 & 0.0121 \\
+Mizo corpus & Token\-isa\-tion & Uniform & Weighted & 0.0109 & 0.0061 \\
+Mizo corpus & Token\-isa\-tion & Uniform & Macro & 0.0113 & 0.0061 \\
+Mizo corpus & Token\-isa\-tion & Zipf & Weighted & 0.0710 & 0.0999 \\
+Mizo corpus & Token\-isa\-tion & Zipf & Macro & 0.0051 & 0.0125 \\
 \botrule\end{longtable}
-Each post-review mean used \SensitivitySeeds{} attack seeds. These tables were descriptive. The confirmatory comparison families were preserved. Controlled keyword labels were linked through the frozen stemmer. Each selected word had a distinct output stem. The tokenisation-only and stopword-only restricted matrices were identical. Full controlled mappings were retained in the accompanying derived results.
+Each additional-condition mean used \SensitivitySeeds{} attack seeds. These tables were descriptive. The confirmatory comparison families were preserved. Controlled keyword labels were linked through the frozen stemmer. Each selected word had a distinct output stem. The tokenisation-only and stopword-only restricted matrices were identical. Full controlled mappings were retained in the accompanying derived results.
+Tables~\ref{tab:supp:16}, \ref{tab:supp:17}, \ref{tab:supp:18}, \ref{tab:supp:19}, \ref{tab:supp:20} and \ref{tab:supp:21} report the expanded recovery evaluation.
+\begin{longtable}{@{}>{\RaggedRight\arraybackslash}p{\dimexpr 0.16667\dimexpr \dimexpr\linewidth-10\tabcolsep\relax\relax\relax}>{\RaggedRight\arraybackslash}p{\dimexpr 0.16667\dimexpr \dimexpr\linewidth-10\tabcolsep\relax\relax\relax}>{\RaggedRight\arraybackslash}p{\dimexpr 0.16667\dimexpr \dimexpr\linewidth-10\tabcolsep\relax\relax\relax}>{\RaggedRight\arraybackslash}p{\dimexpr 0.16667\dimexpr \dimexpr\linewidth-10\tabcolsep\relax\relax\relax}>{\RaggedRight\arraybackslash}p{\dimexpr 0.16667\dimexpr \dimexpr\linewidth-10\tabcolsep\relax\relax\relax}>{\RaggedRight\arraybackslash}p{\dimexpr 0.16667\dimexpr \dimexpr\linewidth-10\tabcolsep\relax\relax\relax}@{}}
+\caption{Expanded partition and corpus recovery means with sample standard deviations.}\label{tab:supp:16}\\
+\toprule
+Partition & Language & Condition or corpus & Queries & Weighted (SD) & Macro (SD) \\
+\midrule\endfirsthead
+\toprule
+Partition & Language & Condition or corpus & Queries & Weighted (SD) & Macro (SD) \\
+\midrule\endhead
+20261007 & English & FLORES & Uniform & 0.0147 (0.0053) & 0.0152 (0.0053) \\
+20261007 & English & FLORES & Zipf & 0.2700 (0.0369) & 0.0192 (0.0055) \\
+20261007 & English & WMT23 & Uniform & 0.0199 (0.0046) & 0.0202 (0.0047) \\
+20261007 & English & WMT23 & Zipf & 0.2776 (0.1113) & 0.0201 (0.0058) \\
+20261007 & Mizo & FLORES & Uniform & 0.0181 (0.0042) & 0.0184 (0.0051) \\
+20261007 & Mizo & FLORES & Zipf & 0.2025 (0.0323) & 0.0181 (0.0060) \\
+20261007 & Mizo & WMT23 & Uniform & 0.0178 (0.0048) & 0.0178 (0.0048) \\
+20261007 & Mizo & WMT23 & Zipf & 0.2315 (0.0665) & 0.0189 (0.0049) \\
+20261008 & English & FLORES & Uniform & 0.0149 (0.0078) & 0.0148 (0.0067) \\
+20261008 & English & FLORES & Zipf & 0.2607 (0.0470) & 0.0174 (0.0047) \\
+20261008 & English & WMT23 & Uniform & 0.0147 (0.0042) & 0.0158 (0.0043) \\
+20261008 & English & WMT23 & Zipf & 0.1474 (0.0332) & 0.0170 (0.0051) \\
+20261008 & Mizo & FLORES & Uniform & 0.0182 (0.0049) & 0.0186 (0.0061) \\
+20261008 & Mizo & FLORES & Zipf & 0.2538 (0.0266) & 0.0196 (0.0061) \\
+20261008 & Mizo & WMT23 & Uniform & 0.0165 (0.0051) & 0.0160 (0.0042) \\
+20261008 & Mizo & WMT23 & Zipf & 0.1137 (0.0287) & 0.0174 (0.0038) \\
+20261009 & English & FLORES & Uniform & 0.0122 (0.0035) & 0.0122 (0.0029) \\
+20261009 & English & FLORES & Zipf & 0.1828 (0.0886) & 0.0150 (0.0062) \\
+20261009 & English & WMT23 & Uniform & 0.0140 (0.0052) & 0.0148 (0.0049) \\
+20261009 & English & WMT23 & Zipf & 0.1440 (0.0871) & 0.0120 (0.0032) \\
+20261009 & Mizo & FLORES & Uniform & 0.0186 (0.0052) & 0.0188 (0.0053) \\
+20261009 & Mizo & FLORES & Zipf & 0.2318 (0.0445) & 0.0168 (0.0048) \\
+20261009 & Mizo & WMT23 & Uniform & 0.0195 (0.0049) & 0.0196 (0.0045) \\
+20261009 & Mizo & WMT23 & Zipf & 0.2867 (0.1306) & 0.0250 (0.0051) \\
+20261017 & English & FLORES & Uniform & 0.0202 (0.0064) & 0.0198 (0.0057) \\
+20261017 & English & FLORES & Zipf & 0.3102 (0.1182) & 0.0290 (0.0087) \\
+20261017 & English & WMT23 & Uniform & 0.0164 (0.0046) & 0.0160 (0.0039) \\
+20261017 & English & WMT23 & Zipf & 0.1272 (0.0371) & 0.0159 (0.0035) \\
+20261017 & Mizo & FLORES & Uniform & 0.0178 (0.0066) & 0.0180 (0.0063) \\
+20261017 & Mizo & FLORES & Zipf & 0.2621 (0.0475) & 0.0174 (0.0055) \\
+20261017 & Mizo & WMT23 & Uniform & 0.0190 (0.0046) & 0.0196 (0.0043) \\
+20261017 & Mizo & WMT23 & Zipf & 0.1754 (0.1050) & 0.0192 (0.0067) \\
+20261018 & English & FLORES & Uniform & 0.0145 (0.0028) & 0.0150 (0.0025) \\
+20261018 & English & FLORES & Zipf & 0.2747 (0.0572) & 0.0165 (0.0045) \\
+20261018 & English & WMT23 & Uniform & 0.0161 (0.0056) & 0.0168 (0.0055) \\
+20261018 & English & WMT23 & Zipf & 0.2770 (0.1274) & 0.0222 (0.0061) \\
+20261018 & Mizo & FLORES & Uniform & 0.0210 (0.0069) & 0.0218 (0.0063) \\
+20261018 & Mizo & FLORES & Zipf & 0.2280 (0.0235) & 0.0202 (0.0051) \\
+20261018 & Mizo & WMT23 & Uniform & 0.0139 (0.0038) & 0.0144 (0.0036) \\
+20261018 & Mizo & WMT23 & Zipf & 0.2056 (0.1342) & 0.0159 (0.0080) \\
+20261019 & English & FLORES & Uniform & 0.0145 (0.0030) & 0.0150 (0.0036) \\
+20261019 & English & FLORES & Zipf & 0.2025 (0.0306) & 0.0133 (0.0035) \\
+20261019 & English & WMT23 & Uniform & 0.0133 (0.0045) & 0.0140 (0.0047) \\
+20261019 & English & WMT23 & Zipf & 0.1387 (0.0315) & 0.0168 (0.0043) \\
+20261019 & Mizo & FLORES & Uniform & 0.0221 (0.0078) & 0.0226 (0.0068) \\
+20261019 & Mizo & FLORES & Zipf & 0.3154 (0.0178) & 0.0279 (0.0048) \\
+20261019 & Mizo & WMT23 & Uniform & 0.0168 (0.0065) & 0.0168 (0.0065) \\
+20261019 & Mizo & WMT23 & Zipf & 0.3128 (0.0553) & 0.0198 (0.0056) \\
+20261007 & English & Stemming & Uniform & 0.0878 (0.0188) & 0.0892 (0.0168) \\
+20261007 & English & Stemming & Zipf & 0.5607 (0.0239) & 0.0952 (0.0207) \\
+20261007 & English & Stopwords & Uniform & 0.0565 (0.0101) & 0.0566 (0.0089) \\
+20261007 & English & Stopwords & Zipf & 0.4806 (0.0357) & 0.0642 (0.0121) \\
+20261007 & English & Token\-isa\-tion & Uniform & 0.1088 (0.0102) & 0.1084 (0.0112) \\
+20261007 & English & Token\-isa\-tion & Zipf & 0.5578 (0.0343) & 0.1095 (0.0175) \\
+20261007 & Mizo & Stemming & Uniform & 0.0792 (0.0129) & 0.0798 (0.0125) \\
+20261007 & Mizo & Stemming & Zipf & 0.5463 (0.0217) & 0.0763 (0.0143) \\
+20261007 & Mizo & Stopwords & Uniform & 0.0587 (0.0123) & 0.0594 (0.0120) \\
+20261007 & Mizo & Stopwords & Zipf & 0.5347 (0.0233) & 0.0637 (0.0099) \\
+20261007 & Mizo & Token\-isa\-tion & Uniform & 0.1346 (0.0198) & 0.1358 (0.0196) \\
+20261007 & Mizo & Token\-isa\-tion & Zipf & 0.6558 (0.0190) & 0.1631 (0.0137) \\
+20261008 & English & Stemming & Uniform & 0.0885 (0.0164) & 0.0890 (0.0168) \\
+20261008 & English & Stemming & Zipf & 0.5605 (0.0241) & 0.0980 (0.0135) \\
+20261008 & English & Stopwords & Uniform & 0.0689 (0.0177) & 0.0690 (0.0166) \\
+20261008 & English & Stopwords & Zipf & 0.5095 (0.0297) & 0.0776 (0.0110) \\
+20261008 & English & Token\-isa\-tion & Uniform & 0.1742 (0.0169) & 0.1754 (0.0175) \\
+20261008 & English & Token\-isa\-tion & Zipf & 0.5681 (0.1168) & 0.2033 (0.0174) \\
+20261008 & Mizo & Stemming & Uniform & 0.0576 (0.0087) & 0.0584 (0.0101) \\
+20261008 & Mizo & Stemming & Zipf & 0.5181 (0.0335) & 0.0770 (0.0070) \\
+20261008 & Mizo & Stopwords & Uniform & 0.0574 (0.0114) & 0.0578 (0.0096) \\
+20261008 & Mizo & Stopwords & Zipf & 0.5010 (0.0153) & 0.0634 (0.0079) \\
+20261008 & Mizo & Token\-isa\-tion & Uniform & 0.1319 (0.0150) & 0.1310 (0.0162) \\
+20261008 & Mizo & Token\-isa\-tion & Zipf & 0.4981 (0.0416) & 0.1388 (0.0209) \\
+20261009 & English & Stemming & Uniform & 0.0654 (0.0098) & 0.0648 (0.0087) \\
+20261009 & English & Stemming & Zipf & 0.4384 (0.0369) & 0.0585 (0.0131) \\
+20261009 & English & Stopwords & Uniform & 0.0549 (0.0128) & 0.0582 (0.0117) \\
+20261009 & English & Stopwords & Zipf & 0.5006 (0.0186) & 0.0612 (0.0099) \\
+20261009 & English & Token\-isa\-tion & Uniform & 0.1309 (0.0131) & 0.1336 (0.0111) \\
+20261009 & English & Token\-isa\-tion & Zipf & 0.6033 (0.0245) & 0.1291 (0.0193) \\
+20261009 & Mizo & Stemming & Uniform & 0.0558 (0.0108) & 0.0574 (0.0118) \\
+20261009 & Mizo & Stemming & Zipf & 0.4614 (0.0697) & 0.0653 (0.0097) \\
+20261009 & Mizo & Stopwords & Uniform & 0.0443 (0.0094) & 0.0466 (0.0077) \\
+20261009 & Mizo & Stopwords & Zipf & 0.4308 (0.0335) & 0.0445 (0.0103) \\
+20261009 & Mizo & Token\-isa\-tion & Uniform & 0.0993 (0.0185) & 0.0992 (0.0170) \\
+20261009 & Mizo & Token\-isa\-tion & Zipf & 0.4608 (0.0080) & 0.1255 (0.0101) \\
+20261017 & English & Stemming & Uniform & 0.0653 (0.0082) & 0.0650 (0.0070) \\
+20261017 & English & Stemming & Zipf & 0.5130 (0.0255) & 0.0754 (0.0167) \\
+20261017 & English & Stopwords & Uniform & 0.0517 (0.0100) & 0.0522 (0.0100) \\
+20261017 & English & Stopwords & Zipf & 0.4227 (0.0793) & 0.0542 (0.0098) \\
+20261017 & English & Token\-isa\-tion & Uniform & 0.1302 (0.0119) & 0.1306 (0.0125) \\
+20261017 & English & Token\-isa\-tion & Zipf & 0.5402 (0.1207) & 0.1497 (0.0179) \\
+20261017 & Mizo & Stemming & Uniform & 0.0581 (0.0093) & 0.0592 (0.0082) \\
+20261017 & Mizo & Stemming & Zipf & 0.4945 (0.0424) & 0.0702 (0.0082) \\
+20261017 & Mizo & Stopwords & Uniform & 0.0649 (0.0095) & 0.0644 (0.0084) \\
+20261017 & Mizo & Stopwords & Zipf & 0.5248 (0.0330) & 0.0688 (0.0089) \\
+20261017 & Mizo & Token\-isa\-tion & Uniform & 0.1356 (0.0134) & 0.1364 (0.0078) \\
+20261017 & Mizo & Token\-isa\-tion & Zipf & 0.6260 (0.0192) & 0.1450 (0.0083) \\
+20261018 & English & Stemming & Uniform & 0.0692 (0.0147) & 0.0684 (0.0144) \\
+20261018 & English & Stemming & Zipf & 0.5016 (0.0340) & 0.0832 (0.0147) \\
+20261018 & English & Stopwords & Uniform & 0.0625 (0.0170) & 0.0626 (0.0162) \\
+20261018 & English & Stopwords & Zipf & 0.4473 (0.0326) & 0.0627 (0.0173) \\
+20261018 & English & Token\-isa\-tion & Uniform & 0.1630 (0.0240) & 0.1628 (0.0218) \\
+20261018 & English & Token\-isa\-tion & Zipf & 0.6507 (0.0159) & 0.1768 (0.0218) \\
+20261018 & Mizo & Stemming & Uniform & 0.0704 (0.0100) & 0.0720 (0.0086) \\
+20261018 & Mizo & Stemming & Zipf & 0.3846 (0.0471) & 0.0793 (0.0161) \\
+20261018 & Mizo & Stopwords & Uniform & 0.0579 (0.0122) & 0.0590 (0.0108) \\
+20261018 & Mizo & Stopwords & Zipf & 0.5054 (0.0692) & 0.0738 (0.0110) \\
+20261018 & Mizo & Token\-isa\-tion & Uniform & 0.1098 (0.0167) & 0.1100 (0.0148) \\
+20261018 & Mizo & Token\-isa\-tion & Zipf & 0.5652 (0.0164) & 0.1195 (0.0177) \\
+20261019 & English & Stemming & Uniform & 0.0468 (0.0080) & 0.0468 (0.0087) \\
+20261019 & English & Stemming & Zipf & 0.4414 (0.0405) & 0.0583 (0.0113) \\
+20261019 & English & Stopwords & Uniform & 0.0659 (0.0192) & 0.0654 (0.0180) \\
+20261019 & English & Stopwords & Zipf & 0.4998 (0.0390) & 0.0651 (0.0173) \\
+20261019 & English & Token\-isa\-tion & Uniform & 0.1696 (0.0112) & 0.1722 (0.0087) \\
+20261019 & English & Token\-isa\-tion & Zipf & 0.6927 (0.0216) & 0.1907 (0.0242) \\
+20261019 & Mizo & Stemming & Uniform & 0.0732 (0.0131) & 0.0740 (0.0134) \\
+20261019 & Mizo & Stemming & Zipf & 0.5477 (0.0277) & 0.0834 (0.0128) \\
+20261019 & Mizo & Stopwords & Uniform & 0.0541 (0.0062) & 0.0564 (0.0062) \\
+20261019 & Mizo & Stopwords & Zipf & 0.5040 (0.0282) & 0.0609 (0.0076) \\
+20261019 & Mizo & Token\-isa\-tion & Uniform & 0.1222 (0.0242) & 0.1230 (0.0232) \\
+20261019 & Mizo & Token\-isa\-tion & Zipf & 0.6268 (0.0136) & 0.1360 (0.0121) \\
+\botrule\end{longtable}
+\begin{longtable}{@{}>{\RaggedRight\arraybackslash}p{\dimexpr 0.15385\dimexpr \dimexpr\linewidth-10\tabcolsep\relax\relax\relax}>{\RaggedRight\arraybackslash}p{\dimexpr 0.15385\dimexpr \dimexpr\linewidth-10\tabcolsep\relax\relax\relax}>{\RaggedRight\arraybackslash}p{\dimexpr 0.15385\dimexpr \dimexpr\linewidth-10\tabcolsep\relax\relax\relax}>{\RaggedRight\arraybackslash}p{\dimexpr 0.15385\dimexpr \dimexpr\linewidth-10\tabcolsep\relax\relax\relax}>{\RaggedRight\arraybackslash}p{\dimexpr 0.23077\dimexpr \dimexpr\linewidth-10\tabcolsep\relax\relax\relax}>{\RaggedRight\arraybackslash}p{\dimexpr 0.15385\dimexpr \dimexpr\linewidth-10\tabcolsep\relax\relax\relax}@{}}
+\caption{Exploratory original-partition contrasts with extended attack seeds.}\label{tab:supp:17}\\
+\toprule
+Contrast & Queries & Metric & Difference & 95\% CI & Holm $p$ \\
+\midrule\endfirsthead
+\toprule
+Contrast & Queries & Metric & Difference & 95\% CI & Holm $p$ \\
+\midrule\endhead
+Mizo minus English Token\-isa\-tion & Uniform & Weighted & -0.0152 & [-0.0244, -0.0061] & 0.00826836 \\
+Mizo minus English Token\-isa\-tion & Uniform & Macro & -0.0137 & [-0.0221, -0.0053] & 0.00826836 \\
+Mizo minus English Token\-isa\-tion & Zipf & Weighted & -0.0463 & [-0.0690, -0.0236] & 0.00513840 \\
+Mizo minus English Token\-isa\-tion & Zipf & Macro & -0.0370 & [-0.0498, -0.0242] & 0.00044250 \\
+Mizo minus English Stopwords & Uniform & Weighted & 0.0132 & [0.0055, 0.0209] & 0.00778198 \\
+Mizo minus English Stopwords & Uniform & Macro & 0.0137 & [0.0060, 0.0214] & 0.00778198 \\
+Mizo minus English Stopwords & Zipf & Weighted & 0.0722 & [0.0480, 0.0965] & 0.00006866 \\
+Mizo minus English Stopwords & Zipf & Macro & 0.0129 & [0.0043, 0.0215] & 0.00826836 \\
+Mizo minus English Stemming & Uniform & Weighted & 0.0173 & [0.0107, 0.0240] & 0.00003815 \\
+Mizo minus English Stemming & Uniform & Macro & 0.0186 & [0.0121, 0.0251] & 0.00002289 \\
+Mizo minus English Stemming & Zipf & Weighted & 0.1162 & [0.0851, 0.1473] & 0.00002289 \\
+Mizo minus English Stemming & Zipf & Macro & 0.0173 & [0.0103, 0.0244] & 0.00044250 \\
+English Stopwords minus Token\-isa\-tion & Uniform & Weighted & -0.0829 & [-0.0921, -0.0737] & 0.00004578 \\
+English Stopwords minus Token\-isa\-tion & Uniform & Macro & -0.0824 & [-0.0916, -0.0733] & 0.00004578 \\
+English Stopwords minus Token\-isa\-tion & Zipf & Weighted & -0.1411 & [-0.1658, -0.1163] & 0.00004959 \\
+English Stopwords minus Token\-isa\-tion & Zipf & Macro & -0.0797 & [-0.0887, -0.0708] & 0.00004578 \\
+English Stemming minus Token\-isa\-tion & Uniform & Weighted & -0.0856 & [-0.0949, -0.0763] & 0.00004578 \\
+English Stemming minus Token\-isa\-tion & Uniform & Macro & -0.0858 & [-0.0946, -0.0770] & 0.00004578 \\
+English Stemming minus Token\-isa\-tion & Zipf & Weighted & -0.1949 & [-0.2306, -0.1591] & 0.00004578 \\
+English Stemming minus Token\-isa\-tion & Zipf & Macro & -0.0841 & [-0.0928, -0.0755] & 0.00004578 \\
+English Stemming minus Stopwords & Uniform & Weighted & -0.0027 & [-0.0098, 0.0045] & 1.00000000 \\
+English Stemming minus Stopwords & Uniform & Macro & -0.0034 & [-0.0109, 0.0041] & 1.00000000 \\
+English Stemming minus Stopwords & Zipf & Weighted & -0.0538 & [-0.0867, -0.0209] & 0.02556038 \\
+English Stemming minus Stopwords & Zipf & Macro & -0.0044 & [-0.0100, 0.0012] & 0.79350281 \\
+Mizo Stopwords minus Token\-isa\-tion & Uniform & Weighted & -0.0544 & [-0.0627, -0.0462] & 0.00004578 \\
+Mizo Stopwords minus Token\-isa\-tion & Uniform & Macro & -0.0550 & [-0.0633, -0.0467] & 0.00004578 \\
+Mizo Stopwords minus Token\-isa\-tion & Zipf & Weighted & -0.0225 & [-0.0449, -0.0002] & 0.39921570 \\
+Mizo Stopwords minus Token\-isa\-tion & Zipf & Macro & -0.0298 & [-0.0417, -0.0180] & 0.00146866 \\
+Mizo Stemming minus Token\-isa\-tion & Uniform & Weighted & -0.0530 & [-0.0605, -0.0456] & 0.00004578 \\
+Mizo Stemming minus Token\-isa\-tion & Uniform & Macro & -0.0535 & [-0.0607, -0.0463] & 0.00004578 \\
+Mizo Stemming minus Token\-isa\-tion & Zipf & Weighted & -0.0324 & [-0.0480, -0.0167] & 0.00597000 \\
+Mizo Stemming minus Token\-isa\-tion & Zipf & Macro & -0.0298 & [-0.0413, -0.0183] & 0.00068665 \\
+Mizo Stemming minus Stopwords & Uniform & Weighted & 0.0014 & [-0.0045, 0.0074] & 1.00000000 \\
+Mizo Stemming minus Stopwords & Uniform & Macro & 0.0015 & [-0.0039, 0.0069] & 1.00000000 \\
+Mizo Stemming minus Stopwords & Zipf & Weighted & -0.0099 & [-0.0292, 0.0095] & 1.00000000 \\
+Mizo Stemming minus Stopwords & Zipf & Macro & 0.0000 & [-0.0084, 0.0085] & 1.00000000 \\
+\botrule\end{longtable}
+Confidence intervals were unadjusted. Exploratory language and preprocessing comparisons were adjusted within separate families. The original confirmatory comparisons were preserved.
+\begin{longtable}{@{}>{\RaggedRight\arraybackslash}p{\dimexpr 0.16667\dimexpr \dimexpr\linewidth-10\tabcolsep\relax\relax\relax}>{\RaggedRight\arraybackslash}p{\dimexpr 0.16667\dimexpr \dimexpr\linewidth-10\tabcolsep\relax\relax\relax}>{\RaggedRight\arraybackslash}p{\dimexpr 0.16667\dimexpr \dimexpr\linewidth-10\tabcolsep\relax\relax\relax}>{\RaggedRight\arraybackslash}p{\dimexpr 0.16667\dimexpr \dimexpr\linewidth-10\tabcolsep\relax\relax\relax}>{\RaggedRight\arraybackslash}p{\dimexpr 0.16667\dimexpr \dimexpr\linewidth-10\tabcolsep\relax\relax\relax}>{\RaggedRight\arraybackslash}p{\dimexpr 0.16667\dimexpr \dimexpr\linewidth-10\tabcolsep\relax\relax\relax}@{}}
+\caption{Recovery with auxiliary-only candidate selection and auxiliary-source controls.}\label{tab:supp:18}\\
+\toprule
+Control & Language & Condition or source & Queries & Weighted (SD) & Macro (SD) \\
+\midrule\endfirsthead
+\toprule
+Control & Language & Condition or source & Queries & Weighted (SD) & Macro (SD) \\
+\midrule\endhead
+auxiliary only & English & Stemming & Uniform & 0.0524 (0.0147) & 0.0524 (0.0137) \\
+auxiliary only & English & Stemming & Zipf & 0.3604 (0.0518) & 0.0538 (0.0119) \\
+auxiliary only & English & Stopwords & Uniform & 0.0540 (0.0098) & 0.0546 (0.0105) \\
+auxiliary only & English & Stopwords & Zipf & 0.4437 (0.0686) & 0.0657 (0.0117) \\
+auxiliary only & English & Token\-isa\-tion & Uniform & 0.1449 (0.0193) & 0.1448 (0.0195) \\
+auxiliary only & English & Token\-isa\-tion & Zipf & 0.5538 (0.0959) & 0.1366 (0.0202) \\
+auxiliary only & Mizo & Stemming & Uniform & 0.0777 (0.0136) & 0.0772 (0.0111) \\
+auxiliary only & Mizo & Stemming & Zipf & 0.5367 (0.0218) & 0.0825 (0.0150) \\
+auxiliary only & Mizo & Stopwords & Uniform & 0.0621 (0.0078) & 0.0620 (0.0079) \\
+auxiliary only & Mizo & Stopwords & Zipf & 0.5232 (0.0469) & 0.0733 (0.0170) \\
+auxiliary only & Mizo & Token\-isa\-tion & Uniform & 0.1270 (0.0190) & 0.1270 (0.0197) \\
+auxiliary only & Mizo & Token\-isa\-tion & Zipf & 0.5588 (0.0272) & 0.1070 (0.0244) \\
+auxiliary shift & English & flores200 & Uniform & 0.0091 (0.0040) & 0.0094 (0.0043) \\
+auxiliary shift & English & flores200 & Zipf & 0.1573 (0.1199) & 0.0089 (0.0038) \\
+auxiliary shift & English & wmt23 & Uniform & 0.0233 (0.0079) & 0.0246 (0.0085) \\
+auxiliary shift & English & wmt23 & Zipf & 0.1232 (0.0242) & 0.0296 (0.0065) \\
+auxiliary shift & Mizo & flores200 & Uniform & 0.0034 (0.0015) & 0.0032 (0.0014) \\
+auxiliary shift & Mizo & flores200 & Zipf & 0.0050 (0.0093) & 0.0037 (0.0027) \\
+auxiliary shift & Mizo & wmt23 & Uniform & 0.0271 (0.0084) & 0.0274 (0.0072) \\
+auxiliary shift & Mizo & wmt23 & Zipf & 0.1545 (0.0164) & 0.0242 (0.0058) \\
+\botrule\end{longtable}
+Within-collection candidates were selected only from auxiliary frequencies. Auxiliary-source comparisons used equal auxiliary counts, a shared candidate universe selected from both auxiliary sources, and identical WMT23 client documents. Candidates absent from client documents were retained.
+\begin{longtable}{@{}>{\RaggedRight\arraybackslash}p{\dimexpr 0.14286\dimexpr \dimexpr\linewidth-12\tabcolsep\relax\relax\relax}>{\RaggedRight\arraybackslash}p{\dimexpr 0.14286\dimexpr \dimexpr\linewidth-12\tabcolsep\relax\relax\relax}>{\RaggedRight\arraybackslash}p{\dimexpr 0.14286\dimexpr \dimexpr\linewidth-12\tabcolsep\relax\relax\relax}>{\RaggedRight\arraybackslash}p{\dimexpr 0.14286\dimexpr \dimexpr\linewidth-12\tabcolsep\relax\relax\relax}>{\RaggedRight\arraybackslash}p{\dimexpr 0.14286\dimexpr \dimexpr\linewidth-12\tabcolsep\relax\relax\relax}>{\RaggedRight\arraybackslash}p{\dimexpr 0.14286\dimexpr \dimexpr\linewidth-12\tabcolsep\relax\relax\relax}>{\RaggedRight\arraybackslash}p{\dimexpr 0.14286\dimexpr \dimexpr\linewidth-12\tabcolsep\relax\relax\relax}@{}}
+\caption{Production-scale likelihood, assignment-objective and checkpoint-score checks.}\label{tab:supp:19}\\
+\toprule
+Language & Condition & Queries & Runs & Updates & Maximum relative cost error & Maximum score difference \\
+\midrule\endfirsthead
+\toprule
+Language & Condition & Queries & Runs & Updates & Maximum relative cost error & Maximum score difference \\
+\midrule\endhead
+English & Stemming & Uniform & 10 & 10010 & 3.058e-15 & 0.000e+00 \\
+English & Stemming & Zipf & 10 & 10010 & 2.876e-15 & 0.000e+00 \\
+English & Stopwords & Uniform & 10 & 10010 & 3.028e-15 & 0.000e+00 \\
+English & Stopwords & Zipf & 10 & 10010 & 2.861e-15 & 0.000e+00 \\
+English & Token\-isa\-tion & Uniform & 10 & 10010 & 2.626e-15 & 0.000e+00 \\
+English & Token\-isa\-tion & Zipf & 10 & 10010 & 2.569e-15 & 0.000e+00 \\
+Mizo & Stemming & Uniform & 10 & 10010 & 2.683e-15 & 0.000e+00 \\
+Mizo & Stemming & Zipf & 10 & 10010 & 2.620e-15 & 0.000e+00 \\
+Mizo & Stopwords & Uniform & 10 & 10010 & 2.997e-15 & 0.000e+00 \\
+Mizo & Stopwords & Zipf & 10 & 10010 & 2.616e-15 & 0.000e+00 \\
+Mizo & Token\-isa\-tion & Uniform & 10 & 10010 & 2.571e-15 & 0.000e+00 \\
+Mizo & Token\-isa\-tion & Zipf & 10 & 10010 & 2.513e-15 & 0.000e+00 \\
+\botrule\end{longtable}
+Independent likelihood and assignment-objective checks on every original production run. Recovery scores were compared at every original checkpoint. The SciPy assignment library was shared. Independent trajectory identity was not required.
+\begin{longtable}{@{}>{\RaggedRight\arraybackslash}p{\dimexpr 0.20000\dimexpr \dimexpr\linewidth-8\tabcolsep\relax\relax\relax}>{\RaggedRight\arraybackslash}p{\dimexpr 0.20000\dimexpr \dimexpr\linewidth-8\tabcolsep\relax\relax\relax}>{\RaggedRight\arraybackslash}p{\dimexpr 0.20000\dimexpr \dimexpr\linewidth-8\tabcolsep\relax\relax\relax}>{\RaggedRight\arraybackslash}p{\dimexpr 0.20000\dimexpr \dimexpr\linewidth-8\tabcolsep\relax\relax\relax}>{\RaggedRight\arraybackslash}p{\dimexpr 0.20000\dimexpr \dimexpr\linewidth-8\tabcolsep\relax\relax\relax}@{}}
+\caption{Separate volume-only trajectory recovery on the first original attack seed.}\label{tab:supp:20}\\
+\toprule
+Language & Condition & Queries & Weighted & Macro \\
+\midrule\endfirsthead
+\toprule
+Language & Condition & Queries & Weighted & Macro \\
+\midrule\endhead
+English & Stemming & Uniform & 0.0432 & 0.0480 \\
+English & Stemming & Zipf & 0.4380 & 0.0721 \\
+English & Stopwords & Uniform & 0.0572 & 0.0600 \\
+English & Stopwords & Zipf & 0.4356 & 0.0524 \\
+English & Token\-isa\-tion & Uniform & 0.1330 & 0.1360 \\
+English & Token\-isa\-tion & Zipf & 0.6070 & 0.1223 \\
+Mizo & Stemming & Uniform & 0.0696 & 0.0700 \\
+Mizo & Stemming & Zipf & 0.5466 & 0.0939 \\
+Mizo & Stopwords & Uniform & 0.0466 & 0.0500 \\
+Mizo & Stopwords & Zipf & 0.4998 & 0.0786 \\
+Mizo & Token\-isa\-tion & Uniform & 0.0876 & 0.0840 \\
+Mizo & Token\-isa\-tion & Zipf & 0.5904 & 0.1157 \\
+\botrule\end{longtable}
+The separate implementation used a shared SciPy assignment routine. Likelihood arithmetic differed. Different equal-objective assignments were permitted. Recovery scores described the resulting trajectories.
+\begin{longtable}{@{}>{\RaggedRight\arraybackslash}p{\dimexpr 0.16667\dimexpr \dimexpr\linewidth-10\tabcolsep\relax\relax\relax}>{\RaggedRight\arraybackslash}p{\dimexpr 0.16667\dimexpr \dimexpr\linewidth-10\tabcolsep\relax\relax\relax}>{\RaggedRight\arraybackslash}p{\dimexpr 0.16667\dimexpr \dimexpr\linewidth-10\tabcolsep\relax\relax\relax}>{\RaggedRight\arraybackslash}p{\dimexpr 0.16667\dimexpr \dimexpr\linewidth-10\tabcolsep\relax\relax\relax}>{\RaggedRight\arraybackslash}p{\dimexpr 0.16667\dimexpr \dimexpr\linewidth-10\tabcolsep\relax\relax\relax}>{\RaggedRight\arraybackslash}p{\dimexpr 0.16667\dimexpr \dimexpr\linewidth-10\tabcolsep\relax\relax\relax}@{}}
+\caption{Expanded controlled-candidate and shuffled-rank recovery means with sample standard deviations.}\label{tab:supp:21}\\
+\toprule
+Control & Language & Condition & Queries & Weighted (SD) & Macro (SD) \\
+\midrule\endfirsthead
+\toprule
+Control & Language & Condition & Queries & Weighted (SD) & Macro (SD) \\
+\midrule\endhead
+controlled & English & Stemming & Uniform & 0.1454 (0.0134) & 0.1476 (0.0102) \\
+controlled & English & Stemming & Zipf & 0.5049 (0.0759) & 0.1248 (0.0343) \\
+controlled & English & Stopwords & Uniform & 0.1301 (0.0213) & 0.1324 (0.0186) \\
+controlled & English & Stopwords & Zipf & 0.5023 (0.0587) & 0.1096 (0.0266) \\
+controlled & Mizo & Stemming & Uniform & 0.1474 (0.0312) & 0.1480 (0.0298) \\
+controlled & Mizo & Stemming & Zipf & 0.6092 (0.0309) & 0.1568 (0.0238) \\
+controlled & Mizo & Stopwords & Uniform & 0.1563 (0.0208) & 0.1524 (0.0171) \\
+controlled & Mizo & Stopwords & Zipf & 0.6100 (0.0420) & 0.1491 (0.0213) \\
+shuffled & English & Stemming & Zipf & 0.0215 (0.0124) & 0.0409 (0.0134) \\
+shuffled & English & Stopwords & Zipf & 0.0165 (0.0056) & 0.0346 (0.0075) \\
+shuffled & English & Token\-isa\-tion & Zipf & 0.0659 (0.0320) & 0.0948 (0.0140) \\
+shuffled & Mizo & Stemming & Zipf & 0.0542 (0.0414) & 0.0667 (0.0126) \\
+shuffled & Mizo & Stopwords & Zipf & 0.0505 (0.0339) & 0.0573 (0.0126) \\
+shuffled & Mizo & Token\-isa\-tion & Zipf & 0.0829 (0.0430) & 0.0817 (0.0201) \\
+\botrule\end{longtable}
 \section*{Provenance}
 SHA-256 identifiers for the source results and configurations were recorded below. Source text was excluded.
-\noindent\texttt{results/corpus/production-recovery-analysis.json}\\
-\texttt{48c80b7b5b8989ffc5e4c9d98568a6f098fe58036ceddb2db5f0a0c143574af4}\par
-\noindent\texttt{results/corpus/export-structure-analysis.json}\\
-\texttt{1e886edfd784588954290c1c3e8a666751448023926b5964b2b4e218011353e7}\par
-\noindent\texttt{results/corpus/length-balanced-comparison.json}\\
-\texttt{12e63c0efad07d13ac175f28f04cb2637a016a09bb9a88487296890656a50e8c}\par
-\noindent\texttt{results/corpus/flores200-wmt23-matched-comparison.json}\\
-\texttt{8d744a69431624aeca4c81cfde92211e68b5e373a49522566da8fc01cc5f21d7}\par
-\noindent\texttt{results/corpus/keyword-size-sensitivity-comparison.json}\\
-\texttt{fca391f7f9c1ee2928c54f934fe144a43cf0df065f6083fc0f487cf8eec65eef}\par
-\noindent\texttt{results/corpus/reviewer-sensitivity/diagnostics.json}\\
-\texttt{2060fbfbd9497decf068ae961d95ac145b89ff09775bbdddbbbedb729749014b}\par
-\noindent\texttt{results/corpus/reviewer-sensitivity/controlled-keywords.json}\\
-\texttt{3cb5d0e1394cf0fa6005a6cc49841c751a732a678b0df0eb033ab9cb28a48131}\par
-\noindent\texttt{results/corpus/reviewer-sensitivity/analysis.json}\\
-\texttt{0e887e3ed8f286d16ab5b3ce208cd88dbbe62299dead20ba58cd826d3a717793}\par
-\noindent\texttt{results/corpus/reviewer-sensitivity/uncertainty.json}\\
-\texttt{7c7c91db346b07c8bac34f8edf06b23d9e1c601dddb42995c089132eb36e4052}\par
-\noindent\texttt{results/corpus/reviewer-sensitivity/real-assignment-check.json}\\
-\texttt{f27c50a16e673913837001b73cc1a7d0db6e0e6eb7d8da76f49d3c1261f4f9c6}\par
-\noindent\texttt{results/corpus/reviewer-sensitivity/iterative-check.json}\\
-\texttt{e7113bdcbc38b199f4eef59c71f5c9bb5c2f103847c4b8ffea7ed92359c1ad38}\par
-\noindent\texttt{results/corpus/flores200-length-balanced-experiments.json}\\
-\texttt{7026d083bba3061151df41ec51976d363813b79be2180a8248ba7557b40378d7}\par
-\noindent\texttt{results/corpus/wmt23-length-balanced-experiments.json}\\
-\texttt{4ae672f1a84250270e2406b11fd8c5795b63541be3bd27111e8d0fa44350a699}\par
-\noindent\texttt{results/corpus/reviewer-sensitivity/checkpoint.json}\\
-\texttt{37ebf9375971ae99cdc02c4934876e2c540cb242db78dc0a54327a683ce83696}\par
-\noindent\texttt{configs/reviewer\_sensitivity.json}\\
-\texttt{41f05c4f56a3d7ead81b27ece5c18fa1c535ae3556a1552ab33dd7d03996e7f6}\par
-\noindent\texttt{configs/corpus\_split\_production.json}\\
-\texttt{69179af9e8ee0dd55f42cae59205856f112a507d428a2e82f893f1a632ed6c96}\par
-\noindent\texttt{configs/wmt23\_flores200\_matched\_control.json}\\
-\texttt{d974ad88bc0cd328f5565fe8d0312d13886e809a61a386bf7d4f6b1a838b0a1e}\par
-\noindent\texttt{configs/length\_balanced\_control.json}\\
-\texttt{98340fa0edd519ab7af31507a54773eebddcbf885b9dbd3bd88a6578e2cf685e}\par
-\noindent\texttt{results/unified/enron-ablation-summary.json}\\
-\texttt{045039991ca4ca3b59359eaf39723d3e13e3372eb936c868cdeea49fbf2e8d95}\par
-\noindent\texttt{results/ihop\_enron\_baseline/aggregate.json}\\
-\texttt{c62caf808e467910e1b07ad88e69225dad345b5ea6c25256850f23760e0dcbb6}\par
-\noindent\texttt{results/ihop-enron-volume-seed0-py39-hash0.json}\\
-\texttt{9307953cab1823bb0724f22907eb0330d6ce28be2c25a52fdff679efa2c46ad4}\par
-\noindent\texttt{results/corpus/stemmer-execution-evaluation.json}\\
-\texttt{dc3dbef349c168d67df82e9fb7ad5922d4f454f6524fe5738b65de3afd7dcdea}\par
-\noindent\texttt{results/corpus/linguistic-decisions.json}\\
-\texttt{bb389ff1d0b4ae39d6ad1923c660c222d8fb43309f74fa5accae6d106c11cafc}\par
-\noindent\texttt{configs/mizo\_stemmer\_execution.json}\\
-\texttt{81297999dbe501ad0853ec7f1fa2d15fd7769befaae2c15cb70b7c97ebf46d9d}\par
-\noindent\texttt{results/corpus/clarified-recovery-reuse.json}\\
-\texttt{0861494a0adbd7ad224ef5b23fde5b8fc5061b581bd8ba1dc09a011de4b1695a}\par
-\noindent\texttt{results/corpus/ihop/manifest.json}\\
-\texttt{2501dc7032e29518983c27206a5f95c6d0286b01293ec2301becdfee1854e1fb}\par
-\noindent\texttt{results/corpus/returned-linguistic-review-audit.json}\\
-\texttt{224002128bcfde331a85eab6678582cada5de8ec8f37a782fee8909b40fb0bba}\par
-\noindent\texttt{results/corpus/wmt23-audit.json}\\
-\texttt{bdcefa999503c2780c1b6717f78082bbba5cd7d26ca811bfe8bb181f2b8b0c2a}\par
-\noindent\texttt{configs/wmt23\_indicnecorp.json}\\
-\texttt{df35b785e7d8f1a991dd3c8f86ad138267be06916773068e7df456fd72566b39}\par
-\noindent\texttt{results/corpus/production-fixed-split-experiments.json}\\
-\texttt{116191373d4cc4b943ee953892c0716db059bc52ef09b76691fc5b2783143a27}\par
-\noindent\texttt{results/corpus/production-independent-replay.json}\\
-\texttt{116191373d4cc4b943ee953892c0716db059bc52ef09b76691fc5b2783143a27}\par
-\noindent\texttt{configs/tokenisation\_only.json}\\
-\texttt{e425188a9593935d1d40a33c018dd78e44cc076dd41b7d6322b52113e3757c97}\par
-\noindent\texttt{resources/stemmers/lus-production.reviewed.json}\\
-\texttt{48e4ca072609f68057a917574bfde11cb7d65afc3b36f31a23fc8bf893a00bd8}\par
-\noindent\texttt{configs/keyword\_size\_sweep.json}\\
-\texttt{41c6599ef1892206afa5d343e0d21c8b167976600f45a278b1f21a7a2409278c}\par
-\noindent\texttt{configs/access\_collision\_sweep.json}\\
-\texttt{f0c0b1b3164e58d293cb94cebe30870b26911e572bf361c62707814fabe02d04}\par
-\noindent\texttt{configs/access\_similarity\_sweep.json}\\
-\texttt{a9eaccb28f580d7c3dbe873abbfaa7e43c090315d2b7c04fd4eba822bc18c119}\par
-\noindent\texttt{configs/frequency\_ambiguity\_sweep.json}\\
-\texttt{f66274fb9a415b4a3ec658c7bd3dafb19985d65f478c121952ff7df6e67f9d05}\par
-\noindent\texttt{configs/cooccurrence\_similarity\_sweep.json}\\
-\texttt{8fae3c5e5f320f2ed618ac6c9695c09c48856ec8a92b83d6b062051a205f4d2f}\par
-\noindent\texttt{configs/sparsity\_sweep.json}\\
-\texttt{5865bc5f67347c9a73378e46a693584a3f410057b4d03db6b08e8b8de85c6d40}\par
-\noindent\texttt{requirements-2022.lock}\\
-\texttt{7ccf3097301a75953ab3df8747f015e636b63b1c9ee3414f32d4355cb7fa6fd4}\par
-\noindent\texttt{results/corpus/flores200-ihop/manifest.json}\\
-\texttt{d0b53ce50788b368c87c9ed4ec8b24635535aad5460b56eb442fe0442b41fe3b}\par
-\noindent\texttt{results/corpus/flores200-length-balanced-ihop/manifest.json}\\
-\texttt{8b7c5b32bdd30de681859471a2b43e4c9eabfd2858bbc96246befdcf0f1f0895}\par
-\noindent\texttt{paper/submission-information.json}\\
-\texttt{047a0eba72a6d11a5eb1c08a059f4ff945b26319526f8ffe7b09cd5cf9bcf851}\par
-\noindent\texttt{scripts/manuscript\_template.tex}\\
-\texttt{8ca53911373cd0ee3d44ca01265e6ef9a586920ad898d2dce34b747cd20e9852}\par
-\noindent\texttt{resources/stopwords/en-production.reviewed.json}\\
-\texttt{00768fb4395a0fcef706cbe467835c98ee84d08b0ffcb7b3d5140095ddc2aea1}\par
-\noindent\texttt{resources/stopwords/lus-production.reviewed.json}\\
-\texttt{9aed3661c67cfdaee6878ab7f9a197992458466928804fc1aafffe53c0a71582}\par
+\noindent\path{results/corpus/expanded-recovery/expanded-analysis.json}\\
+\texttt{dd2ee46b\allowbreak{}522ee5e8\allowbreak{}7833dd74\allowbreak{}8c10087d\allowbreak{}b30c75df\allowbreak{}0764f5a8\allowbreak{}49b94d7e\allowbreak{}92c220e8}\par
+\noindent\path{results/corpus/expanded-recovery/extended-statistics.json}\\
+\texttt{e0568c0b\allowbreak{}de913a02\allowbreak{}80ecd5e5\allowbreak{}d8dc5c84\allowbreak{}fe973211\allowbreak{}0cbde643\allowbreak{}5effd5cb\allowbreak{}2701bf69}\par
+\noindent\path{results/corpus/expanded-recovery/independent-comparison.json}\\
+\texttt{12f35426\allowbreak{}441248ba\allowbreak{}9f731eae\allowbreak{}0d01cedf\allowbreak{}d680d6d1\allowbreak{}61416cb7\allowbreak{}7a0d10de\allowbreak{}fca26fc1}\par
+\noindent\path{results/corpus/expanded-recovery/auxiliary-controls.json}\\
+\texttt{7137c106\allowbreak{}875d0801\allowbreak{}c08aad57\allowbreak{}19df9d68\allowbreak{}577271d9\allowbreak{}ea6d024f\allowbreak{}65aba7bd\allowbreak{}5795ebf0}\par
+\noindent\path{results/corpus/expanded-recovery/status.json}\\
+\texttt{ffba02b3\allowbreak{}c950670e\allowbreak{}1cfdefdd\allowbreak{}c8d1ba50\allowbreak{}ae54af70\allowbreak{}49f6b834\allowbreak{}cb061ea9\allowbreak{}c67923ef}\par
+\noindent\path{results/corpus/expanded-recovery/manifest.json}\\
+\texttt{dba826ee\allowbreak{}78fd9e2a\allowbreak{}5194b104\allowbreak{}d17900a6\allowbreak{}fb5ba08e\allowbreak{}0eafc738\allowbreak{}6b5f4fd3\allowbreak{}1cbc066b}\par
+\noindent\path{results/corpus/expanded-recovery/checkpoint.json}\\
+\texttt{6ee11588\allowbreak{}abee6acd\allowbreak{}44800fe7\allowbreak{}0a8fe01d\allowbreak{}95fd2bda\allowbreak{}d93fb4f1\allowbreak{}000736ea\allowbreak{}64f4e96f}\par
+\noindent\path{results/corpus/expanded-recovery/summary-format-provenance.json}\\
+\texttt{80198c47\allowbreak{}9631b380\allowbreak{}84aceaa9\allowbreak{}56d62cbc\allowbreak{}2bd2f690\allowbreak{}33728289\allowbreak{}5f7b0520\allowbreak{}de9ef351}\par
+\noindent\path{results/corpus/expanded-recovery/figure-data.json}\\
+\texttt{4311d382\allowbreak{}1bcdc0a4\allowbreak{}11343783\allowbreak{}8d2b1a7c\allowbreak{}846abc0b\allowbreak{}317b24e2\allowbreak{}d4151908\allowbreak{}07296a7f}\par
+\noindent\path{configs/expanded_recovery.json}\\
+\texttt{7ffab939\allowbreak{}b241f5c1\allowbreak{}cd7d244e\allowbreak{}4e278207\allowbreak{}d465f2a0\allowbreak{}93355fdd\allowbreak{}74987df0\allowbreak{}feae0998}\par
+\noindent\path{scripts/expanded_manuscript.py}\\
+\texttt{fc02252d\allowbreak{}e7498bfa\allowbreak{}05f99820\allowbreak{}26bc4da6\allowbreak{}f2e93d49\allowbreak{}fa18e138\allowbreak{}cc4a7bc4\allowbreak{}0825337d}\par
+\noindent\path{scripts/expanded_statistics.py}\\
+\texttt{7dbf650b\allowbreak{}aefb481f\allowbreak{}b7cf7c5f\allowbreak{}955ac97a\allowbreak{}38089f7a\allowbreak{}cf2a7d80\allowbreak{}6edbec2f\allowbreak{}7ac786ed}\par
+\noindent\path{scripts/independent_ihop.py}\\
+\texttt{86e694fb\allowbreak{}f486c1ec\allowbreak{}e83bc4f4\allowbreak{}1f58dbf9\allowbreak{}c8b6b51e\allowbreak{}72ac9e7d\allowbreak{}5213b7e8\allowbreak{}2b8e36e0}\par
+\noindent\path{scripts/audit_production_ihop.py}\\
+\texttt{97a5f6b2\allowbreak{}03e8794b\allowbreak{}804eddea\allowbreak{}0b86ae09\allowbreak{}e864a529\allowbreak{}892fe9d7\allowbreak{}b879f11d\allowbreak{}78aead9d}\par
+\noindent\path{scripts/auxiliary_controls.py}\\
+\texttt{ad7e2d83\allowbreak{}bfa779b2\allowbreak{}256f3c7b\allowbreak{}3e0082ab\allowbreak{}b76ebcc7\allowbreak{}5e0ba367\allowbreak{}f788d897\allowbreak{}b67f700f}\par
+\noindent\path{scripts/expanded_partition_figure.py}\\
+\texttt{9a1df3ed\allowbreak{}61f02359\allowbreak{}3f906c85\allowbreak{}fa8f836d\allowbreak{}5c19d04d\allowbreak{}176072ea\allowbreak{}a76f7b4b\allowbreak{}8821e042}\par
+\noindent\path{results/corpus/production-recovery-analysis.json}\\
+\texttt{48c80b7b\allowbreak{}5b8989ff\allowbreak{}c5e4c9d9\allowbreak{}8568a6f0\allowbreak{}98fe5803\allowbreak{}6ceddb2d\allowbreak{}b5f0a0c1\allowbreak{}43574af4}\par
+\noindent\path{results/corpus/export-structure-analysis.json}\\
+\texttt{1e886edf\allowbreak{}d7845889\allowbreak{}54290c1c\allowbreak{}3e8a6667\allowbreak{}51448023\allowbreak{}926b5964\allowbreak{}b2b4e218\allowbreak{}011353e7}\par
+\noindent\path{results/corpus/length-balanced-comparison.json}\\
+\texttt{12e63c0e\allowbreak{}fad07d13\allowbreak{}ac175f28\allowbreak{}f04cb263\allowbreak{}7a016a09\allowbreak{}bb9a8848\allowbreak{}72968906\allowbreak{}56a50e8c}\par
+\noindent\path{results/corpus/flores200-wmt23-matched-comparison.json}\\
+\texttt{8d744a69\allowbreak{}431624ae\allowbreak{}ca4c81cf\allowbreak{}de92211e\allowbreak{}68b5e373\allowbreak{}a4952256\allowbreak{}6da8fc01\allowbreak{}cc5f21d7}\par
+\noindent\path{results/corpus/keyword-size-sensitivity-comparison.json}\\
+\texttt{fca391f7\allowbreak{}f9c1ee29\allowbreak{}28c54f93\allowbreak{}4fe144a4\allowbreak{}3cf0df06\allowbreak{}5f6083fc\allowbreak{}0f487cf8\allowbreak{}eec65eef}\par
+\noindent\path{results/corpus/reviewer-sensitivity/diagnostics.json}\\
+\texttt{2060fbfb\allowbreak{}d9497dec\allowbreak{}f068ae96\allowbreak{}1d95ac14\allowbreak{}5b89ff09\allowbreak{}775bbddd\allowbreak{}bbbedb72\allowbreak{}9749014b}\par
+\noindent\path{results/corpus/reviewer-sensitivity/controlled-keywords.json}\\
+\texttt{3cb5d0e1\allowbreak{}394cf0fa\allowbreak{}6005a6cc\allowbreak{}49841c75\allowbreak{}1a732a67\allowbreak{}8b0df0eb\allowbreak{}033ab9cb\allowbreak{}28a48131}\par
+\noindent\path{results/corpus/reviewer-sensitivity/analysis.json}\\
+\texttt{0e887e3e\allowbreak{}d8f286d1\allowbreak{}6ab5b3ce\allowbreak{}208cd88d\allowbreak{}bbe62299\allowbreak{}dead20ba\allowbreak{}58cd826d\allowbreak{}3a717793}\par
+\noindent\path{results/corpus/reviewer-sensitivity/uncertainty.json}\\
+\texttt{7c7c91db\allowbreak{}346b07c8\allowbreak{}bac34f8e\allowbreak{}df06b23d\allowbreak{}9e1c601d\allowbreak{}ddb42995\allowbreak{}c089132e\allowbreak{}b36e4052}\par
+\noindent\path{results/corpus/reviewer-sensitivity/real-assignment-check.json}\\
+\texttt{f27c50a1\allowbreak{}6e673913\allowbreak{}837001b7\allowbreak{}3cc1a7d0\allowbreak{}db6e0e6e\allowbreak{}b7d8da76\allowbreak{}f49d3c12\allowbreak{}61f4f9c6}\par
+\noindent\path{results/corpus/reviewer-sensitivity/iterative-check.json}\\
+\texttt{e7113bdc\allowbreak{}bc38b199\allowbreak{}f4eef59c\allowbreak{}71f5c9bb\allowbreak{}5c2f1038\allowbreak{}47c4b8ff\allowbreak{}ea7ed923\allowbreak{}59c1ad38}\par
+\noindent\path{results/corpus/flores200-length-balanced-experiments.json}\\
+\texttt{7026d083\allowbreak{}bba30611\allowbreak{}51df41ec\allowbreak{}51976d36\allowbreak{}3813b79b\allowbreak{}e2180a82\allowbreak{}48ba7557\allowbreak{}b40378d7}\par
+\noindent\path{results/corpus/wmt23-length-balanced-experiments.json}\\
+\texttt{4ae672f1\allowbreak{}a8425027\allowbreak{}0e2406b1\allowbreak{}1fd8c579\allowbreak{}5b63541b\allowbreak{}e3bd2711\allowbreak{}1e8d0fa4\allowbreak{}4350a699}\par
+\noindent\path{results/corpus/reviewer-sensitivity/checkpoint.json}\\
+\texttt{37ebf937\allowbreak{}5971ae99\allowbreak{}cdc02c49\allowbreak{}34876e2c\allowbreak{}540cb242\allowbreak{}db78dc0a\allowbreak{}54327a68\allowbreak{}3ce83696}\par
+\noindent\path{configs/reviewer_sensitivity.json}\\
+\texttt{41f05c4f\allowbreak{}56a3d7ea\allowbreak{}d81b27ec\allowbreak{}e5c18fa1\allowbreak{}c535ae35\allowbreak{}56a1552a\allowbreak{}b33dd7d0\allowbreak{}3996e7f6}\par
+\noindent\path{configs/corpus_split_production.json}\\
+\texttt{69179af9\allowbreak{}e8ee0dd5\allowbreak{}5f42cae5\allowbreak{}9205856f\allowbreak{}112a507d\allowbreak{}428a2e82\allowbreak{}f893f1a6\allowbreak{}32ed6c96}\par
+\noindent\path{configs/wmt23_flores200_matched_control.json}\\
+\texttt{d974ad88\allowbreak{}bc0cd328\allowbreak{}f5565fe8\allowbreak{}d0312d13\allowbreak{}886e809a\allowbreak{}61a386bf\allowbreak{}7d4f6b1a\allowbreak{}838b0a1e}\par
+\noindent\path{configs/length_balanced_control.json}\\
+\texttt{98340fa0\allowbreak{}edd519ab\allowbreak{}7af31507\allowbreak{}a54773ee\allowbreak{}bddcbf88\allowbreak{}5b9dbd3b\allowbreak{}d88a6578\allowbreak{}e2cf685e}\par
+\noindent\path{results/unified/enron-ablation-summary.json}\\
+\texttt{04503999\allowbreak{}1ca4ca3b\allowbreak{}59359eaf\allowbreak{}39723d3e\allowbreak{}13e3372e\allowbreak{}b936c868\allowbreak{}cdeea49f\allowbreak{}bf2e8d95}\par
+\noindent\path{results/ihop_enron_baseline/aggregate.json}\\
+\texttt{c62caf80\allowbreak{}8e467910\allowbreak{}e1b07ad8\allowbreak{}8e69225d\allowbreak{}ad345b5e\allowbreak{}a6c25256\allowbreak{}850f2376\allowbreak{}0e0dcbb6}\par
+\noindent\path{results/ihop-enron-volume-seed0-py39-hash0.json}\\
+\texttt{9307953c\allowbreak{}ab1823bb\allowbreak{}0724f229\allowbreak{}07eb0330\allowbreak{}d6ce28be\allowbreak{}2c25a52f\allowbreak{}dff679ef\allowbreak{}a2c46ad4}\par
+\noindent\path{results/corpus/stemmer-execution-evaluation.json}\\
+\texttt{dc3dbef3\allowbreak{}49c168d6\allowbreak{}7df82e9f\allowbreak{}b7ad5922\allowbreak{}d4f454f6\allowbreak{}524fe573\allowbreak{}8b65de3a\allowbreak{}fd7dcdea}\par
+\noindent\path{results/corpus/linguistic-decisions.json}\\
+\texttt{bb389ff1\allowbreak{}d0b4ae39\allowbreak{}d6ad1923\allowbreak{}c660c222\allowbreak{}d8fb4330\allowbreak{}9f74fa5a\allowbreak{}ccae6d10\allowbreak{}6c11cafc}\par
+\noindent\path{configs/mizo_stemmer_execution.json}\\
+\texttt{81297999\allowbreak{}dbe501ad\allowbreak{}0853ec7f\allowbreak{}1fa2d15f\allowbreak{}d7769bef\allowbreak{}aae2c15c\allowbreak{}b70b7c97\allowbreak{}ebf46d9d}\par
+\noindent\path{results/corpus/clarified-recovery-reuse.json}\\
+\texttt{0861494a\allowbreak{}0adbd7ad\allowbreak{}224ef5b2\allowbreak{}3fde5b8f\allowbreak{}c5061b58\allowbreak{}1bd8ba1d\allowbreak{}c09a011d\allowbreak{}e4b1695a}\par
+\noindent\path{results/corpus/ihop/manifest.json}\\
+\texttt{2501dc70\allowbreak{}32e29518\allowbreak{}983c2720\allowbreak{}6a5f95c6\allowbreak{}d0286b01\allowbreak{}293ec230\allowbreak{}1becdfee\allowbreak{}1854e1fb}\par
+\noindent\path{results/corpus/returned-linguistic-review-audit.json}\\
+\texttt{22400212\allowbreak{}8bcfde33\allowbreak{}1a85eab6\allowbreak{}678582ca\allowbreak{}da5de8ec\allowbreak{}8f37a782\allowbreak{}fee8909b\allowbreak{}40fb0bba}\par
+\noindent\path{results/corpus/wmt23-audit.json}\\
+\texttt{bdcefa99\allowbreak{}9503c278\allowbreak{}0c1b6717\allowbreak{}f78082bb\allowbreak{}ba5cd7d2\allowbreak{}6ca811bf\allowbreak{}e8bb181f\allowbreak{}2b8b0c2a}\par
+\noindent\path{configs/wmt23_indicnecorp.json}\\
+\texttt{df35b785\allowbreak{}e7d8f1a9\allowbreak{}91dd3c8f\allowbreak{}86ad1382\allowbreak{}67be0691\allowbreak{}6773068e\allowbreak{}7df456fd\allowbreak{}72566b39}\par
+\noindent\path{results/corpus/production-fixed-split-experiments.json}\\
+\texttt{11619137\allowbreak{}3d4cc4b9\allowbreak{}43ee9538\allowbreak{}92c0716d\allowbreak{}b059bc52\allowbreak{}ef09b766\allowbreak{}91fc5b27\allowbreak{}83143a27}\par
+\noindent\path{results/corpus/production-independent-replay.json}\\
+\texttt{11619137\allowbreak{}3d4cc4b9\allowbreak{}43ee9538\allowbreak{}92c0716d\allowbreak{}b059bc52\allowbreak{}ef09b766\allowbreak{}91fc5b27\allowbreak{}83143a27}\par
+\noindent\path{configs/tokenisation_only.json}\\
+\texttt{e425188a\allowbreak{}9593935d\allowbreak{}1d40a33c\allowbreak{}018dd78e\allowbreak{}44cc076d\allowbreak{}d41b7d63\allowbreak{}22b52113\allowbreak{}e3757c97}\par
+\noindent\path{resources/stemmers/lus-production.reviewed.json}\\
+\texttt{48e4ca07\allowbreak{}2609f680\allowbreak{}57a91757\allowbreak{}4bfde11c\allowbreak{}b7d65afc\allowbreak{}3b36f31a\allowbreak{}23fc8bf8\allowbreak{}93a00bd8}\par
+\noindent\path{configs/keyword_size_sweep.json}\\
+\texttt{41c6599e\allowbreak{}f1892206\allowbreak{}afa5d343\allowbreak{}e0d21c8b\allowbreak{}16797660\allowbreak{}0f45a278\allowbreak{}b1f21a7a\allowbreak{}2409278c}\par
+\noindent\path{configs/access_collision_sweep.json}\\
+\texttt{f0c0b1b3\allowbreak{}164e58d2\allowbreak{}93cb94ce\allowbreak{}be30870b\allowbreak{}26911e57\allowbreak{}2bf361c6\allowbreak{}2707814f\allowbreak{}abe02d04}\par
+\noindent\path{configs/access_similarity_sweep.json}\\
+\texttt{a9eaccb2\allowbreak{}8f580d7c\allowbreak{}3dbe873a\allowbreak{}bbfaa7e4\allowbreak{}3c090315\allowbreak{}d2b7c04f\allowbreak{}d4eba822\allowbreak{}bc18c119}\par
+\noindent\path{configs/frequency_ambiguity_sweep.json}\\
+\texttt{f66274fb\allowbreak{}9a415b4a\allowbreak{}3ec658c7\allowbreak{}bd3dafb1\allowbreak{}9985d65f\allowbreak{}478c1219\allowbreak{}52ff7df6\allowbreak{}e67f9d05}\par
+\noindent\path{configs/cooccurrence_similarity_sweep.json}\\
+\texttt{8fae3c5e\allowbreak{}5f320f2e\allowbreak{}d618ac6c\allowbreak{}9695c09c\allowbreak{}48856ec8\allowbreak{}a92b83d6\allowbreak{}b062051a\allowbreak{}205f4d2f}\par
+\noindent\path{configs/sparsity_sweep.json}\\
+\texttt{5865bc5f\allowbreak{}67347c9a\allowbreak{}73378e46\allowbreak{}a693584a\allowbreak{}3f410057\allowbreak{}b4d03db6\allowbreak{}b08e8b8d\allowbreak{}e85c6d40}\par
+\noindent\path{requirements-2022.lock}\\
+\texttt{7ccf3097\allowbreak{}301a7595\allowbreak{}3ab3df87\allowbreak{}47f015e6\allowbreak{}36b63b1c\allowbreak{}9ee3414f\allowbreak{}32d4355c\allowbreak{}b7fa6fd4}\par
+\noindent\path{results/corpus/flores200-ihop/manifest.json}\\
+\texttt{d0b53ce5\allowbreak{}0788b368\allowbreak{}c87c9ed4\allowbreak{}ec8b2463\allowbreak{}5535aad5\allowbreak{}460b56eb\allowbreak{}442fe044\allowbreak{}2b41fe3b}\par
+\noindent\path{results/corpus/flores200-length-balanced-ihop/manifest.json}\\
+\texttt{8b7c5b32\allowbreak{}bdd30de6\allowbreak{}81859471\allowbreak{}a2b43e4c\allowbreak{}9eabfd28\allowbreak{}58bbc962\allowbreak{}46befdcf\allowbreak{}0f1f0895}\par
+\noindent\path{paper/submission-information.json}\\
+\texttt{c8b1e899\allowbreak{}7ab13691\allowbreak{}500492e6\allowbreak{}19cca1cc\allowbreak{}759d9d10\allowbreak{}d2038b8c\allowbreak{}9a81b455\allowbreak{}20ec9e0a}\par
+\noindent\path{scripts/manuscript_template.tex}\\
+\texttt{35373938\allowbreak{}d5fec78a\allowbreak{}0fedb3ed\allowbreak{}2fe33143\allowbreak{}80a4b16d\allowbreak{}61a438f7\allowbreak{}f7b2b179\allowbreak{}55cfb1d4}\par
+\noindent\path{resources/stopwords/en-production.reviewed.json}\\
+\texttt{00768fb4\allowbreak{}395a0fce\allowbreak{}f706cbe4\allowbreak{}67835c98\allowbreak{}ee84d08b\allowbreak{}0ffcb7b3\allowbreak{}d5140095\allowbreak{}ddc2aea1}\par
+\noindent\path{resources/stopwords/lus-production.reviewed.json}\\
+\texttt{9aed3661\allowbreak{}c67cfdae\allowbreak{}e6878ab7\allowbreak{}f9a19799\allowbreak{}24584669\allowbreak{}28804fc1\allowbreak{}aafffe53\allowbreak{}c0a71582}\par
 
 \end{landscape}
 \end{document}

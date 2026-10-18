@@ -10,7 +10,6 @@ ROOT = Path(__file__).resolve().parents[1]
 
 def main():
     files = {'main.tex': ROOT / 'paper/manuscript.tex',
-             'supplement.tex': ROOT / 'paper/supplement.tex',
              'figures/production-recovery.png': ROOT / 'figures/production-recovery.png',
              'figures/partition-sensitivity.png': ROOT / 'figures/partition-sensitivity.png',
              'figures/Fig1.eps':ROOT/'figures/Fig1.eps','figures/Fig2.eps':ROOT/'figures/Fig2.eps'}
@@ -23,13 +22,14 @@ def main():
     guide = ('Overleaf project\n\n'
              'Upload this ZIP as a new Overleaf project.\n'
              'Set main.tex as the main document for the article.\n'
-             'Set supplement.tex as the main document to compile the supplementary material separately.\n'
+             'The article is self-contained. The archival supplement is not included in this editing ZIP and is not required for article compilation or submission.\n'
              'Select pdfLaTeX as the compiler.\n\n'
-             'Both sources use the official Springer Nature class and its supplied numbered bibliography style. The bibliography data and external vector figures were included. '
+             'The article uses the unchanged official Springer Nature class and its supplied numbered bibliography style. Journal-specific source settings provide 12 pt text. Main article tables use upright pages and wrapped columns. The bibliography data and external vector figures were included. '
              'The PNG versions of the figures are also included.\n\n'
              'The supplied six-author order, affiliations and email addresses were included. C Vanlalnunpuia was designated as corresponding author.\n'
              'The sources contain the clarified linguistic procedure and independently checked recovery results.\n'
-             'Compilation remains unverified because the local compiler runtime was unavailable.\n')
+             'The installed pdfLaTeX compiler produced the article PDF. All rendered pages were inspected and exact source and PDF hashes were recorded locally.\n'
+             'The reconstruction release is identified in main.tex. Consult submission-checklist.md for unresolved submission checks. No supplementary PDF is required by this article.\n')
     output = ROOT / 'output/paper-overleaf.zip'
     with zipfile.ZipFile(output, 'w', zipfile.ZIP_DEFLATED) as archive:
         for name, path in files.items():
@@ -37,6 +37,7 @@ def main():
         archive.writestr('README.txt', guide)
         for name in ['submission-checklist.md', 'cover-letter.md', 'submission-information.json']:
             archive.write(ROOT/'paper'/name, name)
+        archive.write(ROOT/'docs/author-review-response.md', 'revision-response.md')
     with zipfile.ZipFile(output) as archive:
         if archive.testzip() is not None:
             raise ValueError('Overleaf archive integrity failure')

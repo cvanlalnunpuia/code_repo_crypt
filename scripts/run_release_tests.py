@@ -14,7 +14,7 @@ def main():
     for pattern in ['test_clarified_stemmer.py', 'test_experiment_checkpoint.py',
                     'test_export_structure.py', 'test_production_recovery_analysis.py',
                     'test_reviewer_sensitivity.py', 'test_springer_template.py',
-                    'test_stemmer_execution.py']:
+                    'test_stemmer_execution.py', 'test_independent_ihop.py', 'test_expanded_presentation.py']:
         suite.addTests(unittest.defaultTestLoader.discover(str(ROOT/'tests'), pattern=pattern))
     result = unittest.TextTestRunner(verbosity=1).run(suite)
     return 0 if result.wasSuccessful() else 1

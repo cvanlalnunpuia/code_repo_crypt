@@ -1,0 +1,5203 @@
+{
+  "checkpoint_sha256": "6ee11588abee6acd44800fe70a8fe01d95fd2bdad93fb4f1000736ea64f4e96f",
+  "config": {
+    "attack_seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "controlled_keywords": 250,
+    "free_fraction": 0.25,
+    "iterations": 1000,
+    "near_duplicate_jaccard": 0.8,
+    "original_partition_attack_seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "partition_seeds": [
+      20261007,
+      20261008,
+      20261009,
+      20261017,
+      20261018,
+      20261019
+    ],
+    "production_keywords": 500,
+    "purpose": "Expanded descriptive evaluation. Original confirmatory results and comparison families remain separate. Configuration was fixed before additional runs.",
+    "query_count_per_keyword": 10,
+    "version": "1.0.0",
+    "workers": 2
+  },
+  "interpretation": "Additional descriptive results. Original confirmatory comparisons were preserved.",
+  "run_count": 1912,
+  "status": "passed",
+  "summaries": [
+    {
+      "condition": "stemming",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.0524,
+        "sd": 0.013656093471007325
+      },
+      "distribution": "uniform_iid",
+      "family": "auxiliary_only",
+      "language": "en",
+      "partition": 20260901,
+      "query_weighted_recovery": {
+        "mean": 0.05242,
+        "sd": 0.014733921556885136
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "stemming",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.05379742803739287,
+        "sd": 0.011919345706408912
+      },
+      "distribution": "zipf_iid",
+      "family": "auxiliary_only",
+      "language": "en",
+      "partition": 20260901,
+      "query_weighted_recovery": {
+        "mean": 0.36035999999999996,
+        "sd": 0.051753587100584406
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "stopword_removal",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.0546,
+        "sd": 0.010500793620801557
+      },
+      "distribution": "uniform_iid",
+      "family": "auxiliary_only",
+      "language": "en",
+      "partition": 20260901,
+      "query_weighted_recovery": {
+        "mean": 0.05402,
+        "sd": 0.009768179632527922
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "stopword_removal",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.06567255438254517,
+        "sd": 0.011712924946754234
+      },
+      "distribution": "zipf_iid",
+      "family": "auxiliary_only",
+      "language": "en",
+      "partition": 20260901,
+      "query_weighted_recovery": {
+        "mean": 0.44366000000000005,
+        "sd": 0.06864427142886724
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "tokenisation_only",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.14479999999999998,
+        "sd": 0.019463926747818498
+      },
+      "distribution": "uniform_iid",
+      "family": "auxiliary_only",
+      "language": "en",
+      "partition": 20260901,
+      "query_weighted_recovery": {
+        "mean": 0.14494,
+        "sd": 0.019276479623278383
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "tokenisation_only",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.13663480962684604,
+        "sd": 0.020192272057369884
+      },
+      "distribution": "zipf_iid",
+      "family": "auxiliary_only",
+      "language": "en",
+      "partition": 20260901,
+      "query_weighted_recovery": {
+        "mean": 0.5538399999999999,
+        "sd": 0.09587231323194638
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "stemming",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.0772,
+        "sd": 0.011123548594460912
+      },
+      "distribution": "uniform_iid",
+      "family": "auxiliary_only",
+      "language": "lus",
+      "partition": 20260901,
+      "query_weighted_recovery": {
+        "mean": 0.07766,
+        "sd": 0.013587265279583592
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "stemming",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.08249755010126905,
+        "sd": 0.01496941734209224
+      },
+      "distribution": "zipf_iid",
+      "family": "auxiliary_only",
+      "language": "lus",
+      "partition": 20260901,
+      "query_weighted_recovery": {
+        "mean": 0.53666,
+        "sd": 0.021804800694648265
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "stopword_removal",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.06200000000000001,
+        "sd": 0.007888106377466154
+      },
+      "distribution": "uniform_iid",
+      "family": "auxiliary_only",
+      "language": "lus",
+      "partition": 20260901,
+      "query_weighted_recovery": {
+        "mean": 0.06208,
+        "sd": 0.00778100250610421
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "stopword_removal",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.07334975867377987,
+        "sd": 0.017003341351062636
+      },
+      "distribution": "zipf_iid",
+      "family": "auxiliary_only",
+      "language": "lus",
+      "partition": 20260901,
+      "query_weighted_recovery": {
+        "mean": 0.5231600000000001,
+        "sd": 0.046923654304980696
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "tokenisation_only",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.127,
+        "sd": 0.019692073983655904
+      },
+      "distribution": "uniform_iid",
+      "family": "auxiliary_only",
+      "language": "lus",
+      "partition": 20260901,
+      "query_weighted_recovery": {
+        "mean": 0.12696,
+        "sd": 0.01896377833895157
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "tokenisation_only",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.10697754170643577,
+        "sd": 0.024408173765992452
+      },
+      "distribution": "zipf_iid",
+      "family": "auxiliary_only",
+      "language": "lus",
+      "partition": 20260901,
+      "query_weighted_recovery": {
+        "mean": 0.55878,
+        "sd": 0.027198439497719565
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "flores200",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.0094,
+        "sd": 0.004325634186002222
+      },
+      "distribution": "uniform_iid",
+      "family": "auxiliary_shift",
+      "language": "en",
+      "partition": 20260901,
+      "query_weighted_recovery": {
+        "mean": 0.0091,
+        "sd": 0.00402464629225697
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "flores200",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.008936511589246611,
+        "sd": 0.003817731111234311
+      },
+      "distribution": "zipf_iid",
+      "family": "auxiliary_shift",
+      "language": "en",
+      "partition": 20260901,
+      "query_weighted_recovery": {
+        "mean": 0.15728000000000003,
+        "sd": 0.11989281138676423
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "wmt23",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.0246,
+        "sd": 0.00848789988421426
+      },
+      "distribution": "uniform_iid",
+      "family": "auxiliary_shift",
+      "language": "en",
+      "partition": 20260901,
+      "query_weighted_recovery": {
+        "mean": 0.023260000000000003,
+        "sd": 0.007885316875194188
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "wmt23",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.029565247472416317,
+        "sd": 0.00645007556434548
+      },
+      "distribution": "zipf_iid",
+      "family": "auxiliary_shift",
+      "language": "en",
+      "partition": 20260901,
+      "query_weighted_recovery": {
+        "mean": 0.12318,
+        "sd": 0.0242271564800971
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "flores200",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.0032,
+        "sd": 0.0013984117975602021
+      },
+      "distribution": "uniform_iid",
+      "family": "auxiliary_shift",
+      "language": "lus",
+      "partition": 20260901,
+      "query_weighted_recovery": {
+        "mean": 0.0033999999999999994,
+        "sd": 0.001454494948618095
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "flores200",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.003687295250882014,
+        "sd": 0.002701294600606325
+      },
+      "distribution": "zipf_iid",
+      "family": "auxiliary_shift",
+      "language": "lus",
+      "partition": 20260901,
+      "query_weighted_recovery": {
+        "mean": 0.00496,
+        "sd": 0.009274960317375427
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "wmt23",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.0274,
+        "sd": 0.007183313998427189
+      },
+      "distribution": "uniform_iid",
+      "family": "auxiliary_shift",
+      "language": "lus",
+      "partition": 20260901,
+      "query_weighted_recovery": {
+        "mean": 0.02708,
+        "sd": 0.008449694274548242
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "wmt23",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.024170418359509817,
+        "sd": 0.005798044882312585
+      },
+      "distribution": "zipf_iid",
+      "family": "auxiliary_shift",
+      "language": "lus",
+      "partition": 20260901,
+      "query_weighted_recovery": {
+        "mean": 0.1545,
+        "sd": 0.016401151721076715
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "flores200",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.0152,
+        "sd": 0.005266244708835066
+      },
+      "distribution": "uniform_iid",
+      "family": "balanced",
+      "language": "en",
+      "partition": 20261007,
+      "query_weighted_recovery": {
+        "mean": 0.014680000000000002,
+        "sd": 0.005305929597053554
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "flores200",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.01917902762645681,
+        "sd": 0.005515065882253172
+      },
+      "distribution": "zipf_iid",
+      "family": "balanced",
+      "language": "en",
+      "partition": 20261007,
+      "query_weighted_recovery": {
+        "mean": 0.27002000000000004,
+        "sd": 0.03688100384268905
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "wmt23",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.0202,
+        "sd": 0.004661902329879224
+      },
+      "distribution": "uniform_iid",
+      "family": "balanced",
+      "language": "en",
+      "partition": 20261007,
+      "query_weighted_recovery": {
+        "mean": 0.019919999999999997,
+        "sd": 0.004586162763017564
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "wmt23",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.020055870352262323,
+        "sd": 0.00577403910231086
+      },
+      "distribution": "zipf_iid",
+      "family": "balanced",
+      "language": "en",
+      "partition": 20261007,
+      "query_weighted_recovery": {
+        "mean": 0.27762000000000003,
+        "sd": 0.11134556619421858
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "flores200",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.0184,
+        "sd": 0.005146735750831675
+      },
+      "distribution": "uniform_iid",
+      "family": "balanced",
+      "language": "lus",
+      "partition": 20261007,
+      "query_weighted_recovery": {
+        "mean": 0.01814,
+        "sd": 0.0041889272028899135
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "flores200",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.018092022101724656,
+        "sd": 0.0059898645058561045
+      },
+      "distribution": "zipf_iid",
+      "family": "balanced",
+      "language": "lus",
+      "partition": 20261007,
+      "query_weighted_recovery": {
+        "mean": 0.20249999999999999,
+        "sd": 0.032310060352775574
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "wmt23",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.0178,
+        "sd": 0.004848825745591515
+      },
+      "distribution": "uniform_iid",
+      "family": "balanced",
+      "language": "lus",
+      "partition": 20261007,
+      "query_weighted_recovery": {
+        "mean": 0.01782,
+        "sd": 0.004820742220400874
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "wmt23",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.01892841899548952,
+        "sd": 0.0048754224608344495
+      },
+      "distribution": "zipf_iid",
+      "family": "balanced",
+      "language": "lus",
+      "partition": 20261007,
+      "query_weighted_recovery": {
+        "mean": 0.23148,
+        "sd": 0.06648362872834852
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "flores200",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.014799999999999999,
+        "sd": 0.006746192341692542
+      },
+      "distribution": "uniform_iid",
+      "family": "balanced",
+      "language": "en",
+      "partition": 20261008,
+      "query_weighted_recovery": {
+        "mean": 0.014860000000000002,
+        "sd": 0.007772344133743264
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "flores200",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.017398031401614854,
+        "sd": 0.0047034469160621315
+      },
+      "distribution": "zipf_iid",
+      "family": "balanced",
+      "language": "en",
+      "partition": 20261008,
+      "query_weighted_recovery": {
+        "mean": 0.2607,
+        "sd": 0.047000638293538094
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "wmt23",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.0158,
+        "sd": 0.004263540521418528
+      },
+      "distribution": "uniform_iid",
+      "family": "balanced",
+      "language": "en",
+      "partition": 20261008,
+      "query_weighted_recovery": {
+        "mean": 0.014740000000000003,
+        "sd": 0.004220637129365398
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "wmt23",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.01698750518045452,
+        "sd": 0.005131547451482254
+      },
+      "distribution": "zipf_iid",
+      "family": "balanced",
+      "language": "en",
+      "partition": 20261008,
+      "query_weighted_recovery": {
+        "mean": 0.14744000000000002,
+        "sd": 0.03319783125446601
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "flores200",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.0186,
+        "sd": 0.006113736809658866
+      },
+      "distribution": "uniform_iid",
+      "family": "balanced",
+      "language": "lus",
+      "partition": 20261008,
+      "query_weighted_recovery": {
+        "mean": 0.01818,
+        "sd": 0.0048939418331919995
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "flores200",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.019630486581325792,
+        "sd": 0.0061017690578994335
+      },
+      "distribution": "zipf_iid",
+      "family": "balanced",
+      "language": "lus",
+      "partition": 20261008,
+      "query_weighted_recovery": {
+        "mean": 0.25383999999999995,
+        "sd": 0.026570292517103463
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "wmt23",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.015999999999999997,
+        "sd": 0.004216370213557838
+      },
+      "distribution": "uniform_iid",
+      "family": "balanced",
+      "language": "lus",
+      "partition": 20261008,
+      "query_weighted_recovery": {
+        "mean": 0.01646,
+        "sd": 0.005056173344426484
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "wmt23",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.01740919476314525,
+        "sd": 0.0038157997616238798
+      },
+      "distribution": "zipf_iid",
+      "family": "balanced",
+      "language": "lus",
+      "partition": 20261008,
+      "query_weighted_recovery": {
+        "mean": 0.11367999999999998,
+        "sd": 0.028714874194396188
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "flores200",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.012199999999999999,
+        "sd": 0.0028982753492378874
+      },
+      "distribution": "uniform_iid",
+      "family": "balanced",
+      "language": "en",
+      "partition": 20261009,
+      "query_weighted_recovery": {
+        "mean": 0.01222,
+        "sd": 0.003505487761274377
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "flores200",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.014986332627028847,
+        "sd": 0.0061597458754623574
+      },
+      "distribution": "zipf_iid",
+      "family": "balanced",
+      "language": "en",
+      "partition": 20261009,
+      "query_weighted_recovery": {
+        "mean": 0.18282,
+        "sd": 0.08855403623400424
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "wmt23",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.014800000000000002,
+        "sd": 0.0049170903772228726
+      },
+      "distribution": "uniform_iid",
+      "family": "balanced",
+      "language": "en",
+      "partition": 20261009,
+      "query_weighted_recovery": {
+        "mean": 0.01402,
+        "sd": 0.005231910634642844
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "wmt23",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.011988138382736555,
+        "sd": 0.0031959472327209894
+      },
+      "distribution": "zipf_iid",
+      "family": "balanced",
+      "language": "en",
+      "partition": 20261009,
+      "query_weighted_recovery": {
+        "mean": 0.14402,
+        "sd": 0.08713475897839061
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "flores200",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.0188,
+        "sd": 0.005349974039397035
+      },
+      "distribution": "uniform_iid",
+      "family": "balanced",
+      "language": "lus",
+      "partition": 20261009,
+      "query_weighted_recovery": {
+        "mean": 0.01856,
+        "sd": 0.00516724727920432
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "flores200",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.016771637569718507,
+        "sd": 0.004835899238003579
+      },
+      "distribution": "zipf_iid",
+      "family": "balanced",
+      "language": "lus",
+      "partition": 20261009,
+      "query_weighted_recovery": {
+        "mean": 0.23175999999999997,
+        "sd": 0.04452702550137389
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "wmt23",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.0196,
+        "sd": 0.004501851470969102
+      },
+      "distribution": "uniform_iid",
+      "family": "balanced",
+      "language": "lus",
+      "partition": 20261009,
+      "query_weighted_recovery": {
+        "mean": 0.019479999999999997,
+        "sd": 0.00492449659017718
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "wmt23",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.025015937877157723,
+        "sd": 0.005129495472410824
+      },
+      "distribution": "zipf_iid",
+      "family": "balanced",
+      "language": "lus",
+      "partition": 20261009,
+      "query_weighted_recovery": {
+        "mean": 0.28666,
+        "sd": 0.13057959854263437
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "flores200",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.0198,
+        "sd": 0.005692099788303083
+      },
+      "distribution": "uniform_iid",
+      "family": "balanced",
+      "language": "en",
+      "partition": 20261017,
+      "query_weighted_recovery": {
+        "mean": 0.020179999999999997,
+        "sd": 0.006420418816384005
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "flores200",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.028962746522442427,
+        "sd": 0.008683393022739173
+      },
+      "distribution": "zipf_iid",
+      "family": "balanced",
+      "language": "en",
+      "partition": 20261017,
+      "query_weighted_recovery": {
+        "mean": 0.31023999999999996,
+        "sd": 0.11820482411663427
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "wmt23",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.016,
+        "sd": 0.0038873012632301995
+      },
+      "distribution": "uniform_iid",
+      "family": "balanced",
+      "language": "en",
+      "partition": 20261017,
+      "query_weighted_recovery": {
+        "mean": 0.016440000000000003,
+        "sd": 0.004591586508677221
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "wmt23",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.015880121487810796,
+        "sd": 0.003502989466777088
+      },
+      "distribution": "zipf_iid",
+      "family": "balanced",
+      "language": "en",
+      "partition": 20261017,
+      "query_weighted_recovery": {
+        "mean": 0.12718000000000002,
+        "sd": 0.037128060666952276
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "flores200",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.018000000000000006,
+        "sd": 0.006253887679764573
+      },
+      "distribution": "uniform_iid",
+      "family": "balanced",
+      "language": "lus",
+      "partition": 20261017,
+      "query_weighted_recovery": {
+        "mean": 0.01776,
+        "sd": 0.0066290941227960315
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "flores200",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.017432299542569325,
+        "sd": 0.005494944997557761
+      },
+      "distribution": "zipf_iid",
+      "family": "balanced",
+      "language": "lus",
+      "partition": 20261017,
+      "query_weighted_recovery": {
+        "mean": 0.26212,
+        "sd": 0.04747520522452864
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "wmt23",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.0196,
+        "sd": 0.004299870799092559
+      },
+      "distribution": "uniform_iid",
+      "family": "balanced",
+      "language": "lus",
+      "partition": 20261017,
+      "query_weighted_recovery": {
+        "mean": 0.01898,
+        "sd": 0.004598018897066189
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "wmt23",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.019169736236199966,
+        "sd": 0.006663690363161464
+      },
+      "distribution": "zipf_iid",
+      "family": "balanced",
+      "language": "lus",
+      "partition": 20261017,
+      "query_weighted_recovery": {
+        "mean": 0.17543999999999998,
+        "sd": 0.10504669014829125
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "flores200",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.015,
+        "sd": 0.002538591035287969
+      },
+      "distribution": "uniform_iid",
+      "family": "balanced",
+      "language": "en",
+      "partition": 20261018,
+      "query_weighted_recovery": {
+        "mean": 0.014499999999999999,
+        "sd": 0.0028303906287138374
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "flores200",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.016518052987136756,
+        "sd": 0.004465846029404026
+      },
+      "distribution": "zipf_iid",
+      "family": "balanced",
+      "language": "en",
+      "partition": 20261018,
+      "query_weighted_recovery": {
+        "mean": 0.27474000000000004,
+        "sd": 0.057190523690555585
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "wmt23",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.0168,
+        "sd": 0.005513619500836089
+      },
+      "distribution": "uniform_iid",
+      "family": "balanced",
+      "language": "en",
+      "partition": 20261018,
+      "query_weighted_recovery": {
+        "mean": 0.016099999999999996,
+        "sd": 0.005628696316397095
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "wmt23",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.022188901322211362,
+        "sd": 0.006132813647041756
+      },
+      "distribution": "zipf_iid",
+      "family": "balanced",
+      "language": "en",
+      "partition": 20261018,
+      "query_weighted_recovery": {
+        "mean": 0.27696,
+        "sd": 0.12737565788729896
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "flores200",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.021800000000000003,
+        "sd": 0.006285786435372355
+      },
+      "distribution": "uniform_iid",
+      "family": "balanced",
+      "language": "lus",
+      "partition": 20261018,
+      "query_weighted_recovery": {
+        "mean": 0.02096,
+        "sd": 0.0068526069653980755
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "flores200",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.020239287095002032,
+        "sd": 0.005115532378173209
+      },
+      "distribution": "zipf_iid",
+      "family": "balanced",
+      "language": "lus",
+      "partition": 20261018,
+      "query_weighted_recovery": {
+        "mean": 0.22800000000000004,
+        "sd": 0.023481813293601404
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "wmt23",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.014400000000000001,
+        "sd": 0.0036270588023294514
+      },
+      "distribution": "uniform_iid",
+      "family": "balanced",
+      "language": "lus",
+      "partition": 20261018,
+      "query_weighted_recovery": {
+        "mean": 0.01386,
+        "sd": 0.0038262833722091786
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "wmt23",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.015852738504177545,
+        "sd": 0.008016296105781329
+      },
+      "distribution": "zipf_iid",
+      "family": "balanced",
+      "language": "lus",
+      "partition": 20261018,
+      "query_weighted_recovery": {
+        "mean": 0.20562,
+        "sd": 0.13415385694542417
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "flores200",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.015000000000000003,
+        "sd": 0.003559026084010437
+      },
+      "distribution": "uniform_iid",
+      "family": "balanced",
+      "language": "en",
+      "partition": 20261019,
+      "query_weighted_recovery": {
+        "mean": 0.01452,
+        "sd": 0.0029995555226288665
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "flores200",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.013282636327764618,
+        "sd": 0.003487740348645186
+      },
+      "distribution": "zipf_iid",
+      "family": "balanced",
+      "language": "en",
+      "partition": 20261019,
+      "query_weighted_recovery": {
+        "mean": 0.20246,
+        "sd": 0.030562729662849893
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "wmt23",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.014000000000000002,
+        "sd": 0.004714045207910317
+      },
+      "distribution": "uniform_iid",
+      "family": "balanced",
+      "language": "en",
+      "partition": 20261019,
+      "query_weighted_recovery": {
+        "mean": 0.013340000000000001,
+        "sd": 0.0044781444570020056
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "wmt23",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.016788331795287537,
+        "sd": 0.004268913994053433
+      },
+      "distribution": "zipf_iid",
+      "family": "balanced",
+      "language": "en",
+      "partition": 20261019,
+      "query_weighted_recovery": {
+        "mean": 0.13868,
+        "sd": 0.03149577749476904
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "flores200",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.0226,
+        "sd": 0.006801960501698512
+      },
+      "distribution": "uniform_iid",
+      "family": "balanced",
+      "language": "lus",
+      "partition": 20261019,
+      "query_weighted_recovery": {
+        "mean": 0.02214,
+        "sd": 0.007771772284649392
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "flores200",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.02787716421991111,
+        "sd": 0.00480702016068038
+      },
+      "distribution": "zipf_iid",
+      "family": "balanced",
+      "language": "lus",
+      "partition": 20261019,
+      "query_weighted_recovery": {
+        "mean": 0.31538,
+        "sd": 0.0177697495761758
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "wmt23",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.0168,
+        "sd": 0.00647731082746193
+      },
+      "distribution": "uniform_iid",
+      "family": "balanced",
+      "language": "lus",
+      "partition": 20261019,
+      "query_weighted_recovery": {
+        "mean": 0.0168,
+        "sd": 0.0065360538553472765
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "wmt23",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.019818359643666714,
+        "sd": 0.005579257594850519
+      },
+      "distribution": "zipf_iid",
+      "family": "balanced",
+      "language": "lus",
+      "partition": 20261019,
+      "query_weighted_recovery": {
+        "mean": 0.31282,
+        "sd": 0.05526063095308751
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "stemming",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.1476,
+        "sd": 0.010232844722319943
+      },
+      "distribution": "uniform_iid",
+      "family": "controlled",
+      "language": "en",
+      "partition": 20260901,
+      "query_weighted_recovery": {
+        "mean": 0.14536,
+        "sd": 0.013410708822098523
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "stemming",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.12481437198766845,
+        "sd": 0.03427480541821885
+      },
+      "distribution": "zipf_iid",
+      "family": "controlled",
+      "language": "en",
+      "partition": 20260901,
+      "query_weighted_recovery": {
+        "mean": 0.5048800000000001,
+        "sd": 0.07590585982357065
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "stopword_removal",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.13240000000000002,
+        "sd": 0.018614212013644004
+      },
+      "distribution": "uniform_iid",
+      "family": "controlled",
+      "language": "en",
+      "partition": 20260901,
+      "query_weighted_recovery": {
+        "mean": 0.13012,
+        "sd": 0.021332541651976993
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "stopword_removal",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.1096394165882352,
+        "sd": 0.026631468277066604
+      },
+      "distribution": "zipf_iid",
+      "family": "controlled",
+      "language": "en",
+      "partition": 20260901,
+      "query_weighted_recovery": {
+        "mean": 0.5022800000000001,
+        "sd": 0.05867031806818693
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "stemming",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.148,
+        "sd": 0.029754551472561862
+      },
+      "distribution": "uniform_iid",
+      "family": "controlled",
+      "language": "lus",
+      "partition": 20260901,
+      "query_weighted_recovery": {
+        "mean": 0.14736,
+        "sd": 0.031212647009398825
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "stemming",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.1568010068758406,
+        "sd": 0.023796268813337736
+      },
+      "distribution": "zipf_iid",
+      "family": "controlled",
+      "language": "lus",
+      "partition": 20260901,
+      "query_weighted_recovery": {
+        "mean": 0.6091599999999999,
+        "sd": 0.03089563795173105
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "stopword_removal",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.1524,
+        "sd": 0.017121785991991476
+      },
+      "distribution": "uniform_iid",
+      "family": "controlled",
+      "language": "lus",
+      "partition": 20260901,
+      "query_weighted_recovery": {
+        "mean": 0.15628,
+        "sd": 0.02081029659674375
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "stopword_removal",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.1490975601255843,
+        "sd": 0.021255841458228276
+      },
+      "distribution": "zipf_iid",
+      "family": "controlled",
+      "language": "lus",
+      "partition": 20260901,
+      "query_weighted_recovery": {
+        "mean": 0.6099600000000001,
+        "sd": 0.04199151236989579
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "stemming",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.0528,
+        "sd": 0.007067924416372571
+      },
+      "distribution": "uniform_iid",
+      "family": "independent",
+      "language": "en",
+      "partition": 20260901,
+      "query_weighted_recovery": {
+        "mean": 0.05346000000000001,
+        "sd": 0.006910893172698045
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "stemming",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.05718922424964551,
+        "sd": 0.00697902309760681
+      },
+      "distribution": "zipf_iid",
+      "family": "independent",
+      "language": "en",
+      "partition": 20260901,
+      "query_weighted_recovery": {
+        "mean": 0.39598,
+        "sd": 0.0713659395883872
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "stopword_removal",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.05700000000000001,
+        "sd": 0.010295630140987002
+      },
+      "distribution": "uniform_iid",
+      "family": "independent",
+      "language": "en",
+      "partition": 20260901,
+      "query_weighted_recovery": {
+        "mean": 0.057479999999999996,
+        "sd": 0.009628291644938888
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "stopword_removal",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.0655146760573472,
+        "sd": 0.011166439684763992
+      },
+      "distribution": "zipf_iid",
+      "family": "independent",
+      "language": "en",
+      "partition": 20260901,
+      "query_weighted_recovery": {
+        "mean": 0.46948000000000006,
+        "sd": 0.027558455044585588
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "tokenisation_only",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.13399999999999998,
+        "sd": 0.01577621275493231
+      },
+      "distribution": "uniform_iid",
+      "family": "independent",
+      "language": "en",
+      "partition": 20260901,
+      "query_weighted_recovery": {
+        "mean": 0.13454,
+        "sd": 0.01918519104819015
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "tokenisation_only",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.1485249170108809,
+        "sd": 0.015288112389046265
+      },
+      "distribution": "zipf_iid",
+      "family": "independent",
+      "language": "en",
+      "partition": 20260901,
+      "query_weighted_recovery": {
+        "mean": 0.5906800000000001,
+        "sd": 0.06671712756939638
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "stemming",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.0728,
+        "sd": 0.011554700823089757
+      },
+      "distribution": "uniform_iid",
+      "family": "independent",
+      "language": "lus",
+      "partition": 20260901,
+      "query_weighted_recovery": {
+        "mean": 0.07189999999999999,
+        "sd": 0.013426756040748555
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "stemming",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.07833830130122121,
+        "sd": 0.011101282588072489
+      },
+      "distribution": "zipf_iid",
+      "family": "independent",
+      "language": "lus",
+      "partition": 20260901,
+      "query_weighted_recovery": {
+        "mean": 0.5339600000000001,
+        "sd": 0.026105733725243836
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "stopword_removal",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.06980000000000001,
+        "sd": 0.007083627444874397
+      },
+      "distribution": "uniform_iid",
+      "family": "independent",
+      "language": "lus",
+      "partition": 20260901,
+      "query_weighted_recovery": {
+        "mean": 0.06952,
+        "sd": 0.00893592002351558
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "stopword_removal",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.07879632355741836,
+        "sd": 0.013185048384348669
+      },
+      "distribution": "zipf_iid",
+      "family": "independent",
+      "language": "lus",
+      "partition": 20260901,
+      "query_weighted_recovery": {
+        "mean": 0.54676,
+        "sd": 0.043479221090846
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "tokenisation_only",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.11960000000000001,
+        "sd": 0.017608078953833785
+      },
+      "distribution": "uniform_iid",
+      "family": "independent",
+      "language": "lus",
+      "partition": 20260901,
+      "query_weighted_recovery": {
+        "mean": 0.11907999999999999,
+        "sd": 0.020444004826191305
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "tokenisation_only",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.11292830825007774,
+        "sd": 0.027578102889777523
+      },
+      "distribution": "zipf_iid",
+      "family": "independent",
+      "language": "lus",
+      "partition": 20260901,
+      "query_weighted_recovery": {
+        "mean": 0.56172,
+        "sd": 0.03044750673974251
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "stemming",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.048,
+        "sd": null
+      },
+      "distribution": "uniform_iid",
+      "family": "independent_trajectory",
+      "language": "en",
+      "partition": 20260901,
+      "query_weighted_recovery": {
+        "mean": 0.0432,
+        "sd": null
+      },
+      "seeds": [
+        0
+      ]
+    },
+    {
+      "condition": "stemming",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.07205240174672489,
+        "sd": null
+      },
+      "distribution": "zipf_iid",
+      "family": "independent_trajectory",
+      "language": "en",
+      "partition": 20260901,
+      "query_weighted_recovery": {
+        "mean": 0.438,
+        "sd": null
+      },
+      "seeds": [
+        0
+      ]
+    },
+    {
+      "condition": "stopword_removal",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.06,
+        "sd": null
+      },
+      "distribution": "uniform_iid",
+      "family": "independent_trajectory",
+      "language": "en",
+      "partition": 20260901,
+      "query_weighted_recovery": {
+        "mean": 0.0572,
+        "sd": null
+      },
+      "seeds": [
+        0
+      ]
+    },
+    {
+      "condition": "stopword_removal",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.05240174672489083,
+        "sd": null
+      },
+      "distribution": "zipf_iid",
+      "family": "independent_trajectory",
+      "language": "en",
+      "partition": 20260901,
+      "query_weighted_recovery": {
+        "mean": 0.4356,
+        "sd": null
+      },
+      "seeds": [
+        0
+      ]
+    },
+    {
+      "condition": "tokenisation_only",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.136,
+        "sd": null
+      },
+      "distribution": "uniform_iid",
+      "family": "independent_trajectory",
+      "language": "en",
+      "partition": 20260901,
+      "query_weighted_recovery": {
+        "mean": 0.133,
+        "sd": null
+      },
+      "seeds": [
+        0
+      ]
+    },
+    {
+      "condition": "tokenisation_only",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.1222707423580786,
+        "sd": null
+      },
+      "distribution": "zipf_iid",
+      "family": "independent_trajectory",
+      "language": "en",
+      "partition": 20260901,
+      "query_weighted_recovery": {
+        "mean": 0.607,
+        "sd": null
+      },
+      "seeds": [
+        0
+      ]
+    },
+    {
+      "condition": "stemming",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.07,
+        "sd": null
+      },
+      "distribution": "uniform_iid",
+      "family": "independent_trajectory",
+      "language": "lus",
+      "partition": 20260901,
+      "query_weighted_recovery": {
+        "mean": 0.0696,
+        "sd": null
+      },
+      "seeds": [
+        0
+      ]
+    },
+    {
+      "condition": "stemming",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.09388646288209607,
+        "sd": null
+      },
+      "distribution": "zipf_iid",
+      "family": "independent_trajectory",
+      "language": "lus",
+      "partition": 20260901,
+      "query_weighted_recovery": {
+        "mean": 0.5466,
+        "sd": null
+      },
+      "seeds": [
+        0
+      ]
+    },
+    {
+      "condition": "stopword_removal",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.05,
+        "sd": null
+      },
+      "distribution": "uniform_iid",
+      "family": "independent_trajectory",
+      "language": "lus",
+      "partition": 20260901,
+      "query_weighted_recovery": {
+        "mean": 0.0466,
+        "sd": null
+      },
+      "seeds": [
+        0
+      ]
+    },
+    {
+      "condition": "stopword_removal",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.07860262008733625,
+        "sd": null
+      },
+      "distribution": "zipf_iid",
+      "family": "independent_trajectory",
+      "language": "lus",
+      "partition": 20260901,
+      "query_weighted_recovery": {
+        "mean": 0.4998,
+        "sd": null
+      },
+      "seeds": [
+        0
+      ]
+    },
+    {
+      "condition": "tokenisation_only",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.084,
+        "sd": null
+      },
+      "distribution": "uniform_iid",
+      "family": "independent_trajectory",
+      "language": "lus",
+      "partition": 20260901,
+      "query_weighted_recovery": {
+        "mean": 0.0876,
+        "sd": null
+      },
+      "seeds": [
+        0
+      ]
+    },
+    {
+      "condition": "tokenisation_only",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.11572052401746726,
+        "sd": null
+      },
+      "distribution": "zipf_iid",
+      "family": "independent_trajectory",
+      "language": "lus",
+      "partition": 20260901,
+      "query_weighted_recovery": {
+        "mean": 0.5904,
+        "sd": null
+      },
+      "seeds": [
+        0
+      ]
+    },
+    {
+      "condition": "stemming",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.0518052104208417,
+        "sd": 0.008557090011370274
+      },
+      "distribution": "uniform_iid",
+      "family": "original_extended",
+      "language": "en",
+      "partition": 20260901,
+      "query_weighted_recovery": {
+        "mean": 0.05245999999999999,
+        "sd": 0.008622394343250968
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ]
+    },
+    {
+      "condition": "stemming",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.058968899283868156,
+        "sd": 0.009403380005569992
+      },
+      "distribution": "zipf_iid",
+      "family": "original_extended",
+      "language": "en",
+      "partition": 20260901,
+      "query_weighted_recovery": {
+        "mean": 0.40965999999999997,
+        "sd": 0.06644573884400952
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ]
+    },
+    {
+      "condition": "stopword_removal",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.055204208416833676,
+        "sd": 0.013473140309139195
+      },
+      "distribution": "uniform_iid",
+      "family": "original_extended",
+      "language": "en",
+      "partition": 20260901,
+      "query_weighted_recovery": {
+        "mean": 0.05514,
+        "sd": 0.012016672628170895
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ]
+    },
+    {
+      "condition": "stopword_removal",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.06336265106867096,
+        "sd": 0.011097139347498463
+      },
+      "distribution": "zipf_iid",
+      "family": "original_extended",
+      "language": "en",
+      "partition": 20260901,
+      "query_weighted_recovery": {
+        "mean": 0.46348,
+        "sd": 0.02812149580509169
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ]
+    },
+    {
+      "condition": "tokenisation_only",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.1376130260521042,
+        "sd": 0.01427715244683473
+      },
+      "distribution": "uniform_iid",
+      "family": "original_extended",
+      "language": "en",
+      "partition": 20260901,
+      "query_weighted_recovery": {
+        "mean": 0.13806,
+        "sd": 0.015152432495355844
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ]
+    },
+    {
+      "condition": "tokenisation_only",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.14310244543263909,
+        "sd": 0.014456531138879448
+      },
+      "distribution": "zipf_iid",
+      "family": "original_extended",
+      "language": "en",
+      "partition": 20260901,
+      "query_weighted_recovery": {
+        "mean": 0.6045299999999999,
+        "sd": 0.04909690846736311
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ]
+    },
+    {
+      "condition": "stemming",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.0704056112224449,
+        "sd": 0.011520188002126227
+      },
+      "distribution": "uniform_iid",
+      "family": "original_extended",
+      "language": "lus",
+      "partition": 20260901,
+      "query_weighted_recovery": {
+        "mean": 0.06978999999999999,
+        "sd": 0.012451586244330478
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ]
+    },
+    {
+      "condition": "stemming",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.07627919176901127,
+        "sd": 0.013198367930689922
+      },
+      "distribution": "zipf_iid",
+      "family": "original_extended",
+      "language": "lus",
+      "partition": 20260901,
+      "query_weighted_recovery": {
+        "mean": 0.52586,
+        "sd": 0.024546505807719783
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ]
+    },
+    {
+      "condition": "stopword_removal",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.06890681362725452,
+        "sd": 0.0073826694327610255
+      },
+      "distribution": "uniform_iid",
+      "family": "original_extended",
+      "language": "lus",
+      "partition": 20260901,
+      "query_weighted_recovery": {
+        "mean": 0.06836,
+        "sd": 0.0086034509599958
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ]
+    },
+    {
+      "condition": "stopword_removal",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.0762501788223676,
+        "sd": 0.012980119699429303
+      },
+      "distribution": "zipf_iid",
+      "family": "original_extended",
+      "language": "lus",
+      "partition": 20260901,
+      "query_weighted_recovery": {
+        "mean": 0.53572,
+        "sd": 0.039244089062122345
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ]
+    },
+    {
+      "condition": "tokenisation_only",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.12390981963927858,
+        "sd": 0.018628873310179053
+      },
+      "distribution": "uniform_iid",
+      "family": "original_extended",
+      "language": "lus",
+      "partition": 20260901,
+      "query_weighted_recovery": {
+        "mean": 0.12280999999999997,
+        "sd": 0.018601128997993644
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ]
+    },
+    {
+      "condition": "tokenisation_only",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.10607803089108023,
+        "sd": 0.022937401783505142
+      },
+      "distribution": "zipf_iid",
+      "family": "original_extended",
+      "language": "lus",
+      "partition": 20260901,
+      "query_weighted_recovery": {
+        "mean": 0.5582300000000001,
+        "sd": 0.026606629565619634
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ]
+    },
+    {
+      "condition": "stemming",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.08919999999999999,
+        "sd": 0.016817979796766448
+      },
+      "distribution": "uniform_iid",
+      "family": "partition",
+      "language": "en",
+      "partition": 20261007,
+      "query_weighted_recovery": {
+        "mean": 0.08778000000000001,
+        "sd": 0.018816883671615527
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "stemming",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.0951988561487115,
+        "sd": 0.020685359089579133
+      },
+      "distribution": "zipf_iid",
+      "family": "partition",
+      "language": "en",
+      "partition": 20261007,
+      "query_weighted_recovery": {
+        "mean": 0.5607,
+        "sd": 0.023851811019058686
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "stopword_removal",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.056600000000000004,
+        "sd": 0.008896940797575062
+      },
+      "distribution": "uniform_iid",
+      "family": "partition",
+      "language": "en",
+      "partition": 20261007,
+      "query_weighted_recovery": {
+        "mean": 0.056540000000000014,
+        "sd": 0.010110522571393958
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "stopword_removal",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.0642179417489166,
+        "sd": 0.012112487694965599
+      },
+      "distribution": "zipf_iid",
+      "family": "partition",
+      "language": "en",
+      "partition": 20261007,
+      "query_weighted_recovery": {
+        "mean": 0.4806,
+        "sd": 0.035695626871898166
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "tokenisation_only",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.10839999999999998,
+        "sd": 0.011226951698677804
+      },
+      "distribution": "uniform_iid",
+      "family": "partition",
+      "language": "en",
+      "partition": 20261007,
+      "query_weighted_recovery": {
+        "mean": 0.10882,
+        "sd": 0.010244760178311206
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "tokenisation_only",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.10954807790114336,
+        "sd": 0.017512030273036387
+      },
+      "distribution": "zipf_iid",
+      "family": "partition",
+      "language": "en",
+      "partition": 20261007,
+      "query_weighted_recovery": {
+        "mean": 0.5578200000000001,
+        "sd": 0.03433125560056187
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "stemming",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.0798,
+        "sd": 0.012523755205386459
+      },
+      "distribution": "uniform_iid",
+      "family": "partition",
+      "language": "lus",
+      "partition": 20261007,
+      "query_weighted_recovery": {
+        "mean": 0.07919999999999999,
+        "sd": 0.012917516101101723
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "stemming",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.07628441941707953,
+        "sd": 0.014325248124483768
+      },
+      "distribution": "zipf_iid",
+      "family": "partition",
+      "language": "lus",
+      "partition": 20261007,
+      "query_weighted_recovery": {
+        "mean": 0.54626,
+        "sd": 0.02172372998461462
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "stopword_removal",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.05940000000000001,
+        "sd": 0.012038826077875424
+      },
+      "distribution": "uniform_iid",
+      "family": "partition",
+      "language": "lus",
+      "partition": 20261007,
+      "query_weighted_recovery": {
+        "mean": 0.058660000000000004,
+        "sd": 0.012349017054900453
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "stopword_removal",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.06371279814822753,
+        "sd": 0.009880519028419138
+      },
+      "distribution": "zipf_iid",
+      "family": "partition",
+      "language": "lus",
+      "partition": 20261007,
+      "query_weighted_recovery": {
+        "mean": 0.53466,
+        "sd": 0.02334096065813154
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "tokenisation_only",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.13579999999999998,
+        "sd": 0.01960612149304395
+      },
+      "distribution": "uniform_iid",
+      "family": "partition",
+      "language": "lus",
+      "partition": 20261007,
+      "query_weighted_recovery": {
+        "mean": 0.13463999999999998,
+        "sd": 0.0197517481645437
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "tokenisation_only",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.16308054888843565,
+        "sd": 0.013680751640932583
+      },
+      "distribution": "zipf_iid",
+      "family": "partition",
+      "language": "lus",
+      "partition": 20261007,
+      "query_weighted_recovery": {
+        "mean": 0.65576,
+        "sd": 0.018974321829485462
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "stemming",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.089,
+        "sd": 0.01681930108205715
+      },
+      "distribution": "uniform_iid",
+      "family": "partition",
+      "language": "en",
+      "partition": 20261008,
+      "query_weighted_recovery": {
+        "mean": 0.08853999999999998,
+        "sd": 0.016425738610147456
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "stemming",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.09796306983829083,
+        "sd": 0.013539606489244176
+      },
+      "distribution": "zipf_iid",
+      "family": "partition",
+      "language": "en",
+      "partition": 20261008,
+      "query_weighted_recovery": {
+        "mean": 0.5605,
+        "sd": 0.024074560109053806
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "stopword_removal",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.06899999999999999,
+        "sd": 0.01655294535724685
+      },
+      "distribution": "uniform_iid",
+      "family": "partition",
+      "language": "en",
+      "partition": 20261008,
+      "query_weighted_recovery": {
+        "mean": 0.06892,
+        "sd": 0.01771733614288559
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "stopword_removal",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.07755687014940273,
+        "sd": 0.011026711736923277
+      },
+      "distribution": "zipf_iid",
+      "family": "partition",
+      "language": "en",
+      "partition": 20261008,
+      "query_weighted_recovery": {
+        "mean": 0.50952,
+        "sd": 0.029707193292758793
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "tokenisation_only",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.17539999999999997,
+        "sd": 0.017462340431148776
+      },
+      "distribution": "uniform_iid",
+      "family": "partition",
+      "language": "en",
+      "partition": 20261008,
+      "query_weighted_recovery": {
+        "mean": 0.17417999999999997,
+        "sd": 0.01693213906549711
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "tokenisation_only",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.20331569229818705,
+        "sd": 0.01740546201711117
+      },
+      "distribution": "zipf_iid",
+      "family": "partition",
+      "language": "en",
+      "partition": 20261008,
+      "query_weighted_recovery": {
+        "mean": 0.5681,
+        "sd": 0.11677356055393891
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "stemming",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.05840000000000001,
+        "sd": 0.010101705026600433
+      },
+      "distribution": "uniform_iid",
+      "family": "partition",
+      "language": "lus",
+      "partition": 20261008,
+      "query_weighted_recovery": {
+        "mean": 0.057600000000000005,
+        "sd": 0.008735114322218239
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "stemming",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.07703668500358896,
+        "sd": 0.006956753626132333
+      },
+      "distribution": "zipf_iid",
+      "family": "partition",
+      "language": "lus",
+      "partition": 20261008,
+      "query_weighted_recovery": {
+        "mean": 0.51806,
+        "sd": 0.033465876484695394
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "stopword_removal",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.057800000000000004,
+        "sd": 0.009589345939924974
+      },
+      "distribution": "uniform_iid",
+      "family": "partition",
+      "language": "lus",
+      "partition": 20261008,
+      "query_weighted_recovery": {
+        "mean": 0.05736,
+        "sd": 0.01135910794619601
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "stopword_removal",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.06337221078479834,
+        "sd": 0.00794168469762928
+      },
+      "distribution": "zipf_iid",
+      "family": "partition",
+      "language": "lus",
+      "partition": 20261008,
+      "query_weighted_recovery": {
+        "mean": 0.5010399999999999,
+        "sd": 0.015333565215637952
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "tokenisation_only",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.131,
+        "sd": 0.016227548592850777
+      },
+      "distribution": "uniform_iid",
+      "family": "partition",
+      "language": "lus",
+      "partition": 20261008,
+      "query_weighted_recovery": {
+        "mean": 0.13188,
+        "sd": 0.014956886188122328
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "tokenisation_only",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.13881270383991962,
+        "sd": 0.020864007464434984
+      },
+      "distribution": "zipf_iid",
+      "family": "partition",
+      "language": "lus",
+      "partition": 20261008,
+      "query_weighted_recovery": {
+        "mean": 0.49806,
+        "sd": 0.041588251546159846
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "stemming",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.06480000000000001,
+        "sd": 0.008702490065109718
+      },
+      "distribution": "uniform_iid",
+      "family": "partition",
+      "language": "en",
+      "partition": 20261009,
+      "query_weighted_recovery": {
+        "mean": 0.06538,
+        "sd": 0.009820364329064147
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "stemming",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.05853678999592721,
+        "sd": 0.013149180317873765
+      },
+      "distribution": "zipf_iid",
+      "family": "partition",
+      "language": "en",
+      "partition": 20261009,
+      "query_weighted_recovery": {
+        "mean": 0.43842,
+        "sd": 0.03687931669648992
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "stopword_removal",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.05820000000000001,
+        "sd": 0.011679041056525145
+      },
+      "distribution": "uniform_iid",
+      "family": "partition",
+      "language": "en",
+      "partition": 20261009,
+      "query_weighted_recovery": {
+        "mean": 0.05486,
+        "sd": 0.012797239285616773
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "stopword_removal",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.061225224388610076,
+        "sd": 0.009889123197180378
+      },
+      "distribution": "zipf_iid",
+      "family": "partition",
+      "language": "en",
+      "partition": 20261009,
+      "query_weighted_recovery": {
+        "mean": 0.50056,
+        "sd": 0.018557490251767474
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "tokenisation_only",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.1336,
+        "sd": 0.01114749598190852
+      },
+      "distribution": "uniform_iid",
+      "family": "partition",
+      "language": "en",
+      "partition": 20261009,
+      "query_weighted_recovery": {
+        "mean": 0.13094,
+        "sd": 0.013148062806191468
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "tokenisation_only",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.12912306520480454,
+        "sd": 0.019332829060986392
+      },
+      "distribution": "zipf_iid",
+      "family": "partition",
+      "language": "en",
+      "partition": 20261009,
+      "query_weighted_recovery": {
+        "mean": 0.6033,
+        "sd": 0.024505645608036253
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "stemming",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.05740000000000001,
+        "sd": 0.011815244390193545
+      },
+      "distribution": "uniform_iid",
+      "family": "partition",
+      "language": "lus",
+      "partition": 20261009,
+      "query_weighted_recovery": {
+        "mean": 0.05584,
+        "sd": 0.010777672393528307
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "stemming",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.0653133063735211,
+        "sd": 0.00971609237695846
+      },
+      "distribution": "zipf_iid",
+      "family": "partition",
+      "language": "lus",
+      "partition": 20261009,
+      "query_weighted_recovery": {
+        "mean": 0.46142000000000005,
+        "sd": 0.06965543450123297
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "stopword_removal",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.046599999999999996,
+        "sd": 0.007720103626247514
+      },
+      "distribution": "uniform_iid",
+      "family": "partition",
+      "language": "lus",
+      "partition": 20261009,
+      "query_weighted_recovery": {
+        "mean": 0.04432,
+        "sd": 0.009375713306197029
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "stopword_removal",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.04446422012497594,
+        "sd": 0.010337718895429488
+      },
+      "distribution": "zipf_iid",
+      "family": "partition",
+      "language": "lus",
+      "partition": 20261009,
+      "query_weighted_recovery": {
+        "mean": 0.43084000000000006,
+        "sd": 0.03346823369505279
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "tokenisation_only",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.0992,
+        "sd": 0.016975799768428522
+      },
+      "distribution": "uniform_iid",
+      "family": "partition",
+      "language": "lus",
+      "partition": 20261009,
+      "query_weighted_recovery": {
+        "mean": 0.0993,
+        "sd": 0.01848464828505596
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "tokenisation_only",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.12553658948014693,
+        "sd": 0.010090958077123282
+      },
+      "distribution": "zipf_iid",
+      "family": "partition",
+      "language": "lus",
+      "partition": 20261009,
+      "query_weighted_recovery": {
+        "mean": 0.4608,
+        "sd": 0.008011103405759893
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "stemming",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.06500000000000002,
+        "sd": 0.007007932013876213
+      },
+      "distribution": "uniform_iid",
+      "family": "partition",
+      "language": "en",
+      "partition": 20261017,
+      "query_weighted_recovery": {
+        "mean": 0.06534,
+        "sd": 0.008227352753670729
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "stemming",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.07538300084307627,
+        "sd": 0.016714893514833153
+      },
+      "distribution": "zipf_iid",
+      "family": "partition",
+      "language": "en",
+      "partition": 20261017,
+      "query_weighted_recovery": {
+        "mean": 0.5130399999999999,
+        "sd": 0.02552990403428888
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "stopword_removal",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.0522,
+        "sd": 0.009953223933312596
+      },
+      "distribution": "uniform_iid",
+      "family": "partition",
+      "language": "en",
+      "partition": 20261017,
+      "query_weighted_recovery": {
+        "mean": 0.05174000000000001,
+        "sd": 0.010000466655778285
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "stopword_removal",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.054151409928035854,
+        "sd": 0.009763302936123503
+      },
+      "distribution": "zipf_iid",
+      "family": "partition",
+      "language": "en",
+      "partition": 20261017,
+      "query_weighted_recovery": {
+        "mean": 0.42268,
+        "sd": 0.07927388248625422
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "tokenisation_only",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.1306,
+        "sd": 0.01250955190599923
+      },
+      "distribution": "uniform_iid",
+      "family": "partition",
+      "language": "en",
+      "partition": 20261017,
+      "query_weighted_recovery": {
+        "mean": 0.13022,
+        "sd": 0.011912439809804802
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "tokenisation_only",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.14966895837527822,
+        "sd": 0.017939623306556563
+      },
+      "distribution": "zipf_iid",
+      "family": "partition",
+      "language": "en",
+      "partition": 20261017,
+      "query_weighted_recovery": {
+        "mean": 0.54024,
+        "sd": 0.1207420685225788
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "stemming",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.05920000000000001,
+        "sd": 0.008230026326405846
+      },
+      "distribution": "uniform_iid",
+      "family": "partition",
+      "language": "lus",
+      "partition": 20261017,
+      "query_weighted_recovery": {
+        "mean": 0.058120000000000005,
+        "sd": 0.009333428570942668
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "stemming",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.07015110953033882,
+        "sd": 0.008154256572219083
+      },
+      "distribution": "zipf_iid",
+      "family": "partition",
+      "language": "lus",
+      "partition": 20261017,
+      "query_weighted_recovery": {
+        "mean": 0.4944800000000001,
+        "sd": 0.04236824806909585
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "stopword_removal",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.06440000000000001,
+        "sd": 0.008369255907453448
+      },
+      "distribution": "uniform_iid",
+      "family": "partition",
+      "language": "lus",
+      "partition": 20261017,
+      "query_weighted_recovery": {
+        "mean": 0.06488,
+        "sd": 0.009496759681304168
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "stopword_removal",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.06875203360750602,
+        "sd": 0.008943869994903502
+      },
+      "distribution": "zipf_iid",
+      "family": "partition",
+      "language": "lus",
+      "partition": 20261017,
+      "query_weighted_recovery": {
+        "mean": 0.5247599999999999,
+        "sd": 0.032971610684209986
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "tokenisation_only",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.1364,
+        "sd": 0.007820201759261425
+      },
+      "distribution": "uniform_iid",
+      "family": "partition",
+      "language": "lus",
+      "partition": 20261017,
+      "query_weighted_recovery": {
+        "mean": 0.13556,
+        "sd": 0.013428924007529418
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "tokenisation_only",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.14500238527595308,
+        "sd": 0.008307630704610141
+      },
+      "distribution": "zipf_iid",
+      "family": "partition",
+      "language": "lus",
+      "partition": 20261017,
+      "query_weighted_recovery": {
+        "mean": 0.6259600000000001,
+        "sd": 0.01916172110107951
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "stemming",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.06840000000000002,
+        "sd": 0.014446837408620307
+      },
+      "distribution": "uniform_iid",
+      "family": "partition",
+      "language": "en",
+      "partition": 20261018,
+      "query_weighted_recovery": {
+        "mean": 0.06916,
+        "sd": 0.014686289902868972
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "stemming",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.08324945212502548,
+        "sd": 0.014679184313757792
+      },
+      "distribution": "zipf_iid",
+      "family": "partition",
+      "language": "en",
+      "partition": 20261018,
+      "query_weighted_recovery": {
+        "mean": 0.5015799999999999,
+        "sd": 0.03396409214973301
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "stopword_removal",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.0626,
+        "sd": 0.016167182122366834
+      },
+      "distribution": "uniform_iid",
+      "family": "partition",
+      "language": "en",
+      "partition": 20261018,
+      "query_weighted_recovery": {
+        "mean": 0.06246,
+        "sd": 0.01700380349608091
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "stopword_removal",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.0626827283052919,
+        "sd": 0.01734851107721175
+      },
+      "distribution": "zipf_iid",
+      "family": "partition",
+      "language": "en",
+      "partition": 20261018,
+      "query_weighted_recovery": {
+        "mean": 0.4473000000000001,
+        "sd": 0.032553443238260774
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "tokenisation_only",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.16279999999999997,
+        "sd": 0.021770520332678216
+      },
+      "distribution": "uniform_iid",
+      "family": "partition",
+      "language": "en",
+      "partition": 20261018,
+      "query_weighted_recovery": {
+        "mean": 0.16297999999999999,
+        "sd": 0.024021000071696524
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "tokenisation_only",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.1767658119669712,
+        "sd": 0.0218333044045356
+      },
+      "distribution": "zipf_iid",
+      "family": "partition",
+      "language": "en",
+      "partition": 20261018,
+      "query_weighted_recovery": {
+        "mean": 0.6507400000000001,
+        "sd": 0.015914786974522924
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "stemming",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.07200000000000001,
+        "sd": 0.008589399151150085
+      },
+      "distribution": "uniform_iid",
+      "family": "partition",
+      "language": "lus",
+      "partition": 20261018,
+      "query_weighted_recovery": {
+        "mean": 0.07039999999999999,
+        "sd": 0.010023971268913336
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "stemming",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.07930591177318211,
+        "sd": 0.016078501087998864
+      },
+      "distribution": "zipf_iid",
+      "family": "partition",
+      "language": "lus",
+      "partition": 20261018,
+      "query_weighted_recovery": {
+        "mean": 0.38464000000000004,
+        "sd": 0.0470666477809216
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "stopword_removal",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.05900000000000001,
+        "sd": 0.010801234497346433
+      },
+      "distribution": "uniform_iid",
+      "family": "partition",
+      "language": "lus",
+      "partition": 20261018,
+      "query_weighted_recovery": {
+        "mean": 0.057920000000000006,
+        "sd": 0.01219041517841875
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "stopword_removal",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.07377574765510708,
+        "sd": 0.011045058333744417
+      },
+      "distribution": "zipf_iid",
+      "family": "partition",
+      "language": "lus",
+      "partition": 20261018,
+      "query_weighted_recovery": {
+        "mean": 0.50538,
+        "sd": 0.06923052955324135
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "tokenisation_only",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.11000000000000001,
+        "sd": 0.014817407180595248
+      },
+      "distribution": "uniform_iid",
+      "family": "partition",
+      "language": "lus",
+      "partition": 20261018,
+      "query_weighted_recovery": {
+        "mean": 0.10982,
+        "sd": 0.01665344809141138
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "tokenisation_only",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.11953568231649987,
+        "sd": 0.01772142302735581
+      },
+      "distribution": "zipf_iid",
+      "family": "partition",
+      "language": "lus",
+      "partition": 20261018,
+      "query_weighted_recovery": {
+        "mean": 0.56522,
+        "sd": 0.016433150776538404
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "stemming",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.046799999999999994,
+        "sd": 0.008702490065109718
+      },
+      "distribution": "uniform_iid",
+      "family": "partition",
+      "language": "en",
+      "partition": 20261019,
+      "query_weighted_recovery": {
+        "mean": 0.04682,
+        "sd": 0.00799080026586129
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "stemming",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.05834303999566429,
+        "sd": 0.011285199261307227
+      },
+      "distribution": "zipf_iid",
+      "family": "partition",
+      "language": "en",
+      "partition": 20261019,
+      "query_weighted_recovery": {
+        "mean": 0.44138,
+        "sd": 0.040459961003990644
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "stopword_removal",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.06539999999999999,
+        "sd": 0.018013575127910863
+      },
+      "distribution": "uniform_iid",
+      "family": "partition",
+      "language": "en",
+      "partition": 20261019,
+      "query_weighted_recovery": {
+        "mean": 0.06594,
+        "sd": 0.019249484841591648
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "stopword_removal",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.06509402471670629,
+        "sd": 0.017256322811762217
+      },
+      "distribution": "zipf_iid",
+      "family": "partition",
+      "language": "en",
+      "partition": 20261019,
+      "query_weighted_recovery": {
+        "mean": 0.49984,
+        "sd": 0.03897883186209322
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "tokenisation_only",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.17219999999999996,
+        "sd": 0.008715248450592529
+      },
+      "distribution": "uniform_iid",
+      "family": "partition",
+      "language": "en",
+      "partition": 20261019,
+      "query_weighted_recovery": {
+        "mean": 0.16956,
+        "sd": 0.011245858496946036
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "tokenisation_only",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.1906644679696326,
+        "sd": 0.024174961274750478
+      },
+      "distribution": "zipf_iid",
+      "family": "partition",
+      "language": "en",
+      "partition": 20261019,
+      "query_weighted_recovery": {
+        "mean": 0.6926599999999999,
+        "sd": 0.02162777021434351
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "stemming",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.07400000000000001,
+        "sd": 0.013366625103842282
+      },
+      "distribution": "uniform_iid",
+      "family": "partition",
+      "language": "lus",
+      "partition": 20261019,
+      "query_weighted_recovery": {
+        "mean": 0.07315999999999999,
+        "sd": 0.013135126781099434
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "stemming",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.08336365272762998,
+        "sd": 0.012764749604373711
+      },
+      "distribution": "zipf_iid",
+      "family": "partition",
+      "language": "lus",
+      "partition": 20261019,
+      "query_weighted_recovery": {
+        "mean": 0.54768,
+        "sd": 0.0277033812617401
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "stopword_removal",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.056400000000000006,
+        "sd": 0.006239658110292049
+      },
+      "distribution": "uniform_iid",
+      "family": "partition",
+      "language": "lus",
+      "partition": 20261019,
+      "query_weighted_recovery": {
+        "mean": 0.05414,
+        "sd": 0.006233992834986794
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "stopword_removal",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.0609497675427609,
+        "sd": 0.007573861446505177
+      },
+      "distribution": "zipf_iid",
+      "family": "partition",
+      "language": "lus",
+      "partition": 20261019,
+      "query_weighted_recovery": {
+        "mean": 0.50396,
+        "sd": 0.028240522500674645
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "tokenisation_only",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.123,
+        "sd": 0.023213980461973534
+      },
+      "distribution": "uniform_iid",
+      "family": "partition",
+      "language": "lus",
+      "partition": 20261019,
+      "query_weighted_recovery": {
+        "mean": 0.12223999999999999,
+        "sd": 0.024158145624198886
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "tokenisation_only",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.1360300226278916,
+        "sd": 0.012102890782976003
+      },
+      "distribution": "zipf_iid",
+      "family": "partition",
+      "language": "lus",
+      "partition": 20261019,
+      "query_weighted_recovery": {
+        "mean": 0.62682,
+        "sd": 0.013633113282657696
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "stemming",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.0408553707137702,
+        "sd": 0.013442944524918147
+      },
+      "distribution": "zipf_iid",
+      "family": "shuffled",
+      "language": "en",
+      "partition": 20260901,
+      "query_weighted_recovery": {
+        "mean": 0.02154,
+        "sd": 0.012390695433805696
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "stopword_removal",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.03458417051466434,
+        "sd": 0.007530891366710006
+      },
+      "distribution": "zipf_iid",
+      "family": "shuffled",
+      "language": "en",
+      "partition": 20260901,
+      "query_weighted_recovery": {
+        "mean": 0.01654,
+        "sd": 0.005553017197884408
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "tokenisation_only",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.09477675097537619,
+        "sd": 0.01400558562008691
+      },
+      "distribution": "zipf_iid",
+      "family": "shuffled",
+      "language": "en",
+      "partition": 20260901,
+      "query_weighted_recovery": {
+        "mean": 0.0659,
+        "sd": 0.03200267349942987
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "stemming",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.06674696036299718,
+        "sd": 0.01263464372531484
+      },
+      "distribution": "zipf_iid",
+      "family": "shuffled",
+      "language": "lus",
+      "partition": 20260901,
+      "query_weighted_recovery": {
+        "mean": 0.05424,
+        "sd": 0.04139176514987277
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "stopword_removal",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.05728566223478648,
+        "sd": 0.012600773676228702
+      },
+      "distribution": "zipf_iid",
+      "family": "shuffled",
+      "language": "lus",
+      "partition": 20260901,
+      "query_weighted_recovery": {
+        "mean": 0.05054000000000001,
+        "sd": 0.03388438512878101
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "condition": "tokenisation_only",
+      "distinct_keyword_macro_recovery": {
+        "mean": 0.08173973409207945,
+        "sd": 0.020054034866659114
+      },
+      "distribution": "zipf_iid",
+      "family": "shuffled",
+      "language": "lus",
+      "partition": 20260901,
+      "query_weighted_recovery": {
+        "mean": 0.0829,
+        "sd": 0.04299366878454961
+      },
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    }
+  ]
+}

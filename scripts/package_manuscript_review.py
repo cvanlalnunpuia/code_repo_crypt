@@ -23,6 +23,8 @@ def main():
                   'scripts/reviewer_sensitivity.py', 'scripts/finalize_reviewer_revision.py',
                   'scripts/prepare_heldout_review.py', 'tests/test_reviewer_sensitivity.py', 'requirements-2022.lock'])
     names.update(['paper/submission-information.json', 'paper/submission-readiness.json', 'paper/submission-checklist.md', 'paper/cover-letter.md'])
+    names.update(['docs/author-review-response.md', 'paper/author-review-verification.json'])
+    names.update(['docs/discover-cybersecurity-check.md'])
     names.update(['paper/sn-jnl.cls', 'paper/sn-mathphys-num.bst', 'paper/sn-bibliography.bib', 'paper/Fig1.pdf', 'paper/Fig2.pdf'])
     names.update(path.relative_to(ROOT).as_posix() for path in (ROOT / 'scripts').glob('*.py'))
     names.update(path.relative_to(ROOT).as_posix() for path in (ROOT / 'configs').glob('*.json'))

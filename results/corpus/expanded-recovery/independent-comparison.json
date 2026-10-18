@@ -1,0 +1,1928 @@
+{
+  "all_matched": true,
+  "comparison_count": 120,
+  "comparisons": [
+    {
+      "cost_audit": {
+        "ambiguous_initial_assignment": true,
+        "cost_and_assignment_sha256": "ae8ac4162282a1e826ca3076da4b66bebc3fe9df254a98f560387caa195f1ffa",
+        "maximum_cost_error": 8.731149137020111e-10,
+        "maximum_independent_objective_gap": 5.820766091346741e-11,
+        "maximum_relative_cost_error": 2.2847586572178303e-15,
+        "scope": "Independent likelihood and assignment-objective checks at every production-scale update. The SciPy assignment library was shared. Tied optimal assignments were permitted.",
+        "updates_checked": 1001
+      },
+      "dataset_id": "en:stemming",
+      "distribution": "uniform_iid",
+      "matched": true,
+      "maximum_score_difference": 0.0,
+      "seed": 0
+    },
+    {
+      "cost_audit": {
+        "ambiguous_initial_assignment": true,
+        "cost_and_assignment_sha256": "bf11c6300f3fe5a4eeaa7fa395c36b6f6499d06fea90e42e4b1d8bc95c0326db",
+        "maximum_cost_error": 9.313225746154785e-10,
+        "maximum_independent_objective_gap": 5.820766091346741e-11,
+        "maximum_relative_cost_error": 2.487776821866405e-15,
+        "scope": "Independent likelihood and assignment-objective checks at every production-scale update. The SciPy assignment library was shared. Tied optimal assignments were permitted.",
+        "updates_checked": 1001
+      },
+      "dataset_id": "en:stemming",
+      "distribution": "uniform_iid",
+      "matched": true,
+      "maximum_score_difference": 0.0,
+      "seed": 1
+    },
+    {
+      "cost_audit": {
+        "ambiguous_initial_assignment": true,
+        "cost_and_assignment_sha256": "f0bd463d14340dcd3f723fbbc9df30f4647753421c80c7aaf61028d9c6b3085d",
+        "maximum_cost_error": 9.313225746154785e-10,
+        "maximum_independent_objective_gap": 0.0,
+        "maximum_relative_cost_error": 2.484803432991542e-15,
+        "scope": "Independent likelihood and assignment-objective checks at every production-scale update. The SciPy assignment library was shared. Tied optimal assignments were permitted.",
+        "updates_checked": 1001
+      },
+      "dataset_id": "en:stemming",
+      "distribution": "uniform_iid",
+      "matched": true,
+      "maximum_score_difference": 0.0,
+      "seed": 2
+    },
+    {
+      "cost_audit": {
+        "ambiguous_initial_assignment": true,
+        "cost_and_assignment_sha256": "40aee6a4657ef67b5e7869dbf3bc6f8397f4e11b05d3d3f8a255028ede3d2d5b",
+        "maximum_cost_error": 9.313225746154785e-10,
+        "maximum_independent_objective_gap": 1.1641532182693481e-10,
+        "maximum_relative_cost_error": 2.4842776330972614e-15,
+        "scope": "Independent likelihood and assignment-objective checks at every production-scale update. The SciPy assignment library was shared. Tied optimal assignments were permitted.",
+        "updates_checked": 1001
+      },
+      "dataset_id": "en:stemming",
+      "distribution": "uniform_iid",
+      "matched": true,
+      "maximum_score_difference": 0.0,
+      "seed": 3
+    },
+    {
+      "cost_audit": {
+        "ambiguous_initial_assignment": true,
+        "cost_and_assignment_sha256": "0ba93fb46894484a46eec8c3c993f229389572a50ed03c741539ca1d083a2e30",
+        "maximum_cost_error": 9.313225746154785e-10,
+        "maximum_independent_objective_gap": 1.1641532182693481e-10,
+        "maximum_relative_cost_error": 2.713103116505132e-15,
+        "scope": "Independent likelihood and assignment-objective checks at every production-scale update. The SciPy assignment library was shared. Tied optimal assignments were permitted.",
+        "updates_checked": 1001
+      },
+      "dataset_id": "en:stemming",
+      "distribution": "uniform_iid",
+      "matched": true,
+      "maximum_score_difference": 0.0,
+      "seed": 4
+    },
+    {
+      "cost_audit": {
+        "ambiguous_initial_assignment": true,
+        "cost_and_assignment_sha256": "c7aa92e33f4e7067f675219585aca23f4ba19a0d3265e50a72de9f03281432ce",
+        "maximum_cost_error": 9.313225746154785e-10,
+        "maximum_independent_objective_gap": 1.1641532182693481e-10,
+        "maximum_relative_cost_error": 2.618414476671113e-15,
+        "scope": "Independent likelihood and assignment-objective checks at every production-scale update. The SciPy assignment library was shared. Tied optimal assignments were permitted.",
+        "updates_checked": 1001
+      },
+      "dataset_id": "en:stemming",
+      "distribution": "uniform_iid",
+      "matched": true,
+      "maximum_score_difference": 0.0,
+      "seed": 5
+    },
+    {
+      "cost_audit": {
+        "ambiguous_initial_assignment": true,
+        "cost_and_assignment_sha256": "21c379fca7bb538fae1d8187ec0adcee4b33e6a283f96608b5c669553235276d",
+        "maximum_cost_error": 9.313225746154785e-10,
+        "maximum_independent_objective_gap": 1.1641532182693481e-10,
+        "maximum_relative_cost_error": 2.6419254074002635e-15,
+        "scope": "Independent likelihood and assignment-objective checks at every production-scale update. The SciPy assignment library was shared. Tied optimal assignments were permitted.",
+        "updates_checked": 1001
+      },
+      "dataset_id": "en:stemming",
+      "distribution": "uniform_iid",
+      "matched": true,
+      "maximum_score_difference": 0.0,
+      "seed": 6
+    },
+    {
+      "cost_audit": {
+        "ambiguous_initial_assignment": true,
+        "cost_and_assignment_sha256": "1320b786bb1dfc78cad44d0c921a54e0e32b05233cdf9a606fa7e234464597ef",
+        "maximum_cost_error": 1.0477378964424133e-09,
+        "maximum_independent_objective_gap": 0.0,
+        "maximum_relative_cost_error": 2.8464410175753153e-15,
+        "scope": "Independent likelihood and assignment-objective checks at every production-scale update. The SciPy assignment library was shared. Tied optimal assignments were permitted.",
+        "updates_checked": 1001
+      },
+      "dataset_id": "en:stemming",
+      "distribution": "uniform_iid",
+      "matched": true,
+      "maximum_score_difference": 0.0,
+      "seed": 7
+    },
+    {
+      "cost_audit": {
+        "ambiguous_initial_assignment": true,
+        "cost_and_assignment_sha256": "557f04436eb2d47b649ec789a88b2e77e565f7568b1910493ec1b7cf4c0458b9",
+        "maximum_cost_error": 9.89530235528946e-10,
+        "maximum_independent_objective_gap": 0.0,
+        "maximum_relative_cost_error": 2.649272885710445e-15,
+        "scope": "Independent likelihood and assignment-objective checks at every production-scale update. The SciPy assignment library was shared. Tied optimal assignments were permitted.",
+        "updates_checked": 1001
+      },
+      "dataset_id": "en:stemming",
+      "distribution": "uniform_iid",
+      "matched": true,
+      "maximum_score_difference": 0.0,
+      "seed": 8
+    },
+    {
+      "cost_audit": {
+        "ambiguous_initial_assignment": true,
+        "cost_and_assignment_sha256": "82d1aaa83560a69b2d5553c0cf367d91111e46982d5207e5fa864c0b0095a613",
+        "maximum_cost_error": 1.1641532182693481e-09,
+        "maximum_independent_objective_gap": 0.0,
+        "maximum_relative_cost_error": 3.0579386086649137e-15,
+        "scope": "Independent likelihood and assignment-objective checks at every production-scale update. The SciPy assignment library was shared. Tied optimal assignments were permitted.",
+        "updates_checked": 1001
+      },
+      "dataset_id": "en:stemming",
+      "distribution": "uniform_iid",
+      "matched": true,
+      "maximum_score_difference": 0.0,
+      "seed": 9
+    },
+    {
+      "cost_audit": {
+        "ambiguous_initial_assignment": true,
+        "cost_and_assignment_sha256": "a5e9509551790238a42a58896aa599b0fefd8e2de86d8dcf65becc5f64dab119",
+        "maximum_cost_error": 9.89530235528946e-10,
+        "maximum_independent_objective_gap": 0.0,
+        "maximum_relative_cost_error": 2.689947212364947e-15,
+        "scope": "Independent likelihood and assignment-objective checks at every production-scale update. The SciPy assignment library was shared. Tied optimal assignments were permitted.",
+        "updates_checked": 1001
+      },
+      "dataset_id": "en:stemming",
+      "distribution": "zipf_iid",
+      "matched": true,
+      "maximum_score_difference": 0.0,
+      "seed": 0
+    },
+    {
+      "cost_audit": {
+        "ambiguous_initial_assignment": true,
+        "cost_and_assignment_sha256": "e2c0956187247dc31d3cc0b06089b7021a602b3ac10389e911155328954f730f",
+        "maximum_cost_error": 8.731149137020111e-10,
+        "maximum_independent_objective_gap": 0.0,
+        "maximum_relative_cost_error": 2.5208159420658016e-15,
+        "scope": "Independent likelihood and assignment-objective checks at every production-scale update. The SciPy assignment library was shared. Tied optimal assignments were permitted.",
+        "updates_checked": 1001
+      },
+      "dataset_id": "en:stemming",
+      "distribution": "zipf_iid",
+      "matched": true,
+      "maximum_score_difference": 0.0,
+      "seed": 1
+    },
+    {
+      "cost_audit": {
+        "ambiguous_initial_assignment": true,
+        "cost_and_assignment_sha256": "4311ed5ec2a5596f8951bd7b11e2877553fb868b5b02917fb52af325fc238775",
+        "maximum_cost_error": 8.731149137020111e-10,
+        "maximum_independent_objective_gap": 0.0,
+        "maximum_relative_cost_error": 2.5890202476314344e-15,
+        "scope": "Independent likelihood and assignment-objective checks at every production-scale update. The SciPy assignment library was shared. Tied optimal assignments were permitted.",
+        "updates_checked": 1001
+      },
+      "dataset_id": "en:stemming",
+      "distribution": "zipf_iid",
+      "matched": true,
+      "maximum_score_difference": 0.0,
+      "seed": 2
+    },
+    {
+      "cost_audit": {
+        "ambiguous_initial_assignment": true,
+        "cost_and_assignment_sha256": "c3e3501a1d88f483868bacf60262a4bea55ce9c431d631406e91584c7db378db",
+        "maximum_cost_error": 8.731149137020111e-10,
+        "maximum_independent_objective_gap": 0.0,
+        "maximum_relative_cost_error": 2.4418345153609288e-15,
+        "scope": "Independent likelihood and assignment-objective checks at every production-scale update. The SciPy assignment library was shared. Tied optimal assignments were permitted.",
+        "updates_checked": 1001
+      },
+      "dataset_id": "en:stemming",
+      "distribution": "zipf_iid",
+      "matched": true,
+      "maximum_score_difference": 0.0,
+      "seed": 3
+    },
+    {
+      "cost_audit": {
+        "ambiguous_initial_assignment": true,
+        "cost_and_assignment_sha256": "44f15f723313b4bdc4bae17e2b6fa30eb4e0b94f3139f66e0ff1ee5d51091523",
+        "maximum_cost_error": 9.313225746154785e-10,
+        "maximum_independent_objective_gap": 5.820766091346741e-11,
+        "maximum_relative_cost_error": 2.486829431196662e-15,
+        "scope": "Independent likelihood and assignment-objective checks at every production-scale update. The SciPy assignment library was shared. Tied optimal assignments were permitted.",
+        "updates_checked": 1001
+      },
+      "dataset_id": "en:stemming",
+      "distribution": "zipf_iid",
+      "matched": true,
+      "maximum_score_difference": 0.0,
+      "seed": 4
+    },
+    {
+      "cost_audit": {
+        "ambiguous_initial_assignment": true,
+        "cost_and_assignment_sha256": "a9919a5333b392ed86cf1bb09965aff973dd0241ce2760f40605ed74cce33a5e",
+        "maximum_cost_error": 8.149072527885437e-10,
+        "maximum_independent_objective_gap": 5.820766091346741e-11,
+        "maximum_relative_cost_error": 2.4584792249023376e-15,
+        "scope": "Independent likelihood and assignment-objective checks at every production-scale update. The SciPy assignment library was shared. Tied optimal assignments were permitted.",
+        "updates_checked": 1001
+      },
+      "dataset_id": "en:stemming",
+      "distribution": "zipf_iid",
+      "matched": true,
+      "maximum_score_difference": 0.0,
+      "seed": 5
+    },
+    {
+      "cost_audit": {
+        "ambiguous_initial_assignment": true,
+        "cost_and_assignment_sha256": "572f142099d5adc7313f37556a7e538b28e0e39ded817b5acbafbe3c079e6821",
+        "maximum_cost_error": 8.731149137020111e-10,
+        "maximum_independent_objective_gap": 0.0,
+        "maximum_relative_cost_error": 2.408995415802502e-15,
+        "scope": "Independent likelihood and assignment-objective checks at every production-scale update. The SciPy assignment library was shared. Tied optimal assignments were permitted.",
+        "updates_checked": 1001
+      },
+      "dataset_id": "en:stemming",
+      "distribution": "zipf_iid",
+      "matched": true,
+      "maximum_score_difference": 0.0,
+      "seed": 6
+    },
+    {
+      "cost_audit": {
+        "ambiguous_initial_assignment": true,
+        "cost_and_assignment_sha256": "4e05ed5cdda7d96d156508e79cc870b7c46b924b9c9176951aa3b880d0906869",
+        "maximum_cost_error": 8.731149137020111e-10,
+        "maximum_independent_objective_gap": 0.0,
+        "maximum_relative_cost_error": 2.3990359624699428e-15,
+        "scope": "Independent likelihood and assignment-objective checks at every production-scale update. The SciPy assignment library was shared. Tied optimal assignments were permitted.",
+        "updates_checked": 1001
+      },
+      "dataset_id": "en:stemming",
+      "distribution": "zipf_iid",
+      "matched": true,
+      "maximum_score_difference": 0.0,
+      "seed": 7
+    },
+    {
+      "cost_audit": {
+        "ambiguous_initial_assignment": true,
+        "cost_and_assignment_sha256": "a2d642cafb7e0852608c30fea697ac06a41ce06a96c0c9adb8c71b7416135032",
+        "maximum_cost_error": 8.149072527885437e-10,
+        "maximum_independent_objective_gap": 5.820766091346741e-11,
+        "maximum_relative_cost_error": 2.3069790220485172e-15,
+        "scope": "Independent likelihood and assignment-objective checks at every production-scale update. The SciPy assignment library was shared. Tied optimal assignments were permitted.",
+        "updates_checked": 1001
+      },
+      "dataset_id": "en:stemming",
+      "distribution": "zipf_iid",
+      "matched": true,
+      "maximum_score_difference": 0.0,
+      "seed": 8
+    },
+    {
+      "cost_audit": {
+        "ambiguous_initial_assignment": true,
+        "cost_and_assignment_sha256": "1fe302caeb7e89e91b341101faeba4cb9b4560dc987ad3ef9db753aa513e6ee9",
+        "maximum_cost_error": 1.0477378964424133e-09,
+        "maximum_independent_objective_gap": 0.0,
+        "maximum_relative_cost_error": 2.8755429435220916e-15,
+        "scope": "Independent likelihood and assignment-objective checks at every production-scale update. The SciPy assignment library was shared. Tied optimal assignments were permitted.",
+        "updates_checked": 1001
+      },
+      "dataset_id": "en:stemming",
+      "distribution": "zipf_iid",
+      "matched": true,
+      "maximum_score_difference": 0.0,
+      "seed": 9
+    },
+    {
+      "cost_audit": {
+        "ambiguous_initial_assignment": true,
+        "cost_and_assignment_sha256": "cdd49756c32cbac10aa5a1d8c2108037d9056c6c5b3752f0a4484b70b1db81d6",
+        "maximum_cost_error": 7.566995918750763e-10,
+        "maximum_independent_objective_gap": 0.0,
+        "maximum_relative_cost_error": 2.619347251503266e-15,
+        "scope": "Independent likelihood and assignment-objective checks at every production-scale update. The SciPy assignment library was shared. Tied optimal assignments were permitted.",
+        "updates_checked": 1001
+      },
+      "dataset_id": "en:stopword_removal",
+      "distribution": "uniform_iid",
+      "matched": true,
+      "maximum_score_difference": 0.0,
+      "seed": 0
+    },
+    {
+      "cost_audit": {
+        "ambiguous_initial_assignment": true,
+        "cost_and_assignment_sha256": "99e1f65fcc2456f929605213df80f93a17716115b493ba0a653f3e1e622c8073",
+        "maximum_cost_error": 7.566995918750763e-10,
+        "maximum_independent_objective_gap": 0.0,
+        "maximum_relative_cost_error": 2.5478737262708804e-15,
+        "scope": "Independent likelihood and assignment-objective checks at every production-scale update. The SciPy assignment library was shared. Tied optimal assignments were permitted.",
+        "updates_checked": 1001
+      },
+      "dataset_id": "en:stopword_removal",
+      "distribution": "uniform_iid",
+      "matched": true,
+      "maximum_score_difference": 0.0,
+      "seed": 1
+    },
+    {
+      "cost_audit": {
+        "ambiguous_initial_assignment": true,
+        "cost_and_assignment_sha256": "8e2757c072e4dfab7fee4dddb8e7af4b0a8da97914f1a802f5cd8550a8d83c60",
+        "maximum_cost_error": 7.566995918750763e-10,
+        "maximum_independent_objective_gap": 0.0,
+        "maximum_relative_cost_error": 2.58245305518564e-15,
+        "scope": "Independent likelihood and assignment-objective checks at every production-scale update. The SciPy assignment library was shared. Tied optimal assignments were permitted.",
+        "updates_checked": 1001
+      },
+      "dataset_id": "en:stopword_removal",
+      "distribution": "uniform_iid",
+      "matched": true,
+      "maximum_score_difference": 0.0,
+      "seed": 2
+    },
+    {
+      "cost_audit": {
+        "ambiguous_initial_assignment": true,
+        "cost_and_assignment_sha256": "0f42f5447f9655ee8f0112c3d8244742a7a591f6294ff7519ec3a6b4a944b47f",
+        "maximum_cost_error": 7.566995918750763e-10,
+        "maximum_independent_objective_gap": 0.0,
+        "maximum_relative_cost_error": 2.7016243352744766e-15,
+        "scope": "Independent likelihood and assignment-objective checks at every production-scale update. The SciPy assignment library was shared. Tied optimal assignments were permitted.",
+        "updates_checked": 1001
+      },
+      "dataset_id": "en:stopword_removal",
+      "distribution": "uniform_iid",
+      "matched": true,
+      "maximum_score_difference": 0.0,
+      "seed": 3
+    },
+    {
+      "cost_audit": {
+        "ambiguous_initial_assignment": true,
+        "cost_and_assignment_sha256": "22b0d76fd4de39d5ad0b7ef6d3290809f2c59616de1e524dec04e044e156b51d",
+        "maximum_cost_error": 6.984919309616089e-10,
+        "maximum_independent_objective_gap": 0.0,
+        "maximum_relative_cost_error": 2.6809183017401724e-15,
+        "scope": "Independent likelihood and assignment-objective checks at every production-scale update. The SciPy assignment library was shared. Tied optimal assignments were permitted.",
+        "updates_checked": 1001
+      },
+      "dataset_id": "en:stopword_removal",
+      "distribution": "uniform_iid",
+      "matched": true,
+      "maximum_score_difference": 0.0,
+      "seed": 4
+    },
+    {
+      "cost_audit": {
+        "ambiguous_initial_assignment": true,
+        "cost_and_assignment_sha256": "74ab45ec8415c86071cf109010398801827c9570424b46d935bf372987b936dd",
+        "maximum_cost_error": 7.566995918750763e-10,
+        "maximum_independent_objective_gap": 0.0,
+        "maximum_relative_cost_error": 2.7147259119886988e-15,
+        "scope": "Independent likelihood and assignment-objective checks at every production-scale update. The SciPy assignment library was shared. Tied optimal assignments were permitted.",
+        "updates_checked": 1001
+      },
+      "dataset_id": "en:stopword_removal",
+      "distribution": "uniform_iid",
+      "matched": true,
+      "maximum_score_difference": 0.0,
+      "seed": 5
+    },
+    {
+      "cost_audit": {
+        "ambiguous_initial_assignment": true,
+        "cost_and_assignment_sha256": "3fef3f6a8e164b397d0ed853084ddd49e8f291cd5cdb9fdb02256ad190e4b590",
+        "maximum_cost_error": 8.731149137020111e-10,
+        "maximum_independent_objective_gap": 0.0,
+        "maximum_relative_cost_error": 3.0277682737336536e-15,
+        "scope": "Independent likelihood and assignment-objective checks at every production-scale update. The SciPy assignment library was shared. Tied optimal assignments were permitted.",
+        "updates_checked": 1001
+      },
+      "dataset_id": "en:stopword_removal",
+      "distribution": "uniform_iid",
+      "matched": true,
+      "maximum_score_difference": 0.0,
+      "seed": 6
+    },
+    {
+      "cost_audit": {
+        "ambiguous_initial_assignment": true,
+        "cost_and_assignment_sha256": "0c059cf83b89eadedb9ebe7bcee91aa6332bb1018ab042ba69de4c3caebed8e0",
+        "maximum_cost_error": 7.566995918750763e-10,
+        "maximum_independent_objective_gap": 5.820766091346741e-11,
+        "maximum_relative_cost_error": 2.6044452340251115e-15,
+        "scope": "Independent likelihood and assignment-objective checks at every production-scale update. The SciPy assignment library was shared. Tied optimal assignments were permitted.",
+        "updates_checked": 1001
+      },
+      "dataset_id": "en:stopword_removal",
+      "distribution": "uniform_iid",
+      "matched": true,
+      "maximum_score_difference": 0.0,
+      "seed": 7
+    },
+    {
+      "cost_audit": {
+        "ambiguous_initial_assignment": true,
+        "cost_and_assignment_sha256": "95d9a5e483b655ffaef048482d262332b1ad220a62f9178285ffeefc7fcb9b96",
+        "maximum_cost_error": 6.984919309616089e-10,
+        "maximum_independent_objective_gap": 0.0,
+        "maximum_relative_cost_error": 2.456528280324671e-15,
+        "scope": "Independent likelihood and assignment-objective checks at every production-scale update. The SciPy assignment library was shared. Tied optimal assignments were permitted.",
+        "updates_checked": 1001
+      },
+      "dataset_id": "en:stopword_removal",
+      "distribution": "uniform_iid",
+      "matched": true,
+      "maximum_score_difference": 0.0,
+      "seed": 8
+    },
+    {
+      "cost_audit": {
+        "ambiguous_initial_assignment": true,
+        "cost_and_assignment_sha256": "c2de34989238ecab32fac1b47c6c659ef8e255697bbb6db6b93b1af100f4b2ef",
+        "maximum_cost_error": 7.566995918750763e-10,
+        "maximum_independent_objective_gap": 0.0,
+        "maximum_relative_cost_error": 2.627328166777449e-15,
+        "scope": "Independent likelihood and assignment-objective checks at every production-scale update. The SciPy assignment library was shared. Tied optimal assignments were permitted.",
+        "updates_checked": 1001
+      },
+      "dataset_id": "en:stopword_removal",
+      "distribution": "uniform_iid",
+      "matched": true,
+      "maximum_score_difference": 0.0,
+      "seed": 9
+    },
+    {
+      "cost_audit": {
+        "ambiguous_initial_assignment": true,
+        "cost_and_assignment_sha256": "18c27d4c0e18e45a0e788b3af895c05e60ce7206ecce150c11c318c7e64cff7b",
+        "maximum_cost_error": 7.566995918750763e-10,
+        "maximum_independent_objective_gap": 5.820766091346741e-11,
+        "maximum_relative_cost_error": 2.6297432359897493e-15,
+        "scope": "Independent likelihood and assignment-objective checks at every production-scale update. The SciPy assignment library was shared. Tied optimal assignments were permitted.",
+        "updates_checked": 1001
+      },
+      "dataset_id": "en:stopword_removal",
+      "distribution": "zipf_iid",
+      "matched": true,
+      "maximum_score_difference": 0.0,
+      "seed": 0
+    },
+    {
+      "cost_audit": {
+        "ambiguous_initial_assignment": true,
+        "cost_and_assignment_sha256": "9f4acd753701b538e9026957443db09bcf2e2b9ae1aab501398a932c4de1c3f8",
+        "maximum_cost_error": 6.984919309616089e-10,
+        "maximum_independent_objective_gap": 0.0,
+        "maximum_relative_cost_error": 2.488572693261531e-15,
+        "scope": "Independent likelihood and assignment-objective checks at every production-scale update. The SciPy assignment library was shared. Tied optimal assignments were permitted.",
+        "updates_checked": 1001
+      },
+      "dataset_id": "en:stopword_removal",
+      "distribution": "zipf_iid",
+      "matched": true,
+      "maximum_score_difference": 0.0,
+      "seed": 1
+    },
+    {
+      "cost_audit": {
+        "ambiguous_initial_assignment": true,
+        "cost_and_assignment_sha256": "83f292ddfbf21cba523facb4b77f4c5982c35d91308f7a39134cbd744b22dedf",
+        "maximum_cost_error": 6.984919309616089e-10,
+        "maximum_independent_objective_gap": 0.0,
+        "maximum_relative_cost_error": 2.861258162376384e-15,
+        "scope": "Independent likelihood and assignment-objective checks at every production-scale update. The SciPy assignment library was shared. Tied optimal assignments were permitted.",
+        "updates_checked": 1001
+      },
+      "dataset_id": "en:stopword_removal",
+      "distribution": "zipf_iid",
+      "matched": true,
+      "maximum_score_difference": 0.0,
+      "seed": 2
+    },
+    {
+      "cost_audit": {
+        "ambiguous_initial_assignment": true,
+        "cost_and_assignment_sha256": "efeb5a5706f396475b3f7ad8577e2270266aae8d3f317a6cd3c9289a73e19e2d",
+        "maximum_cost_error": 6.984919309616089e-10,
+        "maximum_independent_objective_gap": 0.0,
+        "maximum_relative_cost_error": 2.5693344649918797e-15,
+        "scope": "Independent likelihood and assignment-objective checks at every production-scale update. The SciPy assignment library was shared. Tied optimal assignments were permitted.",
+        "updates_checked": 1001
+      },
+      "dataset_id": "en:stopword_removal",
+      "distribution": "zipf_iid",
+      "matched": true,
+      "maximum_score_difference": 0.0,
+      "seed": 3
+    },
+    {
+      "cost_audit": {
+        "ambiguous_initial_assignment": true,
+        "cost_and_assignment_sha256": "18c6a16eb2768958bcd8fd957d67e33faa62f7ca6fa5bcc03e53a2851fb71de3",
+        "maximum_cost_error": 7.566995918750763e-10,
+        "maximum_independent_objective_gap": 0.0,
+        "maximum_relative_cost_error": 2.765146356820174e-15,
+        "scope": "Independent likelihood and assignment-objective checks at every production-scale update. The SciPy assignment library was shared. Tied optimal assignments were permitted.",
+        "updates_checked": 1001
+      },
+      "dataset_id": "en:stopword_removal",
+      "distribution": "zipf_iid",
+      "matched": true,
+      "maximum_score_difference": 0.0,
+      "seed": 4
+    },
+    {
+      "cost_audit": {
+        "ambiguous_initial_assignment": true,
+        "cost_and_assignment_sha256": "37e730d3ac8d16566d46bf31d352266fd3602942aa2249fd71558f09ae8b16f2",
+        "maximum_cost_error": 6.984919309616089e-10,
+        "maximum_independent_objective_gap": 0.0,
+        "maximum_relative_cost_error": 2.5511708981522273e-15,
+        "scope": "Independent likelihood and assignment-objective checks at every production-scale update. The SciPy assignment library was shared. Tied optimal assignments were permitted.",
+        "updates_checked": 1001
+      },
+      "dataset_id": "en:stopword_removal",
+      "distribution": "zipf_iid",
+      "matched": true,
+      "maximum_score_difference": 0.0,
+      "seed": 5
+    },
+    {
+      "cost_audit": {
+        "ambiguous_initial_assignment": true,
+        "cost_and_assignment_sha256": "eb92fcd948078f7bbb86430921c3f7e71fe9ee74033b29e78e9f693a2960a85d",
+        "maximum_cost_error": 6.984919309616089e-10,
+        "maximum_independent_objective_gap": 0.0,
+        "maximum_relative_cost_error": 2.480270783465621e-15,
+        "scope": "Independent likelihood and assignment-objective checks at every production-scale update. The SciPy assignment library was shared. Tied optimal assignments were permitted.",
+        "updates_checked": 1001
+      },
+      "dataset_id": "en:stopword_removal",
+      "distribution": "zipf_iid",
+      "matched": true,
+      "maximum_score_difference": 0.0,
+      "seed": 6
+    },
+    {
+      "cost_audit": {
+        "ambiguous_initial_assignment": true,
+        "cost_and_assignment_sha256": "432b392993894a4217a2e507a42ea3cf2a98e5573c75848398c6858ad5ef6aeb",
+        "maximum_cost_error": 6.984919309616089e-10,
+        "maximum_independent_objective_gap": 0.0,
+        "maximum_relative_cost_error": 2.4272160593774404e-15,
+        "scope": "Independent likelihood and assignment-objective checks at every production-scale update. The SciPy assignment library was shared. Tied optimal assignments were permitted.",
+        "updates_checked": 1001
+      },
+      "dataset_id": "en:stopword_removal",
+      "distribution": "zipf_iid",
+      "matched": true,
+      "maximum_score_difference": 0.0,
+      "seed": 7
+    },
+    {
+      "cost_audit": {
+        "ambiguous_initial_assignment": true,
+        "cost_and_assignment_sha256": "3ec93386eb98a426bcf7a8b47c947dd7b551d4cfbea40c3491537b8bb594ca35",
+        "maximum_cost_error": 6.984919309616089e-10,
+        "maximum_independent_objective_gap": 0.0,
+        "maximum_relative_cost_error": 2.5358744274728923e-15,
+        "scope": "Independent likelihood and assignment-objective checks at every production-scale update. The SciPy assignment library was shared. Tied optimal assignments were permitted.",
+        "updates_checked": 1001
+      },
+      "dataset_id": "en:stopword_removal",
+      "distribution": "zipf_iid",
+      "matched": true,
+      "maximum_score_difference": 0.0,
+      "seed": 8
+    },
+    {
+      "cost_audit": {
+        "ambiguous_initial_assignment": true,
+        "cost_and_assignment_sha256": "06964f1172cf6214aae6006eae9270ee00404cdb1e75087edd8f8ac8b2786246",
+        "maximum_cost_error": 6.984919309616089e-10,
+        "maximum_independent_objective_gap": 0.0,
+        "maximum_relative_cost_error": 2.412460726269536e-15,
+        "scope": "Independent likelihood and assignment-objective checks at every production-scale update. The SciPy assignment library was shared. Tied optimal assignments were permitted.",
+        "updates_checked": 1001
+      },
+      "dataset_id": "en:stopword_removal",
+      "distribution": "zipf_iid",
+      "matched": true,
+      "maximum_score_difference": 0.0,
+      "seed": 9
+    },
+    {
+      "cost_audit": {
+        "ambiguous_initial_assignment": true,
+        "cost_and_assignment_sha256": "4058b3e1080bfa0cd9926904319682988175decb34f286a3095d057161871c91",
+        "maximum_cost_error": 2.0954757928848267e-09,
+        "maximum_independent_objective_gap": 0.0,
+        "maximum_relative_cost_error": 2.389510119362077e-15,
+        "scope": "Independent likelihood and assignment-objective checks at every production-scale update. The SciPy assignment library was shared. Tied optimal assignments were permitted.",
+        "updates_checked": 1001
+      },
+      "dataset_id": "en:tokenisation_only",
+      "distribution": "uniform_iid",
+      "matched": true,
+      "maximum_score_difference": 0.0,
+      "seed": 0
+    },
+    {
+      "cost_audit": {
+        "ambiguous_initial_assignment": true,
+        "cost_and_assignment_sha256": "295af1221318f973df31074425a38e12e43d4138d11b7a8af6040f13b80d881c",
+        "maximum_cost_error": 1.979060471057892e-09,
+        "maximum_independent_objective_gap": 0.0,
+        "maximum_relative_cost_error": 2.3823796951618186e-15,
+        "scope": "Independent likelihood and assignment-objective checks at every production-scale update. The SciPy assignment library was shared. Tied optimal assignments were permitted.",
+        "updates_checked": 1001
+      },
+      "dataset_id": "en:tokenisation_only",
+      "distribution": "uniform_iid",
+      "matched": true,
+      "maximum_score_difference": 0.0,
+      "seed": 1
+    },
+    {
+      "cost_audit": {
+        "ambiguous_initial_assignment": true,
+        "cost_and_assignment_sha256": "12feb318c03b56c094cfaf40de95e7c1683bc0cf5cef78dccf7748a718f15294",
+        "maximum_cost_error": 2.0954757928848267e-09,
+        "maximum_independent_objective_gap": 0.0,
+        "maximum_relative_cost_error": 2.334854004710621e-15,
+        "scope": "Independent likelihood and assignment-objective checks at every production-scale update. The SciPy assignment library was shared. Tied optimal assignments were permitted.",
+        "updates_checked": 1001
+      },
+      "dataset_id": "en:tokenisation_only",
+      "distribution": "uniform_iid",
+      "matched": true,
+      "maximum_score_difference": 0.0,
+      "seed": 2
+    },
+    {
+      "cost_audit": {
+        "ambiguous_initial_assignment": true,
+        "cost_and_assignment_sha256": "d26188a6667244fc3aeea8b58ec4bca070d53cdf97b513395876095d99e20ce9",
+        "maximum_cost_error": 1.979060471057892e-09,
+        "maximum_independent_objective_gap": 0.0,
+        "maximum_relative_cost_error": 2.2789431457359833e-15,
+        "scope": "Independent likelihood and assignment-objective checks at every production-scale update. The SciPy assignment library was shared. Tied optimal assignments were permitted.",
+        "updates_checked": 1001
+      },
+      "dataset_id": "en:tokenisation_only",
+      "distribution": "uniform_iid",
+      "matched": true,
+      "maximum_score_difference": 0.0,
+      "seed": 3
+    },
+    {
+      "cost_audit": {
+        "ambiguous_initial_assignment": true,
+        "cost_and_assignment_sha256": "d8112c776b01487211f051bff613d2feefc135caf92ef3b331ae190cc1e59257",
+        "maximum_cost_error": 1.862645149230957e-09,
+        "maximum_independent_objective_gap": 5.820766091346741e-11,
+        "maximum_relative_cost_error": 2.3351699620253073e-15,
+        "scope": "Independent likelihood and assignment-objective checks at every production-scale update. The SciPy assignment library was shared. Tied optimal assignments were permitted.",
+        "updates_checked": 1001
+      },
+      "dataset_id": "en:tokenisation_only",
+      "distribution": "uniform_iid",
+      "matched": true,
+      "maximum_score_difference": 0.0,
+      "seed": 4
+    },
+    {
+      "cost_audit": {
+        "ambiguous_initial_assignment": true,
+        "cost_and_assignment_sha256": "57e941fb2b61609f76d24af85e37cb205493719de204828306bc7a2af0ca4f07",
+        "maximum_cost_error": 2.0954757928848267e-09,
+        "maximum_independent_objective_gap": 1.1641532182693481e-10,
+        "maximum_relative_cost_error": 2.3836462092165742e-15,
+        "scope": "Independent likelihood and assignment-objective checks at every production-scale update. The SciPy assignment library was shared. Tied optimal assignments were permitted.",
+        "updates_checked": 1001
+      },
+      "dataset_id": "en:tokenisation_only",
+      "distribution": "uniform_iid",
+      "matched": true,
+      "maximum_score_difference": 0.0,
+      "seed": 5
+    },
+    {
+      "cost_audit": {
+        "ambiguous_initial_assignment": true,
+        "cost_and_assignment_sha256": "df8fcd13d94e8c857192227c900d078d843a64deb4de4fecb92b17369834f631",
+        "maximum_cost_error": 2.0954757928848267e-09,
+        "maximum_independent_objective_gap": 0.0,
+        "maximum_relative_cost_error": 2.3642753113140027e-15,
+        "scope": "Independent likelihood and assignment-objective checks at every production-scale update. The SciPy assignment library was shared. Tied optimal assignments were permitted.",
+        "updates_checked": 1001
+      },
+      "dataset_id": "en:tokenisation_only",
+      "distribution": "uniform_iid",
+      "matched": true,
+      "maximum_score_difference": 0.0,
+      "seed": 6
+    },
+    {
+      "cost_audit": {
+        "ambiguous_initial_assignment": true,
+        "cost_and_assignment_sha256": "a8d9d3a6b86f2885e684b7b96bba8036aa621eafcd44ad57b137d4c927d9a8ba",
+        "maximum_cost_error": 1.862645149230957e-09,
+        "maximum_independent_objective_gap": 5.820766091346741e-11,
+        "maximum_relative_cost_error": 2.4027402022407452e-15,
+        "scope": "Independent likelihood and assignment-objective checks at every production-scale update. The SciPy assignment library was shared. Tied optimal assignments were permitted.",
+        "updates_checked": 1001
+      },
+      "dataset_id": "en:tokenisation_only",
+      "distribution": "uniform_iid",
+      "matched": true,
+      "maximum_score_difference": 0.0,
+      "seed": 7
+    },
+    {
+      "cost_audit": {
+        "ambiguous_initial_assignment": true,
+        "cost_and_assignment_sha256": "fcd14cc73f68673d9798359e0dc03349d8118d22d5c840368fe59ab1f84ddc9c",
+        "maximum_cost_error": 2.0954757928848267e-09,
+        "maximum_independent_objective_gap": 0.0,
+        "maximum_relative_cost_error": 2.62551608402444e-15,
+        "scope": "Independent likelihood and assignment-objective checks at every production-scale update. The SciPy assignment library was shared. Tied optimal assignments were permitted.",
+        "updates_checked": 1001
+      },
+      "dataset_id": "en:tokenisation_only",
+      "distribution": "uniform_iid",
+      "matched": true,
+      "maximum_score_difference": 0.0,
+      "seed": 8
+    },
+    {
+      "cost_audit": {
+        "ambiguous_initial_assignment": true,
+        "cost_and_assignment_sha256": "825efc97580bdc5e5bff2ae509899e486385e60b5392fc3a2f05fc27516c6b84",
+        "maximum_cost_error": 1.979060471057892e-09,
+        "maximum_independent_objective_gap": 5.820766091346741e-11,
+        "maximum_relative_cost_error": 2.2908310338685222e-15,
+        "scope": "Independent likelihood and assignment-objective checks at every production-scale update. The SciPy assignment library was shared. Tied optimal assignments were permitted.",
+        "updates_checked": 1001
+      },
+      "dataset_id": "en:tokenisation_only",
+      "distribution": "uniform_iid",
+      "matched": true,
+      "maximum_score_difference": 0.0,
+      "seed": 9
+    },
+    {
+      "cost_audit": {
+        "ambiguous_initial_assignment": true,
+        "cost_and_assignment_sha256": "6660382029d23068fa613cf0c9ba7bae2c8b6c92f32bdecf66f87aee5d2bbe18",
+        "maximum_cost_error": 2.2118911147117615e-09,
+        "maximum_independent_objective_gap": 1.1641532182693481e-10,
+        "maximum_relative_cost_error": 2.5322054549125715e-15,
+        "scope": "Independent likelihood and assignment-objective checks at every production-scale update. The SciPy assignment library was shared. Tied optimal assignments were permitted.",
+        "updates_checked": 1001
+      },
+      "dataset_id": "en:tokenisation_only",
+      "distribution": "zipf_iid",
+      "matched": true,
+      "maximum_score_difference": 0.0,
+      "seed": 0
+    },
+    {
+      "cost_audit": {
+        "ambiguous_initial_assignment": true,
+        "cost_and_assignment_sha256": "b30e5aa0f5e824629f6bca3b13ca305cba66b8b1e8992ab7420955bded16f9b7",
+        "maximum_cost_error": 2.2118911147117615e-09,
+        "maximum_independent_objective_gap": 5.820766091346741e-11,
+        "maximum_relative_cost_error": 2.5691953075798348e-15,
+        "scope": "Independent likelihood and assignment-objective checks at every production-scale update. The SciPy assignment library was shared. Tied optimal assignments were permitted.",
+        "updates_checked": 1001
+      },
+      "dataset_id": "en:tokenisation_only",
+      "distribution": "zipf_iid",
+      "matched": true,
+      "maximum_score_difference": 0.0,
+      "seed": 1
+    },
+    {
+      "cost_audit": {
+        "ambiguous_initial_assignment": true,
+        "cost_and_assignment_sha256": "dbf4d83e70af51255dab896a28b503b8a837bec3a90c5f42fe00c43d417095a9",
+        "maximum_cost_error": 1.862645149230957e-09,
+        "maximum_independent_objective_gap": 0.0,
+        "maximum_relative_cost_error": 2.2031046870234907e-15,
+        "scope": "Independent likelihood and assignment-objective checks at every production-scale update. The SciPy assignment library was shared. Tied optimal assignments were permitted.",
+        "updates_checked": 1001
+      },
+      "dataset_id": "en:tokenisation_only",
+      "distribution": "zipf_iid",
+      "matched": true,
+      "maximum_score_difference": 0.0,
+      "seed": 2
+    },
+    {
+      "cost_audit": {
+        "ambiguous_initial_assignment": true,
+        "cost_and_assignment_sha256": "8b821a9641a611cb6f69c2690d65713bf88b2de0932636fe9400dd0b425d2a64",
+        "maximum_cost_error": 1.862645149230957e-09,
+        "maximum_independent_objective_gap": 0.0,
+        "maximum_relative_cost_error": 2.450471405203323e-15,
+        "scope": "Independent likelihood and assignment-objective checks at every production-scale update. The SciPy assignment library was shared. Tied optimal assignments were permitted.",
+        "updates_checked": 1001
+      },
+      "dataset_id": "en:tokenisation_only",
+      "distribution": "zipf_iid",
+      "matched": true,
+      "maximum_score_difference": 0.0,
+      "seed": 3
+    },
+    {
+      "cost_audit": {
+        "ambiguous_initial_assignment": true,
+        "cost_and_assignment_sha256": "d5379003873f88077066e0de54547695664f54c9a9daebd64efdb534c82a5478",
+        "maximum_cost_error": 1.862645149230957e-09,
+        "maximum_independent_objective_gap": 0.0,
+        "maximum_relative_cost_error": 2.2476758421622475e-15,
+        "scope": "Independent likelihood and assignment-objective checks at every production-scale update. The SciPy assignment library was shared. Tied optimal assignments were permitted.",
+        "updates_checked": 1001
+      },
+      "dataset_id": "en:tokenisation_only",
+      "distribution": "zipf_iid",
+      "matched": true,
+      "maximum_score_difference": 0.0,
+      "seed": 4
+    },
+    {
+      "cost_audit": {
+        "ambiguous_initial_assignment": true,
+        "cost_and_assignment_sha256": "9bf8bf919a047cf35d7a838d30fa8ca1d96196877ab5bda900a9694c294dc7ea",
+        "maximum_cost_error": 1.979060471057892e-09,
+        "maximum_independent_objective_gap": 5.820766091346741e-11,
+        "maximum_relative_cost_error": 2.3501829651042327e-15,
+        "scope": "Independent likelihood and assignment-objective checks at every production-scale update. The SciPy assignment library was shared. Tied optimal assignments were permitted.",
+        "updates_checked": 1001
+      },
+      "dataset_id": "en:tokenisation_only",
+      "distribution": "zipf_iid",
+      "matched": true,
+      "maximum_score_difference": 0.0,
+      "seed": 5
+    },
+    {
+      "cost_audit": {
+        "ambiguous_initial_assignment": true,
+        "cost_and_assignment_sha256": "cdf49f74a14e3aba5b909a515c4e57a7491f6ac987e984d664ae8c5951ba9289",
+        "maximum_cost_error": 1.979060471057892e-09,
+        "maximum_independent_objective_gap": 0.0,
+        "maximum_relative_cost_error": 2.2801420478723392e-15,
+        "scope": "Independent likelihood and assignment-objective checks at every production-scale update. The SciPy assignment library was shared. Tied optimal assignments were permitted.",
+        "updates_checked": 1001
+      },
+      "dataset_id": "en:tokenisation_only",
+      "distribution": "zipf_iid",
+      "matched": true,
+      "maximum_score_difference": 0.0,
+      "seed": 6
+    },
+    {
+      "cost_audit": {
+        "ambiguous_initial_assignment": true,
+        "cost_and_assignment_sha256": "c869e142ea74e9c662f9c288803473522b48b51e27073fa5aa4220c71b0e659c",
+        "maximum_cost_error": 1.979060471057892e-09,
+        "maximum_independent_objective_gap": 5.820766091346741e-11,
+        "maximum_relative_cost_error": 2.227941099218802e-15,
+        "scope": "Independent likelihood and assignment-objective checks at every production-scale update. The SciPy assignment library was shared. Tied optimal assignments were permitted.",
+        "updates_checked": 1001
+      },
+      "dataset_id": "en:tokenisation_only",
+      "distribution": "zipf_iid",
+      "matched": true,
+      "maximum_score_difference": 0.0,
+      "seed": 7
+    },
+    {
+      "cost_audit": {
+        "ambiguous_initial_assignment": true,
+        "cost_and_assignment_sha256": "bf1037812112120482a3f265a7cac74e4ea1c1ff7d65b2935334f2542ee71ab4",
+        "maximum_cost_error": 1.862645149230957e-09,
+        "maximum_independent_objective_gap": 5.820766091346741e-11,
+        "maximum_relative_cost_error": 2.4236955063524605e-15,
+        "scope": "Independent likelihood and assignment-objective checks at every production-scale update. The SciPy assignment library was shared. Tied optimal assignments were permitted.",
+        "updates_checked": 1001
+      },
+      "dataset_id": "en:tokenisation_only",
+      "distribution": "zipf_iid",
+      "matched": true,
+      "maximum_score_difference": 0.0,
+      "seed": 8
+    },
+    {
+      "cost_audit": {
+        "ambiguous_initial_assignment": true,
+        "cost_and_assignment_sha256": "0066dad04fd1d5f465b304f10de8302e615f28773f1ec055530b4e1b442b2450",
+        "maximum_cost_error": 2.0954757928848267e-09,
+        "maximum_independent_objective_gap": 5.820766091346741e-11,
+        "maximum_relative_cost_error": 2.4310957096742434e-15,
+        "scope": "Independent likelihood and assignment-objective checks at every production-scale update. The SciPy assignment library was shared. Tied optimal assignments were permitted.",
+        "updates_checked": 1001
+      },
+      "dataset_id": "en:tokenisation_only",
+      "distribution": "zipf_iid",
+      "matched": true,
+      "maximum_score_difference": 0.0,
+      "seed": 9
+    },
+    {
+      "cost_audit": {
+        "ambiguous_initial_assignment": true,
+        "cost_and_assignment_sha256": "71b8e0fede7a6d2c339d5b0c5fd581770a914f8851dd014bbcac32914ac0c022",
+        "maximum_cost_error": 1.3969838619232178e-09,
+        "maximum_independent_objective_gap": 5.820766091346741e-11,
+        "maximum_relative_cost_error": 2.4042992853593583e-15,
+        "scope": "Independent likelihood and assignment-objective checks at every production-scale update. The SciPy assignment library was shared. Tied optimal assignments were permitted.",
+        "updates_checked": 1001
+      },
+      "dataset_id": "lus:stemming",
+      "distribution": "uniform_iid",
+      "matched": true,
+      "maximum_score_difference": 0.0,
+      "seed": 0
+    },
+    {
+      "cost_audit": {
+        "ambiguous_initial_assignment": true,
+        "cost_and_assignment_sha256": "0091f86ad3251b9c73a0b8d8b1e7cc304640d4a440a8de3d3e42c4d3821d236f",
+        "maximum_cost_error": 1.3969838619232178e-09,
+        "maximum_independent_objective_gap": 0.0,
+        "maximum_relative_cost_error": 2.3812308647724547e-15,
+        "scope": "Independent likelihood and assignment-objective checks at every production-scale update. The SciPy assignment library was shared. Tied optimal assignments were permitted.",
+        "updates_checked": 1001
+      },
+      "dataset_id": "lus:stemming",
+      "distribution": "uniform_iid",
+      "matched": true,
+      "maximum_score_difference": 0.0,
+      "seed": 1
+    },
+    {
+      "cost_audit": {
+        "ambiguous_initial_assignment": true,
+        "cost_and_assignment_sha256": "6c6eac9de14ba92e5a0c8fbb45be135badb0b6b06bf8dafd410e6cc741e2d6d6",
+        "maximum_cost_error": 1.3969838619232178e-09,
+        "maximum_independent_objective_gap": 1.1641532182693481e-10,
+        "maximum_relative_cost_error": 2.486154928143629e-15,
+        "scope": "Independent likelihood and assignment-objective checks at every production-scale update. The SciPy assignment library was shared. Tied optimal assignments were permitted.",
+        "updates_checked": 1001
+      },
+      "dataset_id": "lus:stemming",
+      "distribution": "uniform_iid",
+      "matched": true,
+      "maximum_score_difference": 0.0,
+      "seed": 2
+    },
+    {
+      "cost_audit": {
+        "ambiguous_initial_assignment": true,
+        "cost_and_assignment_sha256": "3159751bd1b10d6a054c9a4972e87c86ac1f3a87254a8e127c61013cb36e3834",
+        "maximum_cost_error": 1.3969838619232178e-09,
+        "maximum_independent_objective_gap": 5.820766091346741e-11,
+        "maximum_relative_cost_error": 2.465083402468165e-15,
+        "scope": "Independent likelihood and assignment-objective checks at every production-scale update. The SciPy assignment library was shared. Tied optimal assignments were permitted.",
+        "updates_checked": 1001
+      },
+      "dataset_id": "lus:stemming",
+      "distribution": "uniform_iid",
+      "matched": true,
+      "maximum_score_difference": 0.0,
+      "seed": 3
+    },
+    {
+      "cost_audit": {
+        "ambiguous_initial_assignment": true,
+        "cost_and_assignment_sha256": "5efa45b3bdc013f47749af6ba8cc16410dda9aa1af183aa77eb4c15b7237d213",
+        "maximum_cost_error": 1.280568540096283e-09,
+        "maximum_independent_objective_gap": 0.0,
+        "maximum_relative_cost_error": 2.5146788945781825e-15,
+        "scope": "Independent likelihood and assignment-objective checks at every production-scale update. The SciPy assignment library was shared. Tied optimal assignments were permitted.",
+        "updates_checked": 1001
+      },
+      "dataset_id": "lus:stemming",
+      "distribution": "uniform_iid",
+      "matched": true,
+      "maximum_score_difference": 0.0,
+      "seed": 4
+    },
+    {
+      "cost_audit": {
+        "ambiguous_initial_assignment": true,
+        "cost_and_assignment_sha256": "819f20fd56ecad9325af5a09e4bdc2dfe2f854c4edf8855a21953f205bdb7347",
+        "maximum_cost_error": 1.280568540096283e-09,
+        "maximum_independent_objective_gap": 5.820766091346741e-11,
+        "maximum_relative_cost_error": 2.4230878459392187e-15,
+        "scope": "Independent likelihood and assignment-objective checks at every production-scale update. The SciPy assignment library was shared. Tied optimal assignments were permitted.",
+        "updates_checked": 1001
+      },
+      "dataset_id": "lus:stemming",
+      "distribution": "uniform_iid",
+      "matched": true,
+      "maximum_score_difference": 0.0,
+      "seed": 5
+    },
+    {
+      "cost_audit": {
+        "ambiguous_initial_assignment": true,
+        "cost_and_assignment_sha256": "f9e30f32200949000a4bc649dfe3b94196759e91292077259d888dbdf483c042",
+        "maximum_cost_error": 1.3969838619232178e-09,
+        "maximum_independent_objective_gap": 0.0,
+        "maximum_relative_cost_error": 2.5858617505616795e-15,
+        "scope": "Independent likelihood and assignment-objective checks at every production-scale update. The SciPy assignment library was shared. Tied optimal assignments were permitted.",
+        "updates_checked": 1001
+      },
+      "dataset_id": "lus:stemming",
+      "distribution": "uniform_iid",
+      "matched": true,
+      "maximum_score_difference": 0.0,
+      "seed": 6
+    },
+    {
+      "cost_audit": {
+        "ambiguous_initial_assignment": true,
+        "cost_and_assignment_sha256": "6255cf7c0af4a06e8bdeb1762d029d124078622ceff23eae4b84df8332642238",
+        "maximum_cost_error": 1.5133991837501526e-09,
+        "maximum_independent_objective_gap": 5.820766091346741e-11,
+        "maximum_relative_cost_error": 2.6834904185961365e-15,
+        "scope": "Independent likelihood and assignment-objective checks at every production-scale update. The SciPy assignment library was shared. Tied optimal assignments were permitted.",
+        "updates_checked": 1001
+      },
+      "dataset_id": "lus:stemming",
+      "distribution": "uniform_iid",
+      "matched": true,
+      "maximum_score_difference": 0.0,
+      "seed": 7
+    },
+    {
+      "cost_audit": {
+        "ambiguous_initial_assignment": true,
+        "cost_and_assignment_sha256": "070164419d0d1aa5e9fc48e86cfbf29955cfe3a2b23f0100cf093b532e7c2969",
+        "maximum_cost_error": 1.280568540096283e-09,
+        "maximum_independent_objective_gap": 0.0,
+        "maximum_relative_cost_error": 2.63802531130871e-15,
+        "scope": "Independent likelihood and assignment-objective checks at every production-scale update. The SciPy assignment library was shared. Tied optimal assignments were permitted.",
+        "updates_checked": 1001
+      },
+      "dataset_id": "lus:stemming",
+      "distribution": "uniform_iid",
+      "matched": true,
+      "maximum_score_difference": 0.0,
+      "seed": 8
+    },
+    {
+      "cost_audit": {
+        "ambiguous_initial_assignment": true,
+        "cost_and_assignment_sha256": "e664d1ae3dd549b4d7201e7c7c63052792f177b28b7ddd9668e907fb66445c1c",
+        "maximum_cost_error": 1.1641532182693481e-09,
+        "maximum_independent_objective_gap": 5.820766091346741e-11,
+        "maximum_relative_cost_error": 2.5639073889313573e-15,
+        "scope": "Independent likelihood and assignment-objective checks at every production-scale update. The SciPy assignment library was shared. Tied optimal assignments were permitted.",
+        "updates_checked": 1001
+      },
+      "dataset_id": "lus:stemming",
+      "distribution": "uniform_iid",
+      "matched": true,
+      "maximum_score_difference": 0.0,
+      "seed": 9
+    },
+    {
+      "cost_audit": {
+        "ambiguous_initial_assignment": true,
+        "cost_and_assignment_sha256": "a764ea3d8b2af43a071da98dcf1e67c9b18c47fc56d3aa6842d6fbde6b74346e",
+        "maximum_cost_error": 1.1641532182693481e-09,
+        "maximum_independent_objective_gap": 0.0,
+        "maximum_relative_cost_error": 2.5446340000911037e-15,
+        "scope": "Independent likelihood and assignment-objective checks at every production-scale update. The SciPy assignment library was shared. Tied optimal assignments were permitted.",
+        "updates_checked": 1001
+      },
+      "dataset_id": "lus:stemming",
+      "distribution": "zipf_iid",
+      "matched": true,
+      "maximum_score_difference": 0.0,
+      "seed": 0
+    },
+    {
+      "cost_audit": {
+        "ambiguous_initial_assignment": true,
+        "cost_and_assignment_sha256": "733ad219c158d07e13ed1a11b044e8bbedf9735de13ef42a69a63f99e7f5bce7",
+        "maximum_cost_error": 1.280568540096283e-09,
+        "maximum_independent_objective_gap": 0.0,
+        "maximum_relative_cost_error": 2.471031608955987e-15,
+        "scope": "Independent likelihood and assignment-objective checks at every production-scale update. The SciPy assignment library was shared. Tied optimal assignments were permitted.",
+        "updates_checked": 1001
+      },
+      "dataset_id": "lus:stemming",
+      "distribution": "zipf_iid",
+      "matched": true,
+      "maximum_score_difference": 0.0,
+      "seed": 1
+    },
+    {
+      "cost_audit": {
+        "ambiguous_initial_assignment": false,
+        "cost_and_assignment_sha256": "b3b4143e8c2c6c41e40e3f5f410180c30546ea6644e08ebab91a87d00a5995f5",
+        "maximum_cost_error": 1.2223608791828156e-09,
+        "maximum_independent_objective_gap": 0.0,
+        "maximum_relative_cost_error": 2.5800930104869504e-15,
+        "scope": "Independent likelihood and assignment-objective checks at every production-scale update. The SciPy assignment library was shared. Tied optimal assignments were permitted.",
+        "updates_checked": 1001
+      },
+      "dataset_id": "lus:stemming",
+      "distribution": "zipf_iid",
+      "matched": true,
+      "maximum_score_difference": 0.0,
+      "seed": 2
+    },
+    {
+      "cost_audit": {
+        "ambiguous_initial_assignment": true,
+        "cost_and_assignment_sha256": "6325c3fd546255198dd1b221d89038f7c1daa6dc6728eb54cae0c2216c2be3bd",
+        "maximum_cost_error": 1.1641532182693481e-09,
+        "maximum_independent_objective_gap": 0.0,
+        "maximum_relative_cost_error": 2.4065492879503463e-15,
+        "scope": "Independent likelihood and assignment-objective checks at every production-scale update. The SciPy assignment library was shared. Tied optimal assignments were permitted.",
+        "updates_checked": 1001
+      },
+      "dataset_id": "lus:stemming",
+      "distribution": "zipf_iid",
+      "matched": true,
+      "maximum_score_difference": 0.0,
+      "seed": 3
+    },
+    {
+      "cost_audit": {
+        "ambiguous_initial_assignment": true,
+        "cost_and_assignment_sha256": "384e01ff8070109cf72c305c20a5af621be6bc1cb3698b04a4a67bc71fe07b71",
+        "maximum_cost_error": 1.3969838619232178e-09,
+        "maximum_independent_objective_gap": 0.0,
+        "maximum_relative_cost_error": 2.4117763557783917e-15,
+        "scope": "Independent likelihood and assignment-objective checks at every production-scale update. The SciPy assignment library was shared. Tied optimal assignments were permitted.",
+        "updates_checked": 1001
+      },
+      "dataset_id": "lus:stemming",
+      "distribution": "zipf_iid",
+      "matched": true,
+      "maximum_score_difference": 0.0,
+      "seed": 4
+    },
+    {
+      "cost_audit": {
+        "ambiguous_initial_assignment": true,
+        "cost_and_assignment_sha256": "2b8a7a7c50f8b925e3141dbf41886d09875c38ed7afe0bc9a9dd6b82f28aa181",
+        "maximum_cost_error": 1.280568540096283e-09,
+        "maximum_independent_objective_gap": 0.0,
+        "maximum_relative_cost_error": 2.448125456727699e-15,
+        "scope": "Independent likelihood and assignment-objective checks at every production-scale update. The SciPy assignment library was shared. Tied optimal assignments were permitted.",
+        "updates_checked": 1001
+      },
+      "dataset_id": "lus:stemming",
+      "distribution": "zipf_iid",
+      "matched": true,
+      "maximum_score_difference": 0.0,
+      "seed": 5
+    },
+    {
+      "cost_audit": {
+        "ambiguous_initial_assignment": true,
+        "cost_and_assignment_sha256": "f63034fa34a19b013821fa83a450fac045af9ee738540e61600561c3038ff053",
+        "maximum_cost_error": 1.3969838619232178e-09,
+        "maximum_independent_objective_gap": 0.0,
+        "maximum_relative_cost_error": 2.61979214249959e-15,
+        "scope": "Independent likelihood and assignment-objective checks at every production-scale update. The SciPy assignment library was shared. Tied optimal assignments were permitted.",
+        "updates_checked": 1001
+      },
+      "dataset_id": "lus:stemming",
+      "distribution": "zipf_iid",
+      "matched": true,
+      "maximum_score_difference": 0.0,
+      "seed": 6
+    },
+    {
+      "cost_audit": {
+        "ambiguous_initial_assignment": true,
+        "cost_and_assignment_sha256": "6620c2bae48d41d040621b50f478a3f934a2f349c1c389d54cda57e3bea6e7b0",
+        "maximum_cost_error": 1.280568540096283e-09,
+        "maximum_independent_objective_gap": 0.0,
+        "maximum_relative_cost_error": 2.34835614424933e-15,
+        "scope": "Independent likelihood and assignment-objective checks at every production-scale update. The SciPy assignment library was shared. Tied optimal assignments were permitted.",
+        "updates_checked": 1001
+      },
+      "dataset_id": "lus:stemming",
+      "distribution": "zipf_iid",
+      "matched": true,
+      "maximum_score_difference": 0.0,
+      "seed": 7
+    },
+    {
+      "cost_audit": {
+        "ambiguous_initial_assignment": true,
+        "cost_and_assignment_sha256": "4cc1d858aa1e21fa9a2ff113776a929e6cf0133d8466e4434e747e04cf53b6f5",
+        "maximum_cost_error": 1.0477378964424133e-09,
+        "maximum_independent_objective_gap": 0.0,
+        "maximum_relative_cost_error": 2.4752395116478484e-15,
+        "scope": "Independent likelihood and assignment-objective checks at every production-scale update. The SciPy assignment library was shared. Tied optimal assignments were permitted.",
+        "updates_checked": 1001
+      },
+      "dataset_id": "lus:stemming",
+      "distribution": "zipf_iid",
+      "matched": true,
+      "maximum_score_difference": 0.0,
+      "seed": 8
+    },
+    {
+      "cost_audit": {
+        "ambiguous_initial_assignment": true,
+        "cost_and_assignment_sha256": "b2bb5ffa20559ca390df922493b030e9cce6fef1676a6fcfab875b1ba420b371",
+        "maximum_cost_error": 1.3387762010097504e-09,
+        "maximum_independent_objective_gap": 0.0,
+        "maximum_relative_cost_error": 2.434756418225003e-15,
+        "scope": "Independent likelihood and assignment-objective checks at every production-scale update. The SciPy assignment library was shared. Tied optimal assignments were permitted.",
+        "updates_checked": 1001
+      },
+      "dataset_id": "lus:stemming",
+      "distribution": "zipf_iid",
+      "matched": true,
+      "maximum_score_difference": 0.0,
+      "seed": 9
+    },
+    {
+      "cost_audit": {
+        "ambiguous_initial_assignment": true,
+        "cost_and_assignment_sha256": "1aab0459b1641076ff382c52c247d54193b3a4e687327ec1beac3d8e9780c850",
+        "maximum_cost_error": 1.2223608791828156e-09,
+        "maximum_independent_objective_gap": 0.0,
+        "maximum_relative_cost_error": 2.7806437074544578e-15,
+        "scope": "Independent likelihood and assignment-objective checks at every production-scale update. The SciPy assignment library was shared. Tied optimal assignments were permitted.",
+        "updates_checked": 1001
+      },
+      "dataset_id": "lus:stopword_removal",
+      "distribution": "uniform_iid",
+      "matched": true,
+      "maximum_score_difference": 0.0,
+      "seed": 0
+    },
+    {
+      "cost_audit": {
+        "ambiguous_initial_assignment": true,
+        "cost_and_assignment_sha256": "8abbe9f1a82956a3b36ff6e61e2df63e6aad56a78b2391ce7d82db95bfe5aa13",
+        "maximum_cost_error": 1.1059455573558807e-09,
+        "maximum_independent_objective_gap": 0.0,
+        "maximum_relative_cost_error": 2.6676552031907165e-15,
+        "scope": "Independent likelihood and assignment-objective checks at every production-scale update. The SciPy assignment library was shared. Tied optimal assignments were permitted.",
+        "updates_checked": 1001
+      },
+      "dataset_id": "lus:stopword_removal",
+      "distribution": "uniform_iid",
+      "matched": true,
+      "maximum_score_difference": 0.0,
+      "seed": 1
+    },
+    {
+      "cost_audit": {
+        "ambiguous_initial_assignment": true,
+        "cost_and_assignment_sha256": "1d592c3a92e72de8ccd9b0650480cf1a03f2fa43e26eafa0ef25756381357a02",
+        "maximum_cost_error": 1.2223608791828156e-09,
+        "maximum_independent_objective_gap": 0.0,
+        "maximum_relative_cost_error": 2.9971668583865076e-15,
+        "scope": "Independent likelihood and assignment-objective checks at every production-scale update. The SciPy assignment library was shared. Tied optimal assignments were permitted.",
+        "updates_checked": 1001
+      },
+      "dataset_id": "lus:stopword_removal",
+      "distribution": "uniform_iid",
+      "matched": true,
+      "maximum_score_difference": 0.0,
+      "seed": 2
+    },
+    {
+      "cost_audit": {
+        "ambiguous_initial_assignment": true,
+        "cost_and_assignment_sha256": "4ba65d36bda7b1f5b0ee2d72681636c04c9afaaa868ba89b5717c7efa7d3ef58",
+        "maximum_cost_error": 1.1059455573558807e-09,
+        "maximum_independent_objective_gap": 0.0,
+        "maximum_relative_cost_error": 2.476383657970908e-15,
+        "scope": "Independent likelihood and assignment-objective checks at every production-scale update. The SciPy assignment library was shared. Tied optimal assignments were permitted.",
+        "updates_checked": 1001
+      },
+      "dataset_id": "lus:stopword_removal",
+      "distribution": "uniform_iid",
+      "matched": true,
+      "maximum_score_difference": 0.0,
+      "seed": 3
+    },
+    {
+      "cost_audit": {
+        "ambiguous_initial_assignment": true,
+        "cost_and_assignment_sha256": "286b39ffebad76bf82fc7e8d1767d1f87f86bd857c4c8f5c77ea06bee2993ec0",
+        "maximum_cost_error": 1.0477378964424133e-09,
+        "maximum_independent_objective_gap": 0.0,
+        "maximum_relative_cost_error": 2.586225736347652e-15,
+        "scope": "Independent likelihood and assignment-objective checks at every production-scale update. The SciPy assignment library was shared. Tied optimal assignments were permitted.",
+        "updates_checked": 1001
+      },
+      "dataset_id": "lus:stopword_removal",
+      "distribution": "uniform_iid",
+      "matched": true,
+      "maximum_score_difference": 0.0,
+      "seed": 4
+    },
+    {
+      "cost_audit": {
+        "ambiguous_initial_assignment": true,
+        "cost_and_assignment_sha256": "60450ee425790e9740389d51a5584fefa94692bac89fe6cad3d4f7e7eea6f9b3",
+        "maximum_cost_error": 1.1059455573558807e-09,
+        "maximum_independent_objective_gap": 5.820766091346741e-11,
+        "maximum_relative_cost_error": 2.5711075120187248e-15,
+        "scope": "Independent likelihood and assignment-objective checks at every production-scale update. The SciPy assignment library was shared. Tied optimal assignments were permitted.",
+        "updates_checked": 1001
+      },
+      "dataset_id": "lus:stopword_removal",
+      "distribution": "uniform_iid",
+      "matched": true,
+      "maximum_score_difference": 0.0,
+      "seed": 5
+    },
+    {
+      "cost_audit": {
+        "ambiguous_initial_assignment": true,
+        "cost_and_assignment_sha256": "2ceb596d889e9238843dbae667d47b2b6fb81fb150beaca118a5739145e74fac",
+        "maximum_cost_error": 1.1641532182693481e-09,
+        "maximum_independent_objective_gap": 5.820766091346741e-11,
+        "maximum_relative_cost_error": 2.609465646937618e-15,
+        "scope": "Independent likelihood and assignment-objective checks at every production-scale update. The SciPy assignment library was shared. Tied optimal assignments were permitted.",
+        "updates_checked": 1001
+      },
+      "dataset_id": "lus:stopword_removal",
+      "distribution": "uniform_iid",
+      "matched": true,
+      "maximum_score_difference": 0.0,
+      "seed": 6
+    },
+    {
+      "cost_audit": {
+        "ambiguous_initial_assignment": true,
+        "cost_and_assignment_sha256": "48437c1aaf6a8a02efda8db8df3906a4acf55fb552cb2fec854b2db99ef92cd8",
+        "maximum_cost_error": 1.1059455573558807e-09,
+        "maximum_independent_objective_gap": 0.0,
+        "maximum_relative_cost_error": 2.6152415180582607e-15,
+        "scope": "Independent likelihood and assignment-objective checks at every production-scale update. The SciPy assignment library was shared. Tied optimal assignments were permitted.",
+        "updates_checked": 1001
+      },
+      "dataset_id": "lus:stopword_removal",
+      "distribution": "uniform_iid",
+      "matched": true,
+      "maximum_score_difference": 0.0,
+      "seed": 7
+    },
+    {
+      "cost_audit": {
+        "ambiguous_initial_assignment": true,
+        "cost_and_assignment_sha256": "3159b09a06e3bd179b644591cc727cefc0ca301ad53ef5add2995ff23e8aaa98",
+        "maximum_cost_error": 1.0477378964424133e-09,
+        "maximum_independent_objective_gap": 5.820766091346741e-11,
+        "maximum_relative_cost_error": 2.8528633575331355e-15,
+        "scope": "Independent likelihood and assignment-objective checks at every production-scale update. The SciPy assignment library was shared. Tied optimal assignments were permitted.",
+        "updates_checked": 1001
+      },
+      "dataset_id": "lus:stopword_removal",
+      "distribution": "uniform_iid",
+      "matched": true,
+      "maximum_score_difference": 0.0,
+      "seed": 8
+    },
+    {
+      "cost_audit": {
+        "ambiguous_initial_assignment": true,
+        "cost_and_assignment_sha256": "1017883e3c4108db33468ae5e11fa9f6593da0cf30dc402a0aa10d4bdea3ca98",
+        "maximum_cost_error": 1.1059455573558807e-09,
+        "maximum_independent_objective_gap": 0.0,
+        "maximum_relative_cost_error": 2.6073260582219285e-15,
+        "scope": "Independent likelihood and assignment-objective checks at every production-scale update. The SciPy assignment library was shared. Tied optimal assignments were permitted.",
+        "updates_checked": 1001
+      },
+      "dataset_id": "lus:stopword_removal",
+      "distribution": "uniform_iid",
+      "matched": true,
+      "maximum_score_difference": 0.0,
+      "seed": 9
+    },
+    {
+      "cost_audit": {
+        "ambiguous_initial_assignment": true,
+        "cost_and_assignment_sha256": "05610d93a89a8f026c9237dca450f0d29e8a4dfdb96d49d07e8195fb5b736d73",
+        "maximum_cost_error": 1.1059455573558807e-09,
+        "maximum_independent_objective_gap": 0.0,
+        "maximum_relative_cost_error": 2.4610073372852624e-15,
+        "scope": "Independent likelihood and assignment-objective checks at every production-scale update. The SciPy assignment library was shared. Tied optimal assignments were permitted.",
+        "updates_checked": 1001
+      },
+      "dataset_id": "lus:stopword_removal",
+      "distribution": "zipf_iid",
+      "matched": true,
+      "maximum_score_difference": 0.0,
+      "seed": 0
+    },
+    {
+      "cost_audit": {
+        "ambiguous_initial_assignment": true,
+        "cost_and_assignment_sha256": "eb6a8f2423fdb0a52801e83e8d6d5bfd4f2ca1c77abca81055b77c65eb2679b8",
+        "maximum_cost_error": 1.0477378964424133e-09,
+        "maximum_independent_objective_gap": 0.0,
+        "maximum_relative_cost_error": 2.6141212920668125e-15,
+        "scope": "Independent likelihood and assignment-objective checks at every production-scale update. The SciPy assignment library was shared. Tied optimal assignments were permitted.",
+        "updates_checked": 1001
+      },
+      "dataset_id": "lus:stopword_removal",
+      "distribution": "zipf_iid",
+      "matched": true,
+      "maximum_score_difference": 0.0,
+      "seed": 1
+    },
+    {
+      "cost_audit": {
+        "ambiguous_initial_assignment": true,
+        "cost_and_assignment_sha256": "03028cdd7fb997b1016ed14cce7a47d2e965cab682249b159ad7120865f58ea6",
+        "maximum_cost_error": 1.1641532182693481e-09,
+        "maximum_independent_objective_gap": 0.0,
+        "maximum_relative_cost_error": 2.447497822650877e-15,
+        "scope": "Independent likelihood and assignment-objective checks at every production-scale update. The SciPy assignment library was shared. Tied optimal assignments were permitted.",
+        "updates_checked": 1001
+      },
+      "dataset_id": "lus:stopword_removal",
+      "distribution": "zipf_iid",
+      "matched": true,
+      "maximum_score_difference": 0.0,
+      "seed": 2
+    },
+    {
+      "cost_audit": {
+        "ambiguous_initial_assignment": true,
+        "cost_and_assignment_sha256": "21cec22997b194404a09cbe1a649b495a9292e07226e720f70b7b3fb67d69b4e",
+        "maximum_cost_error": 1.0477378964424133e-09,
+        "maximum_independent_objective_gap": 0.0,
+        "maximum_relative_cost_error": 2.386531813080355e-15,
+        "scope": "Independent likelihood and assignment-objective checks at every production-scale update. The SciPy assignment library was shared. Tied optimal assignments were permitted.",
+        "updates_checked": 1001
+      },
+      "dataset_id": "lus:stopword_removal",
+      "distribution": "zipf_iid",
+      "matched": true,
+      "maximum_score_difference": 0.0,
+      "seed": 3
+    },
+    {
+      "cost_audit": {
+        "ambiguous_initial_assignment": true,
+        "cost_and_assignment_sha256": "038f2fd1f1184cbe998175aec8bb076c592f42f34cda8009e87e9bc39bf1dd2e",
+        "maximum_cost_error": 9.89530235528946e-10,
+        "maximum_independent_objective_gap": 0.0,
+        "maximum_relative_cost_error": 2.5762699417842755e-15,
+        "scope": "Independent likelihood and assignment-objective checks at every production-scale update. The SciPy assignment library was shared. Tied optimal assignments were permitted.",
+        "updates_checked": 1001
+      },
+      "dataset_id": "lus:stopword_removal",
+      "distribution": "zipf_iid",
+      "matched": true,
+      "maximum_score_difference": 0.0,
+      "seed": 4
+    },
+    {
+      "cost_audit": {
+        "ambiguous_initial_assignment": true,
+        "cost_and_assignment_sha256": "26fdaab3194066f88929da388ca55b11767d0f8ef91c9968128f0af9b5687bdf",
+        "maximum_cost_error": 1.1059455573558807e-09,
+        "maximum_independent_objective_gap": 5.820766091346741e-11,
+        "maximum_relative_cost_error": 2.481967251598425e-15,
+        "scope": "Independent likelihood and assignment-objective checks at every production-scale update. The SciPy assignment library was shared. Tied optimal assignments were permitted.",
+        "updates_checked": 1001
+      },
+      "dataset_id": "lus:stopword_removal",
+      "distribution": "zipf_iid",
+      "matched": true,
+      "maximum_score_difference": 0.0,
+      "seed": 5
+    },
+    {
+      "cost_audit": {
+        "ambiguous_initial_assignment": true,
+        "cost_and_assignment_sha256": "772f39d64a5e7f8ee1521026603fd93fa463127b5cb4ebe1350bc33d328fa85f",
+        "maximum_cost_error": 1.0477378964424133e-09,
+        "maximum_independent_objective_gap": 0.0,
+        "maximum_relative_cost_error": 2.582797837383471e-15,
+        "scope": "Independent likelihood and assignment-objective checks at every production-scale update. The SciPy assignment library was shared. Tied optimal assignments were permitted.",
+        "updates_checked": 1001
+      },
+      "dataset_id": "lus:stopword_removal",
+      "distribution": "zipf_iid",
+      "matched": true,
+      "maximum_score_difference": 0.0,
+      "seed": 6
+    },
+    {
+      "cost_audit": {
+        "ambiguous_initial_assignment": true,
+        "cost_and_assignment_sha256": "376983e34637fd2f4587cfe4cf65e6bb1df82aa072f0fb10d22eb3472fbdbb12",
+        "maximum_cost_error": 1.0477378964424133e-09,
+        "maximum_independent_objective_gap": 0.0,
+        "maximum_relative_cost_error": 2.6164280380618817e-15,
+        "scope": "Independent likelihood and assignment-objective checks at every production-scale update. The SciPy assignment library was shared. Tied optimal assignments were permitted.",
+        "updates_checked": 1001
+      },
+      "dataset_id": "lus:stopword_removal",
+      "distribution": "zipf_iid",
+      "matched": true,
+      "maximum_score_difference": 0.0,
+      "seed": 7
+    },
+    {
+      "cost_audit": {
+        "ambiguous_initial_assignment": true,
+        "cost_and_assignment_sha256": "329054102589d82910df6bfffc674b9e7b3eb4c0e1fa4466e24bb7d43084df29",
+        "maximum_cost_error": 1.1059455573558807e-09,
+        "maximum_independent_objective_gap": 0.0,
+        "maximum_relative_cost_error": 2.60975728825095e-15,
+        "scope": "Independent likelihood and assignment-objective checks at every production-scale update. The SciPy assignment library was shared. Tied optimal assignments were permitted.",
+        "updates_checked": 1001
+      },
+      "dataset_id": "lus:stopword_removal",
+      "distribution": "zipf_iid",
+      "matched": true,
+      "maximum_score_difference": 0.0,
+      "seed": 8
+    },
+    {
+      "cost_audit": {
+        "ambiguous_initial_assignment": true,
+        "cost_and_assignment_sha256": "6b3c3235b1486a5328d651183bf053b232412fbac442de66d3c6621abad4b9dd",
+        "maximum_cost_error": 9.89530235528946e-10,
+        "maximum_independent_objective_gap": 0.0,
+        "maximum_relative_cost_error": 2.578686765532528e-15,
+        "scope": "Independent likelihood and assignment-objective checks at every production-scale update. The SciPy assignment library was shared. Tied optimal assignments were permitted.",
+        "updates_checked": 1001
+      },
+      "dataset_id": "lus:stopword_removal",
+      "distribution": "zipf_iid",
+      "matched": true,
+      "maximum_score_difference": 0.0,
+      "seed": 9
+    },
+    {
+      "cost_audit": {
+        "ambiguous_initial_assignment": true,
+        "cost_and_assignment_sha256": "c12e3ace964a9f51ef9a4338cc8c617eff6f1b2c4a6c7d4756537c043062f20b",
+        "maximum_cost_error": 2.0954757928848267e-09,
+        "maximum_independent_objective_gap": 0.0,
+        "maximum_relative_cost_error": 2.4252117257048298e-15,
+        "scope": "Independent likelihood and assignment-objective checks at every production-scale update. The SciPy assignment library was shared. Tied optimal assignments were permitted.",
+        "updates_checked": 1001
+      },
+      "dataset_id": "lus:tokenisation_only",
+      "distribution": "uniform_iid",
+      "matched": true,
+      "maximum_score_difference": 0.0,
+      "seed": 0
+    },
+    {
+      "cost_audit": {
+        "ambiguous_initial_assignment": true,
+        "cost_and_assignment_sha256": "6478aae88c7e229e367393126462d26473646dd4fcfac3319dd7dc4a9286fb59",
+        "maximum_cost_error": 2.2118911147117615e-09,
+        "maximum_independent_objective_gap": 0.0,
+        "maximum_relative_cost_error": 2.57114061823606e-15,
+        "scope": "Independent likelihood and assignment-objective checks at every production-scale update. The SciPy assignment library was shared. Tied optimal assignments were permitted.",
+        "updates_checked": 1001
+      },
+      "dataset_id": "lus:tokenisation_only",
+      "distribution": "uniform_iid",
+      "matched": true,
+      "maximum_score_difference": 0.0,
+      "seed": 1
+    },
+    {
+      "cost_audit": {
+        "ambiguous_initial_assignment": true,
+        "cost_and_assignment_sha256": "ab115db2a5da4b951241f78394bc1bde54b9e5f2b2483d40e1211d0427203a83",
+        "maximum_cost_error": 2.0954757928848267e-09,
+        "maximum_independent_objective_gap": 0.0,
+        "maximum_relative_cost_error": 2.3660920749242967e-15,
+        "scope": "Independent likelihood and assignment-objective checks at every production-scale update. The SciPy assignment library was shared. Tied optimal assignments were permitted.",
+        "updates_checked": 1001
+      },
+      "dataset_id": "lus:tokenisation_only",
+      "distribution": "uniform_iid",
+      "matched": true,
+      "maximum_score_difference": 0.0,
+      "seed": 2
+    },
+    {
+      "cost_audit": {
+        "ambiguous_initial_assignment": true,
+        "cost_and_assignment_sha256": "2373d1ef41e14f9ea9f73e755427872a4c4bc8dc9a4cf9dff7a76dd0985f6f10",
+        "maximum_cost_error": 2.0954757928848267e-09,
+        "maximum_independent_objective_gap": 1.1641532182693481e-10,
+        "maximum_relative_cost_error": 2.4464448175756887e-15,
+        "scope": "Independent likelihood and assignment-objective checks at every production-scale update. The SciPy assignment library was shared. Tied optimal assignments were permitted.",
+        "updates_checked": 1001
+      },
+      "dataset_id": "lus:tokenisation_only",
+      "distribution": "uniform_iid",
+      "matched": true,
+      "maximum_score_difference": 0.0,
+      "seed": 3
+    },
+    {
+      "cost_audit": {
+        "ambiguous_initial_assignment": true,
+        "cost_and_assignment_sha256": "c5dcb3038dc867e9267c7f212b64e7edd81c48772dcdcac8dd5e300c82dc6585",
+        "maximum_cost_error": 1.979060471057892e-09,
+        "maximum_independent_objective_gap": 0.0,
+        "maximum_relative_cost_error": 2.3355286432064685e-15,
+        "scope": "Independent likelihood and assignment-objective checks at every production-scale update. The SciPy assignment library was shared. Tied optimal assignments were permitted.",
+        "updates_checked": 1001
+      },
+      "dataset_id": "lus:tokenisation_only",
+      "distribution": "uniform_iid",
+      "matched": true,
+      "maximum_score_difference": 0.0,
+      "seed": 4
+    },
+    {
+      "cost_audit": {
+        "ambiguous_initial_assignment": true,
+        "cost_and_assignment_sha256": "d6020632f63714116bc6153f38ec2f357049b31db1574abe1a2a50622f0ebeef",
+        "maximum_cost_error": 2.0954757928848267e-09,
+        "maximum_independent_objective_gap": 1.1641532182693481e-10,
+        "maximum_relative_cost_error": 2.3416884939855173e-15,
+        "scope": "Independent likelihood and assignment-objective checks at every production-scale update. The SciPy assignment library was shared. Tied optimal assignments were permitted.",
+        "updates_checked": 1001
+      },
+      "dataset_id": "lus:tokenisation_only",
+      "distribution": "uniform_iid",
+      "matched": true,
+      "maximum_score_difference": 0.0,
+      "seed": 5
+    },
+    {
+      "cost_audit": {
+        "ambiguous_initial_assignment": true,
+        "cost_and_assignment_sha256": "43245b91920040e1dccbe78f5f2650d6b74644777363cd01426c7cddb4fed7ed",
+        "maximum_cost_error": 2.2118911147117615e-09,
+        "maximum_independent_objective_gap": 0.0,
+        "maximum_relative_cost_error": 2.5606988099287396e-15,
+        "scope": "Independent likelihood and assignment-objective checks at every production-scale update. The SciPy assignment library was shared. Tied optimal assignments were permitted.",
+        "updates_checked": 1001
+      },
+      "dataset_id": "lus:tokenisation_only",
+      "distribution": "uniform_iid",
+      "matched": true,
+      "maximum_score_difference": 0.0,
+      "seed": 6
+    },
+    {
+      "cost_audit": {
+        "ambiguous_initial_assignment": true,
+        "cost_and_assignment_sha256": "ed0cddf5f3410d373ac975eca97e928d08165b25effb4a984fab988d7061b2a3",
+        "maximum_cost_error": 1.979060471057892e-09,
+        "maximum_independent_objective_gap": 0.0,
+        "maximum_relative_cost_error": 2.4103306920736173e-15,
+        "scope": "Independent likelihood and assignment-objective checks at every production-scale update. The SciPy assignment library was shared. Tied optimal assignments were permitted.",
+        "updates_checked": 1001
+      },
+      "dataset_id": "lus:tokenisation_only",
+      "distribution": "uniform_iid",
+      "matched": true,
+      "maximum_score_difference": 0.0,
+      "seed": 7
+    },
+    {
+      "cost_audit": {
+        "ambiguous_initial_assignment": true,
+        "cost_and_assignment_sha256": "fecb37024063e57f1ae2844a335130ec38bba07ceb2dd760d010e31db3598bb0",
+        "maximum_cost_error": 2.0954757928848267e-09,
+        "maximum_independent_objective_gap": 1.1641532182693481e-10,
+        "maximum_relative_cost_error": 2.5136778659868108e-15,
+        "scope": "Independent likelihood and assignment-objective checks at every production-scale update. The SciPy assignment library was shared. Tied optimal assignments were permitted.",
+        "updates_checked": 1001
+      },
+      "dataset_id": "lus:tokenisation_only",
+      "distribution": "uniform_iid",
+      "matched": true,
+      "maximum_score_difference": 0.0,
+      "seed": 8
+    },
+    {
+      "cost_audit": {
+        "ambiguous_initial_assignment": true,
+        "cost_and_assignment_sha256": "dd5b8db1e819e1154db9aee60b9bc70a5246e3669d52721736659dc6800777c1",
+        "maximum_cost_error": 2.0954757928848267e-09,
+        "maximum_independent_objective_gap": 0.0,
+        "maximum_relative_cost_error": 2.5173386441715425e-15,
+        "scope": "Independent likelihood and assignment-objective checks at every production-scale update. The SciPy assignment library was shared. Tied optimal assignments were permitted.",
+        "updates_checked": 1001
+      },
+      "dataset_id": "lus:tokenisation_only",
+      "distribution": "uniform_iid",
+      "matched": true,
+      "maximum_score_difference": 0.0,
+      "seed": 9
+    },
+    {
+      "cost_audit": {
+        "ambiguous_initial_assignment": true,
+        "cost_and_assignment_sha256": "2425d9abb3c23eeae57013ee00a8bc6d7ac9e68978ee60a19752d90fde43e366",
+        "maximum_cost_error": 1.862645149230957e-09,
+        "maximum_independent_objective_gap": 0.0,
+        "maximum_relative_cost_error": 2.1469562535894374e-15,
+        "scope": "Independent likelihood and assignment-objective checks at every production-scale update. The SciPy assignment library was shared. Tied optimal assignments were permitted.",
+        "updates_checked": 1001
+      },
+      "dataset_id": "lus:tokenisation_only",
+      "distribution": "zipf_iid",
+      "matched": true,
+      "maximum_score_difference": 0.0,
+      "seed": 0
+    },
+    {
+      "cost_audit": {
+        "ambiguous_initial_assignment": true,
+        "cost_and_assignment_sha256": "fbd37c237aa9f4de7658da07c0cb0692f4341bec3cbc72877756713f9634b487",
+        "maximum_cost_error": 1.862645149230957e-09,
+        "maximum_independent_objective_gap": 1.1641532182693481e-10,
+        "maximum_relative_cost_error": 2.130614150665991e-15,
+        "scope": "Independent likelihood and assignment-objective checks at every production-scale update. The SciPy assignment library was shared. Tied optimal assignments were permitted.",
+        "updates_checked": 1001
+      },
+      "dataset_id": "lus:tokenisation_only",
+      "distribution": "zipf_iid",
+      "matched": true,
+      "maximum_score_difference": 0.0,
+      "seed": 1
+    },
+    {
+      "cost_audit": {
+        "ambiguous_initial_assignment": true,
+        "cost_and_assignment_sha256": "403c9dacdec5eb5fc6e7fd2cc021d9c12511903f0278ba5ad947d49ea067f864",
+        "maximum_cost_error": 1.979060471057892e-09,
+        "maximum_independent_objective_gap": 0.0,
+        "maximum_relative_cost_error": 2.26786691557781e-15,
+        "scope": "Independent likelihood and assignment-objective checks at every production-scale update. The SciPy assignment library was shared. Tied optimal assignments were permitted.",
+        "updates_checked": 1001
+      },
+      "dataset_id": "lus:tokenisation_only",
+      "distribution": "zipf_iid",
+      "matched": true,
+      "maximum_score_difference": 0.0,
+      "seed": 2
+    },
+    {
+      "cost_audit": {
+        "ambiguous_initial_assignment": true,
+        "cost_and_assignment_sha256": "46daafa3d571bbc346e0b9cddbfda52a2f31d484da1180bc77e566dde4303b83",
+        "maximum_cost_error": 1.862645149230957e-09,
+        "maximum_independent_objective_gap": 0.0,
+        "maximum_relative_cost_error": 2.199281327896423e-15,
+        "scope": "Independent likelihood and assignment-objective checks at every production-scale update. The SciPy assignment library was shared. Tied optimal assignments were permitted.",
+        "updates_checked": 1001
+      },
+      "dataset_id": "lus:tokenisation_only",
+      "distribution": "zipf_iid",
+      "matched": true,
+      "maximum_score_difference": 0.0,
+      "seed": 3
+    },
+    {
+      "cost_audit": {
+        "ambiguous_initial_assignment": true,
+        "cost_and_assignment_sha256": "5f819fc076d98a593a9c62397604fb4863b13473ae6783d510dafcdd172c5b53",
+        "maximum_cost_error": 1.979060471057892e-09,
+        "maximum_independent_objective_gap": 5.820766091346741e-11,
+        "maximum_relative_cost_error": 2.3405736407604424e-15,
+        "scope": "Independent likelihood and assignment-objective checks at every production-scale update. The SciPy assignment library was shared. Tied optimal assignments were permitted.",
+        "updates_checked": 1001
+      },
+      "dataset_id": "lus:tokenisation_only",
+      "distribution": "zipf_iid",
+      "matched": true,
+      "maximum_score_difference": 0.0,
+      "seed": 4
+    },
+    {
+      "cost_audit": {
+        "ambiguous_initial_assignment": true,
+        "cost_and_assignment_sha256": "b04e14e132d1a20cf2ac2dd86deb9ec5b5de6d7585f43a6df407c6abab43ff2a",
+        "maximum_cost_error": 2.0954757928848267e-09,
+        "maximum_independent_objective_gap": 5.820766091346741e-11,
+        "maximum_relative_cost_error": 2.512937242959903e-15,
+        "scope": "Independent likelihood and assignment-objective checks at every production-scale update. The SciPy assignment library was shared. Tied optimal assignments were permitted.",
+        "updates_checked": 1001
+      },
+      "dataset_id": "lus:tokenisation_only",
+      "distribution": "zipf_iid",
+      "matched": true,
+      "maximum_score_difference": 0.0,
+      "seed": 5
+    },
+    {
+      "cost_audit": {
+        "ambiguous_initial_assignment": true,
+        "cost_and_assignment_sha256": "40e8a5e97a55e6a06f45462d4f12b9c076ef987882bf76aa9dd0f0b3d44e526d",
+        "maximum_cost_error": 1.862645149230957e-09,
+        "maximum_independent_objective_gap": 5.820766091346741e-11,
+        "maximum_relative_cost_error": 2.144281852793267e-15,
+        "scope": "Independent likelihood and assignment-objective checks at every production-scale update. The SciPy assignment library was shared. Tied optimal assignments were permitted.",
+        "updates_checked": 1001
+      },
+      "dataset_id": "lus:tokenisation_only",
+      "distribution": "zipf_iid",
+      "matched": true,
+      "maximum_score_difference": 0.0,
+      "seed": 6
+    },
+    {
+      "cost_audit": {
+        "ambiguous_initial_assignment": true,
+        "cost_and_assignment_sha256": "7c30f130ffccba13973f33133cd7ce999bde0d53ed4786f645557d40ae1e741c",
+        "maximum_cost_error": 1.979060471057892e-09,
+        "maximum_independent_objective_gap": 0.0,
+        "maximum_relative_cost_error": 2.4235061754296926e-15,
+        "scope": "Independent likelihood and assignment-objective checks at every production-scale update. The SciPy assignment library was shared. Tied optimal assignments were permitted.",
+        "updates_checked": 1001
+      },
+      "dataset_id": "lus:tokenisation_only",
+      "distribution": "zipf_iid",
+      "matched": true,
+      "maximum_score_difference": 0.0,
+      "seed": 7
+    },
+    {
+      "cost_audit": {
+        "ambiguous_initial_assignment": true,
+        "cost_and_assignment_sha256": "ed564f0b13ea412df83aa0ee418bdd89d646609d3b9c1697e00121ca92622e18",
+        "maximum_cost_error": 1.862645149230957e-09,
+        "maximum_independent_objective_gap": 0.0,
+        "maximum_relative_cost_error": 2.2453529141436027e-15,
+        "scope": "Independent likelihood and assignment-objective checks at every production-scale update. The SciPy assignment library was shared. Tied optimal assignments were permitted.",
+        "updates_checked": 1001
+      },
+      "dataset_id": "lus:tokenisation_only",
+      "distribution": "zipf_iid",
+      "matched": true,
+      "maximum_score_difference": 0.0,
+      "seed": 8
+    },
+    {
+      "cost_audit": {
+        "ambiguous_initial_assignment": true,
+        "cost_and_assignment_sha256": "134c3dcdcc62640e0f226edf9c939b5391cff3ff32823b9ed39234e9bfd3b916",
+        "maximum_cost_error": 1.862645149230957e-09,
+        "maximum_independent_objective_gap": 0.0,
+        "maximum_relative_cost_error": 2.4771190854876956e-15,
+        "scope": "Independent likelihood and assignment-objective checks at every production-scale update. The SciPy assignment library was shared. Tied optimal assignments were permitted.",
+        "updates_checked": 1001
+      },
+      "dataset_id": "lus:tokenisation_only",
+      "distribution": "zipf_iid",
+      "matched": true,
+      "maximum_score_difference": 0.0,
+      "seed": 9
+    }
+  ],
+  "scope": "Independent likelihood and assignment-objective checks on every original production run. Recovery scores were compared at every original checkpoint. The SciPy assignment library was shared. Independent trajectory identity was not required.",
+  "tolerance": 1e-12
+}

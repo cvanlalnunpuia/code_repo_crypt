@@ -139,11 +139,11 @@ def render(result):
     import matplotlib
     matplotlib.use('Agg')
     import matplotlib.pyplot as plt
-    plt.rcParams.update({'font.size':10, 'ps.fonttype':42, 'pdf.fonttype':42})
+    plt.rcParams.update({'font.family':'Arial', 'font.size':10, 'ps.fonttype':42, 'pdf.fonttype':42})
     left, right = panels(result)
     fig, axes = plt.subplots(2, 1, figsize=(6.3, 6.7))
     fig.subplots_adjust(left=.34, right=.97, bottom=.14, top=.95, hspace=.5)
-    colours = ['#333333', '#2166ac', '#b76519', '#23735c']
+    colours = ['#333333', '#2166ac', '#8C4D10', '#23735c']
     for i, (label, values) in enumerate(left):
         for j, (partition, mean) in enumerate(values):
             axes[0].plot(mean, i+(j-1.5)*.12, marker=['o','s','^','D'][j], color=colours[j], label=partition if i==0 else None, markersize=5)

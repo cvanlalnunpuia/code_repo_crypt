@@ -4,7 +4,7 @@ import json
 import re
 
 from build_manuscript import OUTPUT, ROOT, build
-from springer_template import OFFICIAL, preamble, bibliography
+from springer_template import OFFICIAL, preamble, bibliography, journal_settings
 
 
 def validate():
@@ -58,12 +58,23 @@ def validate():
     abstract_words = len(abstract.split())
     checks['journal_abstract_limit'] = abstract_words < 250
     checks['official_template_preamble'] = tex.startswith(preamble()) and supplement.startswith(preamble())
+    checks['journal_font_settings'] = journal_settings() in tex and journal_settings() in supplement
+    checks['confirmed_declarations'] = all(value in tex for field,value in json.loads((ROOT/'paper/submission-information.json').read_text(encoding='utf-8')).items() if field in ['funding_statement','competing_interests_statement','ethics_statement','author_contributions_statement'] and value)
+    checks['standalone_article'] = 'Supplementary Table' not in tex and 'Online Resource' not in tex
+    checks['essential_control_tables'] = all(r'\label{tab:'+name+'}' in tex for name in ['preprocessing', 'auxiliary', 'source-control', 'candidate-control', 'rules'])
     checks['official_class_unchanged'] = (ROOT/'paper/sn-jnl.cls').read_bytes() == (OFFICIAL/'sn-jnl.cls').read_bytes()
     checks['official_bibliography_style_unchanged'] = (ROOT/'paper/sn-mathphys-num.bst').read_bytes() == (OFFICIAL/'bst/sn-mathphys-num.bst').read_bytes()
     checks['external_figures_present'] = all((OUTPUT/name).read_bytes().startswith(b'%PDF-') for name in ['Fig1.pdf', 'Fig2.pdf'])
     checks['breakable_reference_urls'] = r'\usepackage{xurl}' in tex
     checks['custom_layout_overrides_absent'] = not any(command in tex for command in [r'\usepackage{geometry}', r'\familydefault', r'\captionsetup', r'\setlength{\tabcolsep}', r'\usepackage{helvet}'])
-    checks['template_section_order'] = re.findall(r'\\section\{([^}]+)\}', tex) == ['Introduction', 'Results', 'Methods', 'Discussion']
+    checks['template_section_order'] = re.findall(r'\\section\{([^}]+)\}', tex) == ['Introduction', 'Results', 'Methods', 'Discussion', 'Conclusion']
+    checks['portrait_main_tables'] = r'\begin{sidewaystable}' not in tex
+    checks['review_process_wording_absent'] = not any(term in (tex + supplement).lower()
+        for term in ['post-review', 'reviewer subsequently', 'reviewer clarification'])
+    checks['probability_resolution_recomputed'] = (
+        ledger['facts']['SignFlipMinimum']['value'] == 2 / 2**ledger['facts']['SeedCount']['value'] and
+        ledger['facts']['LanguageHolmFloor']['value'] == ledger['facts']['LanguageFamily']['value'] * ledger['facts']['SignFlipMinimum']['value'])
+    checks['descriptive_partition_scope'] = 'Statistical significance was not tested in those comparisons.' in tex
     stored_bib = (OUTPUT/'sn-bibliography.bib').read_text(encoding='utf-8')
     checks['bibliography_reconstruction'] = stored_bib == bibliography(ledger['references'])
     references = re.findall(r'@misc\{([^,]+),', stored_bib)
@@ -76,9 +87,14 @@ def validate():
     checks['figure_captions_without_final_punctuation'] = all(not text.rstrip().endswith(('.', ':', ';')) for text in re.findall(r'\\caption\{([^}]+)\}', '\n'.join(re.findall(r'\\begin\{figure\}.*?\\end\{figure\}', tex, re.S))))
     if not all(checks.values()):
         raise ValueError(f'Manuscript checks failed {checks}')
+    import hashlib
+    compilation = json.loads((OUTPUT/'compilation-status.json').read_text(encoding='utf-8'))
+    compiled = compilation.get('state') == 'verified' and all(
+        compilation.get('source_hashes', {}).get(name) == hashlib.sha256((ROOT/name).read_bytes()).hexdigest()
+        for name in ['paper/manuscript.tex','paper/supplement.tex'])
     result = {'checks': checks, 'abstract_word_count': abstract_words, 'reference_count': len(references), 'recomputed_fact_count': len(ledger['facts']),
               'source_count': len(ledger['sources']), 'table_row_counts': {key: len(rows) for key, rows in ledger['table_rows'].items()},
-              'native_latex_compilation': 'unverified, compiler runtime unavailable',
+              'native_latex_compilation': 'verified with the installed pdfLaTeX compiler' if compiled else 'Final PDF inspection remains unverified for the current sources',
               'interpretation': 'Numerical and mechanical checks passed. Human scientific review and journal-specific author declarations remain required.'}
     (OUTPUT / 'validation.json').write_text(json.dumps(result, indent=2, sort_keys=True) + '\n', encoding='utf-8')
     return result
